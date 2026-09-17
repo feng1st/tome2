@@ -1,0 +1,35 @@
+# 数据清单：lib/help/general.txt（text，逐条/逐行）
+
+- [ ] `lib/help/general.txt:1` [line] |||||oy
+- [ ] `lib/help/general.txt:2` [line] ~~~~~01|Help
+- [ ] `lib/help/general.txt:3` [line] #####R=== Using the Online Help ===
+- [ ] `lib/help/general.txt:5` [line] This help system has been designed to be read whilst in-game. Printing it off 
+- [ ] `lib/help/general.txt:6` [line] will make it look clumsy and a little difficult to read.
+- [ ] `lib/help/general.txt:8` [line] Any text in orange/yellow colour is likely to be a hyperlink, and pressing 
+- [ ] `lib/help/general.txt:9` [line] <enter> while the link is active (yellow) will take you to the relevant page. 
+- [ ] `lib/help/general.txt:10` [line] Navigate between viewable links by using the left-right keys. Some links also 
+- [ ] `lib/help/general.txt:11` [line] have bracketed letters included in the links. Pressing these letters on your 
+- [ ] `lib/help/general.txt:12` [line] keyboard will activate the link even if it is orange.
+- [ ] `lib/help/general.txt:14` [line] The help files total over 850 kb, so there is a lot of information. They have 
+- [ ] `lib/help/general.txt:15` [line] been designed to be browsed, but you may be looking for specific information, 
+- [ ] `lib/help/general.txt:16` [line] in which case you should try looking at the alphabetical *****index.txt*0[index].
+- [ ] `lib/help/general.txt:18` [line] Here are all the relevant keypresses for navigating the help system.
+- [ ] `lib/help/general.txt:20` [line] #####GKey            | Action
+- [ ] `lib/help/general.txt:21` [line] -------------------------------------------------------------------
+- [ ] `lib/help/general.txt:22` [line] Escape         | Leave the Online Help
+- [ ] `lib/help/general.txt:23` [line] Backspace      | Return to previous Help File
+- [ ] `lib/help/general.txt:24` [line] Space          | Advance 1 page (screen)
+- [ ] `lib/help/general.txt:25` [line] 2, down arrow  | Advance 1 line
+- [ ] `lib/help/general.txt:26` [line] 8, up arrow    | Back up 1 line
+- [ ] `lib/help/general.txt:27` [line] -              | Back up 1 page (screen)
+- [ ] `lib/help/general.txt:28` [line] 6, right arrow | Advance 1 link
+- [ ] `lib/help/general.txt:29` [line] 4, left arrow  | Back up 1 link
+- [ ] `lib/help/general.txt:30` [line] Return         | Activate the selected link
+- [ ] `lib/help/general.txt:31` [line] #              | Go to a specific line (defaults to line 0)
+- [ ] `lib/help/general.txt:32` [line] %              | Go to a specific help file (defaults to help.hlp)
+- [ ] `lib/help/general.txt:33` [line] =              | Highlight lines containing a string (e.g. "word")
+- [ ] `lib/help/general.txt:34` [line] /              | Search for a string (e.g. "word")
+- [ ] `lib/help/general.txt:35` [line] -------------------------------------------------------------------
+- [ ] `lib/help/general.txt:37` [line] There are other sources for help playing ToME. Try http://forum.t-o-m-e.net
+- [ ] `lib/help/general.txt:38` [line] and http://wiki.t-o-m-e.net . We also have an IRC channel #tome on the
+- [ ] `lib/help/general.txt:39` [line] worldirc and freenode networks (they are linked) which is fairly low traffic.

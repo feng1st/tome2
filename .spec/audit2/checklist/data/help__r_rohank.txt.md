@@ -1,0 +1,32 @@
+# 数据清单：lib/help/r_rohank.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_rohank.txt:1` [line] ~~~~~01|RohanKnight
+- [ ] `lib/help/r_rohank.txt:2` [line] ~~~~~02|Races|RohanKnight
+- [ ] `lib/help/r_rohank.txt:3` [line] #####R=== RohanKnights ===
+- [ ] `lib/help/r_rohank.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_rohank.txt:6` [line] Knights of the Riddermark, these warriors are mounted upon swift steeds. 
+- [ ] `lib/help/r_rohank.txt:7` [line] Thus they receive a bonus to speed from the beginning and gain in speed 
+- [ ] `lib/help/r_rohank.txt:8` [line] as they become more experienced in riding. Wise through their prolonged 
+- [ ] `lib/help/r_rohank.txt:9` [line] contact with the Dunedain, their wrath may be seen in auras of war that 
+- [ ] `lib/help/r_rohank.txt:10` [line] drive their foes to confusion, and in a ray of light when jumping at light
+- [ ] `lib/help/r_rohank.txt:11` [line] speed.
+- [ ] `lib/help/r_rohank.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/r_rohank.txt:14` [line] Strength        +4   
+- [ ] `lib/help/r_rohank.txt:15` [line] Intelligence    -2   
+- [ ] `lib/help/r_rohank.txt:16` [line] Wisdom          +3   
+- [ ] `lib/help/r_rohank.txt:17` [line] Dexterity       +1   
+- [ ] `lib/help/r_rohank.txt:18` [line] Constitution    +4   
+- [ ] `lib/help/r_rohank.txt:19` [line] Charisma        +2       
+- [ ] `lib/help/r_rohank.txt:20` [line] Hit Dice Sides  10         
+- [ ] `lib/help/r_rohank.txt:21` [line] Exp Penalty     +120%
+- [ ] `lib/help/r_rohank.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_rohank.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_rohank.txt:25` [line] Combat                  
+- [ ] `lib/help/r_rohank.txt:26` [line]   Weaponmastery         0.100           [0.200]
+- [ ] `lib/help/r_rohank.txt:27` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/r_rohank.txt:28` [line] Sneakiness              0.100           [0.000]
+- [ ] `lib/help/r_rohank.txt:29` [line]   Stealth              -8.000           [0.000]
+- [ ] `lib/help/r_rohank.txt:30` [line]   Disarming             1.000           [0.000]
+- [ ] `lib/help/r_rohank.txt:31` [line] Magic                   
+- [ ] `lib/help/r_rohank.txt:32` [line]   Magic-Device          0.500           [0.000]
+- [ ] `lib/help/r_rohank.txt:33` [line] Spirituality            2.500           [0.000]

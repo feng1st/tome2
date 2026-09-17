@@ -1,0 +1,88 @@
+# 数据清单：lib/edit/s_ship.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/s_ship.map:26` [feat] F:<:6:0
+- [ ] `lib/edit/s_ship.map:29` [feat] F:>:7:0
+- [ ] `lib/edit/s_ship.map:32` [feat] F:X:61:4
+- [ ] `lib/edit/s_ship.map:35` [feat] F:#:215:4
+- [ ] `lib/edit/s_ship.map:38` [feat] F:M:95:4
+- [ ] `lib/edit/s_ship.map:41` [feat] F: :187:4
+- [ ] `lib/edit/s_ship.map:44` [feat] F:*:210:4
+- [ ] `lib/edit/s_ship.map:47` [feat] F:~:84:4
+- [ ] `lib/edit/s_ship.map:50` [feat] F:.:90:4
+- [ ] `lib/edit/s_ship.map:53` [feat] F:+:48:0
+- [ ] `lib/edit/s_ship.map:56` [feat] F:=:32:0
+- [ ] `lib/edit/s_ship.map:59` [feat] F:,:93:4
+- [ ] `lib/edit/s_ship.map:62` [feat] F:I:189:4
+- [ ] `lib/edit/s_ship.map:68` [feat] F:L:187:0:782
+- [ ] `lib/edit/s_ship.map:71` [feat] F:K:187:0:775
+- [ ] `lib/edit/s_ship.map:74` [feat] F:k:187:0:740
+- [ ] `lib/edit/s_ship.map:77` [feat] F:s:187:0:482
+- [ ] `lib/edit/s_ship.map:80` [feat] F:w:187:0:917
+- [ ] `lib/edit/s_ship.map:83` [feat] F:G:84:0:895
+- [ ] `lib/edit/s_ship.map:86` [feat] F:D:90:0:617
+- [ ] `lib/edit/s_ship.map:89` [feat] F:d:90:0:549
+- [ ] `lib/edit/s_ship.map:92` [feat] F:T:90:0:454
+- [ ] `lib/edit/s_ship.map:95` [feat] F:H:90:0:533
+- [ ] `lib/edit/s_ship.map:98` [feat] F:g:90:0:665
+- [ ] `lib/edit/s_ship.map:101` [feat] F:b:90:0:460
+- [ ] `lib/edit/s_ship.map:104` [feat] F:z:90:0:229
+- [ ] `lib/edit/s_ship.map:107` [feat] F:m:90:0:522
+- [ ] `lib/edit/s_ship.map:110` [feat] F:Z:90:0:308
+- [ ] `lib/edit/s_ship.map:113` [feat] F:F:90:0:250
+- [ ] `lib/edit/s_ship.map:116` [feat] F:E:90:0:570
+- [ ] `lib/edit/s_ship.map:119` [feat] F:Y:90:0:154
+- [ ] `lib/edit/s_ship.map:122` [feat] F:i:90:0:379
+- [ ] `lib/edit/s_ship.map:125` [feat] F:h:90:0:228
+- [ ] `lib/edit/s_ship.map:128` [feat] F:W:90:0:477
+- [ ] `lib/edit/s_ship.map:131` [feat] F:S:90:0:748
+- [ ] `lib/edit/s_ship.map:134` [feat] F:J:90:0:749
+- [ ] `lib/edit/s_ship.map:137` [feat] F:o:90:0:534
+- [ ] `lib/edit/s_ship.map:140` [feat] F:O:90:0:690
+- [ ] `lib/edit/s_ship.map:143` [feat] F:q:90:0:622
+- [ ] `lib/edit/s_ship.map:146` [feat] F:&:90:0:*40
+- [ ] `lib/edit/s_ship.map:150` [feat] F:8:90:0:*44:*42
+- [ ] `lib/edit/s_ship.map:153` [feat] F:$:90:0:0:*47
+- [ ] `lib/edit/s_ship.map:156` [feat] F:%:90:0:0:*60
+- [ ] `lib/edit/s_ship.map:159` [feat] F:x:90:0:0:395
+- [ ] `lib/edit/s_ship.map:165` [feat] F:3:160:6:0:0:0:0:1136
+- [ ] `lib/edit/s_ship.map:168` [feat] F:A:160:6:0:0:0:0:6761
+- [ ] `lib/edit/s_ship.map:171` [feat] F:4:160:6:0:0:0:0:3853
+- [ ] `lib/edit/s_ship.map:174` [feat] F:B:160:6:0:0:0:0:3599
+- [ ] `lib/edit/s_ship.map:180` [feat] F:!:90:0:0:0:0:213
+- [ ] `lib/edit/s_ship.map:185` [row] D:XXXXXXXXXXXXXXXX                  XXXXXXXXXXXX                                              XXXXXXX    XXXXXXXXXXXXXXX      XXXX 
+- [ ] `lib/edit/s_ship.map:186` [row] D:X###############..~  .#. k    w ~.#XX######### .~~     s                                 G..#####..  w  .###.######X##~~ .GX.### 
+- [ ] `lib/edit/s_ship.map:187` [row] D:X####%####...~      ~.~      s .#.X#~~.#####  .~                             s       w G..#.##.#.XGG~XXk~.####A####.~X   ~~.X... 
+- [ ] `lib/edit/s_ship.map:188` [row] D:X##%#$#######...~ w       wXXXXXX#XXXX###XXX #~XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..XX....~.XX  X#xX.#..#.#G. w ~X G~~ 
+- [ ] `lib/edit/s_ship.map:189` [row] D:X##$#########....     s   XXXTT....~.~#####w~###~~~~8....**.~E.&E ...M..xx.....x..ZZ...XTTTT M...GG.~..  w G.###~XX~~#XX .  s X  
+- [ ] `lib/edit/s_ship.map:190` [row] D:X#########...~   w      XXXTTTT....x~.H####  ###~~D....8**.~M~.E..M..MM...xh.h...ZZZZ.~M.,.,.,.~~ .G...~~  ~###.   w  . w  M.d.  
+- [ ] `lib/edit/s_ship.map:191` [row] D:X#####.x.x~~~         XXXTTTXXXMxx.H.####### ~##~~~8...#.**.~~E&EE..~%M..h.x.E.xh.ZZ...X.,......~ ...G.~  s ~#  XX ~~    w   X   
+- [ ] `lib/edit/s_ship.map:192` [row] D:X######...~~  MM~  w XXX..XXX.MMMxx...G#####w  ~#~.~..&...**E.ME~....MM.~..i.....ZZZZ.~M.,.,,.gM.~.,~.,G.G~~ G~.  G~.MM XX..~    
+- [ ] `lib/edit/s_ship.map:193` [row] D:X##.....~~        XXX.E=.XX$b.MMMMxH..HG#.##  w ~#~##~8....*E~.&EM...M.h..i..x.x..ZZ...XTTTTX.,.,~........~.G~~..w . G~...G~X    
+- [ ] `lib/edit/s_ship.map:194` [row] D:X...~~~    K    XXX..EXXXX$$$..MMXXXXXXX####   #####XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX..,.X..M~.........~G..G ~~.G...G~    
+- [ ] `lib/edit/s_ship.map:195` [row] D: ~~~   w      XXX..EXXXdX%d$$b$$XXd~~~~#####  s   ###.,.W.**,.x.,.,.,.,.,.***,,....,x....,,.SX.,.,.,..,o.,.,.~~.G..~.G..G..~X k  
+- [ ] `lib/edit/s_ship.map:196` [row] D: w  MMM.  w XXX.E.XXX.,*XDDd$$$XXd$..~~~~####    ###.,.,.,.**..,.,i.,.,W,.,**..z.,.,.q...g.,......~.,.,.,.,.~.~..F.~M~......~    
+- [ ] `lib/edit/s_ship.map:197` [row] D:    MM.   XXX4EEXXXi.**.XX%%$dXX$d$.H#####~G~~####.~.,~..,.h*,,~,.,.,.,~,.,.,.H.,.~.,..~,.,,,.~,.,.~.,.,.X.~,g.~~..~.~..,..,X    
+- [ ] `lib/edit/s_ship.map:198` [row] D:   s    XXXBXXXXX..**.W.,XDD%XXb$$b####..G~~~G###~.,,.,.,.,...,,.x,.~.,.,~..,.~.,.,~,.,.,,.,.,~,.,.,.~,.,..,X.,.***.~***,W.,X    
+- [ ] `lib/edit/s_ship.map:199` [row] D:      XXX.o..X.g***i.*.,.XX%XX######....~      ##~~~.....~......~.....~.......~......~....~..~~...~~....~.~Xo..x************X    
+- [ ] `lib/edit/s_ship.map:200` [row] D: k  XXX.E..o.XX8.****,.g..XXX..#........~~~~~~~~###~~.,.G~.......XXXXX..~,..,,..,,.~.,..,.,..,,..,.,x..,.ooX******W***g.*.g*X    
+- [ ] `lib/edit/s_ship.map:201` [row] D:  XXX%S..E..ooX,*****,..,.X.....h........XXX~~~~~#~~   w ~~G~...XXXXXXX.,**.,..D.**.G.,~,..XXX...~~~.....o8X***.~.,.****$$..X    
+- [ ] `lib/edit/s_ship.map:202` [row] D: XX%%%.mm.E..oXH**...*i.....#.....i..*..XXXXX~~            G~~.XXXXXXXXX~.*..,.,*..~,..,.,XXXXX...~..,.XXXXXo.W.$$.g.x....o.X    
+- [ ] `lib/edit/s_ship.map:203` [row] D:  XXX%S..E..ooX8.*~~...,~~##...,..,.***,.XXX~G~     k       ~~~~XXXXXXX.,.*. g...*..x..W.~.XXX.***.,,o..oO8X.o.,.o.xx$$$XXXXX    
+- [ ] `lib/edit/s_ship.map:204` [row] D:    XXX.E..o.XXH.###....###~~~.,h..,.*.,..~~.~~           s   ~~.XXXXX.~..**...i~**.....~.,,.,,.***~,,,.oXXXXXXXXXXXXXXXX.!.X    
+- [ ] `lib/edit/s_ship.map:205` [row] D: s    XXX.o..X&..w~##..##~~~X~..........~.~~~.~~   w   ~~.~~~~..~~.....~~~....~~~**....~~~.....~~~*..~~XXXW ...M*.~.oo......X  s 
+- [ ] `lib/edit/s_ship.map:206` [row] D:   ~~~  XXX>XXH~G..#####~G~~G~..,.,..,.,xx..x ~~~     i~~xx.~...x....~.~..~..,~..***..~..~...,~.~*.~.XXXE...H..SM.~..oo....JX    
+- [ ] `lib/edit/s_ship.map:207` [row] D: ~~....~~ XXX$8w~..####G~G ~i.XX.,,.,...........G~~~s~~ iiF~...........~.......x.,.**~....,~....~.*XXX.EE.W....M*.~...o.O...X    
+- [ ] `lib/edit/s_ship.map:208` [row] D: ~.#..#..~~ XXX8##~..##~#.G.~..XX..,H...,.W...,...,~~...,...*,,.x...,.i.....g.....**.........XXXXXXX...EE...H..SM.~..oo....JX    
+- [ ] `lib/edit/s_ship.map:209` [row] D: ~.##.##..~   XXX###GG~~~*h~....XX.....,....,.W...,.G....W.***...,...,...,....,...,**..q....SX3~~~W#...EE.W....M*.~.oo.....XX    
+- [ ] `lib/edit/s_ship.map:210` [row] D: ~~.###..~~     X##.##~~G.~~~~i*.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX~~   
+- [ ] `lib/edit/s_ship.map:211` [row] D: ~~...###.~  k  ~###X.G~~*Gh~x*~....i.zX8~i.~..h....zzzXiX...$.T.~$......F.~..XX...TTT*..M..Y......Y..*....~....X.x..x~.<XX~.    
+- [ ] `lib/edit/s_ship.map:212` [row] D: ~.....####.....#####XXXx**~i~.z..z.i~,#**~..h..Gzh.zzX*.*Xd*~.~...*~.~.......X..T..T***TXMM.........***...x*...+..~....XX..~    
+- [ ] `lib/edit/s_ship.map:213` [row] D:    ~~.#$%#########....XXX~h~i.HH...h,i.X*.H..h..G..WX*.E..X**8..Y.~*8...Y....+XXXXXXXXXXXMF...~......*..x.***..X..x..~XX...~~w  
+- [ ] `lib/edit/s_ship.map:214` [row] D:   ~~.#$$######.~   ~w  XXX$~.x..~G...,i.,.~.h..~~..zzX*.*Xd*......F**..~.....XbM...~ZZZZXMM..*.....~.......*.XXXXXXXIXX.~~#~w   
+- [ ] `lib/edit/s_ship.map:215` [row] D: L  ~~xx########.~~       XXX$$.G#GX#.i,,.ih..W.zG.zzzXiX.$.~88.~...**F..T...~XX~~...ZZZZM~..***~~.Y~...#...xXI&X8&..XX ~~~## w  
+- [ ] `lib/edit/s_ship.map:216` [row] D:     ~.########..~~        XXXXX~#X~X#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   ~###~w  
+- [ ] `lib/edit/s_ship.map:217` [row] D:  ~~.#########..~ w    K   w     ~#####    w  ~.M.~                    ~..####.~  s~~~~.~~              s  K            ~##..~   
+- [ ] `lib/edit/s_ship.map:218` [row] D:  ~..#########.~                  ~#####      ~...~             k     ~..###.~    ~~####~~~          w            w    ~###..~   
+- [ ] `lib/edit/s_ship.map:219` [row] D:   XXXXXXXXXXXX                    XXXXXX                              XXXXXX      XXXXXXXXX                           XXXXXX    
+- [ ] `lib/edit/s_ship.map:221` [raw]  
+- [ ] `lib/edit/s_ship.map:223` [raw] P:28:122

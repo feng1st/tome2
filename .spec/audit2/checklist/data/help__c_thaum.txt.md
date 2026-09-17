@@ -1,0 +1,74 @@
+# 数据清单：lib/help/c_thaum.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_thaum.txt:1` [line] ~~~~~01|Thaumaturgist
+- [ ] `lib/help/c_thaum.txt:2` [line] ~~~~~02|Classes|Thaumaturgy
+- [ ] `lib/help/c_thaum.txt:3` [line] #####R=== Thaumaturgists ===
+- [ ] `lib/help/c_thaum.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_thaum.txt:6` [line] A Thaumaturgist is a Mage that prefers chaos to order. As such, they tend to 
+- [ ] `lib/help/c_thaum.txt:7` [line] learn random spells, and since attacking something creates more chaos than 
+- [ ] `lib/help/c_thaum.txt:8` [line] anything else, every spell they learn is an attack spell. They have no need 
+- [ ] `lib/help/c_thaum.txt:9` [line] for spell-books, as they harness the spells from within themselves. However, 
+- [ ] `lib/help/c_thaum.txt:10` [line] they also have no ability to improve the power of a particular spell - once 
+- [ ] `lib/help/c_thaum.txt:11` [line] learnt it will remain at the same strength for ever. Likewise, they also have
+- [ ] `lib/help/c_thaum.txt:12` [line] no ability to control what they learn, and some of their spells will cause 
+- [ ] `lib/help/c_thaum.txt:13` [line] them damage (like darkness spells blinding them if they do not resist 
+- [ ] `lib/help/c_thaum.txt:14` [line] darkness).
+- [ ] `lib/help/c_thaum.txt:16` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_thaum.txt:17` [line] Strength         -5
+- [ ] `lib/help/c_thaum.txt:18` [line] Intelligence     +3
+- [ ] `lib/help/c_thaum.txt:19` [line] Wisdom           +0
+- [ ] `lib/help/c_thaum.txt:20` [line] Dexterity        +1
+- [ ] `lib/help/c_thaum.txt:21` [line] Constitution     -2
+- [ ] `lib/help/c_thaum.txt:22` [line] Charisma         +1
+- [ ] `lib/help/c_thaum.txt:23` [line] Hit Die          +d0
+- [ ] `lib/help/c_thaum.txt:24` [line] Spell Points    +50%
+- [ ] `lib/help/c_thaum.txt:25` [line] Exp Penalty      30%
+- [ ] `lib/help/c_thaum.txt:27` [line] #####GStarting Skills:
+- [ ] `lib/help/c_thaum.txt:28` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_thaum.txt:29` [line] Combat                  1.000           [0.200]
+- [ ] `lib/help/c_thaum.txt:30` [line]   Weaponmastery         0.700           [0.400]
+- [ ] `lib/help/c_thaum.txt:31` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_thaum.txt:32` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_thaum.txt:33` [line] Magic                   3.000           [0.950]
+- [ ] `lib/help/c_thaum.txt:34` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_thaum.txt:35` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_thaum.txt:36` [line]   Mana                  0.000           [0.600]
+- [ ] `lib/help/c_thaum.txt:37` [line]   Geomancy
+- [ ] `lib/help/c_thaum.txt:38` [line]     Fire                0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:39` [line]     Water               0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:40` [line]     Air                 0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:41` [line]     Earth               0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:42` [line]   Meta                  0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:43` [line]   Conveyance            0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:44` [line]   Divination            0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:45` [line]   Temporal              0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:46` [line]   Mind                  0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:47` [line]   Nature                0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:48` [line]   Necromancy            0.000           [0.700]
+- [ ] `lib/help/c_thaum.txt:49` [line]   Thaumaturgy           1.000           [1.000]
+- [ ] `lib/help/c_thaum.txt:50` [line] Spirituality            1.000           [0.550]
+- [ ] `lib/help/c_thaum.txt:51` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_thaum.txt:52` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_thaum.txt:54` [line] *A Thaumaturgist cannot learn the Geomancy skill, but it is shown in his skill 
+- [ ] `lib/help/c_thaum.txt:55` [line] screen because the elemental schools are sub-skills of it.
+- [ ] `lib/help/c_thaum.txt:57` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_thaum.txt:58` [line] #####BAbility              Character level
+- [ ] `lib/help/c_thaum.txt:59` [line] Perfect casting             1
+- [ ] `lib/help/c_thaum.txt:61` [line] #####GStarting Equipment
+- [ ] `lib/help/c_thaum.txt:62` [line] A Thaumaturgist begins the game with:
+- [ ] `lib/help/c_thaum.txt:63` [line]     a Book of Beginner Cantrips
+- [ ] `lib/help/c_thaum.txt:64` [line]     a Dagger
+- [ ] `lib/help/c_thaum.txt:67` [line] #####GThaumaturgy
+- [ ] `lib/help/c_thaum.txt:68` [line] Thaumaturgists can wreak an amazing amount of destruction, and they don't 
+- [ ] `lib/help/c_thaum.txt:69` [line] even need spellbooks to do it. As they gain skill they memorise new,
+- [ ] `lib/help/c_thaum.txt:70` [line] randomly generated attack spells. Note that they possess no guaranteed
+- [ ] `lib/help/c_thaum.txt:71` [line] utility or alteration magics, and can never alter themselves.
+- [ ] `lib/help/c_thaum.txt:72` [line] [[[[[BThaumaturgists just kill.]
+- [ ] `lib/help/c_thaum.txt:74` [line] They use their magics through the 'm' key. They then select a general 
+- [ ] `lib/help/c_thaum.txt:75` [line] group of spells, followed by a specific spell. Thaumaturgists can learn 
+- [ ] `lib/help/c_thaum.txt:76` [line] more about a specific spell by browsing it; this is very useful for 
+- [ ] `lib/help/c_thaum.txt:77` [line] choosing the perfect spell for the occasion.
+- [ ] `lib/help/c_thaum.txt:79` [line] Thaumaturgy spells can take the form of a bolt, a beam, a ball (either
+- [ ] `lib/help/c_thaum.txt:80` [line] centred on the caster or targetable), an area (multiple balls in the
+- [ ] `lib/help/c_thaum.txt:81` [line] vicinity of the caster), or a spell that affects all monsters in line of sight.
+- [ ] `lib/help/c_thaum.txt:83` [line] You can find a little more information here: *****m_thaum.txt*0[Thaumaturgy].

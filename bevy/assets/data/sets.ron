@@ -1,0 +1,7 @@
+[
+    (id:0, name:"Elven Gifts", desc:"It is from a group of Elven items once entrusted to Hobbits", members:[(artifact:1, tiers:[(pval:0, flags:[]), (pval:1, flags:["CHR", "RES_DARK", "WIS"])]), (artifact:88, tiers:[(pval:0, flags:[]), (pval:2, flags:["REGEN", "STEALTH"])])]),
+    (id:1, name:"Dragon Slayer", desc:"It is from a group of items rumoured to be the bane of dragons.", members:[(artifact:125, tiers:[(pval:0, flags:[]), (pval:3, flags:["CON", "DEX", "RES_FIRE"])]), (artifact:63, tiers:[(pval:0, flags:[]), (pval:5, flags:["SPEED"])])]),
+    (id:2, name:"The Trinity", desc:"It is one of the 3 legendary daggers.", members:[(artifact:66, tiers:[(pval:0, flags:[]), (pval:2, flags:["STR"]), (pval:1, flags:["KILL_DRAGON", "REGEN", "SH_FIRE"])]), (artifact:67, tiers:[(pval:0, flags:[]), (pval:2, flags:["CON"]), (pval:1, flags:["IM_COLD", "KILL_DEMON"])]), (artifact:68, tiers:[(pval:0, flags:[]), (pval:2, flags:["DEX"]), (pval:1, flags:["FLY", "KILL_UNDEAD", "SH_ELEC"])])]),
+    (id:3, name:"Gothmog's Armoury", desc:"It is from a group of items that once belonged to Gothmog, 
+the High Captain of the Balrogs", members:[(artifact:181, tiers:[(pval:0, flags:[]), (pval:0, flags:[]), (pval:7, flags:["CON", "SPEED", "STR", "VAMPIRIC"])]), (artifact:182, tiers:[(pval:0, flags:[]), (pval:0, flags:[]), (pval:0, flags:["IM_COLD", "IM_FIRE", "SH_ELEC"])]), (artifact:183, tiers:[(pval:0, flags:[]), (pval:0, flags:[]), (pval:0, flags:["ESP_EVIL", "ESP_GOOD"])])]),
+]

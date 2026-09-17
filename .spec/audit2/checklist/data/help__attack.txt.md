@@ -1,0 +1,138 @@
+# 数据清单：lib/help/attack.txt（text，逐条/逐行）
+
+- [ ] `lib/help/attack.txt:1` [line] |||||oy
+- [ ] `lib/help/attack.txt:2` [line] ~~~~~01|Attacking Monsters
+- [ ] `lib/help/attack.txt:3` [line] ~~~~~02|Monsters|Attacking
+- [ ] `lib/help/attack.txt:4` [line] #####R=== Attacking and Being Attacked ===
+- [ ] `lib/help/attack.txt:6` [line] {{{{{<p>}Attacking is simple in ToME; attempting to move over a creature 
+- [ ] `lib/help/attack.txt:7` [line] attacks it. It is also possible to attack from a distance by firing a missile 
+- [ ] `lib/help/attack.txt:8` [line] or by magical means (wand, rod, spell, etc). Creatures attack in the same way.
+- [ ] `lib/help/attack.txt:9` [line] This means that if you do not wish to melee with a creature, it is wise to keep
+- [ ] `lib/help/attack.txt:10` [line] distant from it. This strategy is not perfect -- some monsters, such as
+- [ ] `lib/help/attack.txt:11` [line] dragons, have a way to attack from a distance.
+- [ ] `lib/help/attack.txt:13` [line] Some creatures, such as Ghosts, have the ability to pass through walls.
+- [ ] `lib/help/attack.txt:14` [line] To attack creatures (that you can see) who are currently in a wall,
+- [ ] `lib/help/attack.txt:15` [line] attempt to move over it (even if you cannot pass through walls, the
+- [ ] `lib/help/attack.txt:16` [line] attack will still happen). Monsters will take less damage from attacks
+- [ ] `lib/help/attack.txt:17` [line] while they are in walls. Also, if you cannot see the monster (e.g. if you
+- [ ] `lib/help/attack.txt:18` [line] are blind, or it is invisible and you do not have see invisible), this
+- [ ] `lib/help/attack.txt:19` [line] will not work: you'll have to try to tunnel. Most spells and magic devices
+- [ ] `lib/help/attack.txt:20` [line] cannot target monsters in walls. In situations like this, it is usually wise to
+- [ ] `lib/help/attack.txt:21` [line] lure the monster out of the wall before attacking it.
+- [ ] `lib/help/attack.txt:23` [line] Melee attacks are handled as such:
+- [ ] `lib/help/attack.txt:24` [line] #####G        To-hit:
+- [ ] `lib/help/attack.txt:25` [line]                 Your strength grants a bonus or penalty to-hit
+- [ ] `lib/help/attack.txt:26` [line]                 Your class might grant a bonus or penalty to-hit
+- [ ] `lib/help/attack.txt:27` [line]                 Your skill with specific kinds of weapons gives a bonus 
+- [ ] `lib/help/attack.txt:28` [line]                         to-hit (e.g.: Swordmastery gives a to-hit bonus
+- [ ] `lib/help/attack.txt:29` [line]                         when using swords)
+- [ ] `lib/help/attack.txt:30` [line]                 Enchantments on your weapon grant a bonus or penalty to-hit
+- [ ] `lib/help/attack.txt:31` [line]                 Certain rings (accuracy, slaying) may also grants a bonus 
+- [ ] `lib/help/attack.txt:32` [line]                         or penalty to-hit
+- [ ] `lib/help/attack.txt:33` [line]                 Your Tactic setting may give bonuses o penalties to-hit
+- [ ] `lib/help/attack.txt:34` [line]                         (to change it, press 'C' and then 't' or 'T')
+- [ ] `lib/help/attack.txt:35` [line]                 Other temporary effects (berserk, etc) might affect your
+- [ ] `lib/help/attack.txt:36` [line]                         chance to hit
+- [ ] `lib/help/attack.txt:37` [line]                 The armor rating of the monster you're attacking makes a
+- [ ] `lib/help/attack.txt:38` [line]                         big difference
+- [ ] `lib/help/attack.txt:40` [line] #####G        Blows:
+- [ ] `lib/help/attack.txt:41` [line]                 Your strength and dexterity affect how many blows you get
+- [ ] `lib/help/attack.txt:42` [line]                 Your class and level might affect how many blows you get
+- [ ] `lib/help/attack.txt:43` [line]                 The weight of the weapon very likely will affect how many 
+- [ ] `lib/help/attack.txt:44` [line]                         blows you get
+- [ ] `lib/help/attack.txt:45` [line] 		Certain skills (e.g. Swordmastery) may affect how many blows
+- [ ] `lib/help/attack.txt:46` [line] 			you get with particular weapons
+- [ ] `lib/help/attack.txt:47` [line]                 Enchantments on your weapon might also affect how many 
+- [ ] `lib/help/attack.txt:48` [line]                         blows you get (this is rare)
+- [ ] `lib/help/attack.txt:49` [line]                 Certain very rare rings (of attacks) may also affect how 
+- [ ] `lib/help/attack.txt:50` [line]                         many blows you get
+- [ ] `lib/help/attack.txt:52` [line] #####G        Damage:
+- [ ] `lib/help/attack.txt:53` [line]                 The base damage of your weapon is rolled
+- [ ] `lib/help/attack.txt:54` [line]                 Strength grants a bonus or penalty
+- [ ] `lib/help/attack.txt:55` [line]                 Your class might grant a bonus or penalty
+- [ ] `lib/help/attack.txt:56` [line]                 Combat and Weaponmastery skills increase your melee damage
+- [ ] `lib/help/attack.txt:57` [line]                 Ranged masteries increase the damage multiplier of slings,
+- [ ] `lib/help/attack.txt:58` [line]                         bows, crossbows or boomerangs(see below)
+- [ ] `lib/help/attack.txt:59` [line]                 Enchantments on your weapon might also grant a bonus or 
+- [ ] `lib/help/attack.txt:60` [line]                         penalty
+- [ ] `lib/help/attack.txt:61` [line]                 Your Tactic setting may give bonuses o penalties to damage
+- [ ] `lib/help/attack.txt:62` [line]                         (to change it, press 'C' and then 't'or'T')
+- [ ] `lib/help/attack.txt:63` [line]                 Temporary effects also might grant a bonus or penalty
+- [ ] `lib/help/attack.txt:65` [line] So, each blow you are entitled to is checked for a hit. If this is the case,
+- [ ] `lib/help/attack.txt:66` [line] the damage is then applied to the monster. Note that unless you have some 
+- [ ] `lib/help/attack.txt:67` [line] barehanded combat training or are possessing a monster, melee without a weapon 
+- [ ] `lib/help/attack.txt:68` [line] will result in a single blow that does base damage of 1d1. This might, however,
+- [ ] `lib/help/attack.txt:69` [line] be useful in attacking certain rare monsters that destroy weapons.
+- [ ] `lib/help/attack.txt:71` [line] Combat with a bow/sling is similar, except ammo is used (which will eventually
+- [ ] `lib/help/attack.txt:72` [line] run out, requiring replacement). Bows don't have a base damage rating (ammo 
+- [ ] `lib/help/attack.txt:73` [line] does), instead having a damage multiplier. Bows can, however, be enchanted, 
+- [ ] `lib/help/attack.txt:74` [line] and enchantment on bows and arrows is cumulative (meaning that well-enchanted
+- [ ] `lib/help/attack.txt:75` [line] bows and arrows can be one of the more effective weapons in the game. They
+- [ ] `lib/help/attack.txt:76` [line] do, however, tend to be very expensive, as non-artifact arrows frequently break
+- [ ] `lib/help/attack.txt:77` [line] after being fired).
+- [ ] `lib/help/attack.txt:78` [line] Using ammo without the appropriate bow generally has poor results.
+- [ ] `lib/help/attack.txt:79` [line] ~~~~~03|Armor
+- [ ] `lib/help/attack.txt:80` [line] #####R=== Armor ===
+- [ ] `lib/help/attack.txt:82` [line] As the armor class of a monster greatly affects how hard it is for it
+- [ ] `lib/help/attack.txt:83` [line] to be hit, your armor class affects how hard it is for it to hit you.
+- [ ] `lib/help/attack.txt:84` [line] A high armor rating will make it much easier to survive deep in the dungeon.
+- [ ] `lib/help/attack.txt:85` [line] For a warrior style class (Unbelievers, Fighters, Archers, etc), it is
+- [ ] `lib/help/attack.txt:86` [line] generally wise to wear as much and as powerful armor as possible (subject
+- [ ] `lib/help/attack.txt:87` [line] to weight limitations, of course). Spellcasting classes, however, have
+- [ ] `lib/help/attack.txt:88` [line] limits on how much armor they can wear before it disrupts their motion
+- [ ] `lib/help/attack.txt:89` [line] and makes it hard for them to cast spells properly. For many of these classes,
+- [ ] `lib/help/attack.txt:90` [line] gloves are especially bad for spellcasting. Monks and Rogues skilled
+- [ ] `lib/help/attack.txt:91` [line] at dodging will often find heavy armor cumbersome, too. 
+- [ ] `lib/help/attack.txt:92` [line] Armor has a base rating and an enchantment rating. The base rating is constant
+- [ ] `lib/help/attack.txt:93` [line] for the type of armor (e.g. paper armor always has a base rating of 4), and 
+- [ ] `lib/help/attack.txt:94` [line] the enchantment depends on the item. There are also ways to further enchant
+- [ ] `lib/help/attack.txt:95` [line] armor you have. Certain very powerful enchantments grant resistances to
+- [ ] `lib/help/attack.txt:96` [line] specific forms of magical attacks.
+- [ ] `lib/help/attack.txt:97` [line] ~~~~~04|Attacking Monsters|Resistances
+- [ ] `lib/help/attack.txt:98` [line] ~~~~~05|Armor|Resistances
+- [ ] `lib/help/attack.txt:99` [line] #####R=== Resistances and typed attacks===
+- [ ] `lib/help/attack.txt:100` [line] Many kinds of monsters, traps, and other effects do damage that has a type.
+- [ ] `lib/help/attack.txt:101` [line] Types can have side effects in addition to the raw damage they deal. Certain
+- [ ] `lib/help/attack.txt:102` [line] enchanted items can grant resistances, reducing the raw damage and possibly
+- [ ] `lib/help/attack.txt:103` [line] reducing or eliminating the side effects. Some monsters also have resistances,
+- [ ] `lib/help/attack.txt:104` [line] so watching the messages when attacking a monster can often reveal that a
+- [ ] `lib/help/attack.txt:105` [line] particular attack is ineffective. 
+- [ ] `lib/help/attack.txt:106` [line] ~~~~~06|Attacking Monsters|Damage Effect type (Fire/cold/nether etc)
+- [ ] `lib/help/attack.txt:107` [line] ~~~~~09|Damage Effects
+- [ ] `lib/help/attack.txt:108` [line] #####GLow attacks
+- [ ] `lib/help/attack.txt:109` [line]       Fire - Destroys weapons, armor, scrolls, and staves. Reduces strength.
+- [ ] `lib/help/attack.txt:110` [line]       Cold - Shatters potions. 
+- [ ] `lib/help/attack.txt:111` [line]       Elec - Reduces dexterity, destroys rings and wands.
+- [ ] `lib/help/attack.txt:112` [line]       Acid - Reduces bonuses on equipped armor, reduces charisma.
+- [ ] `lib/help/attack.txt:114` [line] #####GMiddle attacks
+- [ ] `lib/help/attack.txt:115` [line]       Poison - Player becomes poisoned
+- [ ] `lib/help/attack.txt:116` [line]       Light - Blinds player, perma-lights area
+- [ ] `lib/help/attack.txt:117` [line]       Dark - Blinds player, darkens area
+- [ ] `lib/help/attack.txt:118` [line]       Confusion - Confuses player
+- [ ] `lib/help/attack.txt:120` [line] #####GHigh attacks
+- [ ] `lib/help/attack.txt:121` [line]       Nether - Drains experience
+- [ ] `lib/help/attack.txt:122` [line]       Nexus - Scrambles statistics, teleports player randomly
+- [ ] `lib/help/attack.txt:123` [line]       Disenchantment - Reduces bonuses on equipped items
+- [ ] `lib/help/attack.txt:124` [line]       Chaos - Confuses, drains life, causes hallucination, and more
+- [ ] `lib/help/attack.txt:125` [line]       Sound - Shatters potions
+- [ ] `lib/help/attack.txt:126` [line]       Shards - Cuts player
+- [ ] `lib/help/attack.txt:128` [line] #####GUnresistable attacks
+- [ ] `lib/help/attack.txt:129` [line]       Water - Stuns player
+- [ ] `lib/help/attack.txt:130` [line]       Ice - Stuns player, shatters potions
+- [ ] `lib/help/attack.txt:131` [line]       Plasma - Stuns player, otherwise same as fire attacks
+- [ ] `lib/help/attack.txt:132` [line]       Force - Pushes player a few squares back
+- [ ] `lib/help/attack.txt:133` [line]       Inertia - Slows player
+- [ ] `lib/help/attack.txt:134` [line]       Gravity - Slows and teleports player a few squares
+- [ ] `lib/help/attack.txt:135` [line]       Disintegration - Destroys items on ground, destroys walls
+- [ ] `lib/help/attack.txt:136` [line]       Mana - Destroys items on ground
+- [ ] `lib/help/attack.txt:137` [line] ~~~~~07|Monsters|Monster Memory
+- [ ] `lib/help/attack.txt:138` [line] #####R=== Monster Memory ===
+- [ ] `lib/help/attack.txt:140` [line] The thousands of different creatures in ToME have many different
+- [ ] `lib/help/attack.txt:141` [line] characteristics, including spells, resistances, health, attacks, and speed.
+- [ ] `lib/help/attack.txt:142` [line] The information you have learned about each monster from your encounters
+- [ ] `lib/help/attack.txt:143` [line] with them is recorded in the monster memory (accessed with '/' or by 'l'ooking
+- [ ] `lib/help/attack.txt:144` [line] at a monster). It is possible to eventually learn all the characteristics
+- [ ] `lib/help/attack.txt:145` [line] of any given monster by interacting with them enough, but this is not always
+- [ ] `lib/help/attack.txt:146` [line] desirable (hanging around great hell wyrms, for example, can be hazardous
+- [ ] `lib/help/attack.txt:147` [line] to one's health). Certain spells may help you learn faster, as well as
+- [ ] `lib/help/attack.txt:148` [line] research centres in town. 

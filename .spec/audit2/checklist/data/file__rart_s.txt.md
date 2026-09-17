@@ -1,0 +1,88 @@
+# 数据清单：lib/file/rart_s.txt（text，逐条/逐行）
+
+- [ ] `lib/file/rart_s.txt:1` [line] 85
+- [ ] `lib/file/rart_s.txt:2` [line] a Bag
+- [ ] `lib/file/rart_s.txt:3` [line] a Shiny, Black Box
+- [ ] `lib/file/rart_s.txt:4` [line] a Deck of Cards
+- [ ] `lib/file/rart_s.txt:5` [line] a Rusty, Slimy Box
+- [ ] `lib/file/rart_s.txt:6` [line] an Eyeball
+- [ ] `lib/file/rart_s.txt:7` [line] a Red Tome
+- [ ] `lib/file/rart_s.txt:8` [line] a Red Gem
+- [ ] `lib/file/rart_s.txt:9` [line] a Blue Gem
+- [ ] `lib/file/rart_s.txt:10` [line] a Green Gem
+- [ ] `lib/file/rart_s.txt:11` [line] a White Gem
+- [ ] `lib/file/rart_s.txt:12` [line] an Orange Gem
+- [ ] `lib/file/rart_s.txt:13` [line] a Black Gem
+- [ ] `lib/file/rart_s.txt:14` [line] a Gray Gem
+- [ ] `lib/file/rart_s.txt:15` [line] a Translucent Gem
+- [ ] `lib/file/rart_s.txt:16` [line] a Shrunken Head
+- [ ] `lib/file/rart_s.txt:17` [line] a Voodoo Doll
+- [ ] `lib/file/rart_s.txt:18` [line] a Mirror
+- [ ] `lib/file/rart_s.txt:19` [line] a Black Cube
+- [ ] `lib/file/rart_s.txt:20` [line] a Prism
+- [ ] `lib/file/rart_s.txt:21` [line] a Black Bottle
+- [ ] `lib/file/rart_s.txt:22` [line] a Pentagram
+- [ ] `lib/file/rart_s.txt:23` [line] a Glass Eyeball
+- [ ] `lib/file/rart_s.txt:24` [line] something weird
+- [ ] `lib/file/rart_s.txt:25` [line] a Portable Vortex
+- [ ] `lib/file/rart_s.txt:26` [line] a Green Tome
+- [ ] `lib/file/rart_s.txt:27` [line] a Black Tome
+- [ ] `lib/file/rart_s.txt:28` [line] a White Tome
+- [ ] `lib/file/rart_s.txt:29` [line] a Pendulum
+- [ ] `lib/file/rart_s.txt:30` [line] a Black Candle
+- [ ] `lib/file/rart_s.txt:31` [line] a Tiny Doll
+- [ ] `lib/file/rart_s.txt:32` [line] a Black Staff
+- [ ] `lib/file/rart_s.txt:33` [line] a Tiny Doll
+- [ ] `lib/file/rart_s.txt:34` [line] a Slimy Dagger
+- [ ] `lib/file/rart_s.txt:35` [line] a Gray Tome
+- [ ] `lib/file/rart_s.txt:36` [line] a Parchment
+- [ ] `lib/file/rart_s.txt:37` [line] a Parchment
+- [ ] `lib/file/rart_s.txt:38` [line] a Bag
+- [ ] `lib/file/rart_s.txt:39` [line] a Bag
+- [ ] `lib/file/rart_s.txt:40` [line] a Human Skull
+- [ ] `lib/file/rart_s.txt:41` [line] a Blue Box
+- [ ] `lib/file/rart_s.txt:42` [line] a Gray Bottle
+- [ ] `lib/file/rart_s.txt:43` [line] an Orange Tome
+- [ ] `lib/file/rart_s.txt:44` [line] a Shiny Gem
+- [ ] `lib/file/rart_s.txt:45` [line] an Ancient Gray Tome
+- [ ] `lib/file/rart_s.txt:46` [line] a Crystal Ball
+- [ ] `lib/file/rart_s.txt:47` [line] a Golden Box
+- [ ] `lib/file/rart_s.txt:48` [line] a Skullcap
+- [ ] `lib/file/rart_s.txt:49` [line] a Jester's Cap
+- [ ] `lib/file/rart_s.txt:50` [line] a Broken Bottle
+- [ ] `lib/file/rart_s.txt:51` [line] an Arcane Parchment
+- [ ] `lib/file/rart_s.txt:52` [line] many Small Wooden Sticks
+- [ ] `lib/file/rart_s.txt:53` [line] some Clay Tablets
+- [ ] `lib/file/rart_s.txt:54` [line] a Smoky Vial
+- [ ] `lib/file/rart_s.txt:55` [line] a Doll
+- [ ] `lib/file/rart_s.txt:56` [line] some Multi-colored Clay
+- [ ] `lib/file/rart_s.txt:57` [line] a Clay Jar
+- [ ] `lib/file/rart_s.txt:58` [line] an Arcane Parchment
+- [ ] `lib/file/rart_s.txt:59` [line] an Arcane Parchment
+- [ ] `lib/file/rart_s.txt:60` [line] a Decayed Hand
+- [ ] `lib/file/rart_s.txt:61` [line] a Decayed Skull
+- [ ] `lib/file/rart_s.txt:62` [line] a Decayed Eye
+- [ ] `lib/file/rart_s.txt:63` [line] a Large Crystal Ball
+- [ ] `lib/file/rart_s.txt:64` [line] an Arcane Parchment
+- [ ] `lib/file/rart_s.txt:65` [line] a Medallion
+- [ ] `lib/file/rart_s.txt:66` [line] a Jewel-Encrusted Skull
+- [ ] `lib/file/rart_s.txt:67` [line] some Earmuffs
+- [ ] `lib/file/rart_s.txt:68` [line] a Battered Book
+- [ ] `lib/file/rart_s.txt:69` [line] a Small Note
+- [ ] `lib/file/rart_s.txt:70` [line] a Parchment
+- [ ] `lib/file/rart_s.txt:71` [line] a Small Figurine
+- [ ] `lib/file/rart_s.txt:72` [line] a Torch
+- [ ] `lib/file/rart_s.txt:73` [line] a Rune
+- [ ] `lib/file/rart_s.txt:74` [line] a Singed Parchment
+- [ ] `lib/file/rart_s.txt:75` [line] a Holed Buckler
+- [ ] `lib/file/rart_s.txt:76` [line] a Red Book
+- [ ] `lib/file/rart_s.txt:77` [line] an Acorn
+- [ ] `lib/file/rart_s.txt:78` [line] a Cymbal
+- [ ] `lib/file/rart_s.txt:79` [line] a Mechanical Music-Box
+- [ ] `lib/file/rart_s.txt:80` [line] a Toenail
+- [ ] `lib/file/rart_s.txt:81` [line] a Torn Book
+- [ ] `lib/file/rart_s.txt:82` [line] a Greasy Parchment
+- [ ] `lib/file/rart_s.txt:83` [line] a Blackened Figurine
+- [ ] `lib/file/rart_s.txt:84` [line] a Heavy Teaspoon
+- [ ] `lib/file/rart_s.txt:85` [line] an Avian Figurine
+- [ ] `lib/file/rart_s.txt:86` [line] a Crutch

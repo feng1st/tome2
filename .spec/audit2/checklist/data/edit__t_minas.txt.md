@@ -1,0 +1,94 @@
+# 数据清单：lib/edit/t_minas.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_minas.txt:9` [feat] F:Z:63:3
+- [ ] `lib/edit/t_minas.txt:12` [feat] F:w:8:3:0:0:0:0:24
+- [ ] `lib/edit/t_minas.txt:17` [cond] ?:[EQU $QUEST16 5]
+- [ ] `lib/edit/t_minas.txt:18` [feat] F:Z:176:3:0:0:0:0:0
+- [ ] `lib/edit/t_minas.txt:20` [cond] ?:1
+- [ ] `lib/edit/t_minas.txt:23` [cond] ?:[EQU $QUEST24 2]
+- [ ] `lib/edit/t_minas.txt:24` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_minas.txt:25` [cond] ?:[EQU $QUEST24 5]
+- [ ] `lib/edit/t_minas.txt:26` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_minas.txt:27` [cond] ?:1
+- [ ] `lib/edit/t_minas.txt:32` [feat] F:a:74:3:0:0:0:0:60
+- [ ] `lib/edit/t_minas.txt:35` [feat] F:b:74:3:0:0:0:0:14
+- [ ] `lib/edit/t_minas.txt:38` [feat] F:d:74:3:0:0:0:0:15
+- [ ] `lib/edit/t_minas.txt:41` [feat] F:e:74:3:0:0:0:0:11
+- [ ] `lib/edit/t_minas.txt:44` [feat] F:f:74:3:0:0:0:0:16
+- [ ] `lib/edit/t_minas.txt:47` [feat] F:g:74:3:0:0:0:0:17
+- [ ] `lib/edit/t_minas.txt:50` [feat] F:h:74:3:0:0:0:0:18
+- [ ] `lib/edit/t_minas.txt:53` [feat] F:i:74:3:0:0:0:0:19
+- [ ] `lib/edit/t_minas.txt:56` [feat] F:j:74:3:0:0:0:0:20
+- [ ] `lib/edit/t_minas.txt:59` [feat] F:k:74:3:0:0:0:0:21
+- [ ] `lib/edit/t_minas.txt:62` [feat] F:l:74:3:0:0:0:0:22
+- [ ] `lib/edit/t_minas.txt:65` [feat] F:B:75:3:0:0:0:0:5
+- [ ] `lib/edit/t_minas.txt:68` [feat] F:x:63:3
+- [ ] `lib/edit/t_minas.txt:70` [cond] ?:[EQU $QUEST"Library quest" 1]
+- [ ] `lib/edit/t_minas.txt:71` [feat] F:x:8:3:0:0:0:0:"Library quest"
+- [ ] `lib/edit/t_minas.txt:72` [cond] ?:1
+- [ ] `lib/edit/t_minas.txt:76` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_minas.txt:77` [row] D:#^^########------------------                                                                     @@@@@@@                   @@@@@@@@@                         
+- [ ] `lib/edit/t_minas.txt:78` [row] D:#^^^------############----------             ^                                                   @@VVVVV@@                 @@VVVVVVV@@@@@@@                   
+- [ ] `lib/edit/t_minas.txt:79` [row] D:#^^^----------###----#######-------         ^^^^^                                                @VVVVVVV@@@@@            @@VV@@@@@@VVVVVV@@@@                
+- [ ] `lib/edit/t_minas.txt:80` [row] D:#^^----ssss-----###--------####------        ^^^^^^                                              @VVVVVV@@VVV@@@          @VV@@    @@@@@@VVVV@@               
+- [ ] `lib/edit/t_minas.txt:81` [row] D:#^^^---StSS-------###--#ssss--###-------      ^^^^^^^^                                           @@VVVVVVVV@VVV@@@@@@@@ @@@V@@          @@@@VV@@@@            
+- [ ] `lib/edit/t_minas.txt:82` [row] D:#^^----ssss----OO---##--#StSS---####------     ^^^^^^^^                                           @@V@V,@@@@@@VVVVVVVV@@@VVV@              @@VVVV@@           
+- [ ] `lib/edit/t_minas.txt:83` [row] D:#^^----x#a#-----OOO--##--#sssss----###------    ^^^^^^^^                                           @@@@@     @@@@@@@@VVVVV@@@               @@@@VV@@@         
+- [ ] `lib/edit/t_minas.txt:84` [row] D:#^ ---------------OO--###-###7#------###-----   ^^^^^^^^^^                                                           @VVV@@                    @@VVV@@        
+- [ ] `lib/edit/t_minas.txt:85` [row] D:#^ StSSSS-----ss---OO---##-----OOOOO---###----   ^^^^^^^^^^^                                                          @@@                       @@VVV@@       
+- [ ] `lib/edit/t_minas.txt:86` [row] D:#^^ssssss----Ssss---OOO--##---OOOOOOOO---##----   ^l^^^^^^^                                                                                     @@VVV@        
+- [ ] `lib/edit/t_minas.txt:87` [row] D:#^ ####9#---sstSss---OOO--##-OOOOOOOOOOO--##----    ^^^^^                                                                                      @@VVV@@        
+- [ ] `lib/edit/t_minas.txt:88` [row] D:#^^^-------##sssSss---OOO--#OOO--s--OOOOO--###---                                                                              @@@@@@@@@@     @@VVV@@         
+- [ ] `lib/edit/t_minas.txt:89` [row] D:#^^^######---##ssh--s--OOO-OOO--StS--OOOOO---##---                                                                            @@VVVVVVVV@@@@@@@V@@@@          
+- [ ] `lib/edit/t_minas.txt:90` [row] D:#^^^^----###---##--ssS--OOOOO#--ssss--OOOOOO--##---                                                                           @VVVVVVVVVVVV@@VV@@      OOO    
+- [ ] `lib/edit/t_minas.txt:91` [row] D:#^^--------###----ssSs#--OOO-##-#####--OOOOOO--##---            ----                                                          @VVVV@@@@VVVVVVV@@      OOOOO   
+- [ ] `lib/edit/t_minas.txt:92` [row] D:#^ ----------##--#stsi--OOOO--#---------OOOOOO--#------       --------                                                       @@VVV@@  @@VVV@@@@       OO  OO  
+- [ ] `lib/edit/t_minas.txt:93` [row] D:#^^-----------###-#s#--OOOOOO-##-#sssss--OOOOOO,#####---     -----------                                                    @@VVV@@    @@@@@         OO-   OOO
+- [ ] `lib/edit/t_minas.txt:94` [row] D:#^^-------------##-#--OOO-OOO--#--ssssss--OOOOO,,,,,#----  ---ssssssss---                                                   @VVV@@                 -OO        
+- [ ] `lib/edit/t_minas.txt:95` [row] D:#^^--------------#---OOO-t-OOO-##-#SStSS--OOOOOO,##,#---------ssssssss----                                                  @VV@@                --OO-        
+- [ ] `lib/edit/t_minas.txt:96` [row] D:#^^^--#----------##-OOO-sssOOO--#--ssssss-OOOOOO--#,#####-----SStSSSSS-----                                                @@VV@                --OO-         
+- [ ] `lib/edit/t_minas.txt:97` [row] D:#^^^--#-----------#OOO-##4##OOO-##-ssssss--OOOOOO-#,,######---ssssssss--O---                                              @@VVV@                -OO--         
+- [ ] `lib/edit/t_minas.txt:98` [row] D:#^^--###----------OOO-------OOO--#-####2#--OOOOOO-##,#k#,,##--ssssssss--O----                                             @VVV@@               --O--          
+- [ ] `lib/edit/t_minas.txt:99` [row] D:#^^^-###---------OOO#--SSStS-OOO-#---------OOOOO---#,,,,,,,#--ssssssss--O-----                                           @@VV@@               --OO-           
+- [ ] `lib/edit/t_minas.txt:100` [row] D:#^^-#####-------OOO-#--sssss-OOO-#--ssss--OOOOO--T-#,-----,#--#####d##--O------                                          @VVV@               --OO--           
+- [ ] `lib/edit/t_minas.txt:101` [row] D:#^^#######------OOO-##-###j#-OOO-##-ssss--OOOOO-TT-#------,#-------,,,,,O------                                         @@VV@@              --OO--            
+- [ ] `lib/edit/t_minas.txt:102` [row] D:#^^^########----OOO--#-------OOO--#-StSS--OOOOO-TT-#-----,,#------------O-------                                        @VVV@@             --OO--             
+- [ ] `lib/edit/t_minas.txt:103` [row] D:#^^############-OOO--##-StSSS-OOO-#-ssss--OOOOO--T-#----,,##---ssssssss-O--------                                      @@VV@@             --OOO--             
+- [ ] `lib/edit/t_minas.txt:104` [row] D:#^^^#########---OOO---#-sssss-OOO-#-ssss--OOOOOO---#,,,,,##----SSSSStSS-O---------                                   @@@VVV@             --OOO--              
+- [ ] `lib/edit/t_minas.txt:105` [row] D:#^^#####B###----OOO---#-###6#-OOO-#-##g#---OOOOOO--#######-----ssssssss-O----------                                  @VVVV@@           ---OOO--               
+- [ ] `lib/edit/t_minas.txt:106` [row] D:#^^^#######-----OOO---#-------OOO-#---------OOOOOOOOOOOOOOOOO--###e####-O-----------                                @@VVV@@         ------OO--                
+- [ ] `lib/edit/t_minas.txt:107` [row] D:#^^#######bOOOOOOOO-^^^^^^^^^^MMM^^^^^^^^^^^^OOOOOOOOOOOOOOOOOOOOOOOOOOOO-----------                              @@@VVV@@         ---OOOOOO--                
+- [ ] `lib/edit/t_minas.txt:108` [row] D:#^^#######bOOOOOOO############III############^OOOOOOOOOOOOOOOOOOOOOOOOOOOOO---------                             @@VVVV@@         ---OOOOOO--                 
+- [ ] `lib/edit/t_minas.txt:109` [row] D:#^ #######bOOOOOOO############III############^OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO---------                            @VVVV@@        ----OOOOOO----                
+- [ ] `lib/edit/t_minas.txt:110` [row] D:#^ #######bOOOOOOOO-^^^^^^^^^^MMM^^^^^^^^^^^^OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-------                            @VVV@@      ------OOOO------                 
+- [ ] `lib/edit/t_minas.txt:111` [row] D:#^^^######Z-----OOO---#-sSss--OOO-#---------OOOOOOOOOOOOOOOOO-----------OOOOOOO------                 ---------##@VVV@## --------OOOOO-----                   
+- [ ] `lib/edit/t_minas.txt:112` [row] D:#^^#########----OOO---#-sSss--OOO-#-sssss--OOOOOO--#######--------sssss-O-OOOOO-----                 --OOOO-----#######--------OOOOOO-----                    
+- [ ] `lib/edit/t_minas.txt:113` [row] D:#^^##########---OOO---#-stss--OOO-#-SStSS-OOOOOO---####,,##-------SStSS-O-OOOOO----                 --OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-----                     
+- [ ] `lib/edit/t_minas.txt:114` [row] D:#^^############-OOO--##-sSss--OOO-#-sssss-OOOOO--T-##k#,,,##------sssss-O--OOOOO---                --OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-----                      
+- [ ] `lib/edit/t_minas.txt:115` [row] D:#^^#########----OOO--#--####-OOO--#-sssss-OOOOO-TT-#,,,,-,,#------sssss-O---OOOO---               --OOOOO-OOOOOOOOOOOOOOOOOOOOOOO-------                      
+- [ ] `lib/edit/t_minas.txt:116` [row] D:#^^#######------OOO-##-------OOO-##-###3#-OOOOO-TT-#,-----,#------###0#-O---OOOOO---             --OOOO---------#######---------------                        
+- [ ] `lib/edit/t_minas.txt:117` [row] D:#^^-#####-------OOO-#--Ssss--OOO-#--------OOOOO--T-#,-----,#------------O----OOOO----           --OOOO---------##@VVV@##-----------                           
+- [ ] `lib/edit/t_minas.txt:118` [row] D:#^^^-###---------OOO#-#stss--OOO-#-ssssss--OOOOO---#,----,,#----ssssss--O-----OOOO----        ---OOOO---         @VVV@@                                       
+- [ ] `lib/edit/t_minas.txt:119` [row] D:#^^--###----------OOO--#sSs-OOO--#-StSSSS--OOOOOO-##,-,,,,##----SStSSS--O------OOOO----      --OOOOO----         @VVV@@                                       
+- [ ] `lib/edit/t_minas.txt:120` [row] D:#^^---#-----------#OOO--###-OOO-##-ssssss--OOOOOO-#,,,,####-----ssssss--O-------OOOO----    --OOOOO----          @VVVV@                                       
+- [ ] `lib/edit/t_minas.txt:121` [row] D:#^^^--#----------##-OOO----OOO--#--###5##-OOOOOO--#,#####-------ssssss-OO--------OOOO--------OOOOO----           @@VVV@@@                                     
+- [ ] `lib/edit/t_minas.txt:122` [row] D:#^^^-------------#---OOO---OOO-##---------OOOOOO,##,#-----------####1#-O----------OOOO----OOOOOO-----             @@VVVV@@@                                   
+- [ ] `lib/edit/t_minas.txt:123` [row] D:#^^-------------##----OOO-OOO--#--ss------OOOOO,,,,,#------------------O-----------OOOOOOOOOOO-----                @@@VVVV@@                                  
+- [ ] `lib/edit/t_minas.txt:124` [row] D:#^^^----------###--ss--OOOOOO-##-ssSs----OOOOOO,#####------------------O-------- ---OOOOOOOOO---                     @@VVVV@@                    @@@@@        
+- [ ] `lib/edit/t_minas.txt:125` [row] D:#^^^---------##---ssSs--OOOO--#--ssts#--OOOOOO--#------ ------ssssss--OO------    ---OOOOO-----                       @@VVVV@@@                @@@VVV@@@      
+- [ ] `lib/edit/t_minas.txt:126` [row] D:#^^--------###---sstss#--OOO-##-ssSs#--OOOOOO--##-----    ----StSSSS--O------      -----------                         @@@VVVV@@@@@         @@@@VVVVVVV@@   @@
+- [ ] `lib/edit/t_minas.txt:127` [row] D:#^^------###-----#Sss#--OOOOO#--sSsf--OOOOOO--##-----      ---ssssss--O-----        -------                              @@@VVVVVV@@@@@@@@@@@VVVVV@@@VVV@@@@@V
+- [ ] `lib/edit/t_minas.txt:128` [row] D:#^^^######---ss---#s#--OOO-OOO--Ss#--OOOOO---##-----        --###w##-OO-----                                               @@VVVVVVVVVVVVVVVVV@@@@@ @@@VVVVVVV
+- [ ] `lib/edit/t_minas.txt:129` [row] D:#^^^-------ssssS---#--OOO--#OOO--#--OOOOO--###-----          --------O-----                                                 @@@@@@@@@@@@@@@@@@@       @@@@@@@@
+- [ ] `lib/edit/t_minas.txt:130` [row] D:#^^-sssss-#ssstss----OOO--##-OOO---OOOOO--##------            ------OO----                                                                                    
+- [ ] `lib/edit/t_minas.txt:131` [row] D:#^^-SSStS--#sSsss#--OOO--##---OOOOOOOO---##------               ----O----                                                                                     
+- [ ] `lib/edit/t_minas.txt:132` [row] D:#^^-sssss---#ss##--OO---##--X--OOOOO---###------                ---O---                                                                                       
+- [ ] `lib/edit/t_minas.txt:133` [row] D:#^^^#####----##---OO--###--XXX-OOO---###------                    ---                                                                                         
+- [ ] `lib/edit/t_minas.txt:134` [row] D:#^^^------------OOO--##---XXX#-----###-----                                                                                                                   
+- [ ] `lib/edit/t_minas.txt:135` [row] D:#^^--SStSS-----OO---##--XX###---####-----                                                                                                                     
+- [ ] `lib/edit/t_minas.txt:136` [row] D:#^^^-sssss--------###--###----###------                                                                                                                       
+- [ ] `lib/edit/t_minas.txt:137` [row] D:#^^--#####------###--------####------                                                                                                                         
+- [ ] `lib/edit/t_minas.txt:138` [row] D:#^^^----------###----#######------                                                                                                                            
+- [ ] `lib/edit/t_minas.txt:139` [row] D:#^^^------############----------                                                                                                                              
+- [ ] `lib/edit/t_minas.txt:140` [row] D:#^^########-----------------                                                                                                                                  
+- [ ] `lib/edit/t_minas.txt:141` [row] D:##############################################################################################################################################################

@@ -1,0 +1,67 @@
+# 数据清单：lib/help/m_geoman.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_geoman.txt:1` [line] |||||oy
+- [ ] `lib/help/m_geoman.txt:2` [line] ~~~~~01|Magic|Geomancy
+- [ ] `lib/help/m_geoman.txt:3` [line] ~~~~~02|Geomancer|Geomancy spells
+- [ ] `lib/help/m_geoman.txt:4` [line] ~~~~~03|Skills|Geomancy - Spell Info
+- [ ] `lib/help/m_geoman.txt:5` [line] #####R === ToME Magic - Geomancy ===
+- [ ] `lib/help/m_geoman.txt:6` [line] Geomancy harnesses the power of nature to awesome effect. Therefore neither
+- [ ] `lib/help/m_geoman.txt:7` [line] books nor light are necessary, and as the geomancers's skill increases, so do
+- [ ] `lib/help/m_geoman.txt:8` [line] his powers over the elements of nature.
+- [ ] `lib/help/m_geoman.txt:10` [line] Because Geomancy relies so heavily on the environment, you will need 
+- [ ] `lib/help/m_geoman.txt:11` [line] sufficient knowledge of the elemental skills (Earth, Air, Fire and Water) in 
+- [ ] `lib/help/m_geoman.txt:12` [line] order to cast some of the spells, and the exact effects of a spell often 
+- [ ] `lib/help/m_geoman.txt:13` [line] depend upon your levels in the elemental skills and your current surroundings.
+- [ ] `lib/help/m_geoman.txt:15` [line] The powers are accessed using the 'm' key and then selecting 'Use Geomancy';
+- [ ] `lib/help/m_geoman.txt:16` [line] they are cast with spell points, like normal spells, which can be increased
+- [ ] `lib/help/m_geoman.txt:17` [line] as usual through the *****skills.txt*21[Magic] skill.
+- [ ] `lib/help/m_geoman.txt:19` [line] 1. [[[[[RCall] [[[[[GThe] [[[[[BElements] (Level 1) Cost:2
+- [ ] `lib/help/m_geoman.txt:20` [line]    Randomly creates various elements around you.
+- [ ] `lib/help/m_geoman.txt:21` [line]    The chance for each type of element is controlled by your level in the 
+- [ ] `lib/help/m_geoman.txt:22` [line]    corresponding skill.
+- [ ] `lib/help/m_geoman.txt:23` [line]    At level 17 it can be targeted.
+- [ ] `lib/help/m_geoman.txt:25` [line] 2. [[[[[UChannel] [[[[[GElements] (Level 3) Cost:3
+- [ ] `lib/help/m_geoman.txt:26` [line]    Draws on the caster's immediate environs to form an attack or other effect.
+- [ ] `lib/help/m_geoman.txt:27` [line]    Grass/Flower heals.
+- [ ] `lib/help/m_geoman.txt:28` [line]    Water creates water bolt attacks.
+- [ ] `lib/help/m_geoman.txt:29` [line]    Ice creates ice bolt attacks.
+- [ ] `lib/help/m_geoman.txt:30` [line]    Sand creates a wall of burning sand around you, but the wall is thick and
+- [ ] `lib/help/m_geoman.txt:31` [line]    blinds you.
+- [ ] `lib/help/m_geoman.txt:32` [line]    Lava creates fire bolt attacks.
+- [ ] `lib/help/m_geoman.txt:33` [line]    Deep lava creates fire ball attacks.
+- [ ] `lib/help/m_geoman.txt:34` [line]    Chasm creates darkness bolt attacks.
+- [ ] `lib/help/m_geoman.txt:35` [line]    At Earth level 18, darkness becomes nether.
+- [ ] `lib/help/m_geoman.txt:36` [line]    At Water level 8, water attacks become beams with a striking effect.
+- [ ] `lib/help/m_geoman.txt:37` [line]    At Water level 12, ice attacks become balls of ice shards.
+- [ ] `lib/help/m_geoman.txt:38` [line]    At Water level 18, water attacks push monsters back.
+- [ ] `lib/help/m_geoman.txt:39` [line]    At Fire level 15, fire becomes hellfire.
+- [ ] `lib/help/m_geoman.txt:41` [line] 3. [[[[[RElemental] [[[[[BWave] (Level 15) Cost:15
+- [ ] `lib/help/m_geoman.txt:42` [line]    Draws on an adjacent special square to project a slow-moving wave of that 
+- [ ] `lib/help/m_geoman.txt:43` [line]    element in that direction.
+- [ ] `lib/help/m_geoman.txt:44` [line]    Abyss squares cannot be channeled into a wave.
+- [ ] `lib/help/m_geoman.txt:46` [line] 4. [[[[[UElemental] [[[[[RMinion] (Level 20) Cost:40
+- [ ] `lib/help/m_geoman.txt:47` [line]    Summons a minion from a nearby element.
+- [ ] `lib/help/m_geoman.txt:48` [line]    Walls can summon Earth elmentals, Xorns and Xarens.
+- [ ] `lib/help/m_geoman.txt:49` [line]    Dark Pits can summon Air elementals, Ancient blue dragons, Great Storm Wyrms
+- [ ] `lib/help/m_geoman.txt:50` [line]    and Sky Drakes.
+- [ ] `lib/help/m_geoman.txt:51` [line]    Sandwalls and lava can summon Fire elementals and Ancient red dragons.
+- [ ] `lib/help/m_geoman.txt:52` [line]    Icewalls and water can summon Water elementals, Water trolls and Water
+- [ ] `lib/help/m_geoman.txt:53` [line]    demons.
+- [ ] `lib/help/m_geoman.txt:55` [line] 5. [[[[[GVaporize] (Level 4) Cost:3
+- [ ] `lib/help/m_geoman.txt:56` [line]    Draws upon your immediate environs to form a cloud of damaging vapors.
+- [ ] `lib/help/m_geoman.txt:57` [line] #####v   You must have reached at least level 4 in the Air skill to cast this 
+- [ ] `lib/help/m_geoman.txt:58` [line] #####v   spell.
+- [ ] `lib/help/m_geoman.txt:60` [line] 6. [[[[[UGeolysis] (Level 7) Cost:15
+- [ ] `lib/help/m_geoman.txt:61` [line]    Burrows deeply and slightly at random into a wall, leaving behind tailings
+- [ ] `lib/help/m_geoman.txt:62` [line]    of various different sorts of walls in the passage.
+- [ ] `lib/help/m_geoman.txt:63` [line] #####v   You must have reached at least level 7 in the Earth skill to cast this 
+- [ ] `lib/help/m_geoman.txt:64` [line] #####v   spell.
+- [ ] `lib/help/m_geoman.txt:66` [line] 7. [[[[[BDripping Tread] (Level 10) Cost:15
+- [ ] `lib/help/m_geoman.txt:67` [line]    Causes you to leave random elemental forms behind as you walk.
+- [ ] `lib/help/m_geoman.txt:68` [line] #####v   You must have reached at least level 10 in the Water skill to cast this 
+- [ ] `lib/help/m_geoman.txt:69` [line] #####v   spell.
+- [ ] `lib/help/m_geoman.txt:71` [line] 8. [[[[[UGrow Barrier] (Level 12) Cost:30
+- [ ] `lib/help/m_geoman.txt:72` [line]    Creates impassable terrain (walls, trees, etc.) around you.
+- [ ] `lib/help/m_geoman.txt:73` [line]    At air level 20 it can be projected around another area.
+- [ ] `lib/help/m_geoman.txt:74` [line] #####v   You must have reached at least level 12 in the Earth skill to cast this 
+- [ ] `lib/help/m_geoman.txt:75` [line] #####v   spell.

@@ -1,0 +1,73 @@
+# 数据清单：lib/help/m_meta.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_meta.txt:1` [line] |||||oy
+- [ ] `lib/help/m_meta.txt:2` [line] ~~~~~01|Magic|Meta School
+- [ ] `lib/help/m_meta.txt:3` [line] ~~~~~02|Meta Magic
+- [ ] `lib/help/m_meta.txt:4` [line] ~~~~~03|Skills|Meta - Spell Info
+- [ ] `lib/help/m_meta.txt:5` [line] #####R === ToME Magic - Meta School ===
+- [ ] `lib/help/m_meta.txt:7` [line] The meta school of magic contains spells where the raw forces of magic are 
+- [ ] `lib/help/m_meta.txt:8` [line] manipulated by the spell. There are rumours of a "Tome of Meta Spells" which
+- [ ] `lib/help/m_meta.txt:9` [line] contains all the meta school spells within its bindings.
+- [ ] `lib/help/m_meta.txt:11` [line] Worshipping the God Manwe Sulimo also gives the ability to cast spells from
+- [ ] `lib/help/m_meta.txt:12` [line] the meta school at a level of 1/3 of your prayer level. E.g. if the skill 
+- [ ] `lib/help/m_meta.txt:13` [line] "Spirituality: Prayer" is at level 15, you can cast up to level 5 meta school
+- [ ] `lib/help/m_meta.txt:14` [line] spells.
+- [ ] `lib/help/m_meta.txt:16` [line] #####sMeta Spells
+- [ ] `lib/help/m_meta.txt:17` [line] There are five spells available for the meta school. These spells are:
+- [ ] `lib/help/m_meta.txt:18` [line] 1. [[[[[sRecharge] (school level 5)
+- [ ] `lib/help/m_meta.txt:19` [line]    Taps the ambient mana to recharge an object's power (charges or mana).
+- [ ] `lib/help/m_meta.txt:20` [line] 2. [[[[[sDisperse Magic] (school level 15)
+- [ ] `lib/help/m_meta.txt:21` [line]    Dispels a lot of magic that can affect you, be it good or bad:
+- [ ] `lib/help/m_meta.txt:22` [line]    Spell Level 1: blindness and light.
+- [ ] `lib/help/m_meta.txt:23` [line]    Spell Level 5: confusion and hallucination.
+- [ ] `lib/help/m_meta.txt:24` [line]    Spell Level 10: speed (either bad or good) and light speed.
+- [ ] `lib/help/m_meta.txt:25` [line]    Spell Level 15: stunning, meditation and cuts.
+- [ ] `lib/help/m_meta.txt:26` [line]    Spell Level 20: heroism, super heroism, blessing, shields, fear, parasites
+- [ ] `lib/help/m_meta.txt:27` [line]       and mimicry.
+- [ ] `lib/help/m_meta.txt:28` [line] 3. [[[[[sSpellbinder] (school level 20)
+- [ ] `lib/help/m_meta.txt:29` [line]    Stores spells in a trigger.
+- [ ] `lib/help/m_meta.txt:30` [line]    When the condition is met all spells fire off at the same time.  This spell
+- [ ] `lib/help/m_meta.txt:31` [line]    takes a long time to cast so you are advised to prepare it in a safe area.
+- [ ] `lib/help/m_meta.txt:32` [line]    Also it will use the mana for the Spellbinder and the mana for the selected
+- [ ] `lib/help/m_meta.txt:33` [line]    spells.
+- [ ] `lib/help/m_meta.txt:34` [line] 4. [[[[[sTracker] (dual school level 30)
+- [ ] `lib/help/m_meta.txt:35` [line]    Tracks down the last teleportation that happened on the level and teleports
+- [ ] `lib/help/m_meta.txt:36` [line]    you to it.
+- [ ] `lib/help/m_meta.txt:37` [line] #####v   Your Meta and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_meta.txt:38` [line] #####v   of 30 in order to cast this spell.
+- [ ] `lib/help/m_meta.txt:39` [line] 5. [[[[[sInertia Control] (school level 37)
+- [ ] `lib/help/m_meta.txt:40` [line]    Changes the energy flow of a spell to be continuously recasted at a given
+- [ ] `lib/help/m_meta.txt:41` [line]    interval. The inertia-controlled spell reduces your maximum mana by four
+- [ ] `lib/help/m_meta.txt:42` [line]    times its cost.
+- [ ] `lib/help/m_meta.txt:44` [line] #####R=== List of Controllable Spells ===
+- [ ] `lib/help/m_meta.txt:45` [line]    Armor of Fear
+- [ ] `lib/help/m_meta.txt:46` [line]    Banishment
+- [ ] `lib/help/m_meta.txt:47` [line]    Disperse Magic
+- [ ] `lib/help/m_meta.txt:48` [line]    Disruption Shield
+- [ ] `lib/help/m_meta.txt:49` [line]    Elemental Shield
+- [ ] `lib/help/m_meta.txt:50` [line]    Ent's Potion
+- [ ] `lib/help/m_meta.txt:51` [line]    Essence of Speed
+- [ ] `lib/help/m_meta.txt:52` [line]    Fiery Shield
+- [ ] `lib/help/m_meta.txt:53` [line]    Flame of Udun
+- [ ] `lib/help/m_meta.txt:54` [line]    Globe of Light
+- [ ] `lib/help/m_meta.txt:55` [line]    Grow Trees
+- [ ] `lib/help/m_meta.txt:56` [line]    Ice Storm
+- [ ] `lib/help/m_meta.txt:57` [line]    Invisibility
+- [ ] `lib/help/m_meta.txt:58` [line]    Phase Door
+- [ ] `lib/help/m_meta.txt:59` [line]    Poison Blood
+- [ ] `lib/help/m_meta.txt:60` [line]    Probability Travel
+- [ ] `lib/help/m_meta.txt:61` [line]    Recovery
+- [ ] `lib/help/m_meta.txt:62` [line]    Regeneration
+- [ ] `lib/help/m_meta.txt:63` [line]    Remove Curses
+- [ ] `lib/help/m_meta.txt:64` [line]    Reveal Ways
+- [ ] `lib/help/m_meta.txt:65` [line]    Sense Hidden
+- [ ] `lib/help/m_meta.txt:66` [line]    Sense Monsters
+- [ ] `lib/help/m_meta.txt:67` [line]    Shake
+- [ ] `lib/help/m_meta.txt:68` [line]    Stone Skin
+- [ ] `lib/help/m_meta.txt:69` [line]    Teleportation
+- [ ] `lib/help/m_meta.txt:70` [line]    Thunderstorm
+- [ ] `lib/help/m_meta.txt:71` [line]    Tidal Wave
+- [ ] `lib/help/m_meta.txt:72` [line]    Vapor
+- [ ] `lib/help/m_meta.txt:73` [line]    Vision
+- [ ] `lib/help/m_meta.txt:74` [line]    Wings of Winds
+- [ ] `lib/help/m_meta.txt:75` [line]    Wraithform

@@ -1,0 +1,29 @@
+2026-09-17 07:54:53 看门狗启动：idle=180s poll=15s check=600s cooldown=240s dry=False
+2026-09-17 07:54:53 窗口：service=:1.73 session=/Sessions/1
+2026-09-17 07:54:53 首次验收：verdict=REJECTED open=4070
+2026-09-17 08:04:53 周期验收：verdict=REJECTED open=4252
+2026-09-17 08:14:54 周期验收：verdict=REJECTED open=4070
+2026-09-17 08:18:09 检测到停止 191s（open=4070），注入第 1 次
+2026-09-17 08:24:54 周期验收：verdict=REJECTED open=4060
+2026-09-17 08:34:55 周期验收：verdict=REJECTED open=4012
+2026-09-17 08:45:01 周期验收：verdict=REJECTED open=2177
+2026-09-17 08:55:07 周期验收：verdict=REJECTED open=2065
+2026-09-17 09:05:13 周期验收：verdict=REJECTED open=1997
+2026-09-17 09:15:20 周期验收：verdict=REJECTED open=1698
+2026-09-17 09:25:26 周期验收：verdict=REJECTED open=1634
+2026-09-17 09:35:33 周期验收：verdict=REJECTED open=1462
+2026-09-17 09:45:49 周期验收：verdict=REJECTED open=1414
+2026-09-17 09:55:42 周期验收：verdict=REJECTED open=1047
+2026-09-17 10:05:52 周期验收：verdict=REJECTED open=1019
+2026-09-17 10:15:59 周期验收：verdict=REJECTED open=1019
+2026-09-17 10:26:08 周期验收：verdict=REJECTED open=773
+2026-09-17 10:36:16 周期验收：verdict=REJECTED open=597
+2026-09-17 10:46:25 周期验收：verdict=REJECTED open=577
+2026-09-17 10:56:36 周期验收：verdict=REJECTED open=406
+2026-09-17 11:06:45 周期验收：verdict=REJECTED open=299
+2026-09-17 11:16:53 周期验收：verdict=REJECTED open=225
+2026-09-17 11:27:02 周期验收：verdict=REJECTED open=209
+2026-09-17 11:37:15 周期验收：verdict=REJECTED open=46
+2026-09-17 11:47:24 周期验收：verdict=REJECTED open=46
+2026-09-17 11:57:33 周期验收：verdict=REJECTED open=46
+2026-09-17 12:03:48 发现 STOP 文件，退出

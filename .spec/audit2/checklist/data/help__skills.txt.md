@@ -1,0 +1,490 @@
+# 数据清单：lib/help/skills.txt（text，逐条/逐行）
+
+- [ ] `lib/help/skills.txt:1` [line] |||||oy
+- [ ] `lib/help/skills.txt:2` [line] ~~~~~55|Skills
+- [ ] `lib/help/skills.txt:3` [line] #####R=== ToME Skills System ===
+- [ ] `lib/help/skills.txt:4` [line] One of the big differences between standard "Vanilla" Angband and ToME is the
+- [ ] `lib/help/skills.txt:5` [line] implementation of a skill system where the player can choose what skills she
+- [ ] `lib/help/skills.txt:6` [line] will improve as her character progresses. As such, many abilities such as
+- [ ] `lib/help/skills.txt:7` [line] spell casting, fighting and trap disarming *do not* increase automatically -
+- [ ] `lib/help/skills.txt:8` [line] the player must choose to use skill points to improve those abilities. This
+- [ ] `lib/help/skills.txt:9` [line] gives the player the chance to tailor a character to suit their playing style
+- [ ] `lib/help/skills.txt:10` [line] with a lot more flexibility than has existed with a fixed progression system
+- [ ] `lib/help/skills.txt:11` [line] in the past. However, not all types of characters are able to gain skills to
+- [ ] `lib/help/skills.txt:12` [line] the same degree; while a fighter can learn some magic, he's unlikely to become
+- [ ] `lib/help/skills.txt:13` [line] as good at it as a mage can. So the number of skill points required to raise
+- [ ] `lib/help/skills.txt:14` [line] a skill to the next level varies according to the starting "type" of character.
+- [ ] `lib/help/skills.txt:16` [line] You can also spend skill points in "one-off purchase" *****ability.txt*0[Abilities]. 
+- [ ] `lib/help/skills.txt:17` [line] ~~~~~56|Skills|Screen
+- [ ] `lib/help/skills.txt:18` [line] #####GThe Skills Menu
+- [ ] `lib/help/skills.txt:19` [line] Each time you gain a level of experience, you receive 6 skill points to spread
+- [ ] `lib/help/skills.txt:20` [line] around as you wish. To use these skill points, you need to access the skills
+- [ ] `lib/help/skills.txt:21` [line] menu ("G" for both keysets). This opens up a long list of abilities that can
+- [ ] `lib/help/skills.txt:22` [line] be improved.  The menu may look something like this:
+- [ ] `lib/help/skills.txt:24` [line] &&&&&w w w w w w w w w w w w w w w w w w w w w w w w w w w w wTwowMwEw wSwkwiwlwlwsw wSwcwrwewewnw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/skills.txt:25` [line] &&&&&BEBnBtBeBrW WtWoW WdWeWvWeWlWoWpW WaW WbWrWaWnWcWhW,W BuBpW/BdBoBwBnW WtWoW WmWoWvWeW,W BrBiBgBhBtW/BlBeBfBtW WtWoW WmWoWdWiWfWyW,W B?W WfWoWrW WhWeWlWpw w
+- [ ] `lib/help/skills.txt:26` [line] &&&&&BSBkBiBlBlB BpBoBiBnBtBsB BlBeBfBtB:B B6w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/skills.txt:27` [line] &&&&&yGyeynyeyryayly yaybyiylyiytyyy ytyoy yfyiygyhyty yaynydy ytyoy ypysyeyuydyoy-yiydy yayrymyoyrysy yaynydy ywyeyaypyoynysy.w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/skills.txt:28` [line] &&&&&yIyty yaylysyoy yaylylyoywysy ytyoy yuysyey yhyeyayvyiyeyry yayrymyoyuyrysy ywyiytyhyoyuyty ypyeynyaylytyiyeysw w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/skills.txt:29` [line] &&&&&G[G-G]GCGoGmGbGaGtw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w G0G2G.G0G0G0G G[G0G.G8G0G0G]w w w w
+- [ ] `lib/help/skills.txt:30` [line] &&&&&w w w w w w-w wWwewawpwownwmwawswtwewrwyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w0w1w.w0w0w0w w[w0w.w8w5w0w]w w w w
+- [ ] `lib/help/skills.txt:31` [line] &&&&&w w w w w w w w o o.o oSowooorodo-omoaosotoeoroyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o4o0o0o]w w w w
+- [ ] `lib/help/skills.txt:32` [line] &&&&&w w w w w w w w o o.o oAoxoeo-omoaosotoeoroyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o4o0o0o]w w w w
+- [ ] `lib/help/skills.txt:33` [line] &&&&&w w w w w w w w o o.o oHoaofotoeodo-omoaosotoeoroyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o4o0o0o]w w w w
+- [ ] `lib/help/skills.txt:34` [line] &&&&&w w w w w w w w o o.o oPoooloeoaoromo-omoaosotoeoroyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o4o0o0o]w w w w
+- [ ] `lib/help/skills.txt:35` [line] &&&&&w w w w w w.w wAwrwcwhwewrwyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w0w1w.w0w0w0w w[w0w.w6w0w0w]w w w w
+- [ ] `lib/help/skills.txt:36` [line] &&&&&w w w w o o.o oAonotoiomoaogoiocw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o5o5o0o]w w w w
+- [ ] `lib/help/skills.txt:37` [line] &&&&&w w+w wSwnwewawkwiwnwewswsw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w0w1w.w0w0w0w w[w0w.w9w0w0w]w w w w
+- [ ] `lib/help/skills.txt:38` [line] &&&&&w w+w wMwawgwiwcw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w0w1w.w0w0w0w w[w0w.w3w0w0w]w w w w
+- [ ] `lib/help/skills.txt:39` [line] &&&&&w w-w wSwpwiwrwiwtwuwawlwiwtwyw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w0w1w.w0w0w0w w[w0w.w4w0w0w]w w w w
+- [ ] `lib/help/skills.txt:40` [line] &&&&&w w w w o o.o oPoroaoyoeorw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o5o0o0o]w w w w
+- [ ] `lib/help/skills.txt:41` [line] &&&&&o o.o oMooonosotoeoro-oloooroew w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w o0o0o.o0o0o0o o[o0o.o5o0o0o]w w w w
+- [ ] `lib/help/skills.txt:43` [line] Now, looking at this screen, there are several things to be aware of. The
+- [ ] `lib/help/skills.txt:44` [line] first line lets you know if you have any available skill points to spend, and
+- [ ] `lib/help/skills.txt:45` [line] how many there are. Following that are 2 description lines for the currently
+- [ ] `lib/help/skills.txt:46` [line] selected skill - in this case they are describing the "Combat" skill. When
+- [ ] `lib/help/skills.txt:47` [line] looking at the list of skills, there are a few different colours used - the
+- [ ] `lib/help/skills.txt:48` [line] light green coloured skill (which also has its starting character in square
+- [ ] `lib/help/skills.txt:49` [line] brackets []) is the currently selected one - Combat in the example above.
+- [ ] `lib/help/skills.txt:50` [line] Skills that you cannot learn are omitted from the list. Skills that you are
+- [ ] `lib/help/skills.txt:51` [line] capable of learning, but as yet have not, are coloured in orange, while skills
+- [ ] `lib/help/skills.txt:52` [line] of which you have some knowledge are shown in white.
+- [ ] `lib/help/skills.txt:54` [line] At the end of each skill is a pair of numbers. The first represents your
+- [ ] `lib/help/skills.txt:55` [line] current level of knowledge in the skill, and the second how much an advance
+- [ ] `lib/help/skills.txt:56` [line] in this knowledge investing one skill point in this skill would produce. So,
+- [ ] `lib/help/skills.txt:57` [line] in the above example, if the player invested one skill point in their Combat
+- [ ] `lib/help/skills.txt:58` [line] skill, the skill would increase from 02.000 to 02.800.
+- [ ] `lib/help/skills.txt:60` [line] In addition, investing in some skills may raise your knowledge in others.
+- [ ] `lib/help/skills.txt:61` [line] This improvement is based on the modifier in the related class (the one which
+- [ ] `lib/help/skills.txt:62` [line] gets the free points).  For example, a skill point put into Weaponmastery
+- [ ] `lib/help/skills.txt:63` [line] raises Combat by 0.5 skill points. This is actually multiplied by the skill
+- [ ] `lib/help/skills.txt:64` [line] modifier that your character has in the Combat skill.  For example, a
+- [ ] `lib/help/skills.txt:65` [line] Swordmaster investing a skill point into Weaponmastery would have his Combat
+- [ ] `lib/help/skills.txt:66` [line] skill raised by 0.5 * [0.900].
+- [ ] `lib/help/skills.txt:68` [line] As well as this, skills are grouped together in similar types. Looking under
+- [ ] `lib/help/skills.txt:69` [line] the Combat skill, there are subtypes of Weaponmastery, Archery and Antimagic.
+- [ ] `lib/help/skills.txt:70` [line] An increase of one of these subskills may also increase the main skill by a
+- [ ] `lib/help/skills.txt:71` [line] small amount. You can tell which skills have subskills by the + (or -) in front
+- [ ] `lib/help/skills.txt:72` [line] of their name. The + indicates that there are more skills within this category.
+- [ ] `lib/help/skills.txt:73` [line] To open a skill category up, move the cursor up/down until the skill category
+- [ ] `lib/help/skills.txt:74` [line] is green, then hit the "Enter" key. Likewise, the - indicates that the category
+- [ ] `lib/help/skills.txt:75` [line] is already opened, and selecting this and hitting the "Enter" key will close it
+- [ ] `lib/help/skills.txt:76` [line] up again. Skills which don't have usable subskills start with a ".".
+- [ ] `lib/help/skills.txt:78` [line] To spend points on a skill (including skill categories), use the left/right
+- [ ] `lib/help/skills.txt:79` [line] arrow (right arrow or "6" adds one skill point, left arrow or "4" removes
+- [ ] `lib/help/skills.txt:80` [line] one). Spending points on a sub-skill will also marginally improve the parent
+- [ ] `lib/help/skills.txt:81` [line] skill (or skill category). When you've finished spending skill points (and any
+- [ ] `lib/help/skills.txt:82` [line] unspent points *will* be saved), hit the "Esc" key to finish. This will give
+- [ ] `lib/help/skills.txt:83` [line] a confirmation prompt to check that you really do want to spend your points as
+- [ ] `lib/help/skills.txt:84` [line] you've assigned them. Saying 'y' saves the changes and allows you to use or
+- [ ] `lib/help/skills.txt:85` [line] apply your new skills :).
+- [ ] `lib/help/skills.txt:87` [line] All skills have a maximum level of 50, and as long as you can learn a skill, 
+- [ ] `lib/help/skills.txt:88` [line] and have enough skill points to pump into it, it is theoretically possible to 
+- [ ] `lib/help/skills.txt:89` [line] get it to level 50 no matter what your race, class or how you learned it. 
+- [ ] `lib/help/skills.txt:91` [line] Each skill affects your character differently. It may be worth getting one or 
+- [ ] `lib/help/skills.txt:92` [line] more of your characters skills to 50, but it may not be worth investing [[[[[Bany]
+- [ ] `lib/help/skills.txt:93` [line] skill points in some other skills. As general and personal advice, which may
+- [ ] `lib/help/skills.txt:94` [line] not work for you, I'd say concentrate on a few skills, and leave the others
+- [ ] `lib/help/skills.txt:95` [line] empty. Just because you [[[[[Bcan] learn a skill, it doesn't mean you have to.
+- [ ] `lib/help/skills.txt:96` [line] It often pays to have a plan ("I'm going to make this assassin the
+- [ ] `lib/help/skills.txt:97` [line] stealthiest, most able-dodging, backstabber around. I'm not going to bother
+- [ ] `lib/help/skills.txt:98` [line] with trapping or thieving ability") which you can stick to for the whole game. 
+- [ ] `lib/help/skills.txt:99` [line] ~~~~~57|Skills|List of skills
+- [ ] `lib/help/skills.txt:100` [line] #####GThe Skills Themselves
+- [ ] `lib/help/skills.txt:101` [line] So you want to know what each of the skills do so that you can decide how to
+- [ ] `lib/help/skills.txt:102` [line] spend you're hard-earned points, huh? Well, each skill affects different
+- [ ] `lib/help/skills.txt:103` [line] abilities, and not all of them are intuitive - but they don't take all that
+- [ ] `lib/help/skills.txt:104` [line] long to learn :). 
+- [ ] `lib/help/skills.txt:105` [line] If you don't find this informative enough, and would like more detailed spoilers 
+- [ ] `lib/help/skills.txt:106` [line] on what each skill does, try [[[[[ghttp://www.killerbunnies.org/angband/skill-220.html]
+- [ ] `lib/help/skills.txt:107` [line] for some third party help!
+- [ ] `lib/help/skills.txt:108` [line] The skills are:
+- [ ] `lib/help/skills.txt:110` [line]   *****skills.txt*27[Air]                 *****skills.txt*50[Antimagic]          *****skills.txt*08[Archery]
+- [ ] `lib/help/skills.txt:111` [line]   *****skills.txt*05[Axe-mastery]         *****skills.txt*18[Backstab]           *****skills.txt*13[Barehand-combat]    *****skills.txt*61[Bearform-combat]
+- [ ] `lib/help/skills.txt:112` [line]   *****skills.txt*12[Boomerang-mastery]   *****skills.txt*58[Boulder-throwing]   *****skills.txt*10[Bow-mastery]        *****skills.txt*01[Combat]             
+- [ ] `lib/help/skills.txt:113` [line]   *****skills.txt*30[Conveyance]          *****skills.txt*44[Corpse-preservation]*****skills.txt*04[Critical-hits]      *****skills.txt*11[Crossbow-mastery]   
+- [ ] `lib/help/skills.txt:114` [line]   *****skills.txt*52[Demonology]          *****skills.txt*16[Disarming]          *****skills.txt*31[Divination]         *****skills.txt*20[Dodging]            
+- [ ] `lib/help/skills.txt:115` [line]   *****skills.txt*28[Earth]               *****skills.txt*25[Fire]               *****skills.txt*60[Geomancy]           *****skills.txt*06[Hafted-mastery]     
+- [ ] `lib/help/skills.txt:116` [line]   *****skills.txt*21[Magic]               *****skills.txt*54[Magic-device]       *****skills.txt*24[Mana]               *****skills.txt*29[Meta]               
+- [ ] `lib/help/skills.txt:117` [line]   *****skills.txt*47[Mimicry]             *****skills.txt*33[Mind]               *****skills.txt*41[Mindcraft]          *****skills.txt*42[Monster-lore]       
+- [ ] `lib/help/skills.txt:118` [line]   *****skills.txt*59[Music]               *****skills.txt*34[Nature]             *****skills.txt*35[Necromancy]         *****skills.txt*07[Polearm-mastery]    
+- [ ] `lib/help/skills.txt:119` [line]   *****skills.txt*45[Possession]          *****skills.txt*39[Prayer]             *****skills.txt*09[Sling-mastery]      
+- [ ] `lib/help/skills.txt:120` [line]   *****skills.txt*22[Spell-power]         *****skills.txt*38[Spirituality]       *****skills.txt*23[Sorcery]            *****skills.txt*19[Stealing]
+- [ ] `lib/help/skills.txt:121` [line]   *****skills.txt*15[Stealth]             *****skills.txt*53[Stunning-blows]     *****skills.txt*43[Summoning]          *****skills.txt*03[Sword-mastery]
+- [ ] `lib/help/skills.txt:122` [line]   *****skills.txt*46[Symbiosis]           *****skills.txt*32[Temporal]           *****skills.txt*37[Thaumaturgy]        *****skills.txt*48[Udun]
+- [ ] `lib/help/skills.txt:123` [line]   *****skills.txt*26[Water]               *****skills.txt*02[Weaponmastery]
+- [ ] `lib/help/skills.txt:126` [line] ~~~~~01|Skills|Combat
+- [ ] `lib/help/skills.txt:127` [line] [[[[[BCombat]
+- [ ] `lib/help/skills.txt:128` [line] The combat skill is used to determine the maximum combined weight of armour
+- [ ] `lib/help/skills.txt:129` [line] you can wear before you become encumbered by it. It also affects your general
+- [ ] `lib/help/skills.txt:130` [line] fighting ability, although not to as great an extent as Weaponmastery, and
+- [ ] `lib/help/skills.txt:131` [line] determines the speed and strength of pseudo-id of weapons and armour.
+- [ ] `lib/help/skills.txt:133` [line] Investing in the combat skill? You might be interested in the 
+- [ ] `lib/help/skills.txt:134` [line] *****ability.txt*05[Extra Max Blow(1)] and *****ability.txt*06[(2)] abilities.
+- [ ] `lib/help/skills.txt:136` [line] Sub-skills of Combat are Weaponmastery, Archery, Barehand-combat,
+- [ ] `lib/help/skills.txt:137` [line] Boulder-throwing and Anti-magic.
+- [ ] `lib/help/skills.txt:138` [line] ~~~~~02|Skills|Weaponmastery
+- [ ] `lib/help/skills.txt:139` [line] [[[[[BWeaponmastery]
+- [ ] `lib/help/skills.txt:140` [line] This skill is a sub-skill of the Combat skill. It affects your general
+- [ ] `lib/help/skills.txt:141` [line] ability to use melee weapons of all sorts. Spending 1 skill point on
+- [ ] `lib/help/skills.txt:142` [line] Weaponmastery adds 0.5 bonus skill points to Combat.
+- [ ] `lib/help/skills.txt:144` [line] Investing in the weaponmastery skill? You might be interested in the 
+- [ ] `lib/help/skills.txt:145` [line] *****ability.txt*02[Spread Blows] ability.
+- [ ] `lib/help/skills.txt:147` [line] Sub-skills of Weaponmastery are Sword-mastery, Axe-mastery, Hafted-mastery
+- [ ] `lib/help/skills.txt:148` [line] and Polearm-mastery.
+- [ ] `lib/help/skills.txt:149` [line] ~~~~~03|Skills|Sword-mastery
+- [ ] `lib/help/skills.txt:150` [line] [[[[[BSword-mastery]
+- [ ] `lib/help/skills.txt:151` [line] This skill is a sub-skill of the Weaponmastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:152` [line] to use bladed weapons (e.g. daggers, swords). Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:153` [line] Sword-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill
+- [ ] `lib/help/skills.txt:154` [line] and adds 0.07 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:156` [line] Critical-hits is a sub-skill of Sword-mastery.
+- [ ] `lib/help/skills.txt:157` [line] ~~~~~04|Skills|Critical-Hits
+- [ ] `lib/help/skills.txt:158` [line] [[[[[BCritical-hits]
+- [ ] `lib/help/skills.txt:159` [line] This skill is a sub-skill of the Sword-mastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:160` [line] to deal critical hits to monsters using a bladed weapon that weighs less than 5
+- [ ] `lib/help/skills.txt:161` [line] pounds. Spending one skill point on your Critical-hits skill also increases
+- [ ] `lib/help/skills.txt:162` [line] your Sword-mastery skill by 0.05 skill points.
+- [ ] `lib/help/skills.txt:163` [line] ~~~~~05|Skills|Axe-mastery
+- [ ] `lib/help/skills.txt:164` [line] [[[[[BAxe-mastery]
+- [ ] `lib/help/skills.txt:165` [line] This skill is a sub-skill of the Weaponmastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:166` [line] to use axes. Spending 1 skill point on your Axe-mastery skill adds 0.25 bonus
+- [ ] `lib/help/skills.txt:167` [line] skill points to your Weaponmastery skill and adds 0.07 bonus skill points to
+- [ ] `lib/help/skills.txt:168` [line] your Combat skill.
+- [ ] `lib/help/skills.txt:169` [line] ~~~~~06|Skills|Hafted-mastery
+- [ ] `lib/help/skills.txt:170` [line] [[[[[BHafted-mastery]
+- [ ] `lib/help/skills.txt:171` [line] This skill is a sub-skill of the Weaponmastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:172` [line] to use hafted weapons (e.g. whips & maces). Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:173` [line] Hafted-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill
+- [ ] `lib/help/skills.txt:174` [line] and adds 0.07 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:176` [line] Stunning-blows is a sub-skill of Hafted-mastery.
+- [ ] `lib/help/skills.txt:177` [line] ~~~~~53|Skills|Stunning-blows
+- [ ] `lib/help/skills.txt:178` [line] [[[[[BStunning-blows]
+- [ ] `lib/help/skills.txt:179` [line] This skill is a sub-skill of the Hafted-mastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:180` [line] to stun opponents when doing critical hits with a hafted weapon that weighs
+- [ ] `lib/help/skills.txt:181` [line] more than 5 lbs. Spending one skill point on your Stunning-blows skill also
+- [ ] `lib/help/skills.txt:182` [line] increases your Hafted-mastery skill by 0.05 skill points.
+- [ ] `lib/help/skills.txt:183` [line] ~~~~~07|Skills|Polearm-mastery
+- [ ] `lib/help/skills.txt:184` [line] [[[[[BPolearm-mastery]
+- [ ] `lib/help/skills.txt:185` [line] This skill is a sub-skill of the Weaponmastery skill. It affects your ability
+- [ ] `lib/help/skills.txt:186` [line] to use polearms (e.g. pikes & halberds). Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:187` [line] Polearm-mastery skill adds 0.25 bonus skill points to your Weaponmastery skill
+- [ ] `lib/help/skills.txt:188` [line] and adds 0.07 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:190` [line] Investing in the Polearm-mastery skill? You might be interested in the 
+- [ ] `lib/help/skills.txt:191` [line] *****ability.txt*10[Far reaching attack] ability.
+- [ ] `lib/help/skills.txt:192` [line] ~~~~~08|Skills|Archery
+- [ ] `lib/help/skills.txt:193` [line] [[[[[BArchery]
+- [ ] `lib/help/skills.txt:194` [line] This skill is a sub-skill of the Combat skill. It affects your general
+- [ ] `lib/help/skills.txt:195` [line] ability to use ranged weapons of all sorts. Spending one skill point on your 
+- [ ] `lib/help/skills.txt:196` [line] Archery skill adds 0.5 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:198` [line] Investing in the Archery skill? You might be interested in the 
+- [ ] `lib/help/skills.txt:199` [line] *****ability.txt*07[Ammo creation] ability.
+- [ ] `lib/help/skills.txt:201` [line] Sub-skills of Archery include Sling-mastery, Bow-mastery, Crossbow-mastery
+- [ ] `lib/help/skills.txt:202` [line] and Boomerang-mastery.
+- [ ] `lib/help/skills.txt:203` [line] ~~~~~09|Skills|Sling-mastery
+- [ ] `lib/help/skills.txt:204` [line] [[[[[BSling-mastery]
+- [ ] `lib/help/skills.txt:205` [line] This skill is a sub-skill of the Archery skill. It affects your ability to
+- [ ] `lib/help/skills.txt:206` [line] use Slings. Spending 1 skill point on your Sling-mastery skill adds 0.25
+- [ ] `lib/help/skills.txt:207` [line] bonus skill points to your Archery skill and 0.07 bonus skill points to your
+- [ ] `lib/help/skills.txt:208` [line] Combat skill.
+- [ ] `lib/help/skills.txt:209` [line] ~~~~~10|Skills|Bow-mastery
+- [ ] `lib/help/skills.txt:210` [line] [[[[[BBow-mastery]
+- [ ] `lib/help/skills.txt:211` [line] This skill is a sub-skill of the Archery skill. It affects your ability to
+- [ ] `lib/help/skills.txt:212` [line] use both Long and Short Bows. Spending 1 skill point on your Bow-mastery
+- [ ] `lib/help/skills.txt:213` [line] skill adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill
+- [ ] `lib/help/skills.txt:214` [line] points to your Combat skill.
+- [ ] `lib/help/skills.txt:215` [line] ~~~~~11|Skills|Crossbow-mastery
+- [ ] `lib/help/skills.txt:216` [line] [[[[[BCrossbow-mastery]
+- [ ] `lib/help/skills.txt:217` [line] This skill is a sub-skill of the Archery skill. It affects your ability
+- [ ] `lib/help/skills.txt:218` [line] to use both Heavy and Light Crossbows. Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:219` [line] Crossbow-mastery skill adds 0.25 bonus skill points to your Archery skill
+- [ ] `lib/help/skills.txt:220` [line] and 0.07 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:221` [line] ~~~~~12|Skills|Boomerang-mastery
+- [ ] `lib/help/skills.txt:222` [line] [[[[[BBoomerang-mastery]
+- [ ] `lib/help/skills.txt:223` [line] This skill is a sub-skill of the Archery skill. It affects your ability to
+- [ ] `lib/help/skills.txt:224` [line] use all boomerangs. Spending 1 skill point on your Boomerang-mastery skill
+- [ ] `lib/help/skills.txt:225` [line] adds 0.25 bonus skill points to your Archery skill and 0.07 bonus skill
+- [ ] `lib/help/skills.txt:226` [line] points to your Combat skill.
+- [ ] `lib/help/skills.txt:227` [line] ~~~~~13|Skills|Barehand-combat
+- [ ] `lib/help/skills.txt:228` [line] [[[[[BBarehand-combat]
+- [ ] `lib/help/skills.txt:229` [line] This skill is a sub-skill of the Combat skill. It affects your general ability
+- [ ] `lib/help/skills.txt:230` [line] to fight using martial arts. In order to utilise it, you must be capable of
+- [ ] `lib/help/skills.txt:231` [line] using a weapon in the first place, but choose not to. Spending 1 skill point
+- [ ] `lib/help/skills.txt:232` [line] on your Barehand-combat skill adds 0.5 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:233` [line] Barehand-combat fighters develop stronger and faster attacks, and also gain
+- [ ] `lib/help/skills.txt:234` [line] speed bonuses, as they advance in skill.  However, they cannot use this skill
+- [ ] `lib/help/skills.txt:235` [line] whilst wearing heavy armour.
+- [ ] `lib/help/skills.txt:236` [line] ~~~~~61|Skills|Bearform-combat
+- [ ] `lib/help/skills.txt:237` [line] [[[[[BBearform-combat]
+- [ ] `lib/help/skills.txt:238` [line] This skill is a sub-skill of the Combat skill. It affects your ability to fight 
+- [ ] `lib/help/skills.txt:239` [line] while in the form of a bear. In order to utilise it, you must be in bearform. 
+- [ ] `lib/help/skills.txt:240` [line] *****r_beorn.txt*0[Beornings] are the adventurers most likely to use this form of skill.
+- [ ] `lib/help/skills.txt:241` [line] ~~~~~58|Skills|Boulder-throwing
+- [ ] `lib/help/skills.txt:242` [line] [[[[[BBoulder-throwing]
+- [ ] `lib/help/skills.txt:243` [line] This skill is a sub-skill of the Combat skill. It affects your ability to
+- [ ] `lib/help/skills.txt:244` [line] throw boulders and make them from granite walls. Spending 1 skill point on
+- [ ] `lib/help/skills.txt:245` [line] your Boulder-throwing skill adds 0.4 bonus skill points to your Combat skill.
+- [ ] `lib/help/skills.txt:246` [line] ~~~~~50|Skills|Antimagic
+- [ ] `lib/help/skills.txt:247` [line] [[[[[BAntimagic]
+- [ ] `lib/help/skills.txt:248` [line] This skill is a sub-skill of the Combat skill.  It generates a field around
+- [ ] `lib/help/skills.txt:249` [line] the character within which magic cannot work. As such, it can be very useful
+- [ ] `lib/help/skills.txt:250` [line] to prevent monsters from casting offensive spells against you or from
+- [ ] `lib/help/skills.txt:251` [line] teleporting away from you just before you kill them - but it will also prevent
+- [ ] `lib/help/skills.txt:252` [line] you from casting spells, or teleporting away when they've almost killed you!
+- [ ] `lib/help/skills.txt:253` [line] It also inhibits your ability to do magic, affecting *all* the magic and
+- [ ] `lib/help/skills.txt:254` [line] spirituality sub-skills.
+- [ ] `lib/help/skills.txt:256` [line] This skill does not affect your ability to use scrolls and potions, but other 
+- [ ] `lib/help/skills.txt:257` [line] items that require [Self]Magic-Device are affected. At higher levels you gain 
+- [ ] `lib/help/skills.txt:258` [line] the ability to detect traps and disrupt all teleportation.
+- [ ] `lib/help/skills.txt:259` [line] ~~~~~15|Skills|Stealth
+- [ ] `lib/help/skills.txt:260` [line] [[[[[BStealth]
+- [ ] `lib/help/skills.txt:261` [line] This skill is a sub-skill of the Sneakiness skill. It affects your ability
+- [ ] `lib/help/skills.txt:262` [line] to move around the dungeon quietly so that you are not noticed by its
+- [ ] `lib/help/skills.txt:263` [line] inhabitants. Spending 1 skill point on your Stealth skill adds 0.15 bonus
+- [ ] `lib/help/skills.txt:264` [line] skill points to your Sneakiness skill.
+- [ ] `lib/help/skills.txt:265` [line] ~~~~~16|Skills|Disarming
+- [ ] `lib/help/skills.txt:266` [line] [[[[[BDisarming]
+- [ ] `lib/help/skills.txt:267` [line] This skill is a sub-skill of the Sneakiness skill. It affects your ability
+- [ ] `lib/help/skills.txt:268` [line] to safely disarm any traps you find. Spending 1 skill point on your Disarming
+- [ ] `lib/help/skills.txt:269` [line] skill adds 0.1 bonus skill points to your Sneakiness skill.
+- [ ] `lib/help/skills.txt:271` [line] Investing in the Disarming skill? You might be interested in the *****ability.txt*11[Trapping] 
+- [ ] `lib/help/skills.txt:272` [line] ability.
+- [ ] `lib/help/skills.txt:273` [line] ~~~~~18|Skills|Backstab
+- [ ] `lib/help/skills.txt:274` [line] [[[[[BBackstab]
+- [ ] `lib/help/skills.txt:275` [line] This skill is a sub-skill of the Sneakiness skill. It affects your ability
+- [ ] `lib/help/skills.txt:276` [line] to sneak up on monsters and do extra damage to them before they wake up.
+- [ ] `lib/help/skills.txt:277` [line] It also affects monsters who have turned to flee from you.  Spending 1 skill
+- [ ] `lib/help/skills.txt:278` [line] point on your Backstab skill adds 0.05 bonus skill points to your Sneakiness
+- [ ] `lib/help/skills.txt:279` [line] skill.
+- [ ] `lib/help/skills.txt:280` [line] ~~~~~19|Skills|Stealing
+- [ ] `lib/help/skills.txt:281` [line] [[[[[BStealing]
+- [ ] `lib/help/skills.txt:282` [line] This skill is a sub-skill of the Sneakiness skill. It affects your ability
+- [ ] `lib/help/skills.txt:283` [line] to steal items from monsters and shops. Be careful when stealing from shops;
+- [ ] `lib/help/skills.txt:284` [line] if you're caught, the shopkeeper will close his doors to you and not open
+- [ ] `lib/help/skills.txt:285` [line] them again. I have heard that shop keepers do not stay in one shop forever
+- [ ] `lib/help/skills.txt:286` [line] though. Spending 1 skill point on your Stealing skill adds 0.15 bonus skill
+- [ ] `lib/help/skills.txt:287` [line] points to your Sneakiness skill.
+- [ ] `lib/help/skills.txt:288` [line] ~~~~~20|Skills|Dodging
+- [ ] `lib/help/skills.txt:289` [line] [[[[[BDodging]
+- [ ] `lib/help/skills.txt:290` [line] This skill is a sub-skill of the Sneakiness skill. It affects your ability
+- [ ] `lib/help/skills.txt:291` [line] to dodge out of the way of monster blows and bolts. The less armour you wear 
+- [ ] `lib/help/skills.txt:292` [line] and the less you carry, the greater your chance of dodging a blow. Rings and 
+- [ ] `lib/help/skills.txt:293` [line] amulets do not affect your chance to dodge, but full armour will almost render 
+- [ ] `lib/help/skills.txt:294` [line] the effect of the skill obsolete. Spending 1 skill point on your Dodging skill 
+- [ ] `lib/help/skills.txt:295` [line] adds 0.1 bonus skill points to your Sneakiness skill.
+- [ ] `lib/help/skills.txt:296` [line] ~~~~~21|Skills|Magic
+- [ ] `lib/help/skills.txt:297` [line] [[[[[BMagic]
+- [ ] `lib/help/skills.txt:298` [line] The Magic skill affects your general use of magic items, the amount of mana
+- [ ] `lib/help/skills.txt:299` [line] you can handle, and in general your ability to do magic. It can also affect
+- [ ] `lib/help/skills.txt:300` [line] the strength of wands and staffs.
+- [ ] `lib/help/skills.txt:302` [line] Investing in the Magic skill? You might be interested in the *****ability.txt*04[Perfect Casting] 
+- [ ] `lib/help/skills.txt:303` [line] ability.
+- [ ] `lib/help/skills.txt:305` [line] Sub-skills include: Magic-device, Spell-power, Sorcery, Mana, Fire, Water, Air,
+- [ ] `lib/help/skills.txt:306` [line] Earth, Meta, Conveyance, Divination, Temporal, Mind, Nature, Udun, Demonology,
+- [ ] `lib/help/skills.txt:307` [line] Necromancy, and Thaumaturgy.
+- [ ] `lib/help/skills.txt:308` [line] ~~~~~54|Skills|Magic-device
+- [ ] `lib/help/skills.txt:309` [line] [[[[[BMagic-device]
+- [ ] `lib/help/skills.txt:310` [line] This skill is a sub-skill of the Magic skill. It eases the use of magical
+- [ ] `lib/help/skills.txt:311` [line] devices, such as wands, staves, and rods, and boosts the casting level of spells
+- [ ] `lib/help/skills.txt:312` [line] stored in a wand or a staff. *****magic.txt*02[More on this]. It also helps pseudo-id of magic
+- [ ] `lib/help/skills.txt:313` [line] objects. Spending 1 skill point on your Magic-device skill adds 0.07 bonus skill
+- [ ] `lib/help/skills.txt:314` [line] points to your Magic skill.
+- [ ] `lib/help/skills.txt:315` [line] ~~~~~22|Skills|Spell-power
+- [ ] `lib/help/skills.txt:316` [line] [[[[[BSpell-power]
+- [ ] `lib/help/skills.txt:317` [line] This skill is a sub-skill of the Magic skill. It boosts the casting level of
+- [ ] `lib/help/skills.txt:318` [line] most spells you are capable of casting. For example, if you have level one in
+- [ ] `lib/help/skills.txt:319` [line] the mana school, you could cast "Manathrust". For every 2.5 skill levels of
+- [ ] `lib/help/skills.txt:320` [line] Spell-power, Manathrust becomes more powerful, adding +1 casting level to the
+- [ ] `lib/help/skills.txt:321` [line] spell. Note that this is not exactly the same as certain magic items which 
+- [ ] `lib/help/skills.txt:322` [line] boost spell power. Spending 1 skill point on your Spell-power skill adds 0.2 
+- [ ] `lib/help/skills.txt:323` [line] bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:325` [line] [[[[[BThis skill only affects the 11 primary schools] (Mana, Earth, Air, Fire, 
+- [ ] `lib/help/skills.txt:326` [line] Water, Meta, Mind, Temporal, Conveyance, Divination and Nature), as well as
+- [ ] `lib/help/skills.txt:327` [line] Geomancy and the spells granted by the Gods.
+- [ ] `lib/help/skills.txt:328` [line] ~~~~~23|Skills|Sorcery
+- [ ] `lib/help/skills.txt:329` [line] [[[[[BSorcery]
+- [ ] `lib/help/skills.txt:330` [line] This skill is a sub-skill of the Magic skill. It allows you to access any
+- [ ] `lib/help/skills.txt:331` [line] spell in the 11 schools up to the sorcery skill level. For example, if you
+- [ ] `lib/help/skills.txt:332` [line] have a sorcery skill of 1, you could cast "Manathrust", which is a level 1
+- [ ] `lib/help/skills.txt:333` [line] mana school spell; and "Phase Door", which is a level 1 conveyance school
+- [ ] `lib/help/skills.txt:334` [line] spell. Spending 1 skill point on your Sorcery skill adds 0.2 bonus skill
+- [ ] `lib/help/skills.txt:335` [line] points to your Magic skill.
+- [ ] `lib/help/skills.txt:337` [line] [[[[[BThis skill only affects the 11 primary schools] (Mana, Earth, Air, Fire, 
+- [ ] `lib/help/skills.txt:338` [line] Water, Meta, Mind, Temporal, Conveyance, Divination and Nature).
+- [ ] `lib/help/skills.txt:340` [line] However, handling that much magic is hazardous to your health, and as such
+- [ ] `lib/help/skills.txt:341` [line] reduces both your hit points and your fighting ability. Any ability in sorcery
+- [ ] `lib/help/skills.txt:342` [line] affects your Weaponmastery, Archery, Barehand-combat and gives a negative
+- [ ] `lib/help/skills.txt:343` [line] percentage modifier to your total hit points, equal to the level of your
+- [ ] `lib/help/skills.txt:344` [line] sorcery skill (i.e. if sorcery is 12.500, hit points get modified by -12.5%).
+- [ ] `lib/help/skills.txt:345` [line] ~~~~~24|Skills|Mana
+- [ ] `lib/help/skills.txt:346` [line] [[[[[BMana]
+- [ ] `lib/help/skills.txt:347` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:348` [line] within the *****m_mana.txt*0[mana] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:349` [line] spells already attained in the school. For example, if you have level 1 in
+- [ ] `lib/help/skills.txt:350` [line] the mana school, you could cast "Manathrust" at a casting level of 1. For
+- [ ] `lib/help/skills.txt:351` [line] every skill level you add to Mana, Manathrust will become more powerful,
+- [ ] `lib/help/skills.txt:352` [line] adding 1 casting level to the spell. Spending 1 skill point on your Mana
+- [ ] `lib/help/skills.txt:353` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:354` [line] ~~~~~60|Skills|Geomancy
+- [ ] `lib/help/skills.txt:355` [line] [[[[[BGeomancy]
+- [ ] `lib/help/skills.txt:356` [line] This skill is a subskill of the Magic skill. It gives access to spells 
+- [ ] `lib/help/skills.txt:357` [line] within the *****m_geoman.txt*0[Geomancy] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:358` [line] spells already attained in the school. Most spells from this school rely 
+- [ ] `lib/help/skills.txt:359` [line] on the Fire, Water, Air and Earth skills as well. Spending 1 skill point 
+- [ ] `lib/help/skills.txt:360` [line] on your Geomancy skill adds 0.45 bonus skill points to your Fire, Water, 
+- [ ] `lib/help/skills.txt:361` [line] Air and Earth skills.
+- [ ] `lib/help/skills.txt:362` [line] ~~~~~25|Skills|Fire
+- [ ] `lib/help/skills.txt:363` [line] [[[[[BFire]
+- [ ] `lib/help/skills.txt:364` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:365` [line] within the *****m_fire.txt*0[fire] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:366` [line] spells already attained in the school. Spending 1 skill point on your Fire
+- [ ] `lib/help/skills.txt:367` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:368` [line] ~~~~~26|Skills|Water
+- [ ] `lib/help/skills.txt:369` [line] [[[[[BWater]
+- [ ] `lib/help/skills.txt:370` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:371` [line] within the *****m_water.txt*0[water] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:372` [line] spells already attained in the school. Spending 1 skill point on your Water
+- [ ] `lib/help/skills.txt:373` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:374` [line] ~~~~~27|Skills|Air
+- [ ] `lib/help/skills.txt:375` [line] [[[[[BAir]
+- [ ] `lib/help/skills.txt:376` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:377` [line] within the *****m_air.txt*0[air] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:378` [line] spells already attained in the school. Spending 1 skill point on your Air
+- [ ] `lib/help/skills.txt:379` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:380` [line] ~~~~~28|Skills|Earth
+- [ ] `lib/help/skills.txt:381` [line] [[[[[BEarth]
+- [ ] `lib/help/skills.txt:382` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:383` [line] within the *****m_earth.txt*0[earth] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:384` [line] spells already attained in the school. Spending 1 skill point on your Earth
+- [ ] `lib/help/skills.txt:385` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:386` [line] ~~~~~29|Skills|Meta
+- [ ] `lib/help/skills.txt:387` [line] [[[[[BMeta]
+- [ ] `lib/help/skills.txt:388` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:389` [line] within the *****m_meta.txt*0[meta] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:390` [line] spells already attained in the school. Spending 1 skill point on your Meta
+- [ ] `lib/help/skills.txt:391` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:392` [line] ~~~~~30|Skills|Conveyance
+- [ ] `lib/help/skills.txt:393` [line] [[[[[BConveyance]
+- [ ] `lib/help/skills.txt:394` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:395` [line] within the *****m_convey.txt*0[conveyance] school, and as it increases so does the casting level
+- [ ] `lib/help/skills.txt:396` [line] of spells already attained in the school. Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:397` [line] Conveyance skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:398` [line] ~~~~~31|Skills|Divination
+- [ ] `lib/help/skills.txt:399` [line] [[[[[BDivination]
+- [ ] `lib/help/skills.txt:400` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:401` [line] within the *****m_divin.txt*0[divination] school, and as it increases so does the casting level
+- [ ] `lib/help/skills.txt:402` [line] of spells already attained in the school. Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:403` [line] Divination skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:404` [line] ~~~~~32|Skills|Temporal
+- [ ] `lib/help/skills.txt:405` [line] [[[[[BTemporal]
+- [ ] `lib/help/skills.txt:406` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:407` [line] within the *****m_tempo.txt*0[temporal] school, and as it increases so does the casting level
+- [ ] `lib/help/skills.txt:408` [line] of spells already attained in the school. Spending 1 skill point on your
+- [ ] `lib/help/skills.txt:409` [line] Temporal skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:410` [line] ~~~~~33|Skills|Mind
+- [ ] `lib/help/skills.txt:411` [line] [[[[[BMind]
+- [ ] `lib/help/skills.txt:412` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:413` [line] within the *****m_mind.txt*0[mind] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:414` [line] spells already attained in the school. Spending 1 skill point on your Mind
+- [ ] `lib/help/skills.txt:415` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:416` [line] ~~~~~34|Skills|Nature
+- [ ] `lib/help/skills.txt:417` [line] [[[[[BNature]
+- [ ] `lib/help/skills.txt:418` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:419` [line] within the *****m_nature.txt*0[nature] school, and as it increases so does the casting level of
+- [ ] `lib/help/skills.txt:420` [line] spells already attained in the school. Spending 1 skill point on your Nature
+- [ ] `lib/help/skills.txt:421` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:423` [line] Investing in the Nature skill? You might be interested in the *****ability.txt*03[Tree Walking] 
+- [ ] `lib/help/skills.txt:424` [line] ability.
+- [ ] `lib/help/skills.txt:425` [line] ~~~~~48|Skills|Udun
+- [ ] `lib/help/skills.txt:426` [line] [[[[[BUdun]
+- [ ] `lib/help/skills.txt:427` [line] This skill is a sub-skill of the Magic skill. It gives access to spells
+- [ ] `lib/help/skills.txt:428` [line] within the *****m_udun.txt*0[Udun] school, and is available only to worshippers of Melkor.
+- [ ] `lib/help/skills.txt:429` [line] As it increases so does the casting level of spells already attained in the
+- [ ] `lib/help/skills.txt:430` [line] school. Spending 1 skill point on your Udun skill adds 0.1 bonus skill
+- [ ] `lib/help/skills.txt:431` [line] points to your Magic skill.
+- [ ] `lib/help/skills.txt:432` [line] ~~~~~52|Skills|Demonology
+- [ ] `lib/help/skills.txt:433` [line] [[[[[BDemonology]
+- [ ] `lib/help/skills.txt:434` [line] This skill is a sub-skill of the Magic skill. *****m_demono.txt*0[Demonology] gives access to spells
+- [ ] `lib/help/skills.txt:435` [line] contained within special Demon-blades, -shields and -horns (helms), and as it
+- [ ] `lib/help/skills.txt:436` [line] increases so does the casting level of spells already attained in the school.
+- [ ] `lib/help/skills.txt:437` [line] This skill is available only to Demonologists, or those sufficiently
+- [ ] `lib/help/skills.txt:438` [line] corrupted with demon-like powers. Spending 1 skill point on your Demonology
+- [ ] `lib/help/skills.txt:439` [line] skill adds 0.1 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:440` [line] ~~~~~35|Skills|Necromancy
+- [ ] `lib/help/skills.txt:441` [line] [[[[[BNecromancy]
+- [ ] `lib/help/skills.txt:442` [line] This skill is a sub-skill of the Magic skill. It grants access to *****m_necrom.txt*0[necromancy]
+- [ ] `lib/help/skills.txt:443` [line] spells. This is the base skill of the Necromancer class. Spending 1 skill
+- [ ] `lib/help/skills.txt:444` [line] point on your Necromancy skill adds 0.04 bonus skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:446` [line] Investing in the Necromancy skill? You might be interested in the 
+- [ ] `lib/help/skills.txt:447` [line] *****ability.txt*08[Touch of Death] and *****ability.txt*12[Undead Form] abilities.
+- [ ] `lib/help/skills.txt:448` [line] ~~~~~37|Skills|Thaumaturgy
+- [ ] `lib/help/skills.txt:449` [line] [[[[[BThaumaturgy]
+- [ ] `lib/help/skills.txt:450` [line] This skill is a sub-skill of the Magic skill. Each level of *****m_thaum.txt*0[thaumaturgy] gives
+- [ ] `lib/help/skills.txt:451` [line] a few random attack spells that can be cast without the use of spell books of
+- [ ] `lib/help/skills.txt:452` [line] any sort. However, once learned these spells do not gain in levels as the
+- [ ] `lib/help/skills.txt:453` [line] thaumaturgy skill or the spell-power skills are increased. Spending 1 skill
+- [ ] `lib/help/skills.txt:454` [line] point on your Thaumaturgy skill adds 0.06 bonus skill points to your Magic
+- [ ] `lib/help/skills.txt:455` [line] skill.
+- [ ] `lib/help/skills.txt:456` [line] ~~~~~38|Skills|Spirituality
+- [ ] `lib/help/skills.txt:457` [line] [[[[[BSpirituality]
+- [ ] `lib/help/skills.txt:458` [line] The spirituality skill influences things which have a "helping hand" from the
+- [ ] `lib/help/skills.txt:459` [line] Gods, like your saving throw, and the general spirituality skills.
+- [ ] `lib/help/skills.txt:461` [line] Sub-skills of Spirituality are Prayer, Mindcraft and Music.
+- [ ] `lib/help/skills.txt:462` [line] ~~~~~39|Skills|Prayer
+- [ ] `lib/help/skills.txt:463` [line] [[[[[BPrayer]
+- [ ] `lib/help/skills.txt:464` [line] This skill is a sub-skill of the Spirituality skill. It affects what level of
+- [ ] `lib/help/skills.txt:465` [line] your *****gods.txt*0[God's] special magic you can access (and what levels of the additional
+- [ ] `lib/help/skills.txt:466` [line] schools that each God also provides). Spending 1 skill point on your Prayer
+- [ ] `lib/help/skills.txt:467` [line] skill adds 0.1 bonus skill points to your Spirituality skill and 0.1 bonus
+- [ ] `lib/help/skills.txt:468` [line] skill points to your Magic skill.
+- [ ] `lib/help/skills.txt:469` [line] ~~~~~41|Skills|Mindcraft
+- [ ] `lib/help/skills.txt:470` [line] [[[[[BMindcraft]
+- [ ] `lib/help/skills.txt:471` [line] This skill is a sub-skill of the Spirituality skill. It affects what level of
+- [ ] `lib/help/skills.txt:472` [line] *****m_mindcr.txt*0[Mindcrafter powers] you can access, which is done without books and is
+- [ ] `lib/help/skills.txt:473` [line] available under the "m" menu. Spending 1 skill point on your Mindcraft skill
+- [ ] `lib/help/skills.txt:474` [line] adds 0.1 bonus skill points to your Spirituality skill and 0.1 bonus skill
+- [ ] `lib/help/skills.txt:475` [line] points to your Magic skill.
+- [ ] `lib/help/skills.txt:476` [line] ~~~~~59|Skills|Music
+- [ ] `lib/help/skills.txt:477` [line] [[[[[BMusic]
+- [ ] `lib/help/skills.txt:478` [line] This skill is a sub-skill of the Spirituality skill. It affects what level of
+- [ ] `lib/help/skills.txt:479` [line] *****m_music.txt*0[Musical songs] you can access through instruments. This power 
+- [ ] `lib/help/skills.txt:480` [line] is available under the "m" menu. Spending 1 skill point on your Music skill 
+- [ ] `lib/help/skills.txt:481` [line] adds 0.1 bonus skill points to your Spirituality skill and 0.1 bonus skill
+- [ ] `lib/help/skills.txt:482` [line] points to your Magic skill.
+- [ ] `lib/help/skills.txt:483` [line] ~~~~~42|Skills|Monster-lore
+- [ ] `lib/help/skills.txt:484` [line] [[[[[BMonster-lore]
+- [ ] `lib/help/skills.txt:485` [line] The monster-lore skill affects your general ability at the monster related
+- [ ] `lib/help/skills.txt:486` [line] skills. It determines how much experience you will gain if your *****dungeon.txt*18[pets] kill a
+- [ ] `lib/help/skills.txt:487` [line] monster, and how many companions you can have. At skill level 12, it allows 
+- [ ] `lib/help/skills.txt:488` [line] you to turn a pet into a loyal companion.
+- [ ] `lib/help/skills.txt:490` [line] Sub-skills of Monster-lore are Summoning, Corpse-preservation, Possession,
+- [ ] `lib/help/skills.txt:491` [line] Symbiosis, and Mimicry.
+- [ ] `lib/help/skills.txt:492` [line] ~~~~~43|Skills|Summoning
+- [ ] `lib/help/skills.txt:493` [line] [[[[[BSummoning]
+- [ ] `lib/help/skills.txt:494` [line] This skill is a sub-skill of the Monster-lore skill. It affects your ability
+- [ ] `lib/help/skills.txt:495` [line] to create "totems" and use them to summon monsters to your aid. Spending 1
+- [ ] `lib/help/skills.txt:496` [line] skill point on your Summoning skill adds 0.1 bonus skill points to your
+- [ ] `lib/help/skills.txt:497` [line] Monster-lore skill.
+- [ ] `lib/help/skills.txt:498` [line] ~~~~~44|Skills|Corpse-preservation
+- [ ] `lib/help/skills.txt:499` [line] [[[[[BCorpse-preservation]
+- [ ] `lib/help/skills.txt:500` [line] This skill is a sub-skill of the Monster-lore skill. It affects your ability
+- [ ] `lib/help/skills.txt:501` [line] to kill monsters without destroying their bodies, so the corpses will be
+- [ ] `lib/help/skills.txt:502` [line] available to use. Spending 1 skill point on your Corpse-preservation skill
+- [ ] `lib/help/skills.txt:503` [line] adds 0.1 bonus skill points to your Monster-lore skill.
+- [ ] `lib/help/skills.txt:504` [line] ~~~~~45|Skills|Possession
+- [ ] `lib/help/skills.txt:505` [line] [[[[[BPossession]
+- [ ] `lib/help/skills.txt:506` [line] This skill is a sub-skill of the Monster-lore skill. It affects your ability
+- [ ] `lib/help/skills.txt:507` [line] to possess a dead monster's corpse. Spending 1 skill point on your Possession
+- [ ] `lib/help/skills.txt:508` [line] skill adds 0.1 bonus skill points to your Monster-lore skill.
+- [ ] `lib/help/skills.txt:509` [line] ~~~~~46|Skills|Symbiosis
+- [ ] `lib/help/skills.txt:510` [line] [[[[[BSymbiosis]
+- [ ] `lib/help/skills.txt:511` [line] This skill is a sub-skill of the Monster-lore skill. It affects your ability
+- [ ] `lib/help/skills.txt:512` [line] to go into symbiosis with monsters that cannot move, and to cast *****m_symbio.txt*0[Symbiotic]
+- [ ] `lib/help/skills.txt:513` [line] spells. Spending 1 skill point on your Symbiosis skill adds 0.1 bonus skill
+- [ ] `lib/help/skills.txt:514` [line] points to your Monster-lore skill.
+- [ ] `lib/help/skills.txt:515` [line] ~~~~~47|Skills|Mimicry
+- [ ] `lib/help/skills.txt:516` [line] [[[[[BMimicry]
+- [ ] `lib/help/skills.txt:517` [line] This skill is a sub-skill of the Monster-lore skill. It affects your ability
+- [ ] `lib/help/skills.txt:518` [line] to use cloaks of mimicry to change form and to cast *****m_mimic.txt*0[Mimicry spells].
+- [ ] `lib/help/skills.txt:519` [line] Spending 1 skill point on your Mimicry skill adds 0.1 bonus skill points to 
+- [ ] `lib/help/skills.txt:520` [line] your Monster-lore skill.

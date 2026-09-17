@@ -1,0 +1,309 @@
+# 数据清单：lib/help/tome_faq.txt（text，逐条/逐行）
+
+- [ ] `lib/help/tome_faq.txt:1` [line] |||||oy
+- [ ] `lib/help/tome_faq.txt:2` [line] ~~~~~01|Help|FAQ - Spoiler free
+- [ ] `lib/help/tome_faq.txt:3` [line] ~~~~~02|FAQ - Spoiler free
+- [ ] `lib/help/tome_faq.txt:4` [line] #####R                             ToME FAQ
+- [ ] `lib/help/tome_faq.txt:5` [line] #####R                     Updated for version 2.3.x
+- [ ] `lib/help/tome_faq.txt:7` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:9` [line] #####R=== Differences Between ToME and Vanilla Angband ===
+- [ ] `lib/help/tome_faq.txt:11` [line] The first main difference a new player to ToME will need to be aware of is
+- [ ] `lib/help/tome_faq.txt:12` [line] that it has implemented a skills based system.  Instead of the adventurer
+- [ ] `lib/help/tome_faq.txt:13` [line] automatically improving in his abilities as he becomes more experienced,
+- [ ] `lib/help/tome_faq.txt:14` [line] he gets 6 skill points to spend on his skills, allowing the player to
+- [ ] `lib/help/tome_faq.txt:15` [line] customise what type of character she will play. See the *****skills.txt*0[skills] help file
+- [ ] `lib/help/tome_faq.txt:16` [line] for details.
+- [ ] `lib/help/tome_faq.txt:18` [line] A second major difference is that the main dungeon from Angband has been split 
+- [ ] `lib/help/tome_faq.txt:19` [line] into 4 "dungeons", each of which covers a different portion of the Angband
+- [ ] `lib/help/tome_faq.txt:20` [line] dungeon's levels. Each of these 4 dungeons is located either in or near one of
+- [ ] `lib/help/tome_faq.txt:21` [line] the four main towns so that the character can keep stocked up on supplies. As
+- [ ] `lib/help/tome_faq.txt:22` [line] the adventurer advances in ability, he will need to travel overland to the next
+- [ ] `lib/help/tome_faq.txt:23` [line] town/dungeon, which is most easily carried out using the wilderness map ("<" 
+- [ ] `lib/help/tome_faq.txt:24` [line] from town level). As well as these main places, there are a number of
+- [ ] `lib/help/tome_faq.txt:25` [line] additional dungeons which the character may or may not choose to enter, which
+- [ ] `lib/help/tome_faq.txt:26` [line] can have guardians, contain specific artifacts, or just be used as an
+- [ ] `lib/help/tome_faq.txt:27` [line] alternative place to enjoy gaining experience. Note that not all of the places
+- [ ] `lib/help/tome_faq.txt:28` [line] are actually "dungeons" - some are caves, forests, etc.
+- [ ] `lib/help/tome_faq.txt:30` [line] ToME also offers the player the ability to undertake a series of quests. 
+- [ ] `lib/help/tome_faq.txt:31` [line] Random quests can be specified during start-up, and involve rescuing a princess 
+- [ ] `lib/help/tome_faq.txt:32` [line] from a group of monsters within the dungeon, or recovering a lost sword from
+- [ ] `lib/help/tome_faq.txt:33` [line] (you guessed it...) a group of monsters. If you do not wish to play with 
+- [ ] `lib/help/tome_faq.txt:34` [line] random quests, simply specify "0" when asked how many you want during character 
+- [ ] `lib/help/tome_faq.txt:35` [line] generation. Other "fixed" quests are also available from the towns (whether 
+- [ ] `lib/help/tome_faq.txt:36` [line] random quests are enabled or not), usually given by the town leaders upon the 
+- [ ] `lib/help/tome_faq.txt:37` [line] request of the adventurer. It is not required for any adventurer to undertake 
+- [ ] `lib/help/tome_faq.txt:38` [line] the fixed quests, but they can result in some nice rewards.
+- [ ] `lib/help/tome_faq.txt:40` [line] The third main difference between Vanilla Angband and ToME is the difference 
+- [ ] `lib/help/tome_faq.txt:41` [line] in character classes and races, as well as a very different magic system. 
+- [ ] `lib/help/tome_faq.txt:42` [line] See the help files on *****birth.txt*0[Creating a character] and the *****magic.txt*0[magic] system. 
+- [ ] `lib/help/tome_faq.txt:43` [line] Class abilities (generally referred to as skills) are generally accessed 
+- [ ] `lib/help/tome_faq.txt:44` [line] through the 'm' command. Most racial abilities, or corruptions, are accessed 
+- [ ] `lib/help/tome_faq.txt:45` [line] through the "U" command.
+- [ ] `lib/help/tome_faq.txt:47` [line] To balance the expansion in things like player abilities and customisation, the 
+- [ ] `lib/help/tome_faq.txt:48` [line] list of both monsters and items has also been expanded. Be warned that items 
+- [ ] `lib/help/tome_faq.txt:49` [line] which were by default safe in Vanilla are not necessarily safe in ToME (a 
+- [ ] `lib/help/tome_faq.txt:50` [line] certain early artifact comes to mind here...), and picking on defenceless 
+- [ ] `lib/help/tome_faq.txt:51` [line] creatures is frowned upon....
+- [ ] `lib/help/tome_faq.txt:53` [line] Happy adventuring!
+- [ ] `lib/help/tome_faq.txt:54` [line] ~~~~~03|Altars
+- [ ] `lib/help/tome_faq.txt:55` [line] ~~~~~04|Gods|Altars
+- [ ] `lib/help/tome_faq.txt:56` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:57` [line] #####GQ: How do I use the altars (the 'O's) I see in the dungeon?
+- [ ] `lib/help/tome_faq.txt:59` [line] A: ToME introduces a new system of gods. 
+- [ ] `lib/help/tome_faq.txt:61` [line] You can find altars only in Lothlorien and in the dungeon.
+- [ ] `lib/help/tome_faq.txt:62` [line] The ones on the surface are dedicated to the good Valar (Eru, Manwe, Tulkas and
+- [ ] `lib/help/tome_faq.txt:63` [line] Yavanna), while altars found in the dungeons are "sacred" for Melkor.
+- [ ] `lib/help/tome_faq.txt:64` [line] You can use altars to convert yourself to the service of a specific Vala by
+- [ ] `lib/help/tome_faq.txt:65` [line] using the "O" command while standing on them. Beware, this works only if you
+- [ ] `lib/help/tome_faq.txt:66` [line] don't already have a God, and as a new convert, your God won't like you that
+- [ ] `lib/help/tome_faq.txt:67` [line] much.  Melkor also uses his altars as a mean of collecting sacrifices from his
+- [ ] `lib/help/tome_faq.txt:68` [line] devotees; this function is likewise accomplished by the "O" command.
+- [ ] `lib/help/tome_faq.txt:70` [line] Read *****gods.txt*0[gods.txt] for more information about Gods.
+- [ ] `lib/help/tome_faq.txt:71` [line] ~~~~~05|Fountains
+- [ ] `lib/help/tome_faq.txt:72` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:73` [line] #####GQ: How do I use the fountains (the '_'s) I see in the dungeon?
+- [ ] `lib/help/tome_faq.txt:75` [line] A: Fountains in ToME act like potions, but can only be identified by 
+- [ ] `lib/help/tome_faq.txt:76` [line] drinking from them. Each one can hold between 3 and 12 doses of the potion. 
+- [ ] `lib/help/tome_faq.txt:77` [line] Quaffing from a fountain can be done by using the 'H' command (in the standard 
+- [ ] `lib/help/tome_faq.txt:78` [line] keyset) and answering 'Q' at the prompt.
+- [ ] `lib/help/tome_faq.txt:80` [line] You can also fill empty bottles at a fountain (enabling you to identify the
+- [ ] `lib/help/tome_faq.txt:81` [line] potion and hence the type of fountain) by using the 'H' command and answering
+- [ ] `lib/help/tome_faq.txt:82` [line] 'F' at the prompt.  The game will then ask you to choose bottles and how many
+- [ ] `lib/help/tome_faq.txt:83` [line] bottles you want to fill.  You can find empty bottles on the dungeon and
+- [ ] `lib/help/tome_faq.txt:84` [line] drinking pints of fine ale/wine will give you emtpy bottles.
+- [ ] `lib/help/tome_faq.txt:86` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:87` [line] #####GQ: I got killed by a Great Wyrm of Power at 50'!!! What happened?
+- [ ] `lib/help/tome_faq.txt:89` [line] A: You killed a defenceless creature. I told you that it was frowned upon!
+- [ ] `lib/help/tome_faq.txt:90` [line] ~~~~~18|Artifacts that activate but I cannot wear or wield
+- [ ] `lib/help/tome_faq.txt:91` [line] ~~~~~17|Strange items
+- [ ] `lib/help/tome_faq.txt:92` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:93` [line] #####GQ: I've found some strange items like a Red Tome, a Voodoo Doll, ...
+- [ ] `lib/help/tome_faq.txt:94` [line] #####G   What can I do with them?
+- [ ] `lib/help/tome_faq.txt:96` [line] A: You've found an unusual artifact that cannot be wielded, but always
+- [ ] `lib/help/tome_faq.txt:97` [line] has a sometimes-useful activation.  It will not be listed in the known
+- [ ] `lib/help/tome_faq.txt:98` [line] artifact list and its activation is chosen randomly. It would probably be
+- [ ] `lib/help/tome_faq.txt:99` [line] wise for this kind of artifact be *identified* before use, as the
+- [ ] `lib/help/tome_faq.txt:100` [line] activation can be something very nasty....
+- [ ] `lib/help/tome_faq.txt:102` [line] To activate it, use the normal Activation command, but when prompted for which 
+- [ ] `lib/help/tome_faq.txt:103` [line] item to activate change to the backpack instead of wielded equipment.
+- [ ] `lib/help/tome_faq.txt:104` [line] ~~~~~12|Homes
+- [ ] `lib/help/tome_faq.txt:105` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:106` [line] #####GQ: Where can I store all my equipment? Theere's not enough room in my
+- [ ] `lib/help/tome_faq.txt:107` [line] #####Ginventory? And what happened to the thieves quest in Bree?
+- [ ] `lib/help/tome_faq.txt:109` [line] Nor is there supposed to be enough room in your backpack. It's not 
+- [ ] `lib/help/tome_faq.txt:110` [line] bottomless you know! If you go talk to the Mayor in Bree, he might let you know 
+- [ ] `lib/help/tome_faq.txt:111` [line] about a slight problem that there's been in town. If you can clear up the 
+- [ ] `lib/help/tome_faq.txt:112` [line] problem, you may find yourself with somewhere extra to keep your stuff. I've 
+- [ ] `lib/help/tome_faq.txt:113` [line] heard tell that there are similiar problems in other towns in Middle-Earth. 
+- [ ] `lib/help/tome_faq.txt:114` [line] ~~~~~13|Fates|Prophets
+- [ ] `lib/help/tome_faq.txt:115` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:116` [line] #####GQ: I spent 500 gp at the Prophet but she said nothing. Is that a bug ?
+- [ ] `lib/help/tome_faq.txt:118` [line] A: No. Nor is it because Prophets are swindlers. She said nothing
+- [ ] `lib/help/tome_faq.txt:119` [line] because you have no fate at this moment.  You gain fates while playing, and
+- [ ] `lib/help/tome_faq.txt:120` [line] will be warned by a message such as "You feel your fate has changed".  A fate
+- [ ] `lib/help/tome_faq.txt:121` [line] can be useless like finding a broken skull at level 30, deadly like dying at
+- [ ] `lib/help/tome_faq.txt:122` [line] level 56, or really useful like never dying by the hand of a mortal.
+- [ ] `lib/help/tome_faq.txt:123` [line] ~~~~~14|Mathilde
+- [ ] `lib/help/tome_faq.txt:124` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:125` [line] #####GQ: Who is Mathilde, the Science Student whom I see every so often in the
+- [ ] `lib/help/tome_faq.txt:126` [line] #####G   town?
+- [ ] `lib/help/tome_faq.txt:128` [line] A: Most of the time she laughs and giggles. She has no loot on her, and
+- [ ] `lib/help/tome_faq.txt:129` [line] she's never done you any harm. So leave her be - even if she should
+- [ ] `lib/help/tome_faq.txt:130` [line] happen to shout "Drop dead, creep!"
+- [ ] `lib/help/tome_faq.txt:131` [line] ~~~~~15|Wrists hurting
+- [ ] `lib/help/tome_faq.txt:132` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:133` [line] #####GQ: My wrists hurt a lot when playing the game. Should I take precautions?
+- [ ] `lib/help/tome_faq.txt:135` [line] A: Yes, you should. Repetitive strain on wrists (which results from a badly
+- [ ] `lib/help/tome_faq.txt:136` [line] placed keyboard, for example) can lead to serious injury of the wrist ligaments
+- [ ] `lib/help/tome_faq.txt:137` [line] called Carpal Tunnel Syndrome. If you feel your wrists are strained, here is 
+- [ ] `lib/help/tome_faq.txt:138` [line] an exercise posted by Jason Maskell in rec.games.roguelike.angband which might 
+- [ ] `lib/help/tome_faq.txt:139` [line] help:
+- [ ] `lib/help/tome_faq.txt:141` [line] Hold your arms out horizontally, make a fist, and then point the fist towards 
+- [ ] `lib/help/tome_faq.txt:142` [line] the floor, as much as you can. This will stretch one side's tendons. Hold for 
+- [ ] `lib/help/tome_faq.txt:143` [line] 5 seconds. Then make a flat hand and hold it level with your arm, hold for 5 
+- [ ] `lib/help/tome_faq.txt:144` [line] seconds. Now splay your fingers and attempt to make your hand point toward the 
+- [ ] `lib/help/tome_faq.txt:145` [line] ceiling (this one is hard, so don't push it too much). You should feel your 
+- [ ] `lib/help/tome_faq.txt:146` [line] tendons stretching. Repeat this a few times. Take frequent breaks and do this 
+- [ ] `lib/help/tome_faq.txt:147` [line] if it starts to hurt a little bit. I was sliding very fast towards CTS and this
+- [ ] `lib/help/tome_faq.txt:148` [line] corrected it.
+- [ ] `lib/help/tome_faq.txt:149` [line] ~~~~~16|Void jumpgates
+- [ ] `lib/help/tome_faq.txt:150` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:151` [line] #####GQ: When I stand on void jumpgates I'm never teleported away, what's wrong?
+- [ ] `lib/help/tome_faq.txt:153` [line] A: Void jumpgates are not automatic. You must press '>' while standing
+- [ ] `lib/help/tome_faq.txt:154` [line] on one to activate it. 
+- [ ] `lib/help/tome_faq.txt:156` [line] ~~~~~08|Monsters|They are talking to me!
+- [ ] `lib/help/tome_faq.txt:157` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:158` [line] #####GQ: Farmer Maggot / Melinda Proudfoot keep shouting at me, and I cannot
+- [ ] `lib/help/tome_faq.txt:159` [line] #####G   kill them.
+- [ ] `lib/help/tome_faq.txt:161` [line] A: Both these people need to talk to you about something. Have a chat with them 
+- [ ] `lib/help/tome_faq.txt:162` [line] (check the file *****command.txt*96[command.txt] for how to chat).
+- [ ] `lib/help/tome_faq.txt:163` [line] ~~~~~09|Sentient weapons
+- [ ] `lib/help/tome_faq.txt:164` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:165` [line] #####GQ: I have found a sentient weapon, it says it has access to the realms 
+- [ ] `lib/help/tome_faq.txt:166` [line] #####G   of Earth and Fire. How do I use these realms?
+- [ ] `lib/help/tome_faq.txt:168` [line] A: You don't actually 'use' them as such. If a weapon is sentient it means it 
+- [ ] `lib/help/tome_faq.txt:169` [line] gains experience itself as it delivers killing blows. As it levels up it has 
+- [ ] `lib/help/tome_faq.txt:170` [line] the chance to gain pluses to hit and to damage, and also powers from any of the 
+- [ ] `lib/help/tome_faq.txt:171` [line] available 'realms'. For instance, the realm of fire gives the chance to gain 
+- [ ] `lib/help/tome_faq.txt:172` [line] resistance to fire, or fire branding on your weapon. The realm of earth has a 
+- [ ] `lib/help/tome_faq.txt:173` [line] chance to confer extra attacks or the power of causing earthquakes and so on.
+- [ ] `lib/help/tome_faq.txt:174` [line] ~~~~~24|Fumblefingers quests
+- [ ] `lib/help/tome_faq.txt:175` [line] ~~~~~25|Abbreviations|FF
+- [ ] `lib/help/tome_faq.txt:176` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:177` [line] #####GQ: What or who is Fumblefingers? How do I get his quests?
+- [ ] `lib/help/tome_faq.txt:179` [line] A: FF is short for Fumblefingers, the name that some players give to the
+- [ ] `lib/help/tome_faq.txt:180` [line] adventurer who keeps having his sword stolen by monsters and asking you to
+- [ ] `lib/help/tome_faq.txt:181` [line] find it for him. So named because he often seems to lose it to molds and
+- [ ] `lib/help/tome_faq.txt:182` [line] other creatures you wouldn't expect to be able to pickpocket!  During birth
+- [ ] `lib/help/tome_faq.txt:183` [line] you'll be asked to specify a number of random quests you would like to
+- [ ] `lib/help/tome_faq.txt:184` [line] attempt to complete. Some of these quests will take the form of princess
+- [ ] `lib/help/tome_faq.txt:185` [line] quests, others will be fumble-finger quests. If you complete the task he
+- [ ] `lib/help/tome_faq.txt:186` [line] sets you sucessfully, he'll offer to join you as a companion. If you do not
+- [ ] `lib/help/tome_faq.txt:187` [line] want him to join you, he'll offer to teach you some new skills. Quite handy.
+- [ ] `lib/help/tome_faq.txt:188` [line] ~~~~~26|Random quests are not working.
+- [ ] `lib/help/tome_faq.txt:189` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:190` [line] #####GQ: Where has the option gone to set the number of random quests?
+- [ ] `lib/help/tome_faq.txt:191` [line] #####G   Why aren't there any after the Barrow-downs?
+- [ ] `lib/help/tome_faq.txt:193` [line] A: Turning on either of the options "Allow permanent dungeon levels" or "Always
+- [ ] `lib/help/tome_faq.txt:194` [line] create special rooms" will disable random quests.  Random quests can only be
+- [ ] `lib/help/tome_faq.txt:195` [line] found in the four main dungeons (Barrowdowns, Mirkwood, Mordor and Angband). 
+- [ ] `lib/help/tome_faq.txt:196` [line] ~~~~~27|Weird display
+- [ ] `lib/help/tome_faq.txt:197` [line] ~~~~~28|Floor tiles displaying incorrectly
+- [ ] `lib/help/tome_faq.txt:198` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:199` [line] #####GQ: How do I get the dots to show up on floor tiles in Windows XP? I've tried 
+- [ ] `lib/help/tome_faq.txt:200` [line] #####G changing the tile character to the brighter dot. Toggling 'Bizarre Display' 
+- [ ] `lib/help/tome_faq.txt:201` [line] #####G mode helped with the trailing @@@@@@@@@@@@@@@@@ problem. Any suggestions? I 
+- [ ] `lib/help/tome_faq.txt:202` [line] #####G gave up a long time ago and play with graphics tiles now, but I'd like to be 
+- [ ] `lib/help/tome_faq.txt:203` [line] #####G able to fix this.
+- [ ] `lib/help/tome_faq.txt:205` [line] A: In the file ./lib/pref/font_win.prf, either remove or comment out with # the 
+- [ ] `lib/help/tome_faq.txt:206` [line] lines that end in /0x1F, e.g.
+- [ ] `lib/help/tome_faq.txt:207` [line] # open floor
+- [ ] `lib/help/tome_faq.txt:208` [line] # F:1:0x01/0x1F
+- [ ] `lib/help/tome_faq.txt:209` [line] Another possibility is to manually change the symbols used with the '%' 
+- [ ] `lib/help/tome_faq.txt:210` [line] command, but the previous solution is faster.
+- [ ] `lib/help/tome_faq.txt:211` [line] ~~~~~29|Dark grey things are difficult to see
+- [ ] `lib/help/tome_faq.txt:212` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:213` [line] #####GQ: Many things are written in a dark grey color which is next to impossible to 
+- [ ] `lib/help/tome_faq.txt:214` [line] #####G read against a black background. Also, some monsters appear in dark grey and 
+- [ ] `lib/help/tome_faq.txt:215` [line] #####G are easy to miss! What can I do to fix this?
+- [ ] `lib/help/tome_faq.txt:217` [line] A: Fix the gamma control of your display. If your display software does not 
+- [ ] `lib/help/tome_faq.txt:218` [line] include such a tool, access the 'Interact with Colors' screen in ToME via 
+- [ ] `lib/help/tome_faq.txt:219` [line] shift+7, type '4', and modify the gamma correction there. 
+- [ ] `lib/help/tome_faq.txt:220` [line] ~~~~~30|Game 'balance'
+- [ ] `lib/help/tome_faq.txt:221` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:222` [line] #####GQ: Why don't you make X class less powerful or Y class more powerful?
+- [ ] `lib/help/tome_faq.txt:224` [line] A: In ToME the player determines how hard the game is. Classes, races, and 
+- [ ] `lib/help/tome_faq.txt:225` [line] subraces are neither meant nor desired to be equal in game difficulty. So no, 
+- [ ] `lib/help/tome_faq.txt:226` [line] we won't make Axemasters more powerful just to "balance them out", nor will we 
+- [ ] `lib/help/tome_faq.txt:227` [line] make Sorcerors weaker.
+- [ ] `lib/help/tome_faq.txt:228` [line] ~~~~~31|I keep dying!
+- [ ] `lib/help/tome_faq.txt:229` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:230` [line] #####GQ: Why do I always start in a terribly difficult, very deep dungeon instead of 
+- [ ] `lib/help/tome_faq.txt:231` [line] #####G a town? Is the game really this hard?
+- [ ] `lib/help/tome_faq.txt:233` [line] A: You have chosen a "Lost soul" character subrace. That's where Lost souls 
+- [ ] `lib/help/tome_faq.txt:234` [line] start. They tend to die very quickly, so don't choose them if you're new to
+- [ ] `lib/help/tome_faq.txt:235` [line] ToME. 
+- [ ] `lib/help/tome_faq.txt:236` [line] ~~~~~32|Invisible character
+- [ ] `lib/help/tome_faq.txt:237` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:238` [line] #####GQ: My character is invisible. That's great, but how do I know where she is if 
+- [ ] `lib/help/tome_faq.txt:239` [line] #####G I can't see her?!
+- [ ] `lib/help/tome_faq.txt:241` [line] A: You could seek for a way to see invisible things.
+- [ ] `lib/help/tome_faq.txt:242` [line] You could also go to game options:
+- [ ] `lib/help/tome_faq.txt:243` [line]     1. Type = (game options)
+- [ ] `lib/help/tome_faq.txt:244` [line]     2. Type 4 (efficiency options)
+- [ ] `lib/help/tome_faq.txt:245` [line]     3. Arrow down to 'hilite the player with the cursor'
+- [ ] `lib/help/tome_faq.txt:246` [line]     4. Type y to toggle the option to 'yes'
+- [ ] `lib/help/tome_faq.txt:247` [line] ~~~~~33|Objects|Piles
+- [ ] `lib/help/tome_faq.txt:248` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:249` [line] #####GQ: I'm standing on a pile of items. How do I see what's in the pile without 
+- [ ] `lib/help/tome_faq.txt:250` [line] #####G picking it all up, moving it, or destroying it all?
+- [ ] `lib/help/tome_faq.txt:251` [line] A:
+- [ ] `lib/help/tome_faq.txt:252` [line]     1. Stand on the pile in question
+- [ ] `lib/help/tome_faq.txt:253` [line]     2. Type shift + I (inspect)
+- [ ] `lib/help/tome_faq.txt:254` [line]     3. Type - (examine items on floor)
+- [ ] `lib/help/tome_faq.txt:255` [line]     4. Type * (expand list of items on floor)
+- [ ] `lib/help/tome_faq.txt:256` [line]     5. (as needed) Type letter associated with item to look at it more closely.
+- [ ] `lib/help/tome_faq.txt:258` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:259` [line] #####GQ: If I'm standing on a pile of items. Is there a command to see if there is a 
+- [ ] `lib/help/tome_faq.txt:260` [line] #####G stairway or jumpgate beneath the pile?
+- [ ] `lib/help/tome_faq.txt:262` [line] A: Stairs/jumpgates obscured by clutter do still function. You are advised to 
+- [ ] `lib/help/tome_faq.txt:263` [line] take a good hard look at your surroundings before creating lots of dungeon 
+- [ ] `lib/help/tome_faq.txt:264` [line] clutter.
+- [ ] `lib/help/tome_faq.txt:265` [line]     1. You can pick up, move, or eliminate the pile.
+- [ ] `lib/help/tome_faq.txt:266` [line]     2. Press l (look), then select the square you wish to inquire about. Press 
+- [ ] `lib/help/tome_faq.txt:267` [line] <enter>; it will scroll through everything on the ground, and eventually it 
+- [ ] `lib/help/tome_faq.txt:268` [line] ends with "It is in a Void Jumpgate", or whatever.
+- [ ] `lib/help/tome_faq.txt:269` [line] ~~~~~34|Character choice is too confusing
+- [ ] `lib/help/tome_faq.txt:270` [line] ~~~~~36|Beginner strategy
+- [ ] `lib/help/tome_faq.txt:271` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:272` [line] #####GQ: What is a good starting character?
+- [ ] `lib/help/tome_faq.txt:274` [line] A: Make sure to read the parchment you start the game with!
+- [ ] `lib/help/tome_faq.txt:276` [line] If you're new to ToME, understand that your characters are going to die a lot. 
+- [ ] `lib/help/tome_faq.txt:277` [line] Be prepared for that. In fact, take advantage of it by using the various 
+- [ ] `lib/help/tome_faq.txt:278` [line] characters you run to experiment and learn the game's various facets.
+- [ ] `lib/help/tome_faq.txt:280` [line] Try a warrior. A Dunadan Swordmaster is an excellent combination of race and
+- [ ] `lib/help/tome_faq.txt:281` [line] class.
+- [ ] `lib/help/tome_faq.txt:283` [line] Try a priest. A Rohan Knight Paladin gives you some magic to go with strong 
+- [ ] `lib/help/tome_faq.txt:284` [line] combat, but your terrible stealth will give you a tougher time in some respects.
+- [ ] `lib/help/tome_faq.txt:286` [line] Try an archer. A Wood-elf Archer will have fewer hitpoints than you're used to, 
+- [ ] `lib/help/tome_faq.txt:287` [line] but lets you use excellent ranged combat instead. Also note how your higher 
+- [ ] `lib/help/tome_faq.txt:288` [line] stealth wakes up fewer monsters, letting you fight them more on your own terms.
+- [ ] `lib/help/tome_faq.txt:290` [line] Try a mage. A Dark-elf Mage lets you keep using weapons, while getting a taste 
+- [ ] `lib/help/tome_faq.txt:291` [line] of the various magic schools. You have even fewer hitpoints, though, so beware.
+- [ ] `lib/help/tome_faq.txt:293` [line] Try another mage. A Hobbit Sorceror is a fun character, but the hitpoint 
+- [ ] `lib/help/tome_faq.txt:294` [line] penalties make you need to be very careful. You get high-powered magic, though, 
+- [ ] `lib/help/tome_faq.txt:295` [line] to more than make up for it.
+- [ ] `lib/help/tome_faq.txt:297` [line] I would just add that for those who get frustrated in the early levels and want 
+- [ ] `lib/help/tome_faq.txt:298` [line] to run a more powerful character that I think the three easiest combinations 
+- [ ] `lib/help/tome_faq.txt:299` [line] are probably the Zombie Rohan Knight Unbeliever, the Thunderlord (or Vampire 
+- [ ] `lib/help/tome_faq.txt:300` [line] Half-Ogre) Sorceror, and the High-Elf (or Deathmold if you can figure it out) 
+- [ ] `lib/help/tome_faq.txt:301` [line] Possessor. Also, you might want to try a priest of Eru or Tulkas. Most of these 
+- [ ] `lib/help/tome_faq.txt:302` [line] have low stealth, but should be pretty easy to play up to around level 30, and 
+- [ ] `lib/help/tome_faq.txt:303` [line] they offer an attractive range of experiences for the new player.
+- [ ] `lib/help/tome_faq.txt:304` [line] ~~~~~35|I STILL keep dying!
+- [ ] `lib/help/tome_faq.txt:305` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:306` [line] #####GQ: I'm getting killed a lot. Can you recommend some starting options to 
+- [ ] `lib/help/tome_faq.txt:307` [line] #####G make my chances a little better?
+- [ ] `lib/help/tome_faq.txt:309` [line] A: Realize that getting killed a lot is to be expected. Having said that, try
+- [ ] `lib/help/tome_faq.txt:310` [line] this. At character creation:
+- [ ] `lib/help/tome_faq.txt:311` [line]     1. Turn off "always generate very unusual rooms".
+- [ ] `lib/help/tome_faq.txt:312` [line]     2. Turn off joke monsters.
+- [ ] `lib/help/tome_faq.txt:313` [line]     3. Turn off "always make small levels".
+- [ ] `lib/help/tome_faq.txt:314` [line]     4. Regarding the number of random quests: See the Q/A below.
+- [ ] `lib/help/tome_faq.txt:315` [line]     5. Do not choose a Lost Soul character.
+- [ ] `lib/help/tome_faq.txt:317` [line] Later, set these options:
+- [ ] `lib/help/tome_faq.txt:318` [line]     1. Turn on "expand the power of the look command".
+- [ ] `lib/help/tome_faq.txt:319` [line]     2. Turn on "allow some monsters to carry light".
+- [ ] `lib/help/tome_faq.txt:320` [line]     3. Turn on "map remembers all perma-lit grids".
+- [ ] `lib/help/tome_faq.txt:321` [line]     4. Turn on "map remembers all torch-lit grids".
+- [ ] `lib/help/tome_faq.txt:322` [line]     5. Turn off "monsters learn from their mistakes".
+- [ ] `lib/help/tome_faq.txt:323` [line]     6. Turn off "monsters exploit player weaknesses".
+- [ ] `lib/help/tome_faq.txt:324` [line]     7. Turn on "monsters behave stupidly".
+- [ ] `lib/help/tome_faq.txt:325` [line]     8. Turn off "allow unusually small dungeon levels".
+- [ ] `lib/help/tome_faq.txt:326` [line]     9. Turn off "allow empty 'arena' levels".
+- [ ] `lib/help/tome_faq.txt:328` [line] ~~~~~36|Random quests strategy
+- [ ] `lib/help/tome_faq.txt:329` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:330` [line] #####GQ: How many random quests should I choose?
+- [ ] `lib/help/tome_faq.txt:332` [line] A: One big question a beginner is faced with is: How many (random) optional 
+- [ ] `lib/help/tome_faq.txt:333` [line] quests to choose?
+- [ ] `lib/help/tome_faq.txt:335` [line] I think this is another area where the beginner should mix it up. The early 
+- [ ] `lib/help/tome_faq.txt:336` [line] items from princesses are a great benefit to beginners, but coming to rely on 
+- [ ] `lib/help/tome_faq.txt:337` [line] those can be a problem when it comes time to enter deep dungeons and the real
+- [ ] `lib/help/tome_faq.txt:338` [line] nasty quests begin.
+- [ ] `lib/help/tome_faq.txt:340` [line] Also high counts, especially 98 quests, can be very frustrating for a beginner 
+- [ ] `lib/help/tome_faq.txt:341` [line] when it puts an especially difficult quest on dungeon level 1 or 2.
+- [ ] `lib/help/tome_faq.txt:343` [line] ~~~~~37|Anti-magic Amulets and the Anti-magic shell
+- [ ] `lib/help/tome_faq.txt:344` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:345` [line] #####GQ: Are Amulets of Anti-magic and the Anti-magic skill related?
+- [ ] `lib/help/tome_faq.txt:347` [line] A: No. The Anti-magic shell of the Amulet of Anti-magic has nothing to do with 
+- [ ] `lib/help/tome_faq.txt:348` [line] the Anti-magic field given off by the skill and Dark Swords. 
+- [ ] `lib/help/tome_faq.txt:350` [line] ~~~~~38|Beornings and Bearform-combat
+- [ ] `lib/help/tome_faq.txt:351` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:352` [line] #####GQ: My Beorning character doesn't have Bearform-combat! Why?
+- [ ] `lib/help/tome_faq.txt:354` [line] A: You cannot put points into Bearform-combat unless you are transformed
+- [ ] `lib/help/tome_faq.txt:355` [line] into a bear.  Use the racial power ('U' in the original keyset, 'O' in
+- [ ] `lib/help/tome_faq.txt:356` [line] roguelike) to transform first.
+- [ ] `lib/help/tome_faq.txt:358` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/tome_faq.txt:359` [line] #####GQ: The game is so slow...
+- [ ] `lib/help/tome_faq.txt:361` [line] A: Yeah :(
+- [ ] `lib/help/tome_faq.txt:362` [line] Try disabling the various options marked as (slow)

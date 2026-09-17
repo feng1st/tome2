@@ -1,0 +1,58 @@
+# 数据清单：lib/help/c_unbel.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_unbel.txt:1` [line] ~~~~~01|Unbeliever
+- [ ] `lib/help/c_unbel.txt:2` [line] ~~~~~02|Classes|Unbeliever
+- [ ] `lib/help/c_unbel.txt:3` [line] #####R=== Unbelievers ===
+- [ ] `lib/help/c_unbel.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_unbel.txt:6` [line] The full opposite of Sorcerors, Unbelievers so strongly despise magic 
+- [ ] `lib/help/c_unbel.txt:7` [line] that not only do they refuse to use magic spells, they refuse all 
+- [ ] `lib/help/c_unbel.txt:8` [line] training in the use of magic items, which leaves them almost totally 
+- [ ] `lib/help/c_unbel.txt:9` [line] incompetent when trying to use a magic item.
+- [ ] `lib/help/c_unbel.txt:11` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_unbel.txt:12` [line] Strength       +5
+- [ ] `lib/help/c_unbel.txt:13` [line] Intelligence   -2
+- [ ] `lib/help/c_unbel.txt:14` [line] Wisdom         -2
+- [ ] `lib/help/c_unbel.txt:15` [line] Dexterity      +2
+- [ ] `lib/help/c_unbel.txt:16` [line] Constitution   +2
+- [ ] `lib/help/c_unbel.txt:17` [line] Charisma       -1
+- [ ] `lib/help/c_unbel.txt:18` [line] Hit Die        +d9
+- [ ] `lib/help/c_unbel.txt:19` [line] Spell Points   +0%
+- [ ] `lib/help/c_unbel.txt:20` [line] Exp Penalty     0%
+- [ ] `lib/help/c_unbel.txt:22` [line] #####GStarting Skills
+- [ ] `lib/help/c_unbel.txt:23` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_unbel.txt:24` [line] Combat                  2.000           [0.800]
+- [ ] `lib/help/c_unbel.txt:25` [line]   Weaponmastery         1.000           [0.850]
+- [ ] `lib/help/c_unbel.txt:26` [line]     Sword-mastery       0.000           [0.400]
+- [ ] `lib/help/c_unbel.txt:27` [line]     Axe-mastery         0.000           [0.400]
+- [ ] `lib/help/c_unbel.txt:28` [line]     Hafted-mastery      0.000           [0.400]
+- [ ] `lib/help/c_unbel.txt:29` [line]     Polearm-mastery     0.000           [0.400]
+- [ ] `lib/help/c_unbel.txt:30` [line]   Archery               1.000           [0.600]
+- [ ] `lib/help/c_unbel.txt:31` [line]   Antimagic             1.000           [0.650]
+- [ ] `lib/help/c_unbel.txt:32` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_unbel.txt:33` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_unbel.txt:34` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_unbel.txt:35` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_unbel.txt:37` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_unbel.txt:38` [line] #####BAbility              Character level
+- [ ] `lib/help/c_unbel.txt:39` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_unbel.txt:40` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_unbel.txt:41` [line] Spread blows                25
+- [ ] `lib/help/c_unbel.txt:43` [line] #####GStarting Equipment
+- [ ] `lib/help/c_unbel.txt:44` [line] An Unbeliever begins the game with:
+- [ ] `lib/help/c_unbel.txt:45` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_unbel.txt:46` [line]     a Dark Sword
+- [ ] `lib/help/c_unbel.txt:47` [line]     a Chain Mail
+- [ ] `lib/help/c_unbel.txt:49` [line] ~~~~~03|Unbelievers|Antimagic
+- [ ] `lib/help/c_unbel.txt:50` [line] ~~~~~04|Antimagic
+- [ ] `lib/help/c_unbel.txt:51` [line] ~~~~~05|Skills|Antimagic powers
+- [ ] `lib/help/c_unbel.txt:52` [line] #####GAntimagic
+- [ ] `lib/help/c_unbel.txt:53` [line] Thought carries power. And since Unbelievers think that magic doesn't
+- [ ] `lib/help/c_unbel.txt:54` [line] exist, they can suppress its manifestation around them.
+- [ ] `lib/help/c_unbel.txt:55` [line] Their magic-inhibiting ability and the area of effect around them are
+- [ ] `lib/help/c_unbel.txt:56` [line] determined by the skill level in Antimagic. If they wield a Dark Sword,
+- [ ] `lib/help/c_unbel.txt:57` [line] the strength and radius of the magic disrupting field are increased further,
+- [ ] `lib/help/c_unbel.txt:58` [line] with best results if the blade is unenchanted.
+- [ ] `lib/help/c_unbel.txt:60` [line] High levels of proficiency in Antimagic allow them also to stabilise the 
+- [ ] `lib/help/c_unbel.txt:61` [line] space-time continuum, so preventing teleportation, to sense the magical 
+- [ ] `lib/help/c_unbel.txt:62` [line] emanations coming from traps and to destroy these around them. 
+- [ ] `lib/help/c_unbel.txt:63` [line] These abilities are accessed using the 'm' key.

@@ -1,0 +1,32 @@
+# 数据清单：lib/help/r_drkelf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_drkelf.txt:1` [line] ~~~~~01|Dark Elf
+- [ ] `lib/help/r_drkelf.txt:2` [line] ~~~~~02|Races|Dark Elf
+- [ ] `lib/help/r_drkelf.txt:3` [line] #####R=== Dark Elves ===
+- [ ] `lib/help/r_drkelf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_drkelf.txt:6` [line] Another dark, cave-dwelling race, likewise unhampered by darkness attacks,
+- [ ] `lib/help/r_drkelf.txt:7` [line] the Dark Elves have a long tradition and knowledge of magic. With their 
+- [ ] `lib/help/r_drkelf.txt:8` [line] intelligence and wisdom they can become superb mages or priests, and they
+- [ ] `lib/help/r_drkelf.txt:9` [line] have an inherent magic missile attack available to them at a low level. With
+- [ ] `lib/help/r_drkelf.txt:10` [line] their keen sight, they also learn to see invisible things as their relatives 
+- [ ] `lib/help/r_drkelf.txt:11` [line] the High-Elves do, but at a higher level.
+- [ ] `lib/help/r_drkelf.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/r_drkelf.txt:14` [line] Strength        -1   
+- [ ] `lib/help/r_drkelf.txt:15` [line] Intelligence    +3   
+- [ ] `lib/help/r_drkelf.txt:16` [line] Wisdom          +2   
+- [ ] `lib/help/r_drkelf.txt:17` [line] Dexterity       +2   
+- [ ] `lib/help/r_drkelf.txt:18` [line] Constitution    -2   
+- [ ] `lib/help/r_drkelf.txt:19` [line] Charisma        +1       
+- [ ] `lib/help/r_drkelf.txt:20` [line] Hit Dice Sides  9         
+- [ ] `lib/help/r_drkelf.txt:21` [line] Exp Penalty     +50%
+- [ ] `lib/help/r_drkelf.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_drkelf.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_drkelf.txt:25` [line] Combat                  
+- [ ] `lib/help/r_drkelf.txt:26` [line]   Weaponmastery        -0.500           [0.000]
+- [ ] `lib/help/r_drkelf.txt:27` [line]   Archery		1.000           [0.000]
+- [ ] `lib/help/r_drkelf.txt:28` [line] Sneakiness              0.800           [0.000]
+- [ ] `lib/help/r_drkelf.txt:29` [line]   Stealth               3.000           [0.000]
+- [ ] `lib/help/r_drkelf.txt:30` [line]   Disarming             0.500           [0.000]
+- [ ] `lib/help/r_drkelf.txt:31` [line] Magic                   0.000           [0.200]
+- [ ] `lib/help/r_drkelf.txt:32` [line]   Magic-Device          1.500           [0.000]
+- [ ] `lib/help/r_drkelf.txt:33` [line] Spirituality           10.000           [0.000]

@@ -1,0 +1,31 @@
+# 数据清单：lib/help/r_thlord.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_thlord.txt:1` [line] ~~~~~01|Thunderlord
+- [ ] `lib/help/r_thlord.txt:2` [line] ~~~~~02|Races|Thunderlord
+- [ ] `lib/help/r_thlord.txt:3` [line] #####R=== Thunderlords ===
+- [ ] `lib/help/r_thlord.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_thlord.txt:6` [line] The Thunderlords are supremely powerful spirits created by Manwe Sulimo,
+- [ ] `lib/help/r_thlord.txt:7` [line] each riding a Great Eagle. They have the ability to conjure powerful 
+- [ ] `lib/help/r_thlord.txt:8` [line] thunderbolts, they are telepathic, and they gain the ability to use the
+- [ ] `lib/help/r_thlord.txt:9` [line] Straight Road, which can carry them to any location they have previously been.
+- [ ] `lib/help/r_thlord.txt:10` [line] Due to their special clothing, they can resist elemental damage.  However,
+- [ ] `lib/help/r_thlord.txt:11` [line] they take a very long time to gain levels as both rider and eagle must
+- [ ] `lib/help/r_thlord.txt:12` [line] accumulate experience.
+- [ ] `lib/help/r_thlord.txt:14` [line] #####GStat Modifiers
+- [ ] `lib/help/r_thlord.txt:15` [line] Strength        +6   
+- [ ] `lib/help/r_thlord.txt:16` [line] Intelligence    +2   
+- [ ] `lib/help/r_thlord.txt:17` [line] Wisdom          +1   
+- [ ] `lib/help/r_thlord.txt:18` [line] Dexterity       +1   
+- [ ] `lib/help/r_thlord.txt:19` [line] Constitution    +3   
+- [ ] `lib/help/r_thlord.txt:20` [line] Charisma        +8       
+- [ ] `lib/help/r_thlord.txt:21` [line] Hit Dice Sides  12         
+- [ ] `lib/help/r_thlord.txt:22` [line] Exp Penalty     +300%
+- [ ] `lib/help/r_thlord.txt:24` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_thlord.txt:25` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_thlord.txt:26` [line] Combat                  
+- [ ] `lib/help/r_thlord.txt:27` [line]   Weaponmastery         1.500           [0.000]
+- [ ] `lib/help/r_thlord.txt:28` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/r_thlord.txt:29` [line] Sneakiness              3.000           [0.000]
+- [ ] `lib/help/r_thlord.txt:30` [line]   Stealth             -16.000           [0.000]
+- [ ] `lib/help/r_thlord.txt:31` [line]   Disarming             0.600           [0.000]
+- [ ] `lib/help/r_thlord.txt:32` [line] Spirituality            5.000           [0.000]

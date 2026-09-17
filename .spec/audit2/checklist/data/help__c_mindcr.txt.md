@@ -1,0 +1,53 @@
+# 数据清单：lib/help/c_mindcr.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_mindcr.txt:1` [line] |||||oy
+- [ ] `lib/help/c_mindcr.txt:2` [line] ~~~~~01|Mindcrafter
+- [ ] `lib/help/c_mindcr.txt:3` [line] ~~~~~02|Classes|Mindcrafter
+- [ ] `lib/help/c_mindcr.txt:4` [line] #####R=== Mindcrafters ===
+- [ ] `lib/help/c_mindcr.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_mindcr.txt:7` [line] The Mindcrafter is a priest who uses the powers of mind instead of magic.
+- [ ] `lib/help/c_mindcr.txt:8` [line] These abilities vary from simple extrasensory perception to mental domination of
+- [ ] `lib/help/c_mindcr.txt:9` [line] others. Since these powers are developed by the practice of certain
+- [ ] `lib/help/c_mindcr.txt:10` [line] disciplines, a Mindcrafter requires no spellbooks to use them.
+- [ ] `lib/help/c_mindcr.txt:11` [line] The Mindcrafter uses the Mindcraft skill to determine how well she can
+- [ ] `lib/help/c_mindcr.txt:12` [line] perform these psychic "spells", and available powers are simply determined by
+- [ ] `lib/help/c_mindcr.txt:13` [line] the skill level. In combat a Mindcrafter is roughly the equivalent of a
+- [ ] `lib/help/c_mindcr.txt:14` [line] priest.
+- [ ] `lib/help/c_mindcr.txt:16` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_mindcr.txt:17` [line] Strength         -1
+- [ ] `lib/help/c_mindcr.txt:18` [line] Intelligence     -3
+- [ ] `lib/help/c_mindcr.txt:19` [line] Wisdom           +3
+- [ ] `lib/help/c_mindcr.txt:20` [line] Dexterity        -1
+- [ ] `lib/help/c_mindcr.txt:21` [line] Constitution     +0
+- [ ] `lib/help/c_mindcr.txt:22` [line] Charisma         +2
+- [ ] `lib/help/c_mindcr.txt:23` [line] Hit Die          +d2
+- [ ] `lib/help/c_mindcr.txt:24` [line] Spell Points     +0%
+- [ ] `lib/help/c_mindcr.txt:25` [line] Exp Penalty      20%
+- [ ] `lib/help/c_mindcr.txt:27` [line] #####GStarting Skills:
+- [ ] `lib/help/c_mindcr.txt:28` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_mindcr.txt:29` [line] Combat                  2.000           [0.700]
+- [ ] `lib/help/c_mindcr.txt:30` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_mindcr.txt:31` [line] Sneakiness              1.000           [1.100]
+- [ ] `lib/help/c_mindcr.txt:32` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_mindcr.txt:33` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_mindcr.txt:34` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_mindcr.txt:35` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_mindcr.txt:36` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_mindcr.txt:37` [line]   Necromancy            0.000           [0.400]
+- [ ] `lib/help/c_mindcr.txt:38` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_mindcr.txt:39` [line]   Prayer                1.000           [0.900]
+- [ ] `lib/help/c_mindcr.txt:40` [line]   Mindcraft             1.000           [0.900]
+- [ ] `lib/help/c_mindcr.txt:41` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_mindcr.txt:43` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_mindcr.txt:44` [line] #####BAbility              Character level
+- [ ] `lib/help/c_mindcr.txt:45` [line] Perfect casting             1
+- [ ] `lib/help/c_mindcr.txt:47` [line] #####GMindcraft Powers
+- [ ] `lib/help/c_mindcr.txt:48` [line] Although the powers of a Mindcrafter may seem like magic, this is not
+- [ ] `lib/help/c_mindcr.txt:49` [line] -- strictly speaking -- the case. They are mental powers, independent
+- [ ] `lib/help/c_mindcr.txt:50` [line] of the ordinary sources of magic. Consequently, Mindcrafters are not
+- [ ] `lib/help/c_mindcr.txt:51` [line] interested in 'magic' and learn no spells. These mental powers can be
+- [ ] `lib/help/c_mindcr.txt:52` [line] accessed through the "m" command, and you can find a full list of their 
+- [ ] `lib/help/c_mindcr.txt:53` [line] powers in the *****m_mindcr.txt*0[Mindcraft powers] document.
+- [ ] `lib/help/c_mindcr.txt:55` [line] #####GStarting Equipment
+- [ ] `lib/help/c_mindcr.txt:56` [line] A Mindcrafter begins the game with:
+- [ ] `lib/help/c_mindcr.txt:57` [line]     a Mace

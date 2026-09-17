@@ -1,0 +1,35 @@
+# 数据清单：lib/help/r_wodelf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_wodelf.txt:1` [line] ~~~~~01|Wood Elf
+- [ ] `lib/help/r_wodelf.txt:2` [line] ~~~~~02|Races|Wood Elf
+- [ ] `lib/help/r_wodelf.txt:3` [line] #####R=== Wood Elves ===
+- [ ] `lib/help/r_wodelf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_wodelf.txt:6` [line] The first love of Wood Elves is hunting. As such, their skill with the bow
+- [ ] `lib/help/r_wodelf.txt:7` [line] is unparalleled. They train tirelessly with their bows, to the point of 
+- [ ] `lib/help/r_wodelf.txt:8` [line] neglecting even melee skills. They resist light as with other elves, and 
+- [ ] `lib/help/r_wodelf.txt:9` [line] do extra damage with a ranged weapon. They are almost custom made for the 
+- [ ] `lib/help/r_wodelf.txt:10` [line] archer class, but also make interesting warriors. Even Wood Elf Mages
+- [ ] `lib/help/r_wodelf.txt:11` [line] are feasible, using the bow to attack and saving their magic for defence.
+- [ ] `lib/help/r_wodelf.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/r_wodelf.txt:14` [line] Strength        -3   
+- [ ] `lib/help/r_wodelf.txt:15` [line] Intelligence    +2   
+- [ ] `lib/help/r_wodelf.txt:16` [line] Wisdom          +1   
+- [ ] `lib/help/r_wodelf.txt:17` [line] Dexterity       +5   
+- [ ] `lib/help/r_wodelf.txt:18` [line] Constitution    -4   
+- [ ] `lib/help/r_wodelf.txt:19` [line] Charisma        +1       
+- [ ] `lib/help/r_wodelf.txt:20` [line] Hit Dice Sides  7         
+- [ ] `lib/help/r_wodelf.txt:21` [line] Exp Penalty     +30%
+- [ ] `lib/help/r_wodelf.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_wodelf.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_wodelf.txt:25` [line] Combat                  
+- [ ] `lib/help/r_wodelf.txt:26` [line]   Weaponmastery        -2.500           [0.000]
+- [ ] `lib/help/r_wodelf.txt:27` [line]   Archery               4.000           [0.000]
+- [ ] `lib/help/r_wodelf.txt:28` [line] Sneakiness              0.800           [0.000]
+- [ ] `lib/help/r_wodelf.txt:29` [line]   Stealth               5.000           [0.000]
+- [ ] `lib/help/r_wodelf.txt:30` [line]   Disarming             0.500           [0.000]
+- [ ] `lib/help/r_wodelf.txt:31` [line] Magic                   
+- [ ] `lib/help/r_wodelf.txt:32` [line]   Magic-Device          0.600           [0.000]
+- [ ] `lib/help/r_wodelf.txt:33` [line] Spirituality            4.000           [0.000]
+- [ ] `lib/help/r_wodelf.txt:35` [line] #####GInnate Abilities:
+- [ ] `lib/help/r_wodelf.txt:36` [line] #####BAbility              Character level
+- [ ] `lib/help/r_wodelf.txt:37` [line] Tree-walking                1

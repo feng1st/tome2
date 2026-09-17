@@ -1,0 +1,119 @@
+# 数据清单：lib/help/TANG.txt（text，逐条/逐行）
+
+- [ ] `lib/help/TANG.txt:1` [line] |||||oy
+- [ ] `lib/help/TANG.txt:2` [line] ~~~~~01|Help|Newbie help
+- [ ] `lib/help/TANG.txt:3` [line] #####R              The ToME Newbie Guide
+- [ ] `lib/help/TANG.txt:4` [line] by Pat Gunn and others
+- [ ] `lib/help/TANG.txt:5` [line] Based loosely off of Chris Weisieger's Angband Newbie Guide.
+- [ ] `lib/help/TANG.txt:7` [line]         Welcome to ToME, a popular descendant of Moria/Angband.
+- [ ] `lib/help/TANG.txt:8` [line] ToME has many unique features that set it apart from other
+- [ ] `lib/help/TANG.txt:9` [line] Angband/Moria descendants, with a nice mix of races/classes available.
+- [ ] `lib/help/TANG.txt:10` [line] This guide will walk you, a player of ToME, through your first
+- [ ] `lib/help/TANG.txt:11` [line] game (or two), introducing you to basic features that will help your
+- [ ] `lib/help/TANG.txt:12` [line] character survive.
+- [ ] `lib/help/TANG.txt:14` [line] 	After you start the game for the first time, you will be
+- [ ] `lib/help/TANG.txt:15` [line] prompted to create a new character. For this guide, we will start
+- [ ] `lib/help/TANG.txt:16` [line] out with simple, easy to play characters. Go through the prompts,
+- [ ] `lib/help/TANG.txt:17` [line] and select one of the following class/race combinations that will
+- [ ] `lib/help/TANG.txt:18` [line] make for a simple first character:
+- [ ] `lib/help/TANG.txt:20` [line] 	Wood Elf (Classical) Archer
+- [ ] `lib/help/TANG.txt:21` [line] 	Half-Troll (Zombie) Unbeliever
+- [ ] `lib/help/TANG.txt:22` [line] 	Half-Ogre (Barbarian) Warrior
+- [ ] `lib/help/TANG.txt:24` [line] After class/race selection, you will roll your statistics. Roll a few times
+- [ ] `lib/help/TANG.txt:25` [line] until you get decent strength, constitution, and dexterity scores (the higher
+- [ ] `lib/help/TANG.txt:26` [line] the better). After naming your character, you will appear in the
+- [ ] `lib/help/TANG.txt:27` [line] town.
+- [ ] `lib/help/TANG.txt:29` [line] 	The town is a (relatively) safe place for you to buy/sell equipment,
+- [ ] `lib/help/TANG.txt:30` [line] start quests, drop off items for storage, and various other things. Each store
+- [ ] `lib/help/TANG.txt:31` [line] is represented by a symbol (either a number or a '+') on the side of a
+- [ ] `lib/help/TANG.txt:32` [line] *****bldg.txt*0[building]. To enter a store, move over that symbol. You can also 'l'ook
+- [ ] `lib/help/TANG.txt:33` [line] around to see the identity of stores and other inhabitants of the town. At
+- [ ] `lib/help/TANG.txt:34` [line] this level, be wary of merchants and mercenaries -- they can probably kill you
+- [ ] `lib/help/TANG.txt:35` [line] with little difficulty.
+- [ ] `lib/help/TANG.txt:37` [line] 	You will want to 'w'ield the weapons/armour you have started with
+- [ ] `lib/help/TANG.txt:38` [line] (if you chose the archer, wield the bow, and then wield the arrows). You
+- [ ] `lib/help/TANG.txt:39` [line] can check to see what you're wearing/wielding at any time by pressing
+- [ ] `lib/help/TANG.txt:40` [line] 'e'. Ideally, throughout the game you'll always have some kind of missile
+- [ ] `lib/help/TANG.txt:41` [line] weapon and a decent melee weapon. Initially, purchasing a short bow and
+- [ ] `lib/help/TANG.txt:42` [line] some plain arrows might be wise (archers start with a bow and some arrows,
+- [ ] `lib/help/TANG.txt:43` [line] but you'll probably want to buy more ammo). Choice of a melee weapon is
+- [ ] `lib/help/TANG.txt:44` [line] much more complex, but for now, unless you start with a good melee weapon
+- [ ] `lib/help/TANG.txt:45` [line] (unbelievers do), you might want to consider buying a whip from the
+- [ ] `lib/help/TANG.txt:46` [line] weapon store '3' (or the temple '4'). If available, purchase a lantern
+- [ ] `lib/help/TANG.txt:47` [line] and 2 or 3 flasks of oil from the general store '1'. If you have some
+- [ ] `lib/help/TANG.txt:48` [line] money left, buy some of the cheaper armour pieces from the armoury '2',
+- [ ] `lib/help/TANG.txt:49` [line] such as boots, gloves, cap, and the like.  You should now be ready to
+- [ ] `lib/help/TANG.txt:50` [line] do some adventuring.
+- [ ] `lib/help/TANG.txt:52` [line]         Just west of Bree are some steps into the first dungeon. Move on top
+- [ ] `lib/help/TANG.txt:53` [line] of these stairs and hit '>' to go down. You will notice that when you arrive 
+- [ ] `lib/help/TANG.txt:54` [line] in the dungeon, you will be on top of some stairs going back up, and in the 
+- [ ] `lib/help/TANG.txt:55` [line] lower right, you will see how deep in the dungeon you are. When you need to 
+- [ ] `lib/help/TANG.txt:56` [line] return to town, head upstairs from the top level of the dungeon (which you are 
+- [ ] `lib/help/TANG.txt:57` [line] in now). Other stairs down will take you deeper in the dungeon. For now, stay
+- [ ] `lib/help/TANG.txt:58` [line] on the first level of the dungeon, and fight some monsters to gain some
+- [ ] `lib/help/TANG.txt:59` [line] experience. Be careful only to fight one monster at a time -- avoid fighting
+- [ ] `lib/help/TANG.txt:60` [line] in open rooms when monsters can gang up on you. Also, avoid floating eyes
+- [ ] `lib/help/TANG.txt:61` [line] 'e', and 'l'ook at monsters before getting involved in combat with them.
+- [ ] `lib/help/TANG.txt:62` [line] The 'C' button will bring up a screen telling you how many experience points
+- [ ] `lib/help/TANG.txt:63` [line] you need to go to next level, and 'l'ooking at monsters will tell you how
+- [ ] `lib/help/TANG.txt:64` [line] many experience points they are worth. 
+- [ ] `lib/help/TANG.txt:66` [line] 	Once you go up a level, you'll want to invest some skill points so 
+- [ ] `lib/help/TANG.txt:67` [line] that your character improves. See the *****skills.txt*0[skills] help file for details.
+- [ ] `lib/help/TANG.txt:69` [line] 	Grab treasure, and when you are carrying close to as much as you can 
+- [ ] `lib/help/TANG.txt:70` [line] carry, head back to Bree and sell your loot. Buy phase door scrolls, teleport
+- [ ] `lib/help/TANG.txt:71` [line] scrolls, and potions that will cure your wounds. Use any remaining money to
+- [ ] `lib/help/TANG.txt:72` [line] buy identify scrolls. After a few trips, and reaching experience level 3, try
+- [ ] `lib/help/TANG.txt:73` [line] going deeper in the dungeon before coming up.
+- [ ] `lib/help/TANG.txt:75` [line] 	Before you start going past the 8th or 9th level down, you will
+- [ ] `lib/help/TANG.txt:76` [line] want some means of detecting traps, as traps begin to be a problem around
+- [ ] `lib/help/TANG.txt:77` [line] that depth. Eventually, you'll want a rod of trap location (unless you are
+- [ ] `lib/help/TANG.txt:78` [line] an unbeliever), but scrolls or staves will do until you find a rod and a
+- [ ] `lib/help/TANG.txt:79` [line] rod tip of the right kind. These items, when used, will display all traps
+- [ ] `lib/help/TANG.txt:80` [line] in a radius around you. This means that you'll want to use them again
+- [ ] `lib/help/TANG.txt:81` [line] every time you run to the edge of that radius and into an area where you
+- [ ] `lib/help/TANG.txt:82` [line] haven't yet detected traps.
+- [ ] `lib/help/TANG.txt:84` [line] 	Some kinds of items grant useful resistances or powers. You can
+- [ ] `lib/help/TANG.txt:85` [line] see your current resistances and other stats by hitting 'C' and scrolling
+- [ ] `lib/help/TANG.txt:86` [line] through the screens that come up. If you come across a Thunderlord coat
+- [ ] `lib/help/TANG.txt:87` [line] early in the game, they make a good choice, as they grant resistance to
+- [ ] `lib/help/TANG.txt:88` [line] fire and cold. Resistances reduce the damage attacks of certain kinds do,
+- [ ] `lib/help/TANG.txt:89` [line] and often reduce the effectiveness of side-effects they have.
+- [ ] `lib/help/TANG.txt:91` [line] 	As you progress deeper in the dungeon, you will want to start using
+- [ ] `lib/help/TANG.txt:92` [line] scrolls of recall to move to and from the dungeon. These scrolls, when
+- [ ] `lib/help/TANG.txt:93` [line] read, schedule your return either to the surface or to the dungeon level
+- [ ] `lib/help/TANG.txt:94` [line] you were last exploring. They do, however, take several turns to take effect,
+- [ ] `lib/help/TANG.txt:95` [line] so reading them in an emergency will do little good.
+- [ ] `lib/help/TANG.txt:97` [line] 	Eventually, once you are around level 13 or 14, you will be ready
+- [ ] `lib/help/TANG.txt:98` [line] to make trips to some of the other towns. The easiest town to get to is
+- [ ] `lib/help/TANG.txt:99` [line] northeast of Bree; the others are more difficult to find and reach. When
+- [ ] `lib/help/TANG.txt:100` [line] planning a trip, be sure to carry lots of food and/or scrolls of
+- [ ] `lib/help/TANG.txt:101` [line] satisfy hunger. Multiple light sources may also be wise, and a bow is
+- [ ] `lib/help/TANG.txt:102` [line] almost essential. To make long trips easier, ToME has a map mode
+- [ ] `lib/help/TANG.txt:103` [line] specifically designed for travel. To use it, hit '<' in the wilderness.
+- [ ] `lib/help/TANG.txt:104` [line] This will change the scale of the map, and make time go by at a much
+- [ ] `lib/help/TANG.txt:105` [line] faster rate per square of movement (each square being many normal grid
+- [ ] `lib/help/TANG.txt:106` [line] squares). Be sure to de-equip any exhaustible light sources before
+- [ ] `lib/help/TANG.txt:107` [line] the trip, and never allow yourself to get past hungry while in this mode --
+- [ ] `lib/help/TANG.txt:108` [line] drop down to the normal mode (with '>') if you get a message that you are
+- [ ] `lib/help/TANG.txt:109` [line] hungry. Eventually, you will also make surface trips to find new dungeons
+- [ ] `lib/help/TANG.txt:110` [line] to visit.
+- [ ] `lib/help/TANG.txt:112` [line] #####REquipment notation:
+- [ ] `lib/help/TANG.txt:113` [line] #####GA Weapon (3d4) (+3,+7)
+- [ ] `lib/help/TANG.txt:114` [line] 	This weapon, when you attack an enemy, does base damage calculated
+- [ ] `lib/help/TANG.txt:115` [line] 	by rolling a 4-sided die 3 times (adding the results up). It gets a
+- [ ] `lib/help/TANG.txt:116` [line] 	+3 to hit, and +7 to damage. If the weapon is light enough and
+- [ ] `lib/help/TANG.txt:117` [line] 	you are strong/dextrous enough, you can attack with it multiple times,
+- [ ] `lib/help/TANG.txt:118` [line] 	getting the base and extra damage once for each attack.
+- [ ] `lib/help/TANG.txt:120` [line] #####GA Shield [5,+4]
+- [ ] `lib/help/TANG.txt:121` [line] 	This is a piece of armour, with a base defence of 5 and a magical
+- [ ] `lib/help/TANG.txt:122` [line] 	bonus of +4. If you wear it, your armour rating will increase by 9. 
+- [ ] `lib/help/TANG.txt:124` [line] #####GA Weapon (Defender) (1d6) (+12,+5) [+6] (+2 to stealth)
+- [ ] `lib/help/TANG.txt:125` [line] 	This is a special type of weapon, with special powers. The powers
+- [ ] `lib/help/TANG.txt:126` [line] 	depend on the type (there are more types than just Defender),
+- [ ] `lib/help/TANG.txt:127` [line] 	and some types can grant a variety of different powers. To get the
+- [ ] `lib/help/TANG.txt:128` [line] 	full info on this kind of weapon, you can either 'x'amine it if it's
+- [ ] `lib/help/TANG.txt:129` [line] 	being sold in a store, use certain kinds of magic (*Id*), or use
+- [ ] `lib/help/TANG.txt:130` [line] 	the (very expensive) services of certain stores.
+- [ ] `lib/help/TANG.txt:132` [line] Many armours also have special powers.
+- [ ] `lib/help/TANG.txt:133` [line] Some very powerful items are unique, and are called artifacts. They are
+- [ ] `lib/help/TANG.txt:134` [line] normally indestructible, and will prove very useful in your quest.

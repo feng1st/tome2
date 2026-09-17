@@ -1,0 +1,25 @@
+# 数据清单：lib/file/dead.txt（text，逐条/逐行）
+
+- [ ] `lib/file/dead.txt:1` [line]           #s_____#w                                       #D,#w-#Wv#s___#w                    
+- [ ] `lib/file/dead.txt:2` [line]       #s_d&#y*#D'"#w                                          #W/#w    #D`#w|                   
+- [ ] `lib/file/dead.txt:3` [line]     #D,#W/#s?#D'#w                                              |    |#D'#w                   
+- [ ] `lib/file/dead.txt:4` [line]    #s?#D'#w|#D'#w          |                             #D.,#W~#w-#D'""'#w    |#D.#w                   
+- [ ] `lib/file/dead.txt:5` [line]   #D,#w| #sT#w         --#y+#w--                         #D,#W~#D'#w #D.,#W~#s:#w|      #D`#W~\#w                 
+- [ ] `lib/file/dead.txt:6` [line]   |  #sL#w           |                     #D,#Wv#s_#D.#w #W/#D'#w #D,#W/#D"#w  |     #sT#D`#W\#D.`#W\#D.#w               
+- [ ] `lib/file/dead.txt:7` [line]   |#D.#w |#W\#w                                |  #D""'#w  #s?#w--#Wv#D,#s?#w    |#D'#w  #s?#D,#w #W\#D.#w              
+- [ ] `lib/file/dead.txt:8` [line]    #W\#w  #D`#W\#D.#w                              #sT#w                 #D`#W~#w-#W\#s_]#w  |              
+- [ ] `lib/file/dead.txt:9` [line]    #D`#W\#D.#w  #D"#W^~v#D.#w                          |                         #D"#W^#w-#W~v#w          
+- [ ] `lib/file/dead.txt:10` [line]      #D`#W\#s_#w    #sT#D.#w                         #D"#W^~v#w  #D.#s__#D.#w                    #W/#w          
+- [ ] `lib/file/dead.txt:11` [line]        #D``#w-#W~#w--|                            |  |#D,#w #D"#s:#w|    #D.#s___#D.#w        #D.#w|          
+- [ ] `lib/file/dead.txt:12` [line]                                           #D`#W\#w  #s?#W\#w #W/#w     #W/#w   #D"#s:&#w  #D,#w-#Wv#s_#W/#w           
+- [ ] `lib/file/dead.txt:13` [line]                                            #D`#W\#D.#w #D`#W\#w|    |#D'#w #D.,#W~#D'#w #D.#W/#D'#w               
+- [ ] `lib/file/dead.txt:14` [line]                                              #D`#W~\#D.#w     #D`#W^#D'"#w  #D,#W~#D'#w                 
+- [ ] `lib/file/dead.txt:15` [line]                                                #D.#w|     #s__#Wv#w-#W~#D''#w                   
+- [ ] `lib/file/dead.txt:16` [line]                                                #W/#w     #W/#D'#w                         
+- [ ] `lib/file/dead.txt:17` [line]                                               #D,#w|    #D.#w|                          
+- [ ] `lib/file/dead.txt:18` [line]                                               #W/#w     #sJ#w                           
+- [ ] `lib/file/dead.txt:19` [line]                                              |#D'#w     |                           
+- [ ] `lib/file/dead.txt:20` [line] ---------------------------------------------#W/#w     #W/#s:#w-------------------------  
+- [ ] `lib/file/dead.txt:21` [line]                                             |#D'#w    #D,#w|                            
+- [ ] `lib/file/dead.txt:22` [line]                                            |#D'#w     #D'#w                             
+- [ ] `lib/file/dead.txt:23` [line]                                            #D`#w                                    

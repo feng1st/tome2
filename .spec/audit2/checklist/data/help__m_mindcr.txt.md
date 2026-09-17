@@ -1,0 +1,54 @@
+# 数据清单：lib/help/m_mindcr.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_mindcr.txt:1` [line] |||||oy
+- [ ] `lib/help/m_mindcr.txt:2` [line] ~~~~~01|Magic|Mindcraft
+- [ ] `lib/help/m_mindcr.txt:3` [line] ~~~~~02|Mindcrafter|Mindcraft powers
+- [ ] `lib/help/m_mindcr.txt:4` [line] ~~~~~03|Skills|Mindcraft - Spell Info
+- [ ] `lib/help/m_mindcr.txt:5` [line] #####R === ToME Magic - Mindcraft ===
+- [ ] `lib/help/m_mindcr.txt:6` [line] Mindcrafting uses the power of the mind to cast its spells. Therefore neither
+- [ ] `lib/help/m_mindcr.txt:7` [line] books nor light are necessary, and as the mindcrafter's skill increases, so do
+- [ ] `lib/help/m_mindcr.txt:8` [line] the powers of his mind.
+- [ ] `lib/help/m_mindcr.txt:10` [line] The powers are accessed using the 'm' key and then selecting 'Use Mindcraft';
+- [ ] `lib/help/m_mindcr.txt:11` [line] they are cast with spell points, like normal spells, which can be increased
+- [ ] `lib/help/m_mindcr.txt:12` [line] as usual through the *****skills.txt*21[Magic] skill.
+- [ ] `lib/help/m_mindcr.txt:14` [line] 1. [[[[[sPrecognition] (Level 1) Cost:1
+- [ ] `lib/help/m_mindcr.txt:15` [line]    Detects monster minds around you.
+- [ ] `lib/help/m_mindcr.txt:16` [line]    At level 5 it also detects traps.
+- [ ] `lib/help/m_mindcr.txt:17` [line]    At level 15 it also allows you to see invisible monsters for a time.
+- [ ] `lib/help/m_mindcr.txt:18` [line]    At level 20 it maps out the surrounding area.
+- [ ] `lib/help/m_mindcr.txt:19` [line]    At level 25 it gives you ESP for a time.
+- [ ] `lib/help/m_mindcr.txt:20` [line]    At level 30 it also detects objects and treasure.
+- [ ] `lib/help/m_mindcr.txt:21` [line]    At level 45 it fully shows the entire level.
+- [ ] `lib/help/m_mindcr.txt:22` [line] 2. [[[[[sNeural blast] (Level 2) Cost:1
+- [ ] `lib/help/m_mindcr.txt:23` [line]    Fires a bolt or beam, to stun and damage monsters.
+- [ ] `lib/help/m_mindcr.txt:24` [line] 3. [[[[[sMinor Displacement] (Level 3) Cost:2
+- [ ] `lib/help/m_mindcr.txt:25` [line]    Teleports you a short distance.
+- [ ] `lib/help/m_mindcr.txt:26` [line]    At level 25 it grants the ability to create void jumpgates.
+- [ ] `lib/help/m_mindcr.txt:27` [line] 4. [[[[[sMajor Displacement] (Level 7) Cost:6
+- [ ] `lib/help/m_mindcr.txt:28` [line]    Teleports you a good distance. 
+- [ ] `lib/help/m_mindcr.txt:29` [line]    At level 30 it also banishes the monsters around you.
+- [ ] `lib/help/m_mindcr.txt:30` [line] 5. [[[[[sDomination] (Level 9) Cost:7
+- [ ] `lib/help/m_mindcr.txt:31` [line]    Attempts to dominate the minds of your foes, scaring them.
+- [ ] `lib/help/m_mindcr.txt:32` [line]    At level 30 it attempts to charm monsters.
+- [ ] `lib/help/m_mindcr.txt:33` [line] 6. [[[[[sPulverise] (Level 11) Cost:7
+- [ ] `lib/help/m_mindcr.txt:34` [line]    Fires pure sound at your opponents, crushing their bodies.
+- [ ] `lib/help/m_mindcr.txt:35` [line] 7. [[[[[sCharacter Armour] (Level 13) Cost:12
+- [ ] `lib/help/m_mindcr.txt:36` [line]    Raises a physical shield around your body.
+- [ ] `lib/help/m_mindcr.txt:37` [line]    At level 15 it also grants resistance to acid.
+- [ ] `lib/help/m_mindcr.txt:38` [line]    At level 20 it also grants resistance to fire.
+- [ ] `lib/help/m_mindcr.txt:39` [line]    At level 25 it also grants resistance to cold.
+- [ ] `lib/help/m_mindcr.txt:40` [line]    At level 30 it also grants resistance to electricity.
+- [ ] `lib/help/m_mindcr.txt:41` [line]    At level 35 it also grants resistance to poison.
+- [ ] `lib/help/m_mindcr.txt:42` [line] 8. [[[[[sPsychometry] (Level 15) Cost:12
+- [ ] `lib/help/m_mindcr.txt:43` [line]    Senses the quality of an item.
+- [ ] `lib/help/m_mindcr.txt:44` [line]    At level 40 it identifies an item.
+- [ ] `lib/help/m_mindcr.txt:45` [line] 9. [[[[[sMindwave] (Level 18) Cost:10
+- [ ] `lib/help/m_mindcr.txt:46` [line]    Blasts the minds of monsters close to you.
+- [ ] `lib/help/m_mindcr.txt:47` [line]    At level 25 it affect all monsters in line of sight.
+- [ ] `lib/help/m_mindcr.txt:48` [line] 10.[[[[[sAdrenaline Channeling] (Level 23) Cost:15
+- [ ] `lib/help/m_mindcr.txt:49` [line]    Heals you, hastes you and cures you.
+- [ ] `lib/help/m_mindcr.txt:50` [line] 11.[[[[[sPsychic Drain] (Level 25) Cost:10
+- [ ] `lib/help/m_mindcr.txt:51` [line]    Drains the life of your foes into your mana reserves.
+- [ ] `lib/help/m_mindcr.txt:52` [line] 12.[[[[[sTelekinesis] (Level 28) Cost:20
+- [ ] `lib/help/m_mindcr.txt:53` [line]    Projects a wave of pure telekinetic force from your body, damaging and maybe 
+- [ ] `lib/help/m_mindcr.txt:54` [line]    banishing monsters.

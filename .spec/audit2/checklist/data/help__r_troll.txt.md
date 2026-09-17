@@ -1,0 +1,33 @@
+# 数据清单：lib/help/r_troll.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_troll.txt:1` [line] ~~~~~01|Troll
+- [ ] `lib/help/r_troll.txt:2` [line] ~~~~~02|Races|Troll
+- [ ] `lib/help/r_troll.txt:3` [line] #####R=== Trolls ===
+- [ ] `lib/help/r_troll.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_troll.txt:6` [line] Trolls are incredibly strong, and have more hit points than most other
+- [ ] `lib/help/r_troll.txt:7` [line] character races, so they make great warriors, and marginal priests. They
+- [ ] `lib/help/r_troll.txt:8` [line] are also very stupid and clumsy. They are bad at searching, disarming,
+- [ ] `lib/help/r_troll.txt:9` [line] perception, and stealth. They are so ugly that an orc grimaces in their
+- [ ] `lib/help/r_troll.txt:10` [line] presence. They also happen to be fun to play.... Trolls always have
+- [ ] `lib/help/r_troll.txt:11` [line] their strength sustained. At higher levels, trolls learn to enter a
+- [ ] `lib/help/r_troll.txt:12` [line] berserk fury, and regenerate from their wounds automatically.
+- [ ] `lib/help/r_troll.txt:14` [line] #####GStat Modifiers
+- [ ] `lib/help/r_troll.txt:15` [line] Strength        +4   
+- [ ] `lib/help/r_troll.txt:16` [line] Intelligence    -4   
+- [ ] `lib/help/r_troll.txt:17` [line] Wisdom          -2   
+- [ ] `lib/help/r_troll.txt:18` [line] Dexterity       -4   
+- [ ] `lib/help/r_troll.txt:19` [line] Constitution    +3   
+- [ ] `lib/help/r_troll.txt:20` [line] Charisma        -6       
+- [ ] `lib/help/r_troll.txt:21` [line] Hit Dice Sides  12        
+- [ ] `lib/help/r_troll.txt:22` [line] Exp Penalty     +37%
+- [ ] `lib/help/r_troll.txt:24` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_troll.txt:25` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_troll.txt:26` [line] Combat                  
+- [ ] `lib/help/r_troll.txt:27` [line]   Weaponmastery         2.000           [0.000]
+- [ ] `lib/help/r_troll.txt:28` [line]   Archery	       -1.000           [0.000]
+- [ ] `lib/help/r_troll.txt:29` [line] Sneakiness             -0.100           [0.000]
+- [ ] `lib/help/r_troll.txt:30` [line]   Stealth              -2.000           [0.000]
+- [ ] `lib/help/r_troll.txt:31` [line]   Disarming            -0.500           [0.000]
+- [ ] `lib/help/r_troll.txt:32` [line] Magic                   
+- [ ] `lib/help/r_troll.txt:33` [line]   Magic-Device         -0.800           [0.000]
+- [ ] `lib/help/r_troll.txt:34` [line] Spirituality           -4.000           [0.000]

@@ -1,0 +1,61 @@
+# 数据清单：lib/help/c_mage.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_mage.txt:1` [line] |||||oy
+- [ ] `lib/help/c_mage.txt:2` [line] ~~~~~01|Mage
+- [ ] `lib/help/c_mage.txt:3` [line] ~~~~~02|Classes|Mage
+- [ ] `lib/help/c_mage.txt:4` [line] #####R=== Mages ===
+- [ ] `lib/help/c_mage.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_mage.txt:7` [line] A Mage must live by his wits. He cannot hope to simply hack his way 
+- [ ] `lib/help/c_mage.txt:8` [line] through the dungeon, and so must therefore use his magic to defeat, 
+- [ ] `lib/help/c_mage.txt:9` [line] deceive, confuse, and escape. A Mage is not really complete without an
+- [ ] `lib/help/c_mage.txt:10` [line] assortment of magical devices to use in addition to his spells. He can
+- [ ] `lib/help/c_mage.txt:11` [line] master the higher level magical devices easily and has good saving throws. 
+- [ ] `lib/help/c_mage.txt:13` [line] There is no reason a Mage cannot become a good fighter, but spells are 
+- [ ] `lib/help/c_mage.txt:14` [line] his true realm. For more information on magic schools and spell effects see 
+- [ ] `lib/help/c_mage.txt:15` [line] the *****magic.txt*01[Magic help file].
+- [ ] `lib/help/c_mage.txt:17` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_mage.txt:18` [line] Strength         -5
+- [ ] `lib/help/c_mage.txt:19` [line] Intelligence     +3
+- [ ] `lib/help/c_mage.txt:20` [line] Wisdom           +0
+- [ ] `lib/help/c_mage.txt:21` [line] Dexterity        +1
+- [ ] `lib/help/c_mage.txt:22` [line] Constitution     -2
+- [ ] `lib/help/c_mage.txt:23` [line] Charisma         +1
+- [ ] `lib/help/c_mage.txt:24` [line] Hit Die          +d0
+- [ ] `lib/help/c_mage.txt:25` [line] Spell Points    +50%
+- [ ] `lib/help/c_mage.txt:26` [line] Exp Penalty      30%
+- [ ] `lib/help/c_mage.txt:28` [line] #####GStarting Skills:
+- [ ] `lib/help/c_mage.txt:29` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_mage.txt:30` [line] Combat                  1.000           [0.500]
+- [ ] `lib/help/c_mage.txt:31` [line]   Weaponmastery         0.700           [0.500]
+- [ ] `lib/help/c_mage.txt:32` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_mage.txt:33` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_mage.txt:34` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_mage.txt:35` [line]   Magic-Device          1.000           [1.200]
+- [ ] `lib/help/c_mage.txt:36` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_mage.txt:37` [line]   Sorcery               0.000           [0.200]
+- [ ] `lib/help/c_mage.txt:38` [line]   Mana                  1.000           [0.900]
+- [ ] `lib/help/c_mage.txt:39` [line]   Geomancy
+- [ ] `lib/help/c_mage.txt:40` [line]     Fire                0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:41` [line]     Water               0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:42` [line]     Air                 0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:43` [line]     Earth               0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:44` [line]   Meta                  0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:45` [line]   Conveyance            0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:46` [line]   Divination            0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:47` [line]   Temporal              0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:48` [line]   Mind                  0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:49` [line]   Nature                0.000           [0.900]
+- [ ] `lib/help/c_mage.txt:50` [line]   Necromancy            0.000           [0.700]
+- [ ] `lib/help/c_mage.txt:51` [line]   Thaumaturgy           0.000           [0.700]
+- [ ] `lib/help/c_mage.txt:52` [line] Spirituality            1.000           [0.550]
+- [ ] `lib/help/c_mage.txt:53` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_mage.txt:54` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_mage.txt:56` [line] *A Mage cannot learn the Geomancy skill, but it is shown in his skill 
+- [ ] `lib/help/c_mage.txt:57` [line] screen because the elemental schools are sub-skills of it.
+- [ ] `lib/help/c_mage.txt:59` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_mage.txt:60` [line] #####BAbility              Character level
+- [ ] `lib/help/c_mage.txt:61` [line] Perfect casting             1
+- [ ] `lib/help/c_mage.txt:63` [line] #####GStarting Equipment
+- [ ] `lib/help/c_mage.txt:64` [line] A Mage begins the game with:
+- [ ] `lib/help/c_mage.txt:65` [line]     a Book of Beginner Cantrips
+- [ ] `lib/help/c_mage.txt:66` [line]     a Dagger

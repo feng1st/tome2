@@ -1,0 +1,32 @@
+# 数据清单：lib/help/r_deathm.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_deathm.txt:1` [line] ~~~~~01|DeathMolds
+- [ ] `lib/help/r_deathm.txt:2` [line] ~~~~~02|Races|DeathMolds
+- [ ] `lib/help/r_deathm.txt:3` [line] #####R=== DeathMolds ===
+- [ ] `lib/help/r_deathm.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_deathm.txt:6` [line] Death Molds are incredibly powerful creatures. However, they are also 
+- [ ] `lib/help/r_deathm.txt:7` [line] molds. Lacking the ability to move as other creatures do, Death Molds have
+- [ ] `lib/help/r_deathm.txt:8` [line] the powers of Phase Door, targeted teleportation, telekinesis, and 
+- [ ] `lib/help/r_deathm.txt:9` [line] controlled Teleport Level. They also intrinsically resist Nexus and Nether,
+- [ ] `lib/help/r_deathm.txt:10` [line] and are more skilled at Necromancy than other races.
+- [ ] `lib/help/r_deathm.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/r_deathm.txt:13` [line] Strength        +10   
+- [ ] `lib/help/r_deathm.txt:14` [line] Intelligence    0   
+- [ ] `lib/help/r_deathm.txt:15` [line] Wisdom          +10   
+- [ ] `lib/help/r_deathm.txt:16` [line] Dexterity       0   
+- [ ] `lib/help/r_deathm.txt:17` [line] Constitution    +10   
+- [ ] `lib/help/r_deathm.txt:18` [line] Charisma        -15       
+- [ ] `lib/help/r_deathm.txt:19` [line] Hit Dice Sides  15         
+- [ ] `lib/help/r_deathm.txt:20` [line] Exp Penalty     +150%
+- [ ] `lib/help/r_deathm.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_deathm.txt:23` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_deathm.txt:24` [line] Combat                  
+- [ ] `lib/help/r_deathm.txt:25` [line]   Weaponmastery         2.500           [0.000]
+- [ ] `lib/help/r_deathm.txt:26` [line]   Archery		2.500           [0.000]
+- [ ] `lib/help/r_deathm.txt:27` [line] Sneakiness
+- [ ] `lib/help/r_deathm.txt:28` [line]   Stealth              25.000           [0.000]
+- [ ] `lib/help/r_deathm.txt:29` [line]   Disarming             1.500           [0.000]
+- [ ] `lib/help/r_deathm.txt:30` [line] Magic                   
+- [ ] `lib/help/r_deathm.txt:31` [line]   Magic-Device         -0.500           [0.000]
+- [ ] `lib/help/r_deathm.txt:32` [line]   Necromancy            0.000           [0.200]
+- [ ] `lib/help/r_deathm.txt:33` [line] Spirituality            7.500           [0.000]

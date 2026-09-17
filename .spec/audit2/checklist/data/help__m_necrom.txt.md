@@ -1,0 +1,35 @@
+# 数据清单：lib/help/m_necrom.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_necrom.txt:1` [line] |||||oy
+- [ ] `lib/help/m_necrom.txt:2` [line] ~~~~~01|Magic|Necromancy
+- [ ] `lib/help/m_necrom.txt:3` [line] ~~~~~02|Necromancy Magic
+- [ ] `lib/help/m_necrom.txt:4` [line] ~~~~~03|Skills|Necromancy - Spell Info
+- [ ] `lib/help/m_necrom.txt:5` [line] #####R === ToME Magic - Necromancy ===
+- [ ] `lib/help/m_necrom.txt:6` [line] The art of Necromancy is the foul practice of manipulating the life
+- [ ] `lib/help/m_necrom.txt:7` [line] force of creatures.
+- [ ] `lib/help/m_necrom.txt:9` [line] Necromancy powers are accessed using the 'm' key and then selecting
+- [ ] `lib/help/m_necrom.txt:10` [line] 'Use Necromancy'; they are cast with Spell Points, like normal spells,
+- [ ] `lib/help/m_necrom.txt:11` [line] and do not need light to be performed.
+- [ ] `lib/help/m_necrom.txt:13` [line] 1. [[[[[DHorrify] (Level 1) Cost:2
+- [ ] `lib/help/m_necrom.txt:14` [line]    Calls upon the dark forces and opens a channel into the mind of a
+- [ ] `lib/help/m_necrom.txt:15` [line]    monster, stunning and scaring it.
+- [ ] `lib/help/m_necrom.txt:16` [line]    At level 21 it affects all monsters in a beam.
+- [ ] `lib/help/m_necrom.txt:17` [line]    At level 36 it affects all monsters in a ball.
+- [ ] `lib/help/m_necrom.txt:18` [line]    At level 46 it affects all monsters in sight.
+- [ ] `lib/help/m_necrom.txt:19` [line] 2. [[[[[DRaise Dead] (Level 5) Cost:6
+- [ ] `lib/help/m_necrom.txt:20` [line]    This power makes corpses in a small radius around the caster rise as
+- [ ] `lib/help/m_necrom.txt:21` [line]    undead ego monsters at the service of the caster. The loyalty of those
+- [ ] `lib/help/m_necrom.txt:22` [line]    monsters is not guaranteed, though. It also heals all monsters within the
+- [ ] `lib/help/m_necrom.txt:23` [line]    same radius.
+- [ ] `lib/help/m_necrom.txt:24` [line] 3. [[[[[DNecromantic Teeth] (Level 12) Cost:20
+- [ ] `lib/help/m_necrom.txt:25` [line]    This conjures up a temporary vampiric weapon.
+- [ ] `lib/help/m_necrom.txt:26` [line] 4. [[[[[DAbsorb Soul] (Level 20) Cost:10
+- [ ] `lib/help/m_necrom.txt:27` [line]    This heals you by a substantial amount every time you kill a monster within
+- [ ] `lib/help/m_necrom.txt:28` [line]    its duration. It is especially useful when your character is in 
+- [ ] `lib/help/m_necrom.txt:29` [line]    *****ability.txt*12[Undead Form].
+- [ ] `lib/help/m_necrom.txt:30` [line] 5. [[[[[DVampirism] (Level 30) Cost:15
+- [ ] `lib/help/m_necrom.txt:31` [line]    Drains part of the life-force from a nearby monster and gives it to you.
+- [ ] `lib/help/m_necrom.txt:32` [line] 6. [[[[[DDeath] (Level 35) Cost:100
+- [ ] `lib/help/m_necrom.txt:33` [line]    Yes, the name is not nice. Neither are the effects: the target dies
+- [ ] `lib/help/m_necrom.txt:34` [line]    immediately, but so does your character (note that death is not such a great
+- [ ] `lib/help/m_necrom.txt:35` [line]    annoyance for necromancers).

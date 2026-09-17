@@ -1,0 +1,27 @@
+# 数据清单：lib/help/fatespoi.txt（text，逐条/逐行）
+
+- [ ] `lib/help/fatespoi.txt:1` [line] |||||oy
+- [ ] `lib/help/fatespoi.txt:2` [line] ~~~~~01|Spoilers|Fates
+- [ ] `lib/help/fatespoi.txt:3` [line] ~~~~~02|Fates (spoiler)
+- [ ] `lib/help/fatespoi.txt:4` [line] #####R                                Fate Spoiler
+- [ ] `lib/help/fatespoi.txt:5` [line] #####R                        Accurate for PernAngband 5.x.x
+- [ ] `lib/help/fatespoi.txt:6` [line] #####R                              by Dustin Ragan
+- [ ] `lib/help/fatespoi.txt:8` [line] Numerous spirits inhabit the land of Arda, from the murderous barrow wights to
+- [ ] `lib/help/fatespoi.txt:9` [line] the enigmatic Tom Bombadil. These spirits usually are bound to a specific
+- [ ] `lib/help/fatespoi.txt:10` [line] geographic region, but there are exceptions to this rule. Sometimes one of
+- [ ] `lib/help/fatespoi.txt:11` [line] these spirits will take  interest in an adventurer. This can either be very,
+- [ ] `lib/help/fatespoi.txt:12` [line] very good or very, very bad. These spirits will "rig" reality to ensure that
+- [ ] `lib/help/fatespoi.txt:13` [line] something happens--or doesn't happen.
+- [ ] `lib/help/fatespoi.txt:15` [line] In order to attract the attention of a spirit, the adventurer must be somewhat
+- [ ] `lib/help/fatespoi.txt:16` [line] experienced, having attained at least the 11th level of experience. Every 10
+- [ ] `lib/help/fatespoi.txt:17` [line] game turns, which corresponds to 1 normal speed player turn, there is a
+- [ ] `lib/help/fatespoi.txt:18` [line] 1 in 50,000 chance of gaining a fate. When this fate is chosen, there is a
+- [ ] `lib/help/fatespoi.txt:19` [line] 7/18 chance of being fated to find a specific mundane item on a specific
+- [ ] `lib/help/fatespoi.txt:20` [line] dungeon level. A more belligerent spirit will, 7/18 of the time, summon a
+- [ ] `lib/help/fatespoi.txt:21` [line] malicious monster to do battle on a specific dungeon level. There is a 1/9
+- [ ] `lib/help/fatespoi.txt:22` [line] chance to be destined to find an artifact on a given level.  There is also
+- [ ] `lib/help/fatespoi.txt:23` [line] a 1/18 chance that you will meet your demise on a given level. Finally, there
+- [ ] `lib/help/fatespoi.txt:24` [line] is a 1/18 chance of becoming invulnerable to attacks from mortals.
+- [ ] `lib/help/fatespoi.txt:26` [line] Whenever a level is being chosen for a fate, it is always chosen within 20
+- [ ] `lib/help/fatespoi.txt:27` [line] levels of your current recall depth. Items, monsters, and artifacts are all
+- [ ] `lib/help/fatespoi.txt:28` [line] generated up to 10 levels out of depth for your current recall depth.

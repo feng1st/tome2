@@ -1,0 +1,31 @@
+# 数据清单：lib/help/r_beorn.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_beorn.txt:1` [line] ~~~~~01|Beorning
+- [ ] `lib/help/r_beorn.txt:2` [line] ~~~~~02|Races|Beorning
+- [ ] `lib/help/r_beorn.txt:3` [line] #####R=== Beornings ===
+- [ ] `lib/help/r_beorn.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_beorn.txt:6` [line] Beornings are the descendants of Beorn, a powerful shapeshifter who
+- [ ] `lib/help/r_beorn.txt:7` [line] dwells near Mirkwood. They have all inherited his shapeshifting abilities
+- [ ] `lib/help/r_beorn.txt:8` [line] and can turn into powerful bears at will.
+- [ ] `lib/help/r_beorn.txt:10` [line] #####GStat Modifiers
+- [ ] `lib/help/r_beorn.txt:11` [line] Strength        +4
+- [ ] `lib/help/r_beorn.txt:12` [line] Intelligence    -2   
+- [ ] `lib/help/r_beorn.txt:13` [line] Wisdom          -2   
+- [ ] `lib/help/r_beorn.txt:14` [line] Dexterity       -1   
+- [ ] `lib/help/r_beorn.txt:15` [line] Constitution    +3   
+- [ ] `lib/help/r_beorn.txt:16` [line] Charisma        -5       
+- [ ] `lib/help/r_beorn.txt:17` [line] Hit Dice Sides  12         
+- [ ] `lib/help/r_beorn.txt:18` [line] Exp Penalty     +50%
+- [ ] `lib/help/r_beorn.txt:20` [line] #####GSkill Bonuses (supplementary to existing skills)
+- [ ] `lib/help/r_beorn.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_beorn.txt:23` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_beorn.txt:24` [line] Combat                  
+- [ ] `lib/help/r_beorn.txt:25` [line]   Weaponmastery         2.500           [0.000]
+- [ ] `lib/help/r_beorn.txt:26` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/r_beorn.txt:27` [line]   Bearform-combat       1.000           [1.000]
+- [ ] `lib/help/r_beorn.txt:28` [line] Sneakiness             -0.100           [0.000]
+- [ ] `lib/help/r_beorn.txt:29` [line]   Stealth              -2.000           [0.000]
+- [ ] `lib/help/r_beorn.txt:30` [line]   Disarming            -0.600           [0.000]
+- [ ] `lib/help/r_beorn.txt:31` [line] Magic                   
+- [ ] `lib/help/r_beorn.txt:32` [line]   Magic-Device         -0.800           [0.000]
+- [ ] `lib/help/r_beorn.txt:33` [line] Spirituality           -3.000           [0.000]

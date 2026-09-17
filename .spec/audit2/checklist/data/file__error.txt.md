@@ -1,0 +1,69 @@
+# 数据清单：lib/file/error.txt（text，逐条/逐行）
+
+- [ ] `lib/file/error.txt:1` [line] 65
+- [ ] `lib/file/error.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/error.txt:3` [line] What game do you think you are playing anyway?
+- [ ] `lib/file/error.txt:4` [line] Aivan sairas kaveri kun tuollaista aikoo puuhata!
+- [ ] `lib/file/error.txt:5` [line] Insufficient data for further analysis.
+- [ ] `lib/file/error.txt:6` [line] Non sequitur. Your facts are uncoordinated.
+- [ ] `lib/file/error.txt:7` [line] Type '?' or '\' for help.
+- [ ] `lib/file/error.txt:8` [line] Invalid command.
+- [ ] `lib/file/error.txt:9` [line] What?
+- [ ] `lib/file/error.txt:10` [line] WHAT?!
+- [ ] `lib/file/error.txt:11` [line] You must be out of your mind!
+- [ ] `lib/file/error.txt:12` [line] You're killing me.
+- [ ] `lib/file/error.txt:13` [line] Are you sure?
+- [ ] `lib/file/error.txt:14` [line] Are you sure you know what you are doing?
+- [ ] `lib/file/error.txt:15` [line] Aww, come on!
+- [ ] `lib/file/error.txt:16` [line] That makes no sense.
+- [ ] `lib/file/error.txt:17` [line] I beg your pardon.
+- [ ] `lib/file/error.txt:18` [line] Degreelessness mode on.
+- [ ] `lib/file/error.txt:19` [line] Degreelessness mode off.
+- [ ] `lib/file/error.txt:20` [line] Syntax error.
+- [ ] `lib/file/error.txt:21` [line] That doesn't compute.
+- [ ] `lib/file/error.txt:22` [line] I don't understand you.
+- [ ] `lib/file/error.txt:23` [line] ???
+- [ ] `lib/file/error.txt:24` [line] Sure. Piece of cake.
+- [ ] `lib/file/error.txt:25` [line] Error.
+- [ ] `lib/file/error.txt:26` [line] You can't do that!
+- [ ] `lib/file/error.txt:27` [line] Help!
+- [ ] `lib/file/error.txt:28` [line] Come again?
+- [ ] `lib/file/error.txt:29` [line] Sorry?
+- [ ] `lib/file/error.txt:30` [line] Sorry, I'm not sure I understand you.
+- [ ] `lib/file/error.txt:31` [line] What's your point?
+- [ ] `lib/file/error.txt:32` [line] Unknown command.
+- [ ] `lib/file/error.txt:33` [line] Command not found.
+- [ ] `lib/file/error.txt:34` [line] An unexpected error has occurred because an error of type 42 occurred.
+- [ ] `lib/file/error.txt:35` [line] Somehow, you think that would never work.
+- [ ] `lib/file/error.txt:36` [line] Welcome to level 42.
+- [ ] `lib/file/error.txt:37` [line] Don't be ridiculous!
+- [ ] `lib/file/error.txt:38` [line] lfae aierty agnxzcg?
+- [ ] `lib/file/error.txt:39` [line] Soyha, azho bouate!
+- [ ] `lib/file/error.txt:40` [line] I don't fully understand you.
+- [ ] `lib/file/error.txt:41` [line] Why would anybody want to do THAT?
+- [ ] `lib/file/error.txt:42` [line] Yes, yes, now tell me about your childhood.
+- [ ] `lib/file/error.txt:43` [line] Satisfied?
+- [ ] `lib/file/error.txt:44` [line] Something is wrong here.
+- [ ] `lib/file/error.txt:45` [line] There's something wrong with YOU.
+- [ ] `lib/file/error.txt:46` [line] You leap up 9' and perform a miraculous 5xSpiral in the air.
+- [ ] `lib/file/error.txt:47` [line] Aw, shaddap!
+- [ ] `lib/file/error.txt:48` [line] Shut up, smartass!
+- [ ] `lib/file/error.txt:49` [line] I see little point in doing that.
+- [ ] `lib/file/error.txt:50` [line] Oh, really?
+- [ ] `lib/file/error.txt:51` [line] Very funny.
+- [ ] `lib/file/error.txt:52` [line] You've got to be kidding!
+- [ ] `lib/file/error.txt:53` [line] I'm not amused.
+- [ ] `lib/file/error.txt:54` [line] I must have misheard you.
+- [ ] `lib/file/error.txt:55` [line] Nothing happens.
+- [ ] `lib/file/error.txt:56` [line] Where did you learn THAT command?
+- [ ] `lib/file/error.txt:57` [line] When all else fails, read the instructions.
+- [ ] `lib/file/error.txt:58` [line] Why not read the instructions first?
+- [ ] `lib/file/error.txt:59` [line] Cut it out!
+- [ ] `lib/file/error.txt:60` [line] Nothing interesting happens.
+- [ ] `lib/file/error.txt:61` [line] Just how exactly am I supposed to do THAT?
+- [ ] `lib/file/error.txt:62` [line] That's morally wrong and I won't do it.
+- [ ] `lib/file/error.txt:63` [line] I'm not gonna take this abuse.
+- [ ] `lib/file/error.txt:64` [line] AAAAAAAAAAAAAHHHHHHHHHHHHHHHRRRRRRRRRRRGGGGGGGGGGG!
+- [ ] `lib/file/error.txt:65` [line] No more, if you value your character's life!
+- [ ] `lib/file/error.txt:66` [line] Give it up, guy.
+- [ ] `lib/file/error.txt:67` [line] Disk error. (a)bort, (r)etry, (f)ail?

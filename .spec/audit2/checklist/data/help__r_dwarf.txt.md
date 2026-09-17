@@ -1,0 +1,38 @@
+# 数据清单：lib/help/r_dwarf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_dwarf.txt:1` [line] ~~~~~01|Dwarf
+- [ ] `lib/help/r_dwarf.txt:2` [line] ~~~~~02|Races|Dwarf
+- [ ] `lib/help/r_dwarf.txt:3` [line] #####R=== Dwarves ===
+- [ ] `lib/help/r_dwarf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_dwarf.txt:6` [line] Dwarves are the headstrong miners and fighters of legend. Since dungeons 
+- [ ] `lib/help/r_dwarf.txt:7` [line] are the natural home of a dwarf, they are excellent choices for a warrior 
+- [ ] `lib/help/r_dwarf.txt:8` [line] or priest. Dwarves tend to be stronger and tougher but less agile and
+- [ ] `lib/help/r_dwarf.txt:9` [line] intelligent than humans. Because they are so headstrong and are somewhat 
+- [ ] `lib/help/r_dwarf.txt:10` [line] wise, they resist spells which are cast on them. Dwarves also have very 
+- [ ] `lib/help/r_dwarf.txt:11` [line] good infra-vision because they live underground. They do have one big 
+- [ ] `lib/help/r_dwarf.txt:12` [line] drawback, though: dwarves are loud-mouthed and proud, singing in boisterous 
+- [ ] `lib/help/r_dwarf.txt:13` [line] voices, arguing with themselves for no good reason, and screaming out 
+- [ ] `lib/help/r_dwarf.txt:14` [line] challenges at nearby foes. In other words, dwarves have miserable 
+- [ ] `lib/help/r_dwarf.txt:15` [line] stealth. They can never be blinded, and they can also open secret tunnels
+- [ ] `lib/help/r_dwarf.txt:16` [line] through rock.
+- [ ] `lib/help/r_dwarf.txt:18` [line] #####GStat Modifiers
+- [ ] `lib/help/r_dwarf.txt:19` [line] Strength        +2   
+- [ ] `lib/help/r_dwarf.txt:20` [line] Intelligence    -2   
+- [ ] `lib/help/r_dwarf.txt:21` [line] Wisdom          +2   
+- [ ] `lib/help/r_dwarf.txt:22` [line] Dexterity       -2   
+- [ ] `lib/help/r_dwarf.txt:23` [line] Constitution    +2   
+- [ ] `lib/help/r_dwarf.txt:24` [line] Charisma        -3       
+- [ ] `lib/help/r_dwarf.txt:25` [line] Hit Dice Sides  11         
+- [ ] `lib/help/r_dwarf.txt:26` [line] Exp Penalty     +25%
+- [ ] `lib/help/r_dwarf.txt:28` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_dwarf.txt:29` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_dwarf.txt:30` [line] Combat                  
+- [ ] `lib/help/r_dwarf.txt:31` [line]   Weaponmastery         1.500           [0.000]
+- [ ] `lib/help/r_dwarf.txt:32` [line]     Axe-mastery         0.000           [0.200]
+- [ ] `lib/help/r_dwarf.txt:33` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/r_dwarf.txt:34` [line] Sneakiness              0.700           [0.000]
+- [ ] `lib/help/r_dwarf.txt:35` [line]   Stealth              -1.000           [0.000]
+- [ ] `lib/help/r_dwarf.txt:36` [line]   Disarming             0.200           [0.000]
+- [ ] `lib/help/r_dwarf.txt:37` [line] Magic                   
+- [ ] `lib/help/r_dwarf.txt:38` [line]   Magic-Device          0.900           [0.000]
+- [ ] `lib/help/r_dwarf.txt:39` [line] Spirituality            5.000           [0.000]

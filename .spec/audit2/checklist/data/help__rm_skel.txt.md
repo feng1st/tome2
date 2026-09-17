@@ -1,0 +1,38 @@
+# 数据清单：lib/help/rm_skel.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_skel.txt:1` [line] ~~~~~01|Skeleton
+- [ ] `lib/help/rm_skel.txt:2` [line] ~~~~~02|Race Modifiers|Skeleton
+- [ ] `lib/help/rm_skel.txt:3` [line] #####R=== Skeletal Race ===
+- [ ] `lib/help/rm_skel.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_skel.txt:6` [line] As undead beings, skeletons need to worry very little about poison or 
+- [ ] `lib/help/rm_skel.txt:7` [line] attacks that can drain life. They do not really use eyes for perceiving 
+- [ ] `lib/help/rm_skel.txt:8` [line] things, and are thus not fooled by invisibility. Their bones are resistant 
+- [ ] `lib/help/rm_skel.txt:9` [line] to sharp shrapnels (not much to cut there), and they will quickly become 
+- [ ] `lib/help/rm_skel.txt:10` [line] resistant to cold. It is very hard for skeletons to eat food or drink potions. 
+- [ ] `lib/help/rm_skel.txt:11` [line] Although the magical effects of these will affect the skeleton even without 
+- [ ] `lib/help/rm_skel.txt:12` [line] entering the skeleton's (non-existent) belly, the potion / food itself will
+- [ ] `lib/help/rm_skel.txt:13` [line] fall through the skeleton's jaws, giving no nutritional benefit.
+- [ ] `lib/help/rm_skel.txt:15` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_skel.txt:16` [line] Strength       0   
+- [ ] `lib/help/rm_skel.txt:17` [line] Intelligence   -2   
+- [ ] `lib/help/rm_skel.txt:18` [line] Wisdom         -2    
+- [ ] `lib/help/rm_skel.txt:19` [line] Dexterity      0   
+- [ ] `lib/help/rm_skel.txt:20` [line] Constitution   +1   
+- [ ] `lib/help/rm_skel.txt:21` [line] Charisma       -4      
+- [ ] `lib/help/rm_skel.txt:22` [line] Hit Dice       +0 sides        
+- [ ] `lib/help/rm_skel.txt:23` [line] Spell Points   -30%
+- [ ] `lib/help/rm_skel.txt:24` [line] Exp Penalty    +45%
+- [ ] `lib/help/rm_skel.txt:26` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/rm_skel.txt:27` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/rm_skel.txt:28` [line] Combat                  
+- [ ] `lib/help/rm_skel.txt:29` [line]   Weaponmastery         0.800           [0.000]
+- [ ] `lib/help/rm_skel.txt:30` [line] Sneakiness             -0.100           [0.000]
+- [ ] `lib/help/rm_skel.txt:31` [line]   Stealth              -1.000           [0.000]
+- [ ] `lib/help/rm_skel.txt:32` [line]   Disarming            -0.500           [0.000]
+- [ ] `lib/help/rm_skel.txt:33` [line] Magic                   
+- [ ] `lib/help/rm_skel.txt:34` [line]   Magic-Device         -0.500           [0.000]
+- [ ] `lib/help/rm_skel.txt:35` [line] Spirituality            0.500           [0.000]
+- [ ] `lib/help/rm_skel.txt:37` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_skel.txt:38` [line] A skeletal character begins the game with:
+- [ ] `lib/help/rm_skel.txt:39` [line]     Some scrolls of satisfy hunger
+- [ ] `lib/help/rm_skel.txt:40` [line]     Some torches

@@ -1,0 +1,26 @@
+# 数据清单：lib/file/news2.txt（text，逐条/逐行）
+
+- [ ] `lib/file/news2.txt:1` [line] #G                       #W ~ ~~~   ~~~    (       #G 
+- [ ] `lib/file/news2.txt:2` [line] #G   ======/   =====     #W      ~~ ) ~~   )       #G    ===  ===       ===
+- [ ] `lib/file/news2.txt:3` [line] #G  /  //     /  __ \    #W        )~ #r,.#W~ (   (#G      //   ||   \\   //   
+- [ ] `lib/file/news2.txt:4` [line] #G    //     |  |  | |   #W       _#r,-"####`-^  #W  ) #G   ||    ||   ||   ||==:
+- [ ] `lib/file/news2.txt:5` [line] #G    ||     |  |  | |   #W     ,#D###########r`W='#D###W`.#W () #G   ||    ||   ||   ||       
+- [ ] `lib/file/news2.txt:6` [line] #G     \\_//  \  -- /    #W    ,#D#######################D###W:#r,=.   #G  ||   ||  ||    \\===
+- [ ] `lib/file/news2.txt:7` [line] #G      \_/    =====     #W   /.#D###W,".#D#####W,".#D###########r"#W##\#G
+- [ ] `lib/file/news2.txt:8` [line] #W  ,-.   _,-= /"._  ,-. #w ,"   #W   `:'   `:#D#####W[JW] ,.  #G  
+- [ ] `lib/file/news2.txt:9` [line] #W,"   `,"    `=._ `"   -#w; #G  The         #W\#D#####W;"' V  \#W            __,-.     ,-=.
+- [ ] `lib/file/news2.txt:10` [line] #W     /        " `-. #w  /  #G  Tales of    #W `"       `-.#W__,-""._,"     "--,"    >-=-
+- [ ] `lib/file/news2.txt:11` [line] #W  ,-"`.            #w _'   #G  Middle Earth#w            "._      #W`       _/
+- [ ] `lib/file/news2.txt:12` [line]                  _,"      #y           __        #w       "=.".
+- [ ] `lib/file/news2.txt:13` [line]               _,"         #y        _,'  `-.     #w           `._,=-._    _,-.      
+- [ ] `lib/file/news2.txt:14` [line]   _._   ,"._,"            #y      ,'_,'Y`-. `.   #w                   "-."    \,-.  
+- [ ] `lib/file/news2.txt:15` [line] -"   `-"                  #y     / / ,'   `.  \  #w                               `-
+- [ ] `lib/file/news2.txt:16` [line]                           #y    / / /       \  \ #w  One Ring to rule them all,
+- [ ] `lib/file/news2.txt:17` [line] Maintained by darkgod     #y   f f f         l  l#w   One Ring to find them.
+- [ ] `lib/file/news2.txt:18` [line]  #o darkgod@t-o-m-e.net     #y   t t t         j  j                            
+- [ ] `lib/file/news2.txt:19` [line]                           #y    \ \ \       /  / #w  One Ring to bring them all     
+- [ ] `lib/file/news2.txt:20` [line]  #ohttp://www.t-o-m-e.net   #y     \ \ \._   /  /#w and in the Darkness bind them.
+- [ ] `lib/file/news2.txt:21` [line]                            #y     `_`-._J-'  /         
+- [ ] `lib/file/news2.txt:22` [line]                            #y       `-.___,-'        
+- [ ] `lib/file/news2.txt:23` [line]         In the Land of Mordor, where the Shadows lie. [J.R.R. Tolkien]
+- [ ] `lib/file/news2.txt:24` [line] .

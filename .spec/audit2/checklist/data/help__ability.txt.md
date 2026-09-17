@@ -1,0 +1,108 @@
+# 数据清单：lib/help/ability.txt（text，逐条/逐行）
+
+- [ ] `lib/help/ability.txt:1` [line] |||||oy
+- [ ] `lib/help/ability.txt:2` [line] ~~~~~01|Abilities
+- [ ] `lib/help/ability.txt:3` [line] #####R=== ToME Abilities ===
+- [ ] `lib/help/ability.txt:4` [line] As well as spending your skill points on *****skills.txt*0[skills], you can also choose
+- [ ] `lib/help/ability.txt:5` [line] to spend them on abilities. 
+- [ ] `lib/help/ability.txt:6` [line] Abilities are bought once, and then have a permanent effect. You cannot 
+- [ ] `lib/help/ability.txt:7` [line] continue adding skill points into them, (which you can with *****skills.txt*0[skills]) as there 
+- [ ] `lib/help/ability.txt:8` [line] would be no way that these abilities can improve. They are a "one-off 
+- [ ] `lib/help/ability.txt:9` [line] purchase".
+- [ ] `lib/help/ability.txt:10` [line] As a consequence of this, they are often quite powerful abilities and can 
+- [ ] `lib/help/ability.txt:11` [line] cost quite a few skill points to buy.
+- [ ] `lib/help/ability.txt:12` [line] Most abilities have a prerequisite skill or stat level which you must reach 
+- [ ] `lib/help/ability.txt:13` [line] before being able to buy.
+- [ ] `lib/help/ability.txt:15` [line] For instance, you can invest in the *****ability.txt*03[Tree walking] ability. This will allow 
+- [ ] `lib/help/ability.txt:16` [line] you to pass through dense undergrowth. In order to purchase this skill you must 
+- [ ] `lib/help/ability.txt:17` [line] first have your *****skills.txt*34[Nature] skill at 20 or greater, and then it will cost you 7 
+- [ ] `lib/help/ability.txt:18` [line] skill points to buy. This means you have to "save up" enough skill points in
+- [ ] `lib/help/ability.txt:19` [line] order to be able to afford this ability.
+- [ ] `lib/help/ability.txt:21` [line] You can access the Ability screen by pressing 'N' (in the original keyset, or
+- [ ] `lib/help/ability.txt:22` [line] '\N' in the roguelike keyset). Scroll up and down the abilities and then
+- [ ] `lib/help/ability.txt:23` [line] navigate right to buy selected ability.
+- [ ] `lib/help/ability.txt:25` [line] Adapt your character with skills and abilities in order to make it unique, 
+- [ ] `lib/help/ability.txt:26` [line] playable, and maybe even powerful enough to win the game!
+- [ ] `lib/help/ability.txt:28` [line] Here follows a list of all the available abilities:
+- [ ] `lib/help/ability.txt:30` [line] *****ability.txt*02[Spread blows]
+- [ ] `lib/help/ability.txt:31` [line] *****ability.txt*03[Tree walking]
+- [ ] `lib/help/ability.txt:32` [line] *****ability.txt*04[Perfect casting]
+- [ ] `lib/help/ability.txt:33` [line] *****ability.txt*05[Extra Max Blow(1)]
+- [ ] `lib/help/ability.txt:34` [line] *****ability.txt*06[Extra Max Blow(2)]
+- [ ] `lib/help/ability.txt:35` [line] *****ability.txt*07[Ammo creation]
+- [ ] `lib/help/ability.txt:36` [line] *****ability.txt*08[Touch of death]
+- [ ] `lib/help/ability.txt:37` [line] *****ability.txt*10[Far reaching attack]
+- [ ] `lib/help/ability.txt:38` [line] *****ability.txt*11[Trapping]
+- [ ] `lib/help/ability.txt:39` [line] *****ability.txt*12[Undead Form]
+- [ ] `lib/help/ability.txt:41` [line] ~~~~~02|Abilities|Spread blows
+- [ ] `lib/help/ability.txt:42` [line] [[[[[BSpread blows]
+- [ ] `lib/help/ability.txt:43` [line] If a monster dies to your attack but you still have blows left
+- [ ] `lib/help/ability.txt:44` [line] you won't lose the full turn, allowing you to attack some other
+- [ ] `lib/help/ability.txt:45` [line] monster in the same turn.
+- [ ] `lib/help/ability.txt:46` [line] #####UPrereq: Weaponmastery skill@30, Dex@17
+- [ ] `lib/help/ability.txt:47` [line] #####rCost: 5
+- [ ] `lib/help/ability.txt:48` [line] Warriors (of all types) gain this ability for free at character level 25.
+- [ ] `lib/help/ability.txt:49` [line] ~~~~~03|Abilities|Tree walking
+- [ ] `lib/help/ability.txt:50` [line] [[[[[BTree walking]
+- [ ] `lib/help/ability.txt:51` [line] Allows you to walk in dense forest.
+- [ ] `lib/help/ability.txt:52` [line] #####UPrereq: Nature skill@20
+- [ ] `lib/help/ability.txt:53` [line] #####rCost: 7
+- [ ] `lib/help/ability.txt:54` [line] Ents and Wood Elves are born with this ability.
+- [ ] `lib/help/ability.txt:55` [line] ~~~~~04|Abilities|Perfect casting
+- [ ] `lib/help/ability.txt:56` [line] [[[[[BPerfect casting]
+- [ ] `lib/help/ability.txt:57` [line] Allows you to reach 0% failure rate on spells.
+- [ ] `lib/help/ability.txt:58` [line] #####UPrereq: Magic skill@35
+- [ ] `lib/help/ability.txt:59` [line] #####rCost: 6
+- [ ] `lib/help/ability.txt:60` [line] Priests and Mages (of all types) are born with this ability.
+- [ ] `lib/help/ability.txt:61` [line] ~~~~~05|Abilities|Extra Max Blow 1
+- [ ] `lib/help/ability.txt:62` [line] [[[[[BExtra Max Blow(1)]
+- [ ] `lib/help/ability.txt:63` [line] Increases your max possible blows number by 1.
+- [ ] `lib/help/ability.txt:64` [line] #####UPrereq: Combat skill@10
+- [ ] `lib/help/ability.txt:65` [line] #####rCost: 7
+- [ ] `lib/help/ability.txt:66` [line] Warriors (of all types) and Paladins are born with this ability.
+- [ ] `lib/help/ability.txt:67` [line] Rogues (of all types) gain this ability for free at character level 10.
+- [ ] `lib/help/ability.txt:68` [line] ~~~~~06|Abilities|Extra Max Blow 2
+- [ ] `lib/help/ability.txt:69` [line] [[[[[BExtra Max Blow(2)]
+- [ ] `lib/help/ability.txt:70` [line] Increases your max possible blows number by 1 (Cumulative with 
+- [ ] `lib/help/ability.txt:71` [line] Extra Max Blow(1)).
+- [ ] `lib/help/ability.txt:72` [line] #####UPrereq: Combat skill@20, Extra Max Blow(1)
+- [ ] `lib/help/ability.txt:73` [line] #####rCost: 7
+- [ ] `lib/help/ability.txt:74` [line] Warriors (of all types) are born with this ability.
+- [ ] `lib/help/ability.txt:75` [line] ~~~~~07|Abilities|Ammo creation
+- [ ] `lib/help/ability.txt:76` [line] [[[[[BAmmo creation]
+- [ ] `lib/help/ability.txt:77` [line] Allows you to create shots, arrows and bolts from various materials.
+- [ ] `lib/help/ability.txt:78` [line] You can always make shots.
+- [ ] `lib/help/ability.txt:79` [line] At Archery level 10 you can start making arrows.
+- [ ] `lib/help/ability.txt:80` [line] At Archery level 20 you can start making bolts.
+- [ ] `lib/help/ability.txt:81` [line] #####UPrereq: Archery skill@10
+- [ ] `lib/help/ability.txt:82` [line] #####rCost: 8
+- [ ] `lib/help/ability.txt:83` [line] Archers (of all types) gain this ability for free at character level 2.
+- [ ] `lib/help/ability.txt:84` [line] ~~~~~08|Abilities|Touch of death
+- [ ] `lib/help/ability.txt:85` [line] [[[[[BTouch of death]
+- [ ] `lib/help/ability.txt:86` [line] Your melee blows can insta-kill, but you only receive 1/3 of the experience
+- [ ] `lib/help/ability.txt:87` [line] for that kill.
+- [ ] `lib/help/ability.txt:88` [line] You must activate this from your 'm' menu.
+- [ ] `lib/help/ability.txt:89` [line] #####UPrereq: Necromancy skill@50, Combat skill@40, DEX@30, STR@30
+- [ ] `lib/help/ability.txt:90` [line] #####rCost: 15
+- [ ] `lib/help/ability.txt:91` [line] ~~~~~10|Abilities|Far reaching attack
+- [ ] `lib/help/ability.txt:92` [line] [[[[[BFar reaching attack]
+- [ ] `lib/help/ability.txt:93` [line] You can attack an enemy one square far using a long polearm.
+- [ ] `lib/help/ability.txt:94` [line] At high levels of Polearm-mastery skill, you can even hit two enemies at once.
+- [ ] `lib/help/ability.txt:95` [line] #####UPrereq: Combat@15, Polearm-mastery@15
+- [ ] `lib/help/ability.txt:96` [line] #####rCost: 10
+- [ ] `lib/help/ability.txt:97` [line] ~~~~~11|Abilities|Trapping
+- [ ] `lib/help/ability.txt:98` [line] [[[[[BTrapping]
+- [ ] `lib/help/ability.txt:99` [line] Enables you to set traps which harm monsters.
+- [ ] `lib/help/ability.txt:100` [line] #####UPrereq: Disarming@15
+- [ ] `lib/help/ability.txt:101` [line] #####rCost: 10
+- [ ] `lib/help/ability.txt:102` [line] Rogues are born with this ability.
+- [ ] `lib/help/ability.txt:103` [line] ~~~~~12|Abilities|Undead Form
+- [ ] `lib/help/ability.txt:104` [line] [[[[[BUndead Form]
+- [ ] `lib/help/ability.txt:105` [line] With this ability your character receives a small amount of Death Points (DP) 
+- [ ] `lib/help/ability.txt:106` [line] when they 'die'. Every normal (+0 speed) turn, one DP
+- [ ] `lib/help/ability.txt:107` [line] is lost; you can regain it like you would do with Hit Points.
+- [ ] `lib/help/ability.txt:108` [line] If you manage to kill enough monsters before your DP goes below 0, your
+- [ ] `lib/help/ability.txt:109` [line] character is brought back to life.
+- [ ] `lib/help/ability.txt:110` [line] #####UPrereq: Necromancy@30, INT@25
+- [ ] `lib/help/ability.txt:111` [line] #####rCost: 15
+- [ ] `lib/help/ability.txt:112` [line] Necromancers gain this ability for free at character level 25.

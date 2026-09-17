@@ -1,0 +1,53 @@
+# 数据清单：lib/help/bldg.txt（text，逐条/逐行）
+
+- [ ] `lib/help/bldg.txt:1` [line] |||||oy
+- [ ] `lib/help/bldg.txt:2` [line] ~~~~~01|Buildings
+- [ ] `lib/help/bldg.txt:3` [line] #####R=== Historical Town View ===
+- [ ] `lib/help/bldg.txt:4` [line] The town is composed of both stores and buildings. 
+- [ ] `lib/help/bldg.txt:6` [line] #####RStores
+- [ ] `lib/help/bldg.txt:7` [line] The stores are where you can pick up the supplies you need before entering the
+- [ ] `lib/help/bldg.txt:8` [line] depths of the dungeon. These include:
+- [ ] `lib/help/bldg.txt:10` [line] [[[[[GGeneral Store (1):] food, torches, shovels... the necessities.
+- [ ] `lib/help/bldg.txt:11` [line] [[[[[GArmoury (2):] to protect from the ravages of the dungeon.
+- [ ] `lib/help/bldg.txt:12` [line] [[[[[GWeaponsmith (3):] they carry anything sharp and to the point.
+- [ ] `lib/help/bldg.txt:13` [line] [[[[[GTemple (4):] prayerbooks and those items holy.
+- [ ] `lib/help/bldg.txt:14` [line] [[[[[GAlchemist (5):] for all sorts of bubbling potions and scrolls.
+- [ ] `lib/help/bldg.txt:15` [line] [[[[[GMagic Shop (6):] get your wands and spellbooks here.
+- [ ] `lib/help/bldg.txt:16` [line] [[[[[GBlack Market (7):] the prices are high, but the items unique.
+- [ ] `lib/help/bldg.txt:17` [line] [[[[[GYour Home (8):] to store your precious treasures.
+- [ ] `lib/help/bldg.txt:18` [line] [[[[[GBook Store (9):] for all sorts of basic spell book needs.
+- [ ] `lib/help/bldg.txt:20` [line] #####ROther Buildings
+- [ ] `lib/help/bldg.txt:21` [line] In addition to the basic stores, there are some special buildings that can be
+- [ ] `lib/help/bldg.txt:22` [line] found in some towns. These buildings (represented by +'s) include:
+- [ ] `lib/help/bldg.txt:24` [line] [[[[[GMayor's Office/Castle:] The administrative center of the town.
+- [ ] `lib/help/bldg.txt:25` [line] Adventurers looking for work besides exploring the dungeon should hunt in here.
+- [ ] `lib/help/bldg.txt:26` [line] [[[[[GPet Shop:] Great place to purchase eggs and get pets.
+- [ ] `lib/help/bldg.txt:27` [line] [[[[[GThe Soothsayer:] To discover what *****/afatespoi.txt*0[fates ("a")] lie in store for you.
+- [ ] `lib/help/bldg.txt:28` [line] [[[[[GThe Inn:] Wine, dine, rest and relax!
+- [ ] `lib/help/bldg.txt:29` [line] [[[[[GThe Nest:] Thunderlords are masters of teleportation, and will consent to bear 
+- [ ] `lib/help/bldg.txt:30` [line] you to your chosen dungeon destination for a fee.
+- [ ] `lib/help/bldg.txt:31` [line] [[[[[GBeastmaster Shanty:] For those who enjoy trophy hunting, and to research the
+- [ ] `lib/help/bldg.txt:32` [line] strange animals seen during their adventures. 
+- [ ] `lib/help/bldg.txt:33` [line] [[[[[GFighters Hall:] The place to reforge weapons and armour.
+- [ ] `lib/help/bldg.txt:34` [line] [[[[[GRangers Guild:] The place to reforge bows and arrows.
+- [ ] `lib/help/bldg.txt:35` [line] [[[[[GLibrary:] For information of all kinds.
+- [ ] `lib/help/bldg.txt:36` [line] [[[[[GGambling House:] Read the *****/bgambling.txt*0[rules ("b")] before paying. The games are not 
+- [ ] `lib/help/bldg.txt:37` [line] rigged, just naturally difficult.
+- [ ] `lib/help/bldg.txt:38` [line] [[[[[GTower of Magery/Wizards Spire:] The wizards will identify your items or recharge 
+- [ ] `lib/help/bldg.txt:39` [line] your magical items for a fee.
+- [ ] `lib/help/bldg.txt:40` [line] [[[[[GInner temple/Priests Circle:] A place of healing.
+- [ ] `lib/help/bldg.txt:41` [line] [[[[[GPaladin guild:] Some healing and enchantments available.
+- [ ] `lib/help/bldg.txt:42` [line] [[[[[GThe Mathom House:] Donate your unwanted items to this museum.
+- [ ] `lib/help/bldg.txt:43` [line] ... and several more!
+- [ ] `lib/help/bldg.txt:45` [line] Some of the places have been known to give out quests to adventurers they 
+- [ ] `lib/help/bldg.txt:46` [line] deem capable enough.  While the mayor's office is the obvious place to start, 
+- [ ] `lib/help/bldg.txt:47` [line] the Sea Dome or Beastmaster Shanty may also want you to bring in various heads
+- [ ] `lib/help/bldg.txt:48` [line] for reasons of their own.  Go into every building you can find.  Quests may
+- [ ] `lib/help/bldg.txt:49` [line] pop up in unexpected places.
+- [ ] `lib/help/bldg.txt:51` [line] There are misty rumours that there may be stores outside of Bree. The faintest
+- [ ] `lib/help/bldg.txt:52` [line] speak of stores of powerful items deep in the dungeon.
+- [ ] `lib/help/bldg.txt:53` [line] Rumours can be helpful or just plain silly.
+- [ ] `lib/help/bldg.txt:54` [line] All buildings are made of stone and unlikely to move around.
+- [ ] `lib/help/bldg.txt:57` [line]                                   File Updated for Pern 4.x.x by Dawnmist.
+- [ ] `lib/help/bldg.txt:58` [line]                                   File Updated for ToME 2.1.x by Kat B.
+- [ ] `lib/help/bldg.txt:59` [line]                                   File Updated for ToME 2.3.x by gwooledge

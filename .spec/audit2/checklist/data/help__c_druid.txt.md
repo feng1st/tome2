@@ -1,0 +1,49 @@
+# 数据清单：lib/help/c_druid.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_druid.txt:1` [line] |||||oy
+- [ ] `lib/help/c_druid.txt:2` [line] ~~~~~01|Druid
+- [ ] `lib/help/c_druid.txt:3` [line] ~~~~~02|Classes|Druid
+- [ ] `lib/help/c_druid.txt:4` [line] ~~~~~03|Yavanna|Druid
+- [ ] `lib/help/c_druid.txt:5` [line] #####R=== Druids ===
+- [ ] `lib/help/c_druid.txt:7` [line] #####GDescription
+- [ ] `lib/help/c_druid.txt:8` [line] When Melkor first dug up Utumno and Angband, rivers were polluted and gave
+- [ ] `lib/help/c_druid.txt:9` [line] birth to dark clouds of stinging insects; animals changed into dark, horrible
+- [ ] `lib/help/c_druid.txt:10` [line] horned things and the forests themselves screamed in horror at their corruption.
+- [ ] `lib/help/c_druid.txt:12` [line] *****g_yavann.txt*0[Yavanna] heard this scream and gave to some of the children of Eru the strength
+- [ ] `lib/help/c_druid.txt:13` [line] to defend Nature; at first Ents were chosen, but later on other races were
+- [ ] `lib/help/c_druid.txt:14` [line] allowed to tread the path of the Druid.
+- [ ] `lib/help/c_druid.txt:16` [line] The embodiment of life itself, a Druid is a true force of nature and nothing
+- [ ] `lib/help/c_druid.txt:17` [line] can prevent him from completing his final quest: returning Angband to the
+- [ ] `lib/help/c_druid.txt:18` [line] grassy sunlit plain it once was.
+- [ ] `lib/help/c_druid.txt:21` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_druid.txt:22` [line] Strength         -1
+- [ ] `lib/help/c_druid.txt:23` [line] Intelligence     -3
+- [ ] `lib/help/c_druid.txt:24` [line] Wisdom           +3
+- [ ] `lib/help/c_druid.txt:25` [line] Dexterity        -1
+- [ ] `lib/help/c_druid.txt:26` [line] Constitution     +0
+- [ ] `lib/help/c_druid.txt:27` [line] Charisma         +2
+- [ ] `lib/help/c_druid.txt:28` [line] Hit Die          +d2
+- [ ] `lib/help/c_druid.txt:29` [line] Spell Points     +0%
+- [ ] `lib/help/c_druid.txt:30` [line] Exp Penalty      20%
+- [ ] `lib/help/c_druid.txt:32` [line] #####GStarting Skills:
+- [ ] `lib/help/c_druid.txt:33` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_druid.txt:34` [line] Combat                  2.000           [0.700]
+- [ ] `lib/help/c_druid.txt:35` [line]   Weaponmastery         1.000           [0.750]
+- [ ] `lib/help/c_druid.txt:36` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_druid.txt:37` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_druid.txt:38` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_druid.txt:39` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_druid.txt:40` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_druid.txt:41` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_druid.txt:42` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_druid.txt:43` [line]   Prayer                1.000           [1.500]
+- [ ] `lib/help/c_druid.txt:44` [line]   Mindcraft             0.000           [0.600]
+- [ ] `lib/help/c_druid.txt:45` [line] Monster-lore            1.000           [1.200]
+- [ ] `lib/help/c_druid.txt:46` [line]   Summoning             1.000           [0.700]
+- [ ] `lib/help/c_druid.txt:48` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_druid.txt:49` [line] #####BAbility              Character level
+- [ ] `lib/help/c_druid.txt:50` [line] Perfect casting             1
+- [ ] `lib/help/c_druid.txt:52` [line] #####GStarting Equipment
+- [ ] `lib/help/c_druid.txt:53` [line] A Druid begins the game with:
+- [ ] `lib/help/c_druid.txt:54` [line]     a Spellbook of Charm Animal
+- [ ] `lib/help/c_druid.txt:55` [line]     a Mace

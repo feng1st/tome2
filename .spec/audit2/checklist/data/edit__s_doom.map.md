@@ -1,0 +1,94 @@
+# 数据清单：lib/edit/s_doom.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/s_doom.map:5` [feat] F:X:177:0
+- [ ] `lib/edit/s_doom.map:8` [feat] F:#:177:0
+- [ ] `lib/edit/s_doom.map:9` [feat] F: :177:0
+- [ ] `lib/edit/s_doom.map:12` [feat] F:$:178:0
+- [ ] `lib/edit/s_doom.map:15` [feat] F:%:205:0
+- [ ] `lib/edit/s_doom.map:18` [feat] F:+:48:0:0:0:0:0:0:177
+- [ ] `lib/edit/s_doom.map:21` [feat] F:D:32:0
+- [ ] `lib/edit/s_doom.map:24` [feat] F:.:86:0
+- [ ] `lib/edit/s_doom.map:27` [feat] F:L:85:0
+- [ ] `lib/edit/s_doom.map:30` [feat] F:*:86:0:0:*
+- [ ] `lib/edit/s_doom.map:33` [feat] F:<:6:0
+- [ ] `lib/edit/s_doom.map:37` [feat] F:A:85:0:807
+- [ ] `lib/edit/s_doom.map:40` [feat] F:a:86:0:807
+- [ ] `lib/edit/s_doom.map:43` [feat] F:B:85:0:996
+- [ ] `lib/edit/s_doom.map:46` [feat] F:b:86:0:996
+- [ ] `lib/edit/s_doom.map:49` [feat] F:C:85:0:812
+- [ ] `lib/edit/s_doom.map:52` [feat] F:c:86:0:812
+- [ ] `lib/edit/s_doom.map:55` [feat] F:E:85:0:847
+- [ ] `lib/edit/s_doom.map:58` [feat] F:e:86:0:847
+- [ ] `lib/edit/s_doom.map:61` [feat] F:F:85:0:1013
+- [ ] `lib/edit/s_doom.map:64` [feat] F:f:86:0:1013
+- [ ] `lib/edit/s_doom.map:67` [feat] F:G:85:0:703
+- [ ] `lib/edit/s_doom.map:70` [feat] F:g:86:0:703
+- [ ] `lib/edit/s_doom.map:73` [feat] F:H:85:0:719
+- [ ] `lib/edit/s_doom.map:76` [feat] F:h:86:0:719
+- [ ] `lib/edit/s_doom.map:79` [feat] F:I:85:0:720
+- [ ] `lib/edit/s_doom.map:82` [feat] F:i:86:0:720
+- [ ] `lib/edit/s_doom.map:85` [feat] F:J:85:0:726
+- [ ] `lib/edit/s_doom.map:88` [feat] F:j:86:0:726
+- [ ] `lib/edit/s_doom.map:91` [feat] F:K:85:0:731
+- [ ] `lib/edit/s_doom.map:94` [feat] F:k:86:0:731
+- [ ] `lib/edit/s_doom.map:97` [feat] F:M:85:0:744
+- [ ] `lib/edit/s_doom.map:100` [feat] F:m:86:0:744
+- [ ] `lib/edit/s_doom.map:103` [feat] F:N:85:0:811
+- [ ] `lib/edit/s_doom.map:106` [feat] F:n:86:0:811
+- [ ] `lib/edit/s_doom.map:109` [feat] F:O:85:0:749
+- [ ] `lib/edit/s_doom.map:112` [feat] F:o:86:0:749
+- [ ] `lib/edit/s_doom.map:115` [feat] F:P:85:0:750
+- [ ] `lib/edit/s_doom.map:118` [feat] F:p:86:0:750
+- [ ] `lib/edit/s_doom.map:121` [feat] F:Q:85:0:756
+- [ ] `lib/edit/s_doom.map:124` [feat] F:q:86:0:756
+- [ ] `lib/edit/s_doom.map:127` [feat] F:R:85:0:768
+- [ ] `lib/edit/s_doom.map:130` [feat] F:r:86:0:768
+- [ ] `lib/edit/s_doom.map:133` [feat] F:S:85:0:773
+- [ ] `lib/edit/s_doom.map:136` [feat] F:s:86:0:773
+- [ ] `lib/edit/s_doom.map:139` [feat] F:U:85:0:790
+- [ ] `lib/edit/s_doom.map:142` [feat] F:u:86:0:790
+- [ ] `lib/edit/s_doom.map:145` [feat] F:V:85:0:811
+- [ ] `lib/edit/s_doom.map:148` [feat] F:v:86:0:811
+- [ ] `lib/edit/s_doom.map:151` [feat] F:W:85:0:1015
+- [ ] `lib/edit/s_doom.map:154` [feat] F:w:86:0:1015
+- [ ] `lib/edit/s_doom.map:158` [feat] F:!:85:0:*99
+- [ ] `lib/edit/s_doom.map:161` [feat] F:1:86:0:*99
+- [ ] `lib/edit/s_doom.map:164` [feat] F:@:85:0:*109
+- [ ] `lib/edit/s_doom.map:167` [feat] F:2:86:0:*109
+- [ ] `lib/edit/s_doom.map:171` [feat] F:&:85:0:*99:*99
+- [ ] `lib/edit/s_doom.map:175` [feat] F:7:86:0:*99:*99
+- [ ] `lib/edit/s_doom.map:179` [feat] F:(:85:0:*109:*104
+- [ ] `lib/edit/s_doom.map:183` [feat] F:9:86:0:*109:*104
+- [ ] `lib/edit/s_doom.map:186` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/s_doom.map:187` [row] D:X          #%%NNLL...JJJ....LL#                                               ##############   X
+- [ ] `lib/edit/s_doom.map:188` [row] D:X #####    #NNNN...Ljjjjj..LLL#   #############################################..1!!!!...L###  X
+- [ ] `lib/edit/s_doom.map:189` [row] D:X##.LL##   #nNNN...LLJJj.LLLLL#   #L....&!&!&....L%%%%%%%L..mRR%R%%M%MML%LL...DL...!1&..@L%%#  X
+- [ ] `lib/edit/s_doom.map:190` [row] D:X#LL<..#   #nn.LL.LLLL...%%%LL#   #..##########################################LLL....LLL%%%#  X
+- [ ] `lib/edit/s_doom.map:191` [row] D:X##%LL##   #....LLL%%LLL..LLLL#   #.L#                                        #LL2....q.LLL##  X
+- [ ] `lib/edit/s_doom.map:192` [row] D:X ###+#    #D##############+#######.L#                                       ##%%.LLLL&L...#   X
+- [ ] `lib/edit/s_doom.map:193` [row] D:X   #!#    #.#            #.......L%%#                                      ##%%LL..2.....##   X
+- [ ] `lib/edit/s_doom.map:194` [row] D:X   #L#    #.############ ##########+#             XXXXXXXXXX                ##.9...LLLLL##    X
+- [ ] `lib/edit/s_doom.map:195` [row] D:X   #.#    #LL%%%%LL...p#      #11111#             X########X     ###############.2..LQ#+#     X
+- [ ] `lib/edit/s_doom.map:196` [row] D:X  ##.#    ############D##     #11211#             X#9....9#X     #o.........#  ###LL..#(#     X
+- [ ] `lib/edit/s_doom.map:197` [row] D:X  #L##             ##%%V##    #12221#        XXXXXX#..$$..#XXXXXX#LLLLKkk...#    ###D####     X
+- [ ] `lib/edit/s_doom.map:198` [row] D:X  ##!#            ##.VHL%##   #12221#        X######.....m######X#LLLLkkk.LL#      #.#        X
+- [ ] `lib/edit/s_doom.map:199` [row] D:X   #.#           ##.iH%%hv##  #11211###      X#sSSSrr.%.mVVVLLe#X#.LL.kkk...#     ##.#        X
+- [ ] `lib/edit/s_doom.map:200` [row] D:X ###D#########   #.iI%HHhvL#  #11111+9#      X#rRssRr.%.mVvvm..#X#%...LLL...#    ##Lo######   X
+- [ ] `lib/edit/s_doom.map:201` [row] D:X #.L.LLLL...L##  #.LIH%Hc..#  #########      X#.MmmM..%..MMLLL.#X#%%......L&#   ##.L##EBBB#   X
+- [ ] `lib/edit/s_doom.map:202` [row] D:X #.jJ%%%L....L#  ##..ICCL.##                 X#.L..L..%..L.....#X########D###   #.####LAAB##  X
+- [ ] `lib/edit/s_doom.map:203` [row] D:X #JJJJL%LLL&..#   ##..L.L##                  X#9LLL...%..LL(LLq#X   #..L..#     #.LL..LB%%L#  X
+- [ ] `lib/edit/s_doom.map:204` [row] D:X #J%J..LLL%%LL##   ##...##                   X######......######X   #L.####     ###..LL%%%L## X
+- [ ] `lib/edit/s_doom.map:205` [row] D:X #jJJL..bL%LL..##   ##D#################     XXXXXX#.LUUL.#XXXXXX   #.L#          #.PL%%%@(L# X
+- [ ] `lib/edit/s_doom.map:206` [row] D:X ##....BABLL..L.##   #.uLLLL..L%LL..L%%#          X#.L%%LL#X        #L.####       ###.L%LL..##X
+- [ ] `lib/edit/s_doom.map:207` [row] D:X  ##....B%%L.....##  #################L#          X#LLL...#X        #...wW#        #L..LL...+pX
+- [ ] `lib/edit/s_doom.map:208` [row] D:X  ###....LLL...LLL####################.#          X#%L..7.#X        #####L#      ###LL...1###oX
+- [ ] `lib/edit/s_doom.map:209` [row] D:X  #9+L%%L...LLL....D.+..%%oF.%%L..%%LL.#          X#LLLL..#X            #p#      #%%%!@..## #.X
+- [ ] `lib/edit/s_doom.map:210` [row] D:X  ##################L###.L###..###.L####          X#7...LL#X            #.#      #########  #EX
+- [ ] `lib/edit/s_doom.map:211` [row] D:X  ##################.# ##############             X#.LLLL.#X       ######D###################LX
+- [ ] `lib/edit/s_doom.map:212` [row] D:X      ##11!!!&LL.+(#L#                            X#LL%%LL#X       #G..LLL.LL...D..LL....LLLL%X
+- [ ] `lib/edit/s_doom.map:213` [row] D:X     ##1!!!%%%%Lp###L#                            X#L%%%%Q#X       #..LF....K...##############X
+- [ ] `lib/edit/s_doom.map:214` [row] D:X     ##!!%%%%%LLL..#.#                            XXXXDDXXXX########.LLLL..KKK..####          X
+- [ ] `lib/edit/s_doom.map:215` [row] D:X      ##.LLLLLLL...+.#                               #%%%%%%%%%%%%%+LL7..LL.k..L+o7#          X
+- [ ] `lib/edit/s_doom.map:216` [row] D:X       ###############                               ###############################          X
+- [ ] `lib/edit/s_doom.map:217` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/s_doom.map:220` [raw] P:6:6

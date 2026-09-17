@@ -1,0 +1,46 @@
+# 数据清单：lib/help/m_mind.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_mind.txt:1` [line] |||||oy
+- [ ] `lib/help/m_mind.txt:2` [line] ~~~~~01|Magic|Mind School
+- [ ] `lib/help/m_mind.txt:3` [line] ~~~~~02|Mind Magic
+- [ ] `lib/help/m_mind.txt:4` [line] ~~~~~03|Skills|Mind - Spell Info
+- [ ] `lib/help/m_mind.txt:5` [line] #####R === ToME Magic - Mind School ===
+- [ ] `lib/help/m_mind.txt:7` [line] The mind school of magic contains spells which alter the mind. There are
+- [ ] `lib/help/m_mind.txt:8` [line] rumours of a "Tome of the Mind" which contains all the mind school spells
+- [ ] `lib/help/m_mind.txt:9` [line] within its bindings.
+- [ ] `lib/help/m_mind.txt:11` [line] Worshipping the God Eru Iluvatar or the God Melkor Bauglir also gives the
+- [ ] `lib/help/m_mind.txt:12` [line] ability to cast spells from the mind school at a level of 1/3 of your prayer
+- [ ] `lib/help/m_mind.txt:13` [line] level. E.g. if the skill "Spirituality: Prayer" is at level 12, you can cast
+- [ ] `lib/help/m_mind.txt:14` [line] up to level 4 mind school spells.
+- [ ] `lib/help/m_mind.txt:16` [line] #####sMind Spells
+- [ ] `lib/help/m_mind.txt:17` [line] There are four spells available for the mind school. These spells are:
+- [ ] `lib/help/m_mind.txt:18` [line] 1. [[[[[sCharm] (school level 1)
+- [ ] `lib/help/m_mind.txt:19` [line]    Tries to manipulate the mind of a monster to make it friendly.
+- [ ] `lib/help/m_mind.txt:20` [line]    At spell level 15 it turns into a ball.
+- [ ] `lib/help/m_mind.txt:21` [line]    At spell level 35 it affects all monsters in sight.
+- [ ] `lib/help/m_mind.txt:22` [line] 2. [[[[[sConfuse] (school level 5)
+- [ ] `lib/help/m_mind.txt:23` [line]    Tries to manipulate the mind of a monster to confuse it.
+- [ ] `lib/help/m_mind.txt:24` [line]    At spell level 15 it turns into a ball.
+- [ ] `lib/help/m_mind.txt:25` [line]    At spell level 35 it affects all monsters in sight.
+- [ ] `lib/help/m_mind.txt:26` [line] 3. [[[[[sArmor of Fear] (school level 10)
+- [ ] `lib/help/m_mind.txt:27` [line]    Creates a shield of pure fear around you. Any monster attempting to hit
+- [ ] `lib/help/m_mind.txt:28` [line]    you must save or flee.
+- [ ] `lib/help/m_mind.txt:29` [line] 4. [[[[[sStun] (school level 15)
+- [ ] `lib/help/m_mind.txt:30` [line]    Tries to manipulate the mind of a monster to stun it.
+- [ ] `lib/help/m_mind.txt:31` [line]    At spell level 20 it turns into a ball.
+- [ ] `lib/help/m_mind.txt:33` [line] #####GFire spells that can be cast with Mind skill
+- [ ] `lib/help/m_mind.txt:35` [line] 1. [[[[[RFire Golem] (school level 7)
+- [ ] `lib/help/m_mind.txt:36` [line]    Creates a fiery golem and controls it.
+- [ ] `lib/help/m_mind.txt:37` [line]    During the control the available keylist is:
+- [ ] `lib/help/m_mind.txt:38` [line]       Movement keys: move the golem (depending on its speed it can move more
+- [ ] `lib/help/m_mind.txt:39` [line]           than one square).
+- [ ] `lib/help/m_mind.txt:40` [line]       , : pickup all items on the floor
+- [ ] `lib/help/m_mind.txt:41` [line]       d : drop all carried items
+- [ ] `lib/help/m_mind.txt:42` [line]       i : list all carried items
+- [ ] `lib/help/m_mind.txt:43` [line]       m : end the possession/use golem powers
+- [ ] `lib/help/m_mind.txt:44` [line]       Most of the other keys are disabled; you cannot interact with your
+- [ ] `lib/help/m_mind.txt:45` [line]       real body while controlling the golem.
+- [ ] `lib/help/m_mind.txt:46` [line]    But to cast the spell you will need a lantern or a wooden torch to create
+- [ ] `lib/help/m_mind.txt:47` [line]    the golem.
+- [ ] `lib/help/m_mind.txt:48` [line] #####v   Your Fire and Mind skills must have reached a combined average level 
+- [ ] `lib/help/m_mind.txt:49` [line] #####v   of 7 in order to cast this spell.

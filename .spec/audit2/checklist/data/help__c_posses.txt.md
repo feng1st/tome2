@@ -1,0 +1,65 @@
+# 数据清单：lib/help/c_posses.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_posses.txt:1` [line] ~~~~~01|Possessor
+- [ ] `lib/help/c_posses.txt:2` [line] ~~~~~02|Classes|Possessor
+- [ ] `lib/help/c_posses.txt:3` [line] #####R=== Possessors ===
+- [ ] `lib/help/c_posses.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_posses.txt:6` [line] Possessors are unusual; they aren't good fighters, and they can't cast 
+- [ ] `lib/help/c_posses.txt:7` [line] magic. Their special ability is that of being able to leave their 
+- [ ] `lib/help/c_posses.txt:8` [line] bodies and inhabit corpses. While "in" a corpse, the Possessor gains 
+- [ ] `lib/help/c_posses.txt:9` [line] the abilities of the monster, and their hit points and the monster's 
+- [ ] `lib/help/c_posses.txt:10` [line] are averaged. (Most monsters have no, or very few, spell points.)  While
+- [ ] `lib/help/c_posses.txt:11` [line] in the incorporeal form between bodies, they have only one hitpoint.
+- [ ] `lib/help/c_posses.txt:13` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_posses.txt:14` [line] Strength         +1
+- [ ] `lib/help/c_posses.txt:15` [line] Intelligence     -2
+- [ ] `lib/help/c_posses.txt:16` [line] Wisdom           +1
+- [ ] `lib/help/c_posses.txt:17` [line] Dexterity        +1
+- [ ] `lib/help/c_posses.txt:18` [line] Constitution     +0
+- [ ] `lib/help/c_posses.txt:19` [line] Charisma         +1
+- [ ] `lib/help/c_posses.txt:20` [line] Hit Die          +d8
+- [ ] `lib/help/c_posses.txt:21` [line] Spell Points     +0%
+- [ ] `lib/help/c_posses.txt:22` [line] Exp Penalty      40%
+- [ ] `lib/help/c_posses.txt:24` [line] #####GStarting Skills:
+- [ ] `lib/help/c_posses.txt:25` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_posses.txt:26` [line] Combat                  1.000           [0.600]
+- [ ] `lib/help/c_posses.txt:27` [line]   Weaponmastery         1.000           [0.600]
+- [ ] `lib/help/c_posses.txt:28` [line]   Archery               1.000           [0.400]
+- [ ] `lib/help/c_posses.txt:29` [line] Sneakiness              1.000           [0.700]
+- [ ] `lib/help/c_posses.txt:30` [line]   Stealth               1.000           [0.700]
+- [ ] `lib/help/c_posses.txt:31` [line]   Disarming             1.000           [0.500]
+- [ ] `lib/help/c_posses.txt:32` [line] Magic                   0.000           [0.600]
+- [ ] `lib/help/c_posses.txt:33` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_posses.txt:34` [line] Spirituality            1.000           [0.500]
+- [ ] `lib/help/c_posses.txt:35` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_posses.txt:36` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_posses.txt:37` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_posses.txt:38` [line]   Corpse-preservation   1.000           [0.900]
+- [ ] `lib/help/c_posses.txt:39` [line]   Possession            1.000           [0.800]
+- [ ] `lib/help/c_posses.txt:41` [line] #####GStarting Equipment
+- [ ] `lib/help/c_posses.txt:42` [line] A Possessor begins the game with:
+- [ ] `lib/help/c_posses.txt:43` [line]     a Potion of Healing
+- [ ] `lib/help/c_posses.txt:44` [line]     a Short Sword
+- [ ] `lib/help/c_posses.txt:45` [line]     a Hard Leather Armour
+- [ ] `lib/help/c_posses.txt:47` [line] ~~~~~03|Possessor|Possessor powers 
+- [ ] `lib/help/c_posses.txt:48` [line] ~~~~~04|Skills|Possession - Possessor powers 
+- [ ] `lib/help/c_posses.txt:49` [line] #####GPossession
+- [ ] `lib/help/c_posses.txt:50` [line] The strange art of reanimating the corpse of a monster and making
+- [ ] `lib/help/c_posses.txt:51` [line] it one's own can be of extreme benefit to those skilled in it. The body
+- [ ] `lib/help/c_posses.txt:52` [line] the player possesses can grant powerful abilities, such as increased
+- [ ] `lib/help/c_posses.txt:53` [line] speed, summoning, healing, breathing, and various resistances, and often
+- [ ] `lib/help/c_posses.txt:54` [line] gives the player a large number of hit points. Possessing uniques is
+- [ ] `lib/help/c_posses.txt:55` [line] especially neat.  
+- [ ] `lib/help/c_posses.txt:57` [line] Possessors leave their own body by using the 'm' command, and choosing 
+- [ ] `lib/help/c_posses.txt:58` [line] "[I]incarnating powers". Lacking a life force to sustain it, a corpse may rot
+- [ ] `lib/help/c_posses.txt:59` [line] immediately when a Possessor leaves it, but a high Possession skill score
+- [ ] `lib/help/c_posses.txt:60` [line] may prevent this from happening. They then become a very vulnerable ghostly 
+- [ ] `lib/help/c_posses.txt:61` [line] being which travels to where another corpse is lying on the floor, and 
+- [ ] `lib/help/c_posses.txt:62` [line] possesses it by again using the 'm' command.  Once possessed, many 
+- [ ] `lib/help/c_posses.txt:63` [line] monster corpses allow the player to perform various special actions
+- [ ] `lib/help/c_posses.txt:64` [line] (such as blinking or summoning) by using the option "Use your [R]ace
+- [ ] `lib/help/c_posses.txt:65` [line] powers".
+- [ ] `lib/help/c_posses.txt:67` [line] All corpses alter the player's melee attacks. When they incarnate in a 
+- [ ] `lib/help/c_posses.txt:68` [line] monster that allows the use of a weapon, monster blows are ignored 
+- [ ] `lib/help/c_posses.txt:69` [line] [[[[[Btotally]. When they incarnate in a monster that doesn't allow use of a 
+- [ ] `lib/help/c_posses.txt:70` [line] weapon (dragons for example) they use the monster blows [[[[[Band only them]!

@@ -1,0 +1,34 @@
+# 数据清单：lib/help/m_udun.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_udun.txt:1` [line] |||||oy
+- [ ] `lib/help/m_udun.txt:2` [line] ~~~~~01|Magic|Udun School
+- [ ] `lib/help/m_udun.txt:3` [line] ~~~~~02|Udun Magic
+- [ ] `lib/help/m_udun.txt:4` [line] ~~~~~03|Skills|Udun - Spell Info
+- [ ] `lib/help/m_udun.txt:5` [line] #####R === ToME Magic - Udun School ===
+- [ ] `lib/help/m_udun.txt:7` [line] The Udun school of magic contains spells where the corrupted forces of Melkor
+- [ ] `lib/help/m_udun.txt:8` [line] Bauglir are used to create the final spell effect. There are rumours of an
+- [ ] `lib/help/m_udun.txt:9` [line] "Unholy Tome of the Hellflame" which contains all the Udun school spells within
+- [ ] `lib/help/m_udun.txt:10` [line] its bindings.
+- [ ] `lib/help/m_udun.txt:12` [line] The Udun school is available only to worshippers of *****g_melkor.txt*0[Melkor Bauglir]. They will also
+- [ ] `lib/help/m_udun.txt:13` [line] need some proficiency in the magic schools of Mana, Nature, Conveyance, and Fire
+- [ ] `lib/help/m_udun.txt:14` [line] (or alternatively Sorcery) to cast the Udun spells. On the other hand, the spell
+- [ ] `lib/help/m_udun.txt:15` [line] power of Udun spells is greatly increased by the level of the caster.
+- [ ] `lib/help/m_udun.txt:17` [line] #####DUdun Spells
+- [ ] `lib/help/m_udun.txt:18` [line] There are four spells available for the Udun school. These spells are:
+- [ ] `lib/help/m_udun.txt:19` [line] 1. [[[[[DDrain] (dual school level 1)
+- [ ] `lib/help/m_udun.txt:20` [line]    Drains the mana contained in wands, staves and rods to increase yours.
+- [ ] `lib/help/m_udun.txt:21` [line] #####v   Your Udun and Mana skills must have reached a combined average level 
+- [ ] `lib/help/m_udun.txt:22` [line] #####v   of 1 in order to cast this spell.
+- [ ] `lib/help/m_udun.txt:23` [line] 2. [[[[[DGenocide] (dual school level 25)
+- [ ] `lib/help/m_udun.txt:24` [line]    Genocides all monsters of a specified race on the level.
+- [ ] `lib/help/m_udun.txt:25` [line]    At level 10 it can genocide all monsters near you.
+- [ ] `lib/help/m_udun.txt:26` [line] #####v   Your Udun and Nature skills must have reached a combined average level 
+- [ ] `lib/help/m_udun.txt:27` [line] #####v   of 25 in order to cast this spell.
+- [ ] `lib/help/m_udun.txt:28` [line] 3. [[[[[DWraithform] (dual school level 30)
+- [ ] `lib/help/m_udun.txt:29` [line]    Turns you temporarily into an immaterial being.
+- [ ] `lib/help/m_udun.txt:30` [line] #####v   Your Udun and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_udun.txt:31` [line] #####v   of 30 in order to cast this spell.
+- [ ] `lib/help/m_udun.txt:32` [line] 4. [[[[[DFlame of Udun] (dual school level 35)
+- [ ] `lib/help/m_udun.txt:33` [line]    Turns you temporarily into a powerful Balrog.
+- [ ] `lib/help/m_udun.txt:34` [line] #####v   Your Udun and Fire skills must have reached a combined average level 
+- [ ] `lib/help/m_udun.txt:35` [line] #####v   of 35 in order to cast this spell.

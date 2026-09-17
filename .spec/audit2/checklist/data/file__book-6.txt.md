@@ -1,0 +1,218 @@
+# 数据清单：lib/file/book-6.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-6.txt:2` [line] 			Artifact Lore, Vol. I
+- [ ] `lib/file/book-6.txt:3` [line] 			   Ancient Weapons
+- [ ] `lib/file/book-6.txt:4` [line] 			---------------------
+- [ ] `lib/file/book-6.txt:7` [line]   The Longsword 'Ringil' (4d5) (+22,+25)
+- [ ] `lib/file/book-6.txt:8` [line]        The Sword of Fingolfin (High-Elf).  When wielded it will
+- [ ] `lib/file/book-6.txt:9` [line]        haste its wielder.  It is a blade of such deathly cold that 
+- [ ] `lib/file/book-6.txt:10` [line]        it shines bright white acting as a permanent light and 
+- [ ] `lib/file/book-6.txt:11` [line]        delivering cold criticals.  It slays evil, demons, undead
+- [ ] `lib/file/book-6.txt:12` [line]        and trolls.  Allows you to resist cold, regenerate mana and  
+- [ ] `lib/file/book-6.txt:13` [line]        hit points more quickly with no extra food consumption. Also
+- [ ] `lib/file/book-6.txt:14` [line]        lets you see invisible and be immune to paralyzation.  Being
+- [ ] `lib/file/book-6.txt:15` [line]        made of white eog, it is capable of casting Ice Storms.
+- [ ] `lib/file/book-6.txt:17` [line]   The Longsword 'Anduril' (3d5) (+10,+15) [+5]
+- [ ] `lib/file/book-6.txt:18` [line]        The  Sword of Aragorn  the  Dunadan  Ranger  and  King.   It 
+- [ ] `lib/file/book-6.txt:19` [line]        increases your  strength  to  match  true  Kingly  strength,
+- [ ] `lib/file/book-6.txt:20` [line]        increases  armour class by +5. Being the 'Flame of the West'
+- [ ] `lib/file/book-6.txt:21` [line]        it delivers  heat criticals and defends  against  fire.   It 
+- [ ] `lib/file/book-6.txt:22` [line]        slays  evil, orcs and trolls. It allows you to see invisible
+- [ ] `lib/file/book-6.txt:23` [line]        and avoid paralyzation. So near to the element  fire  is the
+- [ ] `lib/file/book-6.txt:24` [line]        blade, that  Fire  Balls  can  be  cast  from  its   searing
+- [ ] `lib/file/book-6.txt:25` [line]        surface.
+- [ ] `lib/file/book-6.txt:27` [line]   The Lead-filled Mace 'Grond' (9d9) (+25,+25) [+10]
+- [ ] `lib/file/book-6.txt:28` [line]        The Hammer  of  the  Underworld,  this  is  Morgoth's  chief
+- [ ] `lib/file/book-6.txt:29` [line]        weapon. It weighs so much that it  slows  anything  of  less
+- [ ] `lib/file/book-6.txt:30` [line]        than godly status. It is so awesome that it  aggravates  all  
+- [ ] `lib/file/book-6.txt:31` [line]        that see it. It makes it's wielder see all and  resist  all.
+- [ ] `lib/file/book-6.txt:32` [line]        It slays all of Morgoths personal creations of orcs, trolls,
+- [ ] `lib/file/book-6.txt:33` [line]        and demons and it executes  dragons  doing five times normal
+- [ ] `lib/file/book-6.txt:34` [line]        damage against them, (it can kill all but a very few dragons
+- [ ] `lib/file/book-6.txt:35` [line]        in one mighty blow!).   Plus it causes impact criticals that 
+- [ ] `lib/file/book-6.txt:36` [line]        cause  earthquakes and it can  tunnel  through solid granite
+- [ ] `lib/file/book-6.txt:37` [line]        walls!
+- [ ] `lib/file/book-6.txt:39` [line]   The Two-Handed Sword 'Gurthang' (3d6) (+13,+17)
+- [ ] `lib/file/book-6.txt:40` [line]        This Iron of  Death  belonging  to  Turin  Turambar, made of 
+- [ ] `lib/file/book-6.txt:41` [line]        black eog, was designed to slay Dragons (and Trolls),  doing
+- [ ] `lib/file/book-6.txt:42` [line]        five times normal damage against dragons. It gives  you  the 
+- [ ] `lib/file/book-6.txt:43` [line]        strength to wield it, regenerates your  hit  points and mana 
+- [ ] `lib/file/book-6.txt:44` [line]        at no extra cost and allows you to be free of paralyzation.
+- [ ] `lib/file/book-6.txt:46` [line]   The Two-Handed Sword 'Mormegil' (6d7) (0,0) [-20]
+- [ ] `lib/file/book-6.txt:47` [line]        This evil black sword is heavily cursed, slowing its wielder
+- [ ] `lib/file/book-6.txt:48` [line]        and aggravating all that see it...
+- [ ] `lib/file/book-6.txt:50` [line]   The Broadsword 'Arunruth' (2d5) (+20,+12)
+- [ ] `lib/file/book-6.txt:51` [line]        This Sword of Accuracy  rarely  misses.  It  increases  the
+- [ ] `lib/file/book-6.txt:52` [line]        wielders dexterity, saves from falls, slays orcs and demons,
+- [ ] `lib/file/book-6.txt:53` [line]        and protects from paralyzation.
+- [ ] `lib/file/book-6.txt:55` [line]   The Broadsword 'Glamdring' (2d5) (+10,+15)
+- [ ] `lib/file/book-6.txt:56` [line]        This High-Elven sword (mate to Orcrist) was made during foul
+- [ ] `lib/file/book-6.txt:57` [line]        orc wars of long ago. It was once  wielded  by  Gandalf  the
+- [ ] `lib/file/book-6.txt:58` [line]        Grey Wizard. It slays orcs and  other  evil, shining  bright 
+- [ ] `lib/file/book-6.txt:59` [line]        red continuously, which aids  searching  and decreases  food  
+- [ ] `lib/file/book-6.txt:60` [line]        consumption. Its element is flame, and it gives   resistance
+- [ ] `lib/file/book-6.txt:61` [line]        to flame to the wielder, and slays those who have not.
+- [ ] `lib/file/book-6.txt:63` [line]   The Broadsword 'Orcrist' (2d5) (+10,+15)
+- [ ] `lib/file/book-6.txt:64` [line]        This High-Elven sword (mate to Glamdring)  was  made  during
+- [ ] `lib/file/book-6.txt:65` [line]        foul orc wars of long ago.  It was once  wielded  by  Thorin 
+- [ ] `lib/file/book-6.txt:66` [line]        Oakenshield the Dwarf-King-Under-the-Mountain. It slays orcs 
+- [ ] `lib/file/book-6.txt:67` [line]        and  other  evil,  shining  bright white continuously, which
+- [ ] `lib/file/book-6.txt:68` [line]        decreases food consumption, plus  making  the  wielder  more 
+- [ ] `lib/file/book-6.txt:69` [line]        stealthy. Being of the element frost, it protects from cold,
+- [ ] `lib/file/book-6.txt:70` [line]        and slays non-cold based creatures.
+- [ ] `lib/file/book-6.txt:72` [line]   The Broadsword 'Aeglin' (2d5) (+12,+16)
+- [ ] `lib/file/book-6.txt:73` [line]        This High-Elven sword, is the long, lost and forgotten third
+- [ ] `lib/file/book-6.txt:74` [line]        mate to Orcrist and Glamdring. It is also the most powerful.
+- [ ] `lib/file/book-6.txt:75` [line]        Like Glamdring and Orcrist, made  during  the  Orc-wars,  it 
+- [ ] `lib/file/book-6.txt:76` [line]        slays Orcish-kind, shining  bright  blue continuously, which
+- [ ] `lib/file/book-6.txt:77` [line]        decreases food consumption and aiding  searching.  Being  of
+- [ ] `lib/file/book-6.txt:78` [line]        electric element, it delivers lightning criticals, which  it
+- [ ] `lib/file/book-6.txt:79` [line]        also defends against.
+- [ ] `lib/file/book-6.txt:81` [line]   The Long Bow 'Belthronding' (+20,+22) (+3)
+- [ ] `lib/file/book-6.txt:82` [line] 	This Noldorin black-yew bow, belonged to the greatest elven
+- [ ] `lib/file/book-6.txt:83` [line] 	archer, Beleg Cuthalion, who was slain by his own blade, by
+- [ ] `lib/file/book-6.txt:84` [line] 	his best friend Turin Turumbar. The bow  increases  stealth 
+- [ ] `lib/file/book-6.txt:85` [line] 	and dexterity, and rarely missed its target.
+- [ ] `lib/file/book-6.txt:87` [line]   The Long Bow of Bard (+17,+19)
+- [ ] `lib/file/book-6.txt:88` [line] 	This bow of men gives free action and increased dexterity.
+- [ ] `lib/file/book-6.txt:90` [line]   The Light Crossbow 'Cubragol' (+10,+14)
+- [ ] `lib/file/book-6.txt:91` [line] 	This amazing bow of fire hastes its  wielder  and  brands
+- [ ] `lib/file/book-6.txt:92` [line] 	all bolts with its element.
+- [ ] `lib/file/book-6.txt:94` [line]   The Bastard Sword 'Calris' (5d4) (-20,+20)
+- [ ] `lib/file/book-6.txt:95` [line]        This sword of Lungorthin the Balrog of White  Flame,  is  an
+- [ ] `lib/file/book-6.txt:96` [line]        evil cursed sword that needs great mastering to control  its
+- [ ] `lib/file/book-6.txt:97` [line]        powers. If mastered it can execute dragons, slay other  evil
+- [ ] `lib/file/book-6.txt:98` [line]        including demons and trolls, this naturally aggravates them.
+- [ ] `lib/file/book-6.txt:99` [line]        Also it gives its wielder far greater internal constitution.
+- [ ] `lib/file/book-6.txt:101` [line]   The Spear 'Aeglos' (3d6) (+15,+25) [+5]
+- [ ] `lib/file/book-6.txt:102` [line]        This  Snow-thorn of Gil-Galad the  High-Elf,  delivers  very
+- [ ] `lib/file/book-6.txt:103` [line]        deep cold-criticals, while  protecting  you  from  cold  and
+- [ ] `lib/file/book-6.txt:104` [line]        increasing  your armour class.  Being  elvish  it  naturally 
+- [ ] `lib/file/book-6.txt:105` [line]        slays orcs and trolls. It  increases  the  wielders  wisdom, 
+- [ ] `lib/file/book-6.txt:106` [line]        slows their digestion and frees their actions  from  holding
+- [ ] `lib/file/book-6.txt:107` [line]        forces of evil, also casting Frost Balls occasionally.
+- [ ] `lib/file/book-6.txt:109` [line]   The Spear 'Nimloth' (1d6) (+11,+13) (+3 to stealth)
+- [ ] `lib/file/book-6.txt:110` [line]        This elven spear, branded with frost, allows  its  wielder
+- [ ] `lib/file/book-6.txt:111` [line]        to creep up on the Undead and Slay them.
+- [ ] `lib/file/book-6.txt:113` [line]   The Dagger 'Angrist' (2d5) (+10,+15) [+5]
+- [ ] `lib/file/book-6.txt:114` [line]        This Iron-cleaver of Beren the Edain, increases and sustains
+- [ ] `lib/file/book-6.txt:115` [line]        dexterity, increases you protection,  prevents  paralyzation
+- [ ] `lib/file/book-6.txt:116` [line]        and slays orcs and trolls.
+- [ ] `lib/file/book-6.txt:118` [line]   The Small sword 'Sting' (1d6) (+7,+8)
+- [ ] `lib/file/book-6.txt:119` [line]        This  small weapon is  one of the  most powerful weapons  of 
+- [ ] `lib/file/book-6.txt:120` [line]        Westernesse.   Once wielded by Bilbo and Frodo  Baggins  (of
+- [ ] `lib/file/book-6.txt:121` [line]        Hobbit kind),  Sting slays undead,  evil, and orcs and  also 
+- [ ] `lib/file/book-6.txt:122` [line]        shines a continuous, bright blue. It increases the wielder's
+- [ ] `lib/file/book-6.txt:123` [line]        physical statistics  and  its piercing blue light  lights up 
+- [ ] `lib/file/book-6.txt:124` [line]        those normally invisible to sight.
+- [ ] `lib/file/book-6.txt:126` [line]   The Great Axe of Durin (4d4) (+10,+20) [+15]
+- [ ] `lib/file/book-6.txt:127` [line]        This  Wonderful  Dwarven  Axe was once  wielded by Durin the 
+- [ ] `lib/file/book-6.txt:128` [line]        Deathless (Father  and  King  of  the  Dwarves),  gives  its 
+- [ ] `lib/file/book-6.txt:129` [line]        wielder  high protection, executes dragons, while  resisting
+- [ ] `lib/file/book-6.txt:130` [line]        fire and acid.  It slays  demons,  trolls  and  orcs,  frees
+- [ ] `lib/file/book-6.txt:131` [line]        action and increases constitution.
+- [ ] `lib/file/book-6.txt:133` [line]   The War Hammer of Aule (5d5) (+19,+21) [+5]
+- [ ] `lib/file/book-6.txt:134` [line]        This is the great war hammer of the deity,  Aule  the Smith.
+- [ ] `lib/file/book-6.txt:135` [line]        Forged in his great furnaces  it  delivers  Shock  criticals
+- [ ] `lib/file/book-6.txt:136` [line]        causing five times normal damage to those not  resistant  to
+- [ ] `lib/file/book-6.txt:137` [line]        this element, and even then it executes dragons, slays evil,
+- [ ] `lib/file/book-6.txt:138` [line]        demons and undead. It resists fire, cold, acid and lightning
+- [ ] `lib/file/book-6.txt:139` [line]        and allows you to see invisible and be free of paralyzation.
+- [ ] `lib/file/book-6.txt:140` [line]        It increases its wielder's wisdom  so  that  one may  choose 
+- [ ] `lib/file/book-6.txt:141` [line]        wisely what to slay with it.  Truly an awesome weapon.
+- [ ] `lib/file/book-6.txt:143` [line]   The Two-Handed Great Flail 'Thunderfist' (3d6) (+5,+18)
+- [ ] `lib/file/book-6.txt:144` [line]        This weapon of Electricity and  Flame,  delivers  shock  and
+- [ ] `lib/file/book-6.txt:145` [line]        heat criticals, delivering five times or three times  normal
+- [ ] `lib/file/book-6.txt:146` [line]        damage against the respective types of creatures, also slays
+- [ ] `lib/file/book-6.txt:147` [line]        animals, trolls and orcs.  It also gives the  wielder  great
+- [ ] `lib/file/book-6.txt:148` [line]        strength.
+- [ ] `lib/file/book-6.txt:150` [line]   The Morningstar 'Bloodspike' (2d6) (+8,+22)
+- [ ] `lib/file/book-6.txt:151` [line]        This Bloody weapon slays animals, trolls, and orcs.  It allows
+- [ ] `lib/file/book-6.txt:152` [line]        you to see invisible creatures, as well as giving the wielder  
+- [ ] `lib/file/book-6.txt:153` [line]        great strength.
+- [ ] `lib/file/book-6.txt:155` [line]   The Quarterstaff 'Nar-i-vagil' (1d10) (+10,+20)
+- [ ] `lib/file/book-6.txt:156` [line]        This fiery staff slays animals and resists fire, doing times
+- [ ] `lib/file/book-6.txt:157` [line]        fire criticals. It also increases the wielders intelligence.
+- [ ] `lib/file/book-6.txt:159` [line]   The Blade of Chaos 'Doomcaller' (6d5) (+18,+28) [-50]
+- [ ] `lib/file/book-6.txt:160` [line]        This deadly blade  calls  doom  to  all  who  see  it,  this 
+- [ ] `lib/file/book-6.txt:161` [line]        naturally aggravates them. It shows you  wherever a creature
+- [ ] `lib/file/book-6.txt:162` [line]        is,  be  it  invisible  or  blocked  by  a  wall. It resists
+- [ ] `lib/file/book-6.txt:163` [line]        all elements and executes dragons, slays evil,  animal,  orc
+- [ ] `lib/file/book-6.txt:164` [line]        and troll. It delivers cold criticals, but severely  impedes
+- [ ] `lib/file/book-6.txt:165` [line]        its wielders health.
+- [ ] `lib/file/book-6.txt:167` [line]   The Three Daggers, 'Narthanc', 'Nimthanc', 'Dethanc' (1d4) (+4,+6)
+- [ ] `lib/file/book-6.txt:168` [line]        These elemental daggers  of  flame,  frost, and  electricity
+- [ ] `lib/file/book-6.txt:169` [line]        respectively do  their    elemental  criticals,  and  defend  
+- [ ] `lib/file/book-6.txt:170` [line]        against them.  They also cast bolts of their element often.
+- [ ] `lib/file/book-6.txt:172` [line]   The Dagger of Rilia (2d4) (+4,+3)
+- [ ] `lib/file/book-6.txt:173` [line]        This ancient, and poisonous  dagger  casts  stinking  clouds
+- [ ] `lib/file/book-6.txt:174` [line]        with great frequency.
+- [ ] `lib/file/book-6.txt:176` [line]   The Dagger 'Belangil' (2d4) (+6,+9)
+- [ ] `lib/file/book-6.txt:177` [line]        This nimble weapon of cold increases the wielder's dexterity
+- [ ] `lib/file/book-6.txt:178` [line]        and regeneration, while slowing  digestion.  Being  of  dark 
+- [ ] `lib/file/book-6.txt:179` [line]        origins it see alls invisible and casts frost balls.
+- [ ] `lib/file/book-6.txt:181` [line]   The Battle Axe of Balli Stonehand (3d6) (+8,+11) [+5]
+- [ ] `lib/file/book-6.txt:182` [line]        This Dwarvish Battle axe protects from elements,  falls  and
+- [ ] `lib/file/book-6.txt:183` [line]        the invisible. It slays all demons, trolls and orcs,  giving
+- [ ] `lib/file/book-6.txt:184` [line]        even dwarves the stealth, strength and  constitution  to  do
+- [ ] `lib/file/book-6.txt:185` [line]        so, never letting holding spells affect its  use in a fight.
+- [ ] `lib/file/book-6.txt:187` [line]   The Battle Axe 'Lotharang' (2d8) (+4,+3)
+- [ ] `lib/file/book-6.txt:188` [line]        This petty-dwarvish axe, slays orcs and  trolls,  increasing
+- [ ] `lib/file/book-6.txt:189` [line]        strength and dexterity. For those of  faint  heart  it  also
+- [ ] `lib/file/book-6.txt:190` [line]        cures medium wounds and cuts.
+- [ ] `lib/file/book-6.txt:192` [line]   The Morningstar 'Firestar' (2d6) (+5,+7) [+2]
+- [ ] `lib/file/book-6.txt:193` [line]        This weapon of flame casts fire balls.
+- [ ] `lib/file/book-6.txt:195` [line]   The Quarterstaff 'Eriril' (1d10) (+3,+5)
+- [ ] `lib/file/book-6.txt:196` [line]        This staff of people who believe in the power of  mind  over
+- [ ] `lib/file/book-6.txt:197` [line]        matter, greatly increases wisdom and intelligence and  gives
+- [ ] `lib/file/book-6.txt:198` [line]        the power to identify. It also sees  invisible and slays all
+- [ ] `lib/file/book-6.txt:199` [line]        evil.
+- [ ] `lib/file/book-6.txt:201` [line]   The Longsword 'Elvagil' (2d5) (+2,+7)
+- [ ] `lib/file/book-6.txt:202` [line]        This joyful sword increases dexterity, charisma and stealth.
+- [ ] `lib/file/book-6.txt:203` [line]        It protects from falls and the invisible, and slays orcs and
+- [ ] `lib/file/book-6.txt:204` [line]        trolls.
+- [ ] `lib/file/book-6.txt:206` [line]   The Glaive of Pain (9d6) (+0,+30)
+- [ ] `lib/file/book-6.txt:207` [line]        This weapon is designed to cause pain  to  anything  without 
+- [ ] `lib/file/book-6.txt:208` [line]        discrimination.
+- [ ] `lib/file/book-6.txt:210` [line]   The Lance of the Eorlingas (3d8) (+3,+21)
+- [ ] `lib/file/book-6.txt:211` [line]        This heavy lance is suprisingly easy  to  control,  allowing 
+- [ ] `lib/file/book-6.txt:212` [line]        slaughter of orcs, trolls and other evil (visible or not).
+- [ ] `lib/file/book-6.txt:214` [line]   The Broad Axe 'Barukkheled' (2d6) (+13,+19)
+- [ ] `lib/file/book-6.txt:215` [line]        This beautiful axe slays orcs, trolls, giants and other evil
+- [ ] `lib/file/book-6.txt:216` [line]        (visible or not),  while  greatly  increasing  the  wielders
+- [ ] `lib/file/book-6.txt:217` [line]        internal constitution.
+- [ ] `lib/file/book-6.txt:219` [line]   The Trident of Wrath (3d8) (+16,+18)
+- [ ] `lib/file/book-6.txt:220` [line]        This extremely heavy and dangerous trident belonging to  the
+- [ ] `lib/file/book-6.txt:221` [line]        greatest Maiar spirit,  Osse,  slaughters  evil  and  undead
+- [ ] `lib/file/book-6.txt:222` [line]        without mercy wherever they hide, and increases the wielder's
+- [ ] `lib/file/book-6.txt:223` [line]        strength and dexterity.
+- [ ] `lib/file/book-6.txt:225` [line]   The Scimitar 'Haradekket' (2d5) (+9,+11)
+- [ ] `lib/file/book-6.txt:226` [line]        This sword of the south slays the invisible undead, evil and
+- [ ] `lib/file/book-6.txt:227` [line]        animals, and increases the wielder's dexterity. In addition,
+- [ ] `lib/file/book-6.txt:228` [line]        the  magically enhanced  blade  is  rumored  to  give  extra 
+- [ ] `lib/file/book-6.txt:229` [line]        attacks in combat.
+- [ ] `lib/file/book-6.txt:231` [line]   The Lochaber Axe 'Mundwine' (3d8) (+12,+17)
+- [ ] `lib/file/book-6.txt:232` [line]        This strong friend in battle, slays  evil  and  resists  the 
+- [ ] `lib/file/book-6.txt:233` [line]        elements.
+- [ ] `lib/file/book-6.txt:235` [line]   The Cutlass 'Gondricam' (1d7) (+10,+11)
+- [ ] `lib/file/book-6.txt:236` [line]        This defender increases the wielders dexterity.
+- [ ] `lib/file/book-6.txt:238` [line]   The Sabre 'Careth Asdriag' (1d7) (+6,+8)      
+- [ ] `lib/file/book-6.txt:239` [line]        This  lightning-quick blade  slays dragons,  giants, trolls,
+- [ ] `lib/file/book-6.txt:240` [line]        orcs, and animals.
+- [ ] `lib/file/book-6.txt:242` [line]   The Rapier 'Forasgil' (1d6) (+12,+19)
+- [ ] `lib/file/book-6.txt:243` [line]        This glittering ice-blade also  slays  animals  as  well  as 
+- [ ] `lib/file/book-6.txt:244` [line]        lighting the way.
+- [ ] `lib/file/book-6.txt:246` [line]   The Executioner's Sword 'Crisdurian' (4d5) (+18,+19)
+- [ ] `lib/file/book-6.txt:247` [line]        This executer slays evil, invisible undead, dragons,  giants
+- [ ] `lib/file/book-6.txt:248` [line]        orcs and trolls.
+- [ ] `lib/file/book-6.txt:250` [line]   The Flail 'Totila' (3d6) (+6,+8) (+2)
+- [ ] `lib/file/book-6.txt:251` [line]        This flaming flail slays evil  in  stealth.  It  also  casts 
+- [ ] `lib/file/book-6.txt:252` [line]        confusion.
+- [ ] `lib/file/book-6.txt:254` [line]   The Short sword 'Gilettar' (1d7) (+3,+7)
+- [ ] `lib/file/book-6.txt:255` [line]        This roguish sword  gives  better  regeneration  and  slower
+- [ ] `lib/file/book-6.txt:256` [line]        digestion, slaying all animals with uncanny speed.
+- [ ] `lib/file/book-6.txt:258` [line]   The Katana 'Aglarang' (8d4) (+0,+0)
+- [ ] `lib/file/book-6.txt:259` [line]        This super-light and sharp  katana   greatly  increases  the
+- [ ] `lib/file/book-6.txt:260` [line]        wielders dexterity and sustains it. Rarely does the  wielder
+- [ ] `lib/file/book-6.txt:261` [line]        get less than four attacks a round with  it,  and  often  as
+- [ ] `lib/file/book-6.txt:262` [line]        many as six!

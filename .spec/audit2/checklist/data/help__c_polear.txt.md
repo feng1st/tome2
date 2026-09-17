@@ -1,0 +1,48 @@
+# 数据清单：lib/help/c_polear.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_polear.txt:1` [line] ~~~~~01|Polearmmaster
+- [ ] `lib/help/c_polear.txt:2` [line] ~~~~~02|Classes|Polearmmaster
+- [ ] `lib/help/c_polear.txt:3` [line] #####R=== Polearmmasters ===
+- [ ] `lib/help/c_polear.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_polear.txt:6` [line] The Polearmmaster is a Warrior who specialises in polearms.
+- [ ] `lib/help/c_polear.txt:8` [line] The training is so intense and specific that Polearmmasters gain huge bonuses
+- [ ] `lib/help/c_polear.txt:9` [line] when fighting with their chosen weapon, dependent on their Polearm-mastery
+- [ ] `lib/help/c_polear.txt:10` [line] skill. In most other respects they perform about as well as a generic Warrior.
+- [ ] `lib/help/c_polear.txt:12` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_polear.txt:13` [line] Strength         +5
+- [ ] `lib/help/c_polear.txt:14` [line] Intelligence     -2
+- [ ] `lib/help/c_polear.txt:15` [line] Wisdom           -2
+- [ ] `lib/help/c_polear.txt:16` [line] Dexterity        +2
+- [ ] `lib/help/c_polear.txt:17` [line] Constitution     +2
+- [ ] `lib/help/c_polear.txt:18` [line] Charisma         -1
+- [ ] `lib/help/c_polear.txt:19` [line] Hit Die          +d9
+- [ ] `lib/help/c_polear.txt:20` [line] Spell Points     +0%
+- [ ] `lib/help/c_polear.txt:21` [line] Exp Penalty       0%
+- [ ] `lib/help/c_polear.txt:23` [line] #####GStarting Skills:
+- [ ] `lib/help/c_polear.txt:24` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_polear.txt:25` [line] Combat                  2.000           [0.900]
+- [ ] `lib/help/c_polear.txt:26` [line]   Weaponmastery         1.000           [0.950]
+- [ ] `lib/help/c_polear.txt:27` [line]     Sword-mastery       0.000           [0.300]
+- [ ] `lib/help/c_polear.txt:28` [line]     Axe-mastery         0.000           [0.300]
+- [ ] `lib/help/c_polear.txt:29` [line]     Hafted-mastery      0.000           [0.300]
+- [ ] `lib/help/c_polear.txt:30` [line]     Polearm-mastery     1.000           [0.700]
+- [ ] `lib/help/c_polear.txt:31` [line]   Archery               1.000           [0.600]
+- [ ] `lib/help/c_polear.txt:32` [line]   Antimagic             0.000           [0.550]
+- [ ] `lib/help/c_polear.txt:33` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_polear.txt:34` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_polear.txt:35` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_polear.txt:36` [line] Magic                   1.000           [0.300]
+- [ ] `lib/help/c_polear.txt:37` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_polear.txt:38` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_polear.txt:39` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_polear.txt:40` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_polear.txt:42` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_polear.txt:43` [line] #####BAbility              Character level
+- [ ] `lib/help/c_polear.txt:44` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_polear.txt:45` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_polear.txt:46` [line] Spread blows                25
+- [ ] `lib/help/c_polear.txt:48` [line] #####GStarting Equipment
+- [ ] `lib/help/c_polear.txt:49` [line] A Polearmmaster begins the game with:
+- [ ] `lib/help/c_polear.txt:50` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_polear.txt:51` [line]     a Chain Mail
+- [ ] `lib/help/c_polear.txt:52` [line]     a Pike

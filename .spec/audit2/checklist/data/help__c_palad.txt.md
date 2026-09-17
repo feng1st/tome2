@@ -1,0 +1,46 @@
+# 数据清单：lib/help/c_palad.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_palad.txt:1` [line] |||||oy
+- [ ] `lib/help/c_palad.txt:2` [line] ~~~~~01|Paladin
+- [ ] `lib/help/c_palad.txt:3` [line] ~~~~~02|Classes|Paladin
+- [ ] `lib/help/c_palad.txt:4` [line] ~~~~~03|Tulkas|Paladin
+- [ ] `lib/help/c_palad.txt:5` [line] #####R=== Paladins ===
+- [ ] `lib/help/c_palad.txt:7` [line] #####GDescription
+- [ ] `lib/help/c_palad.txt:8` [line] A Paladin is a warrior-priest at the service of *****g_tulkas.txt*0[Tulkas]. As such, his duty
+- [ ] `lib/help/c_palad.txt:9` [line] is to be ever vigilant against the forces of evil and even seek and destroy
+- [ ] `lib/help/c_palad.txt:10` [line] those monsters which are evil to the core, especially the foulest
+- [ ] `lib/help/c_palad.txt:11` [line] spawns of hell. Luckily, his quest is eased by the blessing bestowed
+- [ ] `lib/help/c_palad.txt:12` [line] by Tulkas himself.
+- [ ] `lib/help/c_palad.txt:14` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_palad.txt:15` [line] Strength         -1
+- [ ] `lib/help/c_palad.txt:16` [line] Intelligence     -3
+- [ ] `lib/help/c_palad.txt:17` [line] Wisdom           +3
+- [ ] `lib/help/c_palad.txt:18` [line] Dexterity        -1
+- [ ] `lib/help/c_palad.txt:19` [line] Constitution     +0
+- [ ] `lib/help/c_palad.txt:20` [line] Charisma         +2
+- [ ] `lib/help/c_palad.txt:21` [line] Hit Die          +d2
+- [ ] `lib/help/c_palad.txt:22` [line] Spell Points     +0%
+- [ ] `lib/help/c_palad.txt:23` [line] Exp Penalty      20%
+- [ ] `lib/help/c_palad.txt:25` [line] #####GStarting Skills:
+- [ ] `lib/help/c_palad.txt:26` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_palad.txt:27` [line] Combat                  2.000           [0.800]
+- [ ] `lib/help/c_palad.txt:28` [line]   Weaponmastery         1.000           [0.800]
+- [ ] `lib/help/c_palad.txt:29` [line]   Barehand-combat       0.000           [0.900]
+- [ ] `lib/help/c_palad.txt:30` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_palad.txt:31` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_palad.txt:32` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_palad.txt:33` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_palad.txt:34` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_palad.txt:35` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_palad.txt:36` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_palad.txt:37` [line]   Prayer                1.000           [1.400]
+- [ ] `lib/help/c_palad.txt:38` [line]   Mindcraft             0.000           [0.600]
+- [ ] `lib/help/c_palad.txt:39` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_palad.txt:41` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_palad.txt:42` [line] #####BAbility              Character level
+- [ ] `lib/help/c_palad.txt:43` [line] Perfect casting             1
+- [ ] `lib/help/c_palad.txt:44` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_palad.txt:46` [line] #####GStarting Equipment
+- [ ] `lib/help/c_palad.txt:47` [line] A Paladin begins the game with:
+- [ ] `lib/help/c_palad.txt:48` [line]     a Spellbook of Divine Aim
+- [ ] `lib/help/c_palad.txt:49` [line]     a Two-Handed Sword

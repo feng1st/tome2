@@ -1,0 +1,31 @@
+# 数据清单：lib/help/r_dunad.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_dunad.txt:1` [line] ~~~~~01|Dunedain
+- [ ] `lib/help/r_dunad.txt:2` [line] ~~~~~02|Races|Dunedain
+- [ ] `lib/help/r_dunad.txt:3` [line] #####R=== Dunedain ===
+- [ ] `lib/help/r_dunad.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_dunad.txt:6` [line] Dunedain are a race of hardy men from the West. This elder race surpasses 
+- [ ] `lib/help/r_dunad.txt:7` [line] human abilities in every field, especially constitution. However, being 
+- [ ] `lib/help/r_dunad.txt:8` [line] men of the world, very little is new to them, and levels are very hard for
+- [ ] `lib/help/r_dunad.txt:9` [line] them to gain. They can play all classes. Their constitution cannot be 
+- [ ] `lib/help/r_dunad.txt:10` [line] reduced and they regain hit points quickly.
+- [ ] `lib/help/r_dunad.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/r_dunad.txt:13` [line] Strength        +1   
+- [ ] `lib/help/r_dunad.txt:14` [line] Intelligence    +2   
+- [ ] `lib/help/r_dunad.txt:15` [line] Wisdom          +2   
+- [ ] `lib/help/r_dunad.txt:16` [line] Dexterity       +2   
+- [ ] `lib/help/r_dunad.txt:17` [line] Constitution    +3   
+- [ ] `lib/help/r_dunad.txt:18` [line] Charisma        +2       
+- [ ] `lib/help/r_dunad.txt:19` [line] Hit Dice Sides  10        
+- [ ] `lib/help/r_dunad.txt:20` [line] Exp Penalty     +80%
+- [ ] `lib/help/r_dunad.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_dunad.txt:23` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_dunad.txt:24` [line] Combat                  
+- [ ] `lib/help/r_dunad.txt:25` [line]   Weaponmastery         1.500           [0.000]
+- [ ] `lib/help/r_dunad.txt:26` [line]   Archery		1.000           [0.000]
+- [ ] `lib/help/r_dunad.txt:27` [line] Sneakiness              0.800           [0.000]
+- [ ] `lib/help/r_dunad.txt:28` [line]   Stealth               2.000           [0.000]
+- [ ] `lib/help/r_dunad.txt:29` [line]   Disarming             0.400           [0.000]
+- [ ] `lib/help/r_dunad.txt:30` [line] Magic                   
+- [ ] `lib/help/r_dunad.txt:31` [line]   Magic-Device          0.500           [0.000]
+- [ ] `lib/help/r_dunad.txt:32` [line] Spirituality            2.500           [0.000]

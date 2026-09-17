@@ -1,0 +1,36 @@
+# 数据清单：lib/file/readme!（text，逐条/逐行）
+
+- [ ] `lib/file/readme!:1` [line] Most files in this directory are use by the get_rnd_line function for various
+- [ ] `lib/file/readme!:2` [line] purposes in the game. They can be edited and customised by the user with any
+- [ ] `lib/file/readme!:3` [line] ascii text editor. If you add / remove lines you should modify the index (the
+- [ ] `lib/file/readme!:4` [line] first line) accordingly. If you set an invalid index or remove the buffer line
+- [ ] `lib/file/readme!:5` [line] weird messages and other things can appear, and you can crash the game. Please
+- [ ] `lib/file/readme!:6` [line] see sample.txt before you try modifying the files.
+- [ ] `lib/file/readme!:7` [line] The a_*.txt and w_*.txt are used when the game generates a random artifact.
+- [ ] `lib/file/readme!:8` [line] However, instead of picking a name from the appropriate file, the game may
+- [ ] `lib/file/readme!:9` [line] form a new name from syllables[].
+- [ ] `lib/file/readme!:11` [line] The files in this directory:
+- [ ] `lib/file/readme!:13` [line] A_CURSED TXT Possible names for randomly generated cursed armour artifacts
+- [ ] `lib/file/readme!:14` [line] A_HIGH   TXT Possible names for randomly generated 'powerful' armour artifacts
+- [ ] `lib/file/readme!:15` [line] A_LOW    TXT Possible names for randomly generated 'weak' armour artifacts
+- [ ] `lib/file/readme!:16` [line] A_MED    TXT Possible names for randomly generated 'medium' armour artifacts
+- [ ] `lib/file/readme!:17` [line] BRAVADO  TXT Possible lines for speaking uniques
+- [ ] `lib/file/readme!:18` [line] CHAINSWD TXT Possible noise for the Chainsword
+- [ ] `lib/file/readme!:19` [line] CRIME    TXT Possible crimes that speaking uniques may have committed
+- [ ] `lib/file/readme!:20` [line] DEAD     TXT The tombstone picture (the death screen)
+- [ ] `lib/file/readme!:21` [line] DEATH    TXT Possible 'last words' when the player dies
+- [ ] `lib/file/readme!:22` [line] ELVISH   TXT Syllables for the names of random artifacts
+- [ ] `lib/file/readme!:23` [line] ERROR    TXT Possible random error messages (instead of "Type ? for help")
+- [ ] `lib/file/readme!:24` [line] MONDEATH TXT Possible 'last words' for speaking uniques
+- [ ] `lib/file/readme!:25` [line] MONFEAR  TXT Possible lines for scared speaking uniques
+- [ ] `lib/file/readme!:26` [line] NEWS     TXT The game intro screen
+- [ ] `lib/file/readme!:27` [line] README!      You are reading this file right now
+- [ ] `lib/file/readme!:28` [line] RUMORS   TXT Possible rumours (for scrolls or rumour and shopkeepers)
+- [ ] `lib/file/readme!:29` [line] SAMPLE   TXT A sample file for the random line selecting function
+- [ ] `lib/file/readme!:30` [line] SILLY    TXT Silly monster names for hallucination
+- [ ] `lib/file/readme!:31` [line] SMEAGOL  TXT Smeagol lines
+- [ ] `lib/file/readme!:32` [line] SMEAGOLR TXT Smeagol fleeing
+- [ ] `lib/file/readme!:33` [line] W_CURSED TXT Possible names for randomly generated cursed weapon artifacts
+- [ ] `lib/file/readme!:34` [line] W_HIGH   TXT Possible names for randomly generated 'powerful' weapon artifacts
+- [ ] `lib/file/readme!:35` [line] W_LOW    TXT Possible names for randomly generated 'weak' weapon artifacts
+- [ ] `lib/file/readme!:36` [line] W_MED    TXT Possible names for randomly generated 'medium' weapon artifacts

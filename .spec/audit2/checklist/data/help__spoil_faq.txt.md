@@ -1,0 +1,64 @@
+# 数据清单：lib/help/spoil_faq.txt（text，逐条/逐行）
+
+- [ ] `lib/help/spoil_faq.txt:1` [line] |||||oy
+- [ ] `lib/help/spoil_faq.txt:2` [line] ~~~~~01|Help|Spoiled FAQ
+- [ ] `lib/help/spoil_faq.txt:3` [line] ~~~~~02|FAQ - contains spoilers
+- [ ] `lib/help/spoil_faq.txt:4` [line] #####R                             ToME Spoiler FAQ
+- [ ] `lib/help/spoil_faq.txt:5` [line] #####R                     Updated for version 2.3.x
+- [ ] `lib/help/spoil_faq.txt:7` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:9` [line] This page contains significant spoilers. Don't browse it unless you want some 
+- [ ] `lib/help/spoil_faq.txt:10` [line] parts of the game ruined, but don't expect the spoilers to spoil you completely!
+- [ ] `lib/help/spoil_faq.txt:12` [line] ~~~~~06|Spoilers|Merton the lost Hobbit quest
+- [ ] `lib/help/spoil_faq.txt:13` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:14` [line] #####GQ: I'm in the Maze, but I cannot find Merton!
+- [ ] `lib/help/spoil_faq.txt:16` [line] A: Merton appears on a *random* level between dungeon level 26 (1300') and
+- [ ] `lib/help/spoil_faq.txt:17` [line] 36 (1800'). Each maze level is one panel by one panel in size, but *full* of
+- [ ] `lib/help/spoil_faq.txt:18` [line] passageways - so you may have to do quite a bit of tunnelling to search the
+- [ ] `lib/help/spoil_faq.txt:19` [line] whole level.
+- [ ] `lib/help/spoil_faq.txt:21` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:22` [line] #####GQ: I've found Merton, now what?
+- [ ] `lib/help/spoil_faq.txt:24` [line] A: There is a new command that has been added to ToME that allows you to pass 
+- [ ] `lib/help/spoil_faq.txt:25` [line] objects to creatures. What would you try and do if you had a broken leg and 
+- [ ] `lib/help/spoil_faq.txt:26` [line] needed to get back to the town?
+- [ ] `lib/help/spoil_faq.txt:27` [line] ~~~~~07|Spoilers|Lothlorien Poisoned water quest
+- [ ] `lib/help/spoil_faq.txt:28` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:29` [line] #####GQ: I'm trying to find the Poisoned water quest at Lothlorien, but cannot
+- [ ] `lib/help/spoil_faq.txt:30` [line] #####G   find the quest entrance!
+- [ ] `lib/help/spoil_faq.txt:32` [line] A: This quest is located in the wilderness. To the west of Lothlorien are 4 
+- [ ] `lib/help/spoil_faq.txt:33` [line] water squares in an upside down L shape. One of these squares will contain the
+- [ ] `lib/help/spoil_faq.txt:34` [line] quest. (Viewed from the Wilderness map).  There is no yellow > sign, so don't
+- [ ] `lib/help/spoil_faq.txt:35` [line] bother looking for one.
+- [ ] `lib/help/spoil_faq.txt:36` [line] ~~~~~20|Spoilers|God Quest - directions
+- [ ] `lib/help/spoil_faq.txt:37` [line] ~~~~~23|Gods|Quest - Spoilers
+- [ ] `lib/help/spoil_faq.txt:38` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:39` [line] #####GQ: I've been given directions to a temple by my God but can't find the 
+- [ ] `lib/help/spoil_faq.txt:40` [line] #####G   temple anywhere!
+- [ ] `lib/help/spoil_faq.txt:42` [line] A: It [[[[[BIS] there. However, your god's idea of compass directions that are 
+- [ ] `lib/help/spoil_faq.txt:43` [line] not directly on the 4 main axes are probably slightly less acurate than your 
+- [ ] `lib/help/spoil_faq.txt:44` [line] idea. In other words, if your god says it is South-East, s/he means it is 
+- [ ] `lib/help/spoil_faq.txt:45` [line] somewhere in the quadrant that is between the south and east axes.
+- [ ] `lib/help/spoil_faq.txt:46` [line] ~~~~~21|Spoilers|God Quest - relic
+- [ ] `lib/help/spoil_faq.txt:47` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:48` [line] #####GQ: Where is the relic by god was talking about? I've looked in the lost 
+- [ ] `lib/help/spoil_faq.txt:49` [line] #####G   temple and can't find it anywhere!
+- [ ] `lib/help/spoil_faq.txt:51` [line] A: It [[[[[BIS] there. However, when your god told you to look for it VERY  
+- [ ] `lib/help/spoil_faq.txt:52` [line] carefully, s/he meant it. Regardless of your game settings, the relic will only
+- [ ] `lib/help/spoil_faq.txt:53` [line] be created once in the temple, at a random place. If you have searched the 
+- [ ] `lib/help/spoil_faq.txt:54` [line] whole temple once over, and not located it, then you have missed it, and it is
+- [ ] `lib/help/spoil_faq.txt:55` [line] lost forever.  Each temple has 5 dungeon levels, and the relic might be on
+- [ ] `lib/help/spoil_faq.txt:56` [line] any of these 5 levels.
+- [ ] `lib/help/spoil_faq.txt:57` [line] ~~~~~22|Spoilers|God Quest - how many?
+- [ ] `lib/help/spoil_faq.txt:58` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:59` [line] #####GQ: Apparently my god has lost another piece of his relic and wants me to go 
+- [ ] `lib/help/spoil_faq.txt:60` [line] #####G   find it again. How many of these are there? 
+- [ ] `lib/help/spoil_faq.txt:62` [line] A: You can receive up to five god quests, with the final piece yielding an 
+- [ ] `lib/help/spoil_faq.txt:63` [line] extra reward. However you will only receive extra quests if you have 
+- [ ] `lib/help/spoil_faq.txt:64` [line] sucessfully completed all the previous ones. 
+- [ ] `lib/help/spoil_faq.txt:65` [line] ~~~~~19|Deathmolds on Mount Doom and other quest areas.
+- [ ] `lib/help/spoil_faq.txt:66` [line] #####G------------------------------------------------------------------------------
+- [ ] `lib/help/spoil_faq.txt:67` [line] #####GQ: How do I complete the special no-teleport level quests with a Deathmold?
+- [ ] `lib/help/spoil_faq.txt:69` [line] A: You will need either some morphic oils, some mimicry skill, or the ring of 
+- [ ] `lib/help/spoil_faq.txt:70` [line] Flare. Deathmolds are marked as experimental for a reason you know. Morphic 
+- [ ] `lib/help/spoil_faq.txt:71` [line] oils can also help if you're having trouble communictaing with monsters. A very
+- [ ] `lib/help/spoil_faq.txt:72` [line] beautiful Elf springs to mind as possibly causing some problems if you are in 
+- [ ] `lib/help/spoil_faq.txt:73` [line] Deathmold form.

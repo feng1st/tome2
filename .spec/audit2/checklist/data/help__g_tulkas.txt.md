@@ -1,0 +1,41 @@
+# 数据清单：lib/help/g_tulkas.txt（text，逐条/逐行）
+
+- [ ] `lib/help/g_tulkas.txt:1` [line] |||||oy
+- [ ] `lib/help/g_tulkas.txt:2` [line] ~~~~~01|Tulkas
+- [ ] `lib/help/g_tulkas.txt:3` [line] ~~~~~02|Gods|Tulkas
+- [ ] `lib/help/g_tulkas.txt:4` [line] #####R === Tulkas ===
+- [ ] `lib/help/g_tulkas.txt:6` [line] Another of the Valar. His most faithful followers are *****c_palad.txt*0[Paladins].
+- [ ] `lib/help/g_tulkas.txt:8` [line] #####GThe benefits of Worshipping Tulkas
+- [ ] `lib/help/g_tulkas.txt:9` [line] 1. As you increase your piety, Tulkas will grant boosts to your constitution
+- [ ] `lib/help/g_tulkas.txt:10` [line]    and your strength (up to a maximum of +3 each).
+- [ ] `lib/help/g_tulkas.txt:11` [line] 2. He likes it when you kill monsters that are aligned with evil.
+- [ ] `lib/help/g_tulkas.txt:12` [line] 3. He loves it when you kill evil monsters while praying.
+- [ ] `lib/help/g_tulkas.txt:13` [line] 4. He *adores* it when you kill demons while praying.
+- [ ] `lib/help/g_tulkas.txt:14` [line] 5. If you are praying, Tulkas may increase the damage you do in melee combat.
+- [ ] `lib/help/g_tulkas.txt:16` [line] #####GThe disadvantages of Worshipping Tulkas
+- [ ] `lib/help/g_tulkas.txt:17` [line] 1. When you are praying, your piety slowly decreases with time.
+- [ ] `lib/help/g_tulkas.txt:18` [line] 2. He will completely abandon you if you wear The One Ring.
+- [ ] `lib/help/g_tulkas.txt:19` [line] ~~~~~03|Tulkas|Prayers
+- [ ] `lib/help/g_tulkas.txt:20` [line] #####GTulkas's Magic
+- [ ] `lib/help/g_tulkas.txt:21` [line] Worshipping Tulkas gives the adventurer access to a set of special spells 
+- [ ] `lib/help/g_tulkas.txt:22` [line] that come directly from the hands of Tulkas. These spells use your piety to 
+- [ ] `lib/help/g_tulkas.txt:23` [line] cast rather than your spellpoints, and the level of spells that Tulkas will 
+- [ ] `lib/help/g_tulkas.txt:24` [line] permit you to use is determined by your Prayer skill - how skillful you are
+- [ ] `lib/help/g_tulkas.txt:25` [line] in asking for his help without offending him!
+- [ ] `lib/help/g_tulkas.txt:27` [line] There is a special book called the "War Tome of Tulkas" which contains 
+- [ ] `lib/help/g_tulkas.txt:28` [line] instructions for the procedure for each of the prayers Tulkas will grant. 
+- [ ] `lib/help/g_tulkas.txt:29` [line] There are three prayers all told, which are:
+- [ ] `lib/help/g_tulkas.txt:30` [line] 1. [[[[[BDivine Aim] (Level 1)
+- [ ] `lib/help/g_tulkas.txt:31` [line]    It makes you more accurate in combat.
+- [ ] `lib/help/g_tulkas.txt:32` [line]    At spell level 20 all your blows are critical hits.
+- [ ] `lib/help/g_tulkas.txt:33` [line] 2. [[[[[BWhirlwind] (Level 10)
+- [ ] `lib/help/g_tulkas.txt:34` [line]    It allows you to spin around and hit all monsters nearby.
+- [ ] `lib/help/g_tulkas.txt:35` [line] 3. [[[[[BWave of Power] (Level 20)
+- [ ] `lib/help/g_tulkas.txt:36` [line]    It allows you to project a number of melee blows across a distance.
+- [ ] `lib/help/g_tulkas.txt:38` [line] Each of these spells can be increased in level both by improving your Prayer
+- [ ] `lib/help/g_tulkas.txt:39` [line] skill, and by improving your Spell-power skill.
+- [ ] `lib/help/g_tulkas.txt:41` [line] In addition to his specific magic, Tulkas will also assist with your ability to
+- [ ] `lib/help/g_tulkas.txt:42` [line] use some magic from one of the "standard" schools, in relation to how skilled 
+- [ ] `lib/help/g_tulkas.txt:43` [line] you are at Prayer. This school is as follows:
+- [ ] `lib/help/g_tulkas.txt:44` [line]     *****m_earth.txt*0[Earth School] at 4/5 the Prayer skill level.
+- [ ] `lib/help/g_tulkas.txt:45` [line] The spells from this school are all cast using your normal spellpoints.

@@ -1,0 +1,81 @@
+# 数据清单：lib/help/c_monk.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_monk.txt:1` [line] |||||oy
+- [ ] `lib/help/c_monk.txt:2` [line] ~~~~~01|Monk
+- [ ] `lib/help/c_monk.txt:3` [line] ~~~~~02|Classes|Monk
+- [ ] `lib/help/c_monk.txt:4` [line] #####R=== Monks ===
+- [ ] `lib/help/c_monk.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_monk.txt:7` [line] The Monk character class is very different from all other classes. 
+- [ ] `lib/help/c_monk.txt:8` [line] Although they can use weapons and armour just like any other class, 
+- [ ] `lib/help/c_monk.txt:9` [line] their training in martial arts makes them much more powerful with no 
+- [ ] `lib/help/c_monk.txt:10` [line] armour nor weapons. 
+- [ ] `lib/help/c_monk.txt:12` [line] As the Monk's skill level rises, new and more powerful forms of attack become 
+- [ ] `lib/help/c_monk.txt:13` [line] available. It is also rumoured that the monastic training makes experienced 
+- [ ] `lib/help/c_monk.txt:14` [line] monks faster than any other character class!
+- [ ] `lib/help/c_monk.txt:16` [line] A Monk might need to wear some kind of armour to gain the resistances necessary 
+- [ ] `lib/help/c_monk.txt:17` [line] for survival at higher levels, but if that armour is too heavy, it will 
+- [ ] `lib/help/c_monk.txt:18` [line] severely disturb his/her martial arts maneuvers.
+- [ ] `lib/help/c_monk.txt:20` [line] If skill points are invested in *****skills.txt*20[Dodging], a Monk's defensive capabilities 
+- [ ] `lib/help/c_monk.txt:21` [line] (blocking and dodging) will also increase. However, if armour is being worn, 
+- [ ] `lib/help/c_monk.txt:22` [line] dodging is much less effective. Fortunately, a Monk can increase his/her 
+- [ ] `lib/help/c_monk.txt:23` [line] ability to fight while still wearing armor by increasing his/her 
+- [ ] `lib/help/c_monk.txt:24` [line] *****skills.txt*13[Barehanded-combat] skill. 
+- [ ] `lib/help/c_monk.txt:26` [line] Monks also have access to the schools of *****m_meta.txt*0[Meta], 
+- [ ] `lib/help/c_monk.txt:27` [line] *****m_tempo.txt*0[Temporal] and *****m_mind.txt*0[Mind] magic.
+- [ ] `lib/help/c_monk.txt:29` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_monk.txt:30` [line] Strength         +1
+- [ ] `lib/help/c_monk.txt:31` [line] Intelligence     -2
+- [ ] `lib/help/c_monk.txt:32` [line] Wisdom           +1
+- [ ] `lib/help/c_monk.txt:33` [line] Dexterity        +1
+- [ ] `lib/help/c_monk.txt:34` [line] Constitution     +0
+- [ ] `lib/help/c_monk.txt:35` [line] Charisma         +1
+- [ ] `lib/help/c_monk.txt:36` [line] Hit Die          +d8
+- [ ] `lib/help/c_monk.txt:37` [line] Spell Points     +0%
+- [ ] `lib/help/c_monk.txt:38` [line] Exp Penalty      40%
+- [ ] `lib/help/c_monk.txt:40` [line] #####GStarting Skills:
+- [ ] `lib/help/c_monk.txt:41` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_monk.txt:42` [line] Combat                  0.000           [0.900]
+- [ ] `lib/help/c_monk.txt:43` [line]   Weaponmastery         0.000           [0.300]
+- [ ] `lib/help/c_monk.txt:44` [line]   Archery               0.000           [0.400]
+- [ ] `lib/help/c_monk.txt:45` [line]   Barehand-combat       1.000           [0.900]
+- [ ] `lib/help/c_monk.txt:46` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_monk.txt:47` [line]   Stealth               1.000           [0.900]
+- [ ] `lib/help/c_monk.txt:48` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_monk.txt:49` [line]   Dodging               0.000           [0.700]
+- [ ] `lib/help/c_monk.txt:50` [line] Magic                   0.000           [0.600]
+- [ ] `lib/help/c_monk.txt:51` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_monk.txt:52` [line]   Meta                  0.000           [0.500]
+- [ ] `lib/help/c_monk.txt:53` [line]   Temporal              0.000           [0.500]
+- [ ] `lib/help/c_monk.txt:54` [line]   Mind                  0.000           [0.500]
+- [ ] `lib/help/c_monk.txt:55` [line] Spirituality            1.000           [0.900]
+- [ ] `lib/help/c_monk.txt:56` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_monk.txt:57` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_monk.txt:58` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_monk.txt:59` [line]   Corpse-preservation   1.000           [0.500]
+- [ ] `lib/help/c_monk.txt:60` [line]   Possession            0.000           [0.100]
+- [ ] `lib/help/c_monk.txt:62` [line] #####GStarting Equipment
+- [ ] `lib/help/c_monk.txt:63` [line] A Monk begins the game with:
+- [ ] `lib/help/c_monk.txt:64` [line]     a Potion of Healing
+- [ ] `lib/help/c_monk.txt:65` [line]     a Soft Leather Armour
+- [ ] `lib/help/c_monk.txt:66` [line] ~~~~~03|Monk|Monk attacks
+- [ ] `lib/help/c_monk.txt:67` [line] ~~~~~04|Tables|Monk attacks
+- [ ] `lib/help/c_monk.txt:68` [line] #####GMonk Attacks
+- [ ] `lib/help/c_monk.txt:69` [line] #####BAttack Name     Min.lvl Damage  Stun    Notes
+- [ ] `lib/help/c_monk.txt:70` [line] -----------------------------------------------------------------------------
+- [ ] `lib/help/c_monk.txt:71` [line] Punch           1       1d4     -
+- [ ] `lib/help/c_monk.txt:72` [line] Kick            2       1d6     -
+- [ ] `lib/help/c_monk.txt:73` [line] Strike          3       1d7     -
+- [ ] `lib/help/c_monk.txt:74` [line] Knee            5       2d3     *       Painful to males; likely to stun them
+- [ ] `lib/help/c_monk.txt:75` [line] Elbow           7       1d8     -
+- [ ] `lib/help/c_monk.txt:76` [line] Butt            9       2d5     -
+- [ ] `lib/help/c_monk.txt:77` [line] Ankle Kick      11      3d4     -       May slow down the opponent
+- [ ] `lib/help/c_monk.txt:78` [line] Uppercut        13      4d4     6
+- [ ] `lib/help/c_monk.txt:79` [line] Double-kick     16      5d4     8
+- [ ] `lib/help/c_monk.txt:80` [line] Cat's Claw      20      5d5     -
+- [ ] `lib/help/c_monk.txt:81` [line] Jump Kick       25      5d6     10
+- [ ] `lib/help/c_monk.txt:82` [line] Eagle's Claw    29      6d6     -
+- [ ] `lib/help/c_monk.txt:83` [line] Circle Kick     33      6d8     10
+- [ ] `lib/help/c_monk.txt:84` [line] Iron Fist       37      8d8     10
+- [ ] `lib/help/c_monk.txt:85` [line] Flying Kick     41      8d10    12
+- [ ] `lib/help/c_monk.txt:86` [line] Dragon Fist     45      10d10   16
+- [ ] `lib/help/c_monk.txt:87` [line] Crushing Blow   48      10d12   18

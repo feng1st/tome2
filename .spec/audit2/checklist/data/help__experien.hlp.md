@@ -1,0 +1,23 @@
+# 数据清单：lib/help/experien.hlp（text，逐条/逐行）
+
+- [ ] `lib/help/experien.hlp:1` [line] |||||oy
+- [ ] `lib/help/experien.hlp:2` [line] ~~~~~01|Experience
+- [ ] `lib/help/experien.hlp:3` [line] #####RGaining experience
+- [ ] `lib/help/experien.hlp:4` [line] #####R==============================================
+- [ ] `lib/help/experien.hlp:6` [line] The principle way for your character to gain experience (XP) is to kill 
+- [ ] `lib/help/experien.hlp:7` [line] monsters. There are a few other ways too, like lockpicking, but these only
+- [ ] `lib/help/experien.hlp:8` [line] give small rewards.
+- [ ] `lib/help/experien.hlp:10` [line] Once your character has gained enough experience to go up a level, then she 
+- [ ] `lib/help/experien.hlp:11` [line] will be given skill points to spend as you see fit. These points can be 
+- [ ] `lib/help/experien.hlp:12` [line] spent on either
+- [ ] `lib/help/experien.hlp:14` [line]     *****/askills.txt*0[(a) Skills] which improve more for each point you put into them, 
+- [ ] `lib/help/experien.hlp:15` [line] or
+- [ ] `lib/help/experien.hlp:16` [line]     *****/bability.txt*0[(b) Abilities] which are one-off purchases and grant your character new, 
+- [ ] `lib/help/experien.hlp:17` [line]     non-improvable powers
+- [ ] `lib/help/experien.hlp:19` [line] Certain monsters can "drain" your experience, and thus your level. Although you
+- [ ] `lib/help/experien.hlp:20` [line] do not lose the skill points you've already gained, you also will not gain
+- [ ] `lib/help/experien.hlp:21` [line] further points until you reach a character level you have not already
+- [ ] `lib/help/experien.hlp:22` [line] achieved. Luckily, you can restore drained experience through magical means,
+- [ ] `lib/help/experien.hlp:23` [line] or by simply regaining the experience all over again.
+- [ ] `lib/help/experien.hlp:25` [line]     *****/ynewbie.hlp*0[(y) New player help menu]
+- [ ] `lib/help/experien.hlp:26` [line]     *****/zhelp.hlp*0[(z) Main menu] 

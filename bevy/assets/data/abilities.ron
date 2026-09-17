@@ -1,0 +1,25 @@
+[
+    (id:0, name:"Spread blows", desc:"If a monster dies to your attack but you still have blows left
+you won't lose the full turn, allowing you to attack some other
+monster in the same turn
+Prereq: Combat@30, Dex@17", cost:5, action_mkey:0, action_desc:"", need_skills:[("Combat", 30)], stats:(-1, -1, -1, 17, -1, -1), need_abilities:[]),
+    (id:1, name:"Tree walking", desc:"Allows you to walk in dense forest
+Prereq: Nature skill@20", cost:7, action_mkey:0, action_desc:"", need_skills:[("Nature", 20)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:[]),
+    (id:2, name:"Perfect casting", desc:"Allows you to reach 0% failure rate on spells
+Prereq: Magic skill@35", cost:6, action_mkey:0, action_desc:"", need_skills:[("Magic", 35)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:[]),
+    (id:3, name:"Extra Max Blow(1)", desc:"Increases your max possible blows number by 1
+Prereq: Combat@10", cost:7, action_mkey:0, action_desc:"", need_skills:[("Combat", 10)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:[]),
+    (id:4, name:"Extra Max Blow(2)", desc:"Increases your max possible blows number by 1
+Prereq: Combat@20, Extra Max Blow(1)", cost:7, action_mkey:0, action_desc:"", need_skills:[("Combat", 20)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:["Extra Max Blow(1)"]),
+    (id:5, name:"Ammo creation", desc:"Allows you to create shots, arrows and bolts from various materials
+Prereq: Archery@10", cost:8, action_mkey:10, action_desc:"Forge ammo", need_skills:[("Archery", 10)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:[]),
+    (id:6, name:"Touch of death", desc:"Your melee blows can insta-kill, but you only receive 1/3 of the experience
+Prereq: Necromancy@50, Combat@40, DEX@30, STR@30", cost:15, action_mkey:100, action_desc:"Activate touch of death", need_skills:[("Necromancy", 50), ("Combat", 40)], stats:(30, -1, -1, 30, -1, -1), need_abilities:[]),
+    (id:8, name:"Far reaching attack", desc:"You can attack an enemy one square far using a long polearm.
+At high levels of Polearm-mastery skill, you can even hit two enemies at once.
+Prereq: Combat@15, Polearm-mastery@15", cost:10, action_mkey:102, action_desc:"Far reaching attack", need_skills:[("Combat", 15), ("Polearm-mastery", 15)], stats:(-1, -1, -1, -1, -1, -1), need_abilities:[]),
+    (id:10, name:"Undead Form", desc:"Ability to turn into a weak undead being when you \"die\".
+You must then kill enough monsters to absorb enough life energy
+to come back to life.
+Prereq: Necromancy@30, INT@25", cost:15, action_mkey:0, action_desc:"", need_skills:[("Necromancy", 30)], stats:(-1, 25, -1, -1, -1, -1), need_abilities:[]),
+]

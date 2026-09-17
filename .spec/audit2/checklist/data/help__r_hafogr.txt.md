@@ -1,0 +1,30 @@
+# 数据清单：lib/help/r_hafogr.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_hafogr.txt:1` [line] ~~~~~01|Half-Ogre
+- [ ] `lib/help/r_hafogr.txt:2` [line] ~~~~~02|Races|Half-Ogre
+- [ ] `lib/help/r_hafogr.txt:3` [line] #####R=== Half-Ogres ===
+- [ ] `lib/help/r_hafogr.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_hafogr.txt:6` [line] Half-Ogres are a crossbreed between a human and an ogre. They are big, bad, and 
+- [ ] `lib/help/r_hafogr.txt:7` [line] stupid. For warriors, they have all the necessary attributes, and they can even
+- [ ] `lib/help/r_hafogr.txt:8` [line] become priests: after all, they are related to Ogre Magi, from whom they have
+- [ ] `lib/help/r_hafogr.txt:9` [line] learned the skill of setting trapped runes once their level is high enough. Like
+- [ ] `lib/help/r_hafogr.txt:10` [line] orcs, they resist darkness, and like trolls, they have their strength sustained.
+- [ ] `lib/help/r_hafogr.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/r_hafogr.txt:13` [line] Strength        +3   
+- [ ] `lib/help/r_hafogr.txt:14` [line] Intelligence    -1   
+- [ ] `lib/help/r_hafogr.txt:15` [line] Wisdom          -1   
+- [ ] `lib/help/r_hafogr.txt:16` [line] Dexterity       -1   
+- [ ] `lib/help/r_hafogr.txt:17` [line] Constitution    +3   
+- [ ] `lib/help/r_hafogr.txt:18` [line] Charisma        -3       
+- [ ] `lib/help/r_hafogr.txt:19` [line] Hit Dice Sides  12         
+- [ ] `lib/help/r_hafogr.txt:20` [line] Exp Penalty     +30%
+- [ ] `lib/help/r_hafogr.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_hafogr.txt:23` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_hafogr.txt:24` [line] Combat                  
+- [ ] `lib/help/r_hafogr.txt:25` [line]   Weaponmastery         2.000           [0.000]
+- [ ] `lib/help/r_hafogr.txt:26` [line] Sneakiness             -0.100           [0.000]
+- [ ] `lib/help/r_hafogr.txt:27` [line]   Stealth              -2.000           [0.000]
+- [ ] `lib/help/r_hafogr.txt:28` [line]   Disarming            -0.300           [0.000]
+- [ ] `lib/help/r_hafogr.txt:29` [line] Magic                   
+- [ ] `lib/help/r_hafogr.txt:30` [line]   Magic-Device         -0.500           [0.000]
+- [ ] `lib/help/r_hafogr.txt:31` [line] Spirituality           -2.500           [0.000]

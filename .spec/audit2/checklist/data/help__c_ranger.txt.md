@@ -1,0 +1,51 @@
+# 数据清单：lib/help/c_ranger.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_ranger.txt:1` [line] |||||oy
+- [ ] `lib/help/c_ranger.txt:2` [line] ~~~~~01|Ranger
+- [ ] `lib/help/c_ranger.txt:3` [line] ~~~~~02|Classes|Ranger
+- [ ] `lib/help/c_ranger.txt:4` [line] #####R=== Rangers ===
+- [ ] `lib/help/c_ranger.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_ranger.txt:7` [line] Rangers are warrior-mages, devoted to nature. They are good fighters 
+- [ ] `lib/help/c_ranger.txt:8` [line] and quite effective with bows; their magic often allows them to avoid
+- [ ] `lib/help/c_ranger.txt:9` [line] the worst of situations, but they have only a mild chance of resisting
+- [ ] `lib/help/c_ranger.txt:10` [line] magical effects and are not terribly stealthy.
+- [ ] `lib/help/c_ranger.txt:12` [line] They have access to the schools of *****m_divin.txt*0[Divination], *****m_convey.txt*0[Conveyance] and *****m_nature.txt*0[Nature] magic.
+- [ ] `lib/help/c_ranger.txt:14` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_ranger.txt:15` [line] Strength         +2
+- [ ] `lib/help/c_ranger.txt:16` [line] Intelligence     +1
+- [ ] `lib/help/c_ranger.txt:17` [line] Wisdom           +0
+- [ ] `lib/help/c_ranger.txt:18` [line] Dexterity        +2
+- [ ] `lib/help/c_ranger.txt:19` [line] Constitution     +1
+- [ ] `lib/help/c_ranger.txt:20` [line] Charisma         +1
+- [ ] `lib/help/c_ranger.txt:21` [line] Hit Die          +d4
+- [ ] `lib/help/c_ranger.txt:22` [line] Spell Points     +0%
+- [ ] `lib/help/c_ranger.txt:23` [line] Exp Penalty      30%
+- [ ] `lib/help/c_ranger.txt:25` [line] #####GStarting Skills:
+- [ ] `lib/help/c_ranger.txt:26` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_ranger.txt:27` [line] Combat                  1.000           [0.800]
+- [ ] `lib/help/c_ranger.txt:28` [line]   Weaponmastery         1.000           [0.500]
+- [ ] `lib/help/c_ranger.txt:29` [line]   Archery               1.000           [0.750]
+- [ ] `lib/help/c_ranger.txt:30` [line]     Sling-mastery       0.000           [0.300]
+- [ ] `lib/help/c_ranger.txt:31` [line]     Bow-mastery         0.000           [0.300]
+- [ ] `lib/help/c_ranger.txt:32` [line]     Crossbow-mastery    0.000           [0.300]
+- [ ] `lib/help/c_ranger.txt:33` [line]     Boomerang-mastery   0.000           [0.300]
+- [ ] `lib/help/c_ranger.txt:34` [line] Sneakiness              1.000           [0.950]
+- [ ] `lib/help/c_ranger.txt:35` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_ranger.txt:36` [line]   Disarming             1.000           [1.600]
+- [ ] `lib/help/c_ranger.txt:37` [line] Magic                   1.000           [0.700]
+- [ ] `lib/help/c_ranger.txt:38` [line]   Magic-Device          1.000           [1.100]
+- [ ] `lib/help/c_ranger.txt:39` [line]   Conveyance            0.000           [0.500]
+- [ ] `lib/help/c_ranger.txt:40` [line]   Divination            0.000           [0.500]
+- [ ] `lib/help/c_ranger.txt:41` [line]   Nature                0.000           [0.500]
+- [ ] `lib/help/c_ranger.txt:42` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_ranger.txt:43` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_ranger.txt:44` [line] Monster-lore            0.000           [0.700]
+- [ ] `lib/help/c_ranger.txt:46` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_ranger.txt:47` [line] #####BAbility              Character level
+- [ ] `lib/help/c_ranger.txt:48` [line] Ammo creation               2
+- [ ] `lib/help/c_ranger.txt:50` [line] #####GStarting Equipment
+- [ ] `lib/help/c_ranger.txt:51` [line] A Ranger begins the game with:
+- [ ] `lib/help/c_ranger.txt:52` [line]     a Spellbook of Phase Door
+- [ ] `lib/help/c_ranger.txt:53` [line]     a Short Sword
+- [ ] `lib/help/c_ranger.txt:54` [line]     a Short Bow
+- [ ] `lib/help/c_ranger.txt:55` [line]     some Arrows

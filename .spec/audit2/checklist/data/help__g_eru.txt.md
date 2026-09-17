@@ -1,0 +1,57 @@
+# 数据清单：lib/help/g_eru.txt（text，逐条/逐行）
+
+- [ ] `lib/help/g_eru.txt:1` [line] |||||oy
+- [ ] `lib/help/g_eru.txt:2` [line] ~~~~~01|Gods|Eru
+- [ ] `lib/help/g_eru.txt:3` [line] ~~~~~02|Eru
+- [ ] `lib/help/g_eru.txt:4` [line] #####R === Eru Iluvatar ===
+- [ ] `lib/help/g_eru.txt:6` [line] Eru Iluvatar is the father of the Valar. His most faithful followers are those 
+- [ ] `lib/help/g_eru.txt:7` [line] of the class *****c_pr_eru.txt*0[Priest(Eru)].
+- [ ] `lib/help/g_eru.txt:9` [line] #####GThe benefits of Worshipping Eru Iluvatar
+- [ ] `lib/help/g_eru.txt:10` [line] 1. As you increase your piety, Eru will grant you a boost to your wisdom. 
+- [ ] `lib/help/g_eru.txt:11` [line]    Eventually he will also start increasing your ability to handle magical 
+- [ ] `lib/help/g_eru.txt:12` [line]    power, resulting in a boost to your spellpoints.
+- [ ] `lib/help/g_eru.txt:13` [line] 2. If you are praying to him at the time, there is a chance that he will 
+- [ ] `lib/help/g_eru.txt:14` [line]    deflect some blows from evil monsters (that increases with your level of
+- [ ] `lib/help/g_eru.txt:15` [line]    piety).
+- [ ] `lib/help/g_eru.txt:16` [line] 3. If you are praying to him at the time, there is a chance that he will
+- [ ] `lib/help/g_eru.txt:17` [line]    resurrect you from the dead (provided you are very pious!).
+- [ ] `lib/help/g_eru.txt:18` [line] 4. Your piety automatically increases over time if you are:
+- [ ] `lib/help/g_eru.txt:19` [line]      a) Not praying, and
+- [ ] `lib/help/g_eru.txt:20` [line]      b) Actively doing something (i.e. not resting or in the Wilderness map).
+- [ ] `lib/help/g_eru.txt:22` [line] #####GThe disadvantages of Worshipping Eru Iluvatar
+- [ ] `lib/help/g_eru.txt:23` [line] 1. He doesn't like it if you destroy blessed weapons.
+- [ ] `lib/help/g_eru.txt:24` [line] 2. You can only wield blunt or blessed weapons without penalty.
+- [ ] `lib/help/g_eru.txt:25` [line] 3. He doesn't like it if you kill monsters that are aligned with good.
+- [ ] `lib/help/g_eru.txt:26` [line] 4. He will completely abandon you if you wear The One Ring.
+- [ ] `lib/help/g_eru.txt:27` [line] ~~~~~~03|Eru|Prayers
+- [ ] `lib/help/g_eru.txt:28` [line] #####GEru Iluvatar's Magic
+- [ ] `lib/help/g_eru.txt:29` [line] Worshipping Eru Iluvatar gives the adventurer access to a set of special
+- [ ] `lib/help/g_eru.txt:30` [line] spells that come directly from the hands of Eru. These spells use your piety
+- [ ] `lib/help/g_eru.txt:31` [line] to cast rather than your spellpoints, and the level of spells that Eru will 
+- [ ] `lib/help/g_eru.txt:32` [line] permit you to use is determined by your Prayer skill - how skillful you are
+- [ ] `lib/help/g_eru.txt:33` [line] in asking for his help without offending him! 
+- [ ] `lib/help/g_eru.txt:35` [line] There is a special book called the "Holy Tome of Eru Iluvatar" which 
+- [ ] `lib/help/g_eru.txt:36` [line] contains instructions for the procedure for each of the prayers Eru will 
+- [ ] `lib/help/g_eru.txt:37` [line] grant. There are three prayers all told, which are:
+- [ ] `lib/help/g_eru.txt:38` [line] 1. [[[[[BSee the Music] (Level 1)
+- [ ] `lib/help/g_eru.txt:39` [line]    Allows you to 'see' the Great Music from which the world originates, 
+- [ ] `lib/help/g_eru.txt:40` [line]       allowing you to see unseen things, and can be cast while blind.
+- [ ] `lib/help/g_eru.txt:41` [line]    At spell level 10 it allows you to see your surroundings.
+- [ ] `lib/help/g_eru.txt:42` [line]    At spell level 20 it allows you to cure blindness.
+- [ ] `lib/help/g_eru.txt:43` [line]    At spell level 30 it allows you to fully see all the level.
+- [ ] `lib/help/g_eru.txt:44` [line] 2. [[[[[BListen to the Music] (Level 7)
+- [ ] `lib/help/g_eru.txt:45` [line]    Allows you to listen to the Great Music from which the world originates, 
+- [ ] `lib/help/g_eru.txt:46` [line]       allowing you to understand the meaning of things.
+- [ ] `lib/help/g_eru.txt:47` [line]    At spell level 14 it allows you to identify all your pack.
+- [ ] `lib/help/g_eru.txt:48` [line]    At spell level 30 it allows you to identify all items on the level.
+- [ ] `lib/help/g_eru.txt:49` [line] 3. [[[[[BLay of Protection] (Level 35)
+- [ ] `lib/help/g_eru.txt:50` [line]    Creates a circle of safety around you.
+- [ ] `lib/help/g_eru.txt:52` [line] Each of these spells can be increased in level both by improving your Prayer
+- [ ] `lib/help/g_eru.txt:53` [line] skill, and by improving your Spell-power skill.
+- [ ] `lib/help/g_eru.txt:55` [line] In addition to his specific magic, Eru will also assist with your ability to
+- [ ] `lib/help/g_eru.txt:56` [line] use some magic from the "standard" schools, in relation to how skilled you 
+- [ ] `lib/help/g_eru.txt:57` [line] are at Prayer. These schools are as follows:
+- [ ] `lib/help/g_eru.txt:58` [line]     *****m_mana.txt*0[Mana School] at 1/2 the Prayer skill level.
+- [ ] `lib/help/g_eru.txt:59` [line]     *****m_divin.txt*0[Divination School] at 2/3 the Prayer skill level.
+- [ ] `lib/help/g_eru.txt:60` [line]     *****m_mind.txt*0[Mind School] at 1/3 the Prayer skill level.
+- [ ] `lib/help/g_eru.txt:61` [line] The spells from these schools are all cast using your normal spellpoints.

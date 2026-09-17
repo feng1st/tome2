@@ -1,0 +1,183 @@
+# 数据清单：lib/pref/pref.prf（hud，逐条/逐行）
+
+- [~] `lib/pref/pref.prf:29` [A] A:,
+- [~] `lib/pref/pref.prf:30` [C] C:0:5
+- [~] `lib/pref/pref.prf:33` [A] A:;1
+- [~] `lib/pref/pref.prf:34` [C] C:0:1
+- [~] `lib/pref/pref.prf:35` [A] A:;2
+- [~] `lib/pref/pref.prf:36` [C] C:0:2
+- [~] `lib/pref/pref.prf:37` [A] A:;3
+- [~] `lib/pref/pref.prf:38` [C] C:0:3
+- [~] `lib/pref/pref.prf:39` [A] A:;4
+- [~] `lib/pref/pref.prf:40` [C] C:0:4
+- [~] `lib/pref/pref.prf:41` [A] A:;6
+- [~] `lib/pref/pref.prf:42` [C] C:0:6
+- [~] `lib/pref/pref.prf:43` [A] A:;7
+- [~] `lib/pref/pref.prf:44` [C] C:0:7
+- [~] `lib/pref/pref.prf:45` [A] A:;8
+- [~] `lib/pref/pref.prf:46` [C] C:0:8
+- [~] `lib/pref/pref.prf:47` [A] A:;9
+- [~] `lib/pref/pref.prf:48` [C] C:0:9
+- [~] `lib/pref/pref.prf:51` [A] A:\r
+- [~] `lib/pref/pref.prf:52` [C] C:0:^J
+- [~] `lib/pref/pref.prf:55` [A] A:Q
+- [~] `lib/pref/pref.prf:56` [C] C:0:^K
+- [~] `lib/pref/pref.prf:59` [A] A:Q
+- [~] `lib/pref/pref.prf:60` [C] C:0:^C
+- [~] `lib/pref/pref.prf:66` [A] A:.
+- [~] `lib/pref/pref.prf:67` [C] C:1:,
+- [~] `lib/pref/pref.prf:70` [A] A:,
+- [~] `lib/pref/pref.prf:71` [C] C:1:.
+- [~] `lib/pref/pref.prf:74` [A] A:,
+- [~] `lib/pref/pref.prf:75` [C] C:1:5
+- [~] `lib/pref/pref.prf:78` [A] A:;1
+- [~] `lib/pref/pref.prf:79` [C] C:1:1
+- [~] `lib/pref/pref.prf:80` [A] A:;2
+- [~] `lib/pref/pref.prf:81` [C] C:1:2
+- [~] `lib/pref/pref.prf:82` [A] A:;3
+- [~] `lib/pref/pref.prf:83` [C] C:1:3
+- [~] `lib/pref/pref.prf:84` [A] A:;4
+- [~] `lib/pref/pref.prf:85` [C] C:1:4
+- [~] `lib/pref/pref.prf:86` [A] A:;6
+- [~] `lib/pref/pref.prf:87` [C] C:1:6
+- [~] `lib/pref/pref.prf:88` [A] A:;7
+- [~] `lib/pref/pref.prf:89` [C] C:1:7
+- [~] `lib/pref/pref.prf:90` [A] A:;8
+- [~] `lib/pref/pref.prf:91` [C] C:1:8
+- [~] `lib/pref/pref.prf:92` [A] A:;9
+- [~] `lib/pref/pref.prf:93` [C] C:1:9
+- [~] `lib/pref/pref.prf:96` [A] A:;1
+- [~] `lib/pref/pref.prf:97` [C] C:1:b
+- [~] `lib/pref/pref.prf:98` [A] A:;2
+- [~] `lib/pref/pref.prf:99` [C] C:1:j
+- [~] `lib/pref/pref.prf:100` [A] A:;3
+- [~] `lib/pref/pref.prf:101` [C] C:1:n
+- [~] `lib/pref/pref.prf:102` [A] A:;4
+- [~] `lib/pref/pref.prf:103` [C] C:1:h
+- [~] `lib/pref/pref.prf:104` [A] A:;6
+- [~] `lib/pref/pref.prf:105` [C] C:1:l
+- [~] `lib/pref/pref.prf:106` [A] A:;7
+- [~] `lib/pref/pref.prf:107` [C] C:1:y
+- [~] `lib/pref/pref.prf:108` [A] A:;8
+- [~] `lib/pref/pref.prf:109` [C] C:1:k
+- [~] `lib/pref/pref.prf:110` [A] A:;9
+- [~] `lib/pref/pref.prf:111` [C] C:1:u
+- [~] `lib/pref/pref.prf:114` [A] A:.1
+- [~] `lib/pref/pref.prf:115` [C] C:1:B
+- [~] `lib/pref/pref.prf:116` [A] A:.2
+- [~] `lib/pref/pref.prf:117` [C] C:1:J
+- [~] `lib/pref/pref.prf:118` [A] A:.3
+- [~] `lib/pref/pref.prf:119` [C] C:1:N
+- [~] `lib/pref/pref.prf:120` [A] A:.4
+- [~] `lib/pref/pref.prf:121` [C] C:1:H
+- [~] `lib/pref/pref.prf:122` [A] A:.6
+- [~] `lib/pref/pref.prf:123` [C] C:1:L
+- [~] `lib/pref/pref.prf:124` [A] A:.7
+- [~] `lib/pref/pref.prf:125` [C] C:1:Y
+- [~] `lib/pref/pref.prf:126` [A] A:.8
+- [~] `lib/pref/pref.prf:127` [C] C:1:K
+- [~] `lib/pref/pref.prf:128` [A] A:.9
+- [~] `lib/pref/pref.prf:129` [C] C:1:U
+- [~] `lib/pref/pref.prf:132` [A] A:+1
+- [~] `lib/pref/pref.prf:133` [C] C:1:^B
+- [~] `lib/pref/pref.prf:134` [A] A:+2
+- [~] `lib/pref/pref.prf:135` [C] C:1:^J
+- [~] `lib/pref/pref.prf:136` [A] A:+3
+- [~] `lib/pref/pref.prf:137` [C] C:1:^N
+- [~] `lib/pref/pref.prf:138` [A] A:+4
+- [~] `lib/pref/pref.prf:139` [C] C:1:^H
+- [~] `lib/pref/pref.prf:140` [A] A:+6
+- [~] `lib/pref/pref.prf:141` [C] C:1:^L
+- [~] `lib/pref/pref.prf:142` [A] A:+7
+- [~] `lib/pref/pref.prf:143` [C] C:1:^Y
+- [~] `lib/pref/pref.prf:144` [A] A:+8
+- [~] `lib/pref/pref.prf:145` [C] C:1:^K
+- [~] `lib/pref/pref.prf:146` [A] A:+9
+- [~] `lib/pref/pref.prf:147` [C] C:1:^U
+- [~] `lib/pref/pref.prf:150` [A] A:T
+- [~] `lib/pref/pref.prf:151` [C] C:1:^T
+- [~] `lib/pref/pref.prf:154` [A] A:k
+- [~] `lib/pref/pref.prf:155` [C] C:1:^D
+- [~] `lib/pref/pref.prf:158` [A] A:L
+- [~] `lib/pref/pref.prf:159` [C] C:1:W
+- [~] `lib/pref/pref.prf:162` [A] A:b
+- [~] `lib/pref/pref.prf:163` [C] C:1:P
+- [~] `lib/pref/pref.prf:166` [A] A:S
+- [~] `lib/pref/pref.prf:167` [C] C:1:#
+- [~] `lib/pref/pref.prf:170` [A] A:u
+- [~] `lib/pref/pref.prf:171` [C] C:1:Z
+- [~] `lib/pref/pref.prf:174` [A] A:t
+- [~] `lib/pref/pref.prf:175` [C] C:1:T
+- [~] `lib/pref/pref.prf:178` [A] A:f
+- [~] `lib/pref/pref.prf:179` [C] C:1:t
+- [~] `lib/pref/pref.prf:182` [A] A:B
+- [~] `lib/pref/pref.prf:183` [C] C:1:f
+- [~] `lib/pref/pref.prf:186` [A] A:l
+- [~] `lib/pref/pref.prf:187` [C] C:1:x
+- [~] `lib/pref/pref.prf:190` [A] A:a
+- [~] `lib/pref/pref.prf:191` [C] C:1:z
+- [~] `lib/pref/pref.prf:194` [A] A:z
+- [~] `lib/pref/pref.prf:195` [C] C:1:a
+- [~] `lib/pref/pref.prf:198` [A] A:Q
+- [~] `lib/pref/pref.prf:199` [C] C:1:^C
+- [~] `lib/pref/pref.prf:202` [A] A:U
+- [~] `lib/pref/pref.prf:203` [C] C:1:O
+- [~] `lib/pref/pref.prf:206` [A] A:O
+- [~] `lib/pref/pref.prf:207` [C] C:1:^g
+- [~] `lib/pref/pref.prf:210` [A] A:h
+- [~] `lib/pref/pref.prf:211` [C] C:1:$
+- [~] `lib/pref/pref.prf:214` [A] A:K
+- [~] `lib/pref/pref.prf:215` [C] C:1:^O
+- [~] `lib/pref/pref.prf:218` [A] A:P
+- [~] `lib/pref/pref.prf:219` [C] C:1:X
+- [~] `lib/pref/pref.prf:222` [A] A:x
+- [~] `lib/pref/pref.prf:223` [C] C:1:]
+- [~] `lib/pref/pref.prf:226` [A] A:Z
+- [~] `lib/pref/pref.prf:227` [C] C:1:[
+- [~] `lib/pref/pref.prf:230` [A] A:H
+- [~] `lib/pref/pref.prf:231` [C] C:1:V
+- [~] `lib/pref/pref.prf:234` [A] A:y
+- [~] `lib/pref/pref.prf:235` [C] C:1:'
+- [~] `lib/pref/pref.prf:238` [A] A:Y
+- [~] `lib/pref/pref.prf:239` [C] C:1:(
+- [~] `lib/pref/pref.prf:242` [A] A:#
+- [~] `lib/pref/pref.prf:243` [C] C:1:)
+- [~] `lib/pref/pref.prf:246` [A] A:$
+- [~] `lib/pref/pref.prf:247` [C] C:1:S
+- [~] `lib/pref/pref.prf:250` [A] A:k--
+- [~] `lib/pref/pref.prf:251` [C] C:0:X
+- [~] `lib/pref/pref.prf:259` [L] L:-8192:help:Show this help
+- [~] `lib/pref/pref.prf:260` [L] L:-8192:?
+- [~] `lib/pref/pref.prf:261` [L] L:-8192:'''
+- [~] `lib/pref/pref.prf:262` [L] L:-8191:irc_on:Connect to IRC
+- [~] `lib/pref/pref.prf:263` [L] L:-8191:C
+- [~] `lib/pref/pref.prf:264` [L] L:-8190:irc_say:Speak on IRC
+- [~] `lib/pref/pref.prf:265` [L] L:-8190:@
+- [~] `lib/pref/pref.prf:266` [L] L:-8190:':'
+- [~] `lib/pref/pref.prf:267` [L] L:-8189:irc_off:Disconnect from IRC
+- [~] `lib/pref/pref.prf:268` [L] L:-8188:time:Get the current game time
+- [~] `lib/pref/pref.prf:269` [L] L:-8188:T
+- [~] `lib/pref/pref.prf:270` [L] L:-8187:skills:Check skills
+- [~] `lib/pref/pref.prf:271` [L] L:-8187:S
+- [~] `lib/pref/pref.prf:272` [L] L:-8186:html-dump:Save an html screenshot
+- [~] `lib/pref/pref.prf:273` [L] L:-8186:D
+- [~] `lib/pref/pref.prf:274` [L] L:-8184:quest:Show quest list
+- [~] `lib/pref/pref.prf:275` [L] L:-8184:Q
+- [~] `lib/pref/pref.prf:276` [L] L:-8183:blunder:Walk without disarming
+- [~] `lib/pref/pref.prf:277` [L] L:-8183:B
+- [~] `lib/pref/pref.prf:278` [L] L:-8182:ability:Check abilities
+- [~] `lib/pref/pref.prf:279` [L] L:-8182:A
+- [~] `lib/pref/pref.prf:280` [L] L:y:give:Give an object to a monster
+- [~] `lib/pref/pref.prf:281` [L] L:Y:chat:Talk to a monster
+- [~] `lib/pref/pref.prf:282` [L] L:j:jam:Jam a door
+- [~] `lib/pref/pref.prf:286` [?] ?:[IOR [EQU $SYS xaw] [EQU $SYS x11] [EQU $SYS gtk2]]
+- [~] `lib/pref/pref.prf:287` [%] %:pref-x11.prf
+- [~] `lib/pref/pref.prf:289` [?] ?:[EQU $SYS gcu]
+- [~] `lib/pref/pref.prf:290` [%] %:pref-gcu.prf
+- [~] `lib/pref/pref.prf:292` [?] ?:[EQU $SYS mac]
+- [~] `lib/pref/pref.prf:293` [%] %:pref-mac.prf
+- [~] `lib/pref/pref.prf:295` [?] ?:[EQU $SYS win]
+- [~] `lib/pref/pref.prf:296` [%] %:pref-win.prf
+- [~] `lib/pref/pref.prf:298` [?] ?:[EQU $SYS sdl]
+- [~] `lib/pref/pref.prf:299` [%] %:pref-sdl.prf
+- [~] `lib/pref/pref.prf:301` [?] ?:1

@@ -1,0 +1,67 @@
+# 数据清单：lib/help/m_music.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_music.txt:1` [line] |||||oy
+- [ ] `lib/help/m_music.txt:2` [line] ~~~~~01|Magic|Music
+- [ ] `lib/help/m_music.txt:3` [line] ~~~~~02|Music
+- [ ] `lib/help/m_music.txt:4` [line] ~~~~~03|Skills|Music - Song Info
+- [ ] `lib/help/m_music.txt:5` [line] #####R === ToME Spells - Music ===
+- [ ] `lib/help/m_music.txt:7` [line] Musical songs can have powerful effects for those who have the ability to
+- [ ] `lib/help/m_music.txt:8` [line] play instruments, chiefly *****c_bard.txt*0[Bards].
+- [ ] `lib/help/m_music.txt:10` [line] In order to continue playing a song, mana is consumed each turn, until 
+- [ ] `lib/help/m_music.txt:11` [line] either the 'Stop Singing' song is sung, or the player's mana runs out.
+- [ ] `lib/help/m_music.txt:13` [line] Each song, as well as having a school level like any other magic spell, also
+- [ ] `lib/help/m_music.txt:14` [line] has a roman numeral following its name. The higher this number, the greater the
+- [ ] `lib/help/m_music.txt:15` [line] craftmanship of the instrument required to play it.
+- [ ] `lib/help/m_music.txt:17` [line] Each musical instrument has a value assigned to it as well, between 1 and 4. The
+- [ ] `lib/help/m_music.txt:18` [line] higher the number, the better the craftmanship; hence it will be possible
+- [ ] `lib/help/m_music.txt:19` [line] for the bard to play higher level songs only with more powerful instruments.
+- [ ] `lib/help/m_music.txt:20` [line] E.g. a Harp(+1) will allow you to cast "Stop Singing(I)" and "Song of the
+- [ ] `lib/help/m_music.txt:21` [line] Sun(I)". A Harp(+2) would allow you to sing those songs, as well as "Flow of
+- [ ] `lib/help/m_music.txt:22` [line] Life(II)".
+- [ ] `lib/help/m_music.txt:24` [line] There are 3 different types of instruments: Harps, Drums and Horns. Each type 
+- [ ] `lib/help/m_music.txt:25` [line] of instrument contains a different family of musical songs:
+- [ ] `lib/help/m_music.txt:28` [line] #####vMusical Songs
+- [ ] `lib/help/m_music.txt:30` [line] #####GAll Instruments
+- [ ] `lib/help/m_music.txt:31` [line] 1. [[[[[vStop Singing(I)] (school level 1)
+- [ ] `lib/help/m_music.txt:32` [line]    Stops the current song, if any.
+- [ ] `lib/help/m_music.txt:34` [line] #####GDrums
+- [ ] `lib/help/m_music.txt:35` [line] 1. [[[[[vHolding Pattern(I)] (school level 1)
+- [ ] `lib/help/m_music.txt:36` [line]    Slows down all monsters listening the song.
+- [ ] `lib/help/m_music.txt:37` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:38` [line] 2. [[[[[vIllusion Pattern(II)] (school level 5)
+- [ ] `lib/help/m_music.txt:39` [line]    Tries to confuse all monsters listening the song.
+- [ ] `lib/help/m_music.txt:40` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:41` [line] 3. [[[[[vStun Pattern(IV)] (school level 10)
+- [ ] `lib/help/m_music.txt:42` [line]    Stuns all monsters listening to the song.
+- [ ] `lib/help/m_music.txt:43` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:45` [line] #####GHarps
+- [ ] `lib/help/m_music.txt:46` [line] 1. [[[[[vSong of the Sun(I)] (School level 1)
+- [ ] `lib/help/m_music.txt:47` [line]    Provides light as long as you sing.
+- [ ] `lib/help/m_music.txt:48` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:49` [line] 2. [[[[[vFlow of Life(II)] (School level 5)
+- [ ] `lib/help/m_music.txt:50` [line]    Heals you as long as you sing.
+- [ ] `lib/help/m_music.txt:51` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:52` [line] 3. [[[[[vHeroic Ballad(II)] (School level 10)
+- [ ] `lib/help/m_music.txt:53` [line]    Increases melee accuracy.
+- [ ] `lib/help/m_music.txt:54` [line]    At level 10 it increases it even more and reduces armour a bit.
+- [ ] `lib/help/m_music.txt:55` [line]    At level 20 it increases it still more.
+- [ ] `lib/help/m_music.txt:56` [line]    At level 25 it grants protection against chaos and confusion.
+- [ ] `lib/help/m_music.txt:57` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:58` [line] 4. [[[[[vHobbit Melodies(III)] (School level 20)
+- [ ] `lib/help/m_music.txt:59` [line]    Greatly increases your reflexes allowing you to block more melee blows.
+- [ ] `lib/help/m_music.txt:60` [line]    At level 15 it also makes you faster.
+- [ ] `lib/help/m_music.txt:61` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:62` [line] 5. [[[[[vClairaudience(IV)] (School level 25)
+- [ ] `lib/help/m_music.txt:63` [line]    Allows you to sense monster minds as long as you sing.
+- [ ] `lib/help/m_music.txt:64` [line]    At level 10 it identifies all objects in a radius on the floor.
+- [ ] `lib/help/m_music.txt:65` [line]    Consumes mana each turn.
+- [ ] `lib/help/m_music.txt:67` [line] #####GHorns
+- [ ] `lib/help/m_music.txt:68` [line] 1. [[[[[vBlow(I)] (School level 4)
+- [ ] `lib/help/m_music.txt:69` [line]    Produces a powerful, blowing sound all around you.
+- [ ] `lib/help/m_music.txt:70` [line] 2. [[[[[vGush of Wind (II)] (School level 14)
+- [ ] `lib/help/m_music.txt:71` [line]    Produces a outgoing gush of wind that sends monsters away.
+- [ ] `lib/help/m_music.txt:72` [line] 3. [[[[[vHorns of Ylmir(III)] (School level 20)
+- [ ] `lib/help/m_music.txt:73` [line]    Produces an earth-shaking sound.
+- [ ] `lib/help/m_music.txt:74` [line] 4. [[[[[vAmbarkanta(IV)] (School level 25)
+- [ ] `lib/help/m_music.txt:75` [line]    Produces a reality-shaking sound that transports you to a nearly
+- [ ] `lib/help/m_music.txt:76` [line]    identical reality.

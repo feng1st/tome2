@@ -1,0 +1,47 @@
+# 数据清单：lib/help/m_nature.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_nature.txt:1` [line] |||||oy
+- [ ] `lib/help/m_nature.txt:2` [line] ~~~~~01|Magic|Nature School
+- [ ] `lib/help/m_nature.txt:3` [line] ~~~~~02|Nature Magic
+- [ ] `lib/help/m_nature.txt:4` [line] ~~~~~03|Skills|Nature - Spell Info
+- [ ] `lib/help/m_nature.txt:5` [line] #####R === ToME Magic - Nature School ===
+- [ ] `lib/help/m_nature.txt:7` [line] The nature school of magic contains spells that interact with nature. There
+- [ ] `lib/help/m_nature.txt:8` [line] are rumours of a "Tome of the Tree" which contains all the nature school
+- [ ] `lib/help/m_nature.txt:9` [line] spells within its bindings.
+- [ ] `lib/help/m_nature.txt:11` [line] Worshipping the Goddess Yavanna Kementari also gives the ability to cast spells
+- [ ] `lib/help/m_nature.txt:12` [line] from the nature school at a level of 1/2 of your prayer level. E.g. if the skill
+- [ ] `lib/help/m_nature.txt:13` [line] "Spirituality: Prayer" is at level 10, you can cast up to level 5 nature school
+- [ ] `lib/help/m_nature.txt:14` [line] spells.
+- [ ] `lib/help/m_nature.txt:16` [line] #####GNature Spells
+- [ ] `lib/help/m_nature.txt:17` [line] There are five spells available for the nature school. These spells are:
+- [ ] `lib/help/m_nature.txt:18` [line] 1. [[[[[GGrow Trees] (dual school level 6)
+- [ ] `lib/help/m_nature.txt:19` [line]    Makes trees grow extremely quickly around you.
+- [ ] `lib/help/m_nature.txt:20` [line] #####v   Your Nature and Temporal skills must have reached a combined average level 
+- [ ] `lib/help/m_nature.txt:21` [line] #####v   of 6 in order to cast this spell.
+- [ ] `lib/help/m_nature.txt:22` [line] 2. [[[[[GHealing] (school level 10)
+- [ ] `lib/help/m_nature.txt:23` [line]    Heals a portion of your hitpoints.
+- [ ] `lib/help/m_nature.txt:24` [line] 3. [[[[[GRecovery] (school level 15)
+- [ ] `lib/help/m_nature.txt:25` [line]    Reduces the length of time that you are poisoned.
+- [ ] `lib/help/m_nature.txt:26` [line]    At spell level 5 it cures poison and cuts.
+- [ ] `lib/help/m_nature.txt:27` [line]    At spell level 10 it restores drained stats.
+- [ ] `lib/help/m_nature.txt:28` [line]    At spell level 15 it restores lost experience.
+- [ ] `lib/help/m_nature.txt:29` [line] 4. [[[[[GRegeneration] (school level 20)
+- [ ] `lib/help/m_nature.txt:30` [line]    Increases your body's regeneration rate.
+- [ ] `lib/help/m_nature.txt:31` [line] 5. [[[[[GSummon Animal] (school level 25)
+- [ ] `lib/help/m_nature.txt:32` [line]    Summons a leveled animal to your aid.
+- [ ] `lib/help/m_nature.txt:35` [line] #####GAir spells that can be cast with Nature skill
+- [ ] `lib/help/m_nature.txt:37` [line] 1. [[[[[BThunderstorm] (dual school level 25)
+- [ ] `lib/help/m_nature.txt:38` [line]    Charges up the air around you with electricity.
+- [ ] `lib/help/m_nature.txt:39` [line]    Each turn it will throw a bolt of thunder at a random monster in sight.
+- [ ] `lib/help/m_nature.txt:40` [line]    This thunder does 3 types of damage:
+- [ ] `lib/help/m_nature.txt:41` [line]       one third of lightning
+- [ ] `lib/help/m_nature.txt:42` [line]       one third of sound
+- [ ] `lib/help/m_nature.txt:43` [line]       and one third of light.
+- [ ] `lib/help/m_nature.txt:44` [line] #####v   Your Nature and Air skills must have reached a combined average level 
+- [ ] `lib/help/m_nature.txt:45` [line] #####v   of 25 in order to cast this spell.
+- [ ] `lib/help/m_nature.txt:47` [line] #####GUdun spells that can be cast with Nature skill
+- [ ] `lib/help/m_nature.txt:49` [line] 1. [[[[[DGenocide] (dual school level 25)
+- [ ] `lib/help/m_nature.txt:50` [line]    Genocides all monsters of a specified race on the level.
+- [ ] `lib/help/m_nature.txt:51` [line]    At level 10 it can genocide all monsters near you.
+- [ ] `lib/help/m_nature.txt:52` [line] #####v   Your Nature and Udun skills must have reached a combined average level 
+- [ ] `lib/help/m_nature.txt:53` [line] #####v   of 25 in order to cast this spell.

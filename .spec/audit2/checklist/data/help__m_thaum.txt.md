@@ -1,0 +1,29 @@
+# 数据清单：lib/help/m_thaum.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_thaum.txt:1` [line] |||||oy
+- [ ] `lib/help/m_thaum.txt:2` [line] ~~~~~01|Magic|Thaumaturgy
+- [ ] `lib/help/m_thaum.txt:3` [line] ~~~~~02|Thaumaturgical Magic
+- [ ] `lib/help/m_thaum.txt:4` [line] ~~~~~03|Skills|Thaumaturgy - Spell Info
+- [ ] `lib/help/m_thaum.txt:5` [line] #####R === ToME Magic - Thaumaturgy ===
+- [ ] `lib/help/m_thaum.txt:7` [line] Thaumaturgy is a different type of magic where the spells learnt are not 
+- [ ] `lib/help/m_thaum.txt:8` [line] restricted to one school, nor are they read out of spellbooks. Each time an
+- [ ] `lib/help/m_thaum.txt:9` [line] adventurer increases her thaumaturgy skill, she gains access to a few 
+- [ ] `lib/help/m_thaum.txt:10` [line] [[[[[Rrandom] attack spells, each one automatically "learnt" at a specific 
+- [ ] `lib/help/m_thaum.txt:11` [line] casting level. Since she doesn't need spellbooks, she does not end up with 
+- [ ] `lib/help/m_thaum.txt:12` [line] inventory slots being filled up so quickly by the necessary items for safe
+- [ ] `lib/help/m_thaum.txt:13` [line] exploration of the dungeon, and can therefore collect more loot.
+- [ ] `lib/help/m_thaum.txt:15` [line] The downside of this is that she has no ability to choose what spells she 
+- [ ] `lib/help/m_thaum.txt:16` [line] learns, and no ability to improve the power of a learnt spell. So, a bolt 
+- [ ] `lib/help/m_thaum.txt:17` [line] spell with damage 1d5 will remain at 1d5 damage for the whole game. And the
+- [ ] `lib/help/m_thaum.txt:18` [line] spells learnt are *all* attack spells of some sort (remembering that things 
+- [ ] `lib/help/m_thaum.txt:19` [line] like light and stone-to-mud can damage some monsters) - so no teleporting, no
+- [ ] `lib/help/m_thaum.txt:20` [line] identify, no healing spells are learnt. At most, some wall creation may be
+- [ ] `lib/help/m_thaum.txt:21` [line] employed.
+- [ ] `lib/help/m_thaum.txt:23` [line] Thaumaturgist use their magic through the 'm' key. They then select a general
+- [ ] `lib/help/m_thaum.txt:24` [line] group of spells, followed by a specific spell.
+- [ ] `lib/help/m_thaum.txt:26` [line] Thaumaturgy spells can take the form of:
+- [ ] `lib/help/m_thaum.txt:27` [line] - a bolt, targeted at a single location;
+- [ ] `lib/help/m_thaum.txt:28` [line] - a beam, which hits all monsters in a line;
+- [ ] `lib/help/m_thaum.txt:29` [line] - a ball (either centred on the caster or targetable);
+- [ ] `lib/help/m_thaum.txt:30` [line] - an meteor strike (multiple balls in the vicinity of the caster);
+- [ ] `lib/help/m_thaum.txt:31` [line] - a spell that affects all monsters in line of sight.

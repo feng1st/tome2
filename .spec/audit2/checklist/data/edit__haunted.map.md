@@ -1,0 +1,33 @@
+# 数据清单：lib/edit/haunted.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/haunted.map:2` [feat] F:X:61:0
+- [ ] `lib/edit/haunted.map:5` [feat] F:#:57:0
+- [ ] `lib/edit/haunted.map:8` [feat] F:<:6:0
+- [ ] `lib/edit/haunted.map:11` [feat] F:.:1:0
+- [ ] `lib/edit/haunted.map:14` [feat] F:D:38:0
+- [ ] `lib/edit/haunted.map:17` [feat] F:S:48:0
+- [ ] `lib/edit/haunted.map:20` [feat] F:g:1:0:0:*:*
+- [ ] `lib/edit/haunted.map:23` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/haunted.map:24` [row] D:XXX...D.........................X
+- [ ] `lib/edit/haunted.map:25` [row] D:XXX...XXXXXXXXXXXXXXXXXXXXXXXXX.X
+- [ ] `lib/edit/haunted.map:26` [row] D:XXX...X....X....X....X....X...X.X
+- [ ] `lib/edit/haunted.map:27` [row] D:XXX...X....X....X....X....X...X.X
+- [ ] `lib/edit/haunted.map:28` [row] D:XXX...X....X....X....X....X...X.X
+- [ ] `lib/edit/haunted.map:29` [row] D:XXXDXXXDXXXXDXXXXDXXXXDXXXXDXXX.X
+- [ ] `lib/edit/haunted.map:30` [row] D:XXX.............................X
+- [ ] `lib/edit/haunted.map:31` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.X
+- [ ] `lib/edit/haunted.map:32` [row] D:X.S.....X.....X.....X.....X...X.X
+- [ ] `lib/edit/haunted.map:33` [row] D:X.X.....X.....X.....X.....X...X.X
+- [ ] `lib/edit/haunted.map:34` [row] D:X.X.....X.....X.....X.....X...X.X
+- [ ] `lib/edit/haunted.map:35` [row] D:X.X.....X.....X.....X.....X...X.X
+- [ ] `lib/edit/haunted.map:36` [row] D:XgX.....X.....X.....X.....X...X.X
+- [ ] `lib/edit/haunted.map:37` [row] D:XXXDXXXXXDXXXXXDXXXXXDXXXXXDXXX.X
+- [ ] `lib/edit/haunted.map:38` [row] D:XXX.............................X
+- [ ] `lib/edit/haunted.map:39` [row] D:XXXXXXXDXXXXXDXXXXXDXXXXXDXXXXXDX
+- [ ] `lib/edit/haunted.map:40` [row] D:XgX<....X.....X.....X.....X.....X
+- [ ] `lib/edit/haunted.map:41` [row] D:X.X.....X.....X.....X.....X.....X
+- [ ] `lib/edit/haunted.map:42` [row] D:X.X.....X.....X.....X.....X.....X
+- [ ] `lib/edit/haunted.map:43` [row] D:X.X.....X.....X.....X.....X.....X
+- [ ] `lib/edit/haunted.map:44` [row] D:X.S.....X.....X.....X.....X.....X
+- [ ] `lib/edit/haunted.map:45` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/haunted.map:48` [raw] P:3:5

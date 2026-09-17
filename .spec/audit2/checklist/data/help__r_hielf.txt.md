@@ -1,0 +1,33 @@
+# 数据清单：lib/help/r_hielf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_hielf.txt:1` [line] ~~~~~01|High-Elf
+- [ ] `lib/help/r_hielf.txt:2` [line] ~~~~~02|Races|High-Elf
+- [ ] `lib/help/r_hielf.txt:3` [line] #####R=== High-Elves ===
+- [ ] `lib/help/r_hielf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_hielf.txt:6` [line] High-elves are a race of immortal beings dating from the beginning of
+- [ ] `lib/help/r_hielf.txt:7` [line] time.  They are masters of all skills, and are strong and intelligent.
+- [ ] `lib/help/r_hielf.txt:8` [line] They can play all classes except rogues, and very well at that.
+- [ ] `lib/help/r_hielf.txt:9` [line] High-elves begin their lives able to see the unseen, and resist light
+- [ ] `lib/help/r_hielf.txt:10` [line] effects just like regular elves.  However, there are few things that
+- [ ] `lib/help/r_hielf.txt:11` [line] they have not seen already, and experience is very hard for them to
+- [ ] `lib/help/r_hielf.txt:12` [line] gain.
+- [ ] `lib/help/r_hielf.txt:14` [line] #####GStat Modifiers
+- [ ] `lib/help/r_hielf.txt:15` [line] Strength        +1   
+- [ ] `lib/help/r_hielf.txt:16` [line] Intelligence    +3   
+- [ ] `lib/help/r_hielf.txt:17` [line] Wisdom          +2   
+- [ ] `lib/help/r_hielf.txt:18` [line] Dexterity       +3   
+- [ ] `lib/help/r_hielf.txt:19` [line] Constitution    +1   
+- [ ] `lib/help/r_hielf.txt:20` [line] Charisma        +5       
+- [ ] `lib/help/r_hielf.txt:21` [line] Hit Dice Sides  10         
+- [ ] `lib/help/r_hielf.txt:22` [line] Exp Penalty     +100%
+- [ ] `lib/help/r_hielf.txt:24` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_hielf.txt:25` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_hielf.txt:26` [line] Combat                  
+- [ ] `lib/help/r_hielf.txt:27` [line]   Weaponmastery         1.000           [0.000]
+- [ ] `lib/help/r_hielf.txt:28` [line]   Archery		2.500           [0.000]
+- [ ] `lib/help/r_hielf.txt:29` [line] Sneakiness              0.300           [0.000]
+- [ ] `lib/help/r_hielf.txt:30` [line]   Stealth               4.000           [0.000]
+- [ ] `lib/help/r_hielf.txt:31` [line]   Disarming             0.400           [0.000]
+- [ ] `lib/help/r_hielf.txt:32` [line] Magic                   
+- [ ] `lib/help/r_hielf.txt:33` [line]   Magic-Device          2.000           [0.000]
+- [ ] `lib/help/r_hielf.txt:34` [line] Spirituality           10.000           [0.000]

@@ -1,0 +1,145 @@
+# 数据清单：lib/help/dunspoil.txt（text，逐条/逐行）
+
+- [ ] `lib/help/dunspoil.txt:1` [line] |||||oy
+- [ ] `lib/help/dunspoil.txt:2` [line] ~~~~~01|Dungeons|Spoilers
+- [ ] `lib/help/dunspoil.txt:3` [line] ~~~~~02|Spoilers|Dungeons
+- [ ] `lib/help/dunspoil.txt:4` [line] #####R=== ToME's DUNGEONS ===
+- [ ] `lib/help/dunspoil.txt:6` [line] There are numerous dungeons within Middle-earth, but not all
+- [ ] `lib/help/dunspoil.txt:7` [line] of them are required to be ventured into. The original Angband
+- [ ] `lib/help/dunspoil.txt:8` [line] dungeon has been split into 4 parts, each found near or at a
+- [ ] `lib/help/dunspoil.txt:9` [line] different town. Travel between towns is usually easiest by
+- [ ] `lib/help/dunspoil.txt:10` [line] using the wilderness overview map ("<" from the town level),
+- [ ] `lib/help/dunspoil.txt:11` [line] but remember to take lots of food with you!
+- [ ] `lib/help/dunspoil.txt:13` [line] #####GThe Basic Dungeons
+- [ ] `lib/help/dunspoil.txt:14` [line] #####G------------------
+- [ ] `lib/help/dunspoil.txt:16` [line] #####G1. Barrow-Downs
+- [ ] `lib/help/dunspoil.txt:17` [line] Found near the outskirts of Bree (the starting town), this
+- [ ] `lib/help/dunspoil.txt:18` [line] dungeon is where you should begin your adventure. It
+- [ ] `lib/help/dunspoil.txt:19` [line] contains the main Dungeon levels 1 (50') to 10 (500'),
+- [ ] `lib/help/dunspoil.txt:20` [line] after which it becomes necessary for the character to seek
+- [ ] `lib/help/dunspoil.txt:21` [line] out a new dungeon in order to be able to descend further in
+- [ ] `lib/help/dunspoil.txt:22` [line] their quest to kill Morgoth.
+- [ ] `lib/help/dunspoil.txt:24` [line] #####G2. Mirkwood
+- [ ] `lib/help/dunspoil.txt:25` [line] The Mirkwood forest contains levels 11 (550') to 33 (1650'),
+- [ ] `lib/help/dunspoil.txt:26` [line] and can be found to the north-east of Lothlorien.
+- [ ] `lib/help/dunspoil.txt:28` [line] #####G3. Mordor
+- [ ] `lib/help/dunspoil.txt:29` [line] The Land of Mordor is a hot, cavernous region, containing
+- [ ] `lib/help/dunspoil.txt:30` [line] levels 34 (1700') to 66 (3300') of the dungeon. Located to
+- [ ] `lib/help/dunspoil.txt:31` [line] the East of Minas Anor, it is a place filled with danger,
+- [ ] `lib/help/dunspoil.txt:32` [line] and only a wary adventurer will make it through to the other
+- [ ] `lib/help/dunspoil.txt:33` [line] end of this dungeon.
+- [ ] `lib/help/dunspoil.txt:35` [line] #####G4. Angband
+- [ ] `lib/help/dunspoil.txt:36` [line] Only the most successful of adventurers usually make it this
+- [ ] `lib/help/dunspoil.txt:37` [line] far. The Dungeon Angband contains both Sauron and Morgoth,
+- [ ] `lib/help/dunspoil.txt:38` [line] who will gladly wipe out any who dare to oppose them! This
+- [ ] `lib/help/dunspoil.txt:39` [line] dungeon covers levels 67 (3350') to 127 (6350'), but Sauron
+- [ ] `lib/help/dunspoil.txt:40` [line] waits for you at level 99, and Morgoth at level 100. This
+- [ ] `lib/help/dunspoil.txt:41` [line] dungeon can be found near Gondolin.
+- [ ] `lib/help/dunspoil.txt:44` [line] #####GAdditional ToME Dungeons
+- [ ] `lib/help/dunspoil.txt:45` [line] #####G------------------------
+- [ ] `lib/help/dunspoil.txt:47` [line] In addition to the basic 4 dungeons, there are numerous other
+- [ ] `lib/help/dunspoil.txt:48` [line] dungeons scattered around the world for an adventurer to explore
+- [ ] `lib/help/dunspoil.txt:49` [line] while preparing for the final fight. Many of the dungeons have a
+- [ ] `lib/help/dunspoil.txt:50` [line] guardian at the bottom of them, and a few have unique levels
+- [ ] `lib/help/dunspoil.txt:51` [line] somewhere within them (like an orc town) with guaranteed artifacts
+- [ ] `lib/help/dunspoil.txt:52` [line] and nasties within them. Other than the unique levels, all of the
+- [ ] `lib/help/dunspoil.txt:53` [line] dungeons can be exited and re-entered at your leisure.
+- [ ] `lib/help/dunspoil.txt:55` [line] Be warned though that some dungeons are partly toxic to the
+- [ ] `lib/help/dunspoil.txt:56` [line] adventurer, and will damage you BY THEMSELVES just by you walking
+- [ ] `lib/help/dunspoil.txt:57` [line] within them!
+- [ ] `lib/help/dunspoil.txt:59` [line] #####GOrc Cave
+- [ ] `lib/help/dunspoil.txt:60` [line] A dark tunnel leading to an Orc Cave, guarded at its base by Azog,
+- [ ] `lib/help/dunspoil.txt:61` [line] King of the Uruk-Hai. Also somewhere within this dungeon is the
+- [ ] `lib/help/dunspoil.txt:62` [line] hidden special level called Deathwatch.
+- [ ] `lib/help/dunspoil.txt:63` [line] Equivalent to dungeon levels 10 to 22.
+- [ ] `lib/help/dunspoil.txt:65` [line] #####GThe Old Forest
+- [ ] `lib/help/dunspoil.txt:66` [line] A Forest is a haven for many animals, both of the good variety, and
+- [ ] `lib/help/dunspoil.txt:67` [line] the bad. This forest is no exception. In the past, unsuccessful
+- [ ] `lib/help/dunspoil.txt:68` [line] attempts have been made to cultivate this land, and it is possible
+- [ ] `lib/help/dunspoil.txt:69` [line] that some of the towns may remain. It is also rumoured that Old Man
+- [ ] `lib/help/dunspoil.txt:70` [line] Willow has made his home here, and is the source of the Forest's
+- [ ] `lib/help/dunspoil.txt:71` [line] resistance to cultivation.
+- [ ] `lib/help/dunspoil.txt:72` [line] Equivalent to dungeon levels 13 to 25.
+- [ ] `lib/help/dunspoil.txt:74` [line] #####GHelcaraxe
+- [ ] `lib/help/dunspoil.txt:75` [line] The Grinding Ice of Helcaraxe is a bitterly cold series of caverns,
+- [ ] `lib/help/dunspoil.txt:76` [line] and guarded by the White Balrog.
+- [ ] `lib/help/dunspoil.txt:77` [line] Equivalent to dungeon levels 20 to 40.
+- [ ] `lib/help/dunspoil.txt:79` [line] #####GThe Sandworm lair
+- [ ] `lib/help/dunspoil.txt:80` [line] A deep sandhole where most worms originated, it is guarded at its
+- [ ] `lib/help/dunspoil.txt:81` [line] base by the Sandworm Queen.
+- [ ] `lib/help/dunspoil.txt:82` [line] Equivalent to dungeon levels 22 to 30.
+- [ ] `lib/help/dunspoil.txt:84` [line] #####GThe Heart of the Earth
+- [ ] `lib/help/dunspoil.txt:85` [line] A dark passage leading into the heart of the world, the Heart of
+- [ ] `lib/help/dunspoil.txt:86` [line] the Earth is the source of all the earth's changes. Some claim it
+- [ ] `lib/help/dunspoil.txt:87` [line] to be the home of Golgarach, the Living Rock, who assists in the
+- [ ] `lib/help/dunspoil.txt:88` [line] creation of new, ever-changing landforms.
+- [ ] `lib/help/dunspoil.txt:89` [line] Equivalent to dungeon levels 25 to 36.
+- [ ] `lib/help/dunspoil.txt:91` [line] #####GMaze
+- [ ] `lib/help/dunspoil.txt:92` [line] A strange Maze where it becomes very difficult to remember where you
+- [ ] `lib/help/dunspoil.txt:93` [line] have been, it is guarded at the bottom by The Minotaur of the Labyrinth.
+- [ ] `lib/help/dunspoil.txt:94` [line] Equivalent to dungeon levels 25 to 37.
+- [ ] `lib/help/dunspoil.txt:96` [line] #####GCirith Ungol
+- [ ] `lib/help/dunspoil.txt:97` [line] The dungeon Cirith Ungol is full of poisonous fumes rising from the
+- [ ] `lib/help/dunspoil.txt:98` [line] ground, and the land here looks diseased. Shelob is said to lurk
+- [ ] `lib/help/dunspoil.txt:99` [line] within these depths.
+- [ ] `lib/help/dunspoil.txt:100` [line] Equivalent to dungeon levels 25 to 50.
+- [ ] `lib/help/dunspoil.txt:102` [line] #####GThe Land Of Rhun
+- [ ] `lib/help/dunspoil.txt:103` [line] The Land Of Rhun is located on a large plain, and has been taken over
+- [ ] `lib/help/dunspoil.txt:104` [line] by Ulfang the Black, Morgoth's first Easterling follower.
+- [ ] `lib/help/dunspoil.txt:105` [line] Equivalent to dungeon levels 26 to 40.
+- [ ] `lib/help/dunspoil.txt:107` [line] #####GThe Mines of Moria
+- [ ] `lib/help/dunspoil.txt:108` [line] A stone door leads down to the depths of the Moria. Once the home of
+- [ ] `lib/help/dunspoil.txt:109` [line] the dwarves, the mines have been taken over by creeping evil things, and
+- [ ] `lib/help/dunspoil.txt:110` [line] unlucky adventurers may well stumble upon their training grounds. In
+- [ ] `lib/help/dunspoil.txt:111` [line] the depths lurks Durin's Bane, the Balrog of Moria, and return from
+- [ ] `lib/help/dunspoil.txt:112` [line] these depths can be difficult....
+- [ ] `lib/help/dunspoil.txt:113` [line] Equivalent to dungeon levels 30 to 50.
+- [ ] `lib/help/dunspoil.txt:115` [line] #####GThe Small Water Cave
+- [ ] `lib/help/dunspoil.txt:116` [line] A small water cave filled with salt water, which rusts and damages an
+- [ ] `lib/help/dunspoil.txt:117` [line] adventurer's equipment. This cave is not very deep, and is guarded by
+- [ ] `lib/help/dunspoil.txt:118` [line] The Watcher in the Water.
+- [ ] `lib/help/dunspoil.txt:119` [line] Equivalent to dungeon levels 32 to 34.
+- [ ] `lib/help/dunspoil.txt:121` [line] #####GSubmerged Ruins
+- [ ] `lib/help/dunspoil.txt:122` [line] The lost land of Numenor lies submerged here. The salt water causes
+- [ ] `lib/help/dunspoil.txt:123` [line] everything to rust. These ruins are guarded by Ar-Pharazon the
+- [ ] `lib/help/dunspoil.txt:124` [line] Golden.
+- [ ] `lib/help/dunspoil.txt:125` [line] Equivalent to dungeon levels 35 to 50.
+- [ ] `lib/help/dunspoil.txt:127` [line] #####GIllusory Castle
+- [ ] `lib/help/dunspoil.txt:128` [line] The Illusory Castle is a very strange and confusing place for an
+- [ ] `lib/help/dunspoil.txt:129` [line] adventurer to visit, and is rumoured to contain many strange
+- [ ] `lib/help/dunspoil.txt:130` [line] monsters. Deep within the castle can be found The Glass Golem.
+- [ ] `lib/help/dunspoil.txt:131` [line] Equivalent to dungeon levels 35 to 52.
+- [ ] `lib/help/dunspoil.txt:133` [line] #####GPaths of the Dead
+- [ ] `lib/help/dunspoil.txt:134` [line] A dark underground graveyard, this place looks extremely dangerous.
+- [ ] `lib/help/dunspoil.txt:135` [line] It is claimed that the dead have all arisen in these depths, and are
+- [ ] `lib/help/dunspoil.txt:136` [line] lead by Feagwath, the Undead Sorcerer.
+- [ ] `lib/help/dunspoil.txt:137` [line] Equivalent to dungeon levels 40 to 70.
+- [ ] `lib/help/dunspoil.txt:139` [line] #####GThe Sacred Land Of Mountains
+- [ ] `lib/help/dunspoil.txt:140` [line] The Sacred Land Of Mountains is located in a large mountain range,
+- [ ] `lib/help/dunspoil.txt:141` [line] with the remains of many old towns. Considered a perfect place to hide
+- [ ] `lib/help/dunspoil.txt:142` [line] for one who could fly, it is rumoured that Trone the rebel Thunderlord
+- [ ] `lib/help/dunspoil.txt:143` [line] fled into the ruins here.
+- [ ] `lib/help/dunspoil.txt:144` [line] Equivalent to dungeon levels 45 to 70.
+- [ ] `lib/help/dunspoil.txt:146` [line] #####GThe Tower of Dol Guldur
+- [ ] `lib/help/dunspoil.txt:147` [line] The tower of of Dol Guldur is the last known residence of one known only
+- [ ] `lib/help/dunspoil.txt:148` [line] as "the Necromancer". It is rumoured to be filled with his conjurations,
+- [ ] `lib/help/dunspoil.txt:149` [line] although none have made it out of the Tower alive to confirm or deny this
+- [ ] `lib/help/dunspoil.txt:150` [line] rumour.
+- [ ] `lib/help/dunspoil.txt:151` [line] Equivalent to dungeon levels 57 to 70.
+- [ ] `lib/help/dunspoil.txt:153` [line] #####GErebor, the Lonely Mountain
+- [ ] `lib/help/dunspoil.txt:154` [line] A big, dark and frightening tunnel leading to the depth of the Lonely
+- [ ] `lib/help/dunspoil.txt:155` [line] Mountain, this large cave is the ancestral home of the Dragons.
+- [ ] `lib/help/dunspoil.txt:156` [line] Glaurung, Father of the Dragons has long made his home here.
+- [ ] `lib/help/dunspoil.txt:157` [line] Equivalent to dungeon levels 60 to 72.
+- [ ] `lib/help/dunspoil.txt:159` [line] #####GMount Doom
+- [ ] `lib/help/dunspoil.txt:160` [line] A steaming cave in the centre of Mount Doom, this place is *hot*.
+- [ ] `lib/help/dunspoil.txt:161` [line] It is said that Sauron forged the One Ring here and that it's the only place
+- [ ] `lib/help/dunspoil.txt:162` [line] where it could be destroyed.
+- [ ] `lib/help/dunspoil.txt:163` [line] Equivalent to dungeon levels 85 to 99.
+- [ ] `lib/help/dunspoil.txt:165` [line] #####GNether Realm
+- [ ] `lib/help/dunspoil.txt:166` [line] The Nether Realm is accessible only through a magic portal. Also
+- [ ] `lib/help/dunspoil.txt:167` [line] known as Hell, this land is lethal to any who are unprepared for the
+- [ ] `lib/help/dunspoil.txt:168` [line] ravages of Nether, and is guarded by Tik'srvzllat.
+- [ ] `lib/help/dunspoil.txt:169` [line] #####BEquivalent to dungeon levels 666 to 696!!!!!
+- [ ] `lib/help/dunspoil.txt:172` [line]                              Created by Dawnmist for PernAngband 5.x.x
+- [ ] `lib/help/dunspoil.txt:173` [line]                                                 Updated for ToME 2.1.x

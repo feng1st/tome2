@@ -1,0 +1,203 @@
+# 数据清单：lib/file/rumors.txt（text，逐条/逐行）
+
+- [ ] `lib/file/rumors.txt:1` [line] 199
+- [ ] `lib/file/rumors.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/rumors.txt:3` [line] They say that you can't trust rumors.
+- [ ] `lib/file/rumors.txt:4` [line] You have no more Black Potions of Death.
+- [ ] `lib/file/rumors.txt:5` [line] They say that smart guys hang around at 1600'.
+- [ ] `lib/file/rumors.txt:6` [line] They say that tough guys hang around at 1500'.
+- [ ] `lib/file/rumors.txt:7` [line] They say that handsome guys hang around at 1200'.
+- [ ] `lib/file/rumors.txt:8` [line] They say that a visit to 3250' can be quite an experience.
+- [ ] `lib/file/rumors.txt:9` [line] They say that a visit to 3250' will only get you killed.
+- [ ] `lib/file/rumors.txt:10` [line] Throw a Potion of Blindness at a monster and it cannot cast any spells!
+- [ ] `lib/file/rumors.txt:11` [line] MAKE MONEY FAST! Find a Treasure Pit!
+- [ ] `lib/file/rumors.txt:12` [line] Not satisfied with the artifacts you find? Then create your own!
+- [ ] `lib/file/rumors.txt:13` [line] They say that Sauron has forged an all-powerful Ring.
+- [ ] `lib/file/rumors.txt:14` [line] A good item will not corrode.
+- [ ] `lib/file/rumors.txt:15` [line] They say that Nibelungs live in dark caves.
+- [ ] `lib/file/rumors.txt:16` [line] Some weapons that slay dragons can be very deadly against them...
+- [ ] `lib/file/rumors.txt:17` [line] Finding the Phial of Galadriel at 50' is nothing to be proud of.
+- [ ] `lib/file/rumors.txt:18` [line] There are Black Market stores hidden deep in the dungeon, with COOL stuff!
+- [ ] `lib/file/rumors.txt:19` [line] What a pity, you cannot read it!
+- [ ] `lib/file/rumors.txt:20` [line] You will encounter a dark, tall stranger...
+- [ ] `lib/file/rumors.txt:21` [line] A Mithril mail will not rust.
+- [ ] `lib/file/rumors.txt:22` [line] An Adamantite mail will not rust.
+- [ ] `lib/file/rumors.txt:23` [line] A Rusty Chain Mail cannot rust any further.
+- [ ] `lib/file/rumors.txt:24` [line] If you are a mage, you will NOT want to find Raal's Tome of Destruction!
+- [ ] `lib/file/rumors.txt:25` [line] You won't want to find Raal's Tome of Destruction!
+- [ ] `lib/file/rumors.txt:26` [line] You won't want to find Raal's Tome of Destruction, unless you are a mage.
+- [ ] `lib/file/rumors.txt:27` [line] A Wand of Death is useless against monsters that are tougher than you.
+- [ ] `lib/file/rumors.txt:28` [line] A Wand of Death is of little use against foes that are dead already.
+- [ ] `lib/file/rumors.txt:29` [line] Try taking off your armor before fighting a Gelatinous Cube!
+- [ ] `lib/file/rumors.txt:30` [line] They say that only one sword can score *CRITICAL* hits.
+- [ ] `lib/file/rumors.txt:31` [line] This rumor is not true.
+- [ ] `lib/file/rumors.txt:32` [line] If you can fall like a feather, you need not care about gravity.
+- [ ] `lib/file/rumors.txt:33` [line] They say that you should rejoice if you find a scroll labeled ""!
+- [ ] `lib/file/rumors.txt:34` [line] You don't always have to kill everything you meet!
+- [ ] `lib/file/rumors.txt:35` [line] If you can't beat it, leave it alone!
+- [ ] `lib/file/rumors.txt:36` [line] An umber hulk can be a confusing sight.
+- [ ] `lib/file/rumors.txt:37` [line] There *is* a good use for Potions of Detonations, Ruination and Death...
+- [ ] `lib/file/rumors.txt:38` [line] Watch your step!
+- [ ] `lib/file/rumors.txt:39` [line] It's a bad idea to throw away a Longsword (4d5).
+- [ ] `lib/file/rumors.txt:40` [line] It's a bad idea to wield a Longsword (4d5).
+- [ ] `lib/file/rumors.txt:41` [line] It's useless to bash monsters with bows - but there's one notable exception...
+- [ ] `lib/file/rumors.txt:42` [line] Actually, Slime Mold Juice is not completely useless.
+- [ ] `lib/file/rumors.txt:43` [line] Help me! I'm being held captive in a Vault at 2850'!
+- [ ] `lib/file/rumors.txt:44` [line] Ever tried inscribing your armor {erodeproof}?
+- [ ] `lib/file/rumors.txt:45` [line] Using a Morningstar in the evening has no effect.
+- [ ] `lib/file/rumors.txt:46` [line] Why are you wasting time reading fortunes?
+- [ ] `lib/file/rumors.txt:47` [line] There is a horrible, ghastly fate awaiting you... at 2700'!
+- [ ] `lib/file/rumors.txt:48` [line] You can get the Longsword 'Ringil' by doing the following:
+- [ ] `lib/file/rumors.txt:49` [line] You can protect yourself from Great Wyrms of Power by doing the following:
+- [ ] `lib/file/rumors.txt:50` [line] Its true name is 249.
+- [ ] `lib/file/rumors.txt:51` [line] You feel like someone's pulling your leg!
+- [ ] `lib/file/rumors.txt:52` [line] AAAAAAAAAAARRRRRRRRGGGGHHHHHHH!
+- [ ] `lib/file/rumors.txt:53` [line] Try inscribing the name of the first monster killed by it in the weapon!
+- [ ] `lib/file/rumors.txt:54` [line] The richer the victim the happier the thief.
+- [ ] `lib/file/rumors.txt:55` [line] Beware the Jabberwock, my son! The jaws that bite, the claws that catch...
+- [ ] `lib/file/rumors.txt:56` [line] There's something bad about what you are carrying in your backpack...
+- [ ] `lib/file/rumors.txt:57` [line] Thieves are more likely to appear if you are carrying a lot of money.
+- [ ] `lib/file/rumors.txt:58` [line] Brand's sword, Werewindle, probably knows more than just one trick.
+- [ ] `lib/file/rumors.txt:59` [line] They say that Scrolls of *Curse Weapon* can create powerful cursed artifacts.
+- [ ] `lib/file/rumors.txt:60` [line] They say that the Chainsword makes monsters mad with its awful noise!
+- [ ] `lib/file/rumors.txt:61` [line] They say that Ringil shines so brightly that it makes monsters angry.
+- [ ] `lib/file/rumors.txt:62` [line] Orcs are mortally afraid of weapons that can slay them.
+- [ ] `lib/file/rumors.txt:63` [line] There is a way to turn a Ring of Speed (-20) into a Ring of Speed (+20).
+- [ ] `lib/file/rumors.txt:64` [line] There is no way to turn a Ring of Speed (-20) into a Ring of Speed (+20).
+- [ ] `lib/file/rumors.txt:65` [line] VECNA LIVES!!!
+- [ ] `lib/file/rumors.txt:66` [line] Cool guys can resist fire.
+- [ ] `lib/file/rumors.txt:67` [line] They say that death incarnate wears heavy metal boots...
+- [ ] `lib/file/rumors.txt:68` [line] You feel the Longsword (t) you are carrying in your backpack is special...
+- [ ] `lib/file/rumors.txt:69` [line] If you start seeing red monsters, you have probably gained infravision.
+- [ ] `lib/file/rumors.txt:70` [line] They say that the dungeon is deeper than the Abyss.
+- [ ] `lib/file/rumors.txt:71` [line] When all else fails, read the instructions.
+- [ ] `lib/file/rumors.txt:72` [line] No poison is immediately deadly.
+- [ ] `lib/file/rumors.txt:73` [line] I have seen a Ring of Speed (+50) in the Black Market!
+- [ ] `lib/file/rumors.txt:74` [line] Telepathy works like a two-way door.
+- [ ] `lib/file/rumors.txt:75` [line] Elvish waybread might negate the effects of poison.
+- [ ] `lib/file/rumors.txt:76` [line] Once uncursed, Calris will become a deadly weapon.
+- [ ] `lib/file/rumors.txt:77` [line] If there's a stairway to hell, there must also be a stairway to heaven.
+- [ ] `lib/file/rumors.txt:78` [line] You feel your luck is turning...
+- [ ] `lib/file/rumors.txt:79` [line] If you thought Death swords were bad, wait until you meet Killer katanas!
+- [ ] `lib/file/rumors.txt:80` [line] Overeating can be bad for your health if there are others nearby.
+- [ ] `lib/file/rumors.txt:81` [line] Cave dwellers are accustomed to darkness and rarely enjoy bright light.
+- [ ] `lib/file/rumors.txt:82` [line] A creature made of stone can be slain by a spell that turns stone to mud.
+- [ ] `lib/file/rumors.txt:83` [line] It is often a good idea to throw items that you don't want to eat or drink.
+- [ ] `lib/file/rumors.txt:84` [line] The faster you run the more food you will burn.
+- [ ] `lib/file/rumors.txt:85` [line] Invisible monsters will often expose themselves if you drop items around you.
+- [ ] `lib/file/rumors.txt:86` [line] They say that the key to killing tougher monsters is called "hit&run".
+- [ ] `lib/file/rumors.txt:87` [line] They say that there is no such thing as free advice.
+- [ ] `lib/file/rumors.txt:88` [line] Wearing an Amulet of Doom will take you into the Dungeons of Doom.
+- [ ] `lib/file/rumors.txt:89` [line] You can often wrest one last charge from an empty wand if you try hard enough.
+- [ ] `lib/file/rumors.txt:90` [line] Wands may recharge themselves if you leave them on the floor long enough.
+- [ ] `lib/file/rumors.txt:91` [line] There is more than one way to deal with a locked door.
+- [ ] `lib/file/rumors.txt:92` [line] Afraid of your valuables getting stolen? Carry more junk!
+- [ ] `lib/file/rumors.txt:93` [line] Afraid of your money getting stolen? Invest it!
+- [ ] `lib/file/rumors.txt:94` [line] If you hear something smash into splinters, you had better watch out.
+- [ ] `lib/file/rumors.txt:95` [line] They say that you had better leave Greater hell-beasts alone.
+- [ ] `lib/file/rumors.txt:96` [line] Selling unidentified potions to shopkeepers might be safer than quaffing them.
+- [ ] `lib/file/rumors.txt:97` [line] Always look out for trapdoors on "special" feeling levels!
+- [ ] `lib/file/rumors.txt:98` [line] There is a way to max out your stats with Potions of Charisma & Nexus.
+- [ ] `lib/file/rumors.txt:99` [line] Unique opponents will recover their health faster than other creatures.
+- [ ] `lib/file/rumors.txt:100` [line] "So when I die, the first thing I will see in heaven is a score list?"
+- [ ] `lib/file/rumors.txt:101` [line] You're going into the morgue at midnight?
+- [ ] `lib/file/rumors.txt:102` [line] How dare you! I will not buy that!
+- [ ] `lib/file/rumors.txt:103` [line] A Potion of Detonations is also known as nitroglycerin...
+- [ ] `lib/file/rumors.txt:104` [line] Operation OVERKILL has started now.
+- [ ] `lib/file/rumors.txt:105` [line] There is a trap on this level!
+- [ ] `lib/file/rumors.txt:106` [line] A weapon of Undead Slaying has all you need to kill a ghost.
+- [ ] `lib/file/rumors.txt:107` [line] A weapon of Dragon Slaying may give you resistance to a dragon's breath attack.
+- [ ] `lib/file/rumors.txt:108` [line] They say that only a Warrior will want to wear the Terror Mask.
+- [ ] `lib/file/rumors.txt:109` [line] All that is shall come to an end - a dark day dawns for the gods.
+- [ ] `lib/file/rumors.txt:110` [line] The One Ring is powerful, but will eventually destroy its owner.
+- [ ] `lib/file/rumors.txt:111` [line] Having troubles with summoners? Door Creation is your friend!
+- [ ] `lib/file/rumors.txt:112` [line] Stairway Creation may be slower than Teleport Level, but safer...
+- [ ] `lib/file/rumors.txt:113` [line] Wands of Heal Monster are useful! Hint: ball spell, @....moo(o)ooo
+- [ ] `lib/file/rumors.txt:114` [line] Guaranteed heal self - scenario: o'@, type c4c4c4c4
+- [ ] `lib/file/rumors.txt:115` [line] If it can't see you, it can't hurt you!
+- [ ] `lib/file/rumors.txt:116` [line] If it can't see you, you might still be able to hurt it...
+- [ ] `lib/file/rumors.txt:117` [line] I love you, you love me, we are a happy family!
+- [ ] `lib/file/rumors.txt:118` [line] No animal is interested in sex if it is mortally scared.
+- [ ] `lib/file/rumors.txt:119` [line] The butler did it.
+- [ ] `lib/file/rumors.txt:120` [line] The butler is innocent.
+- [ ] `lib/file/rumors.txt:121` [line] There is a plenty of Longswords around 1000'.
+- [ ] `lib/file/rumors.txt:122` [line] Groo is your worst nightmare.
+- [ ] `lib/file/rumors.txt:123` [line] Freddy Krueger is your worst nightmare.
+- [ ] `lib/file/rumors.txt:124` [line] Groo is an idiot! Groo is a dolt! He is a fool! He has no mind!
+- [ ] `lib/file/rumors.txt:125` [line] There are often stairways in graveyards: bad people are carried to hell...
+- [ ] `lib/file/rumors.txt:126` [line] Only a god of Thunder could ride a lightning bolt!
+- [ ] `lib/file/rumors.txt:127` [line] When the day of Ragnarok comes, Surtur will set the world afire...
+- [ ] `lib/file/rumors.txt:128` [line] Surtur's accursed sword, Twilight, burns with everlasting fire.
+- [ ] `lib/file/rumors.txt:129` [line] Groo may be as dumb as an amoeba, but he knows a good sword when he sees one.
+- [ ] `lib/file/rumors.txt:130` [line] Weapons of Flame will light your way.
+- [ ] `lib/file/rumors.txt:131` [line] Want to invest some money? Contact $crooge McDuck, 1300'.
+- [ ] `lib/file/rumors.txt:132` [line] Need a loan? Contact $crooge McDuck, 1300'.
+- [ ] `lib/file/rumors.txt:133` [line] They say that the gods get angry if you pray too much.
+- [ ] `lib/file/rumors.txt:134` [line] For any remedy there is a misery.
+- [ ] `lib/file/rumors.txt:135` [line] Poison will kill you slowly.
+- [ ] `lib/file/rumors.txt:136` [line] Didn't you forget to pay?
+- [ ] `lib/file/rumors.txt:137` [line] Death is just life's way of telling you you've been fired.
+- [ ] `lib/file/rumors.txt:138` [line] They say that nobody can defeat his own ghost.
+- [ ] `lib/file/rumors.txt:139` [line] A greedy genocide can be a fatal mistake, especially if you are low on hits.
+- [ ] `lib/file/rumors.txt:140` [line] PLEASE ignore the previous rumor.
+- [ ] `lib/file/rumors.txt:141` [line] There are scrolls that can be read only by mages.
+- [ ] `lib/file/rumors.txt:142` [line] Some undead opponents will come back if defeated, more powerful than before!
+- [ ] `lib/file/rumors.txt:143` [line] The answer is 42.
+- [ ] `lib/file/rumors.txt:144` [line] Your mother wears army boots!
+- [ ] `lib/file/rumors.txt:145` [line] One level further down somebody is getting killed, right now.
+- [ ] `lib/file/rumors.txt:146` [line] Meet me at 1900' if you are a man.
+- [ ] `lib/file/rumors.txt:147` [line] Bashing a creature may sometimes stun it.
+- [ ] `lib/file/rumors.txt:148` [line] And now, Groo does what Groo does best!
+- [ ] `lib/file/rumors.txt:149` [line] One Ring to rule them all, One Ring to find them.
+- [ ] `lib/file/rumors.txt:150` [line] One Ring to bring them all and in the darkness bind them.
+- [ ] `lib/file/rumors.txt:151` [line] Three Rings for the Elven-kings under the sky...
+- [ ] `lib/file/rumors.txt:152` [line] Never carry a Potion of Detonations if there is a fire trap nearby!
+- [ ] `lib/file/rumors.txt:153` [line] Laugh to scorn the power of man, for none of woman born shall harm thee!
+- [ ] `lib/file/rumors.txt:154` [line] All hail thee that shalt be king hereafter!
+- [ ] `lib/file/rumors.txt:155` [line] He who laughs at Groo's brains will find there is nothing to laugh about.
+- [ ] `lib/file/rumors.txt:156` [line] A wise man always speaks too soon...
+- [ ] `lib/file/rumors.txt:157` [line] Let us not dwell on possible bad fortunes!
+- [ ] `lib/file/rumors.txt:158` [line] Appearance is only the frosting, not the cake!
+- [ ] `lib/file/rumors.txt:159` [line] A feeling of Death flows through your body.
+- [ ] `lib/file/rumors.txt:160` [line] Violence is no solution.
+- [ ] `lib/file/rumors.txt:161` [line] Boots of Speed (+50) are no myth!
+- [ ] `lib/file/rumors.txt:162` [line] You will need to Restore the Constitution if the Anarchists strike.
+- [ ] `lib/file/rumors.txt:163` [line] Drain you of your sanity: Face the Thing That Should Not Be!
+- [ ] `lib/file/rumors.txt:164` [line] Since by curse it came to me, accursed be this Ring!
+- [ ] `lib/file/rumors.txt:165` [line] Each shall itch to possess the Ring, but none in it shall find pleasure!
+- [ ] `lib/file/rumors.txt:166` [line] I know whatever was; whatever is, whatever shall be.
+- [ ] `lib/file/rumors.txt:167` [line] Barney MUST die!!!
+- [ ] `lib/file/rumors.txt:168` [line] Pudpadnoy Tooboothokoot is possessed by a demon known only as "It".
+- [ ] `lib/file/rumors.txt:169` [line] They say that the One Ring has a very special curse.
+- [ ] `lib/file/rumors.txt:170` [line] They say that alcohol is bad for your health.
+- [ ] `lib/file/rumors.txt:171` [line] What if you DON'T give a name to the artifact you create..?
+- [ ] `lib/file/rumors.txt:172` [line] They say that ancient battlefields are often haunted.
+- [ ] `lib/file/rumors.txt:173` [line] Beware of pits that fill the whole level!
+- [ ] `lib/file/rumors.txt:174` [line] Liar! I have not the gold!
+- [ ] `lib/file/rumors.txt:175` [line] They say that the true name of wall monsters is 177.
+- [ ] `lib/file/rumors.txt:176` [line] Never mind the Phial of Galadriel - the Phial of the Gods kicks its butt!
+- [ ] `lib/file/rumors.txt:177` [line] A Ring of Speed? Phooey! Try looking for a Ring of *Speed*!
+- [ ] `lib/file/rumors.txt:178` [line] Thisss cccity isss guilty... the crime isss life... the ssentence isss DEATH!
+- [ ] `lib/file/rumors.txt:179` [line] If you hear heavy steps - watch out!
+- [ ] `lib/file/rumors.txt:180` [line] A visit to the Zoo is educational: you meet many strange animals.
+- [ ] `lib/file/rumors.txt:181` [line] What happens if you wear a Ring of Extra Ring Fingers (-2) {cursed}?
+- [ ] `lib/file/rumors.txt:182` [line] Oremor nhoj em llik tsum uoy emag siht niw ot.
+- [ ] `lib/file/rumors.txt:183` [line] If I cancel tomorrow the undead will thank me today.
+- [ ] `lib/file/rumors.txt:184` [line] Hellfire will burn your soul...
+- [ ] `lib/file/rumors.txt:185` [line] Call the Void needs a lot of room to cast...
+- [ ] `lib/file/rumors.txt:186` [line] Why doesn't Detect Monsters show invisible monsters? 'Cos you can't see 'em!
+- [ ] `lib/file/rumors.txt:187` [line] I'll tell you the truth, son: your soul's gonna burn in a lake of fire!
+- [ ] `lib/file/rumors.txt:188` [line] There is a rare spellbook called [M$ PowerFools] {cursed}
+- [ ] `lib/file/rumors.txt:189` [line] *** LOW HITPOINT WARNING! ***
+- [ ] `lib/file/rumors.txt:190` [line] You cruelly stab the helpless, sleeping Software bug!
+- [ ] `lib/file/rumors.txt:191` [line] Slab: Jus' say AarrghaarrghpleeassennononoUGH.
+- [ ] `lib/file/rumors.txt:192` [line] You feel the Windows (95) on your hard disk is broken...
+- [ ] `lib/file/rumors.txt:193` [line] Spirit, hatch that painted spirit of the lamb sparrow.
+- [ ] `lib/file/rumors.txt:194` [line] Gone insane from the pain that sure they know: for who the flange sound?
+- [ ] `lib/file/rumors.txt:195` [line] With time the child dissipates within, this blinking boy made badly.
+- [ ] `lib/file/rumors.txt:196` [line] Not to be never, never not to see, so as to dub the thee unforgiven.
+- [ ] `lib/file/rumors.txt:197` [line] Soon in order to fill up our lungs: the warmth of twenty dead women.
+- [ ] `lib/file/rumors.txt:198` [line] The eternal death of eons of the foreigner of the lie can die not absolutely.
+- [ ] `lib/file/rumors.txt:199` [line] Drain you of your sanity: in front do the thing that does not have to be.
+- [ ] `lib/file/rumors.txt:200` [line] The opinion you had were salt expresses.
+- [ ] `lib/file/rumors.txt:201` [line] They say that the dark mists of Morgoth can both bestow and remove the curse.

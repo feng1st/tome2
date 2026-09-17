@@ -1,0 +1,50 @@
+# 数据清单：lib/help/c_pr_eru.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_pr_eru.txt:1` [line] |||||oy
+- [ ] `lib/help/c_pr_eru.txt:2` [line] ~~~~~01|Priest - Eru
+- [ ] `lib/help/c_pr_eru.txt:3` [line] ~~~~~02|Classes|Priest - Eru
+- [ ] `lib/help/c_pr_eru.txt:4` [line] ~~~~~03|Eru|Priest - Eru
+- [ ] `lib/help/c_pr_eru.txt:5` [line] #####R=== Eru's Priests ===
+- [ ] `lib/help/c_pr_eru.txt:7` [line] #####GDescription
+- [ ] `lib/help/c_pr_eru.txt:8` [line] *****g_eru.txt*0[Eru] is the father of the Valar: he created the world and all its inhabitants. He is the wisest being ever and even if he foresaw Morgoth's 
+- [ ] `lib/help/c_pr_eru.txt:9` [line] evil, his role was that of the creator; as such, he chose not to destroy 
+- [ ] `lib/help/c_pr_eru.txt:10` [line] anything on Arda.
+- [ ] `lib/help/c_pr_eru.txt:12` [line] His priests are therefore expected to avoid all forms of bloodshed (so they
+- [ ] `lib/help/c_pr_eru.txt:13` [line] can only use blunt weapons without penalty); however, Eru knows that sometimes
+- [ ] `lib/help/c_pr_eru.txt:14` [line] destruction is unavoidable and marks a blade with his rune; his priests call
+- [ ] `lib/help/c_pr_eru.txt:15` [line] them Blessed and use them without feeling guilty, for they know that divine
+- [ ] `lib/help/c_pr_eru.txt:16` [line] wisdom will guide every swing of those weapons.
+- [ ] `lib/help/c_pr_eru.txt:18` [line] Still, a priest serving Eru will find that his true strength lies in knowledge
+- [ ] `lib/help/c_pr_eru.txt:19` [line] and in the use of the force of Mana to avoid close contact with evil beings,
+- [ ] `lib/help/c_pr_eru.txt:20` [line] rather than in blind assault of Morgoth's hordes.
+- [ ] `lib/help/c_pr_eru.txt:22` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_pr_eru.txt:23` [line] Strength         -1
+- [ ] `lib/help/c_pr_eru.txt:24` [line] Intelligence     -3
+- [ ] `lib/help/c_pr_eru.txt:25` [line] Wisdom           +3
+- [ ] `lib/help/c_pr_eru.txt:26` [line] Dexterity        -1
+- [ ] `lib/help/c_pr_eru.txt:27` [line] Constitution     +0
+- [ ] `lib/help/c_pr_eru.txt:28` [line] Charisma         +2
+- [ ] `lib/help/c_pr_eru.txt:29` [line] Hit Die          +d2
+- [ ] `lib/help/c_pr_eru.txt:30` [line] Spell Points     +0%
+- [ ] `lib/help/c_pr_eru.txt:31` [line] Exp Penalty      20%
+- [ ] `lib/help/c_pr_eru.txt:33` [line] #####GStarting Skills:
+- [ ] `lib/help/c_pr_eru.txt:34` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_pr_eru.txt:35` [line] Combat                  2.000           [0.700]
+- [ ] `lib/help/c_pr_eru.txt:36` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_pr_eru.txt:37` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_pr_eru.txt:38` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_pr_eru.txt:39` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_pr_eru.txt:40` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_pr_eru.txt:41` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_pr_eru.txt:42` [line]   Spell-power           0.000           [0.700]
+- [ ] `lib/help/c_pr_eru.txt:43` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_pr_eru.txt:44` [line]   Prayer                1.000           [1.500]
+- [ ] `lib/help/c_pr_eru.txt:45` [line]   Mindcraft             0.000           [0.600]
+- [ ] `lib/help/c_pr_eru.txt:46` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_pr_eru.txt:48` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_pr_eru.txt:49` [line] #####BAbility              Character level
+- [ ] `lib/help/c_pr_eru.txt:50` [line] Perfect casting             1
+- [ ] `lib/help/c_pr_eru.txt:52` [line] #####GStarting Equipment
+- [ ] `lib/help/c_pr_eru.txt:53` [line] A Priest serving Eru begins the game with:
+- [ ] `lib/help/c_pr_eru.txt:54` [line]     a Spellbook of See the Music
+- [ ] `lib/help/c_pr_eru.txt:55` [line]     a Mace

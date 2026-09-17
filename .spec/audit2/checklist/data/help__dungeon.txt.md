@@ -1,0 +1,589 @@
+# 数据清单：lib/help/dungeon.txt（text，逐条/逐行）
+
+- [ ] `lib/help/dungeon.txt:1` [line] |||||oy
+- [ ] `lib/help/dungeon.txt:2` [line] ~~~~~02|Dungeons
+- [ ] `lib/help/dungeon.txt:3` [line] #####R             /----------------------------------------\
+- [ ] `lib/help/dungeon.txt:4` [line] #####R            < The Dungeons and Places of Middle-earth  >
+- [ ] `lib/help/dungeon.txt:5` [line] #####R             \----------------------------------------/
+- [ ] `lib/help/dungeon.txt:7` [line]      *****dungeon.txt*04[Symbols On Your Map]           *****dungeon.txt*07[The Town and Buildings]
+- [ ] `lib/help/dungeon.txt:8` [line]      *****dungeon.txt*01[The Wilderness]                *****dungeon.txt*06[In the Dungeon]
+- [ ] `lib/help/dungeon.txt:9` [line]      *****dungeon.txt*08[Objects]                       *****dungeon.txt*13[Mining]
+- [ ] `lib/help/dungeon.txt:10` [line]      *****dungeon.txt*12[Doors, Rooms, Staircases etc.] *****dungeon.txt*18[Pets]
+- [ ] `lib/help/dungeon.txt:11` [line]      *****dungeon.txt*14[Winning]                       *****dungeon.txt*15[Dying]
+- [ ] `lib/help/dungeon.txt:12` [line]      *****dungeon.txt*16[Where to get more help]
+- [ ] `lib/help/dungeon.txt:14` [line] After you have *****birth.txt*0[created your character], you will begin your ToME
+- [ ] `lib/help/dungeon.txt:15` [line] adventure. Symbols appearing on your screen will represent the world's
+- [ ] `lib/help/dungeon.txt:16` [line] walls, floor, objects, features, and creatures lurking about.  In order
+- [ ] `lib/help/dungeon.txt:17` [line] to direct your character through his adventure, you will enter single
+- [ ] `lib/help/dungeon.txt:18` [line] character commands (see "*****command.txt*0[command.txt]").
+- [ ] `lib/help/dungeon.txt:20` [line] ~~~~~03|Symbols
+- [ ] `lib/help/dungeon.txt:21` [line] ~~~~~04|Identifying features
+- [ ] `lib/help/dungeon.txt:22` [line] #####R=== Symbols On Your Map ===
+- [ ] `lib/help/dungeon.txt:24` [line] Symbols on your map can be broken down into three categories: Features of
+- [ ] `lib/help/dungeon.txt:25` [line] the world such as walls, floor, doors, and traps; Objects which can be
+- [ ] `lib/help/dungeon.txt:26` [line] picked up such as treasure, weapons, magical devices, etc; and creatures
+- [ ] `lib/help/dungeon.txt:27` [line] which may or may not move about the dungeon, but are mostly harmful to your
+- [ ] `lib/help/dungeon.txt:28` [line] character's well being.
+- [ ] `lib/help/dungeon.txt:30` [line] Some symbols are used to represent more than one type of entity, and some
+- [ ] `lib/help/dungeon.txt:31` [line] symbols are used to represent entities in more than one category.  The "@"
+- [ ] `lib/help/dungeon.txt:32` [line] symbol (by default) is used to represent the character.
+- [ ] `lib/help/dungeon.txt:34` [line] It will not be necessary to remember all of the symbols and their meanings.
+- [ ] `lib/help/dungeon.txt:35` [line] The "slash" command ("/") will identify any character appearing on your map
+- [ ] `lib/help/dungeon.txt:36` [line] (see "*****command.txt*0[command.txt]").
+- [ ] `lib/help/dungeon.txt:38` [line] Note that you can use a *****command.txt*105["user pref file"] to change any of these symbols to
+- [ ] `lib/help/dungeon.txt:39` [line] something you are more comfortable with.
+- [ ] `lib/help/dungeon.txt:42` [line] #####G                Features that do not block line of sight
+- [ ] `lib/help/dungeon.txt:44` [line]   .   A floor space                   1   Entrance to General Store
+- [ ] `lib/help/dungeon.txt:45` [line]   .   A trap (hidden)                 2   Entrance to Armoury
+- [ ] `lib/help/dungeon.txt:46` [line]   ^   A trap (known)                  3   Entrance to Weapon Smith
+- [ ] `lib/help/dungeon.txt:47` [line]   [[[[[y;]   A glyph of warding              4   Entrance to Temple
+- [ ] `lib/help/dungeon.txt:48` [line]   [[[[[U']   An open door                    5   Entrance to Alchemy Shop
+- [ ] `lib/help/dungeon.txt:49` [line]   [[[[[U']   A broken door                   6   Entrance to Magic Shop
+- [ ] `lib/help/dungeon.txt:50` [line]   <   A staircase up                  7   Entrance to the Black Market
+- [ ] `lib/help/dungeon.txt:51` [line]   [[[[[y<]   A quest exit                    8   Entrance to your Home
+- [ ] `lib/help/dungeon.txt:52` [line]   [[[[[r<]   A quest up level                9   Entrance to Bookstore
+- [ ] `lib/help/dungeon.txt:53` [line]   [[[[[U<]   A shaft up                      [[[[[r>]   A quest down level
+- [ ] `lib/help/dungeon.txt:54` [line]   >   A staircase down                [[[[[U>]   A shaft down
+- [ ] `lib/help/dungeon.txt:55` [line]   [[[[[y>]   A quest entrance                [[[[[v>]   Dungeon entrance
+- [ ] `lib/help/dungeon.txt:56` [line]   _   A fountain                      [[[[[D_]   An empty fountain
+- [ ] `lib/help/dungeon.txt:57` [line]   *   Straight road start/exit        [[[[[B*]   Section of the Straight Road
+- [ ] `lib/help/dungeon.txt:58` [line]   [[[[[b*]   Section of the Straight Road    [[[[[W*]   Section of the Straight Road
+- [ ] `lib/help/dungeon.txt:59` [line]   [[[[[D*]   Corrupted straight road         [[[[[R*]   An explosive rune
+- [ ] `lib/help/dungeon.txt:60` [line]   [[[[[B~]   Stream of water (shallow)       [[[[[b~]   Stream of water (deep)
+- [ ] `lib/help/dungeon.txt:61` [line]   [[[[[u~]   Tainted stream (water)          [[[[[s#]   Underground tunnel
+- [ ] `lib/help/dungeon.txt:62` [line]   [[[[[U#]   Pool of lava (shallow)          [[[[[r#]   Pool of lava (deep)
+- [ ] `lib/help/dungeon.txt:63` [line]   [[[[[D#]   Dark pit                        [[[[[u.]   Dirt
+- [ ] `lib/help/dungeon.txt:64` [line]   [[[[[g.]   Patch of Grass                  [[[[[W.]   Ice
+- [ ] `lib/help/dungeon.txt:65` [line]   [[[[[y.]   Sand                            [[[[[D.]   Ash
+- [ ] `lib/help/dungeon.txt:66` [line]   [[[[[u.]   Mud                             [[[[[v.]   Nether mist
+- [ ] `lib/help/dungeon.txt:67` [line]   [[[[[r.]   Floor                           [[[[[D0]   Altar of Darkness               
+- [ ] `lib/help/dungeon.txt:68` [line]   [[[[[R0]   Altar of Force                  [[[[[B0]   Altar of Winds                  
+- [ ] `lib/help/dungeon.txt:69` [line]   [[[[[W0]   Altar of Being                  [[[[[v+]   Void Jumpgate
+- [ ] `lib/help/dungeon.txt:70` [line]   [[[[[v;]   Monster trap                    [[[[[B.]   Glass wall
+- [ ] `lib/help/dungeon.txt:71` [line]   [[[[[w#]   Illusion wall                   [[[[[g;]   Grass with flowers
+- [ ] `lib/help/dungeon.txt:72` [line]   [[[[[w.]   Cobblestone road                [[[[[g#]   Small tree
+- [ ] `lib/help/dungeon.txt:73` [line]   [[[[[w*]   Town (in wilderness)            [[[[[U^]   Underground tunnel
+- [ ] `lib/help/dungeon.txt:74` [line]   [[[[[y+]   A web
+- [ ] `lib/help/dungeon.txt:76` [line] #####G                   Features that block line of sight
+- [ ] `lib/help/dungeon.txt:78` [line]   [[[[[w#]   A secret door                   #   A wall
+- [ ] `lib/help/dungeon.txt:79` [line]   [[[[[U+]   A closed door                   %   A mineral vein
+- [ ] `lib/help/dungeon.txt:80` [line]   [[[[[U+]   A locked door                   [[[[[o*]   A mineral vein + treasure
+- [ ] `lib/help/dungeon.txt:81` [line]   [[[[[U+]   A jammed door                   [[[[[w:]   A pile of rubble
+- [ ] `lib/help/dungeon.txt:82` [line]   [[[[[D#]   A dead tree                     [[[[[W#]   Ice wall
+- [ ] `lib/help/dungeon.txt:83` [line]   [[[[[G#]   A tree                          [[[[[y#]   Sand wall
+- [ ] `lib/help/dungeon.txt:84` [line]   [[[[[U^]   A mountain chain                [[[[[W^]   High mountain chain
+- [ ] `lib/help/dungeon.txt:87` [line] #####G                             Objects
+- [ ] `lib/help/dungeon.txt:89` [line]   !   A potion (or flask)             /   A pole-arm
+- [ ] `lib/help/dungeon.txt:90` [line]   ?   A scroll, book, map, parchment  /   Music instrument
+- [ ] `lib/help/dungeon.txt:91` [line]   ?   A rune, runestone               |   An edged weapon
+- [ ] `lib/help/dungeon.txt:92` [line]   ,   A mushroom (or food)            \   A hafted weapon or digger
+- [ ] `lib/help/dungeon.txt:93` [line]   -   A wand, rod or rod tip          }   A sling, bow, or x-bow
+- [ ] `lib/help/dungeon.txt:94` [line]   _   A staff                         {   A shot, arrow, bolt, boomerang
+- [ ] `lib/help/dungeon.txt:95` [line]   =   A ring                          (   Soft armour/cloak
+- [ ] `lib/help/dungeon.txt:96` [line]   "   An amulet                       [   Hard armour
+- [ ] `lib/help/dungeon.txt:97` [line]   $   Gold or gems                    ]   Misc. armour
+- [ ] `lib/help/dungeon.txt:98` [line]   ~   Lites, Tools, Chests, etc       )   A shield
+- [ ] `lib/help/dungeon.txt:99` [line]   ~   Junk, Sticks, Skeletons, etc    `   Trapping kit, climbing set
+- [ ] `lib/help/dungeon.txt:100` [line]   ~   Stone, random artifact          o   Egg
+- [ ] `lib/help/dungeon.txt:101` [line]                                       &   (unused)
+- [ ] `lib/help/dungeon.txt:103` [line] ~~~~~05|Monsters
+- [ ] `lib/help/dungeon.txt:104` [line] #####G                             Monsters
+- [ ] `lib/help/dungeon.txt:106` [line]             $   Creeping Coins      ,   Mushroom Patch
+- [ ] `lib/help/dungeon.txt:107` [line]             a   Giant Ant           A   Angelic being
+- [ ] `lib/help/dungeon.txt:108` [line]             b   Giant Bat           B   Bird
+- [ ] `lib/help/dungeon.txt:109` [line]             c   Giant Centipede     C   Canine
+- [ ] `lib/help/dungeon.txt:110` [line]             d   Dragon              D   Ancient Dragon
+- [ ] `lib/help/dungeon.txt:111` [line]             e   Floating Eye        E   Elemental
+- [ ] `lib/help/dungeon.txt:112` [line]             f   Feline              F   Dragon Fly
+- [ ] `lib/help/dungeon.txt:113` [line]             g   Golem               G   Ghost
+- [ ] `lib/help/dungeon.txt:114` [line]             h   Humanoids           H   Hybrid
+- [ ] `lib/help/dungeon.txt:115` [line]             i   Icky-Thing          I   Insect
+- [ ] `lib/help/dungeon.txt:116` [line]             j   Jelly               J   Snake
+- [ ] `lib/help/dungeon.txt:117` [line]             k   Kobold              K   Killer Beetle
+- [ ] `lib/help/dungeon.txt:118` [line]             l   Giant Louse         L   Lich
+- [ ] `lib/help/dungeon.txt:119` [line]             m   Mold                M   Multi-Headed Hydra
+- [ ] `lib/help/dungeon.txt:120` [line]             n   Naga                N   (unused)
+- [ ] `lib/help/dungeon.txt:121` [line]             o   Orc                 O   Ogre
+- [ ] `lib/help/dungeon.txt:122` [line]             p   Human               P   Giant Human(oid)
+- [ ] `lib/help/dungeon.txt:123` [line]             q   Quadruped           Q   Quylthulg
+- [ ] `lib/help/dungeon.txt:124` [line]             r   Rodent              R   Reptile/Amphibian
+- [ ] `lib/help/dungeon.txt:125` [line]             s   Skeleton            S   Spider/Scorpion/Tick
+- [ ] `lib/help/dungeon.txt:126` [line]             t   Townsperson         T   Troll
+- [ ] `lib/help/dungeon.txt:127` [line]             u   Minor demon         U   Major demon
+- [ ] `lib/help/dungeon.txt:128` [line]             v   Vortex              V   Vampire
+- [ ] `lib/help/dungeon.txt:129` [line]             w   Worm or Worm Mass   W   Wight/Wraith
+- [ ] `lib/help/dungeon.txt:130` [line]             x   (unused)            X   Xorn/Xaren
+- [ ] `lib/help/dungeon.txt:131` [line]             y   Yeek                Y   Yeti
+- [ ] `lib/help/dungeon.txt:132` [line]             z   Zombie/Mummy        Z   Zephyr Hound
+- [ ] `lib/help/dungeon.txt:135` [line] ~~~~~07|Town
+- [ ] `lib/help/dungeon.txt:136` [line] #####R=== The Town Level ===
+- [ ] `lib/help/dungeon.txt:138` [line] The town level is where you will begin your adventure. The town consists of
+- [ ] `lib/help/dungeon.txt:139` [line] several buildings (most with an entrance), some townspeople, and a main wall 
+- [ ] `lib/help/dungeon.txt:140` [line] which surrounds the town (with gates in it). Outside the gates may be found 
+- [ ] `lib/help/dungeon.txt:141` [line] unclaimed lands and wilderness, where beasts still run wild. The first time 
+- [ ] `lib/help/dungeon.txt:142` [line] you are in town it will be daytime (unless you are an undead character), but
+- [ ] `lib/help/dungeon.txt:143` [line] note that the sun will rise and set (rather instantly) as time passes.
+- [ ] `lib/help/dungeon.txt:145` [line] There are a few different towns around the world map, and your starting town
+- [ ] `lib/help/dungeon.txt:146` [line] will eventually become too small for you (if you survive the dangers of the
+- [ ] `lib/help/dungeon.txt:147` [line] dungeon). Other towns will have some different facilities, and you can find 
+- [ ] `lib/help/dungeon.txt:148` [line] your way to other towns by reading the "Adventurer's Guide to Middle-earth" 
+- [ ] `lib/help/dungeon.txt:149` [line] parchment with which *every* character begins the game.
+- [ ] `lib/help/dungeon.txt:152` [line] #####R=== Townspeople ===
+- [ ] `lib/help/dungeon.txt:154` [line] The town contains many different kinds of people. There are the street
+- [ ] `lib/help/dungeon.txt:155` [line] urchins, young children who will mob an adventurer for money, and seem to
+- [ ] `lib/help/dungeon.txt:156` [line] come out of the woodwork when excited. Blubbering idiots are a constant
+- [ ] `lib/help/dungeon.txt:157` [line] annoyance, but not harmful. Public drunks wander about the town singing,
+- [ ] `lib/help/dungeon.txt:158` [line] and are of no threat to anyone. Sneaky rogues who work for the black
+- [ ] `lib/help/dungeon.txt:159` [line] market are always greedily eyeing your backpack for potential new
+- [ ] `lib/help/dungeon.txt:160` [line] 'purchases'...  And finally, what town would be complete without a
+- [ ] `lib/help/dungeon.txt:161` [line] swarm of half drunk warriors, who take offense or become annoyed just for
+- [ ] `lib/help/dungeon.txt:162` [line] the fun of it.
+- [ ] `lib/help/dungeon.txt:164` [line] Most of the townspeople should be avoided by the largest possible distance
+- [ ] `lib/help/dungeon.txt:165` [line] when you wander from store to store. Fights will break out, though, so be
+- [ ] `lib/help/dungeon.txt:166` [line] prepared. Since your character grew up in this world of intrigue, no
+- [ ] `lib/help/dungeon.txt:167` [line] experience is awarded for killing the town inhabitants, though you may
+- [ ] `lib/help/dungeon.txt:168` [line] acquire treasure.
+- [ ] `lib/help/dungeon.txt:170` [line] ~~~~~21|Buildings
+- [ ] `lib/help/dungeon.txt:171` [line] #####R=== Town Buildings ===
+- [ ] `lib/help/dungeon.txt:173` [line] Your character will begin his adventure with some basic supplies, and some
+- [ ] `lib/help/dungeon.txt:174` [line] extra gold with which to purchase more supplies at the town stores.
+- [ ] `lib/help/dungeon.txt:176` [line] You may enter any open store and barter with the owner for items you can
+- [ ] `lib/help/dungeon.txt:177` [line] afford. When bartering, you enter prices you will pay (or accept) for some
+- [ ] `lib/help/dungeon.txt:178` [line] object. You can either enter the absolute amount, or precede a number with
+- [ ] `lib/help/dungeon.txt:179` [line] a plus or minus sign to give a positive or negative increment on your
+- [ ] `lib/help/dungeon.txt:180` [line] previous offer. But be warned that the owners can easily be insulted, and
+- [ ] `lib/help/dungeon.txt:181` [line] may even throw you out for a while if you insult them too often. [[[[[BTo enter]
+- [ ] `lib/help/dungeon.txt:182` [line] [[[[[Ba store, simply move onto the entrance, which is represented by a number]
+- [ ] `lib/help/dungeon.txt:183` [line] [[[[[Bfrom 1 to 9.]
+- [ ] `lib/help/dungeon.txt:185` [line] If you consistently bargain well in a store, that is, you reach the final
+- [ ] `lib/help/dungeon.txt:186` [line] offer much more often than not, then the store owner will eventually
+- [ ] `lib/help/dungeon.txt:187` [line] recognise that you are a superb haggler, and will go directly to the final
+- [ ] `lib/help/dungeon.txt:188` [line] offer instead of haggling with you. Items which cost less than 10 gold
+- [ ] `lib/help/dungeon.txt:189` [line] pieces do not count, as haggling well with these items is usually either
+- [ ] `lib/help/dungeon.txt:190` [line] very easy or almost impossible. The more expensive the item is, the less
+- [ ] `lib/help/dungeon.txt:191` [line] likely the store owner is to assume that you are a good haggler. Note that
+- [ ] `lib/help/dungeon.txt:192` [line] you may disable haggling with a software option, though this will inflict a
+- [ ] `lib/help/dungeon.txt:193` [line] 10% "sales tax" on all purchases for which the store owner would have
+- [ ] `lib/help/dungeon.txt:194` [line] required you to haggle.
+- [ ] `lib/help/dungeon.txt:196` [line] Once inside a store, you will see the name and race of the store owner, the
+- [ ] `lib/help/dungeon.txt:197` [line] name of the store, the maximum amount of cash that the store owner will pay
+- [ ] `lib/help/dungeon.txt:198` [line] for any one item, and the store inventory, listed along with tentative
+- [ ] `lib/help/dungeon.txt:199` [line] prices, which will become "fixed" (at the "final offer") should you ever
+- [ ] `lib/help/dungeon.txt:200` [line] manage to haggle a store owner down to his final offer.
+- [ ] `lib/help/dungeon.txt:202` [line] You will also see an (incomplete) list of available commands. Note that
+- [ ] `lib/help/dungeon.txt:203` [line] many of the commands which work in the dungeon work in the stores as well,
+- [ ] `lib/help/dungeon.txt:204` [line] but some do not, especially those which involve "using" objects.
+- [ ] `lib/help/dungeon.txt:206` [line] Stores do not always have everything in stock. As the game progresses, they
+- [ ] `lib/help/dungeon.txt:207` [line] may get new items, so check back from time to time. Also, if you sell them
+- [ ] `lib/help/dungeon.txt:208` [line] an item, it may get sold to a customer while you are adventuring, so don't
+- [ ] `lib/help/dungeon.txt:209` [line] always expect to be able to get back everything you have sold.  If you have
+- [ ] `lib/help/dungeon.txt:210` [line] a lot of spare gold, you can purchase every item in a store, which will
+- [ ] `lib/help/dungeon.txt:211` [line] induce the store owner to bring out new stock, and perhaps even retire.  If
+- [ ] `lib/help/dungeon.txt:212` [line] you are low on funds (and morals), you may attempt to steal an item from
+- [ ] `lib/help/dungeon.txt:213` [line] the store, but beware -- if you are caught, the store owner will not let you
+- [ ] `lib/help/dungeon.txt:214` [line] back in for a very long time.
+- [ ] `lib/help/dungeon.txt:216` [line] Store owners will not buy harmful or useless items. If an object is
+- [ ] `lib/help/dungeon.txt:217` [line] unidentified, they will pay you some base price for it. Once they have
+- [ ] `lib/help/dungeon.txt:218` [line] bought it they will immediately identify the object. If it is a good object,
+- [ ] `lib/help/dungeon.txt:219` [line] they will add it to their inventory. If it was a bad bargain, they simply
+- [ ] `lib/help/dungeon.txt:220` [line] throw the item away. In any case, you may receive some knowledge of the
+- [ ] `lib/help/dungeon.txt:221` [line] item in case another is encountered.
+- [ ] `lib/help/dungeon.txt:223` [line] #####GThe General Store ("1")
+- [ ] `lib/help/dungeon.txt:224` [line]      The General Store sells foods, drinks, some clothing, torches, lamps,
+- [ ] `lib/help/dungeon.txt:225` [line]      oil, shovels, picks, and spikes. All of these items and some others
+- [ ] `lib/help/dungeon.txt:226` [line]      can be sold back to the General store for money.
+- [ ] `lib/help/dungeon.txt:228` [line] #####GThe Armoury ("2")
+- [ ] `lib/help/dungeon.txt:229` [line]      The Armoury is where the town's armour is fashioned. All sorts of
+- [ ] `lib/help/dungeon.txt:230` [line]      protective gear may be bought and sold here.
+- [ ] `lib/help/dungeon.txt:232` [line] #####GThe Weaponsmith's Shop ("3")
+- [ ] `lib/help/dungeon.txt:233` [line]      The Weaponsmith's Shop is where the town's weapons are fashioned. Hand
+- [ ] `lib/help/dungeon.txt:234` [line]      and missile weapons may be purchased and sold here, along with arrows,
+- [ ] `lib/help/dungeon.txt:235` [line]      bolts, and shots.
+- [ ] `lib/help/dungeon.txt:237` [line] #####GThe Temple ("4")
+- [ ] `lib/help/dungeon.txt:238` [line]      The Temple deals in healing and restoration potions, as well as bless
+- [ ] `lib/help/dungeon.txt:239` [line]      scrolls, word of recall scrolls, some approved priestly weapons, and 
+- [ ] `lib/help/dungeon.txt:240` [line]      priest spell books.
+- [ ] `lib/help/dungeon.txt:242` [line] #####GThe Alchemy shop ("5")
+- [ ] `lib/help/dungeon.txt:243` [line]      The Alchemy Shop deals in all types of potions and scrolls.
+- [ ] `lib/help/dungeon.txt:245` [line] #####GThe Magic User's Shop ("6")
+- [ ] `lib/help/dungeon.txt:246` [line]      The Magic User's Shop deals in all sorts of rings, wands, amulets, and
+- [ ] `lib/help/dungeon.txt:247` [line]      staves, as well as spell books.
+- [ ] `lib/help/dungeon.txt:249` [line] #####GThe Black Market ("7")
+- [ ] `lib/help/dungeon.txt:250` [line]      The Black Market will sell and buy anything at extortionate prices.
+- [ ] `lib/help/dungeon.txt:251` [line]      However it occasionally has VERY good items in it. The shopkeepers are
+- [ ] `lib/help/dungeon.txt:252` [line]      not known for their tolerance...
+- [ ] `lib/help/dungeon.txt:254` [line] #####GYour Home ("8")
+- [ ] `lib/help/dungeon.txt:255` [line]      This is your house where you can store objects that you cannot carry
+- [ ] `lib/help/dungeon.txt:256` [line]      on your travels, or will need at a later date.
+- [ ] `lib/help/dungeon.txt:258` [line] #####GThe Bookstore ("9")
+- [ ] `lib/help/dungeon.txt:259` [line]      The Bookstore deals in all sorts of magical books. You can purchase
+- [ ] `lib/help/dungeon.txt:260` [line]      and sell spellbooks for spellcasters and priests here.
+- [ ] `lib/help/dungeon.txt:263` [line] #####ROther Buildings
+- [ ] `lib/help/dungeon.txt:264` [line] In addition to the basic stores, there are some special buildings that can be
+- [ ] `lib/help/dungeon.txt:265` [line] found in some towns. These Buildings (represented by +'s) include:
+- [ ] `lib/help/dungeon.txt:267` [line] #####GMayor's Office/Castle
+- [ ] `lib/help/dungeon.txt:268` [line]      The home office for the town. Adventurers looking for work besides 
+- [ ] `lib/help/dungeon.txt:269` [line]      exploring the dungeon should hunt in here.
+- [ ] `lib/help/dungeon.txt:271` [line] #####GPet Shop
+- [ ] `lib/help/dungeon.txt:272` [line]      Great place to purchase eggs and get pets.
+- [ ] `lib/help/dungeon.txt:274` [line] #####GThe Soothsayer
+- [ ] `lib/help/dungeon.txt:275` [line]      To discover what *****/afatespoi.txt*0[fates ("a")] lie in store for you.
+- [ ] `lib/help/dungeon.txt:277` [line] #####GThe Prancing Pony
+- [ ] `lib/help/dungeon.txt:278` [line]      Wine, dine, rest and relax!
+- [ ] `lib/help/dungeon.txt:280` [line] #####GThe Nest
+- [ ] `lib/help/dungeon.txt:281` [line]      Thunderlords are masters of teleportation, and will consent to bear you 
+- [ ] `lib/help/dungeon.txt:282` [line]      to your chosen dungeon destination for a fee.
+- [ ] `lib/help/dungeon.txt:284` [line] #####GBeastmaster Shanty
+- [ ] `lib/help/dungeon.txt:285` [line]      For those who enjoy trophy hunting, and to research that strange animal 
+- [ ] `lib/help/dungeon.txt:286` [line]      you saw during your adventures. 
+- [ ] `lib/help/dungeon.txt:288` [line] #####GFighters Hall
+- [ ] `lib/help/dungeon.txt:289` [line]      The place to reforge weapons and armour.
+- [ ] `lib/help/dungeon.txt:291` [line] #####GRangers Guild
+- [ ] `lib/help/dungeon.txt:292` [line]      The place to reforge distance weapons and their ammunition.
+- [ ] `lib/help/dungeon.txt:294` [line] #####GLibrary
+- [ ] `lib/help/dungeon.txt:295` [line]      For information of all kinds.
+- [ ] `lib/help/dungeon.txt:297` [line] #####GGambling House
+- [ ] `lib/help/dungeon.txt:298` [line]      Read the *****/bgambling.txt*0[rules ("b")] before paying. The games are
+- [ ] `lib/help/dungeon.txt:299` [line]      not rigged, just naturally difficult.
+- [ ] `lib/help/dungeon.txt:301` [line] #####GTower of Magery/Wizards Spire
+- [ ] `lib/help/dungeon.txt:302` [line]      The wizards will identify your items or recharge your magical items for 
+- [ ] `lib/help/dungeon.txt:303` [line]      a fee.
+- [ ] `lib/help/dungeon.txt:305` [line] #####GInner temple/Priests Circle
+- [ ] `lib/help/dungeon.txt:306` [line]      A place of healing.
+- [ ] `lib/help/dungeon.txt:308` [line] #####GPaladin guild
+- [ ] `lib/help/dungeon.txt:309` [line]      Some healing and enchantments available.
+- [ ] `lib/help/dungeon.txt:311` [line] #####GThe Mathom House
+- [ ] `lib/help/dungeon.txt:312` [line]      Donate important, but unwanted items you find in the dungeon.
+- [ ] `lib/help/dungeon.txt:315` [line] ~~~~~1|Wilderness
+- [ ] `lib/help/dungeon.txt:316` [line] #####R=== The Wilderness and the Wilderness Map ===
+- [ ] `lib/help/dungeon.txt:318` [line] Between the towns, the hand of civilisation has not tamed the lands, and
+- [ ] `lib/help/dungeon.txt:319` [line] wild creatures run rampant. This is another place that is worth exploring.
+- [ ] `lib/help/dungeon.txt:320` [line] Hidden within the wilderness are several interesting locations, with the
+- [ ] `lib/help/dungeon.txt:321` [line] four main ones for any adventurer - Barrow Downs, Mirkwood, Mordor and 
+- [ ] `lib/help/dungeon.txt:322` [line] Angband each being located at or near one of the main towns of Middle- 
+- [ ] `lib/help/dungeon.txt:323` [line] earth. These locations should be explored consecutively, as each one 
+- [ ] `lib/help/dungeon.txt:324` [line] increases in difficulty from the point where the previous dungeon finished.
+- [ ] `lib/help/dungeon.txt:325` [line] A new character should not try to go at Mordor or Angband as their first 
+- [ ] `lib/help/dungeon.txt:326` [line] dungeon (well, not if you wish to survive your first step, anyway)! 
+- [ ] `lib/help/dungeon.txt:328` [line] As well as these (and other) locations, the wilderness can be a good place
+- [ ] `lib/help/dungeon.txt:329` [line] to go when you are seeking a change from the scenery of the dungeons, or just
+- [ ] `lib/help/dungeon.txt:330` [line] a bit of fast experience.
+- [ ] `lib/help/dungeon.txt:332` [line] Be warned - some creatures found in the wilderness can be quite dangerous, 
+- [ ] `lib/help/dungeon.txt:333` [line] and travel through the wilderness can be time-consuming. If you are wishing 
+- [ ] `lib/help/dungeon.txt:334` [line] to simply move to another town, there is an overview map (called the 
+- [ ] `lib/help/dungeon.txt:335` [line] "Wilderness Map") that can be travelled through by going up "<" from the 
+- [ ] `lib/help/dungeon.txt:336` [line] town level. While travelling through this map, your character is still having 
+- [ ] `lib/help/dungeon.txt:337` [line] to actually walk through each square of the normal view, but you only see the 
+- [ ] `lib/help/dungeon.txt:338` [line] end result of them moving from one 4x4 panel to the next. As such, food 
+- [ ] `lib/help/dungeon.txt:339` [line] consumption will appear to be much higher in the Wilderness View than it is 
+- [ ] `lib/help/dungeon.txt:340` [line] normally, and it is recommended that you travel prepared. It is also possible
+- [ ] `lib/help/dungeon.txt:341` [line] for the wild creatures within the wilderness to ambush you when travelling,
+- [ ] `lib/help/dungeon.txt:342` [line] which will force you out of the Wilderness Map so that you can safely get 
+- [ ] `lib/help/dungeon.txt:343` [line] yourself out of trouble, before continuing on your way.
+- [ ] `lib/help/dungeon.txt:345` [line] All of the special locations can be seen as downstairs (">") on the 
+- [ ] `lib/help/dungeon.txt:346` [line] Wilderness Map and towns as "*"s. This makes it *much* easier to find your
+- [ ] `lib/help/dungeon.txt:347` [line] way from one interesting place to another.
+- [ ] `lib/help/dungeon.txt:349` [line] The "Adventurer's Guide to Middle-earth" (a parchment with which *every* 
+- [ ] `lib/help/dungeon.txt:350` [line] character begins the game) contains details about the towns and some of
+- [ ] `lib/help/dungeon.txt:351` [line] the dungeons, including rough directions on how to get there.
+- [ ] `lib/help/dungeon.txt:353` [line] ~~~~~06|Dungeons|In the dungeon
+- [ ] `lib/help/dungeon.txt:354` [line] #####R=== Within The Dungeon ===
+- [ ] `lib/help/dungeon.txt:356` [line] Once your character is adequately supplied with food, light, armor, and
+- [ ] `lib/help/dungeon.txt:357` [line] weapons, he is ready to enter Barrow Downs. Move on top of the ">" symbol 
+- [ ] `lib/help/dungeon.txt:358` [line] and use the "Down" command (">").
+- [ ] `lib/help/dungeon.txt:360` [line] Your character will enter a maze of interconnecting staircases and finally
+- [ ] `lib/help/dungeon.txt:361` [line] arrive somewhere on the first level of the dungeon. Each level of the
+- [ ] `lib/help/dungeon.txt:362` [line] dungeon is fifty feet high (thus dungeon level "Lev 1" is often called
+- [ ] `lib/help/dungeon.txt:363` [line] "50 ft"), and is divided into rectangular regions several times
+- [ ] `lib/help/dungeon.txt:364` [line] larger than the screen. Once you leave a level by a
+- [ ] `lib/help/dungeon.txt:365` [line] staircase, you will never again find your way back to that region of that
+- [ ] `lib/help/dungeon.txt:366` [line] level, but there are an infinite number of other regions at that same "depth"
+- [ ] `lib/help/dungeon.txt:367` [line] that you can explore later. So be careful that you have found all the
+- [ ] `lib/help/dungeon.txt:368` [line] treasure before you leave a level, or you may never find it again! The
+- [ ] `lib/help/dungeon.txt:369` [line] monsters, of course, can use the stairs, and you may eventually encounter
+- [ ] `lib/help/dungeon.txt:370` [line] them again.
+- [ ] `lib/help/dungeon.txt:372` [line] In the dungeon, there are many things to find, but your character must
+- [ ] `lib/help/dungeon.txt:373` [line] survive many horrible and challenging encounters to find the treasure lying
+- [ ] `lib/help/dungeon.txt:374` [line] about and take it safely back to the town to sell.
+- [ ] `lib/help/dungeon.txt:376` [line] ~~~~~23|Light
+- [ ] `lib/help/dungeon.txt:377` [line] There are two sources for light once inside the dungeon: permanent light
+- [ ] `lib/help/dungeon.txt:378` [line] which has been magically placed within rooms, and a light source carried by
+- [ ] `lib/help/dungeon.txt:379` [line] the player (or some of the monsters). If neither is present, the character
+- [ ] `lib/help/dungeon.txt:380` [line] will be unable to see. This will affect searching, picking locks, disarming
+- [ ] `lib/help/dungeon.txt:381` [line] traps, reading scrolls, casting spells, browsing books, etc. So be very
+- [ ] `lib/help/dungeon.txt:382` [line] careful not to run out of light!
+- [ ] `lib/help/dungeon.txt:384` [line] A character must wield a torch or lamp in order to supply his own light. A
+- [ ] `lib/help/dungeon.txt:385` [line] torch or lamp burns fuel as it is used, and once it is out of fuel, it stops
+- [ ] `lib/help/dungeon.txt:386` [line] supplying light. You will be warned as the light approaches this point. You 
+- [ ] `lib/help/dungeon.txt:387` [line] may use the "Fuel" command ("F") to refuel your lantern (with flasks of oil) 
+- [ ] `lib/help/dungeon.txt:388` [line] or your torch (with other torches), so it is a good idea to carry extra 
+- [ ] `lib/help/dungeon.txt:389` [line] torches or flasks of oil, as appropriate. There are rumours of objects of
+- [ ] `lib/help/dungeon.txt:390` [line] exceptional power which glow with their own never-ending light.
+- [ ] `lib/help/dungeon.txt:392` [line] ~~~~~08|Objects
+- [ ] `lib/help/dungeon.txt:393` [line] #####R=== Objects Found In The Dungeon ===
+- [ ] `lib/help/dungeon.txt:395` [line] The mines are full of objects just waiting to be picked up and used. How
+- [ ] `lib/help/dungeon.txt:396` [line] did they get there? Well, the main source for useful items are all the
+- [ ] `lib/help/dungeon.txt:397` [line] foolish adventurers (like you?) that proceeded into the dungeon before you. 
+- [ ] `lib/help/dungeon.txt:398` [line] They get killed, and the helpful creatures scatter the various treasures 
+- [ ] `lib/help/dungeon.txt:399` [line] throughout the dungeon. Most cursed items are placed there by the joyful evil
+- [ ] `lib/help/dungeon.txt:400` [line] sorcerers, who enjoy a good joke when it gets you killed.
+- [ ] `lib/help/dungeon.txt:402` [line] You pick up objects by moving on top of them. You can carry up to 23 
+- [ ] `lib/help/dungeon.txt:403` [line] different items in your backpack while wearing and wielding up to 12 others.
+- [ ] `lib/help/dungeon.txt:404` [line] Although you are limited to 23 different items, each item may actually be a
+- [ ] `lib/help/dungeon.txt:405` [line] "pile" of up to 99 similar items. If you somehow manage to stuff 24 items
+- [ ] `lib/help/dungeon.txt:406` [line] into your pack, for example, by removing an item from your head while your
+- [ ] `lib/help/dungeon.txt:407` [line] pack is full, then your pack will "overflow" and the most recently added
+- [ ] `lib/help/dungeon.txt:408` [line] item will fall out and onto the ground. You will be warned about any command
+- [ ] `lib/help/dungeon.txt:409` [line] that seems likely to induce this behaviour.
+- [ ] `lib/help/dungeon.txt:411` [line] You are, in addition, limited in the total amount of weight that you can
+- [ ] `lib/help/dungeon.txt:412` [line] carry. As you approach this value, you become slower, making it easier for
+- [ ] `lib/help/dungeon.txt:413` [line] monsters to chase you. Note that there is no upper bound on how much you can
+- [ ] `lib/help/dungeon.txt:414` [line] carry, if you do not mind being slow. Your weight limit is determined by your
+- [ ] `lib/help/dungeon.txt:415` [line] strength.
+- [ ] `lib/help/dungeon.txt:417` [line] Objects do not block the line of sight, but may stack on top of one another, 
+- [ ] `lib/help/dungeon.txt:418` [line] with the one on top hiding others beneath it.
+- [ ] `lib/help/dungeon.txt:420` [line]       Q: I'm standing on a pile of items. How do I see what's in the pile 
+- [ ] `lib/help/dungeon.txt:421` [line]          without picking it all up, moving it, or destroying it all?
+- [ ] `lib/help/dungeon.txt:422` [line]       A: 1. Stand on the pile in question
+- [ ] `lib/help/dungeon.txt:423` [line]          2. Type shift + i (examine)
+- [ ] `lib/help/dungeon.txt:424` [line]          3. Type - (examine items on floor)
+- [ ] `lib/help/dungeon.txt:425` [line]          4. Type * (expand list of items on floor)
+- [ ] `lib/help/dungeon.txt:426` [line]          5. (as needed) Type letter associated with item to look at it more 
+- [ ] `lib/help/dungeon.txt:427` [line]             closely.
+- [ ] `lib/help/dungeon.txt:429` [line] Objects may also obscure stairs, Ways and void jumpgates.
+- [ ] `lib/help/dungeon.txt:431` [line]       Q: I'm standing on a pile of items. Is there a command to see if 
+- [ ] `lib/help/dungeon.txt:432` [line]          there is a stair beneath the pile?
+- [ ] `lib/help/dungeon.txt:433` [line]       A: Stairs, void jumpgates and Ways that obscured by clutter still 
+- [ ] `lib/help/dungeon.txt:434` [line]          function. 
+- [ ] `lib/help/dungeon.txt:435` [line]          You are advised to take a good hard look at your surroundings before 
+- [ ] `lib/help/dungeon.txt:436` [line]          creating lots of dungeon clutter. You can see if there is a stair 
+- [ ] `lib/help/dungeon.txt:437` [line]          beneath the pile with either of these methods:
+- [ ] `lib/help/dungeon.txt:438` [line]          1. Pick up, move, or eliminate the pile.
+- [ ] `lib/help/dungeon.txt:439` [line]          2. Press l (look), then select the square you wish to inquire about.
+- [ ] `lib/help/dungeon.txt:440` [line]             Press <enter>; it will scroll through everything on the ground, 
+- [ ] `lib/help/dungeon.txt:441` [line]             and eventually it ends with "It is in a Void Jumpgate", or 
+- [ ] `lib/help/dungeon.txt:442` [line]             whatever.
+- [ ] `lib/help/dungeon.txt:445` [line] Many objects found within the dungeon have special commands for their use.
+- [ ] `lib/help/dungeon.txt:446` [line] Wands must be Aimed, staves must be Used, scrolls must be Read, and potions
+- [ ] `lib/help/dungeon.txt:447` [line] must be Quaffed.  You may, in general, not only use items in your pack, but
+- [ ] `lib/help/dungeon.txt:448` [line] also items on the ground, if you are standing on top of them. For a detailed
+- [ ] `lib/help/dungeon.txt:449` [line] list of the commands to use objects, see *****command.txt*0[command.txt].
+- [ ] `lib/help/dungeon.txt:451` [line] Chests are complex objects, containing traps, locks, and possibly treasure
+- [ ] `lib/help/dungeon.txt:452` [line] or other objects inside them once they are opened. Many of the commands that 
+- [ ] `lib/help/dungeon.txt:453` [line] apply to traps or doors also apply to chests and, like traps and doors, these
+- [ ] `lib/help/dungeon.txt:454` [line] commands do not work if you are carrying the chest.
+- [ ] `lib/help/dungeon.txt:456` [line] One item in particular will be discussed here. [[[[[BThe scroll of "Word of]
+- [ ] `lib/help/dungeon.txt:457` [line] [[[[[BRecall"] can be found within the dungeon, or bought at the temple in 
+- [ ] `lib/help/dungeon.txt:458` [line] town. It acts in two manners, depending upon your current location. If read
+- [ ] `lib/help/dungeon.txt:459` [line] within the dungeon, it will teleport you back to town. If read in town, it
+- [ ] `lib/help/dungeon.txt:460` [line] will teleport you back down to the deepest level of the dungeon to which your
+- [ ] `lib/help/dungeon.txt:461` [line] character has previously journeyed. This makes the scroll very useful for
+- [ ] `lib/help/dungeon.txt:462` [line] getting back to the deeper levels of the dungeon. Once the scroll has been
+- [ ] `lib/help/dungeon.txt:463` [line] read it takes a while for the spell to act, so don't expect it to save you
+- [ ] `lib/help/dungeon.txt:464` [line] in a crisis. Reading a second scroll before the first has had a chance to
+- [ ] `lib/help/dungeon.txt:465` [line] take effect will cancel both scrolls. Since an accidental dive to a new depth
+- [ ] `lib/help/dungeon.txt:466` [line] (via a trapdoor, for example), may result in the Word of Recall dungeon depth
+- [ ] `lib/help/dungeon.txt:467` [line] being 'broken', so to speak (meaning that the next Word of Recall in town 
+- [ ] `lib/help/dungeon.txt:468` [line] will take you back deeper than you would like to), there is a feature in 
+- [ ] `lib/help/dungeon.txt:469` [line] ToME which allows you to read a scroll of Word of Recall on a different
+- [ ] `lib/help/dungeon.txt:470` [line] level and 'reset' the recall depth to that level (instead of the deepest 
+- [ ] `lib/help/dungeon.txt:471` [line] level).  Some dungeons cannot be recalled into, though you can still recall 
+- [ ] `lib/help/dungeon.txt:472` [line] out.
+- [ ] `lib/help/dungeon.txt:474` [line] You may "inscribe" any object with a textual inscription of your choice.
+- [ ] `lib/help/dungeon.txt:475` [line] These inscriptions are not limited in length, though you may not be able to
+- [ ] `lib/help/dungeon.txt:476` [line] see the whole inscription on the item.  The game applies special meaning to
+- [ ] `lib/help/dungeon.txt:477` [line] inscriptions containing any text of the form "@#" or "@x#" or "!x" or "!*",
+- [ ] `lib/help/dungeon.txt:478` [line] see "*****command.txt*0[command.txt]" and "*****macrofaq.txt*0[macrofaq.txt]".
+- [ ] `lib/help/dungeon.txt:480` [line] The game provides some "fake" inscriptions to help you keep track of your
+- [ ] `lib/help/dungeon.txt:481` [line] possessions. Wands and staves which are known to be empty will be inscribed
+- [ ] `lib/help/dungeon.txt:482` [line] with "empty". Objects which have been tried at least once but haven't been
+- [ ] `lib/help/dungeon.txt:483` [line] identified yet will be inscribed with "tried". Cursed objects are inscribed
+- [ ] `lib/help/dungeon.txt:484` [line] with "cursed". Broken objects may be inscribed with "broken". Also, any
+- [ ] `lib/help/dungeon.txt:485` [line] item which was purchased at a discount, implying that it is slightly
+- [ ] `lib/help/dungeon.txt:486` [line] "sub-standard", will be inscribed with the appropriate "discount", such as
+- [ ] `lib/help/dungeon.txt:487` [line] "25% off". Note that these inscriptions are fake, and cannot be removed,
+- [ ] `lib/help/dungeon.txt:488` [line] though they can be covered up by a real inscription if you so desire. Try
+- [ ] `lib/help/dungeon.txt:489` [line] "_" as a nice short one.
+- [ ] `lib/help/dungeon.txt:491` [line] Also, occasionally you will notice that something in your inventory or
+- [ ] `lib/help/dungeon.txt:492` [line] equipment list seems to be magical. High level characters are much more
+- [ ] `lib/help/dungeon.txt:493` [line] likely to notice this than beginning characters. When you do notice this,
+- [ ] `lib/help/dungeon.txt:494` [line] the item in question will be inscribed with "good" or "cursed" as is
+- [ ] `lib/help/dungeon.txt:495` [line] relevant.  You can increase your ability to notice magical effects of armour 
+- [ ] `lib/help/dungeon.txt:496` [line] and weapons by increasing the *****skills.txt*01[Combat] skill. You can increase your ability 
+- [ ] `lib/help/dungeon.txt:497` [line] to sense particularly well enchanted magical items (potions, scrolls. wands 
+- [ ] `lib/help/dungeon.txt:498` [line] etc) by increasing your *****skills.txt*21[Magic] skill. If you increase these 
+- [ ] `lib/help/dungeon.txt:499` [line] high enough, you will gain a special method of "sensing" your 
+- [ ] `lib/help/dungeon.txt:500` [line] inventory/equipment items, which tells you not only whether an item is "good"
+- [ ] `lib/help/dungeon.txt:501` [line] or "cursed", but also if it is "average", "special", "excellent", "terrible" or
+- [ ] `lib/help/dungeon.txt:502` [line] "worthless".
+- [ ] `lib/help/dungeon.txt:504` [line] ~~~~~21|Objects|Colour of inventory slot letter
+- [ ] `lib/help/dungeon.txt:505` [line] The colour of the letter that identifies each item in your backpack can tell 
+- [ ] `lib/help/dungeon.txt:506` [line] you something about their magical status. Grey indicates the item has not been 
+- [ ] `lib/help/dungeon.txt:507` [line] identified yet. After identification, the colour changes to one of the 
+- [ ] `lib/help/dungeon.txt:508` [line] following: white, indicating it is normal; blue indicates it is an ego-item 
+- [ ] `lib/help/dungeon.txt:509` [line] (pseudo-id's as {excellent}); yellow indicates it is an artifact {special}; 
+- [ ] `lib/help/dungeon.txt:510` [line] green shows it is an artifact which is part of a set.
+- [ ] `lib/help/dungeon.txt:512` [line] It is rumoured that rings of power and extra rare spell books may be found
+- [ ] `lib/help/dungeon.txt:513` [line] deeper in the dungeon....
+- [ ] `lib/help/dungeon.txt:515` [line] And lastly, a final warning: not all objects are what they seem. The line
+- [ ] `lib/help/dungeon.txt:516` [line] between tasty food and annoying mushroom is a fine one, and sometimes a
+- [ ] `lib/help/dungeon.txt:517` [line] potion will reach out and bite you...
+- [ ] `lib/help/dungeon.txt:518` [line] ~~~~~09|Objects|Cursed Objects
+- [ ] `lib/help/dungeon.txt:519` [line] ~~~~~10|Cursed Objects
+- [ ] `lib/help/dungeon.txt:520` [line] #####R=== Cursed Objects ===
+- [ ] `lib/help/dungeon.txt:522` [line] Some objects, mainly armour and weapons, have had curses laid upon them.
+- [ ] `lib/help/dungeon.txt:523` [line] These horrible objects will look like any other normal item, but will
+- [ ] `lib/help/dungeon.txt:524` [line] detract from your character's stats or abilities if worn. They will also
+- [ ] `lib/help/dungeon.txt:525` [line] be impossible to remove until the curse is removed. In fact some are
+- [ ] `lib/help/dungeon.txt:526` [line] so badly cursed that even this will not work, and more potent methods are
+- [ ] `lib/help/dungeon.txt:527` [line] needed.
+- [ ] `lib/help/dungeon.txt:529` [line] If you wear or wield a cursed item, you will immediately feel something
+- [ ] `lib/help/dungeon.txt:530` [line] wrong. The item will also be inscribed "cursed".
+- [ ] `lib/help/dungeon.txt:532` [line] Shopkeepers will refuse to buy any known cursed item.
+- [ ] `lib/help/dungeon.txt:533` [line] ~~~~~13|Mining
+- [ ] `lib/help/dungeon.txt:534` [line] ~~~~~11|Dungeons|Mining
+- [ ] `lib/help/dungeon.txt:535` [line] #####R=== Digging and Mining ===
+- [ ] `lib/help/dungeon.txt:537` [line] It is possible for you to be trapped within the dungeon. You will not be able 
+- [ ] `lib/help/dungeon.txt:538` [line] to dig your way out without a digging tool (shovel, pick, or other means of 
+- [ ] `lib/help/dungeon.txt:539` [line] digging). It is absolutely essential to always carry some kind of digging tool, 
+- [ ] `lib/help/dungeon.txt:540` [line] even when you are not planning on tunnelling for treasure. Do not leave the 
+- [ ] `lib/help/dungeon.txt:541` [line] town level of Bree without a digger!
+- [ ] `lib/help/dungeon.txt:543` [line] Picks and shovels have a digging ability expressed as "(+<num>)", e.g. (+2). 
+- [ ] `lib/help/dungeon.txt:544` [line] The higher the number, the better the digging ability of the tool. Diggers are 
+- [ ] `lib/help/dungeon.txt:545` [line] effective against rubble, trees, and many walls. Rubble and veins may hide 
+- [ ] `lib/help/dungeon.txt:546` [line] treasure; trees do not.
+- [ ] `lib/help/dungeon.txt:548` [line] You dig in something with the tunnel (shift + t) command. Thorough digging
+- [ ] `lib/help/dungeon.txt:549` [line] removes one ASCII square (i.e. tile) of what is being dug. This may require
+- [ ] `lib/help/dungeon.txt:550` [line] multiple attempts depending on how good your digger is (and how high your
+- [ ] `lib/help/dungeon.txt:551` [line] strength is). Once the square is removed, you will be informed if you found
+- [ ] `lib/help/dungeon.txt:552` [line] anything there. If another diggable square exists beyond the area you just dug,
+- [ ] `lib/help/dungeon.txt:553` [line] you can begin the process again.
+- [ ] `lib/help/dungeon.txt:555` [line] Some dungeons contain rich strikes which may be found only by mining it out of 
+- [ ] `lib/help/dungeon.txt:556` [line] the walls. Quartz veins are the richest, yielding the most metals and gems, but 
+- [ ] `lib/help/dungeon.txt:557` [line] magma veins may also hide hoards within them. When digging rock, granite is 
+- [ ] `lib/help/dungeon.txt:558` [line] much harder to dig through than quartz or magma veins, so it is much faster to 
+- [ ] `lib/help/dungeon.txt:559` [line] follow a vein exactly and dig around the granite. There is also a game option 
+- [ ] `lib/help/dungeon.txt:560` [line] for highlighting magma and quartz within the walls, which makes this easier.
+- [ ] `lib/help/dungeon.txt:562` [line] If the character has a scroll, staff, or spell of treasure location, she can 
+- [ ] `lib/help/dungeon.txt:563` [line] immediately locate all strikes of treasure within a vein shown on the screen. 
+- [ ] `lib/help/dungeon.txt:564` [line] This makes mining much easier and more profitable. 
+- [ ] `lib/help/dungeon.txt:565` [line] ~~~~~12|Dungeons|Doors, Passages, Rooms and Staircases
+- [ ] `lib/help/dungeon.txt:566` [line] #####R=== Staircases, Ways, Void jumpgates, Secret Doors, Passages, and Rooms ===
+- [ ] `lib/help/dungeon.txt:568` [line] Staircases are the manner in which you get deeper or climb out of the
+- [ ] `lib/help/dungeon.txt:569` [line] dungeon. The symbols for the up and down staircases are the same as the
+- [ ] `lib/help/dungeon.txt:570` [line] commands to use them.  A "<" represents an up staircase and a ">" represents
+- [ ] `lib/help/dungeon.txt:571` [line] a down staircase. You must move your character over the staircase before
+- [ ] `lib/help/dungeon.txt:572` [line] you can use it. You use it by typing the same character as the staircase 
+- [ ] `lib/help/dungeon.txt:573` [line] itself (either "<" or ">".)
+- [ ] `lib/help/dungeon.txt:575` [line] In flat environments such as forests, Ways replace staircases. On the map, Ways 
+- [ ] `lib/help/dungeon.txt:576` [line] are identical to staircases and behave the same way.
+- [ ] `lib/help/dungeon.txt:578` [line] Yellow down stairs and Ways are quest entrances (although not every quest
+- [ ] `lib/help/dungeon.txt:579` [line] is reached by such means).
+- [ ] `lib/help/dungeon.txt:581` [line] Shafts are also represented by "<" or ">", but are brown. They work similarly 
+- [ ] `lib/help/dungeon.txt:582` [line] to stairs and Ways, but if you use one, you might traverse more than one
+- [ ] `lib/help/dungeon.txt:583` [line] dungeon level all in one go as a result. 
+- [ ] `lib/help/dungeon.txt:585` [line] Stairs, impenetrable walls, and shop entrances like titanium walls, and the 
+- [ ] `lib/help/dungeon.txt:586` [line] doors into shops, cannot be destroyed by any means (although their location can 
+- [ ] `lib/help/dungeon.txt:587` [line] occasionally change under the right circumstances).
+- [ ] `lib/help/dungeon.txt:588` [line] ~~~~~23|Void jumpgates
+- [ ] `lib/help/dungeon.txt:589` [line] A void jumpgate appears on your map as a violet "+". Jumpgates always occur in 
+- [ ] `lib/help/dungeon.txt:590` [line] pairs. To activate a jumpgate, stand on it and type ">". You will instantly 
+- [ ] `lib/help/dungeon.txt:591` [line] appear on top of its paired jumpgate, which will be somewhere else on the same 
+- [ ] `lib/help/dungeon.txt:592` [line] dungeon level.
+- [ ] `lib/help/dungeon.txt:594` [line] Many secret doors are used within the dungeon to confuse and demoralise
+- [ ] `lib/help/dungeon.txt:595` [line] adventurers foolish enough to enter. But with some luck, and lots of
+- [ ] `lib/help/dungeon.txt:596` [line] concentration, you can find these secret doors. Secret doors will sometimes
+- [ ] `lib/help/dungeon.txt:597` [line] hide rooms or corridors, or even entire sections of that level of the
+- [ ] `lib/help/dungeon.txt:598` [line] dungeon. Sometimes they simply hide small empty closets or even dead ends.
+- [ ] `lib/help/dungeon.txt:599` [line] Secret doors always look like granite walls, just like traps always look
+- [ ] `lib/help/dungeon.txt:600` [line] like normal floors.
+- [ ] `lib/help/dungeon.txt:602` [line] Creatures in the dungeon will generally know and use these secret doors, and
+- [ ] `lib/help/dungeon.txt:603` [line] can sometimes be counted on to leave them open behind them when they pass 
+- [ ] `lib/help/dungeon.txt:604` [line] through.
+- [ ] `lib/help/dungeon.txt:606` [line] For historical reasons, secret doors are never locked.
+- [ ] `lib/help/dungeon.txt:608` [line] ~~~~~18|Pets
+- [ ] `lib/help/dungeon.txt:609` [line] ~~~~~19|Companions
+- [ ] `lib/help/dungeon.txt:610` [line] ~~~~~20|Monsters|Pets
+- [ ] `lib/help/dungeon.txt:611` [line] #####R=== Pets and Companions ===
+- [ ] `lib/help/dungeon.txt:612` [line] You may, in the course of a game, acquire friendly monsters who will help you 
+- [ ] `lib/help/dungeon.txt:613` [line] defeat enemies. There are several different types of these, you can determine 
+- [ ] `lib/help/dungeon.txt:614` [line] which your monster is by 'l'ooking at it.
+- [ ] `lib/help/dungeon.txt:615` [line] [[[[[vneutral] This monster will not help you by attacking other monsters, but nor 
+- [ ] `lib/help/dungeon.txt:616` [line]         will it attack you.
+- [ ] `lib/help/dungeon.txt:617` [line] [[[[[vco-aligned] This monster will attack other enemy monsters, but you will not 
+- [ ] `lib/help/dungeon.txt:618` [line]            gain any experience for its kills.
+- [ ] `lib/help/dungeon.txt:619` [line] [[[[[vpet] This monster will kill things for you. The amount of experience you gain 
+- [ ] `lib/help/dungeon.txt:620` [line]     from its kills is determined by the level of your *****skills.txt*42[Monster-lore] skill. 
+- [ ] `lib/help/dungeon.txt:621` [line]     This monster will gain levels and experience of its own, but cannot travel 
+- [ ] `lib/help/dungeon.txt:622` [line]     between dungeon levels.
+- [ ] `lib/help/dungeon.txt:623` [line] [[[[[vcompanion] This type of monster will not only take experience and level up like 
+- [ ] `lib/help/dungeon.txt:624` [line]           pets, but will also follow you from one dungeon level to the next. If 
+- [ ] `lib/help/dungeon.txt:625` [line]           you successfully complete an adventurer quest for a lost sword and let 
+- [ ] `lib/help/dungeon.txt:626` [line]           him join you, he will become a companion. Once again the amount of 
+- [ ] `lib/help/dungeon.txt:627` [line]           experience you gain from a companion's kill depends upon your 
+- [ ] `lib/help/dungeon.txt:628` [line]           Monster-lore skill.
+- [ ] `lib/help/dungeon.txt:630` [line] Your Monster-lore skill also determines the maximum number of pets and 
+- [ ] `lib/help/dungeon.txt:631` [line] companions you can have at any one time.
+- [ ] `lib/help/dungeon.txt:633` [line] Pets, companions and co-aligned creatures cannot deliver killing blows to 
+- [ ] `lib/help/dungeon.txt:634` [line] uniques or quest monsters. You must do this yourself!
+- [ ] `lib/help/dungeon.txt:636` [line] You can give commands to pets and companions to make them more useful, using
+- [ ] `lib/help/dungeon.txt:637` [line] the "P" command. The list of available commands is as follows:
+- [ ] `lib/help/dungeon.txt:638` [line] [[[[[vdismiss companions] Dismisses your companions. They can be difficult to get rid
+- [ ] `lib/help/dungeon.txt:639` [line]                    of any other way.
+- [ ] `lib/help/dungeon.txt:640` [line] [[[[[vdismiss pets] Dismisses pets. You will be given the opportunity to dismiss all 
+- [ ] `lib/help/dungeon.txt:641` [line]              current pets, or if you answer no to that first question, to 
+- [ ] `lib/help/dungeon.txt:642` [line]              dismiss specific pets.
+- [ ] `lib/help/dungeon.txt:643` [line] [[[[[vcall pets] Calls your pets (and companions) to you.
+- [ ] `lib/help/dungeon.txt:644` [line] [[[[[vfollow me] Asks your pets (and companions) to follow you. They do have a mind of 
+- [ ] `lib/help/dungeon.txt:645` [line]           their own, and may not be able to travel as fast as you can.
+- [ ] `lib/help/dungeon.txt:646` [line] [[[[[vseek and destroy] Selecting this will cause your pets and companions to wander 
+- [ ] `lib/help/dungeon.txt:647` [line]                  further from you, looking for enemies to kill.
+- [ ] `lib/help/dungeon.txt:648` [line] [[[[[vallow/disallow open doors] Selecting this toggles whether your pets and 
+- [ ] `lib/help/dungeon.txt:649` [line]                           companions can open doors.
+- [ ] `lib/help/dungeon.txt:650` [line] [[[[[vallow/disallow pickup items] Selecting this toggles whether your pets and 
+- [ ] `lib/help/dungeon.txt:651` [line]                           companions can pick up items. Disallowing it will 
+- [ ] `lib/help/dungeon.txt:652` [line]                           cause the monster to drop any items he is carrying on 
+- [ ] `lib/help/dungeon.txt:653` [line]                           the floor.
+- [ ] `lib/help/dungeon.txt:654` [line] [[[[[vgive target to a friend] Selecting this will cause one of your pets or 
+- [ ] `lib/help/dungeon.txt:655` [line]                         companions to attack your current target.
+- [ ] `lib/help/dungeon.txt:656` [line] [[[[[vgive target to all friends] Causes all pets or companions to attack your 
+- [ ] `lib/help/dungeon.txt:657` [line]                            current target.
+- [ ] `lib/help/dungeon.txt:658` [line] [[[[[vfriend forget target] All your friends will follow their normal attack 
+- [ ] `lib/help/dungeon.txt:659` [line]                      patterns, neglecting any targets you have given them.
+- [ ] `lib/help/dungeon.txt:661` [line] ~~~~~14|Objectives
+- [ ] `lib/help/dungeon.txt:662` [line] #####R=== Game Objectives ===
+- [ ] `lib/help/dungeon.txt:664` [line] In ToME you will be required to complete a certain number of quests. Your 
+- [ ] `lib/help/dungeon.txt:665` [line] first quest is to discover the true nature of the evil lurking in the Tower of 
+- [ ] `lib/help/dungeon.txt:666` [line] Dol Guldur near Mirkwood.
+- [ ] `lib/help/dungeon.txt:668` [line] Each quest may lead on to others, and most quests can be postponed until when 
+- [ ] `lib/help/dungeon.txt:669` [line] you feel ready to tackle them. Simply explore other dungeons until you feel you
+- [ ] `lib/help/dungeon.txt:670` [line] have gained enough experience to tackle your next task. Other quests are 
+- [ ] `lib/help/dungeon.txt:671` [line] optional and can be used for further experience. 
+- [ ] `lib/help/dungeon.txt:673` [line] Once you have finished your final quest, when you are ready to retire, simply
+- [ ] `lib/help/dungeon.txt:674` [line] "commit suicide" ("^Q") to have your character entered into the high score list
+- [ ] `lib/help/dungeon.txt:675` [line] as a winner. Note that until you retire, you can still be killed, so you may
+- [ ] `lib/help/dungeon.txt:676` [line] want to retire before wandering into a hoard of nasties....
+- [ ] `lib/help/dungeon.txt:678` [line] You may also like to make a character sheet of your winning character (by 
+- [ ] `lib/help/dungeon.txt:679` [line] going through the "C"haracter screen and choosing "f"ile), and post in the
+- [ ] `lib/help/dungeon.txt:680` [line] rec.games.roguelike.angband newsgroup with a text copy of the dump pasted
+- [ ] `lib/help/dungeon.txt:681` [line] into the post. Include details about anything major that happened to your
+- [ ] `lib/help/dungeon.txt:682` [line] character - did they find a ring of speed (+10) on dungeon level 2? Or had 
+- [ ] `lib/help/dungeon.txt:683` [line] they reached dungeon level 60 before finding their first artifact? Did you 
+- [ ] `lib/help/dungeon.txt:684` [line] have a really scary moment that stands out from the rest of the game? And how
+- [ ] `lib/help/dungeon.txt:685` [line] *did* you actually win the game, anyway?
+- [ ] `lib/help/dungeon.txt:687` [line] ~~~~~15|Dying
+- [ ] `lib/help/dungeon.txt:688` [line] ~~~~~17|Loading old characters
+- [ ] `lib/help/dungeon.txt:689` [line] #####R=== Upon Death and Dying ===
+- [ ] `lib/help/dungeon.txt:691` [line] If your character falls below 0 hit points, he has died and cannot be
+- [ ] `lib/help/dungeon.txt:692` [line] restored (for most classes, anyway). A tombstone showing information about 
+- [ ] `lib/help/dungeon.txt:693` [line] your character will be displayed. You are also permitted to get a record of 
+- [ ] `lib/help/dungeon.txt:694` [line] your character, and all your equipment (identified) either on the screen or 
+- [ ] `lib/help/dungeon.txt:695` [line] in a file.
+- [ ] `lib/help/dungeon.txt:697` [line] Your character will leave behind a reduced save file, which contains only
+- [ ] `lib/help/dungeon.txt:698` [line] the monster memory and your option choices. It may be restored, in which
+- [ ] `lib/help/dungeon.txt:699` [line] case the new character is generated exactly as if the file was not there,
+- [ ] `lib/help/dungeon.txt:700` [line] but the new player will find his monster memory containing all the experience
+- [ ] `lib/help/dungeon.txt:701` [line] of past incarnations.
+- [ ] `lib/help/dungeon.txt:703` [line] In this way, death in ToME is permanent. You cannot simply 'reload at the last 
+- [ ] `lib/help/dungeon.txt:704` [line] save' as in most other contemporary games. Death is permanent, just as it is 
+- [ ] `lib/help/dungeon.txt:705` [line] in real life.

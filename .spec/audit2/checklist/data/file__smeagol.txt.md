@@ -1,0 +1,31 @@
+# 数据清单：lib/file/smeagol.txt（text，逐条/逐行）
+
+- [ ] `lib/file/smeagol.txt:1` [line] 27
+- [ ] `lib/file/smeagol.txt:2` [line] ******** BUFFER LINE *******************
+- [ ] `lib/file/smeagol.txt:3` [line] sniggers.
+- [ ] `lib/file/smeagol.txt:4` [line] grovels.
+- [ ] `lib/file/smeagol.txt:5` [line] picks his nose.
+- [ ] `lib/file/smeagol.txt:6` [line] pines for his precious.
+- [ ] `lib/file/smeagol.txt:7` [line] searches his pockets.
+- [ ] `lib/file/smeagol.txt:8` [line] eats some slimy creatures.
+- [ ] `lib/file/smeagol.txt:9` [line] mutters: 'My precious, wheres my precious?'
+- [ ] `lib/file/smeagol.txt:10` [line] shouts: 'No Master Hobbitsisisisis!'
+- [ ] `lib/file/smeagol.txt:11` [line] cries: 'The ring was ours for agesisisisis!'
+- [ ] `lib/file/smeagol.txt:12` [line] says: 'Smeagol sneeking! ME! Shneekingsisis!'
+- [ ] `lib/file/smeagol.txt:13` [line] screams: 'Nasty Hobbitsisisisis...'
+- [ ] `lib/file/smeagol.txt:14` [line] says: 'Come on, quickly, follow Smeagol'
+- [ ] `lib/file/smeagol.txt:15` [line] says: 'Every way is guarded, silly foolsis!'
+- [ ] `lib/file/smeagol.txt:16` [line] says: 'Nasty Bagginis, stole my precious.'
+- [ ] `lib/file/smeagol.txt:17` [line] says: 'She will kill them oh yes she will precious.'
+- [ ] `lib/file/smeagol.txt:18` [line] whines: 'Weees wants some fishises.'
+- [ ] `lib/file/smeagol.txt:19` [line] says: 'Whats has its got in its pocketses, hmmm?'
+- [ ] `lib/file/smeagol.txt:20` [line] whimpers: 'We've lost itses we have.'
+- [ ] `lib/file/smeagol.txt:21` [line] says: 'He'll eastus all the world if he getsitses it.'
+- [ ] `lib/file/smeagol.txt:22` [line] says: 'No food, no rest; Smeagol a SNEAK!'
+- [ ] `lib/file/smeagol.txt:23` [line] says: 'What a dainty little dish you will be for her.'
+- [ ] `lib/file/smeagol.txt:24` [line] says: 'Hobbitses always SOOOO Polite.'
+- [ ] `lib/file/smeagol.txt:25` [line] screams: 'Stop, Thief!'
+- [ ] `lib/file/smeagol.txt:26` [line] says: 'Makeses him drop his weapon precious.'
+- [ ] `lib/file/smeagol.txt:27` [line] grovels: 'He has only four fingers on the black hand.'
+- [ ] `lib/file/smeagol.txt:28` [line] growls: 'Not nice Hobbits, not sensible!'
+- [ ] `lib/file/smeagol.txt:29` [line] says: 'If you findesis it, give it us back.'

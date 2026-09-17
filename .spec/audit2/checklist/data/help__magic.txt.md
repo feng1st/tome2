@@ -1,0 +1,126 @@
+# 数据清单：lib/help/magic.txt（text，逐条/逐行）
+
+- [ ] `lib/help/magic.txt:1` [line] |||||oy
+- [ ] `lib/help/magic.txt:2` [line] ~~~~~03|Magic
+- [ ] `lib/help/magic.txt:3` [line] #####R === ToME Magic system ===
+- [ ] `lib/help/magic.txt:5` [line] *****magic.txt*02[Wands and Staves]
+- [ ] `lib/help/magic.txt:7` [line] For the basics of how to use skills, please see *****skills.txt*0[Using Skills].
+- [ ] `lib/help/magic.txt:9` [line] In ToME you have a basic *****skills.txt*21[Magic] skill. This skill is one of the most
+- [ ] `lib/help/magic.txt:10` [line] important ones for a spellcaster, since it is responsible for how much mana you
+- [ ] `lib/help/magic.txt:11` [line] have. You can never have too much of it. If you like magical devices, the
+- [ ] `lib/help/magic.txt:12` [line] Magical Device skill is also important, since it controls the Magical
+- [ ] `lib/help/magic.txt:13` [line] Device ability of your character. This ability again dictates the fail rates
+- [ ] `lib/help/magic.txt:14` [line] of use of wands/rods/staffs and activation of random-artifacts/artifacts, and
+- [ ] `lib/help/magic.txt:15` [line] it will also increase the power of these items.
+- [ ] `lib/help/magic.txt:16` [line] ~~~~~01|Magic|Schools
+- [ ] `lib/help/magic.txt:17` [line] ToME uses skills to define the various schools of magic. There are 11 primary
+- [ ] `lib/help/magic.txt:18` [line] schools:
+- [ ] `lib/help/magic.txt:19` [line]      *****m_mana.txt*0[Mana]           *****m_fire.txt*0[Fire]            *****m_water.txt*0[Water]
+- [ ] `lib/help/magic.txt:20` [line]      *****m_air.txt*0[Air]            *****m_earth.txt*0[Earth]           *****m_meta.txt*0[Meta]
+- [ ] `lib/help/magic.txt:21` [line]      *****m_convey.txt*0[Conveyance]     *****m_divin.txt*0[Divination]      *****m_tempo.txt*0[Temporal]
+- [ ] `lib/help/magic.txt:22` [line]      *****m_mind.txt*0[Mind]           *****m_nature.txt*0[Nature]
+- [ ] `lib/help/magic.txt:24` [line] Other magical skills, generally being used primarily by characters of a
+- [ ] `lib/help/magic.txt:25` [line] specific class, are:
+- [ ] `lib/help/magic.txt:26` [line]      *****m_demono.txt*0[Demonology]     *****m_necrom.txt*0[Necromancy]
+- [ ] `lib/help/magic.txt:27` [line]      *****m_thaum.txt*0[Thaumaturgy]     *****m_geoman.txt*0[Geomancy]
+- [ ] `lib/help/magic.txt:29` [line] The *****m_demono.txt*0[Demonology] skill is primarily used by *****c_demono.txt*0[Demonologists] for their special
+- [ ] `lib/help/magic.txt:30` [line] spells, whereas the *****m_necrom.txt*0[Necromancy] skill is used by *****c_necro.txt*0[Necromancers] for their own set
+- [ ] `lib/help/magic.txt:31` [line] of special spells.
+- [ ] `lib/help/magic.txt:32` [line] *****m_thaum.txt*0[Thaumaturgy] gives you randomly chosen
+- [ ] `lib/help/magic.txt:33` [line] attack spells, and as such each game with it will be different. *****c_geoman.txt*0[Geomancers]
+- [ ] `lib/help/magic.txt:34` [line] harness the powers of the elements using *****m_geoman.txt*0[Geomancy].
+- [ ] `lib/help/magic.txt:36` [line] In addition to the schools of magic, you can get access to special sets of
+- [ ] `lib/help/magic.txt:37` [line] spells if you worship a God. There are currently four good Gods,
+- [ ] `lib/help/magic.txt:38` [line] *****g_eru.txt*0[Eru Iluvatar], *****g_manwe.txt*0[Manwe Sulimo], *****g_yavann.txt*0[Yavanna Kementari] and *****g_tulkas.txt*0[Tulkas]. There is also an evil
+- [ ] `lib/help/magic.txt:39` [line] god, *****g_melkor.txt*0[Melkor]. Each of them gives you access to different types of spells.
+- [ ] `lib/help/magic.txt:41` [line] *****c_pr_drk.txt*0[Worshippers of Melkor] also have access to the special *****m_udun.txt*0[Udun] school of magic,
+- [ ] `lib/help/magic.txt:42` [line] whereas other *****c_priest.txt*0[Priests] and *****c_mindcr.txt*0[Mindcrafters] can use *****m_mindcr.txt*0[Mindcrafting Powers].
+- [ ] `lib/help/magic.txt:44` [line] *****c_symbia.txt*0[Symbiants] have access to their own special brand of *****m_symbio.txt*0[magic powers], and *****c_bard.txt*0[Bards] have
+- [ ] `lib/help/magic.txt:45` [line] access to *****m_music.txt*0[Songs], which affect creatures in ways that can appear to be magical.
+- [ ] `lib/help/magic.txt:47` [line] The 11 different primary schools give you access to different spells of
+- [ ] `lib/help/magic.txt:48` [line] variable usefulness. The way they work is that adding skill points to a
+- [ ] `lib/help/magic.txt:49` [line] specific school will enable you to get higher level spells for that specific
+- [ ] `lib/help/magic.txt:50` [line] school. By level requirements for a specific spell you could actually say skill
+- [ ] `lib/help/magic.txt:51` [line] requirement, since they correlate exactly. Let's take a simple example:
+- [ ] `lib/help/magic.txt:52` [line] If you have the *****m_mana.txt*0[Mana] school skill at level 24.000, it means you can use any
+- [ ] `lib/help/magic.txt:53` [line] spell in the mana school up to and including those requiring level 24. [[[[[BThere are]
+- [ ] `lib/help/magic.txt:54` [line] [[[[[Balso some spells requiring a certain skill level in two schools, and there is a]
+- [ ] `lib/help/magic.txt:55` [line] [[[[[Bpossibility of spells requiring three or more. For this kind of spells the ]
+- [ ] `lib/help/magic.txt:56` [line] [[[[[Bspell level is determined by taking an average of the necessary skills. ]
+- [ ] `lib/help/magic.txt:57` [line] When calculating spell level for spells which require more than one school, 
+- [ ] `lib/help/magic.txt:58` [line] sorcery (or god-granted access) can be used in place of the primary schools in 
+- [ ] `lib/help/magic.txt:59` [line] the normal way. Once the average has been calculated, any bonus from the 
+- [ ] `lib/help/magic.txt:60` [line] spell-power skill can also be applied as normal. If one of the schools required 
+- [ ] `lib/help/magic.txt:61` [line] is the Udun school, then the appropriate bonus from character level will be 
+- [ ] `lib/help/magic.txt:62` [line] applied. Lastly, if you look at a spell, and the spell level reads -2 or some 
+- [ ] `lib/help/magic.txt:63` [line] other negative value while it's also grayed out, that means you need to 
+- [ ] `lib/help/magic.txt:64` [line] increase the corresponding school's skill level by 3, since only 2 will have 
+- [ ] `lib/help/magic.txt:65` [line] it end up on spell level 0, where it still is unusable. If it reads n/a, you 
+- [ ] `lib/help/magic.txt:66` [line] currently have no skill points in that school.
+- [ ] `lib/help/magic.txt:68` [line] Another thing that should be explained about the skills and schools of magic
+- [ ] `lib/help/magic.txt:69` [line] right now, is that the skill doesn't stop being useful only for gaining spells.
+- [ ] `lib/help/magic.txt:70` [line] The higher the skill level, the higher the spell level will be, and the more
+- [ ] `lib/help/magic.txt:71` [line] powerful your spells will be. For instance, say you have the *****m_mana.txt*0[Mana] skill at
+- [ ] `lib/help/magic.txt:72` [line] level 24. Now, the Manathrust spell is one of the spells for that school
+- [ ] `lib/help/magic.txt:73` [line] that only requires skill level 1, but since you've got skill at level 24, the
+- [ ] `lib/help/magic.txt:74` [line] power of the spell is increased as well. For comparison, a level 1
+- [ ] `lib/help/magic.txt:75` [line] Manathrust costs 1 mana and does 4d2 damage, while at level 24 it costs 12
+- [ ] `lib/help/magic.txt:76` [line] mana and does a whopping 27d10 damage.
+- [ ] `lib/help/magic.txt:78` [line] The *****skills.txt*23[Sorcery] skill is a nice skill, since it gives you
+- [ ] `lib/help/magic.txt:79` [line] access to all the 11 primary schools of magic, just as if you'd spent an equal
+- [ ] `lib/help/magic.txt:80` [line] amount of skill points in all the skills. It's available to any mage character,
+- [ ] `lib/help/magic.txt:81` [line] but only a *****c_sorcer.txt*0[Sorceror] will be able to be proficient in it. Also, having this
+- [ ] `lib/help/magic.txt:82` [line] skill at level 1 will give you a hitpoint-penalty of 1%, all the way up to
+- [ ] `lib/help/magic.txt:83` [line] skill level 50, with a hitpoint-penalty of 50%. There are also ToHit and ToDam
+- [ ] `lib/help/magic.txt:84` [line] penalties for sorcery, so don't choose sorcery if you plan to do much fighting.
+- [ ] `lib/help/magic.txt:86` [line] There is also the *****skills.txt*22[Spell Power] skill. This skill is rather nice, since it
+- [ ] `lib/help/magic.txt:87` [line] will augment the power of spells you already know. The distinction between this
+- [ ] `lib/help/magic.txt:88` [line] and the others, is that it will not grant you new spells, but instead increases
+- [ ] `lib/help/magic.txt:89` [line] the levels of spells. At level 50 it grants 20 extra spell levels. [[[[[BThis skill ]
+- [ ] `lib/help/magic.txt:90` [line] [[[[[Bonly affects the 11 primary schools] (Mana, Earth, Air, Fire, Water, Meta, 
+- [ ] `lib/help/magic.txt:91` [line] Mind, Temporal, Conveyance, Divination and Nature) as well as Geomancy and the
+- [ ] `lib/help/magic.txt:92` [line] spells granted by the Gods.
+- [ ] `lib/help/magic.txt:94` [line] There is also the Magic-Device skill which affects your ability to use wands,
+- [ ] `lib/help/magic.txt:95` [line] staves, rods and to activate special objects. It also affects the spell-levels
+- [ ] `lib/help/magic.txt:96` [line] of the staff and wand spells, as explained below.
+- [ ] `lib/help/magic.txt:97` [line] ~~~~~02|Wands
+- [ ] `lib/help/magic.txt:98` [line] ~~~~~04|Magic|Wands and Staves
+- [ ] `lib/help/magic.txt:99` [line] ~~~~~05|Staves
+- [ ] `lib/help/magic.txt:100` [line] #####GWands and Staves
+- [ ] `lib/help/magic.txt:102` [line] Wands and staves (sticks) operate in a similar fashion, and in fact most of
+- [ ] `lib/help/magic.txt:103` [line] them use the same spells with the same effects. When you pick up a stick, you'll
+- [ ] `lib/help/magic.txt:104` [line] see it has two numbers in the format [x|y] in addition to the number of charges
+- [ ] `lib/help/magic.txt:105` [line] it holds. By increasing your magic-device skill you can increase the level (and
+- [ ] `lib/help/magic.txt:106` [line] hence the power) of the spell in that stick. The x value are skill level
+- [ ] `lib/help/magic.txt:107` [line] bonuses which the staff itself holds, and these are added onto your existing
+- [ ] `lib/help/magic.txt:108` [line] magic-device skill for the purpose of using the staff. The y value is the
+- [ ] `lib/help/magic.txt:109` [line] maximum possible skill level for that stick. Things are balanced by the use of a
+- [ ] `lib/help/magic.txt:110` [line] "minimum magic-device skill level required to raise spell level". Here's an
+- [ ] `lib/help/magic.txt:111` [line] example:
+- [ ] `lib/help/magic.txt:112` [line] A Staff of Sense Hidden [1|10]. Your magic device skill is at 6. If you were to
+- [ ] `lib/help/magic.txt:113` [line] identify the staff and then 'I'nspect it, you would see the following
+- [ ] `lib/help/magic.txt:114` [line] information:
+- [ ] `lib/help/magic.txt:116` [line] &&&&&w wSwpwewlwlw wdwewswcwrwiwbwtwiwownw:w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:117` [line] &&&&&w wDwewtwewcwtwsw wtwhwew wtwrwawpwsw wiwnw waw wcwewrwtwawiwnw wrwawdwiwuwsw wawrwowuwnwdw wywowuw w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:118` [line] &&&&&w wAwtw wlwewvwewlw w1w5w wiwtw wawlwlwowwwsw wywowuw wtwow wswewnwswew wiwnwvwiwswiwbwlwew wfwowrw waw wwwhwiwlwew w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:119` [line] &&&&&w wSwpwewlwlw wlwewvwewlw:w B3w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:120` [line] &&&&&w wMwiwnwiwmwuwnw wMwawgwiwcw wDwewvwiwcwew wlwewvwewlw wtwow wiwnwcwrwewawswew wswpwewlwlw wlwewvwewlw:w B5w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:121` [line] &&&&&w wSwpwewlwlw wfwawiwlw:w g2g3w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:122` [line] &&&&&w wSwpwewlwlw wiwnwfwow:w yryaydy y1y3w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/magic.txt:124` [line] The Spell level is the level at which the spell will actually be cast.
+- [ ] `lib/help/magic.txt:125` [line] Spell fail is the spell fail percentage. The spell info may contain the radius
+- [ ] `lib/help/magic.txt:126` [line] of effect, amount of damage, or duration the spell might last.
+- [ ] `lib/help/magic.txt:127` [line] The Minimum Magic Device level to increase your spell level is just that. If
+- [ ] `lib/help/magic.txt:128` [line] your magic device skill was less than this level, then the staff would be
+- [ ] `lib/help/magic.txt:129` [line] casting the spell at level one. Our magic device skill is 6. Therefore we are
+- [ ] `lib/help/magic.txt:130` [line] casting at level 2 (at skill level 5, we should be casting the spell at level 
+- [ ] `lib/help/magic.txt:131` [line] 1). Then we add the bonus from the staff of 1, which gives us our spell level 
+- [ ] `lib/help/magic.txt:132` [line] of 3. If our magic device in this example had been 14, this would have given us 
+- [ ] `lib/help/magic.txt:133` [line] a spell level of 1 + (14 - 5 + 1) = 11. This is calculated from the formula:
+- [ ] `lib/help/magic.txt:134` [line] spell level = staff bonus + (magic device - minimum magic device + 1)).
+- [ ] `lib/help/magic.txt:135` [line] However given that the maximum spell level with this staff is 10, you'll be
+- [ ] `lib/help/magic.txt:136` [line] casting with a spell level of 10.
+- [ ] `lib/help/magic.txt:137` [line] As you get deeper into the dungeons, you will find sticks with higher bonuses
+- [ ] `lib/help/magic.txt:138` [line] and maximum spell levels.
+- [ ] `lib/help/magic.txt:140` [line]                                      Written by: vrak AKA Per-Arne Holtmon Akoe
+- [ ] `lib/help/magic.txt:141` [line]                                   Wands and Staves section added by fearoffours

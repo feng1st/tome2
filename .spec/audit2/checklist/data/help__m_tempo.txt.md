@@ -1,0 +1,37 @@
+# 数据清单：lib/help/m_tempo.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_tempo.txt:1` [line] |||||oy
+- [ ] `lib/help/m_tempo.txt:2` [line] ~~~~~01|Magic|Temporal School
+- [ ] `lib/help/m_tempo.txt:3` [line] ~~~~~02|Temporal Magic
+- [ ] `lib/help/m_tempo.txt:4` [line] ~~~~~03|Skills|Temporal - Spell Info
+- [ ] `lib/help/m_tempo.txt:5` [line] #####R === ToME Magic - Temporal School ===
+- [ ] `lib/help/m_tempo.txt:7` [line] The temporal school of magic contains spells where magic is used to meddle
+- [ ] `lib/help/m_tempo.txt:8` [line] in the relationship between time and space. There are rumours of a "Tome of
+- [ ] `lib/help/m_tempo.txt:9` [line] the Time" which contains all the temporal school spells within its bindings.
+- [ ] `lib/help/m_tempo.txt:11` [line] Worshipping the Goddess Yavanna Kementari also gives the ability to cast spells
+- [ ] `lib/help/m_tempo.txt:12` [line] from the temporal school at a level of 1/6 of your prayer level. E.g. if the
+- [ ] `lib/help/m_tempo.txt:13` [line] skill "Spirituality: Prayer" is at level 12, you can cast up to level 2
+- [ ] `lib/help/m_tempo.txt:14` [line] temporal school spells.
+- [ ] `lib/help/m_tempo.txt:17` [line] #####sTemporal Spells
+- [ ] `lib/help/m_tempo.txt:18` [line] There are four spells available for the temporal school. These Spells are:
+- [ ] `lib/help/m_tempo.txt:19` [line] 1. [[[[[sMagelock] (school level 1)
+- [ ] `lib/help/m_tempo.txt:20` [line]    Magically locks a door.
+- [ ] `lib/help/m_tempo.txt:21` [line]    At spell level 30 it creates a glyph of warding.
+- [ ] `lib/help/m_tempo.txt:22` [line]    At spell level 40 the glyph can be placed anywhere in the field of vision.
+- [ ] `lib/help/m_tempo.txt:23` [line] 2. [[[[[sSlow Monster] (school level 10)
+- [ ] `lib/help/m_tempo.txt:24` [line]    Magically slows down the passing of time around a monster.
+- [ ] `lib/help/m_tempo.txt:25` [line]    At level 20 it affects a zone.
+- [ ] `lib/help/m_tempo.txt:26` [line] 3. [[[[[sEssence of Speed] (school level 15)
+- [ ] `lib/help/m_tempo.txt:27` [line]    Magically decreases the passing of time around you, allowing you to move
+- [ ] `lib/help/m_tempo.txt:28` [line]    and act more quickly with respect to the rest of the universe.
+- [ ] `lib/help/m_tempo.txt:29` [line] 4. [[[[[sBanishment] (school level 30)
+- [ ] `lib/help/m_tempo.txt:30` [line]    Disrupts the space/time continuum in your area and teleports all monsters
+- [ ] `lib/help/m_tempo.txt:31` [line]    away.
+- [ ] `lib/help/m_tempo.txt:32` [line]    At spell level 15 it also may lock them in a time bubble for some turns.
+- [ ] `lib/help/m_tempo.txt:33` [line] #####v   Your Temporal and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_tempo.txt:34` [line] #####v   of 30 in order to cast this spell.
+- [ ] `lib/help/m_tempo.txt:36` [line] #####GNature spells that can be cast with Temporal skill
+- [ ] `lib/help/m_tempo.txt:38` [line] 1. [[[[[GGrow Trees] (dual school level 6)
+- [ ] `lib/help/m_tempo.txt:39` [line]    Makes trees grow extremely quickly around you.
+- [ ] `lib/help/m_tempo.txt:40` [line] #####v   Your Nature and Temporal skills must have reached a combined average level 
+- [ ] `lib/help/m_tempo.txt:41` [line] #####v   of 6 in order to cast this spell.

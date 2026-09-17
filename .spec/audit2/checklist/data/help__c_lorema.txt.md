@@ -1,0 +1,50 @@
+# 数据清单：lib/help/c_lorema.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_lorema.txt:1` [line] |||||oy
+- [ ] `lib/help/c_lorema.txt:2` [line] ~~~~~01|Loremaster
+- [ ] `lib/help/c_lorema.txt:3` [line] ~~~~~02|Classes|Loremaster
+- [ ] `lib/help/c_lorema.txt:4` [line] #####R=== Loremasters ===
+- [ ] `lib/help/c_lorema.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_lorema.txt:7` [line] Loremasters are students of the creatures of Arda.
+- [ ] `lib/help/c_lorema.txt:9` [line] To protect themselves during their observations, they usually learn how to
+- [ ] `lib/help/c_lorema.txt:10` [line] pass unobserved, but should their attempt fail they have decent saving throws
+- [ ] `lib/help/c_lorema.txt:11` [line] and almost always learn some kind of combat style, but the exact preference
+- [ ] `lib/help/c_lorema.txt:12` [line] varies from Loremaster to Loremaster.
+- [ ] `lib/help/c_lorema.txt:14` [line] As a result of their studies, they become familiar with a broad range of
+- [ ] `lib/help/c_lorema.txt:15` [line] skills, ranging from *****skills.txt*45[Possession] and *****m_symbio.txt*0[Symbiosis] to *****skills.txt*43[Summoning] and *****skills.txt*47[Mimicry].
+- [ ] `lib/help/c_lorema.txt:17` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_lorema.txt:18` [line] Strength         +1
+- [ ] `lib/help/c_lorema.txt:19` [line] Intelligence     -2
+- [ ] `lib/help/c_lorema.txt:20` [line] Wisdom           +1
+- [ ] `lib/help/c_lorema.txt:21` [line] Dexterity        +1
+- [ ] `lib/help/c_lorema.txt:22` [line] Constitution     +0
+- [ ] `lib/help/c_lorema.txt:23` [line] Charisma         +1
+- [ ] `lib/help/c_lorema.txt:24` [line] Hit Die          +d8
+- [ ] `lib/help/c_lorema.txt:25` [line] Spell Points     +0%
+- [ ] `lib/help/c_lorema.txt:26` [line] Exp Penalty      40%
+- [ ] `lib/help/c_lorema.txt:28` [line] #####GStarting Skills:
+- [ ] `lib/help/c_lorema.txt:29` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_lorema.txt:30` [line] Combat                  1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:31` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:32` [line]   Archery               1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:33` [line]   Barehand-combat       1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:34` [line] Sneakiness              1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:35` [line]   Stealth               1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:36` [line]   Disarming             1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:37` [line] Magic                   0.000           [0.600]
+- [ ] `lib/help/c_lorema.txt:38` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_lorema.txt:39` [line] Spirituality            1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:40` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_lorema.txt:41` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_lorema.txt:42` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_lorema.txt:43` [line]   Summoning             0.000           [0.500]
+- [ ] `lib/help/c_lorema.txt:44` [line]   Corpse-preservation   1.000           [0.700]
+- [ ] `lib/help/c_lorema.txt:45` [line]   Possession            0.000           [0.500]
+- [ ] `lib/help/c_lorema.txt:46` [line]   Symbiosis             0.000           [0.500]
+- [ ] `lib/help/c_lorema.txt:47` [line]   Mimicry               0.000           [0.500]
+- [ ] `lib/help/c_lorema.txt:49` [line] #####GStarting Equipment
+- [ ] `lib/help/c_lorema.txt:50` [line] A Loremaster begins the game with:
+- [ ] `lib/help/c_lorema.txt:51` [line]     a Sling
+- [ ] `lib/help/c_lorema.txt:52` [line]     a Hard Leather Armour
+- [ ] `lib/help/c_lorema.txt:53` [line]     a Quarterstaff
+- [ ] `lib/help/c_lorema.txt:54` [line]     some Rounded Pebbles

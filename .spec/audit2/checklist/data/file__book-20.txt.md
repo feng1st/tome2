@@ -1,0 +1,108 @@
+# 数据清单：lib/file/book-20.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-20.txt:1` [line] #####R             /----------------------------------------\
+- [ ] `lib/file/book-20.txt:2` [line] #####R            <  Adventurer's guide to the Middle-earth  >
+- [ ] `lib/file/book-20.txt:3` [line] #####R             \----------------------------------------/
+- [ ] `lib/file/book-20.txt:5` [line] Summary:
+- [ ] `lib/file/book-20.txt:6` [line] *****/abook-20.txt*1[(a) The Towns]
+- [ ] `lib/file/book-20.txt:7` [line] *****/bbook-20.txt*2[(b) Other strange and frightening places]
+- [ ] `lib/file/book-20.txt:8` [line] *****/cbook-20.txt*3[(c) Equipment issues]
+- [ ] `lib/file/book-20.txt:9` [line] *****/dbook-20.txt*4[(d) Macros]
+- [ ] `lib/file/book-20.txt:11` [line] Introduction:
+- [ ] `lib/file/book-20.txt:13` [line] Middle-earth is vast and mysterious, full of dangers but also full of
+- [ ] `lib/file/book-20.txt:14` [line] rewards for the brave.
+- [ ] `lib/file/book-20.txt:16` [line] New adventurers should know that pressing < and > can switch
+- [ ] `lib/file/book-20.txt:17` [line] the wilderness view between a normal scale and a larger map. This map
+- [ ] `lib/file/book-20.txt:18` [line] makes travelling safer and faster, but you can't enter wilderness
+- [ ] `lib/file/book-20.txt:19` [line] dungeons from it.
+- [ ] `lib/file/book-20.txt:22` [line] ~~~~~1
+- [ ] `lib/file/book-20.txt:23` [line] #####G(a) The Towns
+- [ ] `lib/file/book-20.txt:25` [line] You start in a small village named Bree in the western part of the Middle-earth.
+- [ ] `lib/file/book-20.txt:26` [line] Here you will also find the entrance to the Barrow-Downs, a fairly safe and
+- [ ] `lib/file/book-20.txt:27` [line] simple dungeon.
+- [ ] `lib/file/book-20.txt:29` [line] When the Barrow-Downs become too easy for you, and Bree too small,
+- [ ] `lib/file/book-20.txt:30` [line] you might consider going to Lothlorien, the land of Galadriel. [[[[[BNote that]
+- [ ] `lib/file/book-20.txt:31` [line] [[[[[Byou should take a lot of food with you, for it is a long journey.] You'll have
+- [ ] `lib/file/book-20.txt:32` [line] to head south-east following the Moria mountain's chain, then walk around
+- [ ] `lib/file/book-20.txt:33` [line] the forest of Fangorn to head north to finally find your destination. The Forest
+- [ ] `lib/file/book-20.txt:34` [line] of Mirkwood (another dungeon) can be found to the north east of Lothlorien.
+- [ ] `lib/file/book-20.txt:36` [line] If you survive this dangerous dungeon, you should head south, following
+- [ ] `lib/file/book-20.txt:37` [line] the Anduin river. There, near the dark land of Mordor, you will find the
+- [ ] `lib/file/book-20.txt:38` [line] great town of Gondor, Minas Anor. From there you can want to pay a "visit" to 
+- [ ] `lib/file/book-20.txt:39` [line] the land of Mordor, which is east of Minas Anor.
+- [ ] `lib/file/book-20.txt:41` [line] After Mordor you should finally travel to Gondolin, the hidden town of the
+- [ ] `lib/file/book-20.txt:42` [line] Noldor. First go back to Bree, and then from there walk northeast and you
+- [ ] `lib/file/book-20.txt:43` [line] will find it. From this city, you will be able to attack Angband, the
+- [ ] `lib/file/book-20.txt:44` [line] dungeon of Morgoth, which is north west west of Gondolin.
+- [ ] `lib/file/book-20.txt:47` [line] ~~~~~2
+- [ ] `lib/file/book-20.txt:48` [line] #####G(b) Other strange and frightening places
+- [ ] `lib/file/book-20.txt:50` [line] The Old Forest to the west is the last remains of the big forests of the first
+- [ ] `lib/file/book-20.txt:51` [line] age, but it has been corrupted. It is said it is guarded by a living tree.
+- [ ] `lib/file/book-20.txt:53` [line] You may also wish to investigate the Orc Caves north of Bree; they are
+- [ ] `lib/file/book-20.txt:54` [line] another place suitable for those finished with the Barrow-Downs. They also
+- [ ] `lib/file/book-20.txt:55` [line] are rumored to hold great
+- [ ] `lib/file/book-20.txt:56` [line] mysteries.
+- [ ] `lib/file/book-20.txt:58` [line] The Maze: To the south of Bree there is a magical Maze. Many adventurers
+- [ ] `lib/file/book-20.txt:59` [line] that ventured there never came back... It is rumored that a Minotaur is
+- [ ] `lib/file/book-20.txt:60` [line] lurking down there, guarding an ancient and powerful artifact.
+- [ ] `lib/file/book-20.txt:61` [line] Bring along digging equipment and some means to recall.
+- [ ] `lib/file/book-20.txt:63` [line] Durin's Bane, the Balrog of Moria, guards the Mines of Moria, to the south east
+- [ ] `lib/file/book-20.txt:64` [line] of Bree.
+- [ ] `lib/file/book-20.txt:66` [line] During the Second Age of the world there was a great island called
+- [ ] `lib/file/book-20.txt:67` [line] Numenor. The people who dwelt there were wise and powerful, but as time
+- [ ] `lib/file/book-20.txt:68` [line] passed their last kings fell under the power of Sauron. Under Sauron's
+- [ ] `lib/file/book-20.txt:69` [line] orders, they tried to attack Valinor, the blessed land, and for this
+- [ ] `lib/file/book-20.txt:70` [line] Numenor was destroyed, swallowed by the sea. The ruins are still
+- [ ] `lib/file/book-20.txt:71` [line] accessible, far out to sea to the west of Bree.
+- [ ] `lib/file/book-20.txt:73` [line] Many other strange places wait to be explored by the valiant adventurer,
+- [ ] `lib/file/book-20.txt:74` [line] but their locations are secret. You will have to find them yourself!
+- [ ] `lib/file/book-20.txt:77` [line] ~~~~~3
+- [ ] `lib/file/book-20.txt:78` [line] #####G(c) Equipment issues
+- [ ] `lib/file/book-20.txt:80` [line] Beware adventurer! If you plan to go down into the dungeons be prepared. Some
+- [ ] `lib/file/book-20.txt:81` [line] items you will need badly.
+- [ ] `lib/file/book-20.txt:83` [line] First think of some light, maybe a lantern is better than the torches.
+- [ ] `lib/file/book-20.txt:85` [line] Second things to mention are your combat equipment. Sometimes the weapon and
+- [ ] `lib/file/book-20.txt:86` [line] armor you got from your mentor are not enough for the nasties inside the
+- [ ] `lib/file/book-20.txt:87` [line] dungeons.
+- [ ] `lib/file/book-20.txt:89` [line] And third and most important, [[[[[Balways carry a shovel or other digger with you],
+- [ ] `lib/file/book-20.txt:90` [line] because there is much rubble in the dungeons, which you cannot clear with
+- [ ] `lib/file/book-20.txt:91` [line] your hands.
+- [ ] `lib/file/book-20.txt:93` [line] ~~~~~4
+- [ ] `lib/file/book-20.txt:94` [line] #####G(d) Macros
+- [ ] `lib/file/book-20.txt:96` [line] Spellcasters might find that pressing 4 keys (at least) to cast a spell is a
+- [ ] `lib/file/book-20.txt:97` [line] lot, they are right. That is why there are macros. You can access the macro
+- [ ] `lib/file/book-20.txt:98` [line] screen by pressing @. You can find help on the *****macrofaq.txt*0[macros] in the docs.
+- [ ] `lib/file/book-20.txt:100` [line] Now you either have the hard way or the easy way.
+- [ ] `lib/file/book-20.txt:102` [line] **The Hard Way**
+- [ ] `lib/file/book-20.txt:104` [line] What the fellow adventurer should know is how to create a basic spell macro.
+- [ ] `lib/file/book-20.txt:105` [line] Press @ to enter the macro screen.
+- [ ] `lib/file/book-20.txt:106` [line] Press 4 to create a new macro.
+- [ ] `lib/file/book-20.txt:107` [line] Press the key to bind the macro to, usually one uses the F* keys(you can combine
+- [ ] `lib/file/book-20.txt:108` [line] them with the ctrl, shift, ... keys too)
+- [ ] `lib/file/book-20.txt:109` [line] Enter the key sequence to be done for the macro.
+- [ ] `lib/file/book-20.txt:110` [line] Press 2 to save the macro.
+- [ ] `lib/file/book-20.txt:112` [line] Now a problem that might arise, imagine your macro looks like: mcaa*t
+- [ ] `lib/file/book-20.txt:113` [line] to cast manathrust spell('m' to use skill, 'c' for cast a spell skill,
+- [ ] `lib/file/book-20.txt:114` [line] 'a' for first book, 'a' for first spell, *t to
+- [ ] `lib/file/book-20.txt:115` [line]  target the first monster).
+- [ ] `lib/file/book-20.txt:116` [line] This macro will break if you gain a new skill so that "Cast a spell" is no more
+- [ ] `lib/file/book-20.txt:117` [line] the skill 'c', or if you get a new book. There is a way around that.
+- [ ] `lib/file/book-20.txt:118` [line] When the game asks for a skill or a spell it allows you to press @ to enter
+- [ ] `lib/file/book-20.txt:119` [line] the skill/spell name directly, so your macro would become:
+- [ ] `lib/file/book-20.txt:120` [line] m@Cast a spell\r@Manathrust\r*t
+- [ ] `lib/file/book-20.txt:121` [line] Now this will always work as long as one of your books have the spell in it.
+- [ ] `lib/file/book-20.txt:124` [line] **The Easy Way**
+- [ ] `lib/file/book-20.txt:126` [line] This time you will only use the macro recorder. To do that:
+- [ ] `lib/file/book-20.txt:127` [line] Press $ to start it
+- [ ] `lib/file/book-20.txt:128` [line] Now each key you press will be recorded, so press all keys you want.
+- [ ] `lib/file/book-20.txt:129` [line] It is recommended to start your macro by pressing Escape key a few time, so
+- [ ] `lib/file/book-20.txt:130` [line] if there are messages when you use the macro it will first erase them instead
+- [ ] `lib/file/book-20.txt:131` [line] of screwing your macro :)
+- [ ] `lib/file/book-20.txt:132` [line] it is also recommended to take advantage of the @ key when selecting skills or
+- [ ] `lib/file/book-20.txt:133` [line] objects whenever the possibility is offered to you. It will make sure you
+- [ ] `lib/file/book-20.txt:134` [line] always use the good object/skill even if it moves in your inventory.
+- [ ] `lib/file/book-20.txt:135` [line] Once all keys are pressed press $ again to stop it.
+- [ ] `lib/file/book-20.txt:136` [line] It you are satisfied with your macro now you get to press the key to bind it
+- [ ] `lib/file/book-20.txt:137` [line] to.
+- [ ] `lib/file/book-20.txt:139` [line] As in the Hard Way you must use the macro screen if you want to permanently
+- [ ] `lib/file/book-20.txt:140` [line] save your macros.

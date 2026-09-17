@@ -1,0 +1,27 @@
+# 数据清单：lib/help/gambling.txt（text，逐条/逐行）
+
+- [ ] `lib/help/gambling.txt:1` [line] |||||oy
+- [ ] `lib/help/gambling.txt:2` [line] ~~~~~01|Gambling
+- [ ] `lib/help/gambling.txt:3` [line] #####R=== Gambling Rules ===
+- [ ] `lib/help/gambling.txt:5` [line] #####GBetween : 
+- [ ] `lib/help/gambling.txt:6` [line]        Three 12-sided dice rolled; 2 black, 1 red. The red
+- [ ] `lib/help/gambling.txt:7` [line]        die must be between both black to win. If the red die
+- [ ] `lib/help/gambling.txt:8` [line]        matches a black die, you lose. Pays 3 to 1
+- [ ] `lib/help/gambling.txt:9` [line] #####GCraps: 
+- [ ] `lib/help/gambling.txt:10` [line]        Two 6-sided dice are rolled. On first roll, a 7 or 11
+- [ ] `lib/help/gambling.txt:11` [line]        wins. A 2, 3 or 12 loses. Otherwise roll until the first
+- [ ] `lib/help/gambling.txt:12` [line]        roll is matched (win) or a 7 is rolled (loss). Pays 2 to 1
+- [ ] `lib/help/gambling.txt:13` [line] #####GWheel: 
+- [ ] `lib/help/gambling.txt:14` [line]        Pick a number from 0-9. If the number shows on wheel
+- [ ] `lib/help/gambling.txt:15` [line]        after it stops spinning, you win. Pays 10 to 1
+- [ ] `lib/help/gambling.txt:17` [line] #####GSlots: 
+- [ ] `lib/help/gambling.txt:18` [line]        Three dice rolled. Matches win gold.
+- [ ] `lib/help/gambling.txt:19` [line]        Numbers are:
+- [ ] `lib/help/gambling.txt:20` [line]        1=Lemon, 2=Orange, 3=Sword, 4=Shield, 5=Plum, 6=Cherry
+- [ ] `lib/help/gambling.txt:21` [line]        Payoffs are as follows:
+- [ ] `lib/help/gambling.txt:22` [line]        Cherry Cherry Lemon  2-1   Cherry Cherry Orange  3-1
+- [ ] `lib/help/gambling.txt:23` [line]        Cherry Cherry Sword  4-1   Cherry Cherry Shield  5-1
+- [ ] `lib/help/gambling.txt:24` [line]        Cherry Cherry Plum   6-1
+- [ ] `lib/help/gambling.txt:25` [line]        Lemon Lemon Lemon    4-1   Orange Orange Orange 16-1
+- [ ] `lib/help/gambling.txt:26` [line]        Sword Sword Sword    6-1   Shield Shield Shield 25-1
+- [ ] `lib/help/gambling.txt:27` [line]        Plum Plum Plum       9-1   Cherry Cherry Cherry 36-1

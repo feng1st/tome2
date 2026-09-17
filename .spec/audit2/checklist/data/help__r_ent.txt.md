@@ -1,0 +1,37 @@
+# 数据清单：lib/help/r_ent.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_ent.txt:1` [line] ~~~~~01|Ent
+- [ ] `lib/help/r_ent.txt:2` [line] ~~~~~02|Races|Ent
+- [ ] `lib/help/r_ent.txt:3` [line] #####R=== Ents ===
+- [ ] `lib/help/r_ent.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_ent.txt:6` [line] The Ents are a powerful race dating back to the beginning of the world and
+- [ ] `lib/help/r_ent.txt:7` [line] are the eldest of all animals or plants that inhabit Arda. Spirits of the land,
+- [ ] `lib/help/r_ent.txt:8` [line] they were summoned to guard the forests of Middle-earth. Being much like
+- [ ] `lib/help/r_ent.txt:9` [line] trees they are very slow but strong, and very susceptible to fire.
+- [ ] `lib/help/r_ent.txt:10` [line] As the Shepherds of the Trees, they have the innate ability to cause trees to
+- [ ] `lib/help/r_ent.txt:11` [line] rise about them for protection.
+- [ ] `lib/help/r_ent.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/r_ent.txt:14` [line] Strength        +10   
+- [ ] `lib/help/r_ent.txt:15` [line] Intelligence    -3   
+- [ ] `lib/help/r_ent.txt:16` [line] Wisdom          +2   
+- [ ] `lib/help/r_ent.txt:17` [line] Dexterity       -5   
+- [ ] `lib/help/r_ent.txt:18` [line] Constitution    +11   
+- [ ] `lib/help/r_ent.txt:19` [line] Charisma        -3       
+- [ ] `lib/help/r_ent.txt:20` [line] Hit Dice Sides  14        
+- [ ] `lib/help/r_ent.txt:21` [line] Exp Penalty     +110%
+- [ ] `lib/help/r_ent.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_ent.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_ent.txt:25` [line] Combat                  
+- [ ] `lib/help/r_ent.txt:26` [line]   Weaponmastery        -0.300           [0.000]
+- [ ] `lib/help/r_ent.txt:27` [line]   Archery	       -0.200           [0.000]
+- [ ] `lib/help/r_ent.txt:28` [line]   Barehand-combat       0.000           [0.200]
+- [ ] `lib/help/r_ent.txt:29` [line]   Boulder-throwing      0.000           [0.600]
+- [ ] `lib/help/r_ent.txt:30` [line] Sneakiness              0.500           [0.000]
+- [ ] `lib/help/r_ent.txt:31` [line]   Stealth              -6.000           [0.000]
+- [ ] `lib/help/r_ent.txt:32` [line]   Disarming             0.500           [0.000]
+- [ ] `lib/help/r_ent.txt:33` [line] Magic                   
+- [ ] `lib/help/r_ent.txt:34` [line]   Magic-Device          0.500           [0.000]
+- [ ] `lib/help/r_ent.txt:35` [line] Spirituality           10.000           [0.000]
+- [ ] `lib/help/r_ent.txt:37` [line] #####GInnate Abilities:
+- [ ] `lib/help/r_ent.txt:38` [line] #####BAbility              Character level
+- [ ] `lib/help/r_ent.txt:39` [line] Tree-walking                1

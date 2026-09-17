@@ -1,0 +1,138 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# f_info.txt — terrain features (133)
+
+- [x] `f:0` **nothing** — F:FLOOR G: :w — in RON
+- [x] `f:1` **open floor** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH;SUPPORT_LIGHT G:.:w — in RON
+- [x] `f:2` **fountain** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:_:w — in RON
+- [x] `f:3` **glyph of warding** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER;SUPPORT_LIGHT G:;:y — in RON
+- [x] `f:4` **open door** — F:CAN_RUN;DOOR;FLOOR;NOTICE;REMEMBER G:':U — in RON
+- [x] `f:5` **broken door** — F:CAN_RUN;DOOR;FLOOR;NOTICE;REMEMBER G:':U — in RON
+- [x] `f:6` **up staircase** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER;SUPPORT_LIGHT G:<:w — in RON
+- [x] `f:7` **down staircase** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER;SUPPORT_LIGHT G:>:w — in RON
+- [x] `f:8` **quest entrance** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:>:y — in RON
+- [x] `f:9` **quest exit** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:<:y — in RON
+- [x] `f:10` **quest down level** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:>:r — in RON
+- [x] `f:11` **quest up level** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:<:r — in RON
+- [x] `f:12` **town exit** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:>:g — in RON
+- [x] `f:13` **shaft down** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:>:U — in RON
+- [x] `f:14` **shaft up** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:<:U — in RON
+- [x] `f:15` **fountain** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:_:D — in RON
+- [x] `f:16` **web** — F:CAN_PASS;NOTICE;NOTICE;TUNNELABLE;WEB G:+:y — in RON
+- [x] `f:17` **trap** — F:FLOOR;NOTICE;REMEMBER G:^:w — in RON
+- [x] `f:32` **door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:33` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:34` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:35` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:36` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:37` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:38` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:39` **locked door** — F:CAN_PASS;DOOR;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:40` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:41` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:42` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:43` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:44` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:45` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:46` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:47` **jammed door** — F:CAN_PASS;NOTICE;NO_VISION;NO_WALK;REMEMBER;TUNNELABLE;WALL G:+:U M:32 — in RON
+- [x] `f:48` **secret door** — F:CAN_PASS;DONT_NOTICE_RUNNING;DOOR;NO_VISION;NO_WALK;TUNNELABLE;WALL G:#:w M:56 — in RON
+- [x] `f:49` **pile of rubble** — F:CAN_FLY;CAN_PASS;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:::w — in RON
+- [x] `f:50` **magma vein** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:%:s — in RON
+- [x] `f:51` **quartz vein** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:%:w — in RON
+- [x] `f:52` **magma vein** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:%:s M:50 — in RON
+- [x] `f:53` **quartz vein** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:%:w M:51 — in RON
+- [x] `f:54` **magma vein with treasure** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:*:o — in RON
+- [x] `f:55` **quartz vein with treasure** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:*:o — in RON
+- [x] `f:56` **granite wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:w — in RON
+- [x] `f:57` **granite wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:w M:56 — in RON
+- [x] `f:58` **granite wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:w M:56 — in RON
+- [x] `f:59` **granite wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:w M:56 — in RON
+- [x] `f:60` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w — in RON
+- [x] `f:61` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w M:60 — in RON
+- [x] `f:62` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w M:60 — in RON
+- [x] `f:63` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w M:60 — in RON
+- [x] `f:64` **explosive rune** — F:CAN_FLY;CAN_LEVITATE;FLOOR;NOTICE;SUPPORT_LIGHT G:*:R — in RON
+- [x] `f:65` **Straight Road startpoint** — F:FLOOR;NOTICE;REMEMBER G:*:w — in RON
+- [x] `f:66` **section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:B — in RON
+- [x] `f:67` **section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:b — in RON
+- [x] `f:68` **section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:B — in RON
+- [x] `f:69` **section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:b — in RON
+- [x] `f:70` **section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:W — in RON
+- [x] `f:71` **section of the Straight Road (discharged)** — F:FLOOR;NOTICE;REMEMBER G:*:W — in RON
+- [x] `f:72` **Straight Road exit** — F:FLOOR;NOTICE;REMEMBER G:*:w — in RON
+- [x] `f:73` **corrupted section of the Straight Road** — F:FLOOR;NOTICE;REMEMBER G:*:D — in RON
+- [x] `f:74` **Building** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:1:U — in RON
+- [x] `f:75` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w — in RON
+- [x] `f:76` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w — in RON
+- [x] `f:77` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w — in RON
+- [x] `f:78` **permanent wall** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:#:w — in RON
+- [x] `f:84` **stream of shallow water** — F:ATTR_MULTI;CAN_FLY;CAN_LEVITATE;CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_GROWTH;SUPPORT_LIGHT G:~:B S:B:B:B:B:B:B:b — in RON
+- [x] `f:85` **pool of deep lava** — E:-1d2:1:FIRE F:CAN_FLY;CAN_LEVITATE;FLOOR;REMEMBER;SUPPORT_LIGHT G:.:R — in RON
+- [x] `f:86` **stream of shallow lava** — E:-1d1:1:FIRE F:CAN_FLY;CAN_LEVITATE;FLOOR;REMEMBER;SUPPORT_LIGHT G:.:r — in RON
+- [x] `f:87` **dark pit** — F:CAN_FLY;CAN_LEVITATE;DONT_NOTICE_RUNNING;NO_WALK;SUPPORT_LIGHT G:#:D — in RON
+- [x] `f:88` **dirt** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH;SUPPORT_LIGHT G:.:U — in RON
+- [x] `f:89` **patch of grass** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH;SUPPORT_LIGHT G:.:G — in RON
+- [x] `f:90` **ice** — E:1d1:50:ICE F:FLOOR;NOTICE G:.:W — in RON
+- [x] `f:91` **sand** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH G:.:y — in RON
+- [x] `f:92` **dead tree** — F:CAN_FLY;CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;TUNNELABLE;WALL G:#:D — in RON
+- [x] `f:93` **ash** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH G:.:s — in RON
+- [x] `f:94` **mud** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH G:.:u — in RON
+- [x] `f:95` **ice wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:W — in RON
+- [x] `f:96` **tree** — F:CAN_FLY;CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:G — in RON
+- [x] `f:97` **mountain chain** — F:CAN_CLIMB;CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:^:U — in RON
+- [x] `f:98` **sandwall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;TUNNELABLE;WALL G:#:y — in RON
+- [x] `f:99` **sandwall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;TUNNELABLE;WALL G:%:y M:98 — in RON
+- [x] `f:100` **sandwall with treasure** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;TUNNELABLE;WALL G:*:o — in RON
+- [x] `f:101` **high mountain chain** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:^:W — in RON
+- [x] `f:102` **nether mist** — E:1d1:40:NETHER F:ATTR_MULTI;CAN_RUN;DONT_NOTICE_RUNNING;FLOOR G:.:v S:v:R:r:v:R:r:D — in RON
+- [x] `f:103` **molten glass wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_WALK;TUNNELABLE;WALL G:.:B — in RON
+- [x] `f:160` **Void Jumpgate** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:+:v — in RON
+- [x] `f:161` **Altar of Being** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:0:W — in RON
+- [x] `f:162` **Altar of Winds** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:0:B — in RON
+- [x] `f:163` **Altar of Force** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:0:R — in RON
+- [x] `f:164` **Altar of Darkness** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:0:D — in RON
+- [x] `f:165` **Altar of Nature** — F:CAN_RUN;FLOOR;NOTICE;REMEMBER G:0:g — in RON
+- [x] `f:172` **open floor** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH G:.:w — in RON
+- [x] `f:173` **Underground Tunnel** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_LIGHT G:#:s — in RON
+- [x] `f:174` **stream of tainted water** — F:CAN_FLY;CAN_LEVITATE;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_LIGHT G:~:u — in RON
+- [x] `f:175` **monster trap** — F:FLOOR G:;:v — in RON
+- [x] `f:176` **Void Jumpgate** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:+:v — in RON
+- [x] `f:177` **lava wall** — F:ATTR_MULTI;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:R S:R:R:r:r:U:u:R — in RON
+- [x] `f:178` **Great Fire** — E:150d2:1:HELL_FIRE F:ATTR_MULTI;FLOOR;NOTICE;PERMANENT;REMEMBER G:%:v S:R:R:y:v:y:v:R — in RON
+- [x] `f:179` **path to the next area** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:>:w — in RON
+- [x] `f:180` **path to the previous area** — F:CAN_RUN;FLOOR;NOTICE;PERMANENT;REMEMBER G:<:w — in RON
+- [x] `f:181` **field** — F:DONT_NOTICE_RUNNING;FLOOR;NOTICE;PERMANENT;REMEMBER G:::g — in RON
+- [x] `f:182` **Ekkaia, the Encircling Sea** — F:ATTR_MULTI;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:*:b S:b:b:b:b:b:b:B — in RON
+- [x] `f:183` **void** — F:FLOOR G: :d — in RON
+- [x] `f:187` **pool of deep water** — F:ATTR_MULTI;CAN_FLY;CAN_LEVITATE;FLOOR;REMEMBER;SUPPORT_LIGHT G:~:b S:b:b:b:b:b:b:B — in RON
+- [x] `f:188` **glass wall** — F:DONT_NOTICE_RUNNING;NOTICE;NO_WALK;PERMANENT;WALL G:.:B — in RON
+- [x] `f:189` **illusion wall** — F:DONT_NOTICE_RUNNING;FLOOR;NO_VISION;REMEMBER;SUPPORT_LIGHT G:#:w — in RON
+- [x] `f:190` **Grass roof** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:y — in RON
+- [x] `f:191` **grass roof top** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:y — in RON
+- [x] `f:192` **grass roof chimney** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:y — in RON
+- [x] `f:193` **brick roof** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:r — in RON
+- [x] `f:194` **brick roof top** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:r — in RON
+- [x] `f:195` **brick roof chimney** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:r — in RON
+- [x] `f:196` **window** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:w — in RON
+- [x] `f:197` **small window** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:w — in RON
+- [x] `f:198` **rain barrel** — F:DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;PERMANENT;WALL G:#:w — in RON
+- [x] `f:199` **grass with flowers** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_GROWTH G:;:G — in RON
+- [x] `f:200` **cobblestone road** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR G:.:w — in RON
+- [x] `f:201` **cobblestone with outlet** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR G:.:w — in RON
+- [x] `f:202` **small tree** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;NO_VISION;REMEMBER;SUPPORT_LIGHT G:#:g — in RON
+- [x] `f:203` **town** — F:FLOOR;NOTICE G:*:w — in RON
+- [x] `f:204` **Underground Tunnel** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_LIGHT G:^:U — in RON
+- [x] `f:205` **a blazing fire** — E:-1d2:1:FIRE F:ATTR_MULTI;CAN_FLY;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_LIGHT G:%:y S:y:y:y:R:r:y:R — in RON
+- [x] `f:206` **pile of rubble** — F:CAN_FLY;CAN_PASS;NOTICE;NO_VISION;NO_WALK;PERMANENT;SUPPORT_LIGHT;WALL G:::w — in RON
+- [x] `f:207` **rocky ground** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_LIGHT G:.:s — in RON
+- [x] `f:208` **cloud-like vapour** — F:ATTR_MULTI;CAN_FLY;CAN_LEVITATE;CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;SUPPORT_LIGHT G:.:W S:W:B:B:W:w:W:B — in RON
+- [x] `f:209` **condensing water** — F:ATTR_MULTI;CAN_FLY;CAN_LEVITATE;CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;REMEMBER;SUPPORT_LIGHT G:~:B S:B:B:B:B:B:B:b — in RON
+- [x] `f:210` **dense mist** — F:ATTR_MULTI;DONT_NOTICE_RUNNING;FLOOR;NO_VISION;REMEMBER;SUPPORT_LIGHT G:#:w S:w:W:s:s:s:w:w — in RON
+- [x] `f:211` **hail-stone wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:W — in RON
+- [x] `f:212` **dead small tree** — F:CAN_RUN;DONT_NOTICE_RUNNING;FLOOR;NO_VISION;REMEMBER;SUPPORT_LIGHT G:#:D — in RON
+- [x] `f:213` **copper pillar** — F:ATTR_MULTI;CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_VISION;NO_WALK;SUPPORT_LIGHT;WALL G:#:u S:u:u:u:o:u:u:u — in RON
+- [x] `f:214` **ethereal wall** — F:DONT_NOTICE_RUNNING;NOTICE;NO_WALK;PERMANENT;WALL G:.:w — in RON
+- [x] `f:215` **glacial wall** — F:CAN_PASS;DONT_NOTICE_RUNNING;NO_VISION;NO_WALK;SUPPORT_LIGHT;TUNNELABLE;WALL G:#:B — in RON
+- [x] `f:216` **battlement** — F:CAN_PASS;DONT_NOTICE_RUNNING;NOTICE;NO_WALK;SUPPORT_LIGHT;TUNNELABLE G:#:w — in RON

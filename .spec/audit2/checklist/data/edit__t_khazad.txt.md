@@ -1,0 +1,80 @@
+# 数据清单：lib/edit/t_khazad.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_khazad.txt:6` [feat] F:o:207:3
+- [ ] `lib/edit/t_khazad.txt:11` [feat] F:f:74:3:0:0:0:0:17
+- [ ] `lib/edit/t_khazad.txt:14` [feat] F:g:74:3:0:0:0:0:20
+- [ ] `lib/edit/t_khazad.txt:17` [feat] F:h:74:3:0:0:0:0:19
+- [ ] `lib/edit/t_khazad.txt:20` [feat] F:i:74:3:0:0:0:0:59
+- [ ] `lib/edit/t_khazad.txt:23` [feat] F:w:8:3:0:0:0:0:25
+- [ ] `lib/edit/t_khazad.txt:26` [raw] f:DWARVEN
+- [ ] `lib/edit/t_khazad.txt:29` [cond] ?:[EQU $QUEST25 2]
+- [ ] `lib/edit/t_khazad.txt:30` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_khazad.txt:31` [cond] ?:[EQU $QUEST25 5]
+- [ ] `lib/edit/t_khazad.txt:32` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_khazad.txt:33` [cond] ?:1
+- [ ] `lib/edit/t_khazad.txt:36` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_khazad.txt:37` [row] D:#ooooooooooooo####^^^^^^^^^#######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#####oooo#######oo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^######
+- [ ] `lib/edit/t_khazad.txt:38` [row] D:#ooo##ooooooooo#####^^^^^##########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^########ooo########ooo##########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#############
+- [ ] `lib/edit/t_khazad.txt:39` [row] D:##oo###oo####oo##############################^^^^^^^^^^^^^^^^^########################oooo#########oo####  ###########^^^^^^^^^^^^^^^^^^^^^^^^#######    #####
+- [ ] `lib/edit/t_khazad.txt:40` [row] D:##############o#########oo###oo###################^^^^^^^############################oooo#########oo######       #################################   #####oooo
+- [ ] `lib/edit/t_khazad.txt:41` [row] D:#^^^^########oooooooooooooo##ooooooooo#############################  #################oooo########oo###########     ##########################     ######ooooo
+- [ ] `lib/edit/t_khazad.txt:42` [row] D:#############ooooooooooooooooooooooooooo######  ###########1######  ##############2####oooo#######o##o##3####f#####    ##g####4####h######    ###########ooo##
+- [ ] `lib/edit/t_khazad.txt:43` [row] D:#^#############ooooo##################oo### # #### # #####   #### ###############   ###ooo########ooo##   ##   ######  #   ##   ##   ##      # #######ooooo###
+- [ ] `lib/edit/t_khazad.txt:44` [row] D:#^^################oo#################ooooo####       ## ;                          ;;  o        ; o       ##                                   # ooooooooo###
+- [ ] `lib/edit/t_khazad.txt:45` [row] D:#^^^^################o##########o#####oooooooooooooooooooooo                            o          o               ;           oooooooooooooooooooooooo##ooo##
+- [ ] `lib/edit/t_khazad.txt:46` [row] D:#^^^^^^################################# ##   ;            o             ;     ;        o          o        ;                  o                   ##o########
+- [ ] `lib/edit/t_khazad.txt:47` [row] D:#^^^^^^################################          ###       o           ###              o    ###   o               ###;        o         ###      ############
+- [ ] `lib/edit/t_khazad.txt:48` [row] D:#^^^^^#################################         #####      o          #####             o   #####  o              #####        o        #####      ###########
+- [ ] `lib/edit/t_khazad.txt:49` [row] D:#^^^^^^^################################       #######;;   o         #######            o  ####### o             #######       o       #######      ##########
+- [ ] `lib/edit/t_khazad.txt:50` [row] D:#^^^^^^^^################################ #    #######     o    ;    #######            o  ####### o             #######       o       #######    ############
+- [ ] `lib/edit/t_khazad.txt:51` [row] D:#^^^^^^^###################################     #####      o      ;  ;#####             o   #####  o              #####    ;   o        #####   ;#############
+- [ ] `lib/edit/t_khazad.txt:52` [row] D:#^^^^^^^^^################################       ###       o           ###              o    ###   o               ###         o         ###      # ##########
+- [ ] `lib/edit/t_khazad.txt:53` [row] D:#^^^^^^^^^#################################                o                            o          o                           o                  ## #########
+- [ ] `lib/edit/t_khazad.txt:54` [row] D:#^^^^^^^^^^################################       ;        oooooooooooo                 o          o                oooooooooooo                     5########
+- [ ] `lib/edit/t_khazad.txt:55` [row] D:#^^^^^^^^^^^^^###########################                             o                 o          o                o                               ##########
+- [ ] `lib/edit/t_khazad.txt:56` [row] D:#^^^^^^^^^^^^^^^##########################                  ###       o           ###   o          o   ;###         o         ###                  ###########
+- [ ] `lib/edit/t_khazad.txt:57` [row] D:#^^^^^^^^^^^^#############################                 ##### ;    o          #####  o          o   #####        o        #####              ; ############
+- [ ] `lib/edit/t_khazad.txt:58` [row] D:#^^^^^^^^^###############################            ;    #######     o         ####### o   ;      o  #######       o       #######                 ##########
+- [ ] `lib/edit/t_khazad.txt:59` [row] D:#^#########################################          ;    #######     oooooooo  ####### o          o  #######  oooooo       ####### o          ;   ###########
+- [ ] `lib/edit/t_khazad.txt:60` [row] D:#################ooo######################              ;  #####             o   #####  o          o   #####   o             #####                 ###########
+- [ ] `lib/edit/t_khazad.txt:61` [row] D:####oo##ooo#####o#######o###ooo###########                  ###   ;          o    ###   o          o    ###    o       ;      ###   ; ;;          #########oo#
+- [ ] `lib/edit/t_khazad.txt:62` [row] D:#ooooooooooooooooooooooooooooooo##oooooooo                               ;   o    ;     o          o           o   ;                ;;          ; oooooooooooo
+- [ ] `lib/edit/t_khazad.txt:63` [row] D:#ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+- [ ] `lib/edit/t_khazad.txt:64` [row] D:#oooooooooooooooooo##oooooo##oooooo##ooooo                                ;             o          o                                           ;  ooooooooo#oo
+- [ ] `lib/edit/t_khazad.txt:65` [row] D:#^#######################oo####ooooo#######      ###                   ###              o          o               ###;                  ###      ######o####o
+- [ ] `lib/edit/t_khazad.txt:66` [row] D:#^^#######################o###########          #####                 #####             o          o              #####                 #####    ######o######
+- [ ] `lib/edit/t_khazad.txt:67` [row] D:#^#######################################      #######;;   ;         #######            o          o             #######               #######     ####oo#####
+- [ ] `lib/edit/t_khazad.txt:68` [row] D:#^^########################################    #######          ;    #######            o          o             #######               #######    ######o#####
+- [ ] `lib/edit/t_khazad.txt:69` [row] D:#^^^###############ooo###################       #####             ;  ;#####             o          o              #####    ;            #####   ;; ######oo###
+- [ ] `lib/edit/t_khazad.txt:70` [row] D:#####oo##oo#####oooooooo##############oo##       ###       ;           ###              o          o               ###                   ###      ########oooo
+- [ ] `lib/edit/t_khazad.txt:71` [row] D:#ooooooooooo###ooooooooooooooooooooooooooo                                              o          o                                              oooooooooooo
+- [ ] `lib/edit/t_khazad.txt:72` [row] D:#ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+- [ ] `lib/edit/t_khazad.txt:73` [row] D:#^ooooooooooooooooo###oooooooooo##oooooooo                                   o          o          o            o                                 ooooooo####o
+- [ ] `lib/edit/t_khazad.txt:74` [row] D:#^^#o###ooo#####ooo#####ooooo########oo#                    ###       ;      o    ###   o          o   ;###     o             ###                  oo#########
+- [ ] `lib/edit/t_khazad.txt:75` [row] D:#^^^^^###o################oo#############                  ##### ;           o   #####  o          o   #####    o            #####              ;   ##########
+- [ ] `lib/edit/t_khazad.txt:76` [row] D:#^^^^^^^##################################           ;    #######      ooooooo  ####### o   ;      o  #######   ooooo       #######               ############
+- [ ] `lib/edit/t_khazad.txt:77` [row] D:#^^^^^^^^^^##############################            ;    #######      o ;      ####### o          o  #######       o       ####### o          ; #############
+- [ ] `lib/edit/t_khazad.txt:78` [row] D:#^^^^^^^^^^^^^^^#########################               ;  #####       o         #####  o          o   #####        o        #####              ##############
+- [ ] `lib/edit/t_khazad.txt:79` [row] D:#^^^^^^^^^^^^^^^^^^^###################                     ###   ;    o          ###   o          o    ###         o  ;      ###   ; ;;         #############
+- [ ] `lib/edit/t_khazad.txt:80` [row] D:#^^^^^^^^^^^^^^^^^^^####################                 ;             o            ;;  o        ; o                o                       ;     ############
+- [ ] `lib/edit/t_khazad.txt:81` [row] D:#^^^^^^^^^^^^^^^^^^######################                    ooooooooooo                o          o                oooooooooooo    ;;          ;  7##########
+- [ ] `lib/edit/t_khazad.txt:82` [row] D:#^^^^^^^^^^^^^^^^^^^^^^#################      ;              o           ;     ;        o          o        ;                  o                   ###########
+- [ ] `lib/edit/t_khazad.txt:83` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^##############          ###         o         ###              o    ###   o               ###;        o         ###      ############
+- [ ] `lib/edit/t_khazad.txt:84` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^############          #####        o        #####             o   #####  o              #####        o        #####         ########
+- [ ] `lib/edit/t_khazad.txt:85` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^^##########          #######;;   ; o       #######            o  ####### o             #######       o       #######      ##########
+- [ ] `lib/edit/t_khazad.txt:86` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^^#########i          #######       o  ;    #######            o  ####### o             #######       o       #######     ###########
+- [ ] `lib/edit/t_khazad.txt:87` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^###########           #####        o    ;  ;#####             o   #####  o              #####    ;   o        #####   ; ############
+- [ ] `lib/edit/t_khazad.txt:88` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^##############           ###       ; o         ###              o    ###   o               ###         o         ###       ###########
+- [ ] `lib/edit/t_khazad.txt:89` [row] D:#^^^^^^^^^^^^^^^^^^^^^^#################                     o                          o          o                           o                  #########oo#
+- [ ] `lib/edit/t_khazad.txt:90` [row] D:#^^^^^^^^^^^^^^^^^^#############o#######oooooooooooooooooooooo            ##            o          o                           ooooooooooooooooooooooooooooooo
+- [ ] `lib/edit/t_khazad.txt:91` [row] D:#^^^^^^^^^^^^^^^^^############ooooooooooo#     ###           ##        ########      o  o    ##    o        ##                         ##         oooooo##oooo
+- [ ] `lib/edit/t_khazad.txt:92` [row] D:#^^^^^^^^^^^#################ooooooooooo#### ######  ###    ####   #############  ####oooo###### #ooo# ### ######   #       ### ##    ##### ##################
+- [ ] `lib/edit/t_khazad.txt:93` [row] D:#^^^^^^^^^^###################oo######oo###  ###########  #######9####################oooo########oooo############w###    ########  ######  ##################
+- [ ] `lib/edit/t_khazad.txt:94` [row] D:#^^^^^^^##########oo####oo####ooo#########  ############# ##############^^^##########ooooo########oo######################################    #########^######
+- [ ] `lib/edit/t_khazad.txt:95` [row] D:##^^^^^#########oooooooooooooooo#################^^#######  ###########^^^^^###########ooooo######ooo#######################################     #####^^^#####
+- [ ] `lib/edit/t_khazad.txt:96` [row] D:#^^^##########ooooooooooo##ooooo######^#########^^^^##################^^^^^^^^^^^######ooo#######oooo#########^^^^^^^^^^^^^^^^^^^###########       #####^^^###
+- [ ] `lib/edit/t_khazad.txt:97` [row] D:##############ooooo##########oo######^^^#####^^^^^^^^###############^^^^^^^^^^^^^^#####oooo#######ooo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^######      ####^^^^^##
+- [ ] `lib/edit/t_khazad.txt:98` [row] D:########ooo#####oo##################^^^^^^^^^^^^^^^^^#############^^^^^^^^^^^^^^^^^####oo########oooo#####^^^^^^^^^^^^^^^^^^^^^^^^^^^###########   #######^^^^
+- [ ] `lib/edit/t_khazad.txt:99` [row] D:#o##oooooooooooooooo##############^^^^^^^^^^^^^^^^^^^^^^#########^^^^^^^^^^^^^^^^^^#####oo########oo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#######  # ######^^^^^
+- [ ] `lib/edit/t_khazad.txt:100` [row] D:#oooooooooooooooooo########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^########oooo#######ooooo###^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^##############^^^^^^
+- [ ] `lib/edit/t_khazad.txt:101` [row] D:##############################################################################################################################################################

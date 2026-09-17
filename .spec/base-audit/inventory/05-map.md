@@ -1,0 +1,225 @@
+# Method inventory: 05-map
+
+## cave.cc (66 defs)
+
+- [x] `cave.cc:50` **distance**(int y1, int x1, int y2, int x2) — Approximate Distance between two points. When either the X or Y component dwarfs the other component, this function is almost perfect, and otherwise, it tends to over-estimate about one grid per fifte — synced from report
+- [x] `cave.cc:71` **is_wall**(cave_type *c_ptr) — Returns true if a grid is considered to be a wall for the purpose of magic mapping / clairvoyance — synced from report
+- [x] `cave.cc:150` **los**(int y1, int x1, int y2, int x2) — A simple, fast, integer-based line-of-sight algorithm. By Joseph Hall, 4116 Brewster Drive, Raleigh NC 27606. Email to jnh@ecemwl.ncsu.edu. Returns true if a line of sight can be traced from (x1,y1) t — synced from report
+- [x] `cave.cc:408` **no_lite**() — Returns true if the player's grid is dark — synced from report
+- [x] `cave.cc:420` **cave_valid_bold**(int y, int x) — Determine if a given location may be "destroyed" Used by destruction spells, and for placing stairs, etc. — synced from report
+- [~] `cave.cc:452` **image_monster**(byte *ap, char *cp) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:487` **image_object**(byte *ap, char *cp) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:501` **image_random**(byte *ap, char *cp) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:518` **get_shimmer_color**() — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:605` **multi_hued_attr**(std::shared_ptr<monster_race> r_ptr) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:879` **map_info_layer1**(cave_type const *c_ptr, bool apply_effects, std::tuple<char, byte> feature_fn(feature_type const *) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1059` **map_info_layer2**(cave_type const *c_ptr, std::tuple<char, byte> object_fn(object_type const *) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1095` **map_info_layer3**(cave_type const *c_ptr, std::tuple<char, byte> object_fn(object_type const *) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1226` **map_info_layer4**(int y, int x, std::tuple<char, byte> race_fn(monster_race const *) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1272` **map_info**(int y, int x, byte *ap, char *cp) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1326` **map_info_default**(int y, int x, byte *ap, char *cp) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1380` **panel_col_of**(int col) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1391` **move_cursor_relative**(int row, int col) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1405` **print_rel**(char c, byte a, int y, int x) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1457` **note_spot**(int y, int x) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1520` **lite_spot**(int y, int x) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1546` **prt_map**() — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1667` **priority**(byte a, char c) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1710` **display_map**(int *cy, int *cx) — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [~] `cave.cc:1855` **do_cmd_view_map**() — [~] 终端地图/幻觉视觉层：Bevy 由 render.rs 瓦片与精灵、map.rs FOV、世界地图屏承担（UI 立项）；accept.py cave-display 类机械复核
+- [x] `cave.cc:2463` **vinfo_init_aux**(vinfo_hack *hack, int y, int x, long m) — Save a slope — synced from report
+- [x] `cave.cc:2512` **vinfo_init**() — Initialize the "vinfo" array Full Octagon (radius 20), Grids=1149 Quadrant (south east), Grids=308, Slopes=251 Octant (east then south), Grids=161, Slopes=126 This function assumes that VINFO_MAX_GRID — synced from report
+- [x] `cave.cc:2734` **forget_view**() — Forget the "CAVE_VIEW" grids, redrawing as needed
+- [x] `cave.cc:2842` **update_view**() — Calculate the complete field of view using a new algorithm If "view_y/x" and "temp_y/x" were global pointers to arrays of grids, as opposed to actual arrays of grids, then we could be more efficient b — synced from report
+- [x] `cave.cc:3161` **forget_mon_lite**() — Clear monster light — synced from report
+- [x] `cave.cc:3226` **update_mon_lite**() — Update squares illuminated by monsters Code taken from Steven Fuerst's work for ZAngband, without support for multiple lite radii, and with necessary modifications for different internal representatio — synced from report
+- [~] `cave.cc:3492` **update_flow_aux**(int y, int x, int n) — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:3542` **update_flow**() — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [x] `cave.cc:3610` **map_area**() — Hack -- map the current panel (plus some) ala "magic mapping" — synced from report
+- [x] `cave.cc:3670` **wiz_lite**() — Light up the dungeon using "clairvoyance" This function "illuminates" every grid in the dungeon, memorizes all "objects", memorizes all grids as with magic mapping, and, under the standard option sett — synced from report
+- [x] `cave.cc:3753` **wiz_lite_extra**() — synced from report
+- [x] `cave.cc:3769` **wiz_dark**() — Forget the dungeon map (ala "Thinking of Maud..."). — synced from report
+- [x] `cave.cc:3818` **cave_set_feat**(int y, int x, int feat) — Change the "feat" flag for a grid, and notice/redraw the grid
+- [x] `cave.cc:3864` **place_floor**(int y, int x) — Place floor terrain at (y, x) according to dungeon info — synced from report
+- [x] `cave.cc:3875` **place_floor_convert_glass**(int y, int x) — This routine is used when the current feature gets convert to a floor and the possible floor types include glass which is permanent. An unpassable feature is undesirable, so the glass gets convert to  — synced from report
+- [x] `cave.cc:3885` **place_filler**(int y, int x) — Place a cave filler at (y, x)
+- [x] `cave.cc:3895` **mmove2**(int *y, int *x, int y1, int x1, int y2, int x2) — Calculate "incremental motion". Used by project() and shoot(). Assumes that ( y, x) lies on the path from (y1,x1) to (y2,x2). — synced from report
+- [x] `cave.cc:3953` **projectable**(int y1, int x1, int y2, int x2) — Determine if a bolt spell cast from (y1,x1) to (y2,x2) will arrive at the final destination, assuming no monster gets in the way. This is slightly (but significantly) different from "los(y1,x1,y2,x2)" — synced from report
+- [x] `cave.cc:4002` **scatter**(int *yp, int *xp, int y, int x, int d) — Standard "find me a location" function Obtains a legal location within the given distance of the initial location, and with "los()" from the source to destination location. This function is often call — synced from report
+- [~] `cave.cc:4038` **health_track**(int m_idx) — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:4052` **monster_race_track**(int r_idx, int ego) — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:4067` **object_track**(object_type *o_ptr) — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:4085` **disturb**() — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:4132` **disturb_on_state**() — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [~] `cave.cc:4145` **disturb_on_other**() — [~] flow/追踪/中断：port 用 TurnState(running/resting) + 目标锁，跑步由 input.rs/game.rs 的 run/rest driver 直接驱动（game.rs:11865/11888）；accept.py cave-runtime 类机械复核
+- [x] `cave.cc:4159` **random_quest_number**() — Return the index of the random quest on this level (or zero)
+- [x] `cave.cc:4181` **is_quest**(int level) — Hack -- Check if a level is a "quest" level — synced from report
+- [x] `cave.cc:4240` **cave_floor_bold**(int y, int x) — Determine if a "legal" grid is a "floor" grid Line 1 -- forbid doors, rubble, seams, walls Note that the terrain features are split by a one bit test into those features which block line of sight and 
+- [x] `cave.cc:4248` **cave_floor_grid**(cave_type const *c) — Grid based version of "cave_floor_bold()"
+- [x] `cave.cc:4261` **cave_plain_floor_bold**(int y, int x) — Determine if a "legal" grid is floor without the REMEMBER flag set Sometimes called "boring" grid
+- [x] `cave.cc:4269` **cave_plain_floor_grid**(cave_type const *c) — Grid based version of "cave_plain_floor_bold()"
+- [x] `cave.cc:4292` **cave_sight_bold**(int y, int x) — Determine if a "legal" grid isn't a "blocking line of sight" grid Line 1 -- forbid doors, rubble, seams, walls Note that the terrain features are split by a one bit test into those features which bloc
+- [x] `cave.cc:4297` **cave_sight_grid**(cave_type const *c)
+- [x] `cave.cc:4313` **cave_clean_bold**(int y, int x) — Determine if a "legal" grid is a "clean" floor grid Line 1 -- forbid non-floors Line 2 -- forbid deep water -KMW- Line 3 -- forbid deep lava -KMW- Line 4 -- forbid normal objects — synced from report
+- [x] `cave.cc:4330` **cave_empty_bold**(int y, int x) — Determine if a "legal" grid is an "empty" floor grid Line 1 -- forbid doors, rubble, seams, walls Line 2 -- forbid normal monsters Line 3 -- forbid the player
+- [x] `cave.cc:4346` **cave_naked_bold**(int y, int x) — Determine if a "legal" grid is an "naked" floor grid Line 1 -- forbid non-floors, non-shallow water & lava -KMW- Line 2 -- forbid normal objects Line 3 -- forbid player/monsters — synced from report
+- [x] `cave.cc:4357` **cave_naked_bold2**(int y, int x)
+- [x] `cave.cc:4371` **cave_perma_bold**(int y, int x) — Determine if a "legal" grid is "permanent"
+- [x] `cave.cc:4376` **cave_perma_grid**(cave_type const *c)
+- [x] `cave.cc:4388` **player_has_los_bold**(int y, int x) — Determine if a "legal" grid is within "los" of the player Note the use of comparison to zero to force a "boolean" result
+- [x] `cave.cc:4398` **player_can_see_bold**(int y, int x) — Determine if a "legal" grid can be "seen" by the player Note the use of comparison to zero to force a "boolean" result
+
+## generate.cc (95 defs)
+
+- [x] `generate.cc:339` **correct_dir**(int *rdir, int *cdir, int y1, int x1, int y2, int x2) — Always picks a correct direction
+- [x] `generate.cc:363` **rand_dir**(int *rdir, int *cdir) — Pick a random direction
+- [x] `generate.cc:377` **place_up_stairs**(int y, int x) — Convert existing terrain type to "up stairs"
+- [x] `generate.cc:399` **place_down_stairs**(int y, int x) — Convert existing terrain type to "down stairs"
+- [x] `generate.cc:428` **is_safe_floor**(int y, int x) — Helper function for place_new_way. Determine if y, x is one of floor features of the current dungeon — synced from report
+- [x] `generate.cc:448` **place_new_way**(int *y, int *x) — Place a way to next / previoous level on flat places — synced from report
+- [x] `generate.cc:684` **new_player_spot**(int branch) — Returns random co-ordinates for player/monster/object — synced from report
+- [x] `generate.cc:758` **next_to_walls**(int y, int x) — Count the number of walls adjacent to the given grid. Note -- Assumes "in_bounds(y, x)" We count only granite walls and permanent walls.
+- [x] `generate.cc:777` **place_rubble**(int y, int x) — Convert existing terrain type to rubble
+- [x] `generate.cc:787` **place_altar**(int y, int x) — Place an altar at the given location
+- [x] `generate.cc:797` **place_fountain**(int y, int x) — Place a fountain at the given location — synced from report
+- [x] `generate.cc:846` **place_between**(int y, int x) — Place a between gate at the given location — synced from report
+- [x] `generate.cc:875` **place_random_stairs**(int y, int x) — Place an up/down staircase at given location — synced from report
+- [x] `generate.cc:909` **place_locked_door**(int y, int x) — Place a locked door at the given location
+- [x] `generate.cc:919` **place_random_door**(int y, int x) — Place a random type of door at the given location — synced from report
+- [x] `generate.cc:974` **alloc_stairs**(int feat, int num, int walls, int branch) — Places some staircases near walls — synced from report
+- [x] `generate.cc:1069` **alloc_object**(int set, int typ, int num) — Allocates some objects (using "place" and "type") — synced from report
+- [x] `generate.cc:1161` **build_rectangle**(int y1, int x1, int y2, int x2, int feat, int info) — The following functions create a rectangle (e.g. outer wall of rooms)
+- [x] `generate.cc:1196` **recursive_river**(int x1, int y1, int x2, int y2, int feat1, int feat2, int width) — Place water through the dungeon using recursive fractal algorithm Why do those good at math and/or algorithms tend not to place any spaces around binary operators? I've been always wondering. This see — synced from report
+- [x] `generate.cc:1307` **add_river**(int feat1, int feat2) — Places water through dungeon. — synced from report
+- [x] `generate.cc:1362` **build_streamer**(int feat, int chance) — Places "streamers" of rock through dungeon Note that their are actually six different terrain features used to represent streamers. Three each of magma and quartz, one for basic vein, one with hidden  — synced from report
+- [x] `generate.cc:1447` **build_streamer2**(int feat, int killwall) — Place streams of water, lava, & trees -KMW- This routine varies the placement based on dungeon level otherwise is similar to build_streamer — synced from report
+- [x] `generate.cc:1571` **destroy_level**() — Build a destroyed level — synced from report
+- [x] `generate.cc:1666` **get_is_floor**(int x, int y) — Function that sees if a square is a floor (Includes range checking)
+- [x] `generate.cc:1683` **check_room_boundary**(int x1, int y1, int x2, int y2) — Tunnel around a room if it will cut off part of a cave system — synced from report
+- [x] `generate.cc:1768` **vault_objects**(int y, int x, int num) — Create up to "num" objects near the given coordinates Only really called by some of the "vault" routines.
+- [x] `generate.cc:1824` **vault_monsters**(int y1, int x1, int num) — Hack -- Place some sleeping monsters near the given location — synced from report
+- [x] `generate.cc:1860` **room_alloc**(int width, int height, bool crowded, int by0, int bx0, int *cx, int *cy) — Allocate the space needed by a room in the room_map array. width, height represent the size of the room (0...x-1) by (0...y-1). crowded is used to denote a monset nest. by0, bx0 are the positions in t — synced from report
+- [x] `generate.cc:1949` **build_type1**(int by0, int bx0) — Type 1 -- normal rectangular rooms — synced from report
+- [x] `generate.cc:2022` **build_type2**(int by0, int bx0) — Type 2 -- Overlapping rectangular rooms — synced from report
+- [x] `generate.cc:2085` **build_type3**(int by0, int bx0) — Type 3 -- Cross shaped rooms Builds a room at a row, column coordinate Room "a" runs north/south, and Room "b" runs east/east So the "central pillar" runs from x1a,y1b to x2a,y2b. Note that currently, — synced from report
+- [x] `generate.cc:2256` **build_type4**(int by0, int bx0) — Type 4 -- Large room with inner features Possible sub-types: 1 - Just an inner room with one door 2 - An inner room within an inner room 3 - An inner room with pillar(s) 4 - Inner room has a maze 5 -  — synced from report
+- [x] `generate.cc:2564` **vault_aux_jelly**(monster_race const *r_ptr) — Determine if the given monster is appropriate for inclusion in a monster nest or monster pit or the given type. None of the pits/nests are allowed to include "unique" monsters, or monsters which can "
+- [x] `generate.cc:2579` **vault_aux_animal**(monster_race const *r_ptr)
+- [x] `generate.cc:2591` **vault_aux_undead**(monster_race const *r_ptr)
+- [x] `generate.cc:2603` **vault_aux_chapel**(monster_race const *r_ptr)
+- [x] `generate.cc:2618` **vault_aux_kennel**(monster_race const *r_ptr)
+- [x] `generate.cc:2627` **vault_aux_treasure**(monster_race const *r_ptr) — synced from report
+- [x] `generate.cc:2646` **vault_aux_clone**(monster_race const *r_ptr) — synced from report
+- [x] `generate.cc:2651` **vault_aux_symbol**(monster_race const *r_ptr) — synced from report
+- [x] `generate.cc:2657` **vault_aux_orc**(monster_race const *r_ptr)
+- [x] `generate.cc:2669` **vault_aux_troll**(monster_race const *r_ptr)
+- [x] `generate.cc:2681` **vault_aux_giant**(monster_race const *r_ptr)
+- [x] `generate.cc:2693` **vault_aux_demon**(monster_race const *r_ptr)
+- [x] `generate.cc:2730` **build_type5**(int by0, int bx0) — Type 5 -- Monster nests A monster nest is a "big" room, with an "inner" room, containing a "collection" of monsters of a given type strewn about the room. The monsters are chosen from a set of 64 rand — synced from report
+- [x] `generate.cc:2970` **build_type6**(int by0, int bx0) — Type 6 -- Monster pits A monster pit is a "big" room, with an "inner" room, containing a "collection" of monsters of a given type organized in the room. Monster types in the pit (list out of date...)  — synced from report
+- [x] `generate.cc:3298` **build_vault**(int yval, int xval, int ymax, int xmax, std::string const &data) — Hack -- fill in "vault" rooms
+- [x] `generate.cc:3544` **build_type7**(int by0, int bx0) — Type 7 -- simple vaults (see "v_info.txt")
+- [x] `generate.cc:3610` **build_type8**(int by0, int bx0) — Type 8 -- greater vaults (see "v_info.txt")
+- [x] `generate.cc:3679` **build_type9**(int by0, int bx0) — DAG: Build an vertical oval room. For every grid in the possible square, check the distance. If it's less than or == than the radius, make it a room square. If its less, make it a normal grid. If it's — synced from report
+- [x] `generate.cc:3715` **store_height**(int x, int y, int x0, int y0, byte val, int xhsize, int yhsize, int cutoff) — Store routine for the fractal cave generator this routine probably should be an inline function or a macro
+- [x] `generate.cc:3789` **generate_hmap**(int y0, int x0, int xsiz, int ysiz, int grd, int roug, int cutoff) — Note that this uses the cave.feat array in a very hackish way the values are first set to zero, and then each array location is used as a "heightmap" The heightmap then needs to be converted back into — synced from report
+- [x] `generate.cc:3989` **hack_isnt_wall**(int y, int x, int cutoff) — Convert from height-map back to the normal Angband cave format
+- [x] `generate.cc:4023` **fill_hack**(int y0, int x0, int y, int x, int xsize, int ysize, int cutoff, int *amount) — Quick and nasty fill routine used to find the connected region of floor in the middle of the cave
+- [x] `generate.cc:4060` **generate_fracave**(int y0, int x0, int xsize, int ysize, int cutoff, bool light, bool room) — synced from report
+- [x] `generate.cc:4295` **build_cavern**() — Makes a cave system in the center of the dungeon — synced from report
+- [x] `generate.cc:4334` **build_type10**(int by0, int bx0) — Driver routine to create fractal cave system — synced from report
+- [x] `generate.cc:4386` **build_small_room**(int x0, int y0) — Make a very small room centred at (x0, y0) This is used in crypts, and random elemental vaults. Note - this should be used only on allocated regions within another room. — synced from report
+- [x] `generate.cc:4430` **add_door**(int x, int y) — Add a door to a location in a random vault Note that range checking has to be done in the calling routine. The doors must be INSIDE the allocated region. — synced from report
+- [x] `generate.cc:4484` **fill_treasure**(int x1, int x2, int y1, int y2, int difficulty) — Fill the empty areas of a room with treasure and monsters. — synced from report
+- [x] `generate.cc:4630` **build_bubble_vault**(int x0, int y0, int xsize, int ysize) — #define BUBBLENUM 10 number of bubbles — synced from report
+- [x] `generate.cc:4762` **convert_extra**(int y1, int x1, int y2, int x2) — Convert FEAT_WALL_EXTRA (used by random vaults) to normal dungeon wall — synced from report
+- [x] `generate.cc:4786` **build_room**(int x1, int x2, int y1, int y2) — Overlay a rectangular room given its bounds This routine is used by build_room_vault (hence FEAT_WALL_OUTER) The area inside the walls is not touched: only granite is removed and normal walls stay — synced from report
+- [x] `generate.cc:4840` **build_room_vault**(int x0, int y0, int xsize, int ysize) — Create a random vault that looks like a collection of overlapping rooms — synced from report
+- [x] `generate.cc:4898` **build_cave_vault**(int x0, int y0, int xsiz, int ysiz) — Create a random vault out of a fractal cave — synced from report
+- [x] `generate.cc:4966` **r_visit**(int y1, int x1, int y2, int x2, int node, int dir, int *visited) — Maze vault -- rectangular labyrinthine rooms maze vault uses two routines: r_visit - a recursive routine that builds the labyrinth build_maze_vault - a driver routine that calls r_visit and adds monst — synced from report
+- [x] `generate.cc:5067` **build_maze_vault**(int x0, int y0, int xsize, int ysize) — synced from report
+- [x] `generate.cc:5139` **build_mini_c_vault**(int x0, int y0, int xsize, int ysize) — Build a "mini" checkerboard vault This is done by making a permanent wall maze and setting the diagonal sqaures of the checker board to be granite. The vault has two entrances on opposite sides to gua — synced from report
+- [x] `generate.cc:5228` **build_recursive_room**(int x1, int y1, int x2, int y2, int power) — Build a town/ castle by using a recursive algorithm. Basically divide each region in a probalistic way to create smaller regions. When the regions get too small stop. The power variable is a measure o — synced from report
+- [x] `generate.cc:5439` **build_castle_vault**(int x0, int y0, int xsize, int ysize) — Build a castle Clear the region and call the recursive room routine. This makes a vault that looks like a castle or city in the dungeon. — synced from report
+- [x] `generate.cc:5485` **add_outer_wall**(int x, int y, int light, int x1, int y1, int x2, int y2) — Add outer wall to a floored region Note: no range checking is done so must be inside dungeon This routine also stomps on doors — synced from report
+- [x] `generate.cc:5537` **dist2**(int x1, int y1, int x2, int y2, int h1, int h2, int h3, int h4) — Hacked distance formula - gives the 'wrong' answer Used to build crypts — synced from report
+- [x] `generate.cc:5568` **build_target_vault**(int x0, int y0, int xsize, int ysize) — Build target vault This is made by two concentric "crypts" with perpendicular walls creating the cross-hairs. — synced from report
+- [x] `generate.cc:5701` **build_type11**(int by0, int bx0) — Random vaults — synced from report
+- [x] `generate.cc:5794` **build_type12**(int by0, int bx0) — Build crypt room. For every grid in the possible square, check the (fake) distance. If it's less than the radius, make it a room square. When done fill from the inside to find the walls, — synced from report
+- [x] `generate.cc:5912` **build_tunnel**(int row1, int col1, int row2, int col2, bool water) — Constructs a tunnel between two points This function must be called BEFORE any streamers are created, since we use the special "granite wall" sub-types to keep track of legal places for corridors to p — synced from report
+- [x] `generate.cc:6169` **next_to_corr**(int y1, int x1) — Count the number of "corridor" grids adjacent to the given grid. Note -- Assumes "in_bounds(y1, x1)" XXX XXX This routine currently only counts actual "empty floor" grids which are not in rooms. We mi — synced from report
+- [x] `generate.cc:6216` **possible_doorway**(int y, int x) — Determine if the given location is "between" two walls, and "next to" two corridor spaces. XXX XXX XXX Assumes "in_bounds(y,x)" — synced from report
+- [x] `generate.cc:6246` **try_doors**(int y, int x) — Places doors around y, x position — synced from report
+- [x] `generate.cc:6364` **room_build**(int y, int x, int typ) — Attempt to build a room of the given type at the given block Note that we restrict the number of "crowded" rooms to reduce the chance of overflowing the monster list during level creation. — synced from report
+- [x] `generate.cc:6425` **set_bounders**(bool empty_level) — Set level boundaries
+- [x] `generate.cc:6475` **fill_level**(bool use_floor, byte smooth) — Needed to refill empty levels
+- [x] `generate.cc:6480` **level_generate_dungeon**() — Generate a normal dungeon level — synced from report
+- [x] `generate.cc:6988` **replace_all_friends**() — Bring the imprinted pets from the old level — synced from report
+- [x] `generate.cc:7023` **save_all_friends**() — Save the imprinted pets from the old level — synced from report
+- [x] `generate.cc:7041` **init_feat_info**() — Build probability tables for walls and floors and set feat_wall_outer and feat_wall_inner according to the current information in d_info.txt hint hint with this made extern, and we no longer have to s — synced from report
+- [x] `generate.cc:7149` **fill_level**(bool use_floor, byte smooth)
+- [x] `generate.cc:7320` **supersize_grid_tile**(int sy, int sx, int ty, int tx) — @brief double a grid tile. Used for the double-size dungeons
+- [x] `generate.cc:7403` **cave_gen**() — Generate a new dungeon level Note that "dun_body" adds about 4000 bytes of memory to the stack. — synced from report
+- [x] `generate.cc:7910` **build_special_level**() — synced from report
+- [x] `generate.cc:7984` **wipe_special_level**() — Prepare regeneration of a special level, which should not happen, but just in case...
+- [x] `generate.cc:8021` **finalise_special_level**() — Finalise generation of a special level
+- [x] `generate.cc:8058` **generate_grid_mana**() — Give some magical energy to the each grid of the level
+- [x] `generate.cc:8098` **clear_dungeon**() — Clear dungeon
+- [x] `generate.cc:8127` **generate_cave**() — Generates a random dungeon level -RAK- Hack -- regenerate any "overflow" levels Hack -- allow auto-scumming via a gameplay option. — synced from report
+
+## gen_maze.cc (2 defs)
+
+- [x] `gen_maze.cc:27` **dig**(maze_row *maze, int y, int x, int d) — synced from report
+- [x] `gen_maze.cc:146` **level_generate_maze**() — synced from report
+
+## gen_evol.cc (2 defs)
+
+- [x] `gen_evol.cc:25` **evolve_level**(bool noise) — Generate a game of life level :) and make it evolve — synced from report
+- [x] `gen_evol.cc:137` **level_generate_life**() — synced from report
+
+## dungeon.cc (22 defs)
+
+- [x] `dungeon.cc:91` **granted_resurrection**() — Can a player be resurrected?
+- [x] `dungeon.cc:107` **recharged_notice**(object_type *o_ptr) — If player has inscribed the object with "!!", let him know when it's recharged. -LM- — synced from report
+- [x] `dungeon.cc:152` **regenhp**(int percent) — Regenerate hit points -RAK- — synced from report
+- [x] `dungeon.cc:210` **regenmana**(int percent) — Regenerate mana points -RAK- — synced from report
+- [x] `dungeon.cc:272` **regen_monsters**() — Regenerate the monsters (once per 100 game turns) XXX XXX XXX Should probably be done during monster turns. — synced from report
+- [x] `dungeon.cc:349` **decays**(object_type *o_ptr) — Does an object decay? Should belong to object1.c, renamed to object_decays() -- pelpel — synced from report
+- [x] `dungeon.cc:356` **process_lasting_spell**(s16b music)
+- [x] `dungeon.cc:362` **check_music**()
+- [x] `dungeon.cc:392` **apply_effect**(int y, int x) — Generate the feature effect — synced from report
+- [x] `dungeon.cc:445` **process_world_corruptions**() — Hook for corruptions — synced from report
+- [~] `dungeon.cc:488` **grace_delay_trigger**() — n/a per report — synced from report
+- [~] `dungeon.cc:509` **process_world_gods**() — Hook for gods — n/a per report — synced from report
+- [x] `dungeon.cc:707` **is_light_safe**(object_type const *o_ptr) — Is the light source safe for creatures sensitive to light?
+- [x] `dungeon.cc:725` **process_lasting_effects**() — Process lasting effects — synced from report
+- [x] `dungeon.cc:992` **process_world**() — Handle certain things once every 10 game turns Note that a single movement in the overhead wilderness mode consumes 132 times as much energy as a normal one... — game.rs::upkeep + game.rs::monster_turns — synced from report
+- [~] `dungeon.cc:2720` **enter_wizard_mode**() — [~] 启动/主循环/向导与 pref 文件（Bevy 启动与无向导模式）；accept.py startup 类机械复核
+- [~] `dungeon.cc:2748` **enter_debug_mode**() — [~] 启动/主循环/向导与 pref 文件（Bevy 启动与无向导模式）；accept.py startup 类机械复核
+- [x] `dungeon.cc:2779` **process_command**(s16b *command_ptr) — Parse and execute the current command Give "Warning" on illegal commands. XXX XXX XXX Make some "blocks" — synced from report
+- [x] `dungeon.cc:3706` **process_player**() — Process the player Notice the annoying code to handle "pack overflow", which must come first just in case somebody manages to corrupt the savefiles by clever use of menu commands or something. — synced from report
+- [~] `dungeon.cc:4157` **dungeon**() — Interact with the current dungeon level. This function will not exit until the level is completed, the user dies, or the game is terminated. — n/a per report — synced from report
+- [~] `dungeon.cc:4539` **load_all_pref_files**() — [~] 启动/主循环/向导与 pref 文件（Bevy 启动与无向导模式）；accept.py startup 类机械复核
+- [~] `dungeon.cc:4571` **play_game**(program_args const &args) — [~] 启动/主循环/向导与 pref 文件（Bevy 启动与无向导模式）；accept.py startup 类机械复核
+
+## wild.cc (18 defs)
+
+- [x] `wild.cc:53` **perturb_point_mid**(int x1, int x2, int x3, int x4, int xmid, int ymid, int rough, int depth_max) — Helper for plasma generation.
+- [x] `wild.cc:77` **perturb_point_end**(int x1, int x2, int x3, int xmid, int ymid, int rough, int depth_max)
+- [x] `wild.cc:111` **plasma_recursive**(int x1, int y1, int x2, int y2, int depth_max, int rough) — A generic function to generate the plasma fractal. Note that it uses ``cave_feat'' as temporary storage. The values in ``cave_feat'' after this function are NOT actual features; They are raw heights w
+- [x] `wild.cc:157` **generate_area**(int y, int x, bool corner) — Load a town or generate a terrain level using "plasma" fractals. x and y are the coordinates of the area in the wilderness. Border and corner are optimization flags to speed up the generation of the f — synced from report
+- [x] `wild.cc:377` **wilderness_gen**() — Build the wilderness area outside of the town. -KMW- — synced from report
+- [x] `wild.cc:581` **wilderness_gen_small**() — Build the wilderness area. -DG-
+- [x] `wild.cc:653` **reveal_wilderness_around_player**(int y, int x, int h, int w) — Show a small radius of wilderness around the player — synced from report
+- [x] `wild.cc:736` **build_store**(int qy, int qx, int n, int yy, int xx) — Builds a store at a given pseudo-location As of 2.8.1 (?) the town is actually centered in the middle of a complete level, and thus the top left corner of the town itself is no longer at (0,0), but ra
+- [x] `wild.cc:815` **build_store_circle**(int qy, int qx, int n, int yy, int xx)
+- [x] `wild.cc:888` **build_store_hidden**(int n, int yy, int xx)
+- [x] `wild.cc:945` **set_border**(int y, int x) — Generate town borders
+- [x] `wild.cc:978` **town_borders**(int qy, int qx)
+- [x] `wild.cc:1007` **create_townpeople_hook**(monster_race const *r_ptr)
+- [x] `wild.cc:1013` **place_townspeople**(int qy, int qx) — synced from report
+- [x] `wild.cc:1073` **town_gen_hack**(int qy, int qx) — Generate the "consistent" town features, and place the player Hack -- play with the R.N.G. to always yield the same town layout, including the size and shape of the buildings, the locations of the doo — synced from report
+- [x] `wild.cc:1120` **town_gen_circle**(int qy, int qx) — synced from report
+- [x] `wild.cc:1210` **town_gen_hidden**() — synced from report
+- [x] `wild.cc:1266` **town_gen**(int t_idx) — Town logic flow for generation of new town We start with a fully wiped cave of normal floors. Note that town_gen_hack() plays games with the R.N.G. This function does NOT do anything about the owners  — synced from report
+

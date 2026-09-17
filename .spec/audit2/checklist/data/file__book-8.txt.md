@@ -1,0 +1,38 @@
+# 数据清单：lib/file/book-8.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-8.txt:2` [line] 		       Artifact Lore, Vol. III
+- [ ] `lib/file/book-8.txt:3` [line] 			Ancient Magical Tools
+- [ ] `lib/file/book-8.txt:4` [line] 		       -----------------------
+- [ ] `lib/file/book-8.txt:7` [line]   The Amulet of Ingwe (+3)
+- [ ] `lib/file/book-8.txt:8` [line] 	This amulet belonged to the high king of  the  Vanyar,  the 
+- [ ] `lib/file/book-8.txt:9` [line] 	most powerful of the High Elves. It gives  resistance,  and
+- [ ] `lib/file/book-8.txt:10` [line] 	greatly increases your wisdom and charisma.  It  gives  you
+- [ ] `lib/file/book-8.txt:11` [line] 	good infravision, see invisible, and it casts a x5 strength
+- [ ] `lib/file/book-8.txt:12` [line] 	dispel evil.
+- [ ] `lib/file/book-8.txt:14` [line]   The Amulet of Carlammas (+2)
+- [ ] `lib/file/book-8.txt:15` [line] 	This fiery amulet protects from  flame,    casts protection
+- [ ] `lib/file/book-8.txt:16` [line] 	from evil and increases your constitution.
+- [ ] `lib/file/book-8.txt:18` [line]   The Phial of Galadriel (+4)
+- [ ] `lib/file/book-8.txt:19` [line] 	This wonderful object is an infinite light source, and once
+- [ ] `lib/file/book-8.txt:20` [line] 	identified it can light up rooms. 
+- [ ] `lib/file/book-8.txt:22` [line]   The Three Elven Rings
+- [ ] `lib/file/book-8.txt:23` [line] 	Made by Celebrimbor,  Elf  of  the  Girth-I-Mirdain.  These
+- [ ] `lib/file/book-8.txt:24` [line] 	Rings of Power are of awesome power, and are very rare.
+- [ ] `lib/file/book-8.txt:26` [line]   The Ring of Power 'Narya' (+1)
+- [ ] `lib/file/book-8.txt:27` [line] 	Celeborn gave this to Cirdan who gave it to Gandalf.
+- [ ] `lib/file/book-8.txt:28` [line] 	The least powerful of the Elven  rings  is  of  the element 
+- [ ] `lib/file/book-8.txt:29` [line] 	fire. And as such makes you completely immune to  fire.  It 
+- [ ] `lib/file/book-8.txt:30` [line] 	is also capable of casting very  powerful  fire  balls.  It 
+- [ ] `lib/file/book-8.txt:31` [line] 	increases all your stats by  one.  It  also  protects  from 
+- [ ] `lib/file/book-8.txt:32` [line] 	from life draining and helps you regenerate.
+- [ ] `lib/file/book-8.txt:34` [line]   The Ring of Power 'Nenya' (+2)
+- [ ] `lib/file/book-8.txt:35` [line] 	This was kept by Galadriel.
+- [ ] `lib/file/book-8.txt:36` [line] 	As Narya is to fire, Nenya is to Frost... Plus two  to  all 
+- [ ] `lib/file/book-8.txt:37` [line] 	your stats.
+- [ ] `lib/file/book-8.txt:39` [line]   The Ring of Power 'Vilya' (+3)
+- [ ] `lib/file/book-8.txt:40` [line] 	This was kept by Gil-galad who gave it to Elrond.
+- [ ] `lib/file/book-8.txt:41` [line] 	This gives immunity to lightning and resists poison.  Plus three
+- [ ] `lib/file/book-8.txt:42` [line] 	to all your stats.  Casts very powerful lightning balls.
+- [ ] `lib/file/book-8.txt:44` [line]   Rumors exist of  a Ring of Power known as the One Ring, which was
+- [ ] `lib/file/book-8.txt:45` [line]   made  to master  the other Rings of Power.   Its  powers are what
+- [ ] `lib/file/book-8.txt:46` [line]   legends are made of....

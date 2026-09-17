@@ -1,0 +1,73 @@
+# 数据清单：lib/edit/readme.txt（doc，逐条/逐行）
+
+- [~] `lib/edit/readme.txt:1` [doc] File: a_info.txt
+- [~] `lib/edit/readme.txt:2` [doc] This file is used to initialize the "artifact" information for the Angband game.
+- [~] `lib/edit/readme.txt:3` [doc] This is were you find Cubragol, The Phial , Ringil etc.
+- [~] `lib/edit/readme.txt:5` [doc] File: ba_info.txt
+- [~] `lib/edit/readme.txt:6` [doc] This file is used used to initialize the "store/building actions type" information for the Angband game.
+- [~] `lib/edit/readme.txt:7` [doc] This is where you find the ID numbers for 'Presage fate', 'Play craps' , 'Sell an item' etc.
+- [~] `lib/edit/readme.txt:9` [doc] File: d_info.txt
+- [~] `lib/edit/readme.txt:10` [doc] This file is used to used to set the dungeons for the Angband game.
+- [~] `lib/edit/readme.txt:11` [doc] This is where you find 'Barrow Downs', 'The Maze' , 'Mordor' etc.
+- [~] `lib/edit/readme.txt:13` [doc] File: e_info.txt
+- [~] `lib/edit/readme.txt:14` [doc] This file is used to initialize the "ego-item" information for the Angband game.
+- [~] `lib/edit/readme.txt:15` [doc] This is where you find 'Helms of the Noldor' , 'Filthy rags of leprousness' , 'Boots of Jumping' etc.
+- [~] `lib/edit/readme.txt:17` [doc] File: f_info.txt
+- [~] `lib/edit/readme.txt:18` [doc] This file is used to used to initialize the "terrain feature" information for the Angband game.
+- [~] `lib/edit/readme.txt:19` [doc] This is where you find the ID numbers for 'Underground tunnel' , 'grass with flowers' , 'open floor' etc.
+- [~] `lib/edit/readme.txt:21` [doc] File: k_info.txt
+- [~] `lib/edit/readme.txt:22` [doc] This file is used to initialize the "object kind" information for the Angband game.
+- [~] `lib/edit/readme.txt:23` [doc] This is where you find 'Katanas' , 'Mushrooms of Sickness' , 'Jewel Encrusted Crowns' etc.
+- [~] `lib/edit/readme.txt:25` [doc] File: misc.txt
+- [~] `lib/edit/readme.txt:26` [doc] This file contains a lot of 'maximums ' for the Angband game.
+- [~] `lib/edit/readme.txt:27` [doc] This is where you find 'Maximum number of skills in s_info.txt' ,
+- [~] `lib/edit/readme.txt:28` [doc] 'Maximum number of items in k_info.txt' , 'Maximum number of artifacts in a_info.txt' etc.
+- [~] `lib/edit/readme.txt:30` [doc] File: ow_info.txt
+- [~] `lib/edit/readme.txt:31` [doc] This file is used to initialize the "owner info type" information for the Angband game.
+- [~] `lib/edit/readme.txt:32` [doc] This is where you find 'Bilbo the Friendly(Hobbit)' , 'Raistlin the Chicken(Human)' ,
+- [~] `lib/edit/readme.txt:33` [doc] Inglorian the Mage(Human) etc.
+- [~] `lib/edit/readme.txt:35` [doc] File: p_info.txt
+- [~] `lib/edit/readme.txt:36` [doc] This file is used to initialize the "player race/race mod/class" information for the Angband game.
+- [~] `lib/edit/readme.txt:37` [doc] You will find here races like 'Humans' , subraces like 'Vampire', classes like 'Monk'
+- [~] `lib/edit/readme.txt:39` [doc] File: r_info.txt
+- [~] `lib/edit/readme.txt:40` [doc] This file is used to initialize the "monster race" information for the Angband game.
+- [~] `lib/edit/readme.txt:41` [doc] You will find here monsters like 'Marylene, Heartbreakeress of the Netherworld',
+- [~] `lib/edit/readme.txt:42` [doc] 'The Minotaur of the Labyrinth' , 'Morgoth, Lord of Darkness' etc.
+- [~] `lib/edit/readme.txt:44` [doc] File: ra_info.txt
+- [~] `lib/edit/readme.txt:45` [doc] This file is used to initialize the "randart parts" information for the Angband game.
+- [~] `lib/edit/readme.txt:46` [doc] Here you will find info for random artefacts made of 'Mage Staves' , 'Lights' , 'Gloves' etc.
+- [~] `lib/edit/readme.txt:48` [doc] File: re_info.txt
+- [~] `lib/edit/readme.txt:49` [doc] This file is used to initialize the "monster ego race" information for the Angband game.
+- [~] `lib/edit/readme.txt:50` [doc] Here you will find ego monster types like 'Spectral','Skeleton','Archer' etc.
+- [~] `lib/edit/readme.txt:52` [doc] File: s_info.txt
+- [~] `lib/edit/readme.txt:53` [doc] This file is used to initialize the "skills" information for the ToME game.
+- [~] `lib/edit/readme.txt:54` [doc] Here you will find player & monster skills, 8you can use their IDs in other files(?),
+- [~] `lib/edit/readme.txt:55` [doc] You will find skills like 'Bearform-combat' , 'Necromancy' , 'Spell-power' etc.
+- [~] `lib/edit/readme.txt:57` [doc] File: set_info.txt
+- [~] `lib/edit/readme.txt:58` [doc] This file is used to initialize the "lib/raw/set_info.raw" file, which is
+- [~] `lib/edit/readme.txt:59` [doc] used to initialize the "item set" information for the Angband game.
+- [~] `lib/edit/readme.txt:60` [doc] You find linked Items like 'The bow of Bard' & 'The arrow of Bard'
+- [~] `lib/edit/readme.txt:61` [doc] It is like totally unclear to me what this does, especially because
+- [~] `lib/edit/readme.txt:62` [doc] the big spider doesnt drop Sting, hint hint !
+- [~] `lib/edit/readme.txt:64` [doc] File: special.txt
+- [~] `lib/edit/readme.txt:65` [doc] Contains terrain parsings for the special levels now being kept in seperate map files
+- [~] `lib/edit/readme.txt:66` [doc] You will find there entries as in f_info.txt
+- [~] `lib/edit/readme.txt:68` [doc] File: st_info.txt
+- [~] `lib/edit/readme.txt:69` [doc] This file is used to initialize the "store info type" information for the Angband game.
+- [~] `lib/edit/readme.txt:70` [doc] You will find there stores like 'Armoury' , 'Temple' , 'The Mathom-house' etc.
+- [~] `lib/edit/readme.txt:72` [doc] File: t_info.txt
+- [~] `lib/edit/readme.txt:73` [doc] Includes the town definitions of the game Angband
+- [~] `lib/edit/readme.txt:74` [doc] You will find here the towns like 'Gondor' , 'Bree' , 'Lothlorien' etc.
+- [~] `lib/edit/readme.txt:76` [doc] File: t_pref.txt
+- [~] `lib/edit/readme.txt:77` [doc] Defines the preferences for the town features
+- [~] `lib/edit/readme.txt:78` [doc] You will find there entries as in f_info.txt
+- [~] `lib/edit/readme.txt:80` [doc] File: v_info.txt
+- [~] `lib/edit/readme.txt:81` [doc] This file is used to initialize the "vault template" information for the Angband game.
+- [~] `lib/edit/readme.txt:82` [doc] You will find vaults like 'The I in the Storm' , 'Greater vault (mortuary temple of sety)' ,
+- [~] `lib/edit/readme.txt:83` [doc] 'Lesser vault (amenhotep I)' etc.
+- [~] `lib/edit/readme.txt:85` [doc] File: W_info.txt
+- [~] `lib/edit/readme.txt:86` [doc] This is the wilderness
+- [~] `lib/edit/readme.txt:87` [doc] Change the dimensions at your perils, most likely the game will crash !!!
+- [~] `lib/edit/readme.txt:89` [doc] File: wf_info.txt
+- [~] `lib/edit/readme.txt:90` [doc] This file is used to initialize the "wilderness feats" information for the Angband game.
+- [~] `lib/edit/readme.txt:91` [doc] You will stuff like 'Ekkaia, the Encircling Sea' , 'mountain' , 'Minas Anor' etc.

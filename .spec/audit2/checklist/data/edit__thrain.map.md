@@ -1,0 +1,21 @@
+# 数据清单：lib/edit/thrain.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/thrain.map:2` [feat] F:.:1:0:0:0:0:0:0:61
+- [ ] `lib/edit/thrain.map:5` [feat] F:1:1:0:951:0:0:0:0:61:2
+- [ ] `lib/edit/thrain.map:6` [feat] F:2:1:0:952:0:0:0:0:61:2
+- [ ] `lib/edit/thrain.map:7` [feat] F:o:1:0:866:0:0:0:0:61
+- [ ] `lib/edit/thrain.map:10` [feat] F:,:172:6:0:0:0:0:0:61
+- [ ] `lib/edit/thrain.map:13` [feat] F:x:61:6
+- [ ] `lib/edit/thrain.map:16` [feat] F:D:48:0:0:0:0:0:0:61
+- [ ] `lib/edit/thrain.map:19` [feat] F:l:85:0:0:0:0:0:0:61
+- [ ] `lib/edit/thrain.map:22` [row] D:          
+- [ ] `lib/edit/thrain.map:23` [row] D: xxxxxxxx 
+- [ ] `lib/edit/thrain.map:24` [row] D: xoooo..x 
+- [ ] `lib/edit/thrain.map:25` [row] D: xo2oo..x 
+- [ ] `lib/edit/thrain.map:26` [row] D: xlloo..x 
+- [ ] `lib/edit/thrain.map:27` [row] D: x,loo..D 
+- [ ] `lib/edit/thrain.map:28` [row] D: xlloo..x 
+- [ ] `lib/edit/thrain.map:29` [row] D: xo1oo..x 
+- [ ] `lib/edit/thrain.map:30` [row] D: xoooo..x 
+- [ ] `lib/edit/thrain.map:31` [row] D: xxxxxxxx 
+- [ ] `lib/edit/thrain.map:32` [row] D:          

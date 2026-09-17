@@ -1,0 +1,51 @@
+# 数据清单：lib/help/c_assass.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_assass.txt:1` [line] ~~~~~01|Assassin
+- [ ] `lib/help/c_assass.txt:2` [line] ~~~~~02|Classes|Assassin
+- [ ] `lib/help/c_assass.txt:3` [line] #####R=== Assassins ===
+- [ ] `lib/help/c_assass.txt:4` [line] #####GDescription
+- [ ] `lib/help/c_assass.txt:5` [line] Assassins are similar to Rogues, but have trained their combat abilities more
+- [ ] `lib/help/c_assass.txt:6` [line] extensively by neglecting the study of magic. They also tend to be more stealthy
+- [ ] `lib/help/c_assass.txt:7` [line] and careful in their dungeon exploration, but aren't so good at stealing,
+- [ ] `lib/help/c_assass.txt:8` [line] trapping and disarming as their more "peaceful" counterparts.
+- [ ] `lib/help/c_assass.txt:10` [line] Assassins have access to the schools of *****m_convey.txt*0[Conveyance], *****m_divin.txt*0[Divination] and *****m_tempo.txt*0[Temporal] magic.
+- [ ] `lib/help/c_assass.txt:12` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_assass.txt:13` [line] Strength         +2
+- [ ] `lib/help/c_assass.txt:14` [line] Intelligence     +1
+- [ ] `lib/help/c_assass.txt:15` [line] Wisdom           -2
+- [ ] `lib/help/c_assass.txt:16` [line] Dexterity        +3
+- [ ] `lib/help/c_assass.txt:17` [line] Constitution     +1
+- [ ] `lib/help/c_assass.txt:18` [line] Charisma         -1
+- [ ] `lib/help/c_assass.txt:19` [line] Hit Die          +d6
+- [ ] `lib/help/c_assass.txt:20` [line] Spell Points     +0%
+- [ ] `lib/help/c_assass.txt:21` [line] Exp Penalty      25%
+- [ ] `lib/help/c_assass.txt:23` [line] #####GStarting Skills
+- [ ] `lib/help/c_assass.txt:24` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_assass.txt:25` [line] Combat                  1.000           [0.800]
+- [ ] `lib/help/c_assass.txt:26` [line]   Weaponmastery         1.000           [0.800]
+- [ ] `lib/help/c_assass.txt:27` [line]     Sword-mastery       1.000           [0.600]
+- [ ] `lib/help/c_assass.txt:28` [line]       Critical-hits     2.000           [0.800]
+- [ ] `lib/help/c_assass.txt:29` [line]   Archery
+- [ ] `lib/help/c_assass.txt:30` [line]     Boomerang-mastery   1.000           [0.300]
+- [ ] `lib/help/c_assass.txt:31` [line] Sneakiness              1.000           [2.000]
+- [ ] `lib/help/c_assass.txt:32` [line]   Stealth               1.000           [2.000]
+- [ ] `lib/help/c_assass.txt:33` [line]   Disarming             1.000           [1.000]
+- [ ] `lib/help/c_assass.txt:34` [line]   Backstab              1.000           [2.000]
+- [ ] `lib/help/c_assass.txt:35` [line]   Stealing              1.000           [0.200]
+- [ ] `lib/help/c_assass.txt:36` [line]   Dodging               1.000           [2.000]
+- [ ] `lib/help/c_assass.txt:37` [line] Magic                   1.000           [0.200]
+- [ ] `lib/help/c_assass.txt:38` [line]   Magic-Device          1.000           [0.750]
+- [ ] `lib/help/c_assass.txt:39` [line]   Conveyance            0.000           [0.100]
+- [ ] `lib/help/c_assass.txt:40` [line]   Divination            0.000           [0.100]
+- [ ] `lib/help/c_assass.txt:41` [line]   Temporal              0.000           [0.200]
+- [ ] `lib/help/c_assass.txt:42` [line] Spirituality            1.000           [0.700]
+- [ ] `lib/help/c_assass.txt:43` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_assass.txt:44` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_assass.txt:46` [line] *An Assassin cannot learn the Archery skill, but it is shown in his skill 
+- [ ] `lib/help/c_assass.txt:47` [line] screen because Boomerang-mastery is a sub-skill of it.
+- [ ] `lib/help/c_assass.txt:49` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_assass.txt:50` [line] #####BAbility              Character level
+- [ ] `lib/help/c_assass.txt:51` [line] Extra Max Blow(1)           10
+- [ ] `lib/help/c_assass.txt:53` [line] #####GStarting Equipment
+- [ ] `lib/help/c_assass.txt:54` [line] An Assassin begins the game with:
+- [ ] `lib/help/c_assass.txt:55` [line]     a Dagger

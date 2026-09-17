@@ -1,0 +1,71 @@
+# 数据清单：lib/file/timefun.txt（text，逐条/逐行）
+
+- [ ] `lib/file/timefun.txt:1` [line] S:0000 
+- [ ] `lib/file/timefun.txt:2` [line] E:0059
+- [ ] `lib/file/timefun.txt:3` [line] D:It's the witching hour!
+- [ ] `lib/file/timefun.txt:5` [line] S:0100 
+- [ ] `lib/file/timefun.txt:6` [line] E:0259
+- [ ] `lib/file/timefun.txt:7` [line] D:There may be Vampires around!
+- [ ] `lib/file/timefun.txt:9` [line] S:0200 
+- [ ] `lib/file/timefun.txt:10` [line] E:0459
+- [ ] `lib/file/timefun.txt:11` [line] D:Only ToME players are up now!
+- [ ] `lib/file/timefun.txt:13` [line] S:0100 
+- [ ] `lib/file/timefun.txt:14` [line] E:0459
+- [ ] `lib/file/timefun.txt:15` [line] D:It's really *very* late!
+- [ ] `lib/file/timefun.txt:17` [line] S:0500 
+- [ ] `lib/file/timefun.txt:18` [line] E:0558
+- [ ] `lib/file/timefun.txt:19` [line] D:Aren't you sleepy yet?
+- [ ] `lib/file/timefun.txt:21` [line] S:0559 
+- [ ] `lib/file/timefun.txt:22` [line] E:0559
+- [ ] `lib/file/timefun.txt:23` [line] D:It doesn't matter what you found!
+- [ ] `lib/file/timefun.txt:25` [line] S:0600 
+- [ ] `lib/file/timefun.txt:26` [line] E:0759
+- [ ] `lib/file/timefun.txt:27` [line] D:The sun is up. Time to have fun!
+- [ ] `lib/file/timefun.txt:29` [line] S:0601
+- [ ] `lib/file/timefun.txt:30` [line] E:0800
+- [ ] `lib/file/timefun.txt:31` [line] D:Are you having fun yet?
+- [ ] `lib/file/timefun.txt:33` [line] S:0800 
+- [ ] `lib/file/timefun.txt:34` [line] E:0905
+- [ ] `lib/file/timefun.txt:35` [line] D:@$#$@$!%@$#%$@&$^#%@$!^#&#*
+- [ ] `lib/file/timefun.txt:37` [line] S:0800
+- [ ] `lib/file/timefun.txt:38` [line] E:1059
+- [ ] `lib/file/timefun.txt:39` [line] D:You feel there is something special about this level.
+- [ ] `lib/file/timefun.txt:41` [line] S:1100 
+- [ ] `lib/file/timefun.txt:42` [line] E:1159
+- [ ] `lib/file/timefun.txt:43` [line] D:You see a maze of twisty passages, all alike.
+- [ ] `lib/file/timefun.txt:45` [line] S:1155 
+- [ ] `lib/file/timefun.txt:46` [line] E:1200
+- [ ] `lib/file/timefun.txt:47` [line] D:Are you having fun yet?
+- [ ] `lib/file/timefun.txt:49` [line] S:1159 
+- [ ] `lib/file/timefun.txt:50` [line] E:1200
+- [ ] `lib/file/timefun.txt:51` [line] D:This fortune is broken!
+- [ ] `lib/file/timefun.txt:53` [line] S:1200 
+- [ ] `lib/file/timefun.txt:54` [line] E:1205
+- [ ] `lib/file/timefun.txt:55` [line] D:This fortune is still broken!
+- [ ] `lib/file/timefun.txt:57` [line] S:1200 
+- [ ] `lib/file/timefun.txt:58` [line] E:1359
+- [ ] `lib/file/timefun.txt:59` [line] D:Uh oh, now you've done it!
+- [ ] `lib/file/timefun.txt:61` [line] S:1400 
+- [ ] `lib/file/timefun.txt:62` [line] E:1729
+- [ ] `lib/file/timefun.txt:63` [line] D:What did you do with the Phial?
+- [ ] `lib/file/timefun.txt:65` [line] S:1730 
+- [ ] `lib/file/timefun.txt:66` [line] E:1744
+- [ ] `lib/file/timefun.txt:67` [line] D:You need your chocolate vitamin!
+- [ ] `lib/file/timefun.txt:69` [line] S:1745 
+- [ ] `lib/file/timefun.txt:70` [line] E:1759
+- [ ] `lib/file/timefun.txt:71` [line] D:Tornado Warning!
+- [ ] `lib/file/timefun.txt:73` [line] S:1759 
+- [ ] `lib/file/timefun.txt:74` [line] E:1800
+- [ ] `lib/file/timefun.txt:75` [line] D:Night is coming. Danger! Danger!
+- [ ] `lib/file/timefun.txt:77` [line] S:1700 
+- [ ] `lib/file/timefun.txt:78` [line] E:1859
+- [ ] `lib/file/timefun.txt:79` [line] D:Take a Vampire out for dinner!
+- [ ] `lib/file/timefun.txt:81` [line] S:2100 
+- [ ] `lib/file/timefun.txt:82` [line] E:2159
+- [ ] `lib/file/timefun.txt:83` [line] D:Warp Factor Nine. Now!
+- [ ] `lib/file/timefun.txt:85` [line] S:2200 
+- [ ] `lib/file/timefun.txt:86` [line] E:2359
+- [ ] `lib/file/timefun.txt:87` [line] D:PARTY!
+- [ ] `lib/file/timefun.txt:89` [line] S:2359 
+- [ ] `lib/file/timefun.txt:90` [line] E:2359
+- [ ] `lib/file/timefun.txt:91` [line] D:It's almost the witching hour!

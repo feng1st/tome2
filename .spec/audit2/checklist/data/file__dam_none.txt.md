@@ -1,0 +1,26 @@
+# 数据清单：lib/file/dam_none.txt（text，逐条/逐行）
+
+- [ ] `lib/file/dam_none.txt:1` [line] 22
+- [ ] `lib/file/dam_none.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/dam_none.txt:3` [line] You scratch %s.
+- [ ] `lib/file/dam_none.txt:4` [line] You give %s a nasty bruise.
+- [ ] `lib/file/dam_none.txt:5` [line] You stub %s's toe.
+- [ ] `lib/file/dam_none.txt:6` [line] You jab %s in the ribs.
+- [ ] `lib/file/dam_none.txt:7` [line] You almost poked your eye out while fighting %s!
+- [ ] `lib/file/dam_none.txt:8` [line] You made %s's nose bleed.
+- [ ] `lib/file/dam_none.txt:9` [line] You almost slipped while fighting %s.
+- [ ] `lib/file/dam_none.txt:10` [line] %^s doesn't even flinch!
+- [ ] `lib/file/dam_none.txt:11` [line] You accidentally hurt yourself while fighting %s.
+- [ ] `lib/file/dam_none.txt:12` [line] You slap %s.
+- [ ] `lib/file/dam_none.txt:13` [line] %^s slips and falls.
+- [ ] `lib/file/dam_none.txt:14` [line] %^s laughs at your wild swings.
+- [ ] `lib/file/dam_none.txt:15` [line] You pull at %s's hair.
+- [ ] `lib/file/dam_none.txt:16` [line] You punch %s in the nose.
+- [ ] `lib/file/dam_none.txt:17` [line] You pull at %s's ear.
+- [ ] `lib/file/dam_none.txt:18` [line] %^s growls at you.
+- [ ] `lib/file/dam_none.txt:19` [line] %^s is very, very annoyed!
+- [ ] `lib/file/dam_none.txt:20` [line] You scream an insult at %s.
+- [ ] `lib/file/dam_none.txt:21` [line] %^s makes a nasty face.
+- [ ] `lib/file/dam_none.txt:22` [line] You scowl at %s.
+- [ ] `lib/file/dam_none.txt:23` [line] %^s gnashes his teeth.
+- [ ] `lib/file/dam_none.txt:24` [line] %^s lets out a gurgling laugh.

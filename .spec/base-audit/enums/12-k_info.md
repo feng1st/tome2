@@ -1,0 +1,602 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# k_info.txt — object kinds (597)
+
+- [~] `k:0` **something** — G:&:w — id 0 placeholder (converter keeps real records only)
+- [x] `k:1` **Blindness** — A:5/1 G:,:d I:80:1:500 W:5:0:1:0 — in RON
+- [x] `k:2` **Paranoia** — A:5/1 G:,:d I:80:2:500 W:5:0:1:0 — in RON
+- [x] `k:3` **Confusion** — A:5/1 G:,:d I:80:3:500 W:5:0:1:0 — in RON
+- [x] `k:4` **Hallucination** — A:10/1 G:,:d I:80:4:500 W:10:0:1:0 — in RON
+- [x] `k:5` **Cure Poison** — A:10/1 G:,:d I:80:12:500 W:10:0:1:60 — in RON
+- [x] `k:6` **Cure Blindness** — A:10/1 G:,:d I:80:13:500 W:10:0:1:50 — in RON
+- [x] `k:7` **Cure Paranoia** — A:10/1 G:,:d I:80:14:500 W:10:0:1:25 — in RON
+- [x] `k:8` **Cure Confusion** — A:10/1 G:,:d I:80:15:500 W:10:0:1:50 — in RON
+- [x] `k:9` **Weakness** — A:10/1 G:,:d I:80:6:500 P:0:5d5:0:0:0 W:10:0:1:0 — in RON
+- [x] `k:10` **Unhealth** — A:15/1 G:,:d I:80:10:500 P:0:10d10:0:0:0 W:15:0:1:50 — in RON
+- [x] `k:11` **Restore Constitution** — A:20/1 G:,:d I:80:18:500 W:20:0:1:350 — in RON
+- [x] `k:12` **Restoring** — A:20/8:30/4:40/1 G:,:d I:80:19:500 W:20:0:1:1000 — in RON
+- [x] `k:13` **Stupidity** — A:15/1 G:,:d I:80:8:500 W:15:0:1:0 — in RON
+- [x] `k:14` **Naivety** — A:15/1 G:,:d I:80:9:500 W:15:0:1:0 — in RON
+- [x] `k:15` **Poison** — A:5/1:5/1 G:,:d I:80:0:500 P:0:4d4:0:0:0 W:5:0:1:0 — in RON
+- [x] `k:16` **Sickness** — A:10/1 G:,:d I:80:7:500 P:0:4d4:0:0:0 W:10:0:1:0 — in RON
+- [x] `k:17` **Paralysis** — A:20/1 G:,:d I:80:5:500 W:20:0:1:0 — in RON
+- [x] `k:18` **Restore Strength** — A:20/1 G:,:d I:80:17:500 W:20:0:1:350 — in RON
+- [x] `k:19` **Disease** — A:20/1 G:,:d I:80:11:500 P:0:10d10:0:0:0 W:20:0:1:50 — in RON
+- [x] `k:20` **Cure Serious Wounds** — A:15/1 G:,:d I:80:16:500 W:15:0:1:75 — in RON
+- [x] `k:21` **& Ration~ of Food** — A:0/1:5/1:10/1 G:,:U I:80:35:5000 W:0:0:10:3 — in RON
+- [x] `k:22` **& Hard Biscuit~** — G:,:U I:80:32:500 W:0:0:2:1 — in RON
+- [x] `k:23` **& Strip~ of Venison** — G:,:u I:80:33:1500 W:0:0:2:2 — in RON
+- [x] `k:24` **& Slime Mold~** — A:1/1 G:,:g I:80:36:3000 W:1:0:5:2 — in RON
+- [x] `k:25` **& Lembas~** — A:5/1:10/1:20/1 G:,:B I:80:37:0 W:5:0:3:10 — in RON
+- [x] `k:26` **& Pint~ of Fine Ale** — G:,:y I:80:38:500 W:0:0:5:1 — in RON
+- [x] `k:27` **& Pint~ of Fine Wine** — G:,:r I:80:39:1000 W:0:0:10:2 — in RON
+- [x] `k:28` **& Mattock~** — A:50/2 F:TUNNEL G:\:D I:20:7:3 P:0:1d8:0:0:0 W:50:0:250:700 f:TUNNEL — in RON
+- [x] `k:29` **& Blue Stone~** — F:INSTA_ART;SPECIAL_GENE G:":B I:40:18:0 W:60:0:3:90000 — in RON
+- [x] `k:30` **& Broken Dagger~** — A:0/2:5/2 F:SHOW_MODS G:|:D I:23:1:0 P:0:1d1:-2:-4:0 W:0:0:5:1 — in RON
+- [x] `k:31` **& Bastard Sword~** — A:15/1 F:COULD2H;SHOW_MODS G:|:W I:23:21:0 P:0:3d4:0:0:0 W:15:0:140:350 f:COULD2H — in RON
+- [x] `k:32` **& Scimitar~** — A:10/1 F:SHOW_MODS G:|:W I:23:18:0 P:0:2d5:0:0:0 W:10:0:130:250 — in RON
+- [x] `k:33` **& Tulwar~** — A:5/1 F:SHOW_MODS G:|:W I:23:15:0 P:0:2d4:0:0:0 W:5:0:100:200 — in RON
+- [x] `k:34` **& Broad Sword~** — A:10/1:15/1 F:SHOW_MODS G:|:W I:23:16:0 P:0:2d5:0:0:0 W:10:0:150:255 — in RON
+- [x] `k:35` **& Short Sword~** — A:5/1 F:SHOW_MODS G:|:W I:23:10:0 P:0:1d7:0:0:0 W:5:0:80:90 — in RON
+- [x] `k:36` **& Blade~ of Chaos** — A:70/8 F:ATTR_MULTI;CHAOTIC;RES_CHAOS;SHOW_MODS G:|:v I:23:30:0 P:0:6d5:0:0:0 W:70:0:180:4000 f:CHAOTIC;RES_CHAOS — in RON
+- [x] `k:37` **& Two-Handed Sword~** — A:30/1:40/1 F:MUST2H;SHOW_MODS G:|:W I:23:25:0 P:0:3d6:0:0:0 W:30:0:200:775 f:MUST2H — in RON
+- [x] `k:38` **& Main Gauche~** — A:3/1 F:SHOW_MODS G:|:W I:23:5:0 P:0:1d5:0:0:0 W:3:0:30:25 — in RON
+- [x] `k:39` **& Cutlass~** — A:5/1 F:SHOW_MODS G:|:W I:23:12:0 P:0:1d7:0:0:0 W:5:0:110:85 — in RON
+- [x] `k:40` **& Executioner's Sword~** — A:40/1 F:MUST2H;SHOW_MODS G:|:r I:23:28:0 P:0:4d5:0:0:0 W:40:0:260:850 f:MUST2H — in RON
+- [x] `k:41` **& Katana~** — A:20/1 F:COULD2H;SHOW_MODS G:|:W I:23:20:0 P:0:3d4:0:0:0 W:20:0:120:400 f:COULD2H — in RON
+- [x] `k:42` **& Long Sword~** — A:10/1:20/1 F:SHOW_MODS G:|:W I:23:17:0 P:0:2d5:0:0:0 W:10:0:130:300 — in RON
+- [x] `k:43` **& Dagger~** — A:0/1:5/1:10/1:20/1 F:SHOW_MODS G:|:W I:23:4:0 P:0:1d4:0:0:0 W:0:0:12:10 — in RON
+- [x] `k:44` **& Rapier~** — A:5/1 F:SHOW_MODS G:|:W I:23:7:0 P:0:1d6:0:0:0 W:5:0:40:42 — in RON
+- [x] `k:45` **& Sabre~** — A:5/1 F:SHOW_MODS G:|:W I:23:11:0 P:0:1d7:0:0:0 W:5:0:50:50 — in RON
+- [x] `k:46` **& Small Sword~** — A:5/1 F:SHOW_MODS G:|:W I:23:8:0 P:0:1d6:0:0:0 W:5:0:75:48 — in RON
+- [x] `k:47` **& Broken Sword~** — A:0/2:5/2 F:SHOW_MODS G:|:D I:23:2:0 P:0:1d2:-2:-4:0 W:0:0:30:2 — in RON
+- [x] `k:48` **& Ball-and-Chain~** — A:20/1 F:COULD2H;SHOW_MODS G:\:D I:21:6:0 P:0:2d4:0:0:0 W:20:0:150:200 f:COULD2H — in RON
+- [x] `k:49` **& Whip~** — A:3/1 F:SHOW_MODS G:\:D I:21:2:0 P:0:1d6:0:0:0 W:3:0:30:30 — in RON
+- [x] `k:50` **& Flail~** — A:10/1 F:COULD2H;SHOW_MODS G:\:D I:21:13:0 P:0:2d6:0:0:0 W:10:0:150:353 f:COULD2H — in RON
+- [x] `k:51` **& Two-Handed Flail~** — A:45/1 F:MUST2H;SHOW_MODS G:\:y I:21:18:0 P:0:3d6:0:0:0 W:45:0:280:590 f:MUST2H — in RON
+- [x] `k:52` **& Morning Star~** — A:10/1 F:SHOW_MODS G:\:D I:21:12:0 P:0:2d6:0:0:0 W:10:0:150:396 — in RON
+- [x] `k:53` **& Mace~** — A:5/1 F:COULD2H;SHOW_MODS G:\:D I:21:5:0 P:0:2d4:0:0:0 W:5:0:120:130 f:COULD2H — in RON
+- [x] `k:54` **& Quarterstaff~** — A:10/1 F:COULD2H;SHOW_MODS G:\:U I:21:3:0 P:0:1d9:0:0:0 W:10:0:150:200 f:COULD2H — in RON
+- [x] `k:55` **& War Hammer~** — A:5/1 F:COULD2H;SHOW_MODS G:\:D8 I:21:8:0 P:0:3d3:0:0:0 W:5:0:120:225 f:COULD2H — in RON
+- [x] `k:56` **& Lead-Filled Mace~** — A:15/1 F:COULD2H;SHOW_MODS G:\:D I:21:15:0 P:0:3d4:0:0:0 W:15:0:180:502 f:COULD2H — in RON
+- [x] `k:57` **& Mace~ of Disruption** — A:80/5 F:MUST2H;SHOW_MODS;SLAY_UNDEAD G:\:v I:21:20:0 P:0:5d8:0:0:0 W:80:0:400:4300 f:MUST2H;SLAY_UNDEAD — in RON
+- [x] `k:58` **& Lucerne Hammer~** — A:10/1 F:COULD2H;SHOW_MODS G:\:B I:21:10:0 P:0:2d5:0:0:0 W:10:0:120:376 f:COULD2H — in RON
+- [x] `k:59` **& Beaked Axe~** — A:15/1 F:MUST2H;SHOW_MODS G:/:s I:22:10:0 P:0:2d6:0:0:0 W:15:0:180:408 f:MUST2H — in RON
+- [x] `k:60` **& Glaive~** — A:20/1 F:COULD2H;SHOW_MODS G:/:s I:22:13:0 P:0:2d6:0:0:0 W:20:0:190:363 f:COULD2H — in RON
+- [x] `k:61` **& Halberd~** — A:25/1 F:COULD2H;SHOW_MODS G:/:s I:22:15:0 P:0:3d5:0:0:0 W:25:0:190:430 f:COULD2H — in RON
+- [x] `k:62` **& Awl-Pike~** — A:10/1 F:COULD2H;SHOW_MODS G:/:s I:22:4:0 P:0:1d8:0:0:0 W:10:0:160:340 f:COULD2H — in RON
+- [x] `k:63` **& Pike~** — A:15/1 F:COULD2H;SHOW_MODS G:/:s I:22:8:0 P:0:2d5:0:0:0 W:15:0:160:358 f:COULD2H — in RON
+- [x] `k:64` **& Spear~** — A:5/1 F:SHOW_MODS G:/:s I:22:2:0 P:0:1d6:0:0:0 W:5:0:50:36 — in RON
+- [x] `k:65` **& Trident~** — A:5/1 F:COULD2H;SHOW_MODS G:/:y I:22:5:0 P:0:1d8:0:0:0 W:5:0:70:120 f:COULD2H — in RON
+- [x] `k:66` **& Lance~** — A:10/1 F:MUST2H;SHOW_MODS G:/:s I:22:20:0 P:0:2d8:0:0:0 W:10:0:300:230 f:MUST2H — in RON
+- [x] `k:67` **& Great Axe~** — A:40/1 F:MUST2H;SHOW_MODS G:/:s I:24:25:0 P:0:4d4:0:0:0 W:40:0:230:500 f:MUST2H — in RON
+- [x] `k:68` **& Battle Axe~** — A:15/1 F:COULD2H;SHOW_MODS G:/:s I:22:22:0 P:0:2d8:0:0:0 W:15:0:170:334 f:COULD2H — in RON
+- [x] `k:69` **& Lochaber Axe~** — A:45/1 F:COULD2H;SHOW_MODS G:/:D I:22:28:0 P:0:3d8:0:0:0 W:45:0:250:750 f:COULD2H — in RON
+- [x] `k:70` **& Broad Axe~** — A:15/1 F:COULD2H;SHOW_MODS G:/:s I:24:11:0 P:0:2d6:0:0:0 W:15:0:160:304 f:COULD2H — in RON
+- [x] `k:71` **& Scythe~** — A:45/1 F:COULD2H;SHOW_MODS G:/:s I:22:17:0 P:0:5d3:0:0:0 W:45:0:250:800 f:COULD2H — in RON
+- [x] `k:72` **& Scythe~ of Slicing** — A:80/20 F:MUST2H;SHOW_MODS;VORPAL;WOUNDING G:/:r I:22:30:0 P:0:8d4:0:0:0 W:80:0:250:10000 f:MUST2H;VORPAL;WOUNDING — in RON
+- [x] `k:73` **& Short Bow~** — A:3/1:50/2 F:SHOW_MODS G:}:U I:19:12:0 W:3:0:30:50 — in RON
+- [x] `k:74` **& Long Bow~** — A:10/1:70/2 F:SHOW_MODS G:}:U I:19:13:0 W:10:0:40:120 — in RON
+- [x] `k:75` **& Light Crossbow~** — A:15/1:60/2 F:SHOW_MODS G:}:s I:19:23:0 W:15:0:110:140 — in RON
+- [x] `k:76` **& Heavy Crossbow~** — A:30/1:80/2 F:SHOW_MODS G:}:s I:19:24:0 W:30:0:200:300 — in RON
+- [x] `k:77` **& Sling~** — A:1/1:40/2 F:SHOW_MODS G:}:u I:19:2:0 W:1:0:5:5 — in RON
+- [x] `k:78` **& Arrow~** — A:3/1:15/1:50/1 F:SHOW_MODS G:{:U I:17:1:0 P:0:1d4:0:0:0 W:3:0:2:1 — in RON
+- [x] `k:79` **& Seeker Arrow~** — A:55/2:80/2 F:SHOW_MODS G:{:G I:17:2:0 P:0:4d4:0:0:0 W:55:0:2:20 — in RON
+- [x] `k:80` **& Bolt~** — A:3/1:25/1:60/1 F:SHOW_MODS G:{:s I:18:1:0 P:0:1d5:0:0:0 W:3:0:3:2 — in RON
+- [x] `k:81` **& Seeker Bolt~** — A:65/2:90/2 F:SHOW_MODS G:{:B I:18:2:0 P:0:4d5:0:0:0 W:65:0:3:25 — in RON
+- [x] `k:82` **& Rounded Pebble~** — A:0/1:10/2 F:SHOW_MODS G:{:s I:16:0:0 P:0:1d2:0:0:0 W:0:0:4:1 — in RON
+- [x] `k:83` **& Iron Shot~** — A:3/1:40/2 F:SHOW_MODS G:{:s I:16:1:0 P:0:1d4:0:0:0 W:3:0:5:2 — in RON
+- [x] `k:84` **& Shovel~** — A:5/2 F:TUNNEL G:\:s I:20:1:1 P:0:1d2:0:0:0 W:1:0:60:10 f:TUNNEL — in RON
+- [x] `k:85` **& Gnomish Shovel~** — A:20/3 F:TUNNEL G:\:G I:20:2:2 P:0:1d2:0:0:0 W:20:0:60:100 f:TUNNEL — in RON
+- [x] `k:86` **& Dwarven Shovel~** — A:40/4 F:TUNNEL G:\:B I:20:3:3 P:0:1d3:0:0:0 W:40:0:120:200 f:TUNNEL — in RON
+- [x] `k:87` **& Pick~** — A:10/2 F:TUNNEL G:\:s I:20:4:1 P:0:1d3:0:0:0 W:5:0:150:50 f:TUNNEL — in RON
+- [x] `k:88` **& Orcish Pick~** — A:30/3 F:TUNNEL G:\:g I:20:5:2 P:0:1d3:0:0:0 W:30:0:180:300 f:TUNNEL — in RON
+- [x] `k:89` **& Dwarven Pick~** — A:50/4 F:TUNNEL G:\:b I:20:6:3 P:0:1d4:0:0:0 W:50:0:200:600 f:TUNNEL — in RON
+- [x] `k:90` **& Elven Cloak~** — A:30/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;LUCK;STEALTH G:(:G I:35:2:0 P:4:0d0:0:0:4 W:30:0:5:1500 f:STEALTH — in RON
+- [x] `k:91` **& Pair~ of Soft Leather Boots** — A:3/1 G:]:U I:30:2:0 P:2:1d1:0:0:0 W:3:0:20:7 — in RON
+- [x] `k:92` **& Pair~ of Hard Leather Boots** — A:5/1 G:]:U I:30:3:0 P:3:1d1:0:0:0 W:5:0:40:12 — in RON
+- [x] `k:93` **& Pair~ of Metal Shod Boots** — A:20/1 G:]:s I:30:6:0 P:6:1d1:0:0:0 W:20:0:80:50 — in RON
+- [x] `k:94` **& Hard Leather Cap~** — A:3/1 G:]:u I:32:2:0 P:2:0d0:0:0:0 W:3:0:15:12 — in RON
+- [x] `k:95` **& Metal Cap~** — A:10/1 G:]:s I:32:3:0 P:3:1d1:0:0:0 W:10:0:20:30 — in RON
+- [x] `k:96` **& Iron Helm~** — A:20/1 G:]:s I:32:5:0 P:5:1d3:0:0:0 W:20:0:75:75 — in RON
+- [x] `k:97` **& Steel Helm~** — A:40/1 G:]:W I:32:6:0 P:6:1d3:0:0:0 W:40:0:60:200 — in RON
+- [x] `k:98` **& Iron Crown~** — A:45/1 G:]:s I:33:10:0 P:0:1d1:0:0:0 W:45:0:20:500 — in RON
+- [x] `k:99` **& Golden Crown~** — A:45/1 F:IGNORE_ACID G:]:y I:33:11:0 P:0:1d1:0:0:0 W:45:0:30:1000 — in RON
+- [x] `k:100` **& Jewel Encrusted Crown~** — A:50/1 F:IGNORE_ACID G:]:v I:33:12:0 P:0:1d1:0:0:0 W:50:0:40:2000 — in RON
+- [x] `k:101` **& Robe~** — A:1/1:50/1 G:(:b I:36:2:0 P:2:0d0:0:0:0 W:1:0:20:4 — in RON
+- [x] `k:102` **& Filthy Rag~** — A:0/1 G:(:D I:36:1:0 P:1:0d0:0:0:-1 W:0:0:20:1 — in RON
+- [x] `k:103` **& Soft Leather Armour~** — A:3/1 G:(:U I:36:4:0 P:4:0d0:0:0:0 W:3:0:80:18 — in RON
+- [x] `k:104` **& Soft Studded Leather~** — A:3/1 G:(:U I:36:5:0 P:5:1d1:0:0:0 W:3:0:90:35 — in RON
+- [x] `k:105` **& Hard Leather Armour~** — A:5/1 G:(:U I:36:6:0 P:6:1d1:-1:0:0 W:5:0:100:150 — in RON
+- [x] `k:106` **& Hard Studded Leather~** — A:10/1 G:(:U I:36:7:0 P:7:1d2:-1:0:0 W:10:0:110:200 — in RON
+- [x] `k:107` **& Leather Scale Mail~** — A:15/1 G:(:U I:36:11:0 P:11:1d1:-1:0:0 W:15:0:140:450 — in RON
+- [x] `k:108` **& Metal Scale Mail~** — A:25/1 G:[:s I:37:3:0 P:13:1d4:-2:0:0 W:25:0:250:550 — in RON
+- [x] `k:109` **& Chain Mail~** — A:25/1 G:[:s I:37:4:0 P:14:1d4:-2:0:0 W:25:0:220:750 — in RON
+- [x] `k:110` **& Rusty Chain Mail~** — A:25/1 G:[:r I:37:1:0 P:14:1d4:-5:0:-8 W:25:0:200:550 — in RON
+- [x] `k:111` **& Augmented Chain Mail~** — A:30/1 G:[:s I:37:6:0 P:16:1d4:-2:0:0 W:30:0:270:900 — in RON
+- [x] `k:112` **& Bar Chain Mail~** — A:35/1 G:[:s I:37:8:0 P:18:1d4:-2:0:0 W:35:0:280:950 — in RON
+- [x] `k:113` **& Metal Brigandine Armour~** — A:35/1 G:[:s I:37:9:0 P:19:1d4:-3:0:0 W:35:0:290:1100 — in RON
+- [x] `k:114` **& Partial Plate Armour~** — A:45/1 G:[:W I:37:12:0 P:22:1d6:-3:0:0 W:45:0:260:1200 — in RON
+- [x] `k:115` **& Metal Lamellar Armour~** — A:45/1 G:[:W I:37:13:0 P:23:1d6:-3:0:0 W:45:0:340:1250 — in RON
+- [x] `k:116` **& Full Plate Armour~** — A:45/1 G:[:W I:37:15:0 P:25:2d4:-3:0:0 W:45:0:380:1350 — in RON
+- [x] `k:117` **& Ribbed Plate Armour~** — A:50/1 G:[:W I:37:18:0 P:28:2d4:-3:0:0 W:50:0:380:1500 — in RON
+- [x] `k:118` **& Adamantite Plate Mail~** — A:75/4 F:IGNORE_ACID G:[:G I:37:30:0 P:40:2d4:-4:0:0 W:75:0:420:20000 — in RON
+- [x] `k:119` **& Mithril Plate Mail~** — A:60/3 F:IGNORE_ACID G:[:B I:37:25:0 P:35:2d4:-3:0:0 W:60:0:300:15000 — in RON
+- [x] `k:120` **& Mithril Chain Mail~** — A:55/3 F:IGNORE_ACID G:[:B I:37:20:0 P:28:1d4:-1:0:0 W:55:0:150:7000 — in RON
+- [x] `k:121` **& Double Chain Mail~** — A:30/1 G:[:s I:37:7:0 P:16:1d4:-2:0:0 W:30:0:250:850 — in RON
+- [x] `k:122` **& Shield~ of Deflection** — A:70/3 F:IGNORE_ACID G:[:B I:34:10:0 P:10:1d1:0:0:10 W:70:0:100:10000 — in RON
+- [x] `k:123` **& Cloak~** — A:1/1:20/1 G:(:g I:35:1:0 P:1:0d0:0:0:0 W:1:0:10:3 — in RON
+- [x] `k:124` **& Shadow Cloak~** — A:75/4 F:RES_DARK;RES_LITE;STEALTH G:(:D I:35:6:1 P:6:0d0:0:0:4 W:60:0:5:7500 f:STEALTH — in RON
+- [x] `k:125` **& Set~ of Leather Gloves** — A:1/1 G:]:U I:31:1:0 P:1:0d0:0:0:0 W:1:0:5:3 — in RON
+- [x] `k:126` **& Set~ of Gauntlets** — A:10/1 G:]:U I:31:2:0 P:2:1d1:0:0:0 W:10:0:25:35 — in RON
+- [x] `k:127` **& Set~ of Cesti** — A:50/1 G:]:W I:31:5:0 P:5:1d1:0:0:0 W:50:0:40:100 — in RON
+- [x] `k:128` **& Small Leather Shield~** — A:3/1 G:):U I:34:2:0 P:2:1d1:0:0:0 W:3:0:50:30 — in RON
+- [x] `k:129` **& Large Leather Shield~** — A:15/1 G:):U I:34:4:0 P:4:1d2:0:0:0 W:15:0:100:120 — in RON
+- [x] `k:130` **& Small Metal Shield~** — A:10/1 G:):s I:34:3:0 P:3:1d2:0:0:0 W:10:0:65:50 — in RON
+- [x] `k:131` **& Large Metal Shield~** — A:30/1 G:):s I:34:5:0 P:5:1d3:0:0:0 W:30:0:120:200 — in RON
+- [x] `k:132` **Strength** — A:30/1 F:HIDE_TYPE;STR G:=:d I:45:24:0 W:30:0:2:500 f:STR — in RON
+- [x] `k:133` **Dexterity** — A:30/1 F:DEX;HIDE_TYPE G:=:d I:45:26:0 W:30:0:2:500 f:DEX — in RON
+- [x] `k:134` **Constitution** — A:30/1 F:CON;HIDE_TYPE G:=:d I:45:27:0 W:30:0:2:500 f:CON — in RON
+- [x] `k:135` **Intelligence** — A:30/1 F:HIDE_TYPE;INT G:=:d I:45:25:0 W:30:0:2:500 f:INT — in RON
+- [x] `k:136` **Speed** — A:75/1 F:HIDE_TYPE;SPEED G:=:d I:45:31:0 W:75:0:2:100000 f:SPEED — in RON
+- [x] `k:138` **Teleportation** — A:5/1 F:ACTIVATE;CURSED;EASY_KNOW;TELEPORT G:=:d I:45:4:0 W:5:0:2:250 a:DEST_TELE f:TELEPORT — in RON
+- [x] `k:139` **Slow Digestion** — A:5/1 F:EASY_KNOW;SLOW_DIGEST G:=:d I:45:6:0 W:5:0:2:250 f:SLOW_DIGEST — in RON
+- [x] `k:140` **Fire Resistance** — A:10/1 F:EASY_KNOW;IGNORE_FIRE;RES_FIRE G:=:d I:45:8:0 W:10:0:2:250 f:RES_FIRE — in RON
+- [x] `k:141` **Cold Resistance** — A:10/1 F:EASY_KNOW;IGNORE_COLD;RES_COLD G:=:d I:45:9:0 W:10:0:2:250 f:RES_COLD — in RON
+- [x] `k:142` **Levitation** — A:5/1 F:EASY_KNOW;FEATHER G:=:d I:45:7:0 W:5:0:2:200 f:FEATHER — in RON
+- [x] `k:143` **Poison Resistance** — A:60/2 F:EASY_KNOW;RES_POIS G:=:d I:45:20:0 W:60:0:2:16000 f:RES_POIS — in RON
+- [x] `k:144` **Free Action** — A:20/1 F:EASY_KNOW;FREE_ACT G:=:d I:45:21:0 W:20:0:2:1500 f:FREE_ACT — in RON
+- [x] `k:145` **Weakness** — A:5/1 F:CURSED;HIDE_TYPE;STR G:=:d I:45:2:-5 W:5:0:2:0 f:STR — in RON
+- [x] `k:146` **Flames** — A:50/1 F:ACTIVATE;IGNORE_FIRE;RES_FIRE G:=:d I:45:18:0 P:0:0d0:0:0:15 W:50:0:2:3000 a:BA_FIRE_4 f:RES_FIRE — in RON
+- [x] `k:147` **Acid** — A:50/1 F:ACTIVATE;IGNORE_ACID;RES_ACID G:=:d I:45:17:0 P:0:0d0:0:0:15 W:50:0:2:3000 a:BA_ACID_4 f:RES_ACID — in RON
+- [x] `k:148` **Ice** — A:50/1 F:ACTIVATE;IGNORE_COLD;RES_COLD G:=:d I:45:19:0 P:0:0d0:0:0:15 W:50:0:2:3000 a:BA_COLD_4 f:RES_COLD — in RON
+- [x] `k:149` **Woe** — A:50/1 F:AUTO_CURSE;CHR;CURSED;HIDE_TYPE;TELEPORT;WIS G:=:d I:45:0:-5 W:50:0:2:0 — in RON
+- [x] `k:150` **Stupidity** — A:5/1 F:CURSED;HIDE_TYPE;INT G:=:d I:45:3:-5 W:5:0:2:0 f:INT — in RON
+- [x] `k:151` **Damage** — A:20/1 F:HIDE_TYPE G:=:d I:45:29:0 W:20:0:2:500 — in RON
+- [x] `k:152` **Accuracy** — A:20/1 F:HIDE_TYPE G:=:d I:45:28:0 W:20:0:2:500 — in RON
+- [x] `k:153` **Protection** — A:10/1 G:=:d I:45:16:0 W:10:0:2:500 — in RON
+- [x] `k:154` **Aggravate Monster** — A:5/1 F:AGGRAVATE;AUTO_CURSE;CURSED;EASY_KNOW G:=:d I:45:1:0 W:5:0:2:0 f:AGGRAVATE — in RON
+- [x] `k:155` **See Invisible** — A:30/1 F:EASY_KNOW;SEE_INVIS G:=:d I:45:22:0 W:30:0:2:340 f:SEE_INVIS — in RON
+- [x] `k:156` **Sustain Strength** — A:20/1 F:EASY_KNOW;SUST_STR G:=:d I:45:10:0 W:20:0:2:400 f:SUST_STR — in RON
+- [x] `k:157` **Sustain Intelligence** — A:20/1 F:EASY_KNOW;SUST_INT G:=:d I:45:11:0 W:20:0:2:400 f:SUST_INT — in RON
+- [x] `k:158` **Sustain Wisdom** — A:20/1 F:EASY_KNOW;SUST_WIS G:=:d I:45:12:0 W:20:0:2:400 f:SUST_WIS — in RON
+- [x] `k:159` **Sustain Constitution** — A:20/1 F:EASY_KNOW;SUST_CON G:=:d I:45:13:0 W:20:0:2:400 f:SUST_CON — in RON
+- [x] `k:160` **Sustain Dexterity** — A:20/1 F:EASY_KNOW;SUST_DEX G:=:d I:45:14:0 W:20:0:2:400 f:SUST_DEX — in RON
+- [x] `k:161` **Sustain Charisma** — A:20/1 F:EASY_KNOW;SUST_CHR G:=:d I:45:15:0 W:20:0:2:400 f:SUST_CHR — in RON
+- [x] `k:162` **Slaying** — A:40/1 F:SHOW_MODS G:=:d I:45:30:0 W:40:0:2:1000 — in RON
+- [x] `k:163` **Brilliance** — A:50/4 F:HIDE_TYPE;INT;LITE1;WIS G:":d I:40:6:0 W:50:0:3:1000 — in RON
+- [x] `k:164` **Charisma** — A:30/1 F:CHR;HIDE_TYPE G:":d I:40:7:0 W:30:0:3:500 f:CHR — in RON
+- [x] `k:166` **Teleportation** — A:10/1 F:CURSED;EASY_KNOW;TELEPORT G:":d I:40:1:0 W:10:0:3:250 f:TELEPORT — in RON
+- [x] `k:167` **Slow Digestion** — A:15/1 F:EASY_KNOW;SLOW_DIGEST G:":d I:40:3:0 W:15:0:3:200 f:SLOW_DIGEST — in RON
+- [x] `k:168` **Acid Resistance** — A:10/1 F:EASY_KNOW;IGNORE_ACID;RES_ACID G:":d I:40:4:0 W:10:0:3:250 f:RES_ACID — in RON
+- [x] `k:170` **& Double Ring Mail~** — A:25/1 G:[:s I:37:5:0 P:15:1d4:-2:0:0 W:25:0:230:700 — in RON
+- [x] `k:171` **the Magi** — A:70/8 F:FREE_ACT;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;INT;RES_BLIND;RES_CONF;SPELL_CONTAIN;SUST_INT;WIELD_CAST G:":d I:40:8:0 P:0:0d0:-4:-4:0 W:70:0:3:30000 — in RON
+- [x] `k:172` **Doom** — A:50/1 F:AUTO_CURSE;CHR;CON;CURSED;CURSE_NO_DROP;DEX;HIDE_TYPE;INT;STR;WIS G:":d I:40:0:-5 W:50:0:3:0 — in RON
+- [x] `k:173` **Enchant Weapon To-Hit** — A:15/1 G:?:d I:70:17:0 W:15:0:5:125 — in RON
+- [x] `k:174` **Enchant Weapon To-Dam** — A:15/1 G:?:d I:70:18:0 W:15:0:5:125 — in RON
+- [x] `k:175` **Enchant Armour** — A:15/1 G:?:d I:70:16:0 W:15:0:5:125 — in RON
+- [x] `k:178` **Rumour** — A:1/1 G:?:d I:70:51:0 W:1:0:5:10 — in RON
+- [x] `k:179` **Chaos** — A:100/8 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE G:?:d I:70:50:0 W:100:0:5:10000 — in RON
+- [x] `k:180` **Remove Curse** — A:10/1:20/2:40/2 G:?:d I:70:14:0 W:10:0:5:100 — in RON
+- [x] `k:181` **Light** — A:0/1:3/1:10/1 G:?:d I:70:24:0 W:0:0:5:15 — in RON
+- [x] `k:182` **Fire** — A:50/4 F:IGNORE_FIRE G:?:d I:70:48:0 W:50:0:5:1000 — in RON
+- [x] `k:183` **Ice** — A:75/6 F:IGNORE_COLD G:?:d I:70:49:0 W:75:0:5:5000 — in RON
+- [x] `k:184` **Summon Monsters** — A:1/1 G:?:d I:70:4:0 W:1:0:5:0 — in RON
+- [x] `k:185` **Phase Door** — A:1/1 G:?:d I:70:8:0 W:1:0:5:15 — in RON
+- [x] `k:186` **Teleportation** — A:10/1 G:?:d I:70:9:0 W:10:0:5:40 — in RON
+- [x] `k:187` **Teleport Level** — A:20/1 G:?:d I:70:10:0 W:20:0:5:50 — in RON
+- [x] `k:188` **Monster Confusion** — A:5/1 G:?:d I:70:36:0 W:5:0:5:30 — in RON
+- [x] `k:189` **Magic Mapping** — A:5/1 G:?:d I:70:25:0 W:5:0:5:40 — in RON
+- [x] `k:190` **Rune of Protection** — A:50/2:90/4 G:?:d I:70:38:0 W:50:0:5:500 — in RON
+- [x] `k:191` ***Remove Curse*** — A:50/2:75/2:85/2:95/1 G:?:d I:70:15:0 W:50:0:5:8000 — in RON
+- [x] `k:192` **Treasure Detection** — A:0/1 G:?:d I:70:26:0 W:0:0:5:15 — in RON
+- [x] `k:193` **Object Detection** — A:0/1 G:?:d I:70:27:0 W:0:0:5:15 — in RON
+- [x] `k:195` **& Sheaf Arrow~** — A:15/2:50/2 F:SHOW_MODS G:{:o I:17:1:0 P:0:1d5:0:0:0 W:10:0:4:3 — in RON
+- [x] `k:196` **& Mithril Shot~** — A:40/2:65/1 F:IGNORE_ACID;SHOW_MODS G:{:B I:16:2:0 P:0:3d4:5:5:0 W:40:0:4:20 — in RON
+- [x] `k:197` **Door/Stair Location** — A:5/1:10/1:15/1 G:?:d I:70:29:0 W:5:0:5:35 — in RON
+- [x] `k:198` **Acquirement** — A:20/8 G:?:d I:70:46:0 W:20:0:5:100000 — in RON
+- [x] `k:199` ***Acquirement*** — A:60/16 G:?:d I:70:47:0 W:60:0:5:200000 — in RON
+- [x] `k:200` **Mass Genocide** — A:50/4:100/4 G:?:d I:70:45:0 W:50:0:5:1000 — in RON
+- [x] `k:201` **Detect Invisible** — A:1/1 G:?:d I:70:30:0 W:1:0:5:15 — in RON
+- [x] `k:202` **Aggravate Monster** — A:5/1 G:?:d I:70:1:0 W:5:0:5:0 — in RON
+- [x] `k:205` **Artifact Creation** — A:70/16 G:?:d I:70:52:0 W:70:0:5:200000 — in RON
+- [x] `k:206` **Recharging** — A:40/1 G:?:d I:70:22:0 W:40:0:5:200 — in RON
+- [x] `k:207` **Genocide** — A:40/4:80/4 G:?:d I:70:44:0 W:40:0:5:750 — in RON
+- [x] `k:208` **Darkness** — A:1/1 G:?:d I:70:0:0 W:1:0:5:0 — in RON
+- [x] `k:209` **Protection from Evil** — A:30/1 G:?:d I:70:37:0 W:30:0:5:250 — in RON
+- [x] `k:210` **Satisfy Hunger** — A:5/1:20/1:50/1:75/1 G:?:d I:70:32:0 W:5:0:5:10 — in RON
+- [x] `k:211` **Dispel Undead** — A:40/1 G:?:d I:70:42:0 W:40:0:5:200 — in RON
+- [x] `k:212` ***Enchant Weapon*** — A:50/1 G:?:d I:70:21:0 W:50:0:5:500 — in RON
+- [x] `k:213` **Curse Weapon** — A:50/1 G:?:d I:70:3:0 W:50:0:5:0 — in RON
+- [x] `k:214` ***Enchant Armour*** — A:50/1:50/1 G:?:d I:70:20:0 W:50:0:5:500 — in RON
+- [x] `k:215` **Curse Armour** — A:50/1 G:?:d I:70:2:0 W:50:0:5:0 — in RON
+- [x] `k:216` **Summon Undead** — A:15/1 G:?:d I:70:5:0 W:15:0:5:0 — in RON
+- [x] `k:217` **Blessing** — A:1/1 G:?:d I:70:33:0 W:1:0:5:15 — in RON
+- [x] `k:218` **Holy Chant** — A:10/1 G:?:d I:70:34:0 W:10:0:5:40 — in RON
+- [x] `k:219` **Holy Prayer** — A:25/1 G:?:d I:70:35:0 W:25:0:5:80 — in RON
+- [x] `k:220` **Word of Recall** — A:5/1 G:?:d I:70:11:0 W:5:0:5:150 — in RON
+- [x] `k:221` ***Destruction*** — A:40/1 G:?:d I:70:41:0 W:40:0:5:250 — in RON
+- [x] `k:222` **Slime Mold Juice** — A:0/1 F:FOUNTAIN G:!:d I:71:2:400 P:0:1d1:0:0:0 W:0:0:4:2 — in RON
+- [x] `k:223` **Apple Juice** — A:0/1 F:FOUNTAIN G:!:d I:71:1:250 P:0:1d1:0:0:0 W:0:0:4:1 — in RON
+- [x] `k:224` **Water** — A:0/1 F:FOUNTAIN G:!:d I:71:0:200 P:0:1d1:0:0:0 W:0:0:4:1 — in RON
+- [x] `k:225` **Strength** — A:20/6:25/3:30/1 G:!:d I:71:48:0 P:0:1d1:0:0:0 W:20:0:4:8000 — in RON
+- [x] `k:226` **Weakness** — A:3/1 F:FOUNTAIN G:!:d I:71:16:0 P:0:3d12:0:0:0 W:3:0:4:0 — in RON
+- [x] `k:227` **Restore Strength** — A:25/1 F:FOUNTAIN G:!:d I:71:42:0 P:0:1d1:0:0:0 W:25:0:4:300 — in RON
+- [x] `k:228` **Intelligence** — A:20/6:25/3:30/1 G:!:d I:71:49:0 P:0:1d1:0:0:0 W:20:0:4:8000 — in RON
+- [x] `k:229` **Stupidity** — A:20/1 F:FOUNTAIN G:!:d I:71:17:0 P:0:1d1:0:0:0 W:20:0:4:0 — in RON
+- [x] `k:230` **Restore Intelligence** — A:25/1 F:FOUNTAIN G:!:d I:71:43:0 P:0:1d1:0:0:0 W:25:0:4:300 — in RON
+- [x] `k:231` **Wisdom** — A:20/6:25/3:30/1 G:!:d I:71:50:0 P:0:1d1:0:0:0 W:20:0:4:8000 — in RON
+- [x] `k:232` **Naivety** — A:20/1 F:FOUNTAIN G:!:d I:71:18:0 P:0:1d1:0:0:0 W:20:0:4:0 — in RON
+- [x] `k:233` **Restore Wisdom** — A:25/1 F:FOUNTAIN G:!:d I:71:44:0 P:0:1d1:0:0:0 W:25:0:4:300 — in RON
+- [x] `k:234` **Charisma** — A:20/1:25/1 G:!:d I:71:53:0 P:0:1d1:0:0:0 W:20:0:4:1000 — in RON
+- [x] `k:235` **Ugliness** — A:20/1 F:FOUNTAIN G:!:d I:71:21:0 P:0:1d1:0:0:0 W:20:0:4:0 — in RON
+- [x] `k:236` **Restore Charisma** — A:20/1 F:FOUNTAIN G:!:d I:71:47:0 P:0:1d1:0:0:0 W:20:0:4:300 — in RON
+- [x] `k:237` **Curing** — A:18/1:40/1 F:FOUNTAIN G:!:d I:71:61:100 P:0:1d1:0:0:0 W:18:0:4:250 — in RON
+- [x] `k:238` **Invulnerability** — A:90/9 G:!:d I:71:62:-2500 P:0:1d1:0:0:0 W:90:0:4:100000 — in RON
+- [x] `k:239` **New Life** — A:50/20:100/10:120/5 G:!:d I:71:63:100 P:0:1d1:0:0:0 W:50:0:4:750000 — in RON
+- [x] `k:240` **Cure Serious Wounds** — A:3/1 F:FOUNTAIN G:!:d I:71:35:100 P:0:1d1:0:0:0 W:3:0:4:40 — in RON
+- [x] `k:241` **Cure Critical Wounds** — A:5/1 F:FOUNTAIN G:!:d I:71:36:100 P:0:1d1:0:0:0 W:5:0:4:100 — in RON
+- [x] `k:242` **Healing** — A:15/1:30/1:60/1 F:FOUNTAIN G:!:d I:71:37:200 P:0:1d1:0:0:0 W:15:0:4:300 — in RON
+- [x] `k:243` **Constitution** — A:20/6:25/3:30/1 G:!:d I:71:52:0 P:0:1d1:0:0:0 W:20:0:4:8000 — in RON
+- [x] `k:244` **Experience** — A:65/1 G:!:d I:71:59:0 P:0:1d1:0:0:0 W:65:0:4:25000 — in RON
+- [x] `k:245` **Sleep** — A:0/1 F:FOUNTAIN G:!:d I:71:11:100 P:0:1d1:0:0:0 W:0:0:4:0 — in RON
+- [x] `k:246` **Blindness** — A:0/1 F:FOUNTAIN G:!:d I:71:7:0 P:0:1d1:0:0:0 W:0:0:4:0 — in RON
+- [x] `k:247` **Booze** — A:0/1 F:FOUNTAIN G:!:d I:71:9:50 P:0:1d1:0:0:0 W:0:0:4:0 — in RON
+- [x] `k:248` **Poison** — A:3/1 F:FOUNTAIN G:!:d I:71:6:0 P:0:1d1:0:0:0 W:3:0:4:0 — in RON
+- [x] `k:249` **Speed** — A:1/1:40/1:60/1 F:FOUNTAIN G:!:d I:71:29:0 P:0:1d1:0:0:0 W:1:0:4:75 — in RON
+- [x] `k:250` **Slowness** — A:1/1 F:FOUNTAIN G:!:d I:71:4:50 P:0:1d1:0:0:0 W:1:0:4:0 — in RON
+- [x] `k:251` **Dexterity** — A:20/6:25/3:30/1 G:!:d I:71:51:0 P:0:1d1:0:0:0 W:20:0:4:8000 — in RON
+- [x] `k:252` **Restore Dexterity** — A:25/1 F:FOUNTAIN G:!:d I:71:45:0 P:0:1d1:0:0:0 W:25:0:4:300 — in RON
+- [x] `k:253` **Restore Constitution** — A:25/1 F:FOUNTAIN G:!:d I:71:46:0 P:0:1d1:0:0:0 W:25:0:4:300 — in RON
+- [x] `k:254` **Lose Memories** — A:10/1 F:FOUNTAIN G:!:d I:71:13:0 P:0:1d1:0:0:0 W:10:0:4:0 — in RON
+- [x] `k:255` **Salt Water** — A:0/1 F:FOUNTAIN G:!:d I:71:5:0 P:0:1d1:0:0:0 W:0:0:4:0 — in RON
+- [x] `k:256` **Enlightenment** — A:25/1:50/1:100/1 F:FOUNTAIN G:!:d I:71:56:0 P:0:1d1:0:0:0 W:25:0:4:800 — in RON
+- [x] `k:257` **Heroism** — A:1/1 F:FOUNTAIN G:!:d I:71:32:0 P:0:1d1:0:0:0 W:1:0:4:35 — in RON
+- [x] `k:258` **Berserk Strength** — A:3/1 F:FOUNTAIN G:!:d I:71:33:0 P:0:1d1:0:0:0 W:3:0:4:100 — in RON
+- [x] `k:259` **Boldness** — A:1/1 F:FOUNTAIN G:!:d I:71:28:0 P:0:1d1:0:0:0 W:1:0:4:10 — in RON
+- [x] `k:260` **Restore Life Levels** — A:40/1 F:FOUNTAIN G:!:d I:71:41:0 P:0:1d1:0:0:0 W:40:0:4:400 — in RON
+- [x] `k:261` **Resist Heat** — A:1/1 F:FOUNTAIN G:!:d I:71:30:0 P:0:1d1:0:0:0 W:1:0:4:30 — in RON
+- [x] `k:262` **Resist Cold** — A:1/1 F:FOUNTAIN G:!:d I:71:31:0 P:0:1d1:0:0:0 W:1:0:4:30 — in RON
+- [x] `k:263` **Detect Invisible** — A:3/1 F:FOUNTAIN G:!:d I:71:25:0 P:0:1d1:0:0:0 W:3:0:4:50 — in RON
+- [x] `k:264` **Slow Poison** — A:1/1 F:FOUNTAIN G:!:d I:71:26:0 P:0:1d1:0:0:0 W:1:0:4:25 — in RON
+- [x] `k:265` **Neutralise Poison** — A:5/1 F:FOUNTAIN G:!:d I:71:27:0 P:0:1d1:0:0:0 W:5:0:4:75 — in RON
+- [x] `k:266` **Restore Mana** — A:25/1 F:FOUNTAIN G:!:d I:71:40:0 P:0:1d1:0:0:0 W:25:0:4:350 — in RON
+- [x] `k:267` **Infra-vision** — A:3/1 F:FOUNTAIN G:!:d I:71:24:0 P:0:1d1:0:0:0 W:3:0:4:20 — in RON
+- [x] `k:268` **Resistance** — A:20/1:45/1:80/1:100/1 F:FOUNTAIN;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE G:!:d I:71:60:100 P:0:1d1:0:0:0 W:20:0:4:250 — in RON
+- [x] `k:269` **Spell** — A:3/1:13/1:23/1:43/1:63/1:83/1 F:SPECIAL_GENE G:-:d I:65:1:0 P:0:1d1:0:0:0 W:3:0:10:100 — in RON
+- [x] `k:270` **Manathrust** — A:3/1 G:-:d I:65:3:-1:SPELL=Manathrust P:0:1d1:0:0:0 W:3:0:10:100 — in RON
+- [x] `k:271` **Fireflash** — A:10/2 G:-:d I:65:4:-1:SPELL=Fireflash P:0:1d1:0:0:0 W:10:0:10:100 — in RON
+- [x] `k:272` **Firewall** — A:20/1 G:-:d I:65:5:-1:SPELL=Firewall P:0:1d1:0:0:0 W:20:0:10:100 — in RON
+- [x] `k:273` **Tidal Wave** — A:20/1 G:-:d I:65:6:-1:SPELL=Tidal Wave P:0:1d1:0:0:0 W:20:0:10:100 — in RON
+- [x] `k:274` **Ice Storm** — A:15/1 G:-:d I:65:7:-1:SPELL=Ice Storm P:0:1d1:0:0:0 W:15:0:10:100 — in RON
+- [x] `k:275` **Noxious Cloud** — A:5/2 G:-:d I:65:8:-1:SPELL=Noxious Cloud P:0:1d1:0:0:0 W:5:0:10:100 — in RON
+- [x] `k:276` **Poison Blood** — A:30/2 G:-:d I:65:9:-1:SPELL=Poison Blood P:0:1d1:0:0:0 W:30:0:10:100 — in RON
+- [x] `k:277` **Thunderstorm** — A:40/2 G:-:d I:65:10:-1:SPELL=Thunderstorm P:0:1d1:0:0:0 W:40:0:10:100 — in RON
+- [x] `k:278` **Dig** — A:15/1 G:-:d I:65:11:-1:SPELL=Dig P:0:1d1:0:0:0 W:15:0:10:100 — in RON
+- [x] `k:279` **Stone Prison** — A:50/3 G:-:d I:65:12:-1:SPELL=Stone Prison P:0:1d1:0:0:0 W:50:0:10:100 — in RON
+- [x] `k:280` **Strike** — A:30/1 G:-:d I:65:13:-1:SPELL=Strike P:0:1d1:0:0:0 W:30:0:10:100 — in RON
+- [x] `k:281` **Teleport Away** — A:20/1 G:-:d I:65:14:-1:SPELL=Teleport Away P:0:1d1:0:0:0 W:20:0:10:100 — in RON
+- [x] `k:282` **Summon Animal** — A:60/1 G:-:d I:65:15:-1:SPELL=Summon Animal P:0:1d1:0:0:0 W:60:0:10:100 — in RON
+- [x] `k:283` **Magelock** — A:3/2 G:-:d I:65:16:-1:SPELL=Magelock P:0:1d1:0:0:0 W:1:0:10:100 — in RON
+- [x] `k:284` **Slow Monster** — A:3/2 G:-:d I:65:17:-1:SPELL=Slow Monster P:0:1d1:0:0:0 W:3:0:10:100 — in RON
+- [x] `k:285` **Essence of Speed** — A:25/2 G:-:d I:65:18:-1:SPELL=Essence of Speed P:0:1d1:0:0:0 W:25:0:10:100 — in RON
+- [x] `k:286` **Banishment** — A:45/2 G:-:d I:65:19:-1:SPELL=Banishment P:0:1d1:0:0:0 W:45:0:10:100 — in RON
+- [x] `k:287` **Disperse Magic** — A:10/2 G:-:d I:65:20:-1:SPELL=Disperse Magic P:0:1d1:0:0:0 W:10:0:10:100 — in RON
+- [x] `k:288` **Charm** — A:15/1 G:-:d I:65:21:-1:SPELL=Charm P:0:1d1:0:0:0 W:15:0:10:100 — in RON
+- [x] `k:289` **Confuse** — A:7/2 G:-:d I:65:22:-1:SPELL=Confuse P:0:1d1:0:0:0 W:7:0:10:100 — in RON
+- [x] `k:290` **Demon Blade** — A:60/1 G:-:d I:65:23:-1:SPELL=Demon Blade P:0:1d1:0:0:0 W:60:0:10:100 — in RON
+- [x] `k:291` **Heal Monster** — A:1/4 G:-:d I:65:24:-1:SPELL=Heal Monster P:0:1d1:0:0:0 W:1:0:10:0 — in RON
+- [x] `k:292` **Haste Monster** — A:1/4 G:-:d I:65:25:-1:SPELL=Haste Monster P:0:1d1:0:0:0 W:1:0:10:0 — in RON
+- [x] `k:293` **& Flight Arrow~** — A:3/2 F:SHOW_MODS G:{:y I:17:1:0 P:0:1d3:0:0:0 W:3:0:1:1 — in RON
+- [x] `k:295` **& Boulder~** — A:3/200 F:SPECIAL_GENE G:*:W I:11:1:0 P:0:5d5:0:0:0 W:3:0:50:1 — in RON
+- [x] `k:296` **& Flame~ Imperishable** — A:127/255 F:ACTIVATE;ACTIVATE_NO_WIELD;EASY_USE;FULL_NAME;NORM_ART;SPECIAL_GENE G:~:v I:11:255:0 P:0:1d1:0:0:0 T:39:2 W:127:0:4:0 a:ETERNAL_FLAME — in RON
+- [x] `k:297` **& Necromantic Teeth~** — A:0/1:5/1:10/1:20/1 F:SHOW_MODS;SPECIAL_GENE;VAMPIRIC G:|:D I:23:34:0 P:0:1d4:0:0:0 W:0:0:7:10 — in RON
+- [x] `k:298` **& Golden Horn~ of the Thunderlords** — A:50/200 F:EASY_USE;FULL_NAME;NORM_ART;NO_RECHARGE;RECHARGED;SPECIAL_GENE G:_:d I:55:23:-1:SPELL=Artifact Thunderlords P:0:1d4:0:0:0 T:55:8 W:50:10:10:12000 — in RON
+- [x] `k:300` **Spell** — A:5/1:15/1:35/1:45/1:65/1:75/1:85/1:95/1 F:SPECIAL_GENE G:_:d I:55:1:0 P:0:1d2:0:0:0 W:5:0:50:100 — in RON
+- [x] `k:301` **Nothing** — A:5/1 G:_:d I:55:2:-1:SPELL=Nothing P:0:1d2:0:0:0 W:5:0:50:100 — in RON
+- [x] `k:302` **Globe of Light** — A:7/1 G:_:d I:55:3:-1:SPELL=Globe of Light P:0:1d2:0:0:0 W:7:0:50:100 — in RON
+- [x] `k:303` **Fiery Shield** — A:15/2 G:_:d I:55:4:-1:SPELL=Fiery Shield P:0:1d2:0:0:0 W:15:0:50:100 — in RON
+- [x] `k:304` **Remove Curses** — A:10/1 G:_:d I:55:5:-1:SPELL=Remove Curses P:0:1d2:0:0:0 W:10:0:50:100 — in RON
+- [x] `k:305` **Wings of Winds** — A:25/2 G:_:d I:55:6:-1:SPELL=Wings of Winds P:0:1d2:0:0:0 W:25:0:50:100 — in RON
+- [x] `k:306` **Shake** — A:30/1 G:_:d I:55:7:-1:SPELL=Shake P:0:1d2:0:0:0 W:30:0:50:100 — in RON
+- [x] `k:308` **Teleportation** — A:20/1 G:_:d I:55:9:-1:SPELL=Teleportation P:0:1d2:0:0:0 W:20:0:50:100 — in RON
+- [x] `k:309` **Probability Travel** — A:50/3 G:_:d I:55:10:-1:SPELL=Probability Travel P:0:1d2:0:0:0 W:50:0:50:100 — in RON
+- [x] `k:310` **Recovery** — A:20/1 G:_:d I:55:11:-1:SPELL=Recovery P:0:1d2:0:0:0 W:20:0:50:100 — in RON
+- [x] `k:311` **Healing** — A:25/2 G:_:d I:55:12:-1:SPELL=Healing P:0:1d2:0:0:0 W:25:0:50:100 — in RON
+- [x] `k:312` **Vision** — A:30/1 G:_:d I:55:13:-1:SPELL=Vision P:0:1d2:0:0:0 W:30:0:50:100 — in RON
+- [x] `k:314` **Sense Hidden** — A:10/1 G:_:d I:55:15:-1:SPELL=Sense Hidden P:0:1d2:0:0:0 W:10:0:50:100 — in RON
+- [x] `k:315` **Reveal Ways** — A:5/1 G:_:d I:55:16:-1:SPELL=Reveal Ways P:0:1d2:0:0:0 W:5:0:50:100 — in RON
+- [x] `k:316` **Sense Monsters** — A:5/1 G:_:d I:55:17:-1:SPELL=Sense Monsters P:0:1d2:0:0:0 W:5:0:50:100 — in RON
+- [x] `k:317` **Genocide** — A:55/2 G:_:d I:55:18:-1:SPELL=Genocide P:0:1d2:0:0:0 W:55:0:50:100 — in RON
+- [x] `k:318` **Summon** — A:5/1 G:_:d I:55:19:-1:SPELL=Summon P:0:1d2:0:0:0 W:5:0:50:100 — in RON
+- [x] `k:319` **Sterilization** — A:20/3 G:_:d I:55:24:-1:SPELL=Sterilize P:0:1d2:0:0:0 W:20:0:50:100 — in RON
+- [x] `k:320` **Wish** — A:95/40 F:NO_RECHARGE G:_:d I:55:20:-1:SPELL=Wish P:0:1d2:0:0:0 W:95:0:50:10000 — in RON
+- [x] `k:321` **Mana** — A:60/2 G:_:d I:55:21:-1:SPELL=Mana P:0:1d2:0:0:0 W:60:0:50:100 — in RON
+- [x] `k:330` **& Tome~ of Magical Energy** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:B I:111:0:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:331` **& Tome~ of the Eternal Flame** — A:50/4 F:EASY_KNOW;FULL_NAME;IGNORE_FIRE G:?:R I:111:1:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:332` **& Tome~ of the Blowing Wind** — A:50/4 F:EASY_KNOW;FULL_NAME;IGNORE_ELEC G:?:b I:111:2:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:333` **& Tome~ of the Impenetrable Earth** — A:50/4 F:EASY_KNOW;FULL_NAME;IGNORE_ACID G:?:U I:111:3:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:334` **& Tome~ of the Everrunning Wave** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:B I:111:4:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:335` **& Tome~ of Translocation** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:B I:111:5:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:336` **& Tome~ of the Tree** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:G I:111:6:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:337` **& Tome~ of Knowledge** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:D I:111:7:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:345` **& Iron Spike~** — A:1/1 G:~:W I:5:0:0 P:0:1d1:0:0:0 W:1:0:10:1 — in RON
+- [x] `k:346` **& Wooden Torch~** — A:1/1 F:EASY_KNOW;FUEL_LITE;LITE1 G:~:u I:39:0:0:4000 P:0:1d1:0:0:0 W:1:0:30:2 f:FUEL_LITE;LITE1 — in RON
+- [x] `k:347` **& Brass Lantern~** — A:3/1 F:EASY_KNOW;FUEL_LITE;IGNORE_FIRE;LITE2 G:~:U I:39:1:0:7500 P:0:1d1:0:0:0 W:3:0:50:35 f:FUEL_LITE;LITE2 — in RON
+- [x] `k:348` **& Flask~ of oil** — A:1/1 G:!:y I:77:0:7500 P:0:2d6:0:0:0 W:1:0:10:3 — in RON
+- [x] `k:349` **& Empty Bottle~** — A:0/1 G:!:w I:2:1:0 P:0:1d1:0:0:0 W:0:0:2:1 — in RON
+- [x] `k:350` **Havoc** — A:100/16 G:-:d I:66:28:90 P:0:1d1:0:0:0 W:95:0:15:150000 — in RON
+- [x] `k:351` **Door/Stair Location** — A:15/1 G:-:d I:66:1:10 P:0:1d1:0:0:0 W:15:0:15:1000 — in RON
+- [x] `k:354` **Recall** — A:30/4 G:-:d I:66:3:80 P:0:1d1:0:0:0 W:30:0:15:4500 — in RON
+- [x] `k:355` **Illumination** — A:20/1 G:-:d I:66:4:8 P:0:1d1:0:0:0 W:20:0:15:1000 — in RON
+- [x] `k:356` **Light** — A:10/1 G:-:d I:66:15:15 P:0:1d1:0:0:0 W:10:0:15:500 — in RON
+- [x] `k:357` **Lightning Bolts** — A:20/1 G:-:d I:66:21:30 P:0:1d1:0:0:0 W:20:0:15:2000 — in RON
+- [x] `k:358` **Frost Bolts** — A:25/1 G:-:d I:66:23:35 P:0:1d1:0:0:0 W:25:0:15:2500 — in RON
+- [x] `k:359` **Fire Bolts** — A:30/1 G:-:d I:66:22:40 P:0:1d1:0:0:0 W:30:0:15:3000 — in RON
+- [x] `k:360` **Polymorph** — A:35/1 G:-:d I:66:19:25 P:0:1d1:0:0:0 W:35:0:15:1200 — in RON
+- [x] `k:361` **Slow Monster** — A:30/1 G:-:d I:66:17:25 P:0:1d1:0:0:0 W:30:0:15:1500 — in RON
+- [x] `k:362` **Sleep Monster** — A:30/1 G:-:d I:66:16:25 P:0:1d1:0:0:0 W:30:0:15:1500 — in RON
+- [x] `k:363` **Drain Life** — A:75/4 G:-:d I:66:18:30 P:0:1d1:0:0:0 W:75:0:15:3600 — in RON
+- [x] `k:364` **Teleport Other** — A:45/2 G:-:d I:66:13:60 P:0:1d1:0:0:0 W:45:0:15:1400 — in RON
+- [x] `k:366` **Lightning Balls** — A:55/1 G:-:d I:66:25:50 P:0:1d1:0:0:0 W:55:0:15:4000 — in RON
+- [x] `k:367` **Cold Balls** — A:60/1 G:-:d I:66:27:55 P:0:1d1:0:0:0 W:60:0:15:4500 — in RON
+- [x] `k:368` **Fire Balls** — A:75/1 G:-:d I:66:26:60 P:0:1d1:0:0:0 W:75:0:15:5000 — in RON
+- [x] `k:369` **Acid Balls** — A:70/1 G:-:d I:66:24:60 P:0:1d1:0:0:0 W:70:0:15:5500 — in RON
+- [x] `k:370` **Acid Bolts** — A:40/1 G:-:d I:66:20:40 P:0:1d1:0:0:0 W:40:0:15:3500 — in RON
+- [x] `k:371` **Enlightenment** — A:65/4 G:-:d I:66:5:40 P:0:1d1:0:0:0 W:65:0:15:10000 — in RON
+- [x] `k:373` **Curing** — A:65/8 G:-:d I:66:8:35 P:0:1d1:0:0:0 W:65:0:15:15000 — in RON
+- [x] `k:374` **Healing** — A:80/8 G:-:d I:66:9:120 P:0:1d1:0:0:0 W:80:0:15:20000 — in RON
+- [x] `k:375` **Detection** — A:30/8 G:-:d I:66:6:80 P:0:1d1:0:0:0 W:30:0:15:5000 — in RON
+- [x] `k:376` **Restoration** — A:80/16 G:-:d I:66:10:140 P:0:1d1:0:0:0 W:80:0:15:25000 — in RON
+- [x] `k:377` **Speed** — A:95/16 G:-:d I:66:11:100 P:0:1d1:0:0:0 W:95:0:15:50000 — in RON
+- [x] `k:378` **Spell** — A:10/1 F:SPELL_CONTAIN;WIELD_CAST G:=:d I:45:58:0 W:10:0:2:1000 f:SPELL_CONTAIN — in RON
+- [x] `k:379` **Spell** — A:10/1 F:SPELL_CONTAIN;WIELD_CAST G:":d I:40:27:0 W:10:0:2:1000 f:SPELL_CONTAIN — in RON
+- [x] `k:391` **& Broken Skull~** — A:0/1 G:~:w I:1:1:0 P:0:1d1:0:0:0 W:0:0:1:0 — in RON
+- [x] `k:392` **& Broken Bone~** — A:0/1 G:~:w I:1:2:0 P:0:1d1:0:0:0 W:0:0:2:0 — in RON
+- [x] `k:393` **& Canine Skeleton~** — A:1/1 G:~:w I:1:4:0 P:0:1d1:0:0:0 W:1:0:10:0 — in RON
+- [x] `k:394` **& Rodent Skeleton~** — A:1/1 G:~:w I:1:3:0 P:0:1d1:0:0:0 W:1:0:10:0 — in RON
+- [x] `k:395` **& Human Skeleton~** — A:5/1 G:~:w I:1:8:0 P:0:1d2:0:0:0 W:5:0:60:0 — in RON
+- [x] `k:396` **& Dwarf Skeleton~** — A:5/1 G:~:w I:1:7:0 P:0:1d2:0:0:0 W:5:0:50:0 — in RON
+- [x] `k:397` **& Elf Skeleton~** — A:5/1 G:~:w I:1:6:0 P:0:1d2:0:0:0 W:5:0:40:0 — in RON
+- [x] `k:398` **& Gnome Skeleton~** — A:5/1 G:~:w I:1:5:0 P:0:1d2:0:0:0 W:5:0:30:0 — in RON
+- [x] `k:399` **& Great Hammer~** — A:45/3 F:SHOW_MODS G:\:D I:21:19:0 P:0:4d6:0:0:0 W:45:0:300:350 — in RON
+- [x] `k:400` **& Black Dragon Scale Mail~** — A:60/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_ACID G:[:s I:38:1:0 P:30:2d4:-2:0:10 W:60:0:200:50000 a:BR_ACID f:RES_ACID — in RON
+- [x] `k:401` **& Blue Dragon Scale Mail~** — A:50/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_ELEC G:[:b I:38:2:0 P:30:2d4:-2:0:10 W:50:0:200:40000 a:BR_ELEC f:RES_ELEC — in RON
+- [x] `k:402` **& White Dragon Scale Mail~** — A:50/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_COLD G:[:w I:38:3:0 P:30:2d4:-2:0:10 W:50:0:200:40000 a:BR_COLD f:RES_COLD — in RON
+- [x] `k:403` **& Red Dragon Scale Mail~** — A:60/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_FIRE G:[:r I:38:4:0 P:30:2d4:-2:0:10 W:60:0:200:50000 a:BR_FIRE f:RES_FIRE — in RON
+- [x] `k:404` **& Green Dragon Scale Mail~** — A:50/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_POIS G:[:g I:38:5:0 P:30:2d4:-2:0:10 W:50:0:200:40000 a:BR_POIS f:RES_POIS — in RON
+- [x] `k:405` **& Multi-Hued Dragon Scale Mail~** — A:90/32 F:ACTIVATE;ATTR_MULTI;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_ACID;RES_COLD;RES_ELEC;RES_FIRE;RES_POIS G:[:v I:38:6:0 P:30:2d4:-2:0:10 W:90:0:200:150000 a:BR_MANY f:RES_ACID;RES_COLD;RES_ELEC;RES_FIRE;RES_POIS — in RON
+- [x] `k:406` **& Pseudo Dragon Scale Mail~** — A:70/16 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_DARK;RES_LITE G:[:v I:38:10:0 P:30:2d4:-2:0:10 W:70:0:200:70000 a:BR_LIGHT — in RON
+- [x] `k:407` **& Law Dragon Scale Mail~** — A:80/16 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_SHARDS;RES_SOUND G:[:B I:38:12:0 P:30:2d4:-2:0:10 W:80:0:200:80000 a:BR_SHARD — in RON
+- [x] `k:408` **& Bronze Dragon Scale Mail~** — A:50/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_CONF G:[:U I:38:14:0 P:30:2d4:-2:0:10 W:50:0:200:40000 a:BR_CONF — in RON
+- [x] `k:409` **& Gold Dragon Scale Mail~** — A:60/8 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_SOUND G:[:y I:38:16:0 P:30:2d4:-2:0:10 W:60:0:200:50000 a:BR_SOUND — in RON
+- [x] `k:410` **& Chaos Dragon Scale Mail~** — A:80/16 F:ACTIVATE;ATTR_MULTI;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_CHAOS;RES_DISEN G:[:v I:38:18:0 P:30:2d4:-2:0:10 W:80:0:200:80000 a:BR_CHAOS f:RES_CHAOS — in RON
+- [x] `k:411` **& Balance Dragon Scale Mail~** — A:95/32 F:ACTIVATE;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_CHAOS;RES_DISEN;RES_SHARDS;RES_SOUND G:[:v I:38:20:0 P:30:2d4:-2:0:10 W:95:0:200:100000 a:BR_BALANCE — in RON
+- [x] `k:412` **& Power Dragon Scale Mail~** — A:100/64 F:ACTIVATE;ATTR_MULTI;FLY;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_ACID;RES_CHAOS;RES_COLD;RES_CONF;RES_DARK;RES_DISEN;RES_ELEC;RES_FIRE;RES_LITE;RES_NETHER;RES_NEXUS;RES_POIS;RES_SHARDS;RES_SOUND G:[:v I:38:30:0 P:40:2d4:-3:0:15 W:100:0:250:350000 a:BR_POWER — in RON
+- [x] `k:413` **& Dragon Helm~** — A:80/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE G:]:G I:32:7:0 P:8:1d3:0:0:10 W:45:0:50:10000 — in RON
+- [x] `k:414` **& Dragon Shield~** — A:80/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE G:[:G I:34:6:0 P:8:1d3:0:0:10 W:70:0:100:10000 — in RON
+- [x] `k:415` **Death** — A:55/4 F:FOUNTAIN G:!:d I:71:23:0 P:0:20d20:0:0:0 W:55:0:4:0 — in RON
+- [x] `k:416` **Ruination** — A:40/8 F:FOUNTAIN G:!:d I:71:15:0 P:0:20d20:0:0:0 W:40:0:4:0 — in RON
+- [x] `k:417` **Detonations** — A:60/8 F:FOUNTAIN G:!:d I:71:22:0 P:0:25d25:0:0:0 W:60:0:4:10000 — in RON
+- [x] `k:418` **Augmentation** — A:40/16 F:FOUNTAIN G:!:d I:71:55:0 P:0:1d1:0:0:0 W:40:0:4:60000 — in RON
+- [x] `k:419` ***Healing*** — A:40/4:60/2:80/1 F:FOUNTAIN G:!:d I:71:38:0 P:0:1d1:0:0:0 W:40:0:4:1500 — in RON
+- [x] `k:420` **Life** — A:60/4:100/2 G:!:d I:71:39:0 P:0:1d1:0:0:0 W:60:0:4:5000 — in RON
+- [x] `k:422` ***Enlightenment*** — A:70/4 F:FOUNTAIN G:!:d I:71:57:0 P:0:1d1:0:0:0 W:70:0:4:80000 — in RON
+- [x] `k:425` **Fear Resistance** — A:10/2 F:EASY_KNOW;RES_FEAR G:=:d I:45:38:0 W:10:0:2:300 f:RES_FEAR — in RON
+- [x] `k:426` **Light and Darkness Resistance** — A:30/2 F:EASY_KNOW;RES_DARK;RES_LITE G:=:d I:45:39:0 W:30:0:2:3000 f:RES_DARK;RES_LITE — in RON
+- [x] `k:427` **Nether Resistance** — A:34/2 F:EASY_KNOW;HOLD_LIFE;RES_NETHER G:=:d I:45:40:0 W:34:0:2:14500 f:RES_NETHER — in RON
+- [x] `k:428` **Nexus Resistance** — A:24/2 F:EASY_KNOW;RES_NEXUS G:=:d I:45:41:0 W:24:0:2:3000 f:RES_NEXUS — in RON
+- [x] `k:429` **Sound Resistance** — A:26/2 F:EASY_KNOW;RES_SOUND G:=:d I:45:42:0 W:26:0:2:3000 f:RES_SOUND — in RON
+- [x] `k:430` **Confusion Resistance** — A:22/2 F:EASY_KNOW;RES_CONF G:=:d I:45:43:0 W:22:0:2:3000 f:RES_CONF — in RON
+- [x] `k:431` **Shard Resistance** — A:25/2 F:EASY_KNOW;RES_SHARDS G:=:d I:45:44:0 W:25:0:2:3000 f:RES_SHARDS — in RON
+- [x] `k:432` **Disenchantment Resistance** — A:90/10 F:EASY_KNOW;RES_DISEN G:=:d I:45:45:0 W:90:0:2:15000 f:RES_DISEN — in RON
+- [x] `k:433` **Chaos Resistance** — A:50/2 F:EASY_KNOW;RES_CHAOS;RES_CONF G:=:d I:45:46:0 W:50:0:2:13000 f:RES_CHAOS — in RON
+- [x] `k:434` **Blindness Resistance** — A:60/2 F:EASY_KNOW;RES_BLIND G:=:d I:45:47:0 W:60:0:2:7500 f:RES_BLIND — in RON
+- [x] `k:435` **Lordly Protection** — A:100/5 F:FREE_ACT;HOLD_LIFE;RES_DISEN;RES_POIS G:=:d I:45:48:0 W:100:0:2:100000 f:FREE_ACT;HOLD_LIFE;RES_DISEN;RES_POIS — in RON
+- [x] `k:436` **Extra Attacks** — A:50/2 F:BLOWS G:=:d I:45:49:0 W:50:0:2:100000 f:BLOWS — in RON
+- [x] `k:437` **Cure Light Wounds** — A:0/1:1/1:3/1 F:FOUNTAIN G:!:d I:71:34:50 P:0:1d1:0:0:0 W:0:0:4:15 — in RON
+- [x] `k:438` **Clumsiness** — A:5/1 F:FOUNTAIN G:!:d I:71:19:0 P:0:1d1:0:0:0 W:5:0:4:0 — in RON
+- [x] `k:439` **Sickliness** — A:10/1 F:FOUNTAIN G:!:d I:71:20:0 P:0:1d1:0:0:0 W:10:0:4:0 — in RON
+- [x] `k:440` **Map of Bree** — A:3/3 G:?:s I:8:200:0 W:3:100:5:100 — in RON
+- [x] `k:441` **Map of Gondolin** — A:70/3 G:?:s I:8:201:0 W:70:100:5:50000 — in RON
+- [x] `k:442` **Map of Lothlorien** — A:6/3 G:?:s I:8:202:0 W:6:100:5:1000 — in RON
+- [x] `k:443` **Map of Minas Anor** — A:36/3 G:?:s I:8:203:0 W:36:100:5:10000 — in RON
+- [x] `k:465` **& Silver Arrow~** — A:50/4:90/2 F:IGNORE_ACID;IGNORE_FIRE;SHOW_MODS;SLAY_EVIL G:{:W I:17:3:0 P:0:3d4:0:0:0 W:55:0:2:35 — in RON
+- [x] `k:466` **& Silver Bolt~** — A:60/4:95/2 F:IGNORE_ACID;IGNORE_FIRE;SHOW_MODS;SLAY_EVIL G:{:w I:18:3:0 P:0:3d5:0:0:0 W:50:0:2:40 — in RON
+- [x] `k:467` **Lightning Resistance** — A:10/1 F:EASY_KNOW;IGNORE_ELEC;RES_ELEC G:":d I:40:29:0 W:10:0:3:250 f:RES_ELEC — in RON
+- [x] `k:468` **Wisdom** — A:30/1 F:HIDE_TYPE;SUST_WIS;WIS G:":d I:40:28:0 W:30:0:3:500 f:WIS — in RON
+- [x] `k:469` **Regeneration** — A:30/3 F:EASY_KNOW;REGEN G:":d I:40:30:0 W:30:0:3:600 f:REGEN — in RON
+- [x] `k:470` **Infravision** — A:10/1 F:HIDE_TYPE;INFRA G:":d I:40:26:0 W:10:0:3:200 f:INFRA — in RON
+- [x] `k:471` **Devotion** — A:70/8 F:CHR;HIDE_TYPE;HOLD_LIFE;LITE1;RES_DARK;RES_FIRE;RES_LITE;SUST_CHR;SUST_WIS;WIS G:":d I:40:25:0 W:70:0:3:30000 — in RON
+- [x] `k:472` **Weaponmastery** — A:70/8 F:CON;FREE_ACT;HIDE_TYPE;RES_DISEN;RES_FEAR;STR;SUST_CON;SUST_STR G:":d I:40:24:0 W:70:0:3:30000 — in RON
+- [x] `k:473` **Trickery** — A:70/8 F:DEX;HIDE_TYPE;INFRA;RES_NEXUS;RES_POIS;SPEED;STEALTH;SUST_DEX G:":d I:40:23:0 W:70:0:3:30000 — in RON
+- [x] `k:474` **Telepathy** — A:50/6 F:ESP_ALL;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE G:":d I:40:22:0 W:50:0:3:25000 f:ESP_ALL — in RON
+- [x] `k:475` **Sustenance** — A:60/4 F:EASY_KNOW;HOLD_LIFE;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SLOW_DIGEST;SUST_CHR;SUST_CON;SUST_DEX;SUST_INT;SUST_STR;SUST_WIS G:":d I:40:21:0 W:60:0:3:20000 — in RON
+- [x] `k:476` **& Palantir~** — F:INSTA_ART G:~:y I:39:107:0 P:0:10d10:0:0:0 W:75:0:200:0 — in RON
+- [x] `k:477` **& Elfstone~** — F:INSTA_ART G:":g I:40:19:0 W:60:0:3:50000 — in RON
+- [x] `k:478` **& Jewel~** — F:INSTA_ART G:":w I:40:20:0 W:50:0:3:35000 — in RON
+- [x] `k:479` **& Ring~** — F:INSTA_ART;SPECIAL_GENE G:=:d I:45:57:0 W:70:0:2:65000 — in RON
+- [x] `k:480` **copper** — G:$:u I:100:1:0 W:1:0:0:3 — in RON
+- [x] `k:481` **copper** — G:$:u I:100:2:0 W:1:0:0:4 — in RON
+- [x] `k:482` **copper** — G:$:u I:100:3:0 W:1:0:0:5 — in RON
+- [x] `k:483` **silver** — G:$:s I:100:4:0 W:1:0:0:6 — in RON
+- [x] `k:484` **silver** — G:$:s I:100:5:0 W:1:0:0:7 — in RON
+- [x] `k:485` **silver** — G:$:s I:100:6:0 W:1:0:0:8 — in RON
+- [x] `k:486` **garnets** — G:$:r I:100:7:0 W:1:0:0:9 — in RON
+- [x] `k:487` **garnets** — G:$:r I:100:8:0 W:1:0:0:10 — in RON
+- [x] `k:488` **gold** — G:$:y I:100:9:0 W:1:0:0:12 — in RON
+- [x] `k:489` **gold** — G:$:y I:100:10:0 W:1:0:0:14 — in RON
+- [x] `k:490` **gold** — G:$:y I:100:11:0 W:1:0:0:16 — in RON
+- [x] `k:491` **opals** — G:$:W I:100:12:0 W:1:0:0:18 — in RON
+- [x] `k:492` **sapphires** — G:$:b I:100:13:0 W:1:0:0:20 — in RON
+- [x] `k:493` **rubies** — G:$:r I:100:14:0 W:1:0:0:24 — in RON
+- [x] `k:494` **diamonds** — G:$:w I:100:15:0 W:1:0:0:28 — in RON
+- [x] `k:495` **emeralds** — G:$:g I:100:16:0 W:1:0:0:32 — in RON
+- [x] `k:496` **mithril** — G:$:B I:100:17:0 W:1:0:0:40 — in RON
+- [x] `k:497` **adamantite** — G:$:G I:100:18:0 W:1:0:0:80 — in RON
+- [x] `k:498` **& Mighty Hammer~** — F:INSTA_ART;MUST2H;SHOW_MODS;SPECIAL_GENE G:\:D I:21:50:0 P:0:3d9:0:0:0 W:15:0:200:1000 f:MUST2H — in RON
+- [x] `k:499` **& Massive Iron Crown~** — F:INSTA_ART;SPECIAL_GENE G:]:D I:33:50:0 P:0:1d1:0:0:0 W:44:0:20:1000 — in RON
+- [x] `k:500` **& Phial~** — F:INSTA_ART G:~:y I:39:100:0 P:0:1d1:0:0:0 W:20:0:10:10000 — in RON
+- [x] `k:501` **& Star~** — F:INSTA_ART G:~:B I:39:101:0 P:0:1d1:0:0:0 W:30:0:5:25000 — in RON
+- [x] `k:502` **& Arkenstone~** — F:INSTA_ART G:~:R I:39:102:0 P:0:1d1:0:0:0 W:60:0:5:60000 — in RON
+- [x] `k:503` **& Amulet~** — F:INSTA_ART G:":d I:40:10:0 W:50:0:3:60000 — in RON
+- [x] `k:504` **& Amulet~** — F:INSTA_ART G:":d I:40:11:0 W:60:0:3:90000 — in RON
+- [x] `k:505` **& Necklace~** — F:INSTA_ART G:":d I:40:12:0 W:70:0:3:75000 — in RON
+- [x] `k:506` **& Ring~** — F:INSTA_ART G:=:d I:45:32:0 W:50:0:2:65000 — in RON
+- [x] `k:507` **& Ring~** — F:INSTA_ART G:=:d I:45:33:0 W:90:0:2:150000 — in RON
+- [x] `k:508` **& Ring~** — F:INSTA_ART;SPECIAL_GENE G:=:d I:45:34:0 W:80:0:2:100000 — in RON
+- [x] `k:509` **& Ring~** — F:INSTA_ART G:=:d I:45:35:0 W:90:0:2:200000 — in RON
+- [x] `k:510` **& Ring~** — F:INSTA_ART G:=:d I:45:36:0 W:100:0:2:300000 — in RON
+- [x] `k:511` **& Ring~** — F:INSTA_ART G:=:y I:45:37:0 W:110:0:2:5000000 — in RON
+- [x] `k:520` **Reflection** — A:60/4 F:EASY_KNOW;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;REFLECT G:":d I:40:9:0 W:60:0:3:30000 f:REFLECT — in RON
+- [x] `k:521` **Anti-Magic** — A:40/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NO_MAGIC G:":d I:40:13:0 W:40:0:3:30000 f:NO_MAGIC — in RON
+- [x] `k:522` **Anti-Teleportation** — A:30/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NO_TELE G:":d I:40:14:0 W:30:0:3:15000 f:NO_TELE — in RON
+- [x] `k:523` **Resistance** — A:50/4 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;RES_ACID;RES_COLD;RES_ELEC;RES_FIRE G:":d I:40:15:0 W:50:0:3:25000 f:RES_ACID;RES_COLD;RES_ELEC;RES_FIRE — in RON
+- [x] `k:524` **& Zweihander~** — A:40/3 F:MUST2H;SHOW_MODS G:|:w I:23:29:0 P:0:4d6:0:0:0 W:40:0:280:580 f:MUST2H — in RON
+- [x] `k:525` **& Dwarven Lantern~** — A:15/2 F:EASY_KNOW;IGNORE_FIRE;LITE2 G:~:b I:39:3:0 P:0:1d1:0:0:0 W:15:0:50:5000 f:LITE2 — in RON
+- [x] `k:526` **& Splint Mail~** — A:35/1 G:[:D I:37:10:0 P:19:1d4:-2:0:0 W:35:0:250:950 — in RON
+- [x] `k:527` **& Everburning Torch~** — A:5/1 F:EASY_KNOW;IGNORE_FIRE;LITE1 G:~:R I:39:2:0 P:0:1d1:0:0:0 W:5:0:50:2500 f:LITE1 — in RON
+- [x] `k:528` **& Trifurcate Spear~** — A:35/3 F:SHOW_MODS G:/:o I:22:26:0 P:0:2d9:0:0:0 W:35:0:140:400 — in RON
+- [x] `k:529` **& Three Piece Rod~** — A:20/3 F:SHOW_MODS G:\:u I:21:11:0 P:0:3d3:0:0:0 W:20:0:120:350 — in RON
+- [x] `k:530` **& Feanorian Lamp~** — A:25/3 F:EASY_KNOW;IGNORE_FIRE;LITE3 G:~:B I:39:4:0 P:0:1d1:0:0:0 W:25:0:50:15000 f:LITE3 — in RON
+- [x] `k:531` **& Fur Cloak~** — A:20/2:30/2 G:(:W I:35:3:0 P:3:0d0:0:0:0 W:20:0:30:100 — in RON
+- [x] `k:532` **Water Curing** — A:0/1 F:SPECIAL_GENE G:!:d I:72:18:80 P:0:1d1:0:0:0 W:0:0:4:0 — in RON
+- [x] `k:533` **& Hatchet~** — A:10/2 F:COULD2H;SHOW_MODS G:/:s I:24:1:0 P:0:1d5:0:0:0 W:10:0:60:120 f:COULD2H — in RON
+- [x] `k:535` **& Rhino Hide Armour~** — A:15/1 G:(:s I:36:8:0 P:8:1d1:-1:0:0 W:15:0:110:400 — in RON
+- [x] `k:536` **& Leather Jacket~** — A:20/3 G:(:U I:36:12:0 P:12:1d2:-1:0:0 W:20:0:130:550 — in RON
+- [x] `k:537` **& Sickle~** — A:10/3 F:SHOW_MODS G:/:s I:22:3:0 P:0:2d3:0:0:0 W:10:0:70:110 — in RON
+- [x] `k:542` **& Club~** — A:0/1 F:SHOW_MODS G:\:u I:21:1:0 P:0:1d4:0:0:0 W:0:0:100:3 — in RON
+- [x] `k:543` **& Broad Spear~** — A:14/3 F:SHOW_MODS G:/:w I:22:7:0 P:0:1d9:0:0:0 W:14:0:100:240 — in RON
+- [x] `k:544` **& Khopesh~** — A:10/2 F:SHOW_MODS G:|:W I:23:14:0 P:0:2d4:0:0:0 W:10:0:130:190 — in RON
+- [x] `k:545` **& Flamberge~** — A:40/2 F:MUST2H;SHOW_MODS G:|:W I:23:26:0 P:0:3d7:0:0:0 W:40:0:230:600 f:MUST2H — in RON
+- [x] `k:546` **& Claymore~** — A:40/2 F:COULD2H;SHOW_MODS G:|:W I:23:23:0 P:0:2d8:0:0:0 W:40:0:200:600 f:COULD2H — in RON
+- [x] `k:547` **& Espadon~** — A:40/3 F:MUST2H;SHOW_MODS G:|:W I:23:24:0 P:0:2d9:0:0:0 W:40:0:200:600 f:MUST2H — in RON
+- [x] `k:548` **& Great Scimitar~** — A:40/3 F:MUST2H;SHOW_MODS G:|:W I:23:22:0 P:0:4d5:0:0:0 W:40:0:240:500 f:MUST2H — in RON
+- [x] `k:551` **& Fauchard~** — A:18/2 F:COULD2H;SHOW_MODS G:/:s I:22:6:0 P:0:1d10:0:0:0 W:18:0:155:301 f:COULD2H — in RON
+- [x] `k:552` **& Guisarme~** — A:21/1 F:COULD2H;SHOW_MODS G:/:s I:22:16:0 P:0:2d5:0:0:0 W:21:0:165:320 f:COULD2H — in RON
+- [x] `k:553` **& Heavy Lance~** — A:43/2 F:MUST2H;SHOW_MODS G:/:s I:22:29:0 P:0:4d8:0:0:0 W:43:0:400:700 f:MUST2H — in RON
+- [x] `k:554` **& Basilard~** — A:15/3 F:SHOW_MODS G:|:w I:23:9:0 P:0:1d8:0:0:0 W:15:0:80:220 — in RON
+- [x] `k:556` **& Ring Mail~** — A:20/1 G:[:s I:37:2:0 P:12:1d4:-2:0:0 W:20:0:200:500 — in RON
+- [x] `k:557` **& Cord Armour~** — A:5/1 G:(:y I:36:9:0 P:6:1d1:0:0:0 W:5:0:80:40 — in RON
+- [x] `k:558` **& Paper Armour~** — A:5/2 G:(:w I:36:3:0 P:4:1d1:0:0:0 W:5:0:30:40 — in RON
+- [x] `k:559` **& Padded Armour~** — A:2/1 G:(:y I:36:10:0 P:4:1d1:0:0:0 W:2:0:60:40 — in RON
+- [x] `k:561` **& Stone and Hide Armour~** — A:35/7 G:(:U I:36:15:0 P:15:1d1:-1:0:0 W:35:0:200:500 — in RON
+- [x] `k:564` **Nothing** — A:1/1 G:?:d I:70:53:0 P:0:1d1:0:0:0 W:1:0:5:2 — in RON
+- [x] `k:566` **Nothing** — A:2/1 F:NO_RECHARGE;SPECIAL_GENE G:-:d I:65:2:-1:SPELL=Nothing P:0:1d1:0:0:0 W:2:0:10:20 — in RON
+- [x] `k:567` **Nothing** — A:5/1 G:=:d I:45:50:0 P:0:1d1:0:0:0 W:5:0:2:20 — in RON
+- [x] `k:568` **Nothing** — A:5/1 F:NO_RECHARGE;SPECIAL_GENE G:_:d I:55:30:0 P:0:1d1:0:0:0 W:5:0:50:50 — in RON
+- [x] `k:569` **Nothing** — A:5/1 G:-:d I:66:0:1 P:0:1d1:0:0:0 W:5:0:10:50 — in RON
+- [x] `k:572` **Nothing** — A:10/1 G:":d I:40:16:0 P:0:1d1:0:0:0 W:10:0:3:20 — in RON
+- [x] `k:573` **& Blood~ of Life** — A:70/16 F:FULL_NAME;NORM_ART G:!:d I:71:3:200 P:0:1d1:0:0:0 T:71:2 W:70:0:4:10000 — in RON
+- [x] `k:577` **& Mage Staff~** — A:5/1:20/1:50/1:80/1 F:COULD2H;SHOW_MODS G:\:B I:6:1:0 P:0:1d4:0:0:0 W:5:0:12:300 f:COULD2H — in RON
+- [x] `k:578` **Lightning** — A:50/1 F:ACTIVATE;IGNORE_ELEC;RES_ELEC G:=:d I:45:56:0 P:0:0d0:0:0:15 W:50:0:2:3000 a:BA_ELEC_4 f:RES_ELEC — in RON
+- [x] `k:582` **& Ring~** — F:INSTA_ART G:=:y I:45:52:5 W:50:25:2:75000 — in RON
+- [x] `k:583` **Invisibility** — A:3/1 F:FOUNTAIN G:!:d I:71:8:0 P:0:1d1:0:0:0 W:3:0:4:50 — in RON
+- [x] `k:585` **Corruption** — A:20/1:30/1:40/1 F:FOUNTAIN G:!:d I:71:10:0 P:0:1d1:0:0:0 W:3:0:4:0 — in RON
+- [x] `k:586` **Invisibility** — A:50/1 F:HIDE_TYPE;INVIS G:=:d I:45:53:4 W:50:0:2:10000 f:INVIS — in RON
+- [x] `k:588` **Deep Thoughts** — A:3/1 G:?:o I:8:0:0 W:3:0:5:50 — in RON
+- [x] `k:589` **More Deep Thoughts** — A:4/1 G:?:o I:8:1:0 W:4:0:5:50 — in RON
+- [x] `k:590` **Compendium of Deep Thoughts** — A:5/1 G:?:o I:8:2:0 W:5:0:5:50 — in RON
+- [x] `k:591` **Artifact Lore Vol. I** — A:40/3 G:?:o I:8:6:0 W:40:0:5:50 — in RON
+- [x] `k:592` **Artifact Lore Vol. II** — A:40/3 G:?:o I:8:7:0 W:40:0:5:50 — in RON
+- [x] `k:593` **Artifact Lore Vol. III** — A:40/3 G:?:o I:8:8:0 W:40:0:5:50 — in RON
+- [x] `k:605` **& Morphic Oil~ of #** — A:1/3:5/1:10/1 F:EASY_KNOW;FULL_NAME G:!:d I:72:1:0 P:0:1d1:0:0:0 W:5:0:4:100 — in RON
+- [x] `k:618` **& #~** — A:5/1:15/1:35/1:55/1:75/1 G:(:y I:35:100:0:50 P:1:1d1:0:0:0 W:5:130:30:100 — in RON
+- [x] `k:641` **corpse** — A:30/1 F:DECAY G:~:U I:9:1:3000 P:0:1d1:0:0:0 W:20:0:80:0 — in RON
+- [x] `k:642` **skeleton** — A:30/1 G:~:U I:9:2:800 P:0:1d1:0:0:0 W:20:0:2:0 — in RON
+- [x] `k:643` **head** — A:30/1 F:DECAY G:~:U I:9:3:600 P:0:1d1:0:0:0 W:20:0:10:0 — in RON
+- [x] `k:644` **skull** — A:30/1 G:~:U I:9:4:1000 P:0:1d1:0:0:0 W:20:0:20:0 — in RON
+- [x] `k:645` **raw meat** — A:30/1 F:DECAY G:~:U I:9:5:1200 P:0:1d1:0:0:0 W:20:0:10:2 — in RON
+- [x] `k:646` **& Thunderlord Coat~** — A:25/1 F:RES_COLD;RES_FIRE G:(:y I:36:16:0 P:9:1d1:0:0:0 W:5:0:60:400 — in RON
+- [x] `k:648` **& Small Wooden Boomerang~** — A:1/1:5/2:10/2:20/2 G:{:y I:15:1:0 P:0:1d4:0:0:0 W:1:0:60:10 — in RON
+- [x] `k:649` **& Wooden Boomerang~** — A:10/1:20/2 G:{:y I:15:2:0 P:0:1d8:0:0:0 W:10:0:60:100 — in RON
+- [x] `k:650` **& Small Metal Boomerang~** — A:20/1:30/2 G:{:y I:15:3:0 P:0:3d4:0:0:0 W:20:0:60:400 — in RON
+- [x] `k:651` **& Metal Boomerang~** — A:30/1:50/2 G:{:y I:15:4:0 P:0:4d5:0:0:0 W:30:0:60:800 — in RON
+- [x] `k:652` **& Anchor~** — F:INSTA_ART G:~:v I:39:105:0 W:30:0:15:50000 — in RON
+- [x] `k:653` **& ~** — A:127/255 G:~:y I:99:1:0 P:0:0d0:0:0:0 W:127:200:60:0 — in RON
+- [x] `k:654` **Summon Never-Moving Pet** — A:5/1:15/1:25/1:35/1:65/1:85/1:95/1 G:?:d I:70:6:0 W:5:0:5:125 — in RON
+- [x] `k:657` **Cure Light Insanity** — A:5/1:1/1:3/1 F:FOUNTAIN G:!:d I:72:14:0 P:0:1d1:0:0:0 W:1:5:4:15 — in RON
+- [x] `k:658` **Cure Serious Insanity** — A:10/1 F:FOUNTAIN G:!:d I:72:15:0 P:0:1d1:0:0:0 W:10:5:4:40 — in RON
+- [x] `k:659` **Cure Critical Insanity** — A:15/3 F:FOUNTAIN G:!:d I:72:16:0 P:0:1d1:0:0:0 W:15:5:4:100 — in RON
+- [x] `k:660` **Cure Insanity** — A:25/3 F:FOUNTAIN G:!:d I:72:17:0 P:0:1d1:0:0:0 W:25:5:4:300 — in RON
+- [x] `k:661` **& Phial~** — F:INSTA_ART G:~:y I:39:103:0 P:0:1d1:0:0:0 W:1:0:10:0 — in RON
+- [x] `k:662` **Random Artifact** — A:1/1:10/1:20/1:30/1 F:ACTIVATE;ACTIVATE_NO_WIELD;INSTA_ART G:~:o I:102:0:0 W:1:0:50:0 — in RON
+- [x] `k:663` **Craftsmanship** — A:80/16 G:?:d I:70:19:0 W:80:0:5:200000 — in RON
+- [x] `k:664` **The One Ring** — A:10/2 G:?:s I:8:4:0 W:10:100:5:50 — in RON
+- [x] `k:669` **& Horn~** — A:7/2:20/1:40/1:80/1 F:ACTIVATE;CON;WIELD_CAST G:/:W I:14:60:1 P:0:1d1:0:0:0 W:7:0:30:400 — in RON
+- [x] `k:670` **& Drum~** — A:7/2:20/1:40/1:80/1 F:STR;WIELD_CAST G:/:W I:14:58:1 P:0:1d1:0:0:0 W:7:0:30:400 — in RON
+- [x] `k:671` **& Harp~** — A:7/2:20/1:40/1:80/1 F:CHR;WIELD_CAST G:/:W I:14:59:1 P:0:1d1:0:0:0 W:7:0:30:400 — in RON
+- [x] `k:675` **& Palantir~** — F:INSTA_ART G:~:y I:39:104:0 P:0:10d10:0:0:0 W:75:0:200:100000 — in RON
+- [x] `k:676` **Egg** — A:5/1:15/1:25/1:35/1 F:ACTIVATE;ACTIVATE_NO_WIELD G:,:W I:10:1:0 P:0:1d1:0:0:0 W:5:0:30:100 — in RON
+- [x] `k:677` **Reset Recall** — A:20/1:25/1:35/1 G:?:d I:70:23:0 W:20:0:5:125 — in RON
+- [x] `k:678` **Divination** — A:30/1:45/1:55/1 G:?:d I:70:31:0 W:20:0:5:600 — in RON
+- [x] `k:700` **& Ring~ of Precognition** — A:90/100 F:FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART;PRECOGNITION G:=:d I:45:51:0 T:45:23 W:90:0:2:300000 f:PRECOGNITION — in RON
+- [x] `k:701` **& Sprig~ of Athelas** — A:25/2:55/1:85/1 G:,:g I:80:40:0 W:25:5:2:450 — in RON
+- [x] `k:720` **& Old Scroll~ of Deincarnation** — A:90/140 F:FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART G:?:d I:70:40:0 T:70:51 W:90:0:5:160000 — in RON
+- [x] `k:721` **& Dark Sword~** — A:25/1:80/2 F:ANTIMAGIC_50;SHOW_MODS G:|:D I:23:33:0 P:0:3d7:0:0:0 W:25:0:70:500 f:ANTIMAGIC_50 — in RON
+- [x] `k:722` **Numenorean for Beginners (I)** — A:10/2 G:?:s I:8:101:0 W:10:100:5:50 — in RON
+- [x] `k:723` **Numenorean for Beginners (II)** — A:5/2 G:?:s I:8:102:0 W:5:100:5:50 — in RON
+- [x] `k:724` **Advanced Lessons of Numenorean** — A:20/2 G:?:s I:8:103:0 W:20:100:5:50 — in RON
+- [x] `k:725` **Advanced Lessons of Sindarin** — A:20/2 G:?:s I:8:104:0 W:20:100:5:50 — in RON
+- [x] `k:726` **& Shard~ of Pottery** — A:0/1 F:EASY_KNOW G:~:r I:11:3:0 P:0:1d1:0:0:0 W:0:0:5:0 — in RON
+- [x] `k:727` **& Broken Stick~** — A:0/1 F:EASY_KNOW G:~:r I:11:6:0 P:0:1d1:0:0:0 W:0:0:3:0 — in RON
+- [x] `k:738` **& Book~ of Beginner Cantrips** — A:5/1 G:?:w I:111:50:0 P:0:1d1:0:0:0 W:5:0:30:100 — in RON
+- [x] `k:739` **& Book~ of Teleportation** — A:10/1 G:?:w I:111:51:0 P:0:1d1:0:0:0 W:10:0:30:1000 — in RON
+- [x] `k:741` **& Book~ of Summoning** — A:7/1 G:?:w I:111:52:0 P:0:1d1:0:0:0 W:7:0:30:700 — in RON
+- [x] `k:743` **& Potion~ of Learning** — A:90/25 F:FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART G:!:d I:71:12:200 P:0:1d1:0:0:0 T:71:49 W:90:0:4:100000 — in RON
+- [x] `k:751` **Khuzdul - The Hidden Tongue of the Dwarves** — A:2/2 G:?:s I:8:105:0 W:2:100:5:50 — in RON
+- [x] `k:752` **Nandorin for Dummies** — A:20/2 G:?:s I:8:106:0 W:20:100:5:50 — in RON
+- [x] `k:753` **Advanced Lessons of Orcish** — A:30/2 G:?:s I:8:107:0 W:30:100:5:50 — in RON
+- [x] `k:755` **Flying** — A:20/3 F:EASY_KNOW;FLY G:=:d I:45:54:0 W:20:0:2:16000 f:FLY — in RON
+- [x] `k:756` **& Tome~ of the Time** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:b I:111:8:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:757` **& Spellbook~ of #** — A:10/1:20/1:30/1:40/1:50/1:60/1:70/1 G:?:w I:111:255:0 P:0:1d1:0:0:0 W:10:0:30:200 — in RON
+- [x] `k:758` **& Tome~ of Meta Spells** — A:50/4 F:ATTR_MULTI;EASY_KNOW;FULL_NAME;IGNORE_FIRE G:?:v I:111:9:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:759` **& Tome~ of the Mind** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:B I:111:10:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:760` **& Holy Tome~ of Eru Iluvatar** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:G I:111:20:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:761` **& Holy Tome~ of Manwe Sulimo** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:B I:111:21:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:762` **& War Tome~ of Tulkas** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:R I:111:22:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:763` **& Unholy Tome~ of the Hellflame** — A:50/4 F:ATTR_MULTI;EASY_KNOW;FULL_NAME G:?:v I:111:11:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:764` **& Corrupted Tome~ of Melkor** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:D I:111:23:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:768` **& Forest Tome~ of Yavanna** — A:50/4 F:EASY_KNOW;FULL_NAME G:?:G I:111:24:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:769` **Tome of#** — A:50/4 F:ATTR_MULTI;EASY_KNOW;FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART;SPECIAL_GENE G:?:v I:111:61:0 P:0:1d1:0:0:0 W:50:0:30:25000 — in RON
+- [x] `k:770` **& Ring~** — A:110/5 F:INSTA_ART;SPECIAL_GENE G:=:d I:45:55:0 W:110:0:2:300000 — in RON
+- [x] `k:771` **[Earth]** — A:10/1 F:SPECIAL_GENE G:?:R I:114:0:0 P:0:1d1:0:0:0 W:10:0:30:100 — in RON
+- [x] `k:772` **[Fire]** — A:20/1 F:SPECIAL_GENE G:?:R I:114:1:0 P:0:1d1:0:0:0 W:20:0:30:1000 — in RON
+- [x] `k:773` **[Air]** — A:50/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:?:r I:114:2:0 P:0:1d1:0:0:0 W:50:0:30:2500 — in RON
+- [x] `k:774` **[Water]** — A:70/3 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:?:r I:114:3:0 P:0:1d1:0:0:0 W:70:0:30:50000 — in RON
+- [x] `k:775` **[Mana]** — A:100/3 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:?:r I:114:4:0 P:0:1d1:0:0:0 W:100:0:30:100000 — in RON
+- [x] `k:776` **Home Summoning** — A:100/14 F:FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART G:-:d I:66:30:75 P:0:1d1:0:0:0 T:66:1 W:90:0:15:150000 — in RON
+- [x] `k:777` **& Shadow Blade~** — A:48/4:60/2:80/1 F:IGNORE_ACID;RES_DARK;STEALTH G:|:D I:23:32:1 P:0:4d4:-2:2:0 W:50:900:45:2000 f:STEALTH — in RON
+- [x] `k:778` **& Bluesteel Blade~** — A:60/20 F:SHOW_MODS;VORPAL G:|:b I:23:31:0 P:0:1d6:4:0:0 W:60:1800:50:6000 — in RON
+- [x] `k:779` **the Serpents** — A:25/1 F:ACTIVATE;DEX;RES_POIS G:":G I:40:17:0 W:25:0:3:10000 a:BA_POIS_4 — in RON
+- [x] `k:785` **Ring~ of Power** — A:100/100 F:CURSED;CURSE_NO_DROP;DRAIN_EXP;FULL_NAME;HEAVY_CURSE;INVIS;SPECIAL_GENE G:=:d I:45:5:0 W:100:0:2:1 f:INVIS — in RON
+- [x] `k:786` **& Climbing Set~** — A:40/3 F:CLIMB G:`:B I:12:0:0 W:40:0:2:50000 f:CLIMB — in RON
+- [x] `k:787` **Adventurer's Guide to Middle-earth** — A:0/1 G:?:o I:8:20:0 W:0:0:5:1 — in RON
+- [x] `k:788` **& Demonblade~** — A:10/1 F:SHOW_MODS;SLAY_DEMON;WIELD_CAST G:|:R I:115:55:0 P:0:4d6:0:0:0 W:10:0:150:500 — in RON
+- [x] `k:789` **& Demonshield~** — A:15/1 F:REGEN;WIELD_CAST G:]:R I:115:56:0 P:5:1d1:0:0:0 W:15:0:70:500 — in RON
+- [x] `k:790` **& Demonhorn~** — A:20/1 F:LITE2;WIELD_CAST G:[:R I:115:57:0 P:2:1d1:0:0:0 W:20:0:30:500 — in RON
+- [x] `k:793` **& Wooden Rod~ of#** — A:5/1:10/1 G:-:u I:67:10:0 P:0:1d1:0:0:0 W:10:0:15:100 — in RON
+- [x] `k:794` **& Copper Rod~ of#** — A:15/1 G:-:s I:67:20:0 P:0:1d1:0:0:0 W:15:0:15:200 — in RON
+- [x] `k:795` **& Iron Rod~ of#** — A:20/1 G:-:D I:67:50:0 P:0:1d1:0:0:0 W:20:0:15:500 — in RON
+- [x] `k:796` **& Moonstone Rod~ of#** — A:25/1 G:-:U I:67:75:0 P:0:1d1:0:0:0 W:25:0:15:750 — in RON
+- [x] `k:797` **& Silver Rod~ of#** — A:30/1 G:-:s I:67:100:0 P:0:1d1:0:0:0 W:30:0:15:1000 — in RON
+- [x] `k:798` **& Golden Rod~ of#** — A:40/2 G:-:y I:67:125:0 P:0:1d1:0:0:0 W:40:0:15:1250 — in RON
+- [x] `k:799` **& Mithril Rod~ of#** — A:50/5 G:-:B I:67:160:0 P:0:1d1:0:0:0 W:50:0:15:1600 — in RON
+- [x] `k:800` **& Adamantite Rod~ of#** — A:60/10 G:-:v I:67:200:0 P:0:1d1:0:0:0 W:60:0:15:2000 — in RON
+- [x] `k:801` **& Greater Ration~ of Health** — A:90/50 F:FULL_NAME;NORM_ART G:,:g I:80:41:0 T:80:40 W:90:5:2:60000 — in RON
+- [x] `k:802` **& Crumpled Scroll~ of Mass Resurrection** — A:55/1 F:FULL_NAME;IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;NORM_ART G:?:d I:70:43:0 T:70:1 W:55:0:5:0 — in RON
+- [x] `k:803` **& Cleaver~** — A:13/1 F:SHOW_MODS G:/:s I:24:2:0 P:0:2d4:0:0:0 W:13:0:110:175 — in RON
+- [x] `k:804` **& Light War Axe~** — A:16/1 F:SHOW_MODS G:/:s I:24:8:0 P:0:2d5:0:0:0 W:16:0:140:300 — in RON
+- [x] `k:805` **& Slaughter Axe~** — A:70/8 F:SHOW_MODS;SLAY_ANIMAL G:/:G I:24:30:0 P:0:5d7:0:0:0 W:70:0:300:6000 — in RON
+- [x] `k:807` **& Fortune cookie~** — A:0/1:5/1:10/1 G:,:U I:80:42:500 W:0:0:2:10 — in RON
+- [x] `k:809` **Critical Hits** — A:50/3 F:CRIT G:=:d I:45:59:0 W:50:0:2:10000 f:CRIT — in RON
+- [x] `k:810` **& Wand~ of Digging of Thrain** — A:10/200 F:EASY_USE;FULL_NAME;NORM_ART;RECHARGE;RECHARGED;SPECIAL_GENE G:-:d I:65:26:-1:SPELL=Dig P:0:10d10:0:0:0 T:65:6 W:10:10:10:3200 — in RON
+- [x] `k:811` **& Gnarled Staff~ of Holy Fire of Mithrandir** — A:50/200 F:EASY_USE;FULL_NAME;NORM_ART;RECHARGE;RECHARGED G:_:d I:55:22:-1:SPELL=Holy Fire of Mithrandir P:0:10d4:0:0:0 T:55:8 W:50:10:10:12000 — in RON
+- [x] `k:812` **Partial Totem** — A:10/200 F:SPECIAL_GENE G:":v I:54:1:0 P:0:1d1:0:0:0 W:10:10:10:120 — in RON
+- [x] `k:813` **True Totem** — A:10/200 F:SPECIAL_GENE G:":v I:54:2:0 P:0:1d1:0:0:0 W:10:10:10:120 — in RON
+- [x] `k:814` **& Piece~ of the Relic of Eru** — A:0/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:~:v I:11:7:0 P:0:1d1:0:0:0 W:0:0:0:1000 — in RON
+- [x] `k:815` **& Piece~ of the Relic of Manwe** — A:0/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:~:v I:11:8:0 P:0:1d1:0:0:0 W:0:0:0:1000 — in RON
+- [x] `k:816` **& Piece~ of the Relic of Tulkas** — A:0/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:~:v I:11:9:0 P:0:1d1:0:0:0 W:0:0:0:1000 — in RON
+- [x] `k:817` **& Piece~ of the Relic of Melkor** — A:0/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:~:v I:11:10:0 P:0:1d1:0:0:0 W:0:0:0:1000 — in RON
+- [x] `k:818` **& Piece~ of the Relic of Yavanna** — A:0/1 F:IGNORE_ACID;IGNORE_COLD;IGNORE_ELEC;IGNORE_FIRE;SPECIAL_GENE G:~:v I:11:11:0 P:0:1d1:0:0:0 W:0:0:0:1000 — in RON

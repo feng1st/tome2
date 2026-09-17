@@ -1,0 +1,61 @@
+# 数据清单：lib/help/c_bard.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_bard.txt:1` [line] |||||oy
+- [ ] `lib/help/c_bard.txt:2` [line] ~~~~~01|Bard
+- [ ] `lib/help/c_bard.txt:3` [line] ~~~~~02|Classes|Bard
+- [ ] `lib/help/c_bard.txt:4` [line] #####R=== Bards ===
+- [ ] `lib/help/c_bard.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_bard.txt:7` [line] Bards are traditional musicians. Their magical attacks are sound-based, and 
+- [ ] `lib/help/c_bard.txt:8` [line] last as long as the Bard has mana. If the Bard runs out of mana, he/she stops
+- [ ] `lib/help/c_bard.txt:9` [line] singing. There is also a low-level "spell" that will cease the song.
+- [ ] `lib/help/c_bard.txt:11` [line] While any class can use musical instruments, only Bards can tap the 
+- [ ] `lib/help/c_bard.txt:12` [line] power of voice to aid themselves and hinder, dismay, and kill their 
+- [ ] `lib/help/c_bard.txt:13` [line] foes. 
+- [ ] `lib/help/c_bard.txt:15` [line] #####GMagic Usage
+- [ ] `lib/help/c_bard.txt:17` [line] Songs are continuous, and the song consumes mana every turn in order to 
+- [ ] `lib/help/c_bard.txt:18` [line] maintain itself. The song will continue, once played, until either the 'Stop 
+- [ ] `lib/help/c_bard.txt:19` [line] Singing' song is sung, or the player's mana runs out.
+- [ ] `lib/help/c_bard.txt:21` [line] Each song has a magic school level associated with, just as any other magic 
+- [ ] `lib/help/c_bard.txt:22` [line] spell does. Each song also has a Roman numeral (e.g. I, II, III, IV, V) 
+- [ ] `lib/help/c_bard.txt:23` [line] following its name. These numerals correspond to 1, 2, 3, 4, 5. The higher the 
+- [ ] `lib/help/c_bard.txt:24` [line] numeral, the more music skill the Bard must have to play that song.
+- [ ] `lib/help/c_bard.txt:26` [line] Each musical instrument has a value between 1 and 4 assigned to it, as well. 
+- [ ] `lib/help/c_bard.txt:27` [line] The higher the number, the better the craftmanship. A Bard can only play 
+- [ ] `lib/help/c_bard.txt:28` [line] higher level songs with a more powerful instrument. You would be able to cast 
+- [ ] `lib/help/c_bard.txt:29` [line] "Stop Singing (I)" and "Song of the Sun (I)" with a a Harp (+1). A Harp (+2) 
+- [ ] `lib/help/c_bard.txt:30` [line] would allow you to sing those songs, as well as "Flow of Life (II)". 
+- [ ] `lib/help/c_bard.txt:32` [line] For information on song effects see the *****m_music.txt*0[Music Songs] file.
+- [ ] `lib/help/c_bard.txt:34` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_bard.txt:35` [line] Strength         +1
+- [ ] `lib/help/c_bard.txt:36` [line] Intelligence     -2
+- [ ] `lib/help/c_bard.txt:37` [line] Wisdom           +1
+- [ ] `lib/help/c_bard.txt:38` [line] Dexterity        +1
+- [ ] `lib/help/c_bard.txt:39` [line] Constitution     +0
+- [ ] `lib/help/c_bard.txt:40` [line] Charisma         +1
+- [ ] `lib/help/c_bard.txt:41` [line] Hit Die          +d8
+- [ ] `lib/help/c_bard.txt:42` [line] Spell Points     +0%
+- [ ] `lib/help/c_bard.txt:43` [line] Exp Penalty      40%
+- [ ] `lib/help/c_bard.txt:45` [line] #####GStarting Skills:
+- [ ] `lib/help/c_bard.txt:46` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_bard.txt:47` [line] Combat                  1.000           [0.700]
+- [ ] `lib/help/c_bard.txt:48` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_bard.txt:49` [line]   Barehand-combat       1.000           [0.600]
+- [ ] `lib/help/c_bard.txt:50` [line] Sneakiness              1.000           [0.700]
+- [ ] `lib/help/c_bard.txt:51` [line]   Stealth               1.000           [0.700]
+- [ ] `lib/help/c_bard.txt:52` [line]   Disarming             1.000           [0.600]
+- [ ] `lib/help/c_bard.txt:53` [line] Magic                   1.000           [0.600]
+- [ ] `lib/help/c_bard.txt:54` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_bard.txt:55` [line] Spirituality            1.000           [0.800]
+- [ ] `lib/help/c_bard.txt:56` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_bard.txt:57` [line]   Music                 1.000           [0.800]
+- [ ] `lib/help/c_bard.txt:58` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_bard.txt:59` [line]   Summoning             0.000           [0.400]
+- [ ] `lib/help/c_bard.txt:60` [line]   Corpse-preservation   1.000           [0.700]
+- [ ] `lib/help/c_bard.txt:61` [line]   Symbiosis             0.000           [0.400]
+- [ ] `lib/help/c_bard.txt:62` [line]   Mimicry               0.000           [0.400]
+- [ ] `lib/help/c_bard.txt:64` [line] #####GStarting Equipment
+- [ ] `lib/help/c_bard.txt:65` [line] A Bard begins the game with:
+- [ ] `lib/help/c_bard.txt:66` [line]     a Harp (+1)
+- [ ] `lib/help/c_bard.txt:67` [line]     a Short Sword
+- [ ] `lib/help/c_bard.txt:68` [line]     a Robe
+- [ ] `lib/help/c_bard.txt:69` [line]     a Potion of Healing

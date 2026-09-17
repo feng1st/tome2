@@ -1,0 +1,453 @@
+# 数据清单：lib/help/automat.txt（text，逐条/逐行）
+
+- [ ] `lib/help/automat.txt:1` [line] |||||oy
+- [ ] `lib/help/automat.txt:2` [line] ~~~~~01|Automatizer
+- [ ] `lib/help/automat.txt:3` [line] ~~~~~02|Auto pick-up
+- [ ] `lib/help/automat.txt:4` [line] ~~~~~03|Auto destroy
+- [ ] `lib/help/automat.txt:5` [line] ~~~~~04|Autosquelch
+- [ ] `lib/help/automat.txt:6` [line] #####R             /----------------------------------------\
+- [ ] `lib/help/automat.txt:7` [line] #####R            <             The Automatizer              >
+- [ ] `lib/help/automat.txt:8` [line] #####R             \----------------------------------------/
+- [ ] `lib/help/automat.txt:10` [line] #####GWhat is the Automatizer?
+- [ ] `lib/help/automat.txt:11` [line] The automatizer is an advanced auto-pickup or auto-squelch (auto-destroyer). At
+- [ ] `lib/help/automat.txt:12` [line] a basic level, it will allow you to automatically destroy things that you have
+- [ ] `lib/help/automat.txt:13` [line] no use for once you walk over them, providing that you have identified one of
+- [ ] `lib/help/automat.txt:14` [line] them with your current character.
+- [ ] `lib/help/automat.txt:16` [line] #####GIs that it?
+- [ ] `lib/help/automat.txt:17` [line] Well no. The automatizer is far more flexible than that. The old-fashioned auto
+- [ ] `lib/help/automat.txt:18` [line] squelch allowed you to destroy things dependent on how they pseudo-id'd - you
+- [ ] `lib/help/automat.txt:19` [line] could auto-destroy all {cursed} swords for instance.
+- [ ] `lib/help/automat.txt:20` [line] This is fine to start with, but once you get deep in the dungeon, and have a lot
+- [ ] `lib/help/automat.txt:21` [line] of money and a decent weapon, you'll be interested in destroying {average} and
+- [ ] `lib/help/automat.txt:22` [line] {good} items too right? Well the automatizer allows you to define destruction of
+- [ ] `lib/help/automat.txt:23` [line] things providing you are of a certain level.
+- [ ] `lib/help/automat.txt:25` [line] #####GSounds quite cool, but wha...
+- [ ] `lib/help/automat.txt:26` [line] STOP RIGHT THERE! I haven't finished yet! Let's look at some other examples.
+- [ ] `lib/help/automat.txt:27` [line] Most of the time, scrolls of darkness are pretty useless. Unless you are a
+- [ ] `lib/help/automat.txt:28` [line] vampire, right? So you might think it was no good to add auto-destroy of scrolls
+- [ ] `lib/help/automat.txt:29` [line] of darkness to the automatizer. But you'd be wrong, for you can add rules that
+- [ ] `lib/help/automat.txt:30` [line] are dependent on certain conditions, like that you are of a certain race, or class.
+- [ ] `lib/help/automat.txt:32` [line] #####GHey this is sounding good. What if it destroys my artifacts?
+- [ ] `lib/help/automat.txt:33` [line] It can't. Artifacts can never be destroyed, by the automatizer. However, watch
+- [ ] `lib/help/automat.txt:34` [line] out for items that are VERY cool but not artifacts... you wouldn't want to go
+- [ ] `lib/help/automat.txt:35` [line] destroying boots of speed would you? Fortunately there are provisions for this
+- [ ] `lib/help/automat.txt:36` [line] too, you could set a rule that destroyed all excellent boots (providing you were
+- [ ] `lib/help/automat.txt:37` [line] past character level 45 say), but not if they were boots of speed.
+- [ ] `lib/help/automat.txt:39` [line] #####GWoah! This sounds amazing!
+- [ ] `lib/help/automat.txt:40` [line] Yes it is, isn't it.
+- [ ] `lib/help/automat.txt:42` [line] #####GSo how do I use it?
+- [ ] `lib/help/automat.txt:43` [line] Well the very simplest way is as follows. When you hit 'k' (^D in the roguelike
+- [ ] `lib/help/automat.txt:44` [line] keyset) to destroy an item, you'll see that one option is "$ new automatizer
+- [ ] `lib/help/automat.txt:45` [line] rule(OFF)". If you want to destroy all future items like that that you find,
+- [ ] `lib/help/automat.txt:46` [line] then hit the $ key. You'll see that (OFF) changes to (ON). Now pick the item you
+- [ ] `lib/help/automat.txt:47` [line] want to destroy. Let's say it is a Potion of Salt Water. You would now, as
+- [ ] `lib/help/automat.txt:48` [line] normal, see a message "You destroy a Potion of Salt Water". Following this you
+- [ ] `lib/help/automat.txt:49` [line] get a prompt, "Destroy all of the same [T]ype, [F]amily, or [N]ame, also use
+- [ ] `lib/help/automat.txt:50` [line] [S]tatus (no)?". Let's take the easy one first and hit 'n' to go with name.
+- [ ] `lib/help/automat.txt:51` [line] You'll now see a message, "Rule added, please go to the automatizer screen
+- [ ] `lib/help/automat.txt:52` [line] (press = then T) to save the modified ruleset". Let's do that then, shall we. If
+- [ ] `lib/help/automat.txt:53` [line] this is the first time you have used the automatizer with this savefile, you'll
+- [ ] `lib/help/automat.txt:54` [line] be asked to enable it as you hit T. Confirm that you would like to enable it,
+- [ ] `lib/help/automat.txt:55` [line] otherwise it won't work.
+- [ ] `lib/help/automat.txt:57` [line] #####GWhat's the point in having it disabled then?
+- [ ] `lib/help/automat.txt:58` [line] Well let's say you spotted something that you weren't sure how it would be
+- [ ] `lib/help/automat.txt:59` [line] affected by your rules, but didn't want to destroy it; you could just disable
+- [ ] `lib/help/automat.txt:60` [line] the automatizer for a moment and check it over before deciding what to do with
+- [ ] `lib/help/automat.txt:61` [line] it and switching the automatizer back on.
+- [ ] `lib/help/automat.txt:63` [line] #####GHmmm, ok. So I've enabled the automatizer, now what?
+- [ ] `lib/help/automat.txt:64` [line] Well, you'll see a screen like this:
+- [ ] `lib/help/automat.txt:66` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:67` [line] &&&&&B|GsGaGlGtG GwGaGtGeGrB B B w B|G<GrGuGlGeB BnBaBmBew=w"ysyaylyty ywyaytyeyrw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:68` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G<GnGaGmGeG>wpwowtwiwownw wowfw wswawlwtw wwwawtwewrg<g/gngagmgeg>B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:69` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:70` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:71` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:72` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:73` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:74` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:75` [line] &&&&&B|w w w w w w w w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:76` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:79` [line] (snipped for brevity).
+- [ ] `lib/help/automat.txt:81` [line] The automatizer rules are written in XML, so if you're familiar with that format
+- [ ] `lib/help/automat.txt:82` [line] you shouldn't find things too difficult. It's also similar in format to HTML, as
+- [ ] `lib/help/automat.txt:83` [line] you may notice from the way that there are opening tags (<name>) and closing
+- [ ] `lib/help/automat.txt:84` [line] tags (</name>), and that everything between those tags is affected by that
+- [ ] `lib/help/automat.txt:85` [line] rule.
+- [ ] `lib/help/automat.txt:87` [line] #####GXML? HTML? What is this? Isn't ToME enough acronyms to be going on with?
+- [ ] `lib/help/automat.txt:88` [line] OK, so you don't know anything about mark-up languages, it's no problem. Let's
+- [ ] `lib/help/automat.txt:89` [line] take a look at the automatizer screen bit by bit, starting with the instructions
+- [ ] `lib/help/automat.txt:90` [line] bottom right.
+- [ ] `lib/help/automat.txt:92` [line] up/down to scroll. Well as you move the up/down cursor keys or number keys, a
+- [ ] `lib/help/automat.txt:93` [line] different rule name is highlighted in the left hand window, and that rule is
+- [ ] `lib/help/automat.txt:94` [line] displayed in the right hand window.
+- [ ] `lib/help/automat.txt:95` [line] tab to switch to the rule window. Does what it says on the tin: switches to the
+- [ ] `lib/help/automat.txt:96` [line] rule window (the right hand pane) to allow editing of existing rules.
+- [ ] `lib/help/automat.txt:97` [line] u/d to move rules. Pressing 'u' or 'd' will move the rule up or down the order
+- [ ] `lib/help/automat.txt:98` [line] displayed in the left hand window. Purely for cosmetic reasons.
+- [ ] `lib/help/automat.txt:99` [line] new rule. Adds the beginning of a new rule.
+- [ ] `lib/help/automat.txt:100` [line] rename rule. This is handy, as every rule added from the destroy prompt (as
+- [ ] `lib/help/automat.txt:101` [line] explained above) is automatically named 'destroy', which gets a bit confusing
+- [ ] `lib/help/automat.txt:102` [line] when you have 50 or so rules... renaming your rules will make them much easier
+- [ ] `lib/help/automat.txt:103` [line] to edit later.
+- [ ] `lib/help/automat.txt:104` [line] save rules. Saves all existing rules to a filename you designate (default is
+- [ ] `lib/help/automat.txt:105` [line] automat.atm). Don't forget to do this after adding new rules/before exiting the
+- [ ] `lib/help/automat.txt:106` [line] game.
+- [ ] `lib/help/automat.txt:107` [line] k to disable the automatizer. Disables the automatizer, preserving the rules you
+- [ ] `lib/help/automat.txt:108` [line] have made.
+- [ ] `lib/help/automat.txt:110` [line] #####GYeah yeah, so what about the rule window on the right hand side itself?
+- [ ] `lib/help/automat.txt:111` [line] OK, here we go. This is the real juicy stuff.
+- [ ] `lib/help/automat.txt:113` [line] Anything inside pointy brackets (greater than and less than signs) is called a
+- [ ] `lib/help/automat.txt:114` [line] tag. You'll notice that each tag opens with a word, and then that same word
+- [ ] `lib/help/automat.txt:115` [line] appears in another tag later on, preceded by a slash. These are referred to as
+- [ ] `lib/help/automat.txt:116` [line] opening tags (like <name> ) and closing tags (like </name> ). Everything within
+- [ ] `lib/help/automat.txt:117` [line] a set of closing and opening tags is affected by those tags. This will make more
+- [ ] `lib/help/automat.txt:118` [line] sense as we continue. Tags and the things they enclose are like "mini-rules"
+- [ ] `lib/help/automat.txt:119` [line] which will together make up one rule. I call these mini-rules, clauses.
+- [ ] `lib/help/automat.txt:121` [line] the first line:
+- [ ] `lib/help/automat.txt:122` [line] <rule name="destroy" type="destroy">
+- [ ] `lib/help/automat.txt:123` [line] Each rule starts with the tag <rule>, and this contains the rule name, and the
+- [ ] `lib/help/automat.txt:124` [line] rule type. The rule name is how it is identified in the left hand window, and
+- [ ] `lib/help/automat.txt:125` [line] need not be unique. The rule type will be either "destroy" (destroys items when
+- [ ] `lib/help/automat.txt:126` [line] conditions stated below are met) or "pickup" (picks up item when conditions are
+- [ ] `lib/help/automat.txt:127` [line] met) or "nothing" (neither picks up, nor destroys item when conditions are met)
+- [ ] `lib/help/automat.txt:129` [line] The second line:
+- [ ] `lib/help/automat.txt:130` [line]     <name>Potion of Salt Water</name>
+- [ ] `lib/help/automat.txt:131` [line] This tells us that for the rule to be carried out, the name of the item must be
+- [ ] `lib/help/automat.txt:132` [line] "Potion of Salt Water"
+- [ ] `lib/help/automat.txt:134` [line] The third line:
+- [ ] `lib/help/automat.txt:135` [line] </rule>
+- [ ] `lib/help/automat.txt:136` [line] This tells us the rule is ended.
+- [ ] `lib/help/automat.txt:138` [line] In total then, the rule named "destroy" checks to see if the name of every item
+- [ ] `lib/help/automat.txt:139` [line] is Potion of Salt water, and if it is, it destroys it.
+- [ ] `lib/help/automat.txt:141` [line] Nice and simple huh?
+- [ ] `lib/help/automat.txt:143` [line] #####GYes Yes, very simple. It doesn't look very advanced at the moment.
+- [ ] `lib/help/automat.txt:144` [line] Well, we've barely scratched the surface.
+- [ ] `lib/help/automat.txt:145` [line] Let's take a look at those other options we got at the destroy prompt. Let's say
+- [ ] `lib/help/automat.txt:146` [line] I was at a stage in the game where I wanted to be able to switch on an auto-
+- [ ] `lib/help/automat.txt:147` [line] destroy for all swords that pseudo-id'd as {average}. So let's say I have a
+- [ ] `lib/help/automat.txt:148` [line] dagger in my backpack, and I want to create an auto-destroy rule for that and
+- [ ] `lib/help/automat.txt:149` [line] all subsequent swords... This is what I'd do:
+- [ ] `lib/help/automat.txt:150` [line] Hit 'k' to destroy items and hit '$' to turn on automatizer rules. Then I'd 
+- [ ] `lib/help/automat.txt:151` [line] select the dagger and confirm the destruction. Hit 's' to switch the status
+- [ ] `lib/help/automat.txt:152` [line] toggle. This toggle will include (when ON) how the dagger pseudo-ids, and
+- [ ] `lib/help/automat.txt:153` [line] finally hit 'f' to add a rule saying destroy by family. What you'll see in the
+- [ ] `lib/help/automat.txt:154` [line] automatizer screen now is this:
+- [ ] `lib/help/automat.txt:156` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:157` [line] &&&&&B|GdGeGsGtGrGoGyB B B B B B w B|G<GrGuGlGeB BnBaBmBew=w"ydyeysytyryoyyw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:158` [line] &&&&&B|wdwewswtwrwowyB B B B B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:159` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G<GtGvGaGlG>w2w3g<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:160` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:161` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:162` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:163` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:164` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:165` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:166` [line] &&&&&B|B B B B B B B B B B B B B w B|w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:167` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:168` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:169` [line] &&&&&B|w w w w w w w w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:170` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:172` [line] #####GOK, well I can see the pseudo-id status is there, what's that tval thing? And
+- [ ] `lib/help/automat.txt:173` [line] #####Gwhere does it say swords?
+- [ ] `lib/help/automat.txt:174` [line] Well actually the tval thing is where it says swords! This is what is added by
+- [ ] `lib/help/automat.txt:175` [line] the 'destroy by family' option.
+- [ ] `lib/help/automat.txt:177` [line] It's probably worth explaining a bit here about the internal structure of ToME
+- [ ] `lib/help/automat.txt:178` [line] code. Don't worry it's not too scary. In ToME, all objects are divided into
+- [ ] `lib/help/automat.txt:179` [line] types: swords, axes, hafted-weapons, scrolls, rings etc. Every type is further
+- [ ] `lib/help/automat.txt:180` [line] divided into sub-types. Eg swords are divided into daggers, broad swords, two-
+- [ ] `lib/help/automat.txt:181` [line] handed swords and so on. Scrolls are divided into their specific actions;
+- [ ] `lib/help/automat.txt:182` [line] scrolls of light, scrolls of satisfy hunger etc. Each type has a number assigned
+- [ ] `lib/help/automat.txt:183` [line] to it, that never changes, and so does each sub-type. In this way we can
+- [ ] `lib/help/automat.txt:184` [line] identify an exact object using just two values: it's type, or tvalue (tval) and
+- [ ] `lib/help/automat.txt:185` [line] it's sub-type, or svalue (sval). You see where we're going with this?
+- [ ] `lib/help/automat.txt:186` [line] Now daggers have a tval of 23 and an sval of 4. So you can see that we've said
+- [ ] `lib/help/automat.txt:187` [line] in the rule that all things with a tval of 23 and a status of average can be
+- [ ] `lib/help/automat.txt:188` [line] destroyed.
+- [ ] `lib/help/automat.txt:190` [line] #####GAh, right. I see. And what's with the <and> tags?
+- [ ] `lib/help/automat.txt:191` [line] Well, everything in those tags must be true for the rule to carry out. If we had
+- [ ] `lib/help/automat.txt:192` [line] the <tval>23</tval> and the <status>average</average> lines without the <and>
+- [ ] `lib/help/automat.txt:193` [line] tags, it would not be clear whether we wanted just one of those clauses to be
+- [ ] `lib/help/automat.txt:194` [line] true for the rule to be carried out, or both of them.
+- [ ] `lib/help/automat.txt:196` [line] #####GErr...
+- [ ] `lib/help/automat.txt:197` [line] In other words, without the <and> tags it might look like we wanted to destroy
+- [ ] `lib/help/automat.txt:198` [line] a) EVERYTHING that pseudo id'd as average, and
+- [ ] `lib/help/automat.txt:199` [line] b) EVERY sword, regardless of how it pseudo-id'd!
+- [ ] `lib/help/automat.txt:201` [line] #####GRight. What if I did want a rule that was more general, and had either/or
+- [ ] `lib/help/automat.txt:202` [line] options in it?
+- [ ] `lib/help/automat.txt:203` [line] Then there are tags to do that - the <or> </or> tags. If ANY of the clauses
+- [ ] `lib/help/automat.txt:204` [line] return as true within or tags, then the rule is carried out. Substitute <or>
+- [ ] `lib/help/automat.txt:205` [line] tags for the <and> tags in our sword example above, and the rule will operate in
+- [ ] `lib/help/automat.txt:206` [line] the rather unhelpful way I explained above (all {average} things destroyed, and
+- [ ] `lib/help/automat.txt:207` [line] all swords destroyed, regardless of how they pseudo-id). So essentially, if your
+- [ ] `lib/help/automat.txt:208` [line] rule has more than one clause, you will need to include either <and> tags or
+- [ ] `lib/help/automat.txt:209` [line] <or> tags, or in some cases both.
+- [ ] `lib/help/automat.txt:211` [line] #####GOK and so what does the [T]ype option do?
+- [ ] `lib/help/automat.txt:212` [line] It merely adds the sval, thus narrowing down the parameters for the auto-
+- [ ] `lib/help/automat.txt:213` [line] destroy. For instance if I'd chosen to destroy by type rather than family in the
+- [ ] `lib/help/automat.txt:214` [line] last example, we'd have ended up with this:
+- [ ] `lib/help/automat.txt:216` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:217` [line] &&&&&B|GdGeGsGtGrGoGyB B B B B B w B|G<GrGuGlGeB BnBaBmBew=w"ydyeysytyryoyyw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:218` [line] &&&&&B|wdwewswtwrwowyB B B B B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:219` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:220` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GtGvGaGlG>w2w3g<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:221` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GsGvGaGlB BmBiBnw=w"y4w"B BmBaBxw=w"y4w"G>g<g/gsgvgaglg>B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:222` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:223` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:224` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:225` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:226` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:227` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:228` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:229` [line] &&&&&B|B B B B B B B B B B B B B w B|w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:230` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:231` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:232` [line] &&&&&B|w w w w w w w w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:233` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:235` [line] You can see in this example that we have nested <and> tags. Evaluating the tags
+- [ ] `lib/help/automat.txt:236` [line] from the ones nested deepest first we can see that if an object has a tval of 23
+- [ ] `lib/help/automat.txt:237` [line] and an sval between the values of 4 and 4 (i.e. if it is 4) then the rule will
+- [ ] `lib/help/automat.txt:238` [line] check against the next part, which is to see if the object identifies {average}.
+- [ ] `lib/help/automat.txt:239` [line] If it does, then all the clauses have been met and rule is carried out. In
+- [ ] `lib/help/automat.txt:240` [line] short, it destroys all average daggers, rather than all average swords. Strictly
+- [ ] `lib/help/automat.txt:241` [line] speaking the nested <and> tags aren't needed, but they do no harm, and are added
+- [ ] `lib/help/automat.txt:242` [line] automatically when destroying by [T]ype.
+- [ ] `lib/help/automat.txt:244` [line] #####GThis is all well and good but the numbers are going to get rather confusing
+- [ ] `lib/help/automat.txt:245` [line] #####Garen't they? Be much easier if I could just write 'swords' or 'daggers'.
+- [ ] `lib/help/automat.txt:246` [line] Well, you can. Kind of. Instead of using the admittedly rather obtuse numbers,
+- [ ] `lib/help/automat.txt:247` [line] you can use the name of that tvalue rather than the number it represents. So
+- [ ] `lib/help/automat.txt:248` [line] instead of <tval>23</tval> you could write <tval>TV_SWORD</tval>.
+- [ ] `lib/help/automat.txt:250` [line] #####GAh that would be better. But where can I find out what all the names, and
+- [ ] `lib/help/automat.txt:251` [line] #####Gnumbers of tvalues are?
+- [ ] `lib/help/automat.txt:252` [line] Have a look at the object entry in k_info.txt in your lib/edit directory. If you
+- [ ] `lib/help/automat.txt:253` [line] check the entry for dagger you'll see:
+- [ ] `lib/help/automat.txt:255` [line] N:43:& Dagger~
+- [ ] `lib/help/automat.txt:256` [line] G:|:W
+- [ ] `lib/help/automat.txt:257` [line] I:23:4:0
+- [ ] `lib/help/automat.txt:258` [line] W:0:0:12:10
+- [ ] `lib/help/automat.txt:259` [line] A:0/1:5/1:10/1:20/1
+- [ ] `lib/help/automat.txt:260` [line] P:0:1d4:0:0:0
+- [ ] `lib/help/automat.txt:261` [line] <snip>
+- [ ] `lib/help/automat.txt:262` [line] The only line we're interested in is the one that starts I (for Index). The
+- [ ] `lib/help/automat.txt:263` [line] first number is the tval, and the second is the sval.
+- [ ] `lib/help/automat.txt:264` [line] Of course you could always rename your rule to make things clearer.
+- [ ] `lib/help/automat.txt:266` [line] #####GOK so you mentioned something about setting rules up that happen only if a
+- [ ] `lib/help/automat.txt:267` [line] #####Gplayer is a certain level?
+- [ ] `lib/help/automat.txt:268` [line] Yeah, good point. Well, let's develop our destroy average swords rule for the
+- [ ] `lib/help/automat.txt:269` [line] moment. Let's say we always wanted to destroy average swords by the time we got
+- [ ] `lib/help/automat.txt:270` [line] to character level 20. They don't earn enough gold to make it worth carrying
+- [ ] `lib/help/automat.txt:271` [line] back to town, and we'll have a better weapon by then anyway. So here we are in
+- [ ] `lib/help/automat.txt:272` [line] the automatizer screen, with the destroy sword rule displaying in the right hand
+- [ ] `lib/help/automat.txt:273` [line] window.  If we hit tab, the right window becomes active and the rules at the
+- [ ] `lib/help/automat.txt:274` [line] bottom change:
+- [ ] `lib/help/automat.txt:276` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:277` [line] &&&&&B|gdgegsgtgrgogyB B B B B B w B|v<vrvuvlveB BnBaBmBew=w"ydyeysytyryoyyw"B BtByBpBew=w"ydyeysytyryoyyw"v>B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:278` [line] &&&&&B|wdwewswtwrwowyB B B B B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:279` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G<GtGvGaGlG>w2w3g<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:280` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:281` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:282` [line] &&&&&B|B B B B B B B B B B B B B w B|v<v/vrvuvlvev>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:283` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:284` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:285` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:286` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:287` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW/BlBeBfBtW/BrBiBgBhBtW WtWoW WnWaWvWiWtWaWgWeW WrWuWlWeW,W B9W/B3W/B7W/B1W WtWoW WsWcWrWoWlWlw w w w w w w
+- [ ] `lib/help/automat.txt:288` [line] &&&&&B|w w w w w w w w w w w w w w B|w BtBaBbW WfWoWrW WsWwWiWtWcWhW,W BaWdWdW WcWlWaWuWsWeW,W BdWeWlWeWtWeW WcWlWaWuWsWeW/WrWuWlWew w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:289` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:291` [line] You can see the <rule> tags have changed to purple, indicating they are the
+- [ ] `lib/help/automat.txt:292` [line] active ones, that all key presses will act upon. Let's just quickly scoot
+- [ ] `lib/help/automat.txt:293` [line] through these new commands:
+- [ ] `lib/help/automat.txt:294` [line] up/down/left/right to navigate rule: These will change which clause is active,
+- [ ] `lib/help/automat.txt:295` [line] enabling you to delete that clause, or add further clauses inside that one if it
+- [ ] `lib/help/automat.txt:296` [line] so allows it.
+- [ ] `lib/help/automat.txt:297` [line] 9/3/7/1 to scroll: scrolls the whole screen which can become useful if you have
+- [ ] `lib/help/automat.txt:298` [line] a particularly long rule or one with lots of nested clauses.
+- [ ] `lib/help/automat.txt:299` [line] tab for switch: will make the left-hand window active again.
+- [ ] `lib/help/automat.txt:300` [line] add clause: adds a new clause within the active one, providing the active clause
+- [ ] `lib/help/automat.txt:301` [line] is either a <and>, <or> or <not> tag.
+- [ ] `lib/help/automat.txt:302` [line] delete clause/rule: deletes the active clause, and any clauses nested within
+- [ ] `lib/help/automat.txt:303` [line] that one. Therefore if the <rule> tags are active, the whole rule will be
+- [ ] `lib/help/automat.txt:304` [line] deleted. Beware!
+- [ ] `lib/help/automat.txt:306` [line] So if we now hit our right arrow we see that the <and> tags are active. We can
+- [ ] `lib/help/automat.txt:307` [line] now add a new clause here. Let's do so by pressing 'a'. You'll now see a list of
+- [ ] `lib/help/automat.txt:308` [line] different types of clauses you can add, which you simply scroll through using up
+- [ ] `lib/help/automat.txt:309` [line] and down keys, and select by hitting enter. A brief description of the selected
+- [ ] `lib/help/automat.txt:310` [line] clause is shown in the right hand window. Scroll down to the 'level' rule type
+- [ ] `lib/help/automat.txt:311` [line] and hit enter. You'll be asked to enter a player level. Let's go for 20. You'll
+- [ ] `lib/help/automat.txt:312` [line] then be asked for a maximum level, put 50, as we want the rule to be true from
+- [ ] `lib/help/automat.txt:313` [line] level 20 and upwards. You'll now see our rule displays as:
+- [ ] `lib/help/automat.txt:315` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:316` [line] &&&&&B|gdgegsgtgrgogyB B B B B B w B|G<GrGuGlGeB BnBaBmBew=w"ydyeysytyryoyyw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:317` [line] &&&&&B|wdwewswtwrwowyB B B B B B w B|v v v v v<vavnvdv>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:318` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G<GtGvGaGlG>w2w3g<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:319` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:320` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y2y0w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:321` [line] &&&&&B|B B B B B B B B B B B B B w B|v v v v v<v/vavnvdv>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:322` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:323` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:324` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:325` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:326` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:327` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW/BlBeBfBtW/BrBiBgBhBtW WtWoW WnWaWvWiWtWaWgWeW WrWuWlWeW,W B9W/B3W/B7W/B1W WtWoW WsWcWrWoWlWlw w w w w w w
+- [ ] `lib/help/automat.txt:328` [line] &&&&&B|w w w w w w w w w w w w w w B|w BtBaBbW WfWoWrW WsWwWiWtWcWhW,W BaWdWdW WcWlWaWuWsWeW,W BdWeWlWeWtWeW WcWlWaWuWsWeW/WrWuWlWew w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:329` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:331` [line] So there we go. A rule which will destroy all {average} swords once the player
+- [ ] `lib/help/automat.txt:332` [line] is past character level 20.
+- [ ] `lib/help/automat.txt:334` [line] #####GHmmm I've tried this, it doesn't destroy cursed swords though...
+- [ ] `lib/help/automat.txt:335` [line] Nope. You haven't told it to. If you want a scaling rule, which always destroys
+- [ ] `lib/help/automat.txt:336` [line] cursed swords and then destroys average swords at character level 20, then {good}
+- [ ] `lib/help/automat.txt:337` [line] swords at character level 35, have a look at this, rather more complicated rule.
+- [ ] `lib/help/automat.txt:339` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:340` [line] &&&&&B|wswhwiwewlwdB B B B B B B w B|G<GrGuGlGeB BnBaBmBew=w"ysywyoyrydysw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:341` [line] &&&&&B|wbwowwB B B B B B B B B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:342` [line] &&&&&B|whwrwdw wawrwmwowuwrB B B w B|G G G G G G G G G<GtGvGaGlG>w2w3g<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:343` [line] &&&&&B|wawxwewsB B B B B B B B B w B|G G G G G G G G G<GoGrG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:344` [line] &&&&&B|whwewlwmwsB B B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:345` [line] &&&&&B|wswowfwtw wawrwmB B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y0w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:346` [line] &&&&&B|wbwowlwtwsB B B B B B B B w B|G G G G G G G G G G G G G G G G G<GoGrG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:347` [line] &&&&&B|wbwowowtwsB B B B B B B B w B|G G G G G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wvwewrwyw wbwawdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:348` [line] &&&&&B|wgwlwowvwewsB B B B B B B w B|G G G G G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wbwawdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:349` [line] &&&&&B|wpwowlwewawrwmwsB B B B B w B|g g g g g g g g g g g g g g g g g<g/gogrg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:350` [line] &&&&&B|wcwlwowawkB B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:351` [line] &&&&&B|GsGwGoGrGdGsB B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:352` [line] &&&&&B|whwawfwtwewdwsB B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y1y5w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:353` [line] &&&&&B|wawrwrwowwwsB B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:354` [line] &&&&&B|wswhwowtB B B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:355` [line] &&&&&B|wbwowowmwewrwawnwgB B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:356` [line] &&&&&B|wtwowrwcwhB B B B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y2y5w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:357` [line] &&&&&B|wrwowdw wtwiwpwsB B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wgwowowdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:358` [line] &&&&&B|wpwowtwiwownwsB B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:359` [line] &&&&&B|wrwiwnwgwsB B B B B B B B w B|g g g g g g g g g<g/gogrg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:360` [line] &&&&&B|wwwawnwdwsB B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:361` [line] &&&&&B|wmwuwswhwrwowowmwsB B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:362` [line] &&&&&B|wswcwrwowlwlwsB B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:363` [line] &&&&&B|wawmwuwlwewtwsB B B B B B w B|w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:364` [line] &&&&&B|wpwawrwcwhwmwewnwtwsB B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:365` [line] &&&&&B|wswhwawpwew wpwowtB B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:366` [line] &&&&&B|wswtwawvwewsw w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:367` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:369` [line] #####GWoah! What the heck is that?!
+- [ ] `lib/help/automat.txt:370` [line] OK ok slow down a minute. Look at it carefully and a clause at a time. It's not
+- [ ] `lib/help/automat.txt:371` [line] difficult. Let's take it from the top. It's a destroying rule called swords. It
+- [ ] `lib/help/automat.txt:372` [line] opens with some <and> tags. The object must be a sword (tval 23). Now we have an
+- [ ] `lib/help/automat.txt:373` [line] OR tag, so we know that there are going to be some options:
+- [ ] `lib/help/automat.txt:374` [line] option 1: the player is between level 0 and level 50, and the sword pseudo id's
+- [ ] `lib/help/automat.txt:375` [line] as either cursed or worthless.
+- [ ] `lib/help/automat.txt:376` [line] option 2: the player is above character level 15, and the sword pseudo id's as
+- [ ] `lib/help/automat.txt:377` [line] average.
+- [ ] `lib/help/automat.txt:378` [line] option 3: the player is above character level 25, and the sword pseudo id's as
+- [ ] `lib/help/automat.txt:379` [line] good.
+- [ ] `lib/help/automat.txt:380` [line] If any of these options are true, the rule is carried out. This rule could
+- [ ] `lib/help/automat.txt:381` [line] easily be copied for other weapons or pieces of armour, substituting only the
+- [ ] `lib/help/automat.txt:382` [line] tval, and perhaps the name.
+- [ ] `lib/help/automat.txt:384` [line] #####GHmmm ok. looks good. I might want to change those character level values
+- [ ] `lib/help/automat.txt:385` [line] #####Gthough. they look a bit low...
+- [ ] `lib/help/automat.txt:386` [line] Well yeah, that's up to your playing style I guess... If you want to edit
+- [ ] `lib/help/automat.txt:387` [line] clauses directly rather than delete and re-add them, you might want to edit the
+- [ ] `lib/help/automat.txt:388` [line] automat.atm file directly. Just open it in your text editor  (it's located in
+- [ ] `lib/help/automat.txt:389` [line] your lib/user directory or in ~/.tome on multiuser systems) and you'll see the
+- [ ] `lib/help/automat.txt:390` [line] format is identical to how it is displayed in the automatizer file. Just watch
+- [ ] `lib/help/automat.txt:391` [line] your spellings, and keep a back-up of the original to replace if things go
+- [ ] `lib/help/automat.txt:392` [line] wrong. Don't mess about in there if you feel unsure of what you're doing though.
+- [ ] `lib/help/automat.txt:394` [line] #####GSo what about those examples you gave up above? Like destroying scrolls of
+- [ ] `lib/help/automat.txt:395` [line] #####Gdarkness unless you are a vampire or an alchemist?
+- [ ] `lib/help/automat.txt:396` [line] OK, let's add this rule from scratch rather than from the destroy item prompt.
+- [ ] `lib/help/automat.txt:397` [line] In the automatizer screen, hit 'n' for new rule. It asks for a name and a type
+- [ ] `lib/help/automat.txt:398` [line] of rule (destroy/pickup/nothing). I called my rule "? of darkness", and it's a
+- [ ] `lib/help/automat.txt:399` [line] destroy rule. It is worthwhile thinking at this point how the rule is going to
+- [ ] `lib/help/automat.txt:400` [line] be structured; for very complicated rules pen and paper may help. We're going to
+- [ ] `lib/help/automat.txt:401` [line] need to define the object (either by name, or by tval and sval) then we're going
+- [ ] `lib/help/automat.txt:402` [line] to say unless the player race modifier is vampire, or the player class is
+- [ ] `lib/help/automat.txt:403` [line] alchemist. So we are obviously going to have more than one clause, and the
+- [ ] `lib/help/automat.txt:404` [line] clauses are going to have to BOTH be true for the rule to take effect so the
+- [ ] `lib/help/automat.txt:405` [line] first clause we add is an <and> one. So hit 'a' for add clause and enter to
+- [ ] `lib/help/automat.txt:406` [line] select the <and> clause. Lets now hit our right arrow, so the <and> tags are
+- [ ] `lib/help/automat.txt:407` [line] active, and add a new rule. We can now select the <name> tags. At this point
+- [ ] `lib/help/automat.txt:408` [line] we're prompted for the name. Now it's not case-sensitive, but you do need to
+- [ ] `lib/help/automat.txt:409` [line] spell it correctly!
+- [ ] `lib/help/automat.txt:410` [line] With the <and> tags still highlighted we now want to add our "unless vampire or
+- [ ] `lib/help/automat.txt:411` [line] alchemist" clause. Seeing as this is an "unless" type clause, we start with a
+- [ ] `lib/help/automat.txt:412` [line] <not> tag. So again, 'a'dd a new clause, and select <not>.
+- [ ] `lib/help/automat.txt:413` [line] Now make the <not> tag active by moving right and down with the cursor keys. We
+- [ ] `lib/help/automat.txt:414` [line] want "EITHER vampire or alchemist" so we include <or> tags, again by moving
+- [ ] `lib/help/automat.txt:415` [line] across to make the <not> tags active and 'a'dding a new <or> clause. Then select
+- [ ] `lib/help/automat.txt:416` [line] the <or> tags and 'a'dd a new <subrace> clause. Enter 'vampire'.
+- [ ] `lib/help/automat.txt:417` [line] So the last part is to add alchemist. Now this might at first glance seem to be
+- [ ] `lib/help/automat.txt:418` [line] a simple case of 'a'dding a new clause of the <class> type, within the <or>
+- [ ] `lib/help/automat.txt:419` [line] tags, and there is certainly nothing 'wrong' with doing this. At present there
+- [ ] `lib/help/automat.txt:420` [line] is no way for non-alchemists to get the alchemy skill, but it is sometimes best
+- [ ] `lib/help/automat.txt:421` [line] to 'future-proof' against such possibilities. That's what we're going to do
+- [ ] `lib/help/automat.txt:422` [line] here.
+- [ ] `lib/help/automat.txt:423` [line] So rather than add a <class> clause, we're going to add a <skill> clause.
+- [ ] `lib/help/automat.txt:424` [line] With the <or> tags active, 'a'dd a new <skill> clause. You're first asked for a
+- [ ] `lib/help/automat.txt:425` [line] minimum skill level. Well, we can't use any skill unless we have 1.00 whole
+- [ ] `lib/help/automat.txt:426` [line] skill points in it or more, so we can put 1 in here. We're then asked for a
+- [ ] `lib/help/automat.txt:427` [line] maximum skill level, so we'll put in 50 here. The skill name must be spelled
+- [ ] `lib/help/automat.txt:428` [line] correctly (as it appears on the skill screen) so we put 'Alchemy' here. Your
+- [ ] `lib/help/automat.txt:429` [line] complete rule now appears as follows:
+- [ ] `lib/help/automat.txt:431` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:432` [line] &&&&&B|G?G GdGaGrGkGnGeGsGsB B B w B|G<GrGuGlGeB BnBaBmBew=w"y?y ydyayrykynyeysysw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:433` [line] &&&&&B|wswwwowrwdwsB B B B B B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:434` [line] &&&&&B|wswawlwtw wwwawtwewrB B B w B|G G G G G G G G G<GnGaGmGeG>wSwcwrwowlwlw wowfw wdwawrwkwnwewswsg<g/gngagmgeg>B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:435` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G<GnGoGtG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:436` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GoGrG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:437` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGuGbGrGaGcGeG>wvwawmwpwiwrweg<g/gsgugbgrgagcgeg>B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:438` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGkGiGlGlB BmBiBnw=w"y1w"B BmBaBxw=w"y5y0w"G>wAwlwcwhwewmwyg<g/gsgkgiglglg>B B B B B B B
+- [ ] `lib/help/automat.txt:439` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g<g/gogrg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:440` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g<g/gngogtg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:441` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:442` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:443` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:444` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:445` [line] &&&&&B|B B B B B B B B B B B B B w B|B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:446` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:447` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:448` [line] &&&&&B|w w w w w w w w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:449` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:451` [line] You'll notice I've also renamed the rules to make things a bit more legible.
+- [ ] `lib/help/automat.txt:453` [line] #####GOK I'm getting there now, what about the boots of speed thing you talked about?
+- [ ] `lib/help/automat.txt:454` [line] Heh. Take a look at this, and see if you can work out what it's doing first
+- [ ] `lib/help/automat.txt:455` [line] before I talk you through it
+- [ ] `lib/help/automat.txt:457` [line] &&&&&B/B-B-B-B-BRBuBlBeBsB-B-B-B-B-B/B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:458` [line] &&&&&B|GbGoGoGtGsB B B B B B B B w B|G<GrGuGlGeB BnBaBmBew=w"ybyoyoytysw"B BtByBpBew=w"ydyeysytyryoyyw"G>B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:459` [line] &&&&&B|w?w wdwawrwkwnwewswsB B B w B|G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:460` [line] &&&&&B|wswwwowrwdwsB B B B B B B w B|G G G G G G G G G<GtGvGaGlG>wTwVw_wBwOwOwTwSg<g/gtgvgaglg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:461` [line] &&&&&B|wswawlwtw wwwawtwewrB B B w B|G G G G G G G G G<GoGrG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:462` [line] &&&&&B|wfwowowdB B B B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:463` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y0w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:464` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GoGrG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:465` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wvwewrwyw wbwawdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:466` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wbwawdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:467` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g g g g g<g/gogrg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:468` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:469` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:470` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y2y0w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:471` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wawvwewrwawgweg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:472` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:473` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:474` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y3y5w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:475` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wgwowowdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:476` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:477` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G<GaGnGdG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:478` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GlGeGvGeGlB BmBiBnw=w"y4y5w"B BmBaBxw=w"y5y0w"G>g<g/glgegvgeglg>B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:479` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGuGsG>wvwewrwyw wgwowowdg<g/gsgtgagtgugsg>B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:480` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GsGtGaGtGeG>wiwdwewnwtwiwfwiwewdg<g/gsgtgagtgeg>B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:481` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G<GnGoGtG>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:482` [line] &&&&&B|B B B B B B B B B B B B B w B|G G G G G G G G G G G G G G G G G G G G G<GcGoGnGtGaGiGnG>wswpwewewdg<g/gcgogngtgagigng>B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:483` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g g g g g<g/gngogtg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:484` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:485` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g g g g g<g/gogrg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:486` [line] &&&&&B|B B B B B B B B B B B B B w B|g g g g g<g/gagngdg>B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+- [ ] `lib/help/automat.txt:487` [line] &&&&&B|B B B B B B B B B B B B B w B|g<g/grguglgeg>w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:488` [line] &&&&&B|B B B B B B B B B B B B B w B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B
+- [ ] `lib/help/automat.txt:489` [line] &&&&&B|B B B B B B B B B B B B B w B|w BuBpW/BdBoBwBnW WtWoW WsWcWrWoWlWlW,W BtBaBbW WtWoW WsWwWiWtWcWhW WtWoW WtWhWeW WrWuWlWeW WwWiWnWdWoWww w w w w w w w w w
+- [ ] `lib/help/automat.txt:490` [line] &&&&&B|w w w w w w w w w w w w w w B|w BuW/BdW WtWoW WmWoWvWeW WrWuWlWeWsW,W BnWeWwW WrWuWlWeW,W BrWeWnWaWmWeW WrWuWlWeW,W BsWaWvWeW WrWuWlWeWsw w w w w w w w w
+- [ ] `lib/help/automat.txt:491` [line] &&&&&B\B-B-B-B-B-B-B-B-B-B-B-B-B-B-B/w RkW WtWoW rdrirsrarbrlreW WtWhWeW WaWuWtWoWmWaWtWiWzWeWrw w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+- [ ] `lib/help/automat.txt:493` [line] The majority of this is fairly similar to the swords rule; it destroys {average}
+- [ ] `lib/help/automat.txt:494` [line] boots at character level 20, {good} ones at character level 35 and cursed ones
+- [ ] `lib/help/automat.txt:495` [line] always. The addition is at the bottom. It adds clauses which will destroy
+- [ ] `lib/help/automat.txt:496` [line] excellent items providing that they have been identified and that the name does
+- [ ] `lib/help/automat.txt:497` [line] not contain the word "speed". The <state>identified</state> bit is important
+- [ ] `lib/help/automat.txt:498` [line] here, as it would destroy the boots on pseudo-id otherwise, before it even saw
+- [ ] `lib/help/automat.txt:499` [line] the full name of the boots.
+- [ ] `lib/help/automat.txt:501` [line] #####GThis is fantastic! Where can I get more help?
+- [ ] `lib/help/automat.txt:502` [line] email me: fearoffours@t-o-m-e.net

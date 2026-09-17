@@ -1,0 +1,35 @@
+# 数据清单：lib/help/gods.txt（text，逐条/逐行）
+
+- [ ] `lib/help/gods.txt:1` [line] |||||oy
+- [ ] `lib/help/gods.txt:2` [line] ~~~~~01|Gods
+- [ ] `lib/help/gods.txt:3` [line] #####RThe Guide to the Gods.
+- [ ] `lib/help/gods.txt:5` [line] #####G1. Introduction
+- [ ] `lib/help/gods.txt:6` [line]         Everybody likes to have a little helping hand now and then.  What
+- [ ] `lib/help/gods.txt:7` [line] could be better than having a god on your side?  But it's not quite that easy.
+- [ ] `lib/help/gods.txt:8` [line] The gods won't help just any mortal who calls for help.  You have to give them
+- [ ] `lib/help/gods.txt:9` [line] a little something too.
+- [ ] `lib/help/gods.txt:11` [line] #####G2. How Do I Get in on This?
+- [ ] `lib/help/gods.txt:12` [line]         When you start a character, you get a choice of whether or not you
+- [ ] `lib/help/gods.txt:13` [line] wish to begin worshipping a God (unless you're something like a priest - they
+- [ ] `lib/help/gods.txt:14` [line] *must* start with a God to worship). If you do choose to be a follower of one
+- [ ] `lib/help/gods.txt:15` [line] of the Gods, you will gain certain abilities provided you do not do things
+- [ ] `lib/help/gods.txt:16` [line] that displease them. The measure of how happy your God is with you is your
+- [ ] `lib/help/gods.txt:17` [line] Piety - the Pt stat is your measure of Piety. Different actions will allow you
+- [ ] `lib/help/gods.txt:18` [line] to gain or lose Piety over time. You can change your mind about whom (if 
+- [ ] `lib/help/gods.txt:19` [line] anyone) to worship during the game by finding an *****tome_faq.txt*04[altar] of that God.
+- [ ] `lib/help/gods.txt:21` [line] #####G3. What about spells?
+- [ ] `lib/help/gods.txt:22` [line] God-granted spells are also known as prayers, and are cast using Piety instead
+- [ ] `lib/help/gods.txt:23` [line] of Mana. God-spells can be increased in level by improving either your Prayer
+- [ ] `lib/help/gods.txt:24` [line] or Spell-power skill. The chance of successfully invoking a prayer depends
+- [ ] `lib/help/gods.txt:25` [line] on the Prayer skill and your wisdom.
+- [ ] `lib/help/gods.txt:27` [line] Each God also grants access to standard magical spell schools; which school(s)
+- [ ] `lib/help/gods.txt:28` [line] vary depending on the Gods' individual preferences. Spells from these schools
+- [ ] `lib/help/gods.txt:29` [line] are cast using Mana, not Piety; and success depends on your intelligence, not
+- [ ] `lib/help/gods.txt:30` [line] your wisdom.
+- [ ] `lib/help/gods.txt:32` [line] #####G4. So, Who Are These Gods?
+- [ ] `lib/help/gods.txt:33` [line]         In ToME, there are five Gods you may choose to worship, being:
+- [ ] `lib/help/gods.txt:34` [line] 1. *****g_eru.txt*0[Eru Iluvatar] - the father of the Valar.
+- [ ] `lib/help/gods.txt:35` [line] 2. *****g_manwe.txt*0[Manwe Sulimo] - the second strongest of the Valar (Morgoth was the strongest).
+- [ ] `lib/help/gods.txt:36` [line] 3. *****g_yavann.txt*0[Yavanna Kementari] - the Earth Queen who created plants and animals.
+- [ ] `lib/help/gods.txt:37` [line] 4. *****g_tulkas.txt*0[Tulkas] - another of the Valar, Tulkas values strength and courage.
+- [ ] `lib/help/gods.txt:38` [line] 5. *****g_melkor.txt*0[Melkor Bauglir] - the Dark Enemy himself, once the most powerful of the Valar.

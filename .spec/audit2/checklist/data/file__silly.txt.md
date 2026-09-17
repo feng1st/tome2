@@ -1,0 +1,303 @@
+# 数据清单：lib/file/silly.txt（text，逐条/逐行）
+
+- [ ] `lib/file/silly.txt:1` [line] 299
+- [ ] `lib/file/silly.txt:2` [line] ******************BUFFER LINE -- DO NOT REMOVE!*****************************
+- [ ] `lib/file/silly.txt:3` [line] Borg
+- [ ] `lib/file/silly.txt:4` [line] Dalek
+- [ ] `lib/file/silly.txt:5` [line] Destructor
+- [ ] `lib/file/silly.txt:6` [line] Predator
+- [ ] `lib/file/silly.txt:7` [line] Wizard of Yendor
+- [ ] `lib/file/silly.txt:8` [line] Smurf
+- [ ] `lib/file/silly.txt:9` [line] Cosmic Horror
+- [ ] `lib/file/silly.txt:10` [line] Ultimate Unspeakable Lovecraftian Nightmare
+- [ ] `lib/file/silly.txt:11` [line] Space Invader
+- [ ] `lib/file/silly.txt:12` [line] Transformer
+- [ ] `lib/file/silly.txt:13` [line] Master of the Universe
+- [ ] `lib/file/silly.txt:14` [line] He-Man
+- [ ] `lib/file/silly.txt:15` [line] Pizza Worm
+- [ ] `lib/file/silly.txt:16` [line] Bogeyman
+- [ ] `lib/file/silly.txt:17` [line] Care Bear
+- [ ] `lib/file/silly.txt:18` [line] My Little Pony
+- [ ] `lib/file/silly.txt:19` [line] IRA Terrorist
+- [ ] `lib/file/silly.txt:20` [line] Nazi
+- [ ] `lib/file/silly.txt:21` [line] Klingon
+- [ ] `lib/file/silly.txt:22` [line] Cardassian
+- [ ] `lib/file/silly.txt:23` [line] Snark
+- [ ] `lib/file/silly.txt:24` [line] Luggage
+- [ ] `lib/file/silly.txt:25` [line] Killer penguin
+- [ ] `lib/file/silly.txt:26` [line] Were-penguin
+- [ ] `lib/file/silly.txt:27` [line] Giant were-penguin
+- [ ] `lib/file/silly.txt:28` [line] Peeping-Tom
+- [ ] `lib/file/silly.txt:29` [line] Jester
+- [ ] `lib/file/silly.txt:30` [line] Battlemech
+- [ ] `lib/file/silly.txt:31` [line] Invid
+- [ ] `lib/file/silly.txt:32` [line] Amazon
+- [ ] `lib/file/silly.txt:33` [line] Teenage Mutant Ninja Turtle
+- [ ] `lib/file/silly.txt:34` [line] Stork
+- [ ] `lib/file/silly.txt:35` [line] Hippo
+- [ ] `lib/file/silly.txt:36` [line] Roadrunner
+- [ ] `lib/file/silly.txt:37` [line] Fooglebird
+- [ ] `lib/file/silly.txt:38` [line] Ghoti
+- [ ] `lib/file/silly.txt:39` [line] Whale
+- [ ] `lib/file/silly.txt:40` [line] Apocalyptic Beast
+- [ ] `lib/file/silly.txt:41` [line] Anti-Christ
+- [ ] `lib/file/silly.txt:42` [line] Dark Avenger
+- [ ] `lib/file/silly.txt:43` [line] Evil Computer
+- [ ] `lib/file/silly.txt:44` [line] Finnish Sprayer
+- [ ] `lib/file/silly.txt:45` [line] Natas
+- [ ] `lib/file/silly.txt:46` [line] Poodle
+- [ ] `lib/file/silly.txt:47` [line] Fire Hydrant
+- [ ] `lib/file/silly.txt:48` [line] Multi-hued elephant
+- [ ] `lib/file/silly.txt:49` [line] Martian
+- [ ] `lib/file/silly.txt:50` [line] Purple alligator
+- [ ] `lib/file/silly.txt:51` [line] Space ship
+- [ ] `lib/file/silly.txt:52` [line] Miniature space fleet
+- [ ] `lib/file/silly.txt:53` [line] 6-feet tall elephant
+- [ ] `lib/file/silly.txt:54` [line] Insurance salesman
+- [ ] `lib/file/silly.txt:55` [line] Benji
+- [ ] `lib/file/silly.txt:56` [line] Magnet
+- [ ] `lib/file/silly.txt:57` [line] Squid
+- [ ] `lib/file/silly.txt:58` [line] Typewriter
+- [ ] `lib/file/silly.txt:59` [line] Manitou
+- [ ] `lib/file/silly.txt:60` [line] Miniature Shetland pony
+- [ ] `lib/file/silly.txt:61` [line] Munchkin
+- [ ] `lib/file/silly.txt:62` [line] Mad Scientist
+- [ ] `lib/file/silly.txt:63` [line] Keystone Kop
+- [ ] `lib/file/silly.txt:64` [line] Magnificent big-game hunter
+- [ ] `lib/file/silly.txt:65` [line] Wicked witch
+- [ ] `lib/file/silly.txt:66` [line] B-1 Bomber
+- [ ] `lib/file/silly.txt:67` [line] Superman
+- [ ] `lib/file/silly.txt:68` [line] Batman
+- [ ] `lib/file/silly.txt:69` [line] Boy Wonder
+- [ ] `lib/file/silly.txt:70` [line] Incredible Hulk
+- [ ] `lib/file/silly.txt:71` [line] Amazing Spider-Man
+- [ ] `lib/file/silly.txt:72` [line] Orphan
+- [ ] `lib/file/silly.txt:73` [line] Fifth columnist
+- [ ] `lib/file/silly.txt:74` [line] Secret agent
+- [ ] `lib/file/silly.txt:75` [line] Spy
+- [ ] `lib/file/silly.txt:76` [line] Dog catcher
+- [ ] `lib/file/silly.txt:77` [line] Vacuum cleaner
+- [ ] `lib/file/silly.txt:78` [line] Lawnmower Man
+- [ ] `lib/file/silly.txt:79` [line] Bloodletter of Khorne
+- [ ] `lib/file/silly.txt:80` [line] Buzzard
+- [ ] `lib/file/silly.txt:81` [line] Oyster
+- [ ] `lib/file/silly.txt:82` [line] Wombat
+- [ ] `lib/file/silly.txt:83` [line] Midget elephant
+- [ ] `lib/file/silly.txt:84` [line] Chameleon
+- [ ] `lib/file/silly.txt:85` [line] Dungeon Master
+- [ ] `lib/file/silly.txt:86` [line] Dungeon Keeper
+- [ ] `lib/file/silly.txt:87` [line] Beyonder
+- [ ] `lib/file/silly.txt:88` [line] Robocop
+- [ ] `lib/file/silly.txt:89` [line] Robocod
+- [ ] `lib/file/silly.txt:90` [line] Paradroid
+- [ ] `lib/file/silly.txt:91` [line] Dominatrix
+- [ ] `lib/file/silly.txt:92` [line] Paranoid
+- [ ] `lib/file/silly.txt:93` [line] Wagtail
+- [ ] `lib/file/silly.txt:94` [line] Great tit
+- [ ] `lib/file/silly.txt:95` [line] Pope
+- [ ] `lib/file/silly.txt:96` [line] Tribble
+- [ ] `lib/file/silly.txt:97` [line] Jedi knight
+- [ ] `lib/file/silly.txt:98` [line] Dark Jedi
+- [ ] `lib/file/silly.txt:99` [line] Master of Teras Kasi
+- [ ] `lib/file/silly.txt:100` [line] Vulcan
+- [ ] `lib/file/silly.txt:101` [line] Rancor
+- [ ] `lib/file/silly.txt:102` [line] Sarlacc
+- [ ] `lib/file/silly.txt:103` [line] Warbot
+- [ ] `lib/file/silly.txt:104` [line] Tailgunner
+- [ ] `lib/file/silly.txt:105` [line] Skinhead
+- [ ] `lib/file/silly.txt:106` [line] Paul Bunyan Machine
+- [ ] `lib/file/silly.txt:107` [line] Bungee
+- [ ] `lib/file/silly.txt:108` [line] Sumo wrestler
+- [ ] `lib/file/silly.txt:109` [line] Gargantuan sumo wrestler
+- [ ] `lib/file/silly.txt:110` [line] Karateka
+- [ ] `lib/file/silly.txt:111` [line] President
+- [ ] `lib/file/silly.txt:112` [line] King
+- [ ] `lib/file/silly.txt:113` [line] Lobo
+- [ ] `lib/file/silly.txt:114` [line] Trashman
+- [ ] `lib/file/silly.txt:115` [line] Teacher
+- [ ] `lib/file/silly.txt:116` [line] Cheshire Cat
+- [ ] `lib/file/silly.txt:117` [line] Mad Hatter
+- [ ] `lib/file/silly.txt:118` [line] March Hare
+- [ ] `lib/file/silly.txt:119` [line] Voodoo doll
+- [ ] `lib/file/silly.txt:120` [line] Rag doll
+- [ ] `lib/file/silly.txt:121` [line] Scarecrow
+- [ ] `lib/file/silly.txt:122` [line] Porcupine
+- [ ] `lib/file/silly.txt:123` [line] Stone idol
+- [ ] `lib/file/silly.txt:124` [line] Hacker
+- [ ] `lib/file/silly.txt:125` [line] Samurai
+- [ ] `lib/file/silly.txt:126` [line] Samurai Cat
+- [ ] `lib/file/silly.txt:127` [line] Phantom of the Opera
+- [ ] `lib/file/silly.txt:128` [line] X-man
+- [ ] `lib/file/silly.txt:129` [line] Wumpus
+- [ ] `lib/file/silly.txt:130` [line] Walrus
+- [ ] `lib/file/silly.txt:131` [line] Silver Surfer
+- [ ] `lib/file/silly.txt:132` [line] Chimpanzee
+- [ ] `lib/file/silly.txt:133` [line] Omnipotent being
+- [ ] `lib/file/silly.txt:134` [line] Reaperbot
+- [ ] `lib/file/silly.txt:135` [line] G. I. Joe
+- [ ] `lib/file/silly.txt:136` [line] Cobra Commander
+- [ ] `lib/file/silly.txt:137` [line] Dreadnok
+- [ ] `lib/file/silly.txt:138` [line] Autobot
+- [ ] `lib/file/silly.txt:139` [line] Battlemage
+- [ ] `lib/file/silly.txt:140` [line] Saboteur
+- [ ] `lib/file/silly.txt:141` [line] Master of Sinanju
+- [ ] `lib/file/silly.txt:142` [line] Cyborg
+- [ ] `lib/file/silly.txt:143` [line] Lemming
+- [ ] `lib/file/silly.txt:144` [line] Green Goblin
+- [ ] `lib/file/silly.txt:145` [line] Galactus
+- [ ] `lib/file/silly.txt:146` [line] Gooey Kablooie
+- [ ] `lib/file/silly.txt:147` [line] Prowler
+- [ ] `lib/file/silly.txt:148` [line] Iron Fist
+- [ ] `lib/file/silly.txt:149` [line] Stuka
+- [ ] `lib/file/silly.txt:150` [line] Mahdi
+- [ ] `lib/file/silly.txt:151` [line] Xeroc
+- [ ] `lib/file/silly.txt:152` [line] Catwoman
+- [ ] `lib/file/silly.txt:153` [line] Stupendous Man
+- [ ] `lib/file/silly.txt:154` [line] Lost boy
+- [ ] `lib/file/silly.txt:155` [line] Hunter-killer
+- [ ] `lib/file/silly.txt:156` [line] Mad butcher
+- [ ] `lib/file/silly.txt:157` [line] Vore
+- [ ] `lib/file/silly.txt:158` [line] Rotfish
+- [ ] `lib/file/silly.txt:159` [line] Heresiarch
+- [ ] `lib/file/silly.txt:160` [line] False prophet
+- [ ] `lib/file/silly.txt:161` [line] Emperor
+- [ ] `lib/file/silly.txt:162` [line] Tumtum
+- [ ] `lib/file/silly.txt:163` [line] Androgyne
+- [ ] `lib/file/silly.txt:164` [line] Thieving magpie
+- [ ] `lib/file/silly.txt:165` [line] Boast of England
+- [ ] `lib/file/silly.txt:166` [line] Red Rose Knight
+- [ ] `lib/file/silly.txt:167` [line] Unholy cow
+- [ ] `lib/file/silly.txt:168` [line] Q
+- [ ] `lib/file/silly.txt:169` [line] Red Baron
+- [ ] `lib/file/silly.txt:170` [line] Giddy goon
+- [ ] `lib/file/silly.txt:171` [line] Vogon
+- [ ] `lib/file/silly.txt:172` [line] Lizard King
+- [ ] `lib/file/silly.txt:173` [line] Hutt
+- [ ] `lib/file/silly.txt:174` [line] Puppet master
+- [ ] `lib/file/silly.txt:175` [line] Wookie
+- [ ] `lib/file/silly.txt:176` [line] Giant sandworm
+- [ ] `lib/file/silly.txt:177` [line] Muad' Dib
+- [ ] `lib/file/silly.txt:178` [line] Ent
+- [ ] `lib/file/silly.txt:179` [line] Huorn
+- [ ] `lib/file/silly.txt:180` [line] Werepotato
+- [ ] `lib/file/silly.txt:181` [line] Mindless one
+- [ ] `lib/file/silly.txt:182` [line] Alien queen
+- [ ] `lib/file/silly.txt:183` [line] Alligator man
+- [ ] `lib/file/silly.txt:184` [line] Ancient ape
+- [ ] `lib/file/silly.txt:185` [line] Ancient astronaut
+- [ ] `lib/file/silly.txt:186` [line] Astro-zombie
+- [ ] `lib/file/silly.txt:187` [line] Beast from 20000 fathoms
+- [ ] `lib/file/silly.txt:188` [line] Beast with a million eyes
+- [ ] `lib/file/silly.txt:189` [line] Black goat of the woods with a thousand young
+- [ ] `lib/file/silly.txt:190` [line] Behemoth
+- [ ] `lib/file/silly.txt:191` [line] Leviathan
+- [ ] `lib/file/silly.txt:192` [line] Big Bug
+- [ ] `lib/file/silly.txt:193` [line] Blob
+- [ ] `lib/file/silly.txt:194` [line] Khyberdemon
+- [ ] `lib/file/silly.txt:195` [line] Body snatcher
+- [ ] `lib/file/silly.txt:196` [line] Brain from Planet Ardus
+- [ ] `lib/file/silly.txt:197` [line] Scatologist
+- [ ] `lib/file/silly.txt:198` [line] Brain of Venus
+- [ ] `lib/file/silly.txt:199` [line] Brain that would not die
+- [ ] `lib/file/silly.txt:200` [line] Breath blaster
+- [ ] `lib/file/silly.txt:201` [line] Chickenstein's monster
+- [ ] `lib/file/silly.txt:202` [line] Creature from the Black Lagoon
+- [ ] `lib/file/silly.txt:203` [line] Loch Ness monster
+- [ ] `lib/file/silly.txt:204` [line] Creeping death
+- [ ] `lib/file/silly.txt:205` [line] Creeping unknown
+- [ ] `lib/file/silly.txt:206` [line] Fifty-foot woman
+- [ ] `lib/file/silly.txt:207` [line] Flumsh
+- [ ] `lib/file/silly.txt:208` [line] 4D-man
+- [ ] `lib/file/silly.txt:209` [line] Bride of Frankenstein
+- [ ] `lib/file/silly.txt:210` [line] Galaxy being
+- [ ] `lib/file/silly.txt:211` [line] Giant baby
+- [ ] `lib/file/silly.txt:212` [line] Giant chicken
+- [ ] `lib/file/silly.txt:213` [line] Krazy Kat
+- [ ] `lib/file/silly.txt:214` [line] Giant celery stalk
+- [ ] `lib/file/silly.txt:215` [line] Gorilla witch
+- [ ] `lib/file/silly.txt:216` [line] Great god Porno
+- [ ] `lib/file/silly.txt:217` [line] H-dial monster
+- [ ] `lib/file/silly.txt:218` [line] Heap
+- [ ] `lib/file/silly.txt:219` [line] Love lotus
+- [ ] `lib/file/silly.txt:220` [line] Herman munster
+- [ ] `lib/file/silly.txt:221` [line] Highest intelligence
+- [ ] `lib/file/silly.txt:222` [line] H-man
+- [ ] `lib/file/silly.txt:223` [line] Hound of the Baskervilles
+- [ ] `lib/file/silly.txt:224` [line] Wizball
+- [ ] `lib/file/silly.txt:225` [line] ID monster
+- [ ] `lib/file/silly.txt:226` [line] Mancubus
+- [ ] `lib/file/silly.txt:227` [line] Arch-vile
+- [ ] `lib/file/silly.txt:228` [line] Pain elemental
+- [ ] `lib/file/silly.txt:229` [line] I-ball
+- [ ] `lib/file/silly.txt:230` [line] Killdozer
+- [ ] `lib/file/silly.txt:231` [line] Killer tomato
+- [ ] `lib/file/silly.txt:232` [line] Lurking fear
+- [ ] `lib/file/silly.txt:233` [line] Madball
+- [ ] `lib/file/silly.txt:234` [line] M.U.L.E.
+- [ ] `lib/file/silly.txt:235` [line] Magnetic monster
+- [ ] `lib/file/silly.txt:236` [line] Mixed-up zombie
+- [ ] `lib/file/silly.txt:237` [line] Hunchback of Notre Dame
+- [ ] `lib/file/silly.txt:238` [line] Monster that challenged the World
+- [ ] `lib/file/silly.txt:239` [line] Monster from green hell
+- [ ] `lib/file/silly.txt:240` [line] Morlock
+- [ ] `lib/file/silly.txt:241` [line] Queen Kong
+- [ ] `lib/file/silly.txt:242` [line] Robot Kong
+- [ ] `lib/file/silly.txt:243` [line] Mecha-Godzilla
+- [ ] `lib/file/silly.txt:244` [line] Ghidhrah
+- [ ] `lib/file/silly.txt:245` [line] Saucerman
+- [ ] `lib/file/silly.txt:246` [line] Ethereal
+- [ ] `lib/file/silly.txt:247` [line] Space Brain
+- [ ] `lib/file/silly.txt:248` [line] Floating brain of Hitler
+- [ ] `lib/file/silly.txt:249` [line] Stay Puft Marshmallow Man
+- [ ] `lib/file/silly.txt:250` [line] Supercow
+- [ ] `lib/file/silly.txt:251` [line] Swamp Thing
+- [ ] `lib/file/silly.txt:252` [line] Thing
+- [ ] `lib/file/silly.txt:253` [line] Teenage Frankenstein
+- [ ] `lib/file/silly.txt:254` [line] Teenage Werewolf
+- [ ] `lib/file/silly.txt:255` [line] Terror from the year 5000
+- [ ] `lib/file/silly.txt:256` [line] Triffid
+- [ ] `lib/file/silly.txt:257` [line] Tripod
+- [ ] `lib/file/silly.txt:258` [line] Xenophobic man
+- [ ] `lib/file/silly.txt:259` [line] Undying monster
+- [ ] `lib/file/silly.txt:260` [line] Unknown terror
+- [ ] `lib/file/silly.txt:261` [line] Unnamable
+- [ ] `lib/file/silly.txt:262` [line] Womaneater
+- [ ] `lib/file/silly.txt:263` [line] E.T.
+- [ ] `lib/file/silly.txt:264` [line] Toxic Avenger
+- [ ] `lib/file/silly.txt:265` [line] Onslaught
+- [ ] `lib/file/silly.txt:266` [line] Pacman
+- [ ] `lib/file/silly.txt:267` [line] Paradroid
+- [ ] `lib/file/silly.txt:268` [line] Bantha
+- [ ] `lib/file/silly.txt:269` [line] Ass-headed fish
+- [ ] `lib/file/silly.txt:270` [line] Wizard of Oz
+- [ ] `lib/file/silly.txt:271` [line] Juggernaut
+- [ ] `lib/file/silly.txt:272` [line] Cheshire Cat
+- [ ] `lib/file/silly.txt:273` [line] Tauntaun
+- [ ] `lib/file/silly.txt:274` [line] Heretic
+- [ ] `lib/file/silly.txt:275` [line] Other
+- [ ] `lib/file/silly.txt:276` [line] Uncanny
+- [ ] `lib/file/silly.txt:277` [line] Libido
+- [ ] `lib/file/silly.txt:278` [line] Super-ego
+- [ ] `lib/file/silly.txt:279` [line] Boy Blunder
+- [ ] `lib/file/silly.txt:280` [line] Big nothing
+- [ ] `lib/file/silly.txt:281` [line] Parademon
+- [ ] `lib/file/silly.txt:282` [line] Zelda
+- [ ] `lib/file/silly.txt:283` [line] Super Mario
+- [ ] `lib/file/silly.txt:284` [line] Great Giana Sister
+- [ ] `lib/file/silly.txt:285` [line] Magnetic man
+- [ ] `lib/file/silly.txt:286` [line] Pink elephant
+- [ ] `lib/file/silly.txt:287` [line] Elephant man
+- [ ] `lib/file/silly.txt:288` [line] Great Unknown
+- [ ] `lib/file/silly.txt:289` [line] Lurking unknown
+- [ ] `lib/file/silly.txt:290` [line] Cenobite
+- [ ] `lib/file/silly.txt:291` [line] Cheerleader
+- [ ] `lib/file/silly.txt:292` [line] Model T-1000 Terminator
+- [ ] `lib/file/silly.txt:293` [line] Whippoorwill
+- [ ] `lib/file/silly.txt:294` [line] Moon Maniac
+- [ ] `lib/file/silly.txt:295` [line] Killer Clown
+- [ ] `lib/file/silly.txt:296` [line] Stocking Strangler
+- [ ] `lib/file/silly.txt:297` [line] Torture Doctor
+- [ ] `lib/file/silly.txt:298` [line] Beast of the Black Forest
+- [ ] `lib/file/silly.txt:299` [line] Demon of the Belfry
+- [ ] `lib/file/silly.txt:300` [line] Sex Beast
+- [ ] `lib/file/silly.txt:301` [line] Sunday Morning Slasher

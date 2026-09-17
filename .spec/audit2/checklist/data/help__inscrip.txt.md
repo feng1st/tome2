@@ -1,0 +1,58 @@
+# 数据清单：lib/help/inscrip.txt（text，逐条/逐行）
+
+- [ ] `lib/help/inscrip.txt:1` [line] ~~~~~01|Floor Inscriptions (spoiler)
+- [ ] `lib/help/inscrip.txt:2` [line] ~~~~~02|Spoilers|Floor Inscriptions
+- [ ] `lib/help/inscrip.txt:3` [line] #####R=== Floor Inscriptions ===    
+- [ ] `lib/help/inscrip.txt:5` [line] It is possible to inscribe words on the floor in ToME. If you happen
+- [ ] `lib/help/inscrip.txt:6` [line] to be lucky and inscribe a spell formula from another language, the inscription
+- [ ] `lib/help/inscrip.txt:7` [line] will use the floor's mana to cast that spell when either you walk over it, a 
+- [ ] `lib/help/inscrip.txt:8` [line] monster walks over it, or both walk over it. Not all inscriptions are triggered
+- [ ] `lib/help/inscrip.txt:9` [line] by monsters, and not all can be triggered by the player.
+- [ ] `lib/help/inscrip.txt:11` [line] In order to write an inscription in another language, you must first have found
+- [ ] `lib/help/inscrip.txt:12` [line] and read a parchment with some of that language's words upon it. So, just 
+- [ ] `lib/help/inscrip.txt:13` [line] copying the inscriptions here won't work unless you have read the words on a 
+- [ ] `lib/help/inscrip.txt:14` [line] parchment first ;-).
+- [ ] `lib/help/inscrip.txt:16` [line] #####GLight up the Room
+- [ ] `lib/help/inscrip.txt:17` [line] Inscription: 'ure nimir' (sun shine)
+- [ ] `lib/help/inscrip.txt:18` [line] Parchment: Numenorean for Beginners (I)
+- [ ] `lib/help/inscrip.txt:19` [line] Triggered by: Player, Monster.
+- [ ] `lib/help/inscrip.txt:20` [line] Grid Mana Needed: 30
+- [ ] `lib/help/inscrip.txt:21` [line] Effect: Lights up the current room
+- [ ] `lib/help/inscrip.txt:23` [line] #####GDarkness in Room
+- [ ] `lib/help/inscrip.txt:24` [line] Inscription: 'lomi gimli' (night stars)
+- [ ] `lib/help/inscrip.txt:25` [line] Parchment: Numenorean for Beginners (II)
+- [ ] `lib/help/inscrip.txt:26` [line] Triggered by: Player, Monster.
+- [ ] `lib/help/inscrip.txt:27` [line] Grid Mana Needed: 10
+- [ ] `lib/help/inscrip.txt:28` [line] Effect: Casts the room into darkness
+- [ ] `lib/help/inscrip.txt:30` [line] #####GStorm
+- [ ] `lib/help/inscrip.txt:31` [line] Inscription: 'dulgi bawiba' (black winds)
+- [ ] `lib/help/inscrip.txt:32` [line] Parchment: Advanced Lessons of Numenorean
+- [ ] `lib/help/inscrip.txt:33` [line] Triggered by: Player, Monster.
+- [ ] `lib/help/inscrip.txt:34` [line] Grid Mana Needed: 40
+- [ ] `lib/help/inscrip.txt:35` [line] Effect: Electrical Ball of energy released around the inscription
+- [ ] `lib/help/inscrip.txt:37` [line] #####GProtection
+- [ ] `lib/help/inscrip.txt:38` [line] Inscription: 'pedo mellon a minno' (say friend and enter)
+- [ ] `lib/help/inscrip.txt:39` [line] Parchment: Advanced Lessons of Sindarin
+- [ ] `lib/help/inscrip.txt:40` [line] Triggered by: Monster.
+- [ ] `lib/help/inscrip.txt:41` [line] Grid Mana Needed: 8
+- [ ] `lib/help/inscrip.txt:42` [line] Effect: Prevents a monster from stepping on the affected square
+- [ ] `lib/help/inscrip.txt:44` [line] #####GDwarven summoning
+- [ ] `lib/help/inscrip.txt:45` [line] Inscription: 'Baruk Khazad! Khazad aimenu!' (Axes of the Dwarves, the Dwarves
+- [ ] `lib/help/inscrip.txt:46` [line]               are upon you!)
+- [ ] `lib/help/inscrip.txt:47` [line] Parchment: Khuzdul - The Hidden Tongue of the Dwarves
+- [ ] `lib/help/inscrip.txt:48` [line] Triggered by: Player.
+- [ ] `lib/help/inscrip.txt:49` [line] Grid Mana Needed: 100
+- [ ] `lib/help/inscrip.txt:50` [line] Effect: Generates friendly Dwarven Warriors to help your cause
+- [ ] `lib/help/inscrip.txt:52` [line] #####GOpen Chasm
+- [ ] `lib/help/inscrip.txt:53` [line] Inscription: 'dunna hrassa' (black precipice)
+- [ ] `lib/help/inscrip.txt:54` [line] Parchment: Nandorin for Dummies
+- [ ] `lib/help/inscrip.txt:55` [line] Triggered by: Monster.
+- [ ] `lib/help/inscrip.txt:56` [line] Grid Mana Needed: 50
+- [ ] `lib/help/inscrip.txt:57` [line] Effect: Creates a bottomless hole in the floor that monsters (and potentially 
+- [ ] `lib/help/inscrip.txt:58` [line]         objects) fall down
+- [ ] `lib/help/inscrip.txt:60` [line] #####GBlast of Black Fire
+- [ ] `lib/help/inscrip.txt:61` [line] Inscription: 'burz ghash ronk' (black fire pool)
+- [ ] `lib/help/inscrip.txt:62` [line] Parchment: Advanced Lessons of Orcish
+- [ ] `lib/help/inscrip.txt:63` [line] Triggered by: Player, Monster.
+- [ ] `lib/help/inscrip.txt:64` [line] Grid Mana Needed: 60
+- [ ] `lib/help/inscrip.txt:65` [line] Effect: Releases a ball of Hellfire around the inscription

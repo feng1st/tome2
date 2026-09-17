@@ -1,0 +1,30 @@
+# 数据清单：lib/help/r_hafelf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_hafelf.txt:1` [line] ~~~~~01|Half-Elf
+- [ ] `lib/help/r_hafelf.txt:2` [line] ~~~~~02|Races|Half-Elf
+- [ ] `lib/help/r_hafelf.txt:3` [line] #####R=== Half-Elves ===
+- [ ] `lib/help/r_hafelf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_hafelf.txt:6` [line] Half-elves tend to be smarter and more agile than humans, but not as tough.
+- [ ] `lib/help/r_hafelf.txt:7` [line] Half-elves are slightly better at searching, disarming, saving throws, 
+- [ ] `lib/help/r_hafelf.txt:8` [line] stealth, bows, and magic, but they are not as good at hand weapons. Half-
+- [ ] `lib/help/r_hafelf.txt:9` [line] elves may choose any class and do not receive any intrinsic abilities.
+- [ ] `lib/help/r_hafelf.txt:11` [line] #####GStat Modifiers
+- [ ] `lib/help/r_hafelf.txt:12` [line] Strength        0
+- [ ] `lib/help/r_hafelf.txt:13` [line] Intelligence    +1   
+- [ ] `lib/help/r_hafelf.txt:14` [line] Wisdom          +1   
+- [ ] `lib/help/r_hafelf.txt:15` [line] Dexterity       +1   
+- [ ] `lib/help/r_hafelf.txt:16` [line] Constitution    -1   
+- [ ] `lib/help/r_hafelf.txt:17` [line] Charisma        +1       
+- [ ] `lib/help/r_hafelf.txt:18` [line] Hit Dice Sides  9         
+- [ ] `lib/help/r_hafelf.txt:19` [line] Exp Penalty     +10%
+- [ ] `lib/help/r_hafelf.txt:21` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_hafelf.txt:22` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_hafelf.txt:23` [line] Combat                  
+- [ ] `lib/help/r_hafelf.txt:24` [line]   Weaponmastery        -1.000           [0.000]
+- [ ] `lib/help/r_hafelf.txt:25` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/r_hafelf.txt:26` [line] Sneakiness              0.600           [0.000]
+- [ ] `lib/help/r_hafelf.txt:27` [line]   Stealth               1.000           [0.000]
+- [ ] `lib/help/r_hafelf.txt:28` [line]   Disarming             0.200           [0.000]
+- [ ] `lib/help/r_hafelf.txt:29` [line] Magic                   
+- [ ] `lib/help/r_hafelf.txt:30` [line]   Magic-Device          0.300           [0.000]
+- [ ] `lib/help/r_hafelf.txt:31` [line] Spirituality            1.500           [0.000]

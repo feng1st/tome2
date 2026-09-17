@@ -1,0 +1,22 @@
+# 数据清单：lib/help/r_human.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_human.txt:1` [line] ~~~~~01|Human
+- [ ] `lib/help/r_human.txt:2` [line] ~~~~~02|Races|Human
+- [ ] `lib/help/r_human.txt:3` [line] #####R=== Humans ===
+- [ ] `lib/help/r_human.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_human.txt:6` [line] Humans act as a baseline race -- all other races are compared to them.
+- [ ] `lib/help/r_human.txt:7` [line] Humans can choose any class and are average at everything. Humans tend to
+- [ ] `lib/help/r_human.txt:8` [line] go up levels faster than most other races because of their shorter life
+- [ ] `lib/help/r_human.txt:9` [line] spans. No racial adjustments or intrinsics occur to characters choosing
+- [ ] `lib/help/r_human.txt:10` [line] the human race.
+- [ ] `lib/help/r_human.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/r_human.txt:13` [line] Strength        0
+- [ ] `lib/help/r_human.txt:14` [line] Intelligence    0
+- [ ] `lib/help/r_human.txt:15` [line] Wisdom          0
+- [ ] `lib/help/r_human.txt:16` [line] Dexterity       0
+- [ ] `lib/help/r_human.txt:17` [line] Constitution    0
+- [ ] `lib/help/r_human.txt:18` [line] Charisma        0
+- [ ] `lib/help/r_human.txt:19` [line] Hit Dice Sides  10
+- [ ] `lib/help/r_human.txt:20` [line] Exp Penalty     0%
+- [ ] `lib/help/r_human.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_human.txt:23` [line] None.  Humans are the baseline race.

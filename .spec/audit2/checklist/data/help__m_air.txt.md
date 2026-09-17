@@ -1,0 +1,41 @@
+# 数据清单：lib/help/m_air.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_air.txt:1` [line] |||||oy
+- [ ] `lib/help/m_air.txt:2` [line] ~~~~~01|Magic|Air School
+- [ ] `lib/help/m_air.txt:3` [line] ~~~~~02|Air Magic
+- [ ] `lib/help/m_air.txt:4` [line] ~~~~~03|Skills|Air - Spell Info
+- [ ] `lib/help/m_air.txt:5` [line] #####R === ToME Magic - Air School ===
+- [ ] `lib/help/m_air.txt:7` [line] The air school of magic contains spells where the element of air is used
+- [ ] `lib/help/m_air.txt:8` [line] to create the final spell effect. There are rumours of a "Tome of the Blowing
+- [ ] `lib/help/m_air.txt:9` [line] Wind" which contains all the air school spells within its bindings.
+- [ ] `lib/help/m_air.txt:11` [line] Worshipping the God Manwe Sulimo also gives the ability to cast spells from
+- [ ] `lib/help/m_air.txt:12` [line] the air school at a level of 2/3 of your prayer level. E.g. if the skill
+- [ ] `lib/help/m_air.txt:13` [line] "Spirituality: Prayer" is at level 12, you can cast up to level 8 air school
+- [ ] `lib/help/m_air.txt:14` [line] spells.
+- [ ] `lib/help/m_air.txt:16` [line] #####BAir Spells
+- [ ] `lib/help/m_air.txt:17` [line] There are six spells available for the air school. These spells are:
+- [ ] `lib/help/m_air.txt:18` [line] 1. [[[[[BNoxious Cloud] (school level 3)
+- [ ] `lib/help/m_air.txt:19` [line]    Creates a cloud of poison.
+- [ ] `lib/help/m_air.txt:20` [line]    The cloud will persist for some turns, damaging all monsters passing by.
+- [ ] `lib/help/m_air.txt:21` [line]    At spell level 30 it turns into a thick gas attacking all living beings.
+- [ ] `lib/help/m_air.txt:22` [line] 2. [[[[[BPoison Blood] (school level 12)
+- [ ] `lib/help/m_air.txt:23` [line]    Grants resist poison.
+- [ ] `lib/help/m_air.txt:24` [line]    At spell level 15 it provides poison branding to the wielded weapon.
+- [ ] `lib/help/m_air.txt:25` [line] 3. [[[[[BInvisibility] (school level 16)
+- [ ] `lib/help/m_air.txt:26` [line]    Grants invisibility.
+- [ ] `lib/help/m_air.txt:27` [line] 4. [[[[[BSterilize] (school level 20)
+- [ ] `lib/help/m_air.txt:28` [line]    Prevents explosive breeding for a while.
+- [ ] `lib/help/m_air.txt:29` [line] 5. [[[[[BWings of Winds] (dual school level 22)
+- [ ] `lib/help/m_air.txt:30` [line]    Grants the power of levitation.
+- [ ] `lib/help/m_air.txt:31` [line]    At spell level 16 it grants the power of controlled flight.
+- [ ] `lib/help/m_air.txt:32` [line] #####v   Your Air and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_air.txt:33` [line] #####v   of 22 in order to cast this spell.
+- [ ] `lib/help/m_air.txt:34` [line] 6. [[[[[BThunderstorm] (dual school level 25)
+- [ ] `lib/help/m_air.txt:35` [line]    Charges up the air around you with electricity.
+- [ ] `lib/help/m_air.txt:36` [line]    Each turn it will throw a bolt of thunder at a random monster in sight.
+- [ ] `lib/help/m_air.txt:37` [line]    This thunder does 3 types of damage:
+- [ ] `lib/help/m_air.txt:38` [line]       one third of lightning
+- [ ] `lib/help/m_air.txt:39` [line]       one third of sound
+- [ ] `lib/help/m_air.txt:40` [line]       and one third of light.
+- [ ] `lib/help/m_air.txt:41` [line] #####v   Your Air and Nature skills must have reached a combined average level 
+- [ ] `lib/help/m_air.txt:42` [line] #####v   of 25 in order to cast this spell.

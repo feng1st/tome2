@@ -1,0 +1,88 @@
+# 数据清单：lib/file/rart_f.txt（text，逐条/逐行）
+
+- [ ] `lib/file/rart_f.txt:1` [line] 85
+- [ ] `lib/file/rart_f.txt:2` [line] The Bag of Tricks
+- [ ] `lib/file/rart_f.txt:3` [line] Kenault's Cantrip Generator
+- [ ] `lib/file/rart_f.txt:4` [line] The Deck of Wild Magic
+- [ ] `lib/file/rart_f.txt:5` [line] Baalzebub's Tormented Box
+- [ ] `lib/file/rart_f.txt:6` [line] Baalzebub's All-seeing Servant
+- [ ] `lib/file/rart_f.txt:7` [line] Boccob's Unfinished Works
+- [ ] `lib/file/rart_f.txt:8` [line] The Gem of Fire
+- [ ] `lib/file/rart_f.txt:9` [line] The Gem of Ice
+- [ ] `lib/file/rart_f.txt:10` [line] The Gem of Venom
+- [ ] `lib/file/rart_f.txt:11` [line] The Gem of Knowledge
+- [ ] `lib/file/rart_f.txt:12` [line] The Gem of Rage
+- [ ] `lib/file/rart_f.txt:13` [line] The Gem of Hate
+- [ ] `lib/file/rart_f.txt:14` [line] The Gem of Wisdom
+- [ ] `lib/file/rart_f.txt:15` [line] The Gem of Ghosts
+- [ ] `lib/file/rart_f.txt:16` [line] The Shrunken Head of Nightmares
+- [ ] `lib/file/rart_f.txt:17` [line] Raal's Voodoo Doll of Revenge
+- [ ] `lib/file/rart_f.txt:18` [line] The Mirror of Alternate Dimensions
+- [ ] `lib/file/rart_f.txt:19` [line] The Ebon Cube of Darkness
+- [ ] `lib/file/rart_f.txt:20` [line] The Diamond Prism of Light
+- [ ] `lib/file/rart_f.txt:21` [line] Gruumsh's Bottle of Death
+- [ ] `lib/file/rart_f.txt:22` [line] The Devil's Pentagram
+- [ ] `lib/file/rart_f.txt:23` [line] Mordekainen's Sneaking Eye
+- [ ] `lib/file/rart_f.txt:24` [line] Kelek's Practical Joke
+- [ ] `lib/file/rart_f.txt:25` [line] Kelek's Wormhole Machine
+- [ ] `lib/file/rart_f.txt:26` [line] Tenser's Alteration Manual
+- [ ] `lib/file/rart_f.txt:27` [line] Raal's Tome of Unconventional Warfare
+- [ ] `lib/file/rart_f.txt:28` [line] The Tome of Collected Weird Magic
+- [ ] `lib/file/rart_f.txt:29` [line] The Pendulum of Orcus
+- [ ] `lib/file/rart_f.txt:30` [line] Raal's Black Candle
+- [ ] `lib/file/rart_f.txt:31` [line] Mordekainen's Pocket Magician
+- [ ] `lib/file/rart_f.txt:32` [line] Benetar's Death Ray Experiment
+- [ ] `lib/file/rart_f.txt:33` [line] Valdarbon's Automatic Alchemist
+- [ ] `lib/file/rart_f.txt:34` [line] Lloth's Ceremonial Dagger
+- [ ] `lib/file/rart_f.txt:35` [line] The Tome of Elven Household Magic
+- [ ] `lib/file/rart_f.txt:36` [line] a Parchment titled ``Demigods and their Uses''
+- [ ] `lib/file/rart_f.txt:37` [line] a Parchment titled ``Magic for the Layman''
+- [ ] `lib/file/rart_f.txt:38` [line] Balrilbon's Bag of Wondrous Tricks
+- [ ] `lib/file/rart_f.txt:39` [line] Bumganir's Bag of Magic Toys
+- [ ] `lib/file/rart_f.txt:40` [line] The Skull of Ancient Wisdom
+- [ ] `lib/file/rart_f.txt:41` [line] Benetar's Mana Battery
+- [ ] `lib/file/rart_f.txt:42` [line] Benetar's Portable Plague
+- [ ] `lib/file/rart_f.txt:43` [line] Gamenlon's Summoning Manual
+- [ ] `lib/file/rart_f.txt:44` [line] Balrilbon's Soulgem
+- [ ] `lib/file/rart_f.txt:45` [line] The Lost Works of Kenault
+- [ ] `lib/file/rart_f.txt:46` [line] The Crystal Ball of Godly Sights
+- [ ] `lib/file/rart_f.txt:47` [line] The Box of Many Wonders
+- [ ] `lib/file/rart_f.txt:48` [line] Baalzebub's Tormented Skullcap
+- [ ] `lib/file/rart_f.txt:49` [line] The Jester's Cap of Insanity
+- [ ] `lib/file/rart_f.txt:50` [line] The Bottomless Bottle
+- [ ] `lib/file/rart_f.txt:51` [line] a Parchment titled ``Planar Travel Made Easy''
+- [ ] `lib/file/rart_f.txt:52` [line] The Wand Construction Kit
+- [ ] `lib/file/rart_f.txt:53` [line] The Clay Tablets of Antiquity
+- [ ] `lib/file/rart_f.txt:54` [line] Raal's Tormented Spirits
+- [ ] `lib/file/rart_f.txt:55` [line] Tenser's Mechanical Magician
+- [ ] `lib/file/rart_f.txt:56` [line] Boccob's Magical Mish-mash
+- [ ] `lib/file/rart_f.txt:57` [line] The Grail of Kenault
+- [ ] `lib/file/rart_f.txt:58` [line] a Parchment titled ``Household Magic''
+- [ ] `lib/file/rart_f.txt:59` [line] a Parchment titled ``Tenser's Last Words''
+- [ ] `lib/file/rart_f.txt:60` [line] The Hand of Vecna
+- [ ] `lib/file/rart_f.txt:61` [line] The Skull of Vecna
+- [ ] `lib/file/rart_f.txt:62` [line] The Eye of Vecna
+- [ ] `lib/file/rart_f.txt:63` [line] The Crystal Ball of The Witch-King of Angmar
+- [ ] `lib/file/rart_f.txt:64` [line] a Parchment titled ``Secrets of the Gnomish Wizards''
+- [ ] `lib/file/rart_f.txt:65` [line] The Medallion of Good Will
+- [ ] `lib/file/rart_f.txt:66` [line] The Immortal Skull of Benetar
+- [ ] `lib/file/rart_f.txt:67` [line] Heward's Excellent Experimental Earmuffs
+- [ ] `lib/file/rart_f.txt:68` [line] Bigby's Big Book of Brutality
+- [ ] `lib/file/rart_f.txt:69` [line] The Cunning Plan of Zog
+- [ ] `lib/file/rart_f.txt:70` [line] a Parchment titled ''Immortality For Dummies''
+- [ ] `lib/file/rart_f.txt:71` [line] Raistlin's Ready Ranger
+- [ ] `lib/file/rart_f.txt:72` [line] Tenser's Torch of Spontaneous Combustion
+- [ ] `lib/file/rart_f.txt:73` [line] Mordenkainen's Mysterious Mind-Masher
+- [ ] `lib/file/rart_f.txt:74` [line] a Parchment titled ''Famous Last Words''
+- [ ] `lib/file/rart_f.txt:75` [line] Jor's Buckler of Missile Attraction
+- [ ] `lib/file/rart_f.txt:76` [line] Jor's Compendium of Strange Behaviour
+- [ ] `lib/file/rart_f.txt:77` [line] Agannazar's Antique Acorn
+- [ ] `lib/file/rart_f.txt:78` [line] Cathal's Corrupting Cymbal
+- [ ] `lib/file/rart_f.txt:79` [line] Pytar's Portable Pandemonium
+- [ ] `lib/file/rart_f.txt:80` [line] The Toenail of Vecna
+- [ ] `lib/file/rart_f.txt:81` [line] Jor's Book of Impossible Occurences
+- [ ] `lib/file/rart_f.txt:82` [line] a Parchment titled ''Finer Points of Munchkinism''
+- [ ] `lib/file/rart_f.txt:83` [line] Agannazar's Altruistic Assassin
+- [ ] `lib/file/rart_f.txt:84` [line] Tenser's Top-Heavy Teaspoon
+- [ ] `lib/file/rart_f.txt:85` [line] Olive's Omnipotent Ostrich
+- [ ] `lib/file/rart_f.txt:86` [line] Cathal's Collapsible Crutch

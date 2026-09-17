@@ -1,0 +1,353 @@
+# 数据清单：lib/file/death.txt（text，逐条/逐行）
+
+- [ ] `lib/file/death.txt:1` [line] 349
+- [ ] `lib/file/death.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/death.txt:3` [line] Live and let live, right..?
+- [ ] `lib/file/death.txt:4` [line] AAAAAAAAARRRRRRRRRRRRRRGGGGGGGGGGGGGHHHHHHHHHHHHHHH!!!!!!!!!!!!
+- [ ] `lib/file/death.txt:5` [line] AAAARRRGGGHHH!!!
+- [ ] `lib/file/death.txt:6` [line] Somehow, I have a bad feeling about this...
+- [ ] `lib/file/death.txt:7` [line] Strangely, all of a sudden I don't feel so good.
+- [ ] `lib/file/death.txt:8` [line] You can see armored women on winged horses coming for you.
+- [ ] `lib/file/death.txt:9` [line] Oh well, you can't always win.
+- [ ] `lib/file/death.txt:10` [line] I'm too young to die!
+- [ ] `lib/file/death.txt:11` [line] I'll be back!
+- [ ] `lib/file/death.txt:12` [line] O, untimely death!
+- [ ] `lib/file/death.txt:13` [line] Slave, thou hast slain me!
+- [ ] `lib/file/death.txt:14` [line] Ouch! That smarts!
+- [ ] `lib/file/death.txt:15` [line] Who knocked?
+- [ ] `lib/file/death.txt:16` [line] Did anybody get the number of that truck..?
+- [ ] `lib/file/death.txt:17` [line] Ouch.
+- [ ] `lib/file/death.txt:18` [line] Et tu, Brute! Then fall, Caesar!
+- [ ] `lib/file/death.txt:19` [line] O! I die, Horatio...
+- [ ] `lib/file/death.txt:20` [line] I told you to be careful with that sword...
+- [ ] `lib/file/death.txt:21` [line] This guy's a little crazy...
+- [ ] `lib/file/death.txt:22` [line] Ok, ok, I get it: No more pals.
+- [ ] `lib/file/death.txt:23` [line] No more mr. nice guy!
+- [ ] `lib/file/death.txt:24` [line] Who turned off the light..?
+- [ ] `lib/file/death.txt:25` [line] Join the army, see the world, they said...
+- [ ] `lib/file/death.txt:26` [line] Mom told me there'd be days like this...
+- [ ] `lib/file/death.txt:27` [line] Rats!
+- [ ] `lib/file/death.txt:28` [line] Shall this fellow live?
+- [ ] `lib/file/death.txt:29` [line] Help, ho!
+- [ ] `lib/file/death.txt:30` [line] What ho! Help!
+- [ ] `lib/file/death.txt:31` [line] What hast thou done?
+- [ ] `lib/file/death.txt:32` [line] I'll be revenged on the whole pack of you!
+- [ ] `lib/file/death.txt:33` [line] You will *pay* for this!
+- [ ] `lib/file/death.txt:34` [line] They say blood will have blood...
+- [ ] `lib/file/death.txt:35` [line] Violence is no solution!
+- [ ] `lib/file/death.txt:36` [line] Yes?
+- [ ] `lib/file/death.txt:37` [line] #&%#&#%*#*&%!!!!!
+- [ ] `lib/file/death.txt:38` [line] F***!
+- [ ] `lib/file/death.txt:39` [line] No time to make a testament?
+- [ ] `lib/file/death.txt:40` [line] Ugh!
+- [ ] `lib/file/death.txt:41` [line] Aargh!
+- [ ] `lib/file/death.txt:42` [line] Aaagghhh!
+- [ ] `lib/file/death.txt:43` [line] I'm melting!
+- [ ] `lib/file/death.txt:44` [line] Oof..
+- [ ] `lib/file/death.txt:45` [line] Oh!
+- [ ] `lib/file/death.txt:46` [line] Did somebody knock?
+- [ ] `lib/file/death.txt:47` [line] Later, dude...
+- [ ] `lib/file/death.txt:48` [line] CU!
+- [ ] `lib/file/death.txt:49` [line] What? Who? Me? Oh, s..t!
+- [ ] `lib/file/death.txt:50` [line] ...amen!
+- [ ] `lib/file/death.txt:51` [line] Eeek!
+- [ ] `lib/file/death.txt:52` [line] Aacch!
+- [ ] `lib/file/death.txt:53` [line] I hate it when that happens.
+- [ ] `lib/file/death.txt:54` [line] One direct hit can ruin your whole day.
+- [ ] `lib/file/death.txt:55` [line] Oh no!
+- [ ] `lib/file/death.txt:56` [line] Not me!
+- [ ] `lib/file/death.txt:57` [line] Ouch.
+- [ ] `lib/file/death.txt:58` [line] Oh no, not again.
+- [ ] `lib/file/death.txt:59` [line] Another one bites the dust.
+- [ ] `lib/file/death.txt:60` [line] Goodbye.
+- [ ] `lib/file/death.txt:61` [line] Help me!
+- [ ] `lib/file/death.txt:62` [line] Farewell, cruel world.
+- [ ] `lib/file/death.txt:63` [line] Oh man!
+- [ ] `lib/file/death.txt:64` [line] Doough!
+- [ ] `lib/file/death.txt:65` [line] This is the End, my only friend.
+- [ ] `lib/file/death.txt:66` [line] It's all over.
+- [ ] `lib/file/death.txt:67` [line] The fat lady sang.
+- [ ] `lib/file/death.txt:68` [line] Why does everything happen to me?
+- [ ] `lib/file/death.txt:69` [line] I'm going down.
+- [ ] `lib/file/death.txt:70` [line] Crapola.
+- [ ] `lib/file/death.txt:71` [line] Pow!
+- [ ] `lib/file/death.txt:72` [line] Bif!
+- [ ] `lib/file/death.txt:73` [line] Bam!
+- [ ] `lib/file/death.txt:74` [line] Zonk!
+- [ ] `lib/file/death.txt:75` [line] I should've listened to my mother...
+- [ ] `lib/file/death.txt:76` [line] No... a Bud light!
+- [ ] `lib/file/death.txt:77` [line] What was that noise?
+- [ ] `lib/file/death.txt:78` [line] Mama said there'd be days like this.
+- [ ] `lib/file/death.txt:79` [line] It's just one of those days...
+- [ ] `lib/file/death.txt:80` [line] I see a bright light...
+- [ ] `lib/file/death.txt:81` [line] Mommy? Is that you?
+- [ ] `lib/file/death.txt:82` [line] I let you hit me!
+- [ ] `lib/file/death.txt:83` [line] Sucker shot!
+- [ ] `lib/file/death.txt:84` [line] I didn't want to live anyway.
+- [ ] `lib/file/death.txt:85` [line] -<sob>-
+- [ ] `lib/file/death.txt:86` [line] Hah haa! Missed me! Ha---
+- [ ] `lib/file/death.txt:87` [line] Was that as close as I think it was?
+- [ ] `lib/file/death.txt:88` [line] Monsters rejoice: the hero has been defeated.
+- [ ] `lib/file/death.txt:89` [line] It wasn't just a job it was an adventure!
+- [ ] `lib/file/death.txt:90` [line] I didn't like violence anyway!
+- [ ] `lib/file/death.txt:91` [line] I thought you liked me?
+- [ ] `lib/file/death.txt:92` [line] Such senseless violence! I don't understand it.
+- [ ] `lib/file/death.txt:93` [line] I think this guy's a little crazy.
+- [ ] `lib/file/death.txt:94` [line] Somehow I don't feel like killing anymore.
+- [ ] `lib/file/death.txt:95` [line] Help me! I am undone!
+- [ ] `lib/file/death.txt:96` [line] Hey! Killin' ain't cool.
+- [ ] `lib/file/death.txt:97` [line] This fell sergeant, Death, is strict in his arrest...
+- [ ] `lib/file/death.txt:98` [line] The rest is silence.
+- [ ] `lib/file/death.txt:99` [line] Guh!
+- [ ] `lib/file/death.txt:100` [line] It's game over, man!
+- [ ] `lib/file/death.txt:101` [line] You've run out of life.
+- [ ] `lib/file/death.txt:102` [line] Thou art slain.
+- [ ] `lib/file/death.txt:103` [line] Finish him!
+- [ ] `lib/file/death.txt:104` [line] Trust me, I know what I'm doing...
+- [ ] `lib/file/death.txt:105` [line] Die, mortal!
+- [ ] `lib/file/death.txt:106` [line] Kill men i' the dark! What be these bloody thieves?
+- [ ] `lib/file/death.txt:107` [line] Ho! Murder! Murder!
+- [ ] `lib/file/death.txt:108` [line] O! I am spoil'd, undone by villains!
+- [ ] `lib/file/death.txt:109` [line] O murderous slave! O villain!
+- [ ] `lib/file/death.txt:110` [line] O, falsely, falsely murder'd!
+- [ ] `lib/file/death.txt:111` [line] A guiltless death I die.
+- [ ] `lib/file/death.txt:112` [line] AAAAAAAAAAAAAAAAAAAAAAAAHHHHHHH!
+- [ ] `lib/file/death.txt:113` [line] Trust me.
+- [ ] `lib/file/death.txt:114` [line] Dammit, this thing won't die!
+- [ ] `lib/file/death.txt:115` [line] He hit me for HOW MUCH?????
+- [ ] `lib/file/death.txt:116` [line] Look, behind you!!!
+- [ ] `lib/file/death.txt:117` [line] Who fed steroids to that kobold?
+- [ ] `lib/file/death.txt:118` [line] Don't worry, be happy!
+- [ ] `lib/file/death.txt:119` [line] I don't believe this!
+- [ ] `lib/file/death.txt:120` [line] Oops.
+- [ ] `lib/file/death.txt:121` [line] Oups.
+- [ ] `lib/file/death.txt:122` [line] Can't you take a joke?
+- [ ] `lib/file/death.txt:123` [line] Well, I didn't much like this character, anyway...
+- [ ] `lib/file/death.txt:124` [line] Oops, sorry... didn't mean to disturb you.
+- [ ] `lib/file/death.txt:125` [line] I never get to have any fun!
+- [ ] `lib/file/death.txt:126` [line] Stop!
+- [ ] `lib/file/death.txt:127` [line] Cut it out!
+- [ ] `lib/file/death.txt:128` [line] Don't worry. I've got a plan.
+- [ ] `lib/file/death.txt:129` [line] It didn't look so tough.
+- [ ] `lib/file/death.txt:130` [line] Run away!
+- [ ] `lib/file/death.txt:131` [line] All clear, guys.
+- [ ] `lib/file/death.txt:132` [line] AGAIN!?!?!
+- [ ] `lib/file/death.txt:133` [line] I don't like this dungeon...
+- [ ] `lib/file/death.txt:134` [line] Maybe this wasn't such a good idea.
+- [ ] `lib/file/death.txt:135` [line] My God will protect me.
+- [ ] `lib/file/death.txt:136` [line] You wouldn't dare!
+- [ ] `lib/file/death.txt:137` [line] But what about my Parry Skill? Tumbling?
+- [ ] `lib/file/death.txt:138` [line] Don't worry - I have Pilot-7.
+- [ ] `lib/file/death.txt:139` [line] And I've *never* done you any harm.
+- [ ] `lib/file/death.txt:140` [line] I don't understand. It should be dead by now.
+- [ ] `lib/file/death.txt:141` [line] I'm heir to the crown. They wouldn't dare!
+- [ ] `lib/file/death.txt:142` [line] Hey! Where's my stomach? My hands?
+- [ ] `lib/file/death.txt:143` [line] Ha! That's the oldest trick in the book.
+- [ ] `lib/file/death.txt:144` [line] Cover me.
+- [ ] `lib/file/death.txt:145` [line] Watch this.
+- [ ] `lib/file/death.txt:146` [line] And damn'd be him that first cries, 'Hold, enough!'
+- [ ] `lib/file/death.txt:147` [line] I will not yield.
+- [ ] `lib/file/death.txt:148` [line] ...but like a man he died.
+- [ ] `lib/file/death.txt:149` [line] If you cut me down, I will only become more powerful.
+- [ ] `lib/file/death.txt:150` [line] Well, at least I tried...?
+- [ ] `lib/file/death.txt:151` [line] What could possibly have gone wrong?
+- [ ] `lib/file/death.txt:152` [line] You die...
+- [ ] `lib/file/death.txt:153` [line] What's with that weirdo with the teeth?
+- [ ] `lib/file/death.txt:154` [line] Surrender? Never!
+- [ ] `lib/file/death.txt:155` [line] I'm sure reinforcements will get here on time. They promised.
+- [ ] `lib/file/death.txt:156` [line] Funny, didn't *look* like a cyberpsycho....
+- [ ] `lib/file/death.txt:157` [line] I have a very bad feeling about this.
+- [ ] `lib/file/death.txt:158` [line] Do something, SCHMUCK!
+- [ ] `lib/file/death.txt:159` [line] I feel I could cast 'Speak with Dead' and talk to myself.
+- [ ] `lib/file/death.txt:160` [line] Oh, that's just a light wound.
+- [ ] `lib/file/death.txt:161` [line] Ach, is doch nur 'ne Fleischwunde...
+- [ ] `lib/file/death.txt:162` [line] I thought you were on MY side...
+- [ ] `lib/file/death.txt:163` [line] Next time, try talking!
+- [ ] `lib/file/death.txt:164` [line] Oh shit... I'll try to teleport again.
+- [ ] `lib/file/death.txt:165` [line] Somebody get me a Rod of Resurrection... QUICK!
+- [ ] `lib/file/death.txt:166` [line] Uhh... oh-oh...
+- [ ] `lib/file/death.txt:167` [line] Gee, where'd everybody go?
+- [ ] `lib/file/death.txt:168` [line] I see it coming...aaargllhhhh! {sough}
+- [ ] `lib/file/death.txt:169` [line] What do you mean 'aaargllhhhh'? Hey man, I've paid for this.
+- [ ] `lib/file/death.txt:170` [line] Ay! Ay! Ay!
+- [ ] `lib/file/death.txt:171` [line] Ohe! Ohe! Ohe!
+- [ ] `lib/file/death.txt:172` [line] Et tu, Caesar! Then fall, Brute!
+- [ ] `lib/file/death.txt:173` [line] Even the best laid plans...
+- [ ] `lib/file/death.txt:174` [line] Hey, not too rough!
+- [ ] `lib/file/death.txt:175` [line] The Random Number Generator hates me!
+- [ ] `lib/file/death.txt:176` [line] So when I die, the first thing I will see in heaven is a score list?
+- [ ] `lib/file/death.txt:177` [line] Can't we talk this thing over?
+- [ ] `lib/file/death.txt:178` [line] Wait! Spare me and I'll make you rich! Money is not a problem!
+- [ ] `lib/file/death.txt:179` [line] I hate you!
+- [ ] `lib/file/death.txt:180` [line] By the kind gods, 'twas most ignobly done!
+- [ ] `lib/file/death.txt:181` [line] Mein Leben!
+- [ ] `lib/file/death.txt:182` [line] Meine Lieder!
+- [ ] `lib/file/death.txt:183` [line] I'm the hero of this story! I CAN'T die!
+- [ ] `lib/file/death.txt:184` [line] I thought heroes were supposed to win!
+- [ ] `lib/file/death.txt:185` [line] Gee... thanks.
+- [ ] `lib/file/death.txt:186` [line] You've fallen and can't get up!
+- [ ] `lib/file/death.txt:187` [line] 911?
+- [ ] `lib/file/death.txt:188` [line] Sure don't look good...
+- [ ] `lib/file/death.txt:189` [line] Oh No! Here I blow again!
+- [ ] `lib/file/death.txt:190` [line] Hey - I've got lawyers.
+- [ ] `lib/file/death.txt:191` [line] Thanks, I needed that.
+- [ ] `lib/file/death.txt:192` [line] I AM toast!!
+- [ ] `lib/file/death.txt:193` [line] Scheisse!
+- [ ] `lib/file/death.txt:194` [line] Fatality!
+- [ ] `lib/file/death.txt:195` [line] Brutality!
+- [ ] `lib/file/death.txt:196` [line] Toasty!
+- [ ] `lib/file/death.txt:197` [line] And you thought Tristan was unlucky...
+- [ ] `lib/file/death.txt:198` [line] Just wait till I get my hands on the crook who sold me this crappy armor...
+- [ ] `lib/file/death.txt:199` [line] All is lost. Monks, monks, monks!
+- [ ] `lib/file/death.txt:200` [line] All my possessions for a moment of time!
+- [ ] `lib/file/death.txt:201` [line] Don't let poor Nelly starve!
+- [ ] `lib/file/death.txt:202` [line] Wally, what is this? It is death, my boy: they have deceived me.
+- [ ] `lib/file/death.txt:203` [line] Everyone dances with the Grim Reaper.
+- [ ] `lib/file/death.txt:204` [line] Adios.
+- [ ] `lib/file/death.txt:205` [line] I'm going home, babe.
+- [ ] `lib/file/death.txt:206` [line] I am innocent, innocent, innocent!
+- [ ] `lib/file/death.txt:207` [line] Watch where you're pointing with that sword! You nearly...
+- [ ] `lib/file/death.txt:208` [line] Hmm, some things are better wanted than had...
+- [ ] `lib/file/death.txt:209` [line] And they told me it was not loaded.
+- [ ] `lib/file/death.txt:210` [line] Of course I know what I am doing.
+- [ ] `lib/file/death.txt:211` [line] It looked harmless.
+- [ ] `lib/file/death.txt:212` [line] Hilfe, hilfe, hilfe!
+- [ ] `lib/file/death.txt:213` [line] Look, dad! No head!
+- [ ] `lib/file/death.txt:214` [line] Look! I'm flying!
+- [ ] `lib/file/death.txt:215` [line] Think I'm gonna fall for that?
+- [ ] `lib/file/death.txt:216` [line] I'll be back... as soon as I can.
+- [ ] `lib/file/death.txt:217` [line] 3... 2... 1... Liftoff!
+- [ ] `lib/file/death.txt:218` [line] My wallet? In your dreams!
+- [ ] `lib/file/death.txt:219` [line] Yes! Yes! YES! YES! YY... AAARRRGGGHH!
+- [ ] `lib/file/death.txt:220` [line] See you later, alligator!
+- [ ] `lib/file/death.txt:221` [line] Up, up and awaaaayyy!
+- [ ] `lib/file/death.txt:222` [line] Been nice knowing you.
+- [ ] `lib/file/death.txt:223` [line] But I just got a little prick!
+- [ ] `lib/file/death.txt:224` [line] And I just wanted that fancy suit of armour you were carrying...
+- [ ] `lib/file/death.txt:225` [line] Hey guys, where are you?
+- [ ] `lib/file/death.txt:226` [line] Hey look... ARCHERS!
+- [ ] `lib/file/death.txt:227` [line] I can't probably miss...
+- [ ] `lib/file/death.txt:228` [line] I don't care. I have a Scroll of Raise Dead.
+- [ ] `lib/file/death.txt:229` [line] I don't care. I have a Ring of Regeneration.
+- [ ] `lib/file/death.txt:230` [line] I have this dungeon at home, I know where everything is!
+- [ ] `lib/file/death.txt:231` [line] This HAS to be an illusion. I attempt to disbelieve it.
+- [ ] `lib/file/death.txt:232` [line] I thought you could be trusted.
+- [ ] `lib/file/death.txt:233` [line] Never try to sneak in a plate mail.
+- [ ] `lib/file/death.txt:234` [line] I'll never surrender.
+- [ ] `lib/file/death.txt:235` [line] I'll use the Cheat Death option...
+- [ ] `lib/file/death.txt:236` [line] I'm invincible!
+- [ ] `lib/file/death.txt:237` [line] I'm death incarnate! Nothing can harm me!
+- [ ] `lib/file/death.txt:238` [line] Hey, it was only a joke, all right?
+- [ ] `lib/file/death.txt:239` [line] Hey, don't talk to me like that!
+- [ ] `lib/file/death.txt:240` [line] I have rights, too!
+- [ ] `lib/file/death.txt:241` [line] Just because you're big and ugly doesn't mean you can push ME around.
+- [ ] `lib/file/death.txt:242` [line] Me first! Me first!
+- [ ] `lib/file/death.txt:243` [line] Let me handle this.
+- [ ] `lib/file/death.txt:244` [line] No problem. That's easy.
+- [ ] `lib/file/death.txt:245` [line] Oh, shit.
+- [ ] `lib/file/death.txt:246` [line] So what?
+- [ ] `lib/file/death.txt:247` [line] Tell me this is an illusion... please!
+- [ ] `lib/file/death.txt:248` [line] I hate the RNG...
+- [ ] `lib/file/death.txt:249` [line] They need a twenty to hit me! I'm invincible!
+- [ ] `lib/file/death.txt:250` [line] Trust me.
+- [ ] `lib/file/death.txt:251` [line] CHARGE!
+- [ ] `lib/file/death.txt:252` [line] What do you mean, how many hit points do I have?
+- [ ] `lib/file/death.txt:253` [line] What do you mean, my GOI expired?
+- [ ] `lib/file/death.txt:254` [line] Yeah, I knew it was dangerous, but I was thinking about the experience points.
+- [ ] `lib/file/death.txt:255` [line] You mean you get to use the critical hit chart too?
+- [ ] `lib/file/death.txt:256` [line] You'd have to be a GOD to smile after that hit!
+- [ ] `lib/file/death.txt:257` [line] I'm not afraid of death. I just don't want to be there when it happens.
+- [ ] `lib/file/death.txt:258` [line] I have such sweet thoughts.
+- [ ] `lib/file/death.txt:259` [line] I pray you all pray for me.
+- [ ] `lib/file/death.txt:260` [line] I shall hear in heaven.
+- [ ] `lib/file/death.txt:261` [line] Is not this dying with courage and true greatness?
+- [ ] `lib/file/death.txt:262` [line] I must sleep now.
+- [ ] `lib/file/death.txt:263` [line] Nurse, nurse, what murder! What blood! I have done wrong!
+- [ ] `lib/file/death.txt:264` [line] It is finished.
+- [ ] `lib/file/death.txt:265` [line] That unworthy hand! That unworthy hand!
+- [ ] `lib/file/death.txt:266` [line] I am dying.
+- [ ] `lib/file/death.txt:267` [line] Oh, dear.
+- [ ] `lib/file/death.txt:268` [line] I will not kneel. Strike!
+- [ ] `lib/file/death.txt:269` [line] I have led a happy life.
+- [ ] `lib/file/death.txt:270` [line] Dying, dying.
+- [ ] `lib/file/death.txt:271` [line] I feel the flowers growing over me.
+- [ ] `lib/file/death.txt:272` [line] Now it is come.
+- [ ] `lib/file/death.txt:273` [line] Let me die to the sound of sweet music.
+- [ ] `lib/file/death.txt:274` [line] I will now enter the Halls of Mandos.
+- [ ] `lib/file/death.txt:275` [line] Ungrateful traitors!
+- [ ] `lib/file/death.txt:276` [line] We perish, we disappear, but the march of time goes on forever.
+- [ ] `lib/file/death.txt:277` [line] Youth, I forgive thee.
+- [ ] `lib/file/death.txt:278` [line] Treason! Treason!
+- [ ] `lib/file/death.txt:279` [line] Coward! Why did you not protect me?
+- [ ] `lib/file/death.txt:280` [line] I am absolutely undone.
+- [ ] `lib/file/death.txt:281` [line] It is well. I die hard, but am not afraid to go.
+- [ ] `lib/file/death.txt:282` [line] Do let me die in peace.
+- [ ] `lib/file/death.txt:283` [line] Nothing is real but pain now.
+- [ ] `lib/file/death.txt:284` [line] Violent use brings violent plans.
+- [ ] `lib/file/death.txt:285` [line] Soldier boy, made of clay, now an empty shell.
+- [ ] `lib/file/death.txt:286` [line] Bodies fill the fields I see, the slaughter never ends.
+- [ ] `lib/file/death.txt:287` [line] Life planned out before my birth, nothing could I say.
+- [ ] `lib/file/death.txt:288` [line] Blood will follow blood, dying time is here.
+- [ ] `lib/file/death.txt:289` [line] Never happy endings on these dark sets.
+- [ ] `lib/file/death.txt:290` [line] No one to play soldier now, no one to pretend.
+- [ ] `lib/file/death.txt:291` [line] Time for lust, time for lie, time to kiss your life goodbye.
+- [ ] `lib/file/death.txt:292` [line] Greetings, Death, he's yours to take away.
+- [ ] `lib/file/death.txt:293` [line] I was born for dying.
+- [ ] `lib/file/death.txt:294` [line] The higher you walk, the farther you fall.
+- [ ] `lib/file/death.txt:295` [line] Where's your crown, King Nothing?
+- [ ] `lib/file/death.txt:296` [line] Exit: light - enter: night!
+- [ ] `lib/file/death.txt:297` [line] New blood joins this earth...
+- [ ] `lib/file/death.txt:298` [line] You labeled me, I'll label you, so I dub thee unforgiven.
+- [ ] `lib/file/death.txt:299` [line] If you're gonna die, die with your boots on!
+- [ ] `lib/file/death.txt:300` [line] There's a time to live, and a time to die, when it's time to meet the maker.
+- [ ] `lib/file/death.txt:301` [line] Isn't it strange, as soon as you're born you're dying?
+- [ ] `lib/file/death.txt:302` [line] Only the good die young, all the evil seem to live forever.
+- [ ] `lib/file/death.txt:303` [line] I don't wanna die, I'm a god, why can't I live on?
+- [ ] `lib/file/death.txt:304` [line] And in my last hour, I'm a slave to the power of death.
+- [ ] `lib/file/death.txt:305` [line] Now I am cold, but a ghost lives in my veins.
+- [ ] `lib/file/death.txt:306` [line] You got to watch them - be quick or be dead.
+- [ ] `lib/file/death.txt:307` [line] Heaven can wait 'till another day.
+- [ ] `lib/file/death.txt:308` [line] You'll take my life but I'll take yours too.
+- [ ] `lib/file/death.txt:309` [line] We won't live to fight another day.
+- [ ] `lib/file/death.txt:310` [line] As I lay forgotten and alone, without fear I draw my parting groan.
+- [ ] `lib/file/death.txt:311` [line] Somebody please tell me that I'm dreaming!
+- [ ] `lib/file/death.txt:312` [line] Can't it be there's been some sort of error?
+- [ ] `lib/file/death.txt:313` [line] Is it really the end not some crazy dream?
+- [ ] `lib/file/death.txt:314` [line] Life down there is just a strange illusion.
+- [ ] `lib/file/death.txt:315` [line] Your body tries to leave your soul.
+- [ ] `lib/file/death.txt:316` [line] I'm so tired of living, I might as well end today.
+- [ ] `lib/file/death.txt:317` [line] Life, life! Death, death! How curious it is!
+- [ ] `lib/file/death.txt:318` [line] Catch my soul 'cos it's willing to fly away!
+- [ ] `lib/file/death.txt:319` [line] Flames? Not yet, I think.
+- [ ] `lib/file/death.txt:320` [line] Someone call the Gendarmes!
+- [ ] `lib/file/death.txt:321` [line] I split my brain, melt through the floor.
+- [ ] `lib/file/death.txt:322` [line] And now the dreams end.
+- [ ] `lib/file/death.txt:323` [line] Off to Never-Never Land!
+- [ ] `lib/file/death.txt:324` [line] Death greets me warm, now I will just say goodbye.
+- [ ] `lib/file/death.txt:325` [line] What is this? I've been stricken by fate!
+- [ ] `lib/file/death.txt:326` [line] This can't be happening to me!
+- [ ] `lib/file/death.txt:327` [line] Flash before my eyes: now it's time to die.
+- [ ] `lib/file/death.txt:328` [line] You have been dying since the day you were born.
+- [ ] `lib/file/death.txt:329` [line] No point asking who's to blame.
+- [ ] `lib/file/death.txt:330` [line] But for all his power he couldn't foresee his own demise.
+- [ ] `lib/file/death.txt:331` [line] My creator will lay my soul to rest.
+- [ ] `lib/file/death.txt:332` [line] Was that worth dying for?
+- [ ] `lib/file/death.txt:333` [line] Can you say you are proud of what you've done?
+- [ ] `lib/file/death.txt:334` [line] But there are some things which cannot be excused.
+- [ ] `lib/file/death.txt:335` [line] Why is it some of us are here just so that we'll die?
+- [ ] `lib/file/death.txt:336` [line] The shortest straw, pulled for you.
+- [ ] `lib/file/death.txt:337` [line] There's got to be just more to it that this or tell me why do we exist?
+- [ ] `lib/file/death.txt:338` [line] I can't believe that really my time has come.
+- [ ] `lib/file/death.txt:339` [line] Too much of a good thing, I guess...
+- [ ] `lib/file/death.txt:340` [line] I really screwed up this time.
+- [ ] `lib/file/death.txt:341` [line] Wow, what a trip!
+- [ ] `lib/file/death.txt:342` [line] What is Time, friend or foe
+- [ ] `lib/file/death.txt:343` [line] Time waits for none
+- [ ] `lib/file/death.txt:344` [line] Running through your fingers like sand
+- [ ] `lib/file/death.txt:345` [line] Taking us along to future unknown
+- [ ] `lib/file/death.txt:346` [line] And all too sudden, like it or not
+- [ ] `lib/file/death.txt:347` [line] We become part of the Land.
+- [ ] `lib/file/death.txt:348` [line] Hah! I'm not dead yet.  I still have five hit points.
+- [ ] `lib/file/death.txt:349` [line] I don't understand.  It should be dead by now.
+- [ ] `lib/file/death.txt:350` [line] I rolled a 20.  How could that be a miss?
+- [ ] `lib/file/death.txt:351` [line] What the frell?!

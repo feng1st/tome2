@@ -1,0 +1,58 @@
+# 数据清单：lib/help/g_manwe.txt（text，逐条/逐行）
+
+- [ ] `lib/help/g_manwe.txt:1` [line] |||||oy
+- [ ] `lib/help/g_manwe.txt:2` [line] ~~~~~01|Gods|Manwe
+- [ ] `lib/help/g_manwe.txt:3` [line] ~~~~~02|Manwe
+- [ ] `lib/help/g_manwe.txt:4` [line] #####R === Manwe Sulimo ===
+- [ ] `lib/help/g_manwe.txt:6` [line] Manwe is the strongest of the Valar, next to Morgoth. His most faithful
+- [ ] `lib/help/g_manwe.txt:7` [line] followers are those of the class *****c_pr_man.txt*0[Priest(Manwe)].
+- [ ] `lib/help/g_manwe.txt:9` [line] #####GThe benefits of Worshipping Manwe Sulimo
+- [ ] `lib/help/g_manwe.txt:10` [line] 1. As you increase your piety, Manwe will grant boosts to your speed (up to
+- [ ] `lib/help/g_manwe.txt:11` [line]    a maximum boost of +7 speed).
+- [ ] `lib/help/g_manwe.txt:12` [line] 2. If you are praying, Manwe likes it when you kill monsters that are aligned
+- [ ] `lib/help/g_manwe.txt:13` [line]    with evil.
+- [ ] `lib/help/g_manwe.txt:14` [line] 3. As your piety increases, Manwe will grant you the following abilities (in
+- [ ] `lib/help/g_manwe.txt:15` [line]    order):
+- [ ] `lib/help/g_manwe.txt:16` [line]      a) Levitation
+- [ ] `lib/help/g_manwe.txt:17` [line]      b) Free Action (while praying)
+- [ ] `lib/help/g_manwe.txt:18` [line]      c) Flying (while praying)
+- [ ] `lib/help/g_manwe.txt:19` [line] 4. Manwe likes elves.
+- [ ] `lib/help/g_manwe.txt:21` [line] #####GThe disadvantages of Worshipping Manwe Sulimo
+- [ ] `lib/help/g_manwe.txt:22` [line] 1. Your piety slowly decreases with time, whether you are praying or not.
+- [ ] `lib/help/g_manwe.txt:23` [line] 2. He doesn't like it if you kill monsters that are aligned with good.
+- [ ] `lib/help/g_manwe.txt:24` [line] 3. He will completely abandon you if you wear The One Ring.
+- [ ] `lib/help/g_manwe.txt:25` [line] ~~~~~03|Manwe|Prayers
+- [ ] `lib/help/g_manwe.txt:26` [line] #####GManwe Sulimo's Magic
+- [ ] `lib/help/g_manwe.txt:27` [line] Worshipping Manwe Sulimo gives the adventurer access to a set of special
+- [ ] `lib/help/g_manwe.txt:28` [line] spells that come directly from the hands of Manwe. These spells use your piety
+- [ ] `lib/help/g_manwe.txt:29` [line] to cast rather than your spellpoints, and the level of spells that Manwe will
+- [ ] `lib/help/g_manwe.txt:30` [line] permit you to use is determined by your Prayer skill - how skillful you are
+- [ ] `lib/help/g_manwe.txt:31` [line] in asking for his help without offending him!
+- [ ] `lib/help/g_manwe.txt:33` [line] There is a special book called the "Holy Tome of Manwe Sulimo" which
+- [ ] `lib/help/g_manwe.txt:34` [line] contains instructions for the procedure for each of the prayers Manwe will
+- [ ] `lib/help/g_manwe.txt:35` [line] grant. There are four prayers all told, which are:
+- [ ] `lib/help/g_manwe.txt:36` [line] 1. [[[[[BManwe's Blessing] (Level 1)
+- [ ] `lib/help/g_manwe.txt:37` [line]    Manwe's Blessing removes your fears, blesses you and surrounds you with holy
+- [ ] `lib/help/g_manwe.txt:38` [line]       light.
+- [ ] `lib/help/g_manwe.txt:39` [line]    At spell level 10 it also grants heroism.
+- [ ] `lib/help/g_manwe.txt:40` [line]    At spell level 20 it also grants super heroism.
+- [ ] `lib/help/g_manwe.txt:41` [line]    At spell level 30 it also grants holy luck and life protection.
+- [ ] `lib/help/g_manwe.txt:42` [line] 2. [[[[[BWind Shield] (Level 10)
+- [ ] `lib/help/g_manwe.txt:43` [line]    It surrounds you with a shield of wind that deflects blows from evil
+- [ ] `lib/help/g_manwe.txt:44` [line]       monsters.
+- [ ] `lib/help/g_manwe.txt:45` [line]    At level 10 it increases your armour rating.
+- [ ] `lib/help/g_manwe.txt:46` [line]    At level 20 it retaliates against monsters that melee you.
+- [ ] `lib/help/g_manwe.txt:47` [line] 3. [[[[[BManwe's Call] (Level 20)
+- [ ] `lib/help/g_manwe.txt:48` [line]    Manwe's Call summons a Great Eagle to help you battle the forces of
+- [ ] `lib/help/g_manwe.txt:49` [line]       Morgoth.
+- [ ] `lib/help/g_manwe.txt:50` [line] 4. [[[[[BAvatar] (Level 35)
+- [ ] `lib/help/g_manwe.txt:51` [line]    It turns you into a full grown Maia.
+- [ ] `lib/help/g_manwe.txt:53` [line] Each of these spells can be increased in level both by improving your Prayer
+- [ ] `lib/help/g_manwe.txt:54` [line] skill, and by improving your Spell-power skill.
+- [ ] `lib/help/g_manwe.txt:56` [line] In addition to his specific magic, Manwe will also assist with your ability to
+- [ ] `lib/help/g_manwe.txt:57` [line] use some magic from the "standard" schools, in relation to how skilled you
+- [ ] `lib/help/g_manwe.txt:58` [line] are at Prayer. These schools are as follows:
+- [ ] `lib/help/g_manwe.txt:59` [line]     *****m_air.txt*0[Air School] at 2/3 the Prayer skill level.
+- [ ] `lib/help/g_manwe.txt:60` [line]     *****m_convey.txt*0[Conveyance School] at 1/2 the Prayer skill level.
+- [ ] `lib/help/g_manwe.txt:61` [line]     *****m_meta.txt*0[Meta School] at 1/3 the Prayer skill level.
+- [ ] `lib/help/g_manwe.txt:62` [line] The spells from these schools are all cast using your normal spellpoints.

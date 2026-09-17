@@ -1,0 +1,534 @@
+# 数据清单：lib/help/birth.txt（text，逐条/逐行）
+
+- [ ] `lib/help/birth.txt:1` [line] |||||oy
+- [ ] `lib/help/birth.txt:2` [line] ~~~~~84|Birth
+- [ ] `lib/help/birth.txt:3` [line] ~~~~~11|Character
+- [ ] `lib/help/birth.txt:4` [line] #####R             /----------------------------------------\
+- [ ] `lib/help/birth.txt:5` [line] #####R            <           Creating a Character           >
+- [ ] `lib/help/birth.txt:6` [line] #####R             \----------------------------------------/
+- [ ] `lib/help/birth.txt:8` [line]      *****birth.txt*01[Creating a Character]            *****birth.txt*02[Character Characteristics]
+- [ ] `lib/help/birth.txt:9` [line]      *****birth.txt*03[Races]                           *****birth.txt*04[Race Modifiers]
+- [ ] `lib/help/birth.txt:10` [line]      *****birth.txt*05[Classes]                         *****birth.txt*83[Gods]
+- [ ] `lib/help/birth.txt:11` [line]      *****birth.txt*06[Stats]                           *****birth.txt*07[Abilities]                     
+- [ ] `lib/help/birth.txt:12` [line]      *****birth.txt*08[Combinations of Race and Class]  *****birth.txt*09[Stat bonus tables]
+- [ ] `lib/help/birth.txt:14` [line] ~~~~~01|Character|Creating a Character
+- [ ] `lib/help/birth.txt:15` [line] ~~~~~12|Creating a Character
+- [ ] `lib/help/birth.txt:16` [line] #####R=== Creating a Character ===
+- [ ] `lib/help/birth.txt:18` [line] ToME is a roleplaying game, in which you, the player, control a
+- [ ] `lib/help/birth.txt:19` [line] character in the various dungeons and places of Arda. Perhaps the most
+- [ ] `lib/help/birth.txt:20` [line] important thing you control is the birth of your character, in which you
+- [ ] `lib/help/birth.txt:21` [line] choose or allow to be chosen various attributes that will affect the future
+- [ ] `lib/help/birth.txt:22` [line] life of your character.
+- [ ] `lib/help/birth.txt:24` [line] Character creation, or birth, is controlled through a variety of choices
+- [ ] `lib/help/birth.txt:25` [line] as to constraints on the type of character you wish to play, followed by
+- [ ] `lib/help/birth.txt:26` [line] a series of random calculations to generate ("roll up") a random character
+- [ ] `lib/help/birth.txt:27` [line] matching the appropriate constraints.
+- [ ] `lib/help/birth.txt:29` [line] Once your character has been generated, you will be given the choice to
+- [ ] `lib/help/birth.txt:30` [line] generate a new character obeying the same constraints, and once you have
+- [ ] `lib/help/birth.txt:31` [line] generated more than one character, you can switch back and forth between
+- [ ] `lib/help/birth.txt:32` [line] the two most recent characters, until you are presented with a personality
+- [ ] `lib/help/birth.txt:33` [line] that you feel comfortable with.
+- [ ] `lib/help/birth.txt:35` [line] You may start the entire process over at any time.
+- [ ] `lib/help/birth.txt:37` [line] Once you have accepted a character you will asked to provide a name for the
+- [ ] `lib/help/birth.txt:38` [line] character. In general, the actual choice of a name is not important, but do
+- [ ] `lib/help/birth.txt:39` [line] keep in mind that it may have some effect on the game itself. For example,
+- [ ] `lib/help/birth.txt:40` [line] on some machines, the character name determines the filename that will be
+- [ ] `lib/help/birth.txt:41` [line] used to save the character to disk. On others, the character name specifies
+- [ ] `lib/help/birth.txt:42` [line] special "pref" files. And the character name is used on the high score list.
+- [ ] `lib/help/birth.txt:44` [line] ~~~~~02|Character|Characteristics
+- [ ] `lib/help/birth.txt:45` [line] ~~~~~13|Character|Stats 1
+- [ ] `lib/help/birth.txt:46` [line] ~~~~~14|Stats|Display
+- [ ] `lib/help/birth.txt:47` [line] ~~~~~37|Display
+- [ ] `lib/help/birth.txt:48` [line] ~~~~~82|Stats
+- [ ] `lib/help/birth.txt:49` [line] #####R=== Character Characteristics ===
+- [ ] `lib/help/birth.txt:51` [line] Each character has four primary attributes -- gender, race, race modifier and
+- [ ] `lib/help/birth.txt:52` [line] class -- that are chosen before the character is generated, and all but gender
+- [ ] `lib/help/birth.txt:53` [line] stay fixed for the entire life of that character. These attributes have many
+- [ ] `lib/help/birth.txt:54` [line] effects, which will be mentioned as they come up. Keep in mind that in the
+- [ ] `lib/help/birth.txt:55` [line] current version of ToME, your choice of race may restrict your choice
+- [ ] `lib/help/birth.txt:56` [line] of class.
+- [ ] `lib/help/birth.txt:58` [line] Each character has a few secondary attributes -- height, weight, social class,
+- [ ] `lib/help/birth.txt:59` [line] and background history -- which are randomly determined, but which are affected
+- [ ] `lib/help/birth.txt:60` [line] by the gender and race of the character. In general, these attributes are only
+- [ ] `lib/help/birth.txt:61` [line] used to provide "flavor" to the character, to assist in the role playing, but
+- [ ] `lib/help/birth.txt:62` [line] they do have a few minor effects on the game. For example, background history
+- [ ] `lib/help/birth.txt:63` [line] affects social class, which affects the amount of money the character will
+- [ ] `lib/help/birth.txt:64` [line] start with. 
+- [ ] `lib/help/birth.txt:66` [line] Each character also has six primary "stats": strength (STR), intelligence 
+- [ ] `lib/help/birth.txt:67` [line] (INT), wisdom (WIS), dexterity (DEX), constitution (CON), and charisma (CHR).
+- [ ] `lib/help/birth.txt:69` [line] By default, primary statistics are represented in a linear way rather than a 
+- [ ] `lib/help/birth.txt:70` [line] percentile way. You can change to percentile via the game option sequence '=', 
+- [ ] `lib/help/birth.txt:71` [line] '5' (ToME options), arrow down to 'stats are represented in a linear way', and 
+- [ ] `lib/help/birth.txt:72` [line] type 'n' for no. Don't forget to save your options when you are done.
+- [ ] `lib/help/birth.txt:74` [line] These stats modify the abilities of the character in a variety of ways. Every 
+- [ ] `lib/help/birth.txt:75` [line] stat has a numerical value, ranging from a minimum of 3, up to a normal maximum 
+- [ ] `lib/help/birth.txt:76` [line] of 18, and even higher, into the "percentile" range, represented as "18/01" 
+- [ ] `lib/help/birth.txt:77` [line] through "18/100". Actually, every stat can be raised even above 18/100 by 
+- [ ] `lib/help/birth.txt:78` [line] magical means, up to a pure maximum of 18/220, which is represented as 
+- [ ] `lib/help/birth.txt:79` [line] "18/***". Traditionally, a percentile stat such as "18/50" has been though of 
+- [ ] `lib/help/birth.txt:80` [line] as representing a value part way between 18 and 19, and this is one way to 
+- [ ] `lib/help/birth.txt:81` [line] think of them. However, often, the best way to view the "bonus" values after 
+- [ ] `lib/help/birth.txt:82` [line] the "18/" is as "tenth" points, since it often takes the same magic to raise a 
+- [ ] `lib/help/birth.txt:83` [line] stat from, say, 4 to 5, or 16 to 17, as it does from, say, 18/40 to 18/50. The
+- [ ] `lib/help/birth.txt:84` [line] important thing to remember is that almost all internal calculations "ignore" 
+- [ ] `lib/help/birth.txt:85` [line] the final digit of any "bonus", so that, for example, "18/40" and "18/49" 
+- [ ] `lib/help/birth.txt:86` [line] generally have the same effects. During character generation, each stat is
+- [ ] `lib/help/birth.txt:87` [line] rolled out as a number from 8 to 17, with a normal (bell-curve) distribution,
+- [ ] `lib/help/birth.txt:88` [line] and is then immediately modified based on the race and class of the character.
+- [ ] `lib/help/birth.txt:90` [line] Each character also has several primary "skills" -- disarming, magic devices,
+- [ ] `lib/help/birth.txt:91` [line] saving throws, stealth, searching ability, searching frequency, fighting skill,
+- [ ] `lib/help/birth.txt:92` [line] and shooting skill -- which are derived from the character's race, class, level,
+- [ ] `lib/help/birth.txt:93` [line] stats, and current equipment. These skills have rather obvious effects, but
+- [ ] `lib/help/birth.txt:94` [line] will be described more completely below.
+- [ ] `lib/help/birth.txt:96` [line] Each character may have one or more "intrinsic racial skills", based on
+- [ ] `lib/help/birth.txt:97` [line] the race of the character. These may include special resistances, abilities
+- [ ] `lib/help/birth.txt:98` [line] such as infravision, or even activatable powers such as food creation.
+- [ ] `lib/help/birth.txt:99` [line] ~~~~~16|Gold
+- [ ] `lib/help/birth.txt:100` [line] ~~~~~81|Abbreviations
+- [ ] `lib/help/birth.txt:101` [line] ~~~~~17|Abbreviations|AU
+- [ ] `lib/help/birth.txt:102` [line] ~~~~~18|Money
+- [ ] `lib/help/birth.txt:103` [line] Money in ToME is referred to in gold pieces, also frequently abbreviated as AU 
+- [ ] `lib/help/birth.txt:104` [line] (the chemical symbol for gold).
+- [ ] `lib/help/birth.txt:106` [line] Each character starts with some gold, which can be used to buy items from the 
+- [ ] `lib/help/birth.txt:107` [line] shops in town. Additionally, gold can be obtained by several means:
+- [ ] `lib/help/birth.txt:109` [line]     * selling items you have, or find, to the shops
+- [ ] `lib/help/birth.txt:110` [line]     * taking it from dead monsters
+- [ ] `lib/help/birth.txt:111` [line]     * finding it lying around on the floor in the dungeon
+- [ ] `lib/help/birth.txt:112` [line]     * digging it out of the walls in certain dungeons
+- [ ] `lib/help/birth.txt:114` [line] Each character starts out with some gold. The amount you start with is based on 
+- [ ] `lib/help/birth.txt:115` [line] social class (higher is better), charisma (higher is better), and some other 
+- [ ] `lib/help/birth.txt:116` [line] stats (less powerful characters start with more gold). 
+- [ ] `lib/help/birth.txt:117` [line] ~~~~~85|Inventory - starting info
+- [ ] `lib/help/birth.txt:118` [line] Inventory is what you are carrying and/or wearing at the moment. All items you 
+- [ ] `lib/help/birth.txt:119` [line] carry/wear have a certain weight. If the weight is very heavy for your 
+- [ ] `lib/help/birth.txt:120` [line] strength, it can slow you down, and that is not a good thing for your 
+- [ ] `lib/help/birth.txt:121` [line] character's continuing health. When your character is first created, all items 
+- [ ] `lib/help/birth.txt:122` [line] you are granted upon creation will be in your inventory. Sometimes starting 
+- [ ] `lib/help/birth.txt:123` [line] inventory includes something other than a weapon or armor (for example, a light 
+- [ ] `lib/help/birth.txt:124` [line] source, scroll, potion, or food.)
+- [ ] `lib/help/birth.txt:125` [line] ~~~~~86|Weapons - starting info
+- [ ] `lib/help/birth.txt:126` [line] Some characters start with a weapon. If yours does, you will need to 'w'ield it 
+- [ ] `lib/help/birth.txt:127` [line] in order to gain its attack capabilities.
+- [ ] `lib/help/birth.txt:128` [line] ~~~~~23|Character|Armor Class
+- [ ] `lib/help/birth.txt:129` [line] ~~~~~19|Armor|Armor Class
+- [ ] `lib/help/birth.txt:130` [line] ~~~~~20|Abbreviations|AC
+- [ ] `lib/help/birth.txt:131` [line] #####R === Armour Class ===
+- [ ] `lib/help/birth.txt:132` [line] Each character has an armor class, representing how well the character can 
+- [ ] `lib/help/birth.txt:133` [line] avoid damage. The armor class is affected by dexterity, the equipment, and 
+- [ ] `lib/help/birth.txt:134` [line] sometimes the race. The higher the AC, the better.
+- [ ] `lib/help/birth.txt:136` [line] The numbers following a piece of armor's name indicate how good it is. A Metal 
+- [ ] `lib/help/birth.txt:137` [line] Cap [3,+0] is not as good as an Iron Helm [5,+0], AC-wise, since the 5 is a 
+- [ ] `lib/help/birth.txt:138` [line] bigger number than the 3. On the other hand, an Iron Helm is heavier than a 
+- [ ] `lib/help/birth.txt:139` [line] Metal Cap, and that may make a difference to you.
+- [ ] `lib/help/birth.txt:141` [line] The plusses following the first number (e.g. the +0) indicate a magical bonus. 
+- [ ] `lib/help/birth.txt:142` [line] If the plus number is more than zero, it should be added on to the base 
+- [ ] `lib/help/birth.txt:143` [line] number. E.g. a Metal Cap [3,+3] has a higher AC than an Iron Helm [5,+0].
+- [ ] `lib/help/birth.txt:145` [line] Some characters start with armor. If yours does, you need will need to 'w'ield 
+- [ ] `lib/help/birth.txt:146` [line] it in order to gain its protection. 
+- [ ] `lib/help/birth.txt:147` [line] ~~~~~21|Abbreviations|HP
+- [ ] `lib/help/birth.txt:148` [line] ~~~~~22|Character|Hit Points
+- [ ] `lib/help/birth.txt:149` [line] Each character has hit points (HP), representing how much damage the character
+- [ ] `lib/help/birth.txt:150` [line] can sustain before death. Hit points are derived from your race, class,
+- [ ] `lib/help/birth.txt:151` [line] level, and constitution, and can be temporarily boosted by magical means.
+- [ ] `lib/help/birth.txt:152` [line] Hit points may be regained by resting, or by a variety of magical means.
+- [ ] `lib/help/birth.txt:153` [line] ~~~~~24|Abbreviations|SN
+- [ ] `lib/help/birth.txt:154` [line] ~~~~~25|Character|Sanity Points
+- [ ] `lib/help/birth.txt:155` [line] Each character has sanity points (SN), representing how much mental damage the
+- [ ] `lib/help/birth.txt:156` [line] character can sustain before death. Sanity points are derived from your wisdom
+- [ ] `lib/help/birth.txt:157` [line] and character level. Sanity points may only be regained by magical means and 
+- [ ] `lib/help/birth.txt:158` [line] won't be regained by resting.
+- [ ] `lib/help/birth.txt:159` [line] ~~~~~26|Abbreviations|SP
+- [ ] `lib/help/birth.txt:160` [line] ~~~~~27|Magic|Mana
+- [ ] `lib/help/birth.txt:161` [line] ~~~~~28|Character|Mana
+- [ ] `lib/help/birth.txt:162` [line] Each character has a certain amount of mana. The amount of mana represents how
+- [ ] `lib/help/birth.txt:163` [line] many spells of a certain difficulty a character can cast. When a spell is 
+- [ ] `lib/help/birth.txt:164` [line] cast, you lose amount of mana corresponding to the 'cost' of the spell.
+- [ ] `lib/help/birth.txt:166` [line] When all mana is gone, or the cost of a given spell is greater than the amount 
+- [ ] `lib/help/birth.txt:167` [line] of mana you have left, you may attempt to cast a spell; beware, as there are
+- [ ] `lib/help/birth.txt:168` [line] consequences to such a rash act.
+- [ ] `lib/help/birth.txt:170` [line] Spell points may be regained by resting. They can also be restored by a few 
+- [ ] `lib/help/birth.txt:171` [line] magical means.
+- [ ] `lib/help/birth.txt:173` [line] Your spell points are derived from your Magic skill, player level and the 
+- [ ] `lib/help/birth.txt:174` [line] greatest of INT and WIS.
+- [ ] `lib/help/birth.txt:176` [line] Your total spell points are additionally affected by:
+- [ ] `lib/help/birth.txt:178` [line]     * your character's race modifier
+- [ ] `lib/help/birth.txt:179` [line]     * character class
+- [ ] `lib/help/birth.txt:181` [line] Your total spell points may be affected by:
+- [ ] `lib/help/birth.txt:183` [line]     * your encumbrance
+- [ ] `lib/help/birth.txt:184` [line]     * what you wear
+- [ ] `lib/help/birth.txt:186` [line] ~~~~~29|Abbreviations|Pt
+- [ ] `lib/help/birth.txt:187` [line] ~~~~~30|Gods|Piety
+- [ ] `lib/help/birth.txt:188` [line] ~~~~~31|Character|Piety
+- [ ] `lib/help/birth.txt:189` [line] Finally, characters that have chosen to follow a *****gods.txt*0[God] will have piety points
+- [ ] `lib/help/birth.txt:190` [line] (Pt). These points represent the character's standing with their God, a 
+- [ ] `lib/help/birth.txt:191` [line] standing which may rise or fall over time. A character may spend piety points 
+- [ ] `lib/help/birth.txt:192` [line] to cast a spell granted by his/her God. Spent piety points can be regained in 
+- [ ] `lib/help/birth.txt:193` [line] different fashions, depending on which God is involved -- each is pleased or 
+- [ ] `lib/help/birth.txt:194` [line] displeased by assorted actions. Pleasing your God gains you piety, while 
+- [ ] `lib/help/birth.txt:195` [line] displeasing your god will lose you piety.
+- [ ] `lib/help/birth.txt:197` [line] In addition to forming the basis for God-granted spells, accumulated piety
+- [ ] `lib/help/birth.txt:198` [line] points may also confer various benefits or penalties upon your character,
+- [ ] `lib/help/birth.txt:199` [line] depending on the God involved.  For example, followers of Eru who have
+- [ ] `lib/help/birth.txt:200` [line] accmulated lots of piety points gain a WIS bonus.  The actual rules are
+- [ ] `lib/help/birth.txt:201` [line] quite specific to each God.
+- [ ] `lib/help/birth.txt:202` [line] ~~~~~03|Races
+- [ ] `lib/help/birth.txt:203` [line] #####R=== Races ===
+- [ ] `lib/help/birth.txt:205` [line] There are lots different races that you can choose from in ToME. Some
+- [ ] `lib/help/birth.txt:206` [line] races are restricted as to what profession they may be, and each race has
+- [ ] `lib/help/birth.txt:207` [line] its own adjustments to a character's stats and abilities. Most races also
+- [ ] `lib/help/birth.txt:208` [line] have intrinsic abilities, which can be accessed via the "U" command (original
+- [ ] `lib/help/birth.txt:209` [line] keyset, or "O" in the roguelike keyset).
+- [ ] `lib/help/birth.txt:211` [line]      *****r_beorn.txt*0[Beorning]           *****r_hafelf.txt*0[Half-Elf]           *****r_orc.txt*0[Orc]
+- [ ] `lib/help/birth.txt:212` [line]      *****r_drkelf.txt*0[Dark Elf]           *****r_hafogr.txt*0[Half-Ogre]          *****r_pettyd.txt*0[Petty-Dwarf]
+- [ ] `lib/help/birth.txt:213` [line]      *****r_deathm.txt*0[Death Mold]         *****r_hielf.txt*0[High-Elf]           *****r_rohank.txt*0[Rohan Knight]
+- [ ] `lib/help/birth.txt:214` [line]      *****r_dunad.txt*0[Dunadan]            *****r_hobbit.txt*0[Hobbit]             *****r_thlord.txt*0[Thunderlord]
+- [ ] `lib/help/birth.txt:215` [line]      *****r_dwarf.txt*0[Dwarf]              *****r_human.txt*0[Human]              *****r_troll.txt*0[Troll]
+- [ ] `lib/help/birth.txt:216` [line]      *****r_elf.txt*0[Elf]                *****r_kobold.txt*0[Kobold]             *****r_wodelf.txt*0[Wood Elf]
+- [ ] `lib/help/birth.txt:217` [line]      *****r_ent.txt*0[Ent]                *****r_maia.txt*0[Maia]               *****r_yeek.txt*0[Yeek]
+- [ ] `lib/help/birth.txt:218` [line]      *****r_gnome.txt*0[Gnome]
+- [ ] `lib/help/birth.txt:220` [line] ~~~~~04|Race Modifiers
+- [ ] `lib/help/birth.txt:221` [line] #####R=== Race Modifiers ===
+- [ ] `lib/help/birth.txt:223` [line] There are many different race modifiers from which you can choose in ToME.
+- [ ] `lib/help/birth.txt:224` [line] Some are restricted as to what race they can be used with, and each one has
+- [ ] `lib/help/birth.txt:225` [line] its own adjustments to a character's stats and abilities. Most also have
+- [ ] `lib/help/birth.txt:226` [line] intrinsic abilities. If you are not asked for a race modifier, it is because
+- [ ] `lib/help/birth.txt:227` [line] your race only supports the classical form.
+- [ ] `lib/help/birth.txt:229` [line]      *****rm_class.txt*0[Classical]                *****rm_barb.txt*0[Barbarian]
+- [ ] `lib/help/birth.txt:230` [line]      *****rm_herm.txt*0[Hermit]                   *****rm_lsoul.txt*0[Lost Soul]
+- [ ] `lib/help/birth.txt:231` [line]      *****rm_skel.txt*0[Skeleton]                 *****rm_spec.txt*0[Spectre]
+- [ ] `lib/help/birth.txt:232` [line]      *****rm_vamp.txt*0[Vampire]                  *****rm_zomb.txt*0[Zombie]
+- [ ] `lib/help/birth.txt:234` [line] ~~~~~05|Classes
+- [ ] `lib/help/birth.txt:235` [line] #####R=== Classes ===
+- [ ] `lib/help/birth.txt:237` [line] Once a race has been chosen, you will need to pick a class. Some classes will
+- [ ] `lib/help/birth.txt:238` [line] not be available to certain races, for instance, a Troll cannot become a
+- [ ] `lib/help/birth.txt:239` [line] Paladin. For the first few adventures it is suggested that you run a warrior
+- [ ] `lib/help/birth.txt:240` [line] or rogue. Spell casting generally requires a more experienced player that is
+- [ ] `lib/help/birth.txt:241` [line] familiar with survival techniques.
+- [ ] `lib/help/birth.txt:243` [line]                                                     *****c_mage.txt*0[Mage]                     *****c_rogue.txt*0[Rogue]
+- [ ] `lib/help/birth.txt:244` [line]      *****c_archer.txt*0[Archer]                    *****c_mimic.txt*0[Mimic]
+- [ ] `lib/help/birth.txt:245` [line]      *****c_assass.txt*0[Assassin]                  *****c_mindcr.txt*0[Mindcrafter]              *****c_sorcer.txt*0[Sorceror]       
+- [ ] `lib/help/birth.txt:246` [line]      *****c_axemas.txt*0[Axemaster]                 *****c_monk.txt*0[Monk]                     *****c_summon.txt*0[Summoner]
+- [ ] `lib/help/birth.txt:247` [line]      *****c_bard.txt*0[Bard]                      *****c_necro.txt*0[Necromancer]              *****c_swordm.txt*0[Swordmaster]
+- [ ] `lib/help/birth.txt:248` [line]      *****c_pr_drk.txt*0[Dark-Priest]               *****c_palad.txt*0[Paladin]                  *****c_symbia.txt*0[Symbiant]
+- [ ] `lib/help/birth.txt:249` [line]      *****c_demono.txt*0[Demonologist]              *****c_polear.txt*0[Polearmmaster]            *****c_thaum.txt*0[Thaumaturgist] 
+- [ ] `lib/help/birth.txt:250` [line]      *****c_druid.txt*0[Druid]                     *****c_posses.txt*0[Possessor]                *****c_unbel.txt*0[Unbeliever]
+- [ ] `lib/help/birth.txt:251` [line]      *****c_geoman.txt*0[Geomancer]                 *****c_pr_eru.txt*0[Priest(Eru)]              *****c_warper.txt*0[Warper]
+- [ ] `lib/help/birth.txt:252` [line]      *****c_hafted.txt*0[Haftedmaster]              *****c_pr_man.txt*0[Priest(Manwe)]            *****c_warrio.txt*0[Warrior]
+- [ ] `lib/help/birth.txt:253` [line]      *****c_lorema.txt*0[Loremaster]                *****c_ranger.txt*0[Ranger]                   
+- [ ] `lib/help/birth.txt:254` [line] ~~~~~83
+- [ ] `lib/help/birth.txt:255` [line] #####R=== Gods ===
+- [ ] `lib/help/birth.txt:257` [line] Once a class has been chosen you may be given the option to choose a god. Some 
+- [ ] `lib/help/birth.txt:258` [line] classes (notably most Priests) will be given a God to worship automatically.   
+- [ ] `lib/help/birth.txt:259` [line] Some classes are not necessarily suited to following a God, and Gods are not 
+- [ ] `lib/help/birth.txt:260` [line] recommended for new players. You can also choose your mind about who (if 
+- [ ] `lib/help/birth.txt:261` [line] anyone) to worship during the game by finding an *****tome_faq.txt*04[altar] of that God.
+- [ ] `lib/help/birth.txt:263` [line] Read *****gods.txt*0[gods.txt] for a little more information about Gods.
+- [ ] `lib/help/birth.txt:265` [line]     *****g_eru.txt*0[Eru Iluvatar]                  *****g_manwe.txt*0[Manwe Sulimo]
+- [ ] `lib/help/birth.txt:266` [line]     *****g_yavann.txt*0[Yavanna Kementari]             *****g_tulkas.txt*0[Tulkas]
+- [ ] `lib/help/birth.txt:267` [line]     *****g_melkor.txt*0[Melkor Bauglir]
+- [ ] `lib/help/birth.txt:270` [line] ~~~~~39|Character|Stats 2
+- [ ] `lib/help/birth.txt:271` [line] ~~~~~06|Stats|Individual explanations
+- [ ] `lib/help/birth.txt:272` [line] #####R=== Stats ===
+- [ ] `lib/help/birth.txt:273` [line] ~~~~~32|Stats|Strength
+- [ ] `lib/help/birth.txt:274` [line] ~~~~~34|Strength
+- [ ] `lib/help/birth.txt:275` [line] #####G          Strength (STR)
+- [ ] `lib/help/birth.txt:276` [line]                Strength is important in fighting with weapons and in melee
+- [ ] `lib/help/birth.txt:277` [line]                combat. A high strength can improve your chances of hitting
+- [ ] `lib/help/birth.txt:278` [line]                as well as the amount of damage done with each hit. Char-
+- [ ] `lib/help/birth.txt:279` [line]                acters with low strengths may receive penalties. Strength
+- [ ] `lib/help/birth.txt:280` [line]                is also useful in tunnelling and in carrying heavy items.
+- [ ] `lib/help/birth.txt:281` [line] ~~~~~33|Stats|Intelligence
+- [ ] `lib/help/birth.txt:282` [line] ~~~~~35|Intelligence
+- [ ] `lib/help/birth.txt:283` [line] #####G          Intelligence (INT)
+- [ ] `lib/help/birth.txt:284` [line]                Intelligence affects the spellcasting abilities of mage-like
+- [ ] `lib/help/birth.txt:285` [line]                spell schools (whether these spells are learned directly through
+- [ ] `lib/help/birth.txt:286` [line] 	       their associated skills, or indirectly through the Prayer
+- [ ] `lib/help/birth.txt:287` [line] 	       skill), as well as some of the special abilities of various
+- [ ] `lib/help/birth.txt:288` [line] 	       classes (e.g. Symbiants).  Intelligence will affect the number
+- [ ] `lib/help/birth.txt:289` [line]                of spell points you receive. A high intelligence may also
+- [ ] `lib/help/birth.txt:290` [line] 	       improve your chances of successfully casting a spell. You cannot
+- [ ] `lib/help/birth.txt:291` [line] 	       learn spells if your intelligence is 7 or lower. A good
+- [ ] `lib/help/birth.txt:292` [line] 	       intelligence can also help with using magic devices, picking
+- [ ] `lib/help/birth.txt:293` [line] 	       locks, and disarming traps.
+- [ ] `lib/help/birth.txt:294` [line] ~~~~~36|Stats|Wisdom
+- [ ] `lib/help/birth.txt:295` [line] ~~~~~38|Wisdom
+- [ ] `lib/help/birth.txt:296` [line] #####G          Wisdom (WIS)
+- [ ] `lib/help/birth.txt:297` [line]                The primary function of wisdom is to determine the ability
+- [ ] `lib/help/birth.txt:298` [line]                of a priest or paladin to use prayers (God-granted spells), just
+- [ ] `lib/help/birth.txt:299` [line] 	       like intelligence affects mage spells. Again, high wisdom will
+- [ ] `lib/help/birth.txt:300` [line] 	       increase the number of spell points you have (even though
+- [ ] `lib/help/birth.txt:301` [line] 	       prayers use piety points), and will improve the chance that a
+- [ ] `lib/help/birth.txt:302` [line] 	       prayer will be successful. A good wisdom can also help to
+- [ ] `lib/help/birth.txt:303` [line] 	       improve your chances of resisting magical spells cast
+- [ ] `lib/help/birth.txt:304` [line]                upon you by monsters.
+- [ ] `lib/help/birth.txt:305` [line] ~~~~~40|Stats|Dexterity
+- [ ] `lib/help/birth.txt:306` [line] ~~~~~41|Dexterity
+- [ ] `lib/help/birth.txt:307` [line] #####G          Dexterity (DEX)
+- [ ] `lib/help/birth.txt:308` [line]                Dexterity is a combination of agility and quickness. A high
+- [ ] `lib/help/birth.txt:309` [line]                dexterity may allow your character to get multiple blows with
+- [ ] `lib/help/birth.txt:310` [line]                lighter weapons, thus greatly increasing your kill power, and
+- [ ] `lib/help/birth.txt:311` [line]                will increase your chances of hitting with any weapon and
+- [ ] `lib/help/birth.txt:312` [line]                dodging blows from enemies. Dexterity is also useful in
+- [ ] `lib/help/birth.txt:313` [line]                picking locks, disarming traps, and protecting yourself from
+- [ ] `lib/help/birth.txt:314` [line]                some of the thieves that inhabit the dungeons.  The unscrupulous
+- [ ] `lib/help/birth.txt:315` [line] 	       adventurer may also find dexterity effective in obtaining items
+- [ ] `lib/help/birth.txt:316` [line] 	       from stores without rendering payment.
+- [ ] `lib/help/birth.txt:317` [line] ~~~~~42|Stats|Constitution
+- [ ] `lib/help/birth.txt:318` [line] ~~~~~43|Constitution
+- [ ] `lib/help/birth.txt:319` [line] #####G          Constitution (CON)
+- [ ] `lib/help/birth.txt:320` [line]                Constitution is a character's ability to resist damage to his
+- [ ] `lib/help/birth.txt:321` [line]                body, and to recover from damage received. Therefore a
+- [ ] `lib/help/birth.txt:322` [line]                character with a high constitution will receive more hit
+- [ ] `lib/help/birth.txt:323` [line]                points and also recover them faster while resting.
+- [ ] `lib/help/birth.txt:324` [line] ~~~~~44|Stats|Charisma
+- [ ] `lib/help/birth.txt:325` [line] ~~~~~45|Charisma
+- [ ] `lib/help/birth.txt:326` [line] #####G          Charisma (CHR)
+- [ ] `lib/help/birth.txt:327` [line]                Charisma represents a character's personality and physical
+- [ ] `lib/help/birth.txt:328` [line]                appearance. A character with a high charisma will receive
+- [ ] `lib/help/birth.txt:329` [line]                better prices from store owners, whereas a character with a
+- [ ] `lib/help/birth.txt:330` [line]                very low charisma may be robbed blind. A high charisma will
+- [ ] `lib/help/birth.txt:331` [line]                also mean more starting money for the character.
+- [ ] `lib/help/birth.txt:332` [line] ~~~~~07
+- [ ] `lib/help/birth.txt:333` [line] ~~~~~46|Character|Abilities
+- [ ] `lib/help/birth.txt:334` [line] #####R=== Abilities ===
+- [ ] `lib/help/birth.txt:336` [line]           Characters possess some different abilities which can help them
+- [ ] `lib/help/birth.txt:337` [line]           to survive. The starting abilities of a character are based upon
+- [ ] `lib/help/birth.txt:338` [line]           race and class. Abilities may be adjusted by high or low stats,
+- [ ] `lib/help/birth.txt:339` [line]           and increase with the corresponding *****skills.txt*0[skill] level.
+- [ ] `lib/help/birth.txt:340` [line] ~~~~~48|Attacking monsters|Fighting ability
+- [ ] `lib/help/birth.txt:341` [line] #####G          Fighting
+- [ ] `lib/help/birth.txt:342` [line]                Fighting is the ability to hit and do damage with weapons or
+- [ ] `lib/help/birth.txt:343` [line]                fists. Normally  a  character  gets  a single blow from any
+- [ ] `lib/help/birth.txt:344` [line]                weapon, but if his dexterity and strength are  high  enough,
+- [ ] `lib/help/birth.txt:345` [line]                he  may  receive  more blows per round with lighter weapons.
+- [ ] `lib/help/birth.txt:346` [line]                Strength and dexterity both modify the  ability  to  hit  an
+- [ ] `lib/help/birth.txt:347` [line]                opponent. This skill increases  with the *****skills.txt*02[Weaponmastery] skill
+- [ ] `lib/help/birth.txt:348` [line]                and its sub-skills.
+- [ ] `lib/help/birth.txt:349` [line] ~~~~~50|Attacking monsters|Shooting
+- [ ] `lib/help/birth.txt:350` [line] #####G          Shooting Ability  (Bows/Throw)
+- [ ] `lib/help/birth.txt:351` [line]                Using  ranged  missile  weapons (and  throwing  objects) is
+- [ ] `lib/help/birth.txt:352` [line]                included  in this skill. Different stats apply to different
+- [ ] `lib/help/birth.txt:353` [line]                weapons, but this ability may modify the distance an  object
+- [ ] `lib/help/birth.txt:354` [line]                is  thrown/fired, the amount of damage done, and the ability
+- [ ] `lib/help/birth.txt:355` [line]                to hit a creature. This skill increases with the *****skills.txt*08[Archery] skill
+- [ ] `lib/help/birth.txt:356` [line]                and its sub-skills.
+- [ ] `lib/help/birth.txt:357` [line] ~~~~~52|Saving throw
+- [ ] `lib/help/birth.txt:358` [line] #####G          Saving Throw
+- [ ] `lib/help/birth.txt:359` [line]                A Saving Throw is the ability of a character to  resist  the
+- [ ] `lib/help/birth.txt:360` [line]                effects  of  a spell cast on him by another person/creature.
+- [ ] `lib/help/birth.txt:361` [line]                This does not include spells cast on the player by  his  own
+- [ ] `lib/help/birth.txt:362` [line]                stupidity, such  as  quaffing a nasty potion. This ability
+- [ ] `lib/help/birth.txt:363` [line]                increases with the *****skills.txt*38[Spirituality] skill,
+- [ ] `lib/help/birth.txt:364` [line]                A high wisdom also increases this  ability.
+- [ ] `lib/help/birth.txt:365` [line] ~~~~~54|Stealth
+- [ ] `lib/help/birth.txt:366` [line] #####G          Stealth
+- [ ] `lib/help/birth.txt:367` [line]                The ability to move  silently about is very useful. Charac-
+- [ ] `lib/help/birth.txt:368` [line]                ters with good stealth can usually surprise their opponents,
+- [ ] `lib/help/birth.txt:369` [line]                gaining the first blow. Also, creatures may fail to  notice
+- [ ] `lib/help/birth.txt:370` [line]                a  stealthy  character  entirely, allowing a player to avoid
+- [ ] `lib/help/birth.txt:371` [line]                certain fights. This skill is based upon race, class and the
+- [ ] `lib/help/birth.txt:372` [line]                *****skills.txt*15[Stealth] skill.
+- [ ] `lib/help/birth.txt:373` [line] ~~~~~56|Disarming traps
+- [ ] `lib/help/birth.txt:374` [line] #####G          Disarming
+- [ ] `lib/help/birth.txt:375` [line]                Disarming is the  ability  to  remove  traps  (safely), and
+- [ ] `lib/help/birth.txt:376` [line]                includes  picking  locks  on  traps and doors. A successful
+- [ ] `lib/help/birth.txt:377` [line]                disarming will gain the character  some experience. A  trap
+- [ ] `lib/help/birth.txt:378` [line]                must  be  found  before  it  can be disarmed. Dexterity and
+- [ ] `lib/help/birth.txt:379` [line]                intelligence both modify the ability  to  disarm, and  this
+- [ ] `lib/help/birth.txt:380` [line]                ability increases with the *****skills.txt*16[Disarming] skill.
+- [ ] `lib/help/birth.txt:381` [line] ~~~~~58|Magical Devices
+- [ ] `lib/help/birth.txt:382` [line] #####G          Magic Device
+- [ ] `lib/help/birth.txt:383` [line]                Using a magical device such as  a  wand  or  staff  requires
+- [ ] `lib/help/birth.txt:384` [line]                experience  and  knowledge. Spell  users such as  magi  and
+- [ ] `lib/help/birth.txt:385` [line]                priests are therefore much better at using a magical  device
+- [ ] `lib/help/birth.txt:386` [line]                than say a warrior. This skill is modified by intelligence,
+- [ ] `lib/help/birth.txt:387` [line]                and increases with the *****skills.txt*54[Magic-Device] skill.
+- [ ] `lib/help/birth.txt:388` [line] ~~~~~60|Searching
+- [ ] `lib/help/birth.txt:389` [line] ~~~~~61|Searching|Searching Frequency - Perception
+- [ ] `lib/help/birth.txt:390` [line] ~~~~~62|Perception
+- [ ] `lib/help/birth.txt:391` [line] #####G          Searching Frequency (Perception)
+- [ ] `lib/help/birth.txt:392` [line]                Perception  is  the  ability  to  notice  something  without
+- [ ] `lib/help/birth.txt:393` [line]                actively  seeking it out. This  skill  is  based  upon  race,
+- [ ] `lib/help/birth.txt:394` [line]                class and the *****skills.txt*14[Sneakiness] skill.
+- [ ] `lib/help/birth.txt:395` [line] ~~~~~63|Searching|Searching Ability
+- [ ] `lib/help/birth.txt:396` [line] #####G          Searching Ability (Searching)
+- [ ] `lib/help/birth.txt:397` [line]                To search is to actively look for secret doors, floor traps,
+- [ ] `lib/help/birth.txt:398` [line]                and  traps on chests. Rogues are the best at searching, but
+- [ ] `lib/help/birth.txt:399` [line]                magi, rangers, and priests are also good at it. This  skill
+- [ ] `lib/help/birth.txt:400` [line]                is  based  upon  race, class and the *****skills.txt*14[Sneakiness] skill.
+- [ ] `lib/help/birth.txt:401` [line] ~~~~~66|Infra-vision
+- [ ] `lib/help/birth.txt:402` [line] #####G          Infra-vision
+- [ ] `lib/help/birth.txt:403` [line]                Infra-vision is the ability to see heat sources. Since most
+- [ ] `lib/help/birth.txt:404` [line]                of the dungeon is cool or cold, infra-vision will not allow
+- [ ] `lib/help/birth.txt:405` [line]                the player to see walls and objects. Infra-vision will allow
+- [ ] `lib/help/birth.txt:406` [line]                a character to see any warm-blooded creatures up to a cer-
+- [ ] `lib/help/birth.txt:407` [line]                tain distance. This ability works equally well with or with
+- [ ] `lib/help/birth.txt:408` [line]                out a light source. The majority of ToME's creatures are
+- [ ] `lib/help/birth.txt:409` [line]                cold-blooded, and will not be detected unless lit up by a
+- [ ] `lib/help/birth.txt:410` [line]                light source. Most non-human races have innate infra-vision
+- [ ] `lib/help/birth.txt:411` [line]                ability. Humans can gain infra-vision only through magic
+- [ ] `lib/help/birth.txt:412` [line]                enhancement.
+- [ ] `lib/help/birth.txt:414` [line] ~~~~~08|Character|Race and Class Combinations
+- [ ] `lib/help/birth.txt:415` [line] ~~~~~67|Races|Combinations with class
+- [ ] `lib/help/birth.txt:416` [line] ~~~~~68|Classes|Combinations with Race
+- [ ] `lib/help/birth.txt:417` [line] ~~~~~69|Tables
+- [ ] `lib/help/birth.txt:418` [line] ~~~~~70|Tables|Combinations of Race and Class
+- [ ] `lib/help/birth.txt:419` [line] #####R=== Combinations of Race and Class ===
+- [ ] `lib/help/birth.txt:421` [line] These are the classes that are recommended for different races. You can
+- [ ] `lib/help/birth.txt:422` [line] still select a race that is not in the chart, but these combinations are
+- [ ] `lib/help/birth.txt:423` [line] either rather poor (like a zombie mage), a concept so silly that they
+- [ ] `lib/help/birth.txt:424` [line] are not recommended, or an incredibly unfair combination of race and class.
+- [ ] `lib/help/birth.txt:425` [line] If you pick a combination that is not on the chart, don't complain if things
+- [ ] `lib/help/birth.txt:426` [line] don't turn out as you expected them to.
+- [ ] `lib/help/birth.txt:428` [line] #####B            Warrior  Archer  Rogue  Mage   Priest  Loremaster
+- [ ] `lib/help/birth.txt:429` [line] #####B
+- [ ] `lib/help/birth.txt:430` [line] Beorning      Yes     No      Yes    No     No        Yes
+- [ ] `lib/help/birth.txt:431` [line] Dark Elf      Yes     Yes     Yes    Yes    Yes       No
+- [ ] `lib/help/birth.txt:432` [line] Death Mold    No      No      No     Yes    Yes       No
+- [ ] `lib/help/birth.txt:433` [line] Dunadan       Yes     Yes     Yes    Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:434` [line] Dwarf         Yes     No      No     No     Yes       No
+- [ ] `lib/help/birth.txt:435` [line] Elf           Yes     Yes     No     Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:436` [line] Ent           Yes     No      No     No     Yes       Yes
+- [ ] `lib/help/birth.txt:437` [line] Gnome         Yes     No      Yes    Yes    No        No
+- [ ] `lib/help/birth.txt:438` [line] Half-Elf      Yes     Yes     Yes    Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:439` [line] Half-Ogre     Yes     No      No     No     Yes       No
+- [ ] `lib/help/birth.txt:440` [line] High-Elf      Yes     Yes     No     Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:441` [line] Hobbit        Yes     Yes     Yes    Yes    No        Yes
+- [ ] `lib/help/birth.txt:442` [line] Human         Yes     Yes     Yes    Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:443` [line] Kobold        Yes     Yes     Yes    No     No        No
+- [ ] `lib/help/birth.txt:444` [line] Maia          Yes     Yes     Yes    Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:445` [line] Orc           Yes     Yes     Yes    No     Yes       No
+- [ ] `lib/help/birth.txt:446` [line] Petty Dwarf   Yes     No      Yes    No     No        No
+- [ ] `lib/help/birth.txt:447` [line] RohanKnight   Yes     No      No     No     Yes       No
+- [ ] `lib/help/birth.txt:448` [line] Thunderlord   Yes     Yes     No     Yes    Yes       No
+- [ ] `lib/help/birth.txt:449` [line] Troll         Yes     No      No     No     No        No
+- [ ] `lib/help/birth.txt:450` [line] Wood Elf      Yes     Yes     No     Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:451` [line] Yeek          Yes     Yes     Yes    Yes    Yes       Yes
+- [ ] `lib/help/birth.txt:452` [line] ~~~~~09|Character|Stat Bonus Table
+- [ ] `lib/help/birth.txt:453` [line] ~~~~~71|Stats|Bonus table
+- [ ] `lib/help/birth.txt:454` [line] ~~~~~72|Tables|Stat bonuses
+- [ ] `lib/help/birth.txt:455` [line] #####R=== Stat Bonus Tables ===
+- [ ] `lib/help/birth.txt:457` [line] Stat, hit dice, and experience points per level modifications due to race
+- [ ] `lib/help/birth.txt:458` [line] are listed in the following table.
+- [ ] `lib/help/birth.txt:459` [line] ~~~~~75|Races|Stat Bonuses
+- [ ] `lib/help/birth.txt:460` [line] #####GRaces:
+- [ ] `lib/help/birth.txt:461` [line] #####B                       STR  INT  WIS  DEX  CON  CHR  Hit Dice  Rqd Exp/level
+- [ ] `lib/help/birth.txt:462` [line]            Beorning    +4   -2   -2   -1   +3   -5      12         +50%
+- [ ] `lib/help/birth.txt:463` [line]            Dark Elf    -1   +3   +2   +2   -2   +1       9         +50%
+- [ ] `lib/help/birth.txt:464` [line]            Death Mold  +10   0   +10  +0   +10 -15      15         +150%
+- [ ] `lib/help/birth.txt:465` [line]            Dunadan     +1   +2   +2   +2   +3   +2      10         +80%
+- [ ] `lib/help/birth.txt:466` [line]            Dwarf       +2   -2   +2   -2   +2   -3      11         +25%
+- [ ] `lib/help/birth.txt:467` [line]            Elf         -1   +2   +2   +1   -2   +2       8         +20%
+- [ ] `lib/help/birth.txt:468` [line]            Ent         +10  -3   +2   -5   +11  -3      14         +110%
+- [ ] `lib/help/birth.txt:469` [line]            Gnome       -1   +2    0   +2   +1   -2       8         +35%
+- [ ] `lib/help/birth.txt:470` [line]            Half-Elf     0   +1   +1   +1   -1   +1       9         +10%
+- [ ] `lib/help/birth.txt:471` [line]            Half-Ogre   +3   -1   -1   -1   +3   -3      12         +30%
+- [ ] `lib/help/birth.txt:472` [line]            High-Elf    +1   +3   +2   +3   +1   +5      10         +100%
+- [ ] `lib/help/birth.txt:473` [line]            Hobbit      -2   +2   +1   +3   +2   +1       7         +10%
+- [ ] `lib/help/birth.txt:474` [line]            Human        0    0    0    0    0    0      10         +0%
+- [ ] `lib/help/birth.txt:475` [line]            Kobold      +1   -1    0   +1    0   -4       9         +25%
+- [ ] `lib/help/birth.txt:476` [line]            Maia         0    0    0    0    0    0      10         +0%
+- [ ] `lib/help/birth.txt:477` [line]            Petty Dwarf +1   -1   +2    0   +2   -4      11         +35%
+- [ ] `lib/help/birth.txt:478` [line]            Orc         +2   -1    0   +1   +1   -4      10         +10%
+- [ ] `lib/help/birth.txt:479` [line]            RohanKnight +4   -2   +3   +1   +4   +2      10         +120%
+- [ ] `lib/help/birth.txt:480` [line]            Thunderlord +6   +2   +1   +1   +3   +8      12         +300%
+- [ ] `lib/help/birth.txt:481` [line]            Troll       +4   -4   -2   -4   +3   -6      12         +37%
+- [ ] `lib/help/birth.txt:482` [line]            Wood Elf    -3   +2   +1   +5   -4   +1       7         +30%
+- [ ] `lib/help/birth.txt:483` [line]            Yeek        -5   -5   -5   -5   -5   -5       6         -75%
+- [ ] `lib/help/birth.txt:484` [line] ~~~~~76|Race Modifiers|Stat Bonuses
+- [ ] `lib/help/birth.txt:485` [line] #####GRace Modifiers:
+- [ ] `lib/help/birth.txt:486` [line] #####B                       STR  INT  WIS  DEX  CON  CHR  Hit Dice  Rqd Exp/level
+- [ ] `lib/help/birth.txt:487` [line]            Classical    0    0    0    0    0    0      +0         +0%
+- [ ] `lib/help/birth.txt:488` [line]            Barbarian   +2   -3   -2   +1   +1   -3      +1         +25%
+- [ ] `lib/help/birth.txt:489` [line]            Hermit      -3   +1   +1   -3   -3   +1      -3         +20%
+- [ ] `lib/help/birth.txt:490` [line]            Lost Soul    0    0    0    0    0    0      +0         +0%
+- [ ] `lib/help/birth.txt:491` [line]            Skeleton     0   -2   -2    0   +1   -4      +0         +45%
+- [ ] `lib/help/birth.txt:492` [line]            Spectre     -5   +2   +2   +2   -3   -6      -4         +80%
+- [ ] `lib/help/birth.txt:493` [line]            Vampire     +3   +2   -3   -2   +1   -4      +1         +100%
+- [ ] `lib/help/birth.txt:494` [line]            Zombie      +2   -6   -6   +1   +4   -5      +3         +45%
+- [ ] `lib/help/birth.txt:496` [line] ~~~~~77|Classes|Stat Bonuses
+- [ ] `lib/help/birth.txt:497` [line] #####GClasses:
+- [ ] `lib/help/birth.txt:498` [line] #####B                         STR     INT     WIS     DEX     CON     CHR
+- [ ] `lib/help/birth.txt:499` [line]            Axemaster     +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:500` [line]            Demonologist  +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:501` [line]            Haftedmaster  +5      -2      -2      +2      +2      -1                      
+- [ ] `lib/help/birth.txt:502` [line]            Polearmmaster +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:503` [line]            Swordmaster   +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:504` [line]            Unbeliever    +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:505` [line]            Warrior       +5      -2      -2      +2      +2      -1
+- [ ] `lib/help/birth.txt:507` [line]            Geomancer     -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:508` [line]            Mage          -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:509` [line]            Necromancer   -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:510` [line]            Sorceror      -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:511` [line]            Thaumaturgist -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:512` [line]            Warper        -5      +3       0      +1      -2      +1
+- [ ] `lib/help/birth.txt:514` [line]            Archer        +2      +1       0      +2      +1      +1
+- [ ] `lib/help/birth.txt:515` [line]            Ranger        +2      +2       0      +2      +1      +1
+- [ ] `lib/help/birth.txt:517` [line]            Assassin      +2      +1      -2      +3      +1      -1
+- [ ] `lib/help/birth.txt:518` [line]            Rogue         +2      +1      -2      +3      +1      -1
+- [ ] `lib/help/birth.txt:520` [line]            Bard          +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:521` [line]            Loremaster    +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:522` [line]            Mimic         +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:523` [line]            Monk          +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:524` [line]            Possessor     +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:525` [line]            Summoner      +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:526` [line]            Symbiant      +1      -2      +1      +1       0      +1
+- [ ] `lib/help/birth.txt:528` [line]            Dark-Priest   -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:529` [line]            Druid         -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:530` [line]            Mindcrafter   -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:531` [line]            Paladin       -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:532` [line]            Priest(Eru)   -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:533` [line]            Priest(Manwe) -1      -3      +3      -1       0      +2
+- [ ] `lib/help/birth.txt:534` [line] ~~~~~10|Character|Skill tables
+- [ ] `lib/help/birth.txt:535` [line] ~~~~~74|Tables|Skill Tables
+- [ ] `lib/help/birth.txt:536` [line] #####R=== Skill Tables ===
+- [ ] `lib/help/birth.txt:538` [line] ~~~~~78|Races|Skill table
+- [ ] `lib/help/birth.txt:539` [line] #####GRaces:
+- [ ] `lib/help/birth.txt:540` [line] #####B                         Disarm  Devices Sprtlty Stealth Sneak   Wepnmas Archery
+- [ ] `lib/help/birth.txt:541` [line]            Beorning      -0.6    -0.8    -3.0    -2.0    -0.1    +2.5    +0.5
+- [ ] `lib/help/birth.txt:542` [line]            Dark-Elf      +0.5    +1.5    +10.0   +3.0    +0.8    -0.5    +1.0
+- [ ] `lib/help/birth.txt:543` [line]            DeathMold     +1.5    -0.5    +7.5    +25     0       +2.5    +2.5
+- [ ] `lib/help/birth.txt:544` [line]            Dunadan       +0.4    +0.5    +2.5    +2.0    +0.8    +1.5    +1.0
+- [ ] `lib/help/birth.txt:545` [line]            Dwarf         +0.2    +0.9    +5.0    -1.0    +0.7    +1.5    +0.5
+- [ ] `lib/help/birth.txt:546` [line]            Elf           +0.5    +0.6    +3.0    +2.0    +0.8    -0.5    +1.5
+- [ ] `lib/help/birth.txt:547` [line]            Ent           +0.5    +0.5    +10.0   -6.0    +0.5    -0.3    -0.2
+- [ ] `lib/help/birth.txt:548` [line]            Gnome         +1.0    +1.2    +6.0    +3.0    +0.6    -0.8    +1.2
+- [ ] `lib/help/birth.txt:549` [line]            Half-Elf      +0.2    +0.3    +1.5    +1.0    +0.6    -0.1    +0.5
+- [ ] `lib/help/birth.txt:550` [line]            Half-Ogre     -0.3    -0.5    -2.5    -2.0    -0.1    +2.0    0
+- [ ] `lib/help/birth.txt:551` [line]            High-Elf      +0.4    +2.0    +10.0   +4.0    +0.3    +1.0    +2.5
+- [ ] `lib/help/birth.txt:552` [line]            Hobbit        +1.5    +1.8    +9.0    +5.0    +1.2    -1.0    +2.0
+- [ ] `lib/help/birth.txt:553` [line]            Human         0       0       0       0       0       0       0
+- [ ] `lib/help/birth.txt:554` [line]            Kobold        -0.2    -0.3    -1.0    -1.0    +0.1    +1.0    -0.8
+- [ ] `lib/help/birth.txt:555` [line]            Maia          0       0       0       0       0       0       0
+- [ ] `lib/help/birth.txt:556` [line]            Orc           -0.3    -0.3    -1.0    -1.0    0       +1.2    -0.5
+- [ ] `lib/help/birth.txt:557` [line]            Petty Dwarf   +0.3    +0.5    +5.0    +1.0    +0.5    0       0
+- [ ] `lib/help/birth.txt:558` [line]            RohanKnight   +1.0    +0.5    +2.5    -8.0    +0.1    +0.1    +0.5
+- [ ] `lib/help/birth.txt:559` [line]            Thunderlord   +0.6    0       +5.0    -16.0   +3.0    +1.5    +0.5
+- [ ] `lib/help/birth.txt:560` [line]            Troll         -0.5    -0.8    -4.0    -2.0    -0.1    +2.0    -1.0
+- [ ] `lib/help/birth.txt:561` [line]            Wood-Elf      +0.5    +0.6    +3.0    +5.0    +0.8    -2.5    +4.0
+- [ ] `lib/help/birth.txt:562` [line]            Yeek          -0.5    -0.5    -2.5    -5.0    -0.5    -0.5    -0.5
+- [ ] `lib/help/birth.txt:564` [line] In addition to the racial starting bonuses for the standard skills listed
+- [ ] `lib/help/birth.txt:565` [line] above, there are some special bonuses to the skill modifier:
+- [ ] `lib/help/birth.txt:567` [line] 	   Beorning     +1.0 Bearform-combat modifier (also 1.0 points to start)
+- [ ] `lib/help/birth.txt:568` [line] 	   Dark-Elf     +0.2 Magic modifier
+- [ ] `lib/help/birth.txt:569` [line] 	   DeathMold    +0.2 Necromancy modifier
+- [ ] `lib/help/birth.txt:570` [line] 	   Dwarf        +0.2 Axe-mastery modifier
+- [ ] `lib/help/birth.txt:571` [line] 	   Ent          +0.2 Barehand-combat modifier;
+- [ ] `lib/help/birth.txt:572` [line] 	                +0.6 Boulder-throwing modifier
+- [ ] `lib/help/birth.txt:573` [line]            Hobbit       +0.3 Sling-mastery modifier
+- [ ] `lib/help/birth.txt:574` [line]            Maia         Not allowed to use Prayer (modifier reduced to 0.000)
+- [ ] `lib/help/birth.txt:575` [line] 	   RohanKnight  +0.2 Weaponmastery modifier
+- [ ] `lib/help/birth.txt:576` [line] 	   Wood-Elf     +0.2 Archery modifier
+- [ ] `lib/help/birth.txt:578` [line] (If the character's class does not normally possess the skill, this racial
+- [ ] `lib/help/birth.txt:579` [line] modifier bonus will grant the skill at a starting level of 0.000.)
+- [ ] `lib/help/birth.txt:581` [line] ~~~~~79|Race Modifiers|Skill table
+- [ ] `lib/help/birth.txt:582` [line] #####GRace Modifiers:
+- [ ] `lib/help/birth.txt:583` [line] #####B                        Disarm  Devices Sprtlty Stealth Sneak   Wepnmas Archery
+- [ ] `lib/help/birth.txt:584` [line]            Classical    0       0       0       0       0       0       0
+- [ ] `lib/help/birth.txt:585` [line]            Barbarian    -0.2    -1.0    +0.2    -2.0    +0.0    +1.2    +0.5
+- [ ] `lib/help/birth.txt:586` [line]            Hermit       +0.5    +1.0    +0.5    +3.0    +0.4    -0.5    -0.5
+- [ ] `lib/help/birth.txt:587` [line]            Lost Soul    0       0       0       0       0       0       0
+- [ ] `lib/help/birth.txt:588` [line]            Skeleton     -0.5    -0.5    +0.5    -1.0    -0.1    +0.8    0
+- [ ] `lib/help/birth.txt:589` [line]            Spectre      +0.2    +0.8    +0.7    +2.0    +0.2    -0.5    -0.2
+- [ ] `lib/help/birth.txt:590` [line]            Vampire      0       0       0       0       0       0       0
+- [ ] `lib/help/birth.txt:591` [line]            Zombie       -0.2    -0.2    +0.5    -1.0    -0.1    +0.5    0

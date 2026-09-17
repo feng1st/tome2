@@ -1,0 +1,224 @@
+# GF / blow-effect enumerations
+
+## GF_* 定义（defines.hpp）
+
+- [x] `GF_ELEC` = 1 — handled in bevy/src
+- [x] `GF_POIS` = 2 — handled in bevy/src
+- [x] `GF_ACID` = 3 — handled in bevy/src
+- [x] `GF_COLD` = 4 — handled in bevy/src
+- [x] `GF_FIRE` = 5 — handled in bevy/src
+- [x] `GF_UNBREATH` = 6 — handled in bevy/src
+- [x] `GF_CORPSE_EXPL` = 7 — handled in bevy/src
+- [x] `GF_MISSILE` = 10 — handled in bevy/src
+- [x] `GF_ARROW` = 11 — handled in bevy/src
+- [x] `GF_PLASMA` = 12 — handled in bevy/src
+- [x] `GF_WAVE` = 13 — handled in bevy/src
+- [x] `GF_WATER` = 14 — handled in bevy/src
+- [x] `GF_LITE` = 15 — handled in bevy/src
+- [x] `GF_DARK` = 16 — handled in bevy/src
+- [x] `GF_LITE_WEAK` = 17 — handled in bevy/src
+- [x] `GF_DARK_WEAK` = 18 — handled in bevy/src
+- [x] `GF_SHARDS` = 20 — handled in bevy/src
+- [x] `GF_SOUND` = 21 — handled in bevy/src
+- [x] `GF_CONFUSION` = 22 — handled in bevy/src
+- [x] `GF_FORCE` = 23 — handled in bevy/src
+- [x] `GF_INERTIA` = 24 — handled in bevy/src
+- [x] `GF_MANA` = 26 — handled in bevy/src
+- [x] `GF_METEOR` = 27 — handled in bevy/src
+- [x] `GF_ICE` = 28 — handled in bevy/src
+- [x] `GF_CHAOS` = 30 — handled in bevy/src
+- [x] `GF_NETHER` = 31 — handled in bevy/src
+- [x] `GF_DISENCHANT` = 32 — handled in bevy/src
+- [x] `GF_NEXUS` = 33 — handled in bevy/src
+- [x] `GF_TIME` = 34 — handled in bevy/src
+- [x] `GF_GRAVITY` = 35 — handled in bevy/src
+- [x] `GF_KILL_WALL` = 40 — handled in bevy/src
+- [x] `GF_KILL_DOOR` = 41 — handled in bevy/src
+- [~] `GF_MAKE_WALL` = 45 — data-dead
+- [x] `GF_MAKE_DOOR` = 46 — handled in bevy/src
+- [x] `GF_OLD_CLONE` = 51 — handled in bevy/src
+- [x] `GF_OLD_POLY` = 52 — handled in bevy/src
+- [x] `GF_OLD_HEAL` = 53 — handled in bevy/src
+- [x] `GF_OLD_SPEED` = 54 — handled in bevy/src
+- [x] `GF_OLD_SLOW` = 55 — handled in bevy/src
+- [x] `GF_OLD_CONF` = 56 — handled in bevy/src
+- [x] `GF_OLD_SLEEP` = 57 — handled in bevy/src
+- [~] `GF_OLD_DRAIN` = 58 — data-dead
+- [x] `GF_AWAY_UNDEAD` = 61 — handled in bevy/src
+- [x] `GF_AWAY_EVIL` = 62 — handled in bevy/src
+- [x] `GF_AWAY_ALL` = 63 — handled in bevy/src
+- [x] `GF_TURN_UNDEAD` = 64 — handled in bevy/src
+- [x] `GF_TURN_EVIL` = 65 — handled in bevy/src
+- [x] `GF_TURN_ALL` = 66 — handled in bevy/src
+- [x] `GF_DISP_UNDEAD` = 67 — handled in bevy/src
+- [x] `GF_DISP_EVIL` = 68 — handled in bevy/src
+- [~] `GF_DISP_ALL` = 69 — data-dead
+- [x] `GF_DISP_DEMON` = 70 — handled in bevy/src
+- [x] `GF_DISP_LIVING` = 71 — handled in bevy/src
+- [x] `GF_ROCKET` = 72 — handled in bevy/src
+- [x] `GF_NUKE` = 73 — handled in bevy/src
+- [x] `GF_MAKE_GLYPH` = 74 — handled in bevy/src
+- [~] `GF_STASIS` = 75 — data-dead
+- [x] `GF_STONE_WALL` = 76 — handled in bevy/src
+- [~] `GF_DEATH_RAY` = 77 — data-dead
+- [x] `GF_STUN` = 78 — handled in bevy/src
+- [x] `GF_HOLY_FIRE` = 79 — handled in bevy/src
+- [x] `GF_HELL_FIRE` = 80 — handled in bevy/src
+- [x] `GF_DISINTEGRATE` = 81 — handled in bevy/src
+- [x] `GF_CHARM` = 82 — handled in bevy/src
+- [x] `GF_CONTROL_UNDEAD` = 83 — handled in bevy/src
+- [x] `GF_CONTROL_ANIMAL` = 84 — handled in bevy/src
+- [x] `GF_PSI` = 85 — handled in bevy/src
+- [x] `GF_PSI_DRAIN` = 86 — handled in bevy/src
+- [x] `GF_TELEKINESIS` = 87 — handled in bevy/src
+- [x] `GF_JAM_DOOR` = 88 — handled in bevy/src
+- [x] `GF_DOMINATION` = 89 — handled in bevy/src
+- [x] `GF_DISP_GOOD` = 90 — handled in bevy/src
+- [x] `GF_RAISE` = 92 — handled in bevy/src
+- [x] `GF_DESTRUCTION` = 94 — handled in bevy/src
+- [~] `GF_STUN_CONF` = 95 — data-dead
+- [~] `GF_STUN_DAM` = 96 — data-dead
+- [~] `GF_CONF_DAM` = 98 — data-dead
+- [x] `GF_STAR_CHARM` = 99 — handled in bevy/src
+- [~] `GF_IMPLOSION` = 100 — data-dead
+- [~] `GF_LAVA_FLOW` = 101 — data-dead
+- [x] `GF_FEAR` = 102 — handled in bevy/src
+- [~] `GF_BETWEEN_GATE` = 103 — data-dead
+- [~] `GF_WINDS_MANA` = 104 — data-dead
+- [x] `GF_DEATH` = 105 — handled in bevy/src
+- [x] `GF_CONTROL_DEMON` = 106 — handled in bevy/src
+- [x] `GF_RAISE_DEMON` = 107 — handled in bevy/src
+- [x] `GF_TRAP_DEMONSOUL` = 108 — handled in bevy/src
+- [x] `GF_ATTACK` = 109 — handled in bevy/src
+- [x] `GF_CHARM_UNMOVING` = 110 — handled in bevy/src
+- [x] `GF_INSTA_DEATH` = 111 — handled in bevy/src
+- [x] `GF_ELEMENTAL_WALL` = 112 — handled in bevy/src
+- [x] `GF_ELEMENTAL_GROWTH` = 113 — handled in bevy/src
+
+## gf_names[] 表（tables.cc，元素名）
+
+- [~] `GF_ELEC` "electricity" — display-table only
+- [x] `GF_POIS` "poison" — name in bevy/src
+- [x] `GF_ACID` "acid" — name in bevy/src
+- [x] `GF_COLD` "cold" — name in bevy/src
+- [x] `GF_FIRE` "fire" — name in bevy/src
+- [~] `GF_UNBREATH` "asphyxiating gas" — display-table only
+- [~] `GF_CORPSE_EXPL` "corpse explosion" — display-table only
+- [x] `GF_MISSILE` "missile" — name in bevy/src
+- [~] `GF_ARROW` "arrow" — display-table only
+- [x] `GF_PLASMA` "plasma" — name in bevy/src
+- [~] `GF_WAVE` "a tidal wave" — display-table only
+- [x] `GF_WATER` "water" — name in bevy/src
+- [x] `GF_LITE` "light" — name in bevy/src
+- [x] `GF_DARK` "darkness" — name in bevy/src
+- [~] `GF_LITE_WEAK` "weak light" — display-table only
+- [~] `GF_DARK_WEAK` "weak darkness" — display-table only
+- [x] `GF_SHARDS` "shards" — name in bevy/src
+- [x] `GF_SOUND` "sound" — name in bevy/src
+- [x] `GF_CONFUSION` "confusion" — name in bevy/src
+- [x] `GF_FORCE` "force" — name in bevy/src
+- [x] `GF_INERTIA` "inertia" — name in bevy/src
+- [~] `GF_MANA` "pure mana" — display-table only
+- [~] `GF_METEOR` "meteor" — display-table only
+- [x] `GF_ICE` "ice" — name in bevy/src
+- [x] `GF_CHAOS` "chaos" — name in bevy/src
+- [x] `GF_NETHER` "nether" — name in bevy/src
+- [x] `GF_DISENCHANT` "disenchantment" — name in bevy/src
+- [x] `GF_NEXUS` "nexus" — name in bevy/src
+- [~] `GF_TIME` "time" — display-table only
+- [x] `GF_GRAVITY` "gravity" — name in bevy/src
+- [x] `GF_KILL_WALL` "wall destruction" — name in bevy/src
+- [~] `GF_KILL_DOOR` "door destruction" — display-table only
+- [~] `GF_MAKE_WALL` "wall creation" — data-dead: no spell/monster emits GF_MAKE_WALL (only spells1.cc switch + gf_names label)
+- [~] `GF_MAKE_DOOR` "door creation" — display-table only
+- [~] `GF_OLD_CLONE` "clone" — display-table only
+- [x] `GF_OLD_POLY` "polymorph" — name in bevy/src
+- [x] `GF_OLD_HEAL` "healing" — name in bevy/src
+- [~] `GF_OLD_SPEED` "speed" — display-table only
+- [~] `GF_OLD_SLOW` "slowness" — display-table only
+- [x] `GF_OLD_CONF` "confusion" — name in bevy/src
+- [~] `GF_OLD_SLEEP` "sleep" — display-table only
+- [x] `GF_OLD_DRAIN` "drain life" — handled by the dedicated Drain Life path (bevy/src/modal.rs:18156)
+- [~] `GF_AWAY_UNDEAD` "teleport away undead" — display-table only
+- [~] `GF_AWAY_EVIL` "teleport away evil" — display-table only
+- [~] `GF_AWAY_ALL` "teleport away" — display-table only
+- [~] `GF_TURN_UNDEAD` "scare undead" — display-table only
+- [~] `GF_TURN_EVIL` "scare evil" — display-table only
+- [~] `GF_TURN_ALL` "scare" — display-table only
+- [x] `GF_DISP_UNDEAD` "dispel undead" — name in bevy/src
+- [x] `GF_DISP_EVIL` "dispel evil" — name in bevy/src
+- [x] `GF_DISP_ALL` "dispel" — dispel_all kind (bevy/src/modal.rs:15583)
+- [~] `GF_DISP_DEMON` "dispel demons" — display-table only
+- [~] `GF_DISP_LIVING` "dispel living creatures" — display-table only
+- [~] `GF_ROCKET` "rocket" — display-table only
+- [~] `GF_NUKE` "nuke" — display-table only
+- [~] `GF_MAKE_GLYPH` "glyph creation" — display-table only
+- [~] `GF_STASIS` "stasis" — display-table only
+- [~] `GF_STONE_WALL` "stone wall creation" — display-table only
+- [~] `GF_DEATH_RAY` "death ray" — display-table only
+- [~] `GF_STUN` "stunning" — display-table only
+- [x] `GF_HOLY_FIRE` "holy fire" — name in bevy/src
+- [~] `GF_HELL_FIRE` "hellfire" — display-table only
+- [~] `GF_DISINTEGRATE` "disintegration" — display-table only
+- [~] `GF_CHARM` "charming" — display-table only
+- [~] `GF_CONTROL_UNDEAD` "undead control" — display-table only
+- [~] `GF_CONTROL_ANIMAL` "animal control" — display-table only
+- [~] `GF_PSI` "psionic energy" — display-table only
+- [~] `GF_PSI_DRAIN` "psionic drain" — display-table only
+- [x] `GF_TELEKINESIS` "telekinesis" — name in bevy/src
+- [~] `GF_JAM_DOOR` "door jamming" — display-table only
+- [x] `GF_DOMINATION` "domination" — name in bevy/src
+- [~] `GF_DISP_GOOD` "dispel good" — display-table only
+- [~] `GF_RAISE` "raise dead" — display-table only
+- [x] `GF_DESTRUCTION` "destruction" — name in bevy/src
+- [~] `GF_STUN_CONF` "stunning and confusion" — display-table only
+- [~] `GF_STUN_DAM` "stunning and damage" — display-table only
+- [~] `GF_CONF_DAM` "confusion and damage" — display-table only
+- [~] `GF_STAR_CHARM` "*charming*" — display-table only
+- [~] `GF_IMPLOSION` "implosion" — display-table only
+- [~] `GF_LAVA_FLOW` "lava" — display-table only
+- [x] `GF_FEAR` "fear" — name in bevy/src
+- [~] `GF_BETWEEN_GATE` "jumpgate creation" — display-table only
+- [x] `GF_DEATH` "death" — name in bevy/src
+- [~] `GF_CONTROL_DEMON` "control demon" — display-table only
+- [~] `GF_RAISE_DEMON` "raise demon" — display-table only
+- [~] `GF_TRAP_DEMONSOUL` "*control demon*" — display-table only
+- [~] `GF_ATTACK` "projected melee attacks" — display-table only
+
+## RBE_* 怪物近战特效（defines.hpp）
+
+- [~] `RBE_ANY` = 0 — data-dead
+- [x] `RBE_HURT` = 1 — handled in bevy/src
+- [x] `RBE_POISON` = 2 — handled in bevy/src
+- [x] `RBE_UN_BONUS` = 3 — handled in bevy/src
+- [x] `RBE_UN_POWER` = 4 — handled in bevy/src
+- [x] `RBE_EAT_GOLD` = 5 — handled in bevy/src
+- [x] `RBE_EAT_ITEM` = 6 — handled in bevy/src
+- [x] `RBE_EAT_FOOD` = 7 — handled in bevy/src
+- [x] `RBE_EAT_LITE` = 8 — handled in bevy/src
+- [x] `RBE_ACID` = 9 — handled in bevy/src
+- [x] `RBE_ELEC` = 10 — handled in bevy/src
+- [x] `RBE_FIRE` = 11 — handled in bevy/src
+- [x] `RBE_COLD` = 12 — handled in bevy/src
+- [x] `RBE_BLIND` = 13 — handled in bevy/src
+- [x] `RBE_CONFUSE` = 14 — handled in bevy/src
+- [x] `RBE_TERRIFY` = 15 — handled in bevy/src
+- [x] `RBE_PARALYZE` = 16 — handled in bevy/src
+- [x] `RBE_LOSE_STR` = 17 — handled in bevy/src
+- [x] `RBE_LOSE_INT` = 18 — handled in bevy/src
+- [x] `RBE_LOSE_WIS` = 19 — handled in bevy/src
+- [x] `RBE_LOSE_DEX` = 20 — handled in bevy/src
+- [x] `RBE_LOSE_CON` = 21 — handled in bevy/src
+- [x] `RBE_LOSE_CHR` = 22 — handled in bevy/src
+- [x] `RBE_LOSE_ALL` = 23 — handled in bevy/src
+- [x] `RBE_SHATTER` = 24 — handled in bevy/src
+- [x] `RBE_EXP_10` = 25 — handled in bevy/src
+- [x] `RBE_EXP_20` = 26 — handled in bevy/src
+- [x] `RBE_EXP_40` = 27 — handled in bevy/src
+- [x] `RBE_EXP_80` = 28 — handled in bevy/src
+- [x] `RBE_DISEASE` = 29 — handled in bevy/src
+- [x] `RBE_TIME` = 30 — handled in bevy/src
+- [x] `RBE_SANITY` = 31 — handled in bevy/src
+- [x] `RBE_HALLU` = 32 — handled in bevy/src
+- [x] `RBE_PARASITE` = 33 — handled in bevy/src
+- [x] `RBE_ABOMINATION` = 34 — handled in bevy/src

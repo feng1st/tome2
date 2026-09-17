@@ -1,0 +1,89 @@
+# 数据清单：lib/edit/t_bree.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_bree.txt:8` [feat] F:z:8:3:0:0:0:0:4
+- [ ] `lib/edit/t_bree.txt:11` [feat] F:y:96:3
+- [ ] `lib/edit/t_bree.txt:14` [feat] F:x:96:3
+- [ ] `lib/edit/t_bree.txt:17` [cond] ?:[EQU $QUEST4 2]
+- [ ] `lib/edit/t_bree.txt:18` [feat] F:z:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_bree.txt:19` [cond] ?:[EQU $QUEST4 5]
+- [ ] `lib/edit/t_bree.txt:20` [feat] F:z:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_bree.txt:21` [cond] ?:1
+- [ ] `lib/edit/t_bree.txt:24` [cond] ?:[AND [EQU $QUEST8 1] [EQU $DAYTIME 0] ]
+- [ ] `lib/edit/t_bree.txt:25` [feat] F:y:8:3:0:0:0:0:8
+- [ ] `lib/edit/t_bree.txt:26` [cond] ?:1
+- [ ] `lib/edit/t_bree.txt:29` [cond] ?:[EQU $QUEST9 1]
+- [ ] `lib/edit/t_bree.txt:30` [feat] F:x:8:3:0:0:0:0:9
+- [ ] `lib/edit/t_bree.txt:31` [cond] ?:1
+- [ ] `lib/edit/t_bree.txt:36` [feat] F:B:75:3:0:0:0:0:1
+- [ ] `lib/edit/t_bree.txt:39` [feat] F:b:74:3:0:0:0:0:10
+- [ ] `lib/edit/t_bree.txt:42` [feat] F:a:74:3:0:0:0:0:58
+- [ ] `lib/edit/t_bree.txt:45` [feat] F:c:74:3:0:0:0:0:12
+- [ ] `lib/edit/t_bree.txt:48` [feat] F:e:74:3:0:0:0:0:57
+- [ ] `lib/edit/t_bree.txt:52` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_bree.txt:53` [row] D:#                                                                                                                  VV              --                         
+- [ ] `lib/edit/t_bree.txt:54` [row] D:#                                                                                                                    V              --                        
+- [ ] `lib/edit/t_bree.txt:55` [row] D:#                                                                                                                     VV            --                        
+- [ ] `lib/edit/t_bree.txt:56` [row] D:#                                                                                                                       VVV          --                       
+- [ ] `lib/edit/t_bree.txt:57` [row] D:#                                                                                                                          VV        --                       
+- [ ] `lib/edit/t_bree.txt:58` [row] D:#OOOO                                                                                                                       V         --                      
+- [ ] `lib/edit/t_bree.txt:59` [row] D:#   OOOO                                                                                                                     V        --                      
+- [ ] `lib/edit/t_bree.txt:60` [row] D:#---   OOOOO                                                                                                                  VVV      ---                    
+- [ ] `lib/edit/t_bree.txt:61` [row] D:#------    OOOOOO                                                                                                                V      --                    
+- [ ] `lib/edit/t_bree.txt:62` [row] D:#----------     OO                                                                                                               V      --                    
+- [ ] `lib/edit/t_bree.txt:63` [row] D:#--------------  OO                                                                                                               VVV    --                   
+- [ ] `lib/edit/t_bree.txt:64` [row] D:#---------------  OOO                                                                                                               VVV   --                  
+- [ ] `lib/edit/t_bree.txt:65` [row] D:#-----------------  OO                                                                                                                VVVVVVV                 
+- [ ] `lib/edit/t_bree.txt:66` [row] D:#------------------- OOOOO                                                                                                                 --VVVV   VVVVV     
+- [ ] `lib/edit/t_bree.txt:67` [row] D:###------------------    OO                                                            ,,,,,,,,,,,,,,,,,,                                   --  VVVVV   VV    
+- [ ] `lib/edit/t_bree.txt:68` [row] D:#CC####------------------ OOO                                                     ,,,,,CCCCCCCCCCCCCCCCCC,,,,,,,,,                           --          VVVVV
+- [ ] `lib/edit/t_bree.txt:69` [row] D:#TTCCCC###---------------,, OO                                                 ,,,CCCCCCTTTTTTTTTTTTTTTTCCCCCCCCCC,,,,                        --              
+- [ ] `lib/edit/t_bree.txt:70` [row] D:#--TTTTCCC###---------,,,--  OO                                              ,,CCCCTTTTTT--------------TTTTTTTTTTCCCCC,,,,,                  ^--              
+- [ ] `lib/edit/t_bree.txt:71` [row] D:#------TTTCCC##-----,,------  O                                            ,,CCCTTTT..................----------TTTTTCCCCCC,,              ^^^ --             
+- [ ] `lib/edit/t_bree.txt:72` [row] D:#---------TTTCC##,,,--------  OO                                          ,CCCTTT....--ssssssss-..---..........-----TTTTTTCCC,,,          ^^    --            
+- [ ] `lib/edit/t_bree.txt:73` [row] D:#------------TC,,###-    ---   OO                                        ,CCTTT...-----SSSSSSSS--.----------,,.....------TTTCCCC,,       ^^     --            
+- [ ] `lib/edit/t_bree.txt:74` [row] D:#-------------,TTCCC###    --   OOO                                    ,,CCTT...-,,,,--ssssssss-..-sssssssssss,---......---TTTTCCT,,    ^^       --           
+- [ ] `lib/edit/t_bree.txt:75` [row] D:#---------  ,,,--TTTCCC    --     OO                                 ,,CCCTT..-------,,##9#####-.--sssssssssss-,-------...----TTCCTT,  ^^^        --          
+- [ ] `lib/edit/t_bree.txt:76` [row] D:#--------  ,, ,,----TTTCC          O                                ,CCC  T..--sssSsss,,,,------.--StSStSSSStS--,------.-....--TTCCTT,^^^          --         
+- [ ] `lib/edit/t_bree.txt:77` [row] D:#------   ,,   ,                   OO                              ,CCTTT...---ssstSSS---,,,----.--sssssssssss---,---...----..--TTCCT^^^^ ^^        --        
+- [ ] `lib/edit/t_bree.txt:78` [row] D:#------- x,   ,,                    OO                            ,CCTT...-----sssssss--,,-,,---.--sssssssssss---,-...-------..--TTC^^^   ^         ----      
+- [ ] `lib/edit/t_bree.txt:79` [row] D:#-------     {,                      OO                           ,CTT..---,,,,###6###,,,---,,--.--###########----..----------..--T^^^^   ^       ---  --     
+- [ ] `lib/edit/t_bree.txt:80` [row] D:#---------                            OOO                         ,CT..,,,,----,,,,,,,,------,,-.--###b###e###-....,---sssss---.--T^^   ^         --    --    
+- [ ] `lib/edit/t_bree.txt:81` [row] D:#----------                             OO                       ,CCT.,sssssss----,-----------,,.-----.-----....-,--,,-StSSS---.-T^^^   ^        --      -----
+- [ ] `lib/edit/t_bree.txt:82` [row] D:#-------------                           OO                     ,CCTT.-StStSSS---,-----ssssss--..-----.--....--,,,,,,-,sssss---.-T^^^      ^      --         -
+- [ ] `lib/edit/t_bree.txt:83` [row] D:#-----------                              OOOOO                 ,CTT-.-sssssss---,-----SSSSSS--.------.-..--,,,-ssss--,#####---.-T^^    ^         --          
+- [ ] `lib/edit/t_bree.txt:84` [row] D:#--------                                     OO               ,CCT-..-##5####----,----ssssss-..........--XXXX,-ssss--,------...-^^^  ^ ^^  ^    ---          
+- [ ] `lib/edit/t_bree.txt:85` [row] D:#- ----                                        OOOOOOOO        ,C  OOOO--OOOOO----,----#c##4#-.---.,----,-UUUU,-SSSS--,-----..---^^   ^   ^     ---           
+- [ ] `lib/edit/t_bree.txt:86` [row] D:#-  ----                                              OOOOOOO  ,CT-OssOOOO---OOOOOOOOO--OOOO--.-T-.-sss--,XXXX,-ssss---,---..--T^^              --            
+- [ ] `lib/edit/t_bree.txt:87` [row] D:#-  -----                                                   OOOOOOOOSt.---------XXXX-OOOO--OOOO---.-StS--,#0##,-ssss---,---.---^^     ^  ^      --            
+- [ ] `lib/edit/t_bree.txt:88` [row] D:#-     ---   -----                                           ,,CT--.ss.-sssss---XXXX,---------OOOO.-sss---,,,,,-####--,---..-T^^   ^ ^          --            
+- [ ] `lib/edit/t_bree.txt:89` [row] D:#    ----     ----                                           ,,CT--.B#.-SStSS---####,------------OO-#z#-ssssss-,,,---,----.--T^^   ^           -,-            
+- [ ] `lib/edit/t_bree.txt:90` [row] D:#  -------      ----                                         ,,CTT-....-sssss--,,,,,,-------------OO-,--SSSSSt-ss-,-,---...-T^^  ^ ^           -,             
+- [ ] `lib/edit/t_bree.txt:91` [row] D:#    -------   ------                                        ,,CCTT---..#2###-,sssss,-SSSSSSSS-----OO,--ssssss-tS--,.....---^^ ^^     ^^^     -,              
+- [ ] `lib/edit/t_bree.txt:92` [row] D:#   -----        -----                                        ,,CCT----..,,,,,-StSSS,-ssssssss------OOO-#1##a#-ss....-----T^^        ^^      -,-              
+- [ ] `lib/edit/t_bree.txt:93` [row] D:#      ----  --------                                         ,,CCTT----..----,sssss,-##7#####--------OO,.,,.,-##.----TTTT^^     ^  ^^       -,            OOO
+- [ ] `lib/edit/t_bree.txt:94` [row] D:#     ---------------                                         ,,,CCTTTT--..---,##3##-,--,,,---------...OOOOOOOOOOOTTTTTCC^^^   ^^  ^^        ,-          OOO  
+- [ ] `lib/edit/t_bree.txt:95` [row] D:#        --------                                              ,,,CCCC  --..........,-,,---,--.......-------TTTTTOCCCCC,,^^^^^^^^^^^        -.-      OOOOO    
+- [ ] `lib/edit/t_bree.txt:96` [row] D:#      ----------                                              ,, ,,CCCTT----------.....-......-------TTTTTTTCCCCO,,,,,     ^^^^^^^         -.-      O        
+- [ ] `lib/edit/t_bree.txt:97` [row] D:#        -------                                               ,,   ,,CCTTTTTTTTTT-----...------TTTTTTTCCCCCC,,,,OOO                       -.-    OOOO        
+- [ ] `lib/edit/t_bree.txt:98` [row] D:#          ----                                                ,,,    ,CCCCCCCCCCTTTTT-----TTTTTTCCCCCC,,,,,,      OOO                    OOOOOOOOO           
+- [ ] `lib/edit/t_bree.txt:99` [row] D:#      ^^   ----                                                ,,     ,,,,,,,,,,CCCCCTTTTTTCCCCC,,,,,,              OO                 OOO--                 
+- [ ] `lib/edit/t_bree.txt:100` [row] D:#    ^^^^^                                                      ,,,              ,,,,,CCCCCC,,,,,                     OOOO             OOO--                  
+- [ ] `lib/edit/t_bree.txt:101` [row] D:#  ^^^^^^^^^                                                     ,,                   ,,,,,,                             OOOOOOO     OOO---                   
+- [ ] `lib/edit/t_bree.txt:102` [row] D:#  ^^^^^^^^^                                                     ,,                                                            OOOOOOO----                    
+- [ ] `lib/edit/t_bree.txt:103` [row] D:# ^^^^^^^^^^^^^^^                                                ,,,                                                            ..------                      
+- [ ] `lib/edit/t_bree.txt:104` [row] D:#   ^^^^^^^^^^^^^^                                                ,,,                     ......                             ....-----                        
+- [ ] `lib/edit/t_bree.txt:105` [row] D:#   ^^^^^^^^^^^^^^^                                                ,,,          ...........    ............       ............-------,,,,                     
+- [ ] `lib/edit/t_bree.txt:106` [row] D:#^^^^^^^^^^^^^^^^^                                                  ,,        ...                         .........--------------       ,,,,,,,    ,,,,,,,,,  
+- [ ] `lib/edit/t_bree.txt:107` [row] D:#    ^^^^^^^^^^^^^                                                 ,,         .                                                               ,,,,,,       ,,,
+- [ ] `lib/edit/t_bree.txt:108` [row] D:#  ^^^^^^^^^^^^^^                                                   ,,      ...                                                                               
+- [ ] `lib/edit/t_bree.txt:109` [row] D:#    ^^^^^^^^^^^^^^^                                                 ,,     .                                                                                 
+- [ ] `lib/edit/t_bree.txt:110` [row] D:#    ^^^^^^^^^^^^^^                                                   ,    ..                                                                                 
+- [ ] `lib/edit/t_bree.txt:111` [row] D:# ^^^^^^^^^^^^^^^^                                                    ,,  ..                                                                                  
+- [ ] `lib/edit/t_bree.txt:112` [row] D:#   ^^^^^^^^^^^^^^^                                                    , ..                                                                                   
+- [ ] `lib/edit/t_bree.txt:113` [row] D:# ^^^^^^^^^^^^^^^^                                                     ,,.                                                                                    
+- [ ] `lib/edit/t_bree.txt:114` [row] D:#  ^^^^^^^^^^^^^                                                        ,.                                                                                    
+- [ ] `lib/edit/t_bree.txt:115` [row] D:#  ^^^^^^^^^^^^^^                                                        .                                                                                    
+- [ ] `lib/edit/t_bree.txt:116` [row] D:#    ^^^^^^^^^^^^^^                                                      .                                                                                    
+- [ ] `lib/edit/t_bree.txt:117` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_bree.txt:122` [cond] ?:[EQU $LEAVING_QUEST 0]
+- [ ] `lib/edit/t_bree.txt:123` [raw] P:33:131

@@ -1,0 +1,41 @@
+# 数据清单：lib/help/m_demono.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_demono.txt:1` [line] |||||oy
+- [ ] `lib/help/m_demono.txt:2` [line] ~~~~~01|Magic|Demonology School
+- [ ] `lib/help/m_demono.txt:3` [line] ~~~~~02|Demonology Magic
+- [ ] `lib/help/m_demono.txt:4` [line] ~~~~~03|Skills|Demonology - Spell Info
+- [ ] `lib/help/m_demono.txt:5` [line] #####R === ToME Magic - Demonology ===
+- [ ] `lib/help/m_demono.txt:7` [line] Available only to Demonologists, or those sufficiently corrupted with
+- [ ] `lib/help/m_demono.txt:8` [line] demon-like powers, this school contains spells where demonic energies
+- [ ] `lib/help/m_demono.txt:9` [line] are used to create mainly devastating effects.
+- [ ] `lib/help/m_demono.txt:11` [line] #####oDemonic equipment
+- [ ] `lib/help/m_demono.txt:12` [line] Unlike other magic schools, the spells of a Demonologist are not written
+- [ ] `lib/help/m_demono.txt:13` [line] in spell books, but are contained within items of demonic origin known as
+- [ ] `lib/help/m_demono.txt:14` [line] Demonblades, Demonshields, and Demonhorns (helms), which when wielded allow
+- [ ] `lib/help/m_demono.txt:15` [line] the Demonologist to cast spells; each piece of equipment holds three spells.
+- [ ] `lib/help/m_demono.txt:17` [line] #####oDemonblade spells
+- [ ] `lib/help/m_demono.txt:18` [line] 1. [[[[[oDemon Blade] (school level 1)
+- [ ] `lib/help/m_demono.txt:19` [line]    Imbues your blade with fire to deal more damage.
+- [ ] `lib/help/m_demono.txt:20` [line]    At level 30 it deals hell fire damage.
+- [ ] `lib/help/m_demono.txt:21` [line]    At level 45 it spreads over a 1 radius zone around your target.
+- [ ] `lib/help/m_demono.txt:22` [line] 2. [[[[[oDemon Madness] (school level 10)
+- [ ] `lib/help/m_demono.txt:23` [line]    Fire 2 balls in opposite directions of randomly chaos, confusion or charm.
+- [ ] `lib/help/m_demono.txt:24` [line] 3. [[[[[oDemon Field] (school level 20)
+- [ ] `lib/help/m_demono.txt:25` [line]    Fires a lingering cloud of deadly nexus over a radius of 7.
+- [ ] `lib/help/m_demono.txt:27` [line] #####oDemonshield spells
+- [ ] `lib/help/m_demono.txt:28` [line] 1. [[[[[oDoom Shield] (school level 1)
+- [ ] `lib/help/m_demono.txt:29` [line]    Raises a mirror of pain around you, doing very high damage to your foes
+- [ ] `lib/help/m_demono.txt:30` [line]    that dare hit you, but greatly reduces your armour class.
+- [ ] `lib/help/m_demono.txt:31` [line] 2. [[[[[oDemon Cloak] (school level 20)
+- [ ] `lib/help/m_demono.txt:32` [line]    Raises a mirror that can reflect bolts and arrows for a time.
+- [ ] `lib/help/m_demono.txt:33` [line] 3. [[[[[oUnholy Word] (school level 25)
+- [ ] `lib/help/m_demono.txt:34` [line]    Kills a pet to heal you. There is a chance that the pet won't die but will
+- [ ] `lib/help/m_demono.txt:35` [line]    turn against you. This chance will decrease with higher spell levels.
+- [ ] `lib/help/m_demono.txt:37` [line] #####oDemonhorn spells
+- [ ] `lib/help/m_demono.txt:38` [line] 1. [[[[[oSummon Demon] (school level 5)
+- [ ] `lib/help/m_demono.txt:39` [line]    Summons a leveled demon to your side.
+- [ ] `lib/help/m_demono.txt:40` [line]    At level 35 it summons a high demon.
+- [ ] `lib/help/m_demono.txt:41` [line] 2. [[[[[oDischarge Minion] (school level 10)
+- [ ] `lib/help/m_demono.txt:42` [line]    The targeted pet will explode in a burst of gravity.
+- [ ] `lib/help/m_demono.txt:43` [line] 3. [[[[[oControl Demon] (school level 25)
+- [ ] `lib/help/m_demono.txt:44` [line]    Attempts to control a demon.

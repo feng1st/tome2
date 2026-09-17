@@ -1,0 +1,69 @@
+# 数据清单：lib/edit/s_death.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/s_death.map:6` [include] %:special.txt
+- [ ] `lib/edit/s_death.map:10` [feat] F:a:1:0:118
+- [ ] `lib/edit/s_death.map:13` [feat] F:b:1:0:126
+- [ ] `lib/edit/s_death.map:16` [feat] F:c:1:0:149
+- [ ] `lib/edit/s_death.map:19` [feat] F:d:1:0:244
+- [ ] `lib/edit/s_death.map:22` [feat] F:e:1:0:264
+- [ ] `lib/edit/s_death.map:25` [feat] F:f:1:0:313
+- [ ] `lib/edit/s_death.map:28` [feat] F:g:1:0:285
+- [ ] `lib/edit/s_death.map:31` [feat] F:h:1:0:140
+- [ ] `lib/edit/s_death.map:34` [feat] F:i:1:0:186
+- [ ] `lib/edit/s_death.map:37` [feat] F:j:1:0:215
+- [ ] `lib/edit/s_death.map:41` [feat] F:1:1:0:0:0:0:28
+- [ ] `lib/edit/s_death.map:44` [feat] F:2:1:0:0:0:0:64
+- [ ] `lib/edit/s_death.map:47` [feat] F:3:1:0:0:0:0:53
+- [ ] `lib/edit/s_death.map:50` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/s_death.map:51` [row] D:X XXXXXXXXXXXX                                                                                                                X
+- [ ] `lib/edit/s_death.map:52` [row] D:X X..........X        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                                                 X
+- [ ] `lib/edit/s_death.map:53` [row] D:X X....>.....X        X.XdX.X.X.XcX.X.X...XcX.X.XcX.X.XgXd+2X                                                                 X
+- [ ] `lib/edit/s_death.map:54` [row] D:X X..........X        XDXDXDXDXDXDXDXDX...XDXDXDXDXDXDXDXDXXX      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          X
+- [ ] `lib/edit/s_death.map:55` [row] D:X XXXXXDXXXXXX        X...............D...D...............X        X...f............a...XXXXX.......b..f....a....+1X          X
+- [ ] `lib/edit/s_death.map:56` [row] D:X     X.X             XDXDXDXDXDXDXDXDX..cXDXDXDXDXDXDXDXDX        X........b...........XXXXX...a..........b.....XXX          X
+- [ ] `lib/edit/s_death.map:57` [row] D:X     X.X             X.XcX.XcXdX.X.X.X...XcX.XdXcX.X.X.XgX        XXXXXXXXXXDDXXXXXXXXXXXXXXXXXXXXXXXXDDXXXXXXXXX            X
+- [ ] `lib/edit/s_death.map:58` [row] D:X     X.X             XXXXXXXXXXXXXXXXX.c.XXXXXXXXXXXXXXXXX        XXXXXXXXXXDDXXXXXXXXXXXXXXXXXXXXXXXXDDXXXXXXXXX            X
+- [ ] `lib/edit/s_death.map:59` [row] D:X     X.X                XXX          X...X                        X...........f...a....XXXXX....b.a...........b.X            X
+- [ ] `lib/edit/s_death.map:60` [row] D:X    XX.XX               X.XXXXXXXXXXXXDDDXXXXX                    X..f...b.............XXXXX..a....f.....b..a...X            X
+- [ ] `lib/edit/s_death.map:61` [row] D:X   XX...XX            XXXDXXXXXXXXX.......c.XX                    XXXXXXXXXXDDXXXXXXXXXXXXXXXXXXXXXXXXDDXXXXXXXXX            X
+- [ ] `lib/edit/s_death.map:62` [row] D:X  XX.....XX           XdD........D...c......dX                    X........a...............a....................X            X
+- [ ] `lib/edit/s_death.map:63` [row] D:X XX.......XX          XXXDXXXXXXXX......c....X                    Xf....b..........f............a.........f.....X            X
+- [ ] `lib/edit/s_death.map:64` [row] D:X X.........X            XeX      XX.........XX                    X.............a.......b...........a...........X            X
+- [ ] `lib/edit/s_death.map:65` [row] D:X XXXXX.XXXXX            X.X       XXXXDDDXXXX                     X....a...............................a........X            X
+- [ ] `lib/edit/s_death.map:66` [row] D:X     X.X                X.X          X...X                        XXXXXXXXXXXXXXXXXXXXX...XXXXXXXXXXXXXXXXXXXXXXX            X
+- [ ] `lib/edit/s_death.map:67` [row] D:X     X.X                X.X          X...X                                            X...X                                  X
+- [ ] `lib/edit/s_death.map:68` [row] D:X     X.X                X.X         XX...XX                                           X.b.X                                  X
+- [ ] `lib/edit/s_death.map:69` [row] D:X     X.X                X.X        XX.....XX                                          X...X                                  X
+- [ ] `lib/edit/s_death.map:70` [row] D:X    XXDXX  XXXX         X.X       XX.......XX                                         X..bX                                  X
+- [ ] `lib/edit/s_death.map:71` [row] D:X    X...XXXX..X         XdX      XX...ccc...XX                                        X...X                                  X
+- [ ] `lib/edit/s_death.map:72` [row] D:X    X...+..D..X         X.X     XX....ccc...dXX                                       X...X                                  X
+- [ ] `lib/edit/s_death.map:73` [row] D:X    X...XXXX..X         X.X    XX.d..ccicc....XX                          XXXXXXXXXXXXXDDDXXXXXXXXXXXX                       X
+- [ ] `lib/edit/s_death.map:74` [row] D:X    XX.XX  XXXX         X.X   XX......ccc..g...XX                        XX......a...............f...XX                      X
+- [ ] `lib/edit/s_death.map:75` [row] D:X     X.X                X.X  XX...g...ccc.......XX                     XXX..f.........................XX            XXXXX    X
+- [ ] `lib/edit/s_death.map:76` [row] D:X     X.X                X.X  X......g.........g..X                    XX..................b....a.......XX           Xa.aX    X
+- [ ] `lib/edit/s_death.map:77` [row] D:X     X.X                XgX  XXXX..XXXXXXX..XXXXXX                   XX.....a.........a..............a..XX          X.a.X    X
+- [ ] `lib/edit/s_death.map:78` [row] D:X     X.X                X.X     X..X     X..X                 XXXXXXXX..........f........................XX         XDXXX    X
+- [ ] `lib/edit/s_death.map:79` [row] D:X     X.X                X.X     Xd.XXXXXXX..XXXXXXX           X.....D...b.................b...f...........XXXXXXXXXXX.X      X
+- [ ] `lib/edit/s_death.map:80` [row] D:X     X.X                X.X     X...c.......D.....X           X.....D...........a..h.............a........D......a....X      X
+- [ ] `lib/edit/s_death.map:81` [row] D:X     X.X                X.X     X.......c.g.D.....X           X...XXXX.....b.............................XXXXXXXXXXXX.X      X
+- [ ] `lib/edit/s_death.map:82` [row] D:X  XXXX.XXXX             X.X     XXXXXXXXXXXXXXXX..XXXXXXX     X...X  XX..............a......a...........XX          X.X      X
+- [ ] `lib/edit/s_death.map:83` [row] D:X  X.......X             X.X                    X........XXXXXXX...X   XX.........f.............f.......XX           X.X      X
+- [ ] `lib/edit/s_death.map:84` [row] D:X  XXX...XXX             X.X                    X..d...............X    XX.....b...........b.........f.XX            XaX      X
+- [ ] `lib/edit/s_death.map:85` [row] D:X  X.......X             X.X                    X........XXXXXXX...X     XX..........b................XX             X.X      X
+- [ ] `lib/edit/s_death.map:86` [row] D:X  XXXX.XXXX             X.X                    XXXXXXXXXX     XXXXX      XXXXXXXXXXXXDDDDDXXXXXXXXXXXX              X.X      X
+- [ ] `lib/edit/s_death.map:87` [row] D:X     X.X                XDXXXXXXXXXXXXXXX                                           X.....X                         X.X      X
+- [ ] `lib/edit/s_death.map:88` [row] D:X     X.X                X..d...e......d.XXXXXXXXXXX      XXXXXXXXXXXX               X.b...X                         X.X      X
+- [ ] `lib/edit/s_death.map:89` [row] D:X     X.X                X....e..g.......D.........X      X.d..gg..eeX             XXX.....XX                        X.X      X
+- [ ] `lib/edit/s_death.map:90` [row] D:X     X.X         XXXXX  X..g..d.....e...XXXXXXXXDDXXXXXXXX....gg..eeXXXXX        XX...XXX..XXX                 XXXXXXDXX     X
+- [ ] `lib/edit/s_death.map:91` [row] D:X     X.X         XeeeX  XDXXXXXXXXXXXXXXX  Xg.d.......D.e..e..gg..eej+3+%       XX....XXX....XXXXXX          XXX...D..aX     X
+- [ ] `lib/edit/s_death.map:92` [row] D:X     X.X         Xeg.X XX.XX               X....e....eD.e.....gg..eedXXX%       X.............X...X          XaD...X...X     X
+- [ ] `lib/edit/s_death.map:93` [row] D:X  XXXX.XXX       XX+XXXX...X               X.d........XXXX....gg..eeXX  % XXXXX XXXXXXXXXXXX..D...X          XXX..aX...X     X
+- [ ] `lib/edit/s_death.map:94` [row] D:X  X......X        XX.......X            XXXX...e...d..XXXX...dgg..eeX   % X...X     XX.....D..XXXXXX           XXXXXXXDXX    X
+- [ ] `lib/edit/s_death.map:95` [row] D:X  X......X         X.g.....XXXXXX       X..D....g..e..Dd.XXXXXXXXXXXX   % XXXDXX    X......X..X....X                X...X    X
+- [ ] `lib/edit/s_death.map:96` [row] D:X  X......X         X...d...DeeeeX       X..XXXXXXXXXXXX..X              +  X...X    XXXXXXXX..X....X                X...X    X
+- [ ] `lib/edit/s_death.map:97` [row] D:X  X......X         X.....e.XXXXXX       XXXX          XXXX              %  X...XXXXXX X....D..D....X         XXXXXXXXDXDXXXX X
+- [ ] `lib/edit/s_death.map:98` [row] D:X  XXXDDXXXXXXXXXXXXXX+XXXXXX                                            %  X....X...X X..XXX..XXXXXXXXX      X.....a..X....X X
+- [ ] `lib/edit/s_death.map:99` [row] D:X    X........%........X                                                 %+%%....D...XXXXXX.D..D.....+.X      X........X....X X
+- [ ] `lib/edit/s_death.map:100` [row] D:X    XXXXXXXXXXXXXXXXXXX                                                    XXXXXX..........X..X.....XXX      XXXXXXXXXXXXXXX X
+- [ ] `lib/edit/s_death.map:101` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/s_death.map:104` [raw] P:51:125

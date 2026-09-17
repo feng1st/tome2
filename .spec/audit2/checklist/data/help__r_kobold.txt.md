@@ -1,0 +1,30 @@
+# 数据清单：lib/help/r_kobold.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_kobold.txt:1` [line] ~~~~~01|Kobold
+- [ ] `lib/help/r_kobold.txt:2` [line] ~~~~~02|Races|Kobold
+- [ ] `lib/help/r_kobold.txt:3` [line] #####R=== Kobolds ===
+- [ ] `lib/help/r_kobold.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_kobold.txt:6` [line] Kobolds are a weak goblin race. They love poisoned weapons, and can learn 
+- [ ] `lib/help/r_kobold.txt:7` [line] to throw poisoned darts (of which they carry an unlimited supply). They 
+- [ ] `lib/help/r_kobold.txt:8` [line] are also inherently resistant to poison, and can become adequate fighters,
+- [ ] `lib/help/r_kobold.txt:9` [line] although they are not one of the more powerful races.
+- [ ] `lib/help/r_kobold.txt:11` [line] #####GStat Modifiers
+- [ ] `lib/help/r_kobold.txt:12` [line] Strength        +1   
+- [ ] `lib/help/r_kobold.txt:13` [line] Intelligence    -1   
+- [ ] `lib/help/r_kobold.txt:14` [line] Wisdom          0   
+- [ ] `lib/help/r_kobold.txt:15` [line] Dexterity       +1   
+- [ ] `lib/help/r_kobold.txt:16` [line] Constitution    0   
+- [ ] `lib/help/r_kobold.txt:17` [line] Charisma        -4       
+- [ ] `lib/help/r_kobold.txt:18` [line] Hit Dice Sides  9         
+- [ ] `lib/help/r_kobold.txt:19` [line] Exp Penalty     +25%
+- [ ] `lib/help/r_kobold.txt:21` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_kobold.txt:22` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_kobold.txt:23` [line] Combat                  
+- [ ] `lib/help/r_kobold.txt:24` [line]   Weaponmastery         1.000           [0.000]
+- [ ] `lib/help/r_kobold.txt:25` [line]   Archery	       -0.800           [0.000]
+- [ ] `lib/help/r_kobold.txt:26` [line] Sneakiness              0.100           [0.000]
+- [ ] `lib/help/r_kobold.txt:27` [line]   Stealth              -1.000           [0.000]
+- [ ] `lib/help/r_kobold.txt:28` [line]   Disarming            -0.200           [0.000]
+- [ ] `lib/help/r_kobold.txt:29` [line] Magic                   
+- [ ] `lib/help/r_kobold.txt:30` [line]   Magic-Device         -0.300           [0.000]
+- [ ] `lib/help/r_kobold.txt:31` [line] Spirituality           -1.000           [0.000]

@@ -1,0 +1,49 @@
+# 数据清单：lib/edit/ba_info.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/ba_info.txt:20` [record] id=0 Nothing | C@21=0:0:0; I@22=0:0:.
+- [ ] `lib/edit/ba_info.txt:24` [record] id=1 Sell an item | C@25=0:0:0; I@26=43:0:s:d
+- [ ] `lib/edit/ba_info.txt:28` [record] id=2 Purchase an item | C@29=0:0:0; I@30=44:0:p:g
+- [ ] `lib/edit/ba_info.txt:32` [record] id=3 Examine an item | C@33=0:0:0; I@34=45:0:x
+- [ ] `lib/edit/ba_info.txt:36` [record] id=4 Steal an item | C@37=0:0:0; I@38=46:0:Z
+- [ ] `lib/edit/ba_info.txt:40` [record] id=5 Rest for the night | C@41=25:20:15; I@42=17:0:r
+- [ ] `lib/edit/ba_info.txt:44` [record] id=6 Buy food and drink | C@45=3:2:1; I@46=18:0:f
+- [ ] `lib/edit/ba_info.txt:48` [record] id=7 Listen for rumours | C@49=0:0:0; I@50=19:0:u
+- [ ] `lib/edit/ba_info.txt:52` [record] id=8 Presage fate | C@53=600:500:480; I@54=42:0:l
+- [ ] `lib/edit/ba_info.txt:56` [record] id=9 In-Between | C@57=0:0:0; I@58=12:0:b
+- [ ] `lib/edit/ba_info.txt:60` [record] id=10 Play craps | C@61=0:0:0; I@62=14:0:c
+- [ ] `lib/edit/ba_info.txt:64` [record] id=12 Play dice slots | C@65=0:0:0; I@66=16:0:d
+- [ ] `lib/edit/ba_info.txt:68` [record] id=13 Game rules | C@69=0:0:0; I@70=13:0:r
+- [ ] `lib/edit/ba_info.txt:72` [record] id=15 Town history | C@73=0:0:0; I@74=2:0:h
+- [ ] `lib/edit/ba_info.txt:76` [record] id=16 Race legends | C@77=0:0:0; I@78=3:0:l
+- [ ] `lib/edit/ba_info.txt:80` [record] id=17 Look at busts of Kings | C@81=0:0:0; I@82=5:0:l
+- [ ] `lib/edit/ba_info.txt:84` [record] id=21 Get quest monster | C@85=0:0:0; I@86=54:0:q
+- [ ] `lib/edit/ba_info.txt:88` [record] id=22 Turn in quest corpse | C@89=0:0:0; I@90=55:0:m
+- [ ] `lib/edit/ba_info.txt:92` [record] id=23 Compare weapons | C@93=220:200:180; I@94=21:0:c
+- [ ] `lib/edit/ba_info.txt:96` [record] id=24 Enchant weapon | C@97=750:700:150; I@98=23:0:w
+- [ ] `lib/edit/ba_info.txt:100` [record] id=25 Enchant armour | C@101=750:700:150; I@102=24:0:a
+- [ ] `lib/edit/ba_info.txt:104` [record] id=26 Recharge item | C@105=350:300:75; I@106=25:0:r
+- [ ] `lib/edit/ba_info.txt:108` [record] id=28 Healing prayer | C@109=600:400:0; I@110=28:0:h
+- [ ] `lib/edit/ba_info.txt:112` [record] id=29 Restoration | C@113=600:500:100; I@114=29:0:r
+- [ ] `lib/edit/ba_info.txt:116` [record] id=30 Get share of stolen gold | C@117=0:0:0; I@118=7:2:g
+- [ ] `lib/edit/ba_info.txt:120` [record] id=31 Enchant arrows | C@121=550:500:100; I@122=30:0:a
+- [ ] `lib/edit/ba_info.txt:124` [record] id=32 Enchant bow | C@125=550:500:100; I@126=31:0:b
+- [ ] `lib/edit/ba_info.txt:128` [record] id=33 Recall to dungeon | C@129=300:200:100; I@130=33:0:r
+- [ ] `lib/edit/ba_info.txt:132` [record] id=34 Teleport to dungeon-level | C@133=15000:10000:1000; I@134=34:0:t
+- [ ] `lib/edit/ba_info.txt:136` [record] id=35 Get a quest | C@137=0:0:0; I@138=6:0:q
+- [ ] `lib/edit/ba_info.txt:140` [record] id=39 Herbal Healing | C@141=32000:10000:0; I@142=50:0:h
+- [ ] `lib/edit/ba_info.txt:144` [record] id=40 Song of Lore | C@145=2000:800:50; I@146=26:0:s
+- [ ] `lib/edit/ba_info.txt:148` [record] id=41 Distribute earnings | C@149=0:0:0; I@150=7:2:d
+- [ ] `lib/edit/ba_info.txt:153` [record] id=43 View fate | C@154=500:500:500; I@155=42:0:v
+- [ ] `lib/edit/ba_info.txt:158` [record] id=44 Research item | C@159=1500:1500:1500; I@160=1:0:a
+- [ ] `lib/edit/ba_info.txt:163` [record] id=47 Recharge item | C@164=1200:1000:150; I@165=25:0:r
+- [ ] `lib/edit/ba_info.txt:168` [record] id=48 Restoration | C@169=1200:1000:200; I@170=29:0:r
+- [ ] `lib/edit/ba_info.txt:173` [record] id=49 Morph restoration | C@174=1500:1500:1500; I@175=37:0:r
+- [ ] `lib/edit/ba_info.txt:178` [record] id=50 Enchant arrows | C@179=1100:1000:200; I@180=30:0:a
+- [ ] `lib/edit/ba_info.txt:183` [record] id=51 Enchant bow | C@184=1100:1000:200; I@185=31:0:b
+- [ ] `lib/edit/ba_info.txt:188` [record] id=52 Enchant armour | C@189=1100:1000:200; I@190=24:0:a
+- [ ] `lib/edit/ba_info.txt:193` [record] id=53 See Healers | C@194=1100:1000:0; I@195=28:0:h
+- [ ] `lib/edit/ba_info.txt:197` [record] id=54 Drop an item | C@198=0:0:0; I@199=43:0:d:s
+- [ ] `lib/edit/ba_info.txt:201` [record] id=55 Get an item | C@202=0:0:0; I@203=44:0:g:p
+- [ ] `lib/edit/ba_info.txt:205` [record] id=59 Donate an item | C@206=0:0:0; I@207=43:0:d
+- [ ] `lib/edit/ba_info.txt:210` [record] id=60 Get a quest | C@211=0:0:0; I@212=56:0:q
+- [ ] `lib/edit/ba_info.txt:214` [record] id=61 Get a quest | C@215=0:0:0; I@216=61:0:q

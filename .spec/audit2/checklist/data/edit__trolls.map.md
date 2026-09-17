@@ -1,0 +1,31 @@
+# 数据清单：lib/edit/trolls.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/trolls.map:2` [feat] F:X:63:3
+- [ ] `lib/edit/trolls.map:5` [feat] F:<:6:3
+- [ ] `lib/edit/trolls.map:8` [feat] F:T:96:3
+- [ ] `lib/edit/trolls.map:11` [feat] F:H:96:1027
+- [ ] `lib/edit/trolls.map:14` [feat] F:.:88:3
+- [ ] `lib/edit/trolls.map:17` [feat] F:;:89:3
+- [ ] `lib/edit/trolls.map:20` [feat] F:f:89:3:297:0:0:0:0:0:2
+- [ ] `lib/edit/trolls.map:23` [feat] F:s:89:3:401:0:0:0:0:0:2
+- [ ] `lib/edit/trolls.map:26` [feat] F:a:89:3:424:0:0:0:0:0:2
+- [ ] `lib/edit/trolls.map:29` [feat] F:b:89:3:493:0:0:0:0:0:2
+- [ ] `lib/edit/trolls.map:32` [feat] F:i:89:3:494:0:0:0:0:0:2
+- [ ] `lib/edit/trolls.map:35` [feat] F:k:89:8:0:396
+- [ ] `lib/edit/trolls.map:38` [feat] F:,:172:6
+- [ ] `lib/edit/trolls.map:41` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/trolls.map:42` [row] D:X..HTTTTTTTTTTTTTTTTTTTTTTTX
+- [ ] `lib/edit/trolls.map:43` [row] D:XH...;TTTTTTTTTTTTTTTTTTTTTX
+- [ ] `lib/edit/trolls.map:44` [row] D:XTTT;;HTTTTTTTTTTTTTa.TTTTTX
+- [ ] `lib/edit/trolls.map:45` [row] D:XTTH.k...TTTHHkTHTs.fTTTTTTX
+- [ ] `lib/edit/trolls.map:46` [row] D:XTTTT;..f.TT.;...HTTTTaTTTTX
+- [ ] `lib/edit/trolls.map:47` [row] D:XTTTTTHT...;......TTT..HTTTX
+- [ ] `lib/edit/trolls.map:48` [row] D:XTTTTTTT;;.k..;k.HH.i.TTTTTX
+- [ ] `lib/edit/trolls.map:49` [row] D:XTTTTTTH.HTHTT..TH.,.HTTTTTX
+- [ ] `lib/edit/trolls.map:50` [row] D:XTTTTT;THTTTTTHTH.bTTTTTTTTX
+- [ ] `lib/edit/trolls.map:51` [row] D:XTTT.f.TTTTTTTaTTs;TTTTTTTTX
+- [ ] `lib/edit/trolls.map:52` [row] D:XTTs..TTTTTTT...fHTTTTTTTTTX
+- [ ] `lib/edit/trolls.map:53` [row] D:XTTTas.TTTTTTTTTTTTTTTTTTTTX
+- [ ] `lib/edit/trolls.map:54` [row] D:XTTTTTTTTTTTTTTTTTTTTTTTTTTX
+- [ ] `lib/edit/trolls.map:55` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/trolls.map:58` [raw] P:3:3

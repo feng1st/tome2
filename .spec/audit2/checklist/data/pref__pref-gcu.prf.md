@@ -1,0 +1,34 @@
+# 数据清单：lib/pref/pref-gcu.prf（hud，逐条/逐行）
+
+- [~] `lib/pref/pref-gcu.prf:17` [A] A:.
+- [~] `lib/pref/pref-gcu.prf:18` [P] P:\e[3~
+- [~] `lib/pref/pref-gcu.prf:20` [A] A:0
+- [~] `lib/pref/pref-gcu.prf:21` [P] P:\e[2~
+- [~] `lib/pref/pref-gcu.prf:26` [A] A:1
+- [~] `lib/pref/pref-gcu.prf:27` [P] P:\e[4~
+- [~] `lib/pref/pref-gcu.prf:28` [P] P:\e[F
+- [~] `lib/pref/pref-gcu.prf:30` [A] A:2
+- [~] `lib/pref/pref-gcu.prf:31` [P] P:\e[B
+- [~] `lib/pref/pref-gcu.prf:33` [A] A:3
+- [~] `lib/pref/pref-gcu.prf:34` [P] P:\e[6~
+- [~] `lib/pref/pref-gcu.prf:36` [A] A:4
+- [~] `lib/pref/pref-gcu.prf:37` [P] P:\e[D
+- [~] `lib/pref/pref-gcu.prf:39` [A] A:5
+- [~] `lib/pref/pref-gcu.prf:40` [P] P:\e[G
+- [~] `lib/pref/pref-gcu.prf:42` [A] A:6
+- [~] `lib/pref/pref-gcu.prf:43` [P] P:\e[C
+- [~] `lib/pref/pref-gcu.prf:45` [A] A:7
+- [~] `lib/pref/pref-gcu.prf:46` [P] P:\e[1~
+- [~] `lib/pref/pref-gcu.prf:47` [P] P:\e[H
+- [~] `lib/pref/pref-gcu.prf:49` [A] A:8
+- [~] `lib/pref/pref-gcu.prf:50` [P] P:\e[A
+- [~] `lib/pref/pref-gcu.prf:52` [A] A:9
+- [~] `lib/pref/pref-gcu.prf:53` [P] P:\e[5~
+- [~] `lib/pref/pref-gcu.prf:58` [A] A:\e
+- [~] `lib/pref/pref-gcu.prf:59` [P] P:\eOP
+- [~] `lib/pref/pref-gcu.prf:61` [A] A:\e
+- [~] `lib/pref/pref-gcu.prf:62` [P] P:\eOQ
+- [~] `lib/pref/pref-gcu.prf:64` [A] A:\e
+- [~] `lib/pref/pref-gcu.prf:65` [P] P:\eOR
+- [~] `lib/pref/pref-gcu.prf:67` [A] A:\e
+- [~] `lib/pref/pref-gcu.prf:68` [P] P:\eOS

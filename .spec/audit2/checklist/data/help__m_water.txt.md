@@ -1,0 +1,32 @@
+# 数据清单：lib/help/m_water.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_water.txt:1` [line] |||||oy
+- [ ] `lib/help/m_water.txt:2` [line] ~~~~~01|Magic|Water School
+- [ ] `lib/help/m_water.txt:3` [line] ~~~~~02|Water Magic
+- [ ] `lib/help/m_water.txt:4` [line] ~~~~~03|Skills|Water - Spell Info
+- [ ] `lib/help/m_water.txt:5` [line] #####R === ToME Magic - Water School ===
+- [ ] `lib/help/m_water.txt:7` [line] The water school of magic contains spells where the element of water is
+- [ ] `lib/help/m_water.txt:8` [line] used to create the final spell effect. There are rumours of a "Tome of the
+- [ ] `lib/help/m_water.txt:9` [line] Everrunning Wave" which contains all the water school spells within its
+- [ ] `lib/help/m_water.txt:10` [line] bindings.
+- [ ] `lib/help/m_water.txt:12` [line] Worshipping the Goddess Yavanna Kementari also gives the ability to cast spells
+- [ ] `lib/help/m_water.txt:13` [line] from the water school at a level of 1/2 of your prayer level. E.g. if the skill
+- [ ] `lib/help/m_water.txt:14` [line] "Spirituality: Prayer" is at level 10, you can cast up to level 5 water school
+- [ ] `lib/help/m_water.txt:15` [line] spells.
+- [ ] `lib/help/m_water.txt:17` [line] #####bWater Spells
+- [ ] `lib/help/m_water.txt:18` [line] There are four spells available for the water school. These Spells are:
+- [ ] `lib/help/m_water.txt:19` [line] 1. [[[[[bGeyser] (school level 1)
+- [ ] `lib/help/m_water.txt:20` [line]    Shoots a geyser of water from your fingertips.
+- [ ] `lib/help/m_water.txt:21` [line]    Sometimes it can blast through its first target.
+- [ ] `lib/help/m_water.txt:22` [line] 2. [[[[[bVapor] (school level 2)
+- [ ] `lib/help/m_water.txt:23` [line]    Fills the air with toxic moisture to wash away annoying creatures.
+- [ ] `lib/help/m_water.txt:24` [line] 3. [[[[[bEnt's Potion] (school level 6)
+- [ ] `lib/help/m_water.txt:25` [line]    Fills up your stomach (i.e. satisfy hunger).
+- [ ] `lib/help/m_water.txt:26` [line]    At spell level 5 it emboldens your heart (boldness).
+- [ ] `lib/help/m_water.txt:27` [line]    At level 12 it make you heroic.
+- [ ] `lib/help/m_water.txt:28` [line] 4. [[[[[bTidal Wave] (school level 16)
+- [ ] `lib/help/m_water.txt:29` [line]    Summons a monstrous tidal wave that will expand and crush monsters under
+- [ ] `lib/help/m_water.txt:30` [line]    its mighty waves.
+- [ ] `lib/help/m_water.txt:31` [line] 5. [[[[[bIce Storm] (school level 22)
+- [ ] `lib/help/m_water.txt:32` [line]    Engulfs you in a storm of roaring cold that strikes your foes.
+- [ ] `lib/help/m_water.txt:33` [line]    At spell level 10 it turns into shards of ice.

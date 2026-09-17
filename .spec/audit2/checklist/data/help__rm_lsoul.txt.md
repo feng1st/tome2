@@ -1,0 +1,23 @@
+# 数据清单：lib/help/rm_lsoul.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_lsoul.txt:1` [line] ~~~~~01|Lost Soul
+- [ ] `lib/help/rm_lsoul.txt:2` [line] ~~~~~02|Race Modifiers|Lost Soul
+- [ ] `lib/help/rm_lsoul.txt:3` [line] #####R=== LostSoul ===
+- [ ] `lib/help/rm_lsoul.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_lsoul.txt:7` [line] #####RThis is a difficult modifier.  Your character will almost always die quickly.
+- [ ] `lib/help/rm_lsoul.txt:8` [line] #####RIt's probably best only to play it after you have some experience with normal
+- [ ] `lib/help/rm_lsoul.txt:9` [line] #####Rcharacters.
+- [ ] `lib/help/rm_lsoul.txt:11` [line] There are haunting whispers of souls that have come back from the Halls of
+- [ ] `lib/help/rm_lsoul.txt:12` [line] Mandos, for purposes unknown.  These are called Lost Souls, for it is presumed
+- [ ] `lib/help/rm_lsoul.txt:13` [line] that their real body died off long ago, leaving only a soul to wander forever...
+- [ ] `lib/help/rm_lsoul.txt:14` [line] or until killed again.
+- [ ] `lib/help/rm_lsoul.txt:15` [line] Lost Souls start at level 98 of the Halls of Mandos.  Very few ever make it out
+- [ ] `lib/help/rm_lsoul.txt:16` [line] again.  Those that do can continue as a fairly normal character, but with the
+- [ ] `lib/help/rm_lsoul.txt:17` [line] advantage of any treasure and experience gained.
+- [ ] `lib/help/rm_lsoul.txt:19` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_lsoul.txt:20` [line] No changes to stats.
+- [ ] `lib/help/rm_lsoul.txt:22` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_lsoul.txt:23` [line] A Lost Soul starts the game with:
+- [ ] `lib/help/rm_lsoul.txt:24` [line]     Some torches.
+- [ ] `lib/help/rm_lsoul.txt:25` [line]     Over thirty scrolls of Identify.
+- [ ] `lib/help/rm_lsoul.txt:26` [line]     Over twenty scrolls of Satisfy Hunger.

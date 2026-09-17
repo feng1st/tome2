@@ -1,0 +1,31 @@
+# 数据清单：lib/help/rm_vamp.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_vamp.txt:1` [line] ~~~~~01|Vampire
+- [ ] `lib/help/rm_vamp.txt:2` [line] ~~~~~02|Race Modifiers|Vampire
+- [ ] `lib/help/rm_vamp.txt:3` [line] #####R=== Vampire ===
+- [ ] `lib/help/rm_vamp.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_vamp.txt:6` [line] One of the mightier undead creatures, the vampire is an awe-inspiring 
+- [ ] `lib/help/rm_vamp.txt:7` [line] sight. Yet this mighty creature has a serious weakness: the bright rays of
+- [ ] `lib/help/rm_vamp.txt:8` [line] sun are its bane, and it will need to flee the surface to the deep 
+- [ ] `lib/help/rm_vamp.txt:9` [line] recesses of the earth until the sun finally sets. Darkness, on the other 
+- [ ] `lib/help/rm_vamp.txt:10` [line] hand, only makes the vampire stronger. Being undead, the vampire has a firm 
+- [ ] `lib/help/rm_vamp.txt:11` [line] hold on its life force, and resists nether attacks. The vampire also 
+- [ ] `lib/help/rm_vamp.txt:12` [line] resists cold and poison based attacks. It is, however, susceptible to its 
+- [ ] `lib/help/rm_vamp.txt:13` [line] perpetual hunger for fresh blood, which can only be satiated by sucking 
+- [ ] `lib/help/rm_vamp.txt:14` [line] the blood from a nearby monster, which is the vampire's special power.
+- [ ] `lib/help/rm_vamp.txt:16` [line] It should be noted that the vampires are so sensitive to daylight that even
+- [ ] `lib/help/rm_vamp.txt:17` [line] certain artifact light items which are filled with daylight will hurt them
+- [ ] `lib/help/rm_vamp.txt:18` [line] if they try to wield the items. Fortunately, the vampires do not really
+- [ ] `lib/help/rm_vamp.txt:19` [line] need these items, since they radiate an aura of 'dark light' of their own.
+- [ ] `lib/help/rm_vamp.txt:20` [line] Light resistance will, in any case, protect the vampire from the adverse
+- [ ] `lib/help/rm_vamp.txt:21` [line] effects of sunlight.
+- [ ] `lib/help/rm_vamp.txt:23` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_vamp.txt:24` [line] Strength       +3   
+- [ ] `lib/help/rm_vamp.txt:25` [line] Intelligence   +2   
+- [ ] `lib/help/rm_vamp.txt:26` [line] Wisdom         -3   
+- [ ] `lib/help/rm_vamp.txt:27` [line] Dexterity      -2   
+- [ ] `lib/help/rm_vamp.txt:28` [line] Constitution   +1   
+- [ ] `lib/help/rm_vamp.txt:29` [line] Charisma       -4      
+- [ ] `lib/help/rm_vamp.txt:30` [line] Hit Dice       +1 side
+- [ ] `lib/help/rm_vamp.txt:31` [line] Spell Points   +0%
+- [ ] `lib/help/rm_vamp.txt:32` [line] Exp penalty    +100%

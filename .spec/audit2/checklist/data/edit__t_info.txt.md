@@ -1,0 +1,28 @@
+# 数据清单：lib/edit/t_info.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_info.txt:6` [include] %:t_pref.txt
+- [ ] `lib/edit/t_info.txt:9` [cond] ?:[AND [EQU $TOWN 1] [EQU $TOWN_DESTROY1 1] ]
+- [ ] `lib/edit/t_info.txt:10` [include] %:t_d_bree.txt
+- [ ] `lib/edit/t_info.txt:11` [cond] ?:[AND [EQU $TOWN 1] [NOT [EQU $TOWN_DESTROY1 1] ] ]
+- [ ] `lib/edit/t_info.txt:12` [include] %:t_bree.txt
+- [ ] `lib/edit/t_info.txt:13` [cond] ?:1
+- [ ] `lib/edit/t_info.txt:16` [cond] ?:[AND [EQU $TOWN 2] [EQU $TOWN_DESTROY2 1] ]
+- [ ] `lib/edit/t_info.txt:17` [include] %:t_d_gond.txt
+- [ ] `lib/edit/t_info.txt:18` [cond] ?:[AND [EQU $TOWN 2] [NOT [EQU $TOWN_DESTROY2 1] ] ]
+- [ ] `lib/edit/t_info.txt:19` [include] %:t_gondol.txt
+- [ ] `lib/edit/t_info.txt:20` [cond] ?:1
+- [ ] `lib/edit/t_info.txt:23` [cond] ?:[AND [EQU $TOWN 3] [EQU $TOWN_DESTROY3 1] ]
+- [ ] `lib/edit/t_info.txt:24` [include] %:t_d_mina.txt
+- [ ] `lib/edit/t_info.txt:25` [cond] ?:[AND [EQU $TOWN 3] [NOT [EQU $TOWN_DESTROY3 1] ] ]
+- [ ] `lib/edit/t_info.txt:26` [include] %:t_minas.txt
+- [ ] `lib/edit/t_info.txt:27` [cond] ?:1
+- [ ] `lib/edit/t_info.txt:30` [cond] ?:[AND [EQU $TOWN 4] [EQU $TOWN_DESTROY4 1] ]
+- [ ] `lib/edit/t_info.txt:31` [include] %:t_d_lori.txt
+- [ ] `lib/edit/t_info.txt:32` [cond] ?:[AND [EQU $TOWN 4] [NOT [EQU $TOWN_DESTROY4 1] ] ]
+- [ ] `lib/edit/t_info.txt:33` [include] %:t_lorien.txt
+- [ ] `lib/edit/t_info.txt:34` [cond] ?:1
+- [ ] `lib/edit/t_info.txt:37` [cond] ?:[AND [EQU $TOWN 5] [EQU $TOWN_DESTROY5 1] ]
+- [ ] `lib/edit/t_info.txt:38` [include] %:t_d_khaz.txt
+- [ ] `lib/edit/t_info.txt:39` [cond] ?:[AND [EQU $TOWN 5] [NOT [EQU $TOWN_DESTROY5 1] ] ]
+- [ ] `lib/edit/t_info.txt:40` [include] %:t_khazad.txt
+- [ ] `lib/edit/t_info.txt:41` [cond] ?:1

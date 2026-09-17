@@ -1,0 +1,36 @@
+# 数据清单：lib/help/rm_zomb.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_zomb.txt:1` [line] ~~~~~01|Zombie
+- [ ] `lib/help/rm_zomb.txt:2` [line] ~~~~~02|Race Modifiers|Zombie
+- [ ] `lib/help/rm_zomb.txt:3` [line] #####R=== Zombie Race ===
+- [ ] `lib/help/rm_zomb.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_zomb.txt:6` [line] Much like Skeletons, zombies too are undead horrors: they are resistant to
+- [ ] `lib/help/rm_zomb.txt:7` [line] life-draining attacks, they become resistant to cold-based attacks (actually
+- [ ] `lib/help/rm_zomb.txt:8` [line] earlier than skeletons), resist poison and can see invisible, while being still
+- [ ] `lib/help/rm_zomb.txt:9` [line] vulnerable to cuts (unlike skeletons). They also gain very little nutrition from
+- [ ] `lib/help/rm_zomb.txt:10` [line] the food of mortals. However, zombies are, as the name implies, practically
+- [ ] `lib/help/rm_zomb.txt:11` [line] mindless.
+- [ ] `lib/help/rm_zomb.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_zomb.txt:14` [line] Strength       +2   
+- [ ] `lib/help/rm_zomb.txt:15` [line] Intelligence   -6   
+- [ ] `lib/help/rm_zomb.txt:16` [line] Wisdom         -6   
+- [ ] `lib/help/rm_zomb.txt:17` [line] Dexterity      +1   
+- [ ] `lib/help/rm_zomb.txt:18` [line] Constitution   +4   
+- [ ] `lib/help/rm_zomb.txt:19` [line] Charisma       -5      
+- [ ] `lib/help/rm_zomb.txt:20` [line] Hit Dice       +3 sides
+- [ ] `lib/help/rm_zomb.txt:21` [line] Spell Points   -30%
+- [ ] `lib/help/rm_zomb.txt:22` [line] Exp Penalty    +45%
+- [ ] `lib/help/rm_zomb.txt:24` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/rm_zomb.txt:25` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/rm_zomb.txt:26` [line] Combat                  
+- [ ] `lib/help/rm_zomb.txt:27` [line]   Weaponmastery         0.500           [0.000]
+- [ ] `lib/help/rm_zomb.txt:28` [line] Sneakiness             -0.100           [0.000]
+- [ ] `lib/help/rm_zomb.txt:29` [line]   Stealth              -1.000           [0.000]
+- [ ] `lib/help/rm_zomb.txt:30` [line]   Disarming            -0.200           [0.000]
+- [ ] `lib/help/rm_zomb.txt:31` [line] Magic                   
+- [ ] `lib/help/rm_zomb.txt:32` [line]   Magic-Device         -0.200           [0.000]
+- [ ] `lib/help/rm_zomb.txt:33` [line] Spirituality            0.500           [0.000]
+- [ ] `lib/help/rm_zomb.txt:35` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_zomb.txt:36` [line] A zombie character begins the game with:
+- [ ] `lib/help/rm_zomb.txt:37` [line]     Some scrolls of satisfy hunger
+- [ ] `lib/help/rm_zomb.txt:38` [line]     Some torches

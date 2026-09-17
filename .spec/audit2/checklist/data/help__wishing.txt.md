@@ -1,0 +1,25 @@
+# 数据清单：lib/help/wishing.txt（text，逐条/逐行）
+
+- [ ] `lib/help/wishing.txt:1` [line] ~~~~~01|Spoilers|Wishing
+- [ ] `lib/help/wishing.txt:2` [line] #####R=== Wishes ===
+- [ ] `lib/help/wishing.txt:4` [line] Some items in ToME will grant the user the ability to "wish" for an
+- [ ] `lib/help/wishing.txt:5` [line] object that they are interested in. As such, these are generally very rare
+- [ ] `lib/help/wishing.txt:6` [line] and very powerful objects.
+- [ ] `lib/help/wishing.txt:8` [line] #####GRules for Wishes
+- [ ] `lib/help/wishing.txt:9` [line] Due to the powerful nature of wishes, there are some rules that govern 
+- [ ] `lib/help/wishing.txt:10` [line] what is able to be wished for. These rules are as follows:
+- [ ] `lib/help/wishing.txt:11` [line] 1. You cannot wish for a wish, or any other item which would grant more
+- [ ] `lib/help/wishing.txt:12` [line]    wishes.
+- [ ] `lib/help/wishing.txt:13` [line] 2. A wish will always generate *one* object. The name must be typed EXACTLY
+- [ ] `lib/help/wishing.txt:14` [line]    as it would appear as an item (case insensitive). So, never put a number, "a"
+- [ ] `lib/help/wishing.txt:15` [line]    or "an" in front of the object you are wishing for.
+- [ ] `lib/help/wishing.txt:16` [line] 3. It is not possible to wish for the magical +'s to the object (i.e. you
+- [ ] `lib/help/wishing.txt:17` [line]    cannot wish for "set of leather gloves of slaying (+10,+10)", but you can wish for
+- [ ] `lib/help/wishing.txt:18` [line]    "set of leather gloves of slaying").
+- [ ] `lib/help/wishing.txt:19` [line] 4. You cannot wish for artifacts, but you *can* wish for excellent (ego)
+- [ ] `lib/help/wishing.txt:20` [line]    items.
+- [ ] `lib/help/wishing.txt:21` [line] 5. You can wish for monsters and ego monsters (e.g. "cave orc", "rogue cave
+- [ ] `lib/help/wishing.txt:22` [line]    orc").
+- [ ] `lib/help/wishing.txt:23` [line] 6. You cannot wish for unique monsters.
+- [ ] `lib/help/wishing.txt:24` [line] 7. You can wish the monster to have a specific flag - a pet, or a foe. 
+- [ ] `lib/help/wishing.txt:25` [line]    Possible flags include: enemy, neutral, friendly, pet, companion.

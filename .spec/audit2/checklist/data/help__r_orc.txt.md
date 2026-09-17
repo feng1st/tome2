@@ -1,0 +1,34 @@
+# 数据清单：lib/help/r_orc.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_orc.txt:1` [line] ~~~~~01|Orc
+- [ ] `lib/help/r_orc.txt:2` [line] ~~~~~02|Races|Orc
+- [ ] `lib/help/r_orc.txt:3` [line] #####R=== Orcs ===
+- [ ] `lib/help/r_orc.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_orc.txt:6` [line] Orcs make excellent warriors and decent priests, but are terrible at magic.
+- [ ] `lib/help/r_orc.txt:7` [line] They are as bad as dwarves at stealth, and horrible at searching, disarming,
+- [ ] `lib/help/r_orc.txt:8` [line] and perception. Orcs are quite ugly, and tend to pay more for goods in town.
+- [ ] `lib/help/r_orc.txt:9` [line] Orcs do make good warriors and rogues, for the simple reason that Orcs tend
+- [ ] `lib/help/r_orc.txt:10` [line] to have great constitutions and lots of hit points. Because of their
+- [ ] `lib/help/r_orc.txt:11` [line] preference for living underground rather than on the surface, orcs resist
+- [ ] `lib/help/r_orc.txt:12` [line] darkness attacks. Upon reaching experience level 3, an orc learns to dispel
+- [ ] `lib/help/r_orc.txt:13` [line] any fear that may be upon him.
+- [ ] `lib/help/r_orc.txt:15` [line] #####GStat Modifiers
+- [ ] `lib/help/r_orc.txt:16` [line] Strength        +2   
+- [ ] `lib/help/r_orc.txt:17` [line] Intelligence    -1   
+- [ ] `lib/help/r_orc.txt:18` [line] Wisdom          0   
+- [ ] `lib/help/r_orc.txt:19` [line] Dexterity       +1   
+- [ ] `lib/help/r_orc.txt:20` [line] Constitution    +1   
+- [ ] `lib/help/r_orc.txt:21` [line] Charisma        -4       
+- [ ] `lib/help/r_orc.txt:22` [line] Hit Dice Sides  10         
+- [ ] `lib/help/r_orc.txt:23` [line] Exp Penalty     +10%
+- [ ] `lib/help/r_orc.txt:25` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_orc.txt:26` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_orc.txt:27` [line] Combat                  
+- [ ] `lib/help/r_orc.txt:28` [line]   Weaponmastery         1.200           [0.000]
+- [ ] `lib/help/r_orc.txt:29` [line]   Archery              -0.500           [0.000]
+- [ ] `lib/help/r_orc.txt:30` [line] Sneakiness              
+- [ ] `lib/help/r_orc.txt:31` [line]   Stealth              -1.000           [0.000]
+- [ ] `lib/help/r_orc.txt:32` [line]   Disarming            -0.300           [0.000]
+- [ ] `lib/help/r_orc.txt:33` [line] Magic                   
+- [ ] `lib/help/r_orc.txt:34` [line]   Magic-Device         -0.300           [0.000]
+- [ ] `lib/help/r_orc.txt:35` [line] Spirituality           -1.000           [0.000]

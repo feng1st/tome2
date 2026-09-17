@@ -1,0 +1,1867 @@
+# 数据清单：lib/help/macrofaq.txt（text，逐条/逐行）
+
+- [ ] `lib/help/macrofaq.txt:1` [line] |||||oy
+- [ ] `lib/help/macrofaq.txt:2` [line] ~~~~~43|Macros
+- [ ] `lib/help/macrofaq.txt:3` [line] ~~~~~44|Keymaps
+- [ ] `lib/help/macrofaq.txt:4` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:5` [line] #####B                          ToME Macro FAQ
+- [ ] `lib/help/macrofaq.txt:7` [line]                  Original Angband Macro FAQ by Jim Lyon
+- [ ] `lib/help/macrofaq.txt:8` [line]                         (jplyon@attglobal.net)
+- [ ] `lib/help/macrofaq.txt:9` [line]                              09-Dec-2000
+- [ ] `lib/help/macrofaq.txt:10` [line]                Compiled from usenet postings to r.g.r.a
+- [ ] `lib/help/macrofaq.txt:11` [line]                   and Angband source & documentation
+- [ ] `lib/help/macrofaq.txt:13` [line] #####B              Edited by Dawnmist (angband@dawnmist.8m.com)
+- [ ] `lib/help/macrofaq.txt:14` [line] #####B                 for PernAngband 5.x.x on 03-Aug-2001
+- [ ] `lib/help/macrofaq.txt:15` [line] #####B                    with permission from Jim Lyon
+- [ ] `lib/help/macrofaq.txt:16` [line] ~~~~~30
+- [ ] `lib/help/macrofaq.txt:17` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:18` [line] #####R1. Introduction
+- [ ] `lib/help/macrofaq.txt:19` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:21` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:22` [line] #####G1.1 About this FAQ
+- [ ] `lib/help/macrofaq.txt:23` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:25` [line] This FAQ is mean to be a companion to the standard ToME help files
+- [ ] `lib/help/macrofaq.txt:26` [line] for using inscriptions, macros, and keymaps. The ToME help files
+- [ ] `lib/help/macrofaq.txt:27` [line] which also describe them are listed in the "References" section.
+- [ ] `lib/help/macrofaq.txt:29` [line] This documentation is for ToME, version 4.2.x.
+- [ ] `lib/help/macrofaq.txt:31` [line] #####B==================================
+- [ ] `lib/help/macrofaq.txt:32` [line] #####B          SPOILER ALERT
+- [ ] `lib/help/macrofaq.txt:33` [line] #####B==================================
+- [ ] `lib/help/macrofaq.txt:35` [line] This document gives some information on how the game does or doesn't
+- [ ] `lib/help/macrofaq.txt:36` [line] work that might be considered spoiling.
+- [ ] `lib/help/macrofaq.txt:37` [line] (Most players advanced enough to use macros probably won't notice.)
+- [ ] `lib/help/macrofaq.txt:39` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:40` [line] #####G1.2 Table of contents
+- [ ] `lib/help/macrofaq.txt:41` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:43` [line]  *****macrofaq.txt*30[1. Introduction]
+- [ ] `lib/help/macrofaq.txt:44` [line]  *****macrofaq.txt*5[2. Quick start tutorial]
+- [ ] `lib/help/macrofaq.txt:45` [line]  *****macrofaq.txt*32[3. Overview]
+- [ ] `lib/help/macrofaq.txt:46` [line]  *****macrofaq.txt*33[4. Common macros and techniques]
+- [ ] `lib/help/macrofaq.txt:47` [line]  *****macrofaq.txt*34[5. Common questions]
+- [ ] `lib/help/macrofaq.txt:48` [line]  *****macrofaq.txt*35[6. Common problems]
+- [ ] `lib/help/macrofaq.txt:49` [line]  *****macrofaq.txt*36[7. Inscriptions added by the game]
+- [ ] `lib/help/macrofaq.txt:50` [line]  *****macrofaq.txt*37[8. Keys and commands]
+- [ ] `lib/help/macrofaq.txt:51` [line]  *****macrofaq.txt*38[9. Pref files]
+- [ ] `lib/help/macrofaq.txt:52` [line] *****macrofaq.txt*39[10. Macro editing commands]
+- [ ] `lib/help/macrofaq.txt:53` [line] *****macrofaq.txt*20[11. Advanced macro techniques]
+- [ ] `lib/help/macrofaq.txt:54` [line] *****macrofaq.txt*41[12. Problems]
+- [ ] `lib/help/macrofaq.txt:55` [line] *****macrofaq.txt*42[13. Miscellaneous]
+- [ ] `lib/help/macrofaq.txt:57` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:58` [line] #####G1.3 Notation
+- [ ] `lib/help/macrofaq.txt:59` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:61` [line] #####BSingle Quotes (')
+- [ ] `lib/help/macrofaq.txt:62` [line] These are generally used to delimit a single character to be typed in.
+- [ ] `lib/help/macrofaq.txt:63` [line] These shouldn't by typed in themselves.
+- [ ] `lib/help/macrofaq.txt:65` [line] #####BDouble Quotes (")
+- [ ] `lib/help/macrofaq.txt:66` [line] These are generally used to delimit a sequence of characters to be
+- [ ] `lib/help/macrofaq.txt:67` [line] typed in. These shouldn't by typed in themselves.
+- [ ] `lib/help/macrofaq.txt:69` [line] #####BParentheses ( )
+- [ ] `lib/help/macrofaq.txt:70` [line] These are generally used for single-key Angband commands.
+- [ ] `lib/help/macrofaq.txt:72` [line] #####BBraces { }
+- [ ] `lib/help/macrofaq.txt:73` [line] These are used to enclose inscriptions. These aren't typed in as part
+- [ ] `lib/help/macrofaq.txt:74` [line] of inscribing an item. They are added by the interface.
+- [ ] `lib/help/macrofaq.txt:76` [line] #####G= Special Keys =
+- [ ] `lib/help/macrofaq.txt:77` [line] #####G-----------------------------------
+- [ ] `lib/help/macrofaq.txt:78` [line] The following abbreviations are used in this document. These keys may
+- [ ] `lib/help/macrofaq.txt:79` [line] be named differently or missing on some keyboards. Some keys may be
+- [ ] `lib/help/macrofaq.txt:80` [line] duplicated. These abbreviations shouldn't be typed in literally. For
+- [ ] `lib/help/macrofaq.txt:81` [line] example, when F1 is encountered in a string of keys to press it means
+- [ ] `lib/help/macrofaq.txt:82` [line] to press the F1 function key, not 'F','1', unless otherwise stated.
+- [ ] `lib/help/macrofaq.txt:83` [line] Additional special keys may be listed later.
+- [ ] `lib/help/macrofaq.txt:85` [line] Alt    Alt
+- [ ] `lib/help/macrofaq.txt:86` [line] Ctrl   Control
+- [ ] `lib/help/macrofaq.txt:87` [line] Del    Delete
+- [ ] `lib/help/macrofaq.txt:88` [line] Esc    Escape
+- [ ] `lib/help/macrofaq.txt:89` [line] Enter	 Enter / Return
+- [ ] `lib/help/macrofaq.txt:90` [line] F1     Function key F1, ...
+- [ ] `lib/help/macrofaq.txt:91` [line] Shift  Shift
+- [ ] `lib/help/macrofaq.txt:93` [line] #####G= System abbreviations =
+- [ ] `lib/help/macrofaq.txt:94` [line] #####G-----------------------------------
+- [ ] `lib/help/macrofaq.txt:95` [line] Each system that ToME compiles on has a semi-standard 3-letter
+- [ ] `lib/help/macrofaq.txt:96` [line] abbreviation. These are commonly referred to in the source and docs
+- [ ] `lib/help/macrofaq.txt:97` [line] using "xxx" as a "wildcard" standing for any one of them. In this
+- [ ] `lib/help/macrofaq.txt:98` [line] document "***" is used instead because there are actual generic files
+- [ ] `lib/help/macrofaq.txt:99` [line] not associated with any specific system that use "xxx". Sometimes this
+- [ ] `lib/help/macrofaq.txt:100` [line] refers to a feature instead of a specific system: "xxx" is used for a
+- [ ] `lib/help/macrofaq.txt:101` [line] generic / default file, and "new" is used for Adam Bolt's tiles.
+- [ ] `lib/help/macrofaq.txt:103` [line] ~~~~~5
+- [ ] `lib/help/macrofaq.txt:104` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:105` [line] #####R2. Quick Start Tutorial
+- [ ] `lib/help/macrofaq.txt:106` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:108` [line] This section is designed to get you quickly using the most common
+- [ ] `lib/help/macrofaq.txt:109` [line] keymaps and macros. Later sections explain the techniques used in more
+- [ ] `lib/help/macrofaq.txt:110` [line] detail. These examples may not be the "best" ones to use in real play.
+- [ ] `lib/help/macrofaq.txt:112` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:113` [line] #####G2.0 Definitions
+- [ ] `lib/help/macrofaq.txt:114` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:116` [line] First, you should know some fundamental terms:
+- [ ] `lib/help/macrofaq.txt:118` [line] Actions are sequences of keypresses that the game can recognise. They
+- [ ] `lib/help/macrofaq.txt:119` [line] can't be recorded by the game, but must be input manually.
+- [ ] `lib/help/macrofaq.txt:121` [line] Macros and keymaps map a keypress to an action. They can be used to
+- [ ] `lib/help/macrofaq.txt:122` [line] customise the keyboard, reduce typing, and speed up game play. Macros
+- [ ] `lib/help/macrofaq.txt:123` [line] must be used when the trigger key doesn't have a system-independent
+- [ ] `lib/help/macrofaq.txt:124` [line] representation. Keymap actions can only contain underlying commands.
+- [ ] `lib/help/macrofaq.txt:125` [line] [[[[[BMost customisation should be done with keymaps instead of macros when]
+- [ ] `lib/help/macrofaq.txt:126` [line] [[[[[Bthere is a choice.]
+- [ ] `lib/help/macrofaq.txt:128` [line] Inscriptions are "markings" which you can put on any game item. One
+- [ ] `lib/help/macrofaq.txt:129` [line] use is to label items in a way that doesn't depend on inventory
+- [ ] `lib/help/macrofaq.txt:130` [line] position. Another allows verifying the selection of an item. Under the
+- [ ] `lib/help/macrofaq.txt:131` [line] right conditions they can save your life.
+- [ ] `lib/help/macrofaq.txt:133` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:134` [line] #####G2.1 Swap weapons
+- [ ] `lib/help/macrofaq.txt:135` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:137` [line] First inscribe your main weapon:
+- [ ] `lib/help/macrofaq.txt:138` [line] (Press the following keys in sequence)
+- [ ] `lib/help/macrofaq.txt:140` [line] 1) {    Inscribe an object
+- [ ] `lib/help/macrofaq.txt:141` [line] 2) *    Show inventory list
+- [ ] `lib/help/macrofaq.txt:142` [line] 3) /    Switch to equipment list
+- [ ] `lib/help/macrofaq.txt:143` [line] 4) a    Main weapon slot
+- [ ] `lib/help/macrofaq.txt:144` [line] 5) @w0  Wield when object 0 is chosen
+- [ ] `lib/help/macrofaq.txt:145` [line] 6)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:147` [line] Now inscribe the second weapon:
+- [ ] `lib/help/macrofaq.txt:149` [line] 1) {    Inscribe an object
+- [ ] `lib/help/macrofaq.txt:150` [line] 2) *    Show inventory list
+- [ ] `lib/help/macrofaq.txt:151` [line] 3)      (Choose letter of second weapon)
+- [ ] `lib/help/macrofaq.txt:152` [line] 4) @w0  Wield when object 0 is chosen
+- [ ] `lib/help/macrofaq.txt:153` [line] 5)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:155` [line] Finally, ToME (unlike standard 'Vanilla' Angband) does
+- [ ] `lib/help/macrofaq.txt:156` [line] not have an automatic trigger key to swap items, so it must be
+- [ ] `lib/help/macrofaq.txt:157` [line] created. Select a key that is not being used for any other commands
+- [ ] `lib/help/macrofaq.txt:158` [line] ('X' in the normal keyset is free - see *****command.txt*0[command.txt]), and create
+- [ ] `lib/help/macrofaq.txt:159` [line] the following keymap:
+- [ ] `lib/help/macrofaq.txt:161` [line] 1) @    Interact with macros
+- [ ] `lib/help/macrofaq.txt:162` [line] 2) 8    Create a keymap
+- [ ] `lib/help/macrofaq.txt:163` [line] 3) X    The trigger key for the keymap
+- [ ] `lib/help/macrofaq.txt:164` [line] 4) w0   Wield object 0
+- [ ] `lib/help/macrofaq.txt:165` [line] 5)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:166` [line] 6)      (Hit Esc to exit the editor)
+- [ ] `lib/help/macrofaq.txt:168` [line] Now to swap weapons, just press the trigger key 'X' which is bound to
+- [ ] `lib/help/macrofaq.txt:169` [line] the default keymap "w0". You may also press "w0" directly to swap.
+- [ ] `lib/help/macrofaq.txt:170` [line] ~~~~~45|Macros|Macro recorder
+- [ ] `lib/help/macrofaq.txt:171` [line] ~~~~~46|Keymaps|Macro recorder
+- [ ] `lib/help/macrofaq.txt:172` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:173` [line] #####G2.2 Using the macro-recorder
+- [ ] `lib/help/macrofaq.txt:174` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:176` [line] You may find all the key-presses involved in ToME a long and time-consuming way 
+- [ ] `lib/help/macrofaq.txt:177` [line] to play the game. There are ways to speed up repeated commands by assigning 
+- [ ] `lib/help/macrofaq.txt:178` [line] them to a trigger key which can help. These are called macros or keymaps.
+- [ ] `lib/help/macrofaq.txt:180` [line] The most obvious use for these in ToME is for mage-types, especially sorcerors, 
+- [ ] `lib/help/macrofaq.txt:181` [line] who rely on their spells for just about everything. Typing mbaa*t in order to 
+- [ ] `lib/help/macrofaq.txt:182` [line] fire a Manathrust is fine if you only have to do it once or twice, but can 
+- [ ] `lib/help/macrofaq.txt:183` [line] quickly get annoying when you're doing it every move. Far easier to assign that
+- [ ] `lib/help/macrofaq.txt:184` [line] sequence of keypresses to a single trigger key which you can then press as many 
+- [ ] `lib/help/macrofaq.txt:185` [line] times as you need. (Until your SP run out of course!)
+- [ ] `lib/help/macrofaq.txt:187` [line] The easiest way to assign a macro is to use the macro-recorder. Start this by 
+- [ ] `lib/help/macrofaq.txt:188` [line] hitting the '$' key. You'll then receive a message telling you that the macro 
+- [ ] `lib/help/macrofaq.txt:189` [line] recorder has now started and you will need to press the '$' key a second time 
+- [ ] `lib/help/macrofaq.txt:190` [line] to stop the recorder. Preparation is all important here. It is best to be in a 
+- [ ] `lib/help/macrofaq.txt:191` [line] situation where you really NEED to cast the spell before recording the macro, 
+- [ ] `lib/help/macrofaq.txt:192` [line] so you use all the correct casting techniques and the game behaves as it would 
+- [ ] `lib/help/macrofaq.txt:193` [line] in a real (combat) situation (if the spell is to be generally cast in combat).
+- [ ] `lib/help/macrofaq.txt:195` [line] So assuming we're going to create a macro for manathrust. We've walked into a 
+- [ ] `lib/help/macrofaq.txt:196` [line] room and there's a nasty small kobold. What do we do? 
+- [ ] `lib/help/macrofaq.txt:198` [line] 1)  $               Start macro recorder
+- [ ] `lib/help/macrofaq.txt:199` [line] 2)  *t              target monster (or player if no monster in Line of sight)
+- [ ] `lib/help/macrofaq.txt:200` [line] 3)  m               open skills menu
+- [ ] `lib/help/macrofaq.txt:201` [line] 4)  @               enters verbose mode
+- [ ] `lib/help/macrofaq.txt:202` [line] 5)  Cast a Spell    selects skill to use - CASE SENSITIVE
+- [ ] `lib/help/macrofaq.txt:203` [line] 6)  @               enters verbose mode
+- [ ] `lib/help/macrofaq.txt:204` [line] 7)  Manathrust      casts spell from any book/spell container - CASE SENSITIVE
+- [ ] `lib/help/macrofaq.txt:205` [line] 8)  $               end macro recorder
+- [ ] `lib/help/macrofaq.txt:206` [line] 9)  y               confirms macro keystrokes[[[[[B*]
+- [ ] `lib/help/macrofaq.txt:207` [line] 10)                 (choose trigger key)
+- [ ] `lib/help/macrofaq.txt:208` [line] 11) @               opens macro saving/loading screen
+- [ ] `lib/help/macrofaq.txt:209` [line] 12) 2               appends macros to a file
+- [ ] `lib/help/macrofaq.txt:210` [line] 13)                 (choose a name for the file, e.g. sorceror.prf)
+- [ ] `lib/help/macrofaq.txt:211` [line] 14)                 (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:212` [line] 15)                 (Hit Esc to exit the editor)
+- [ ] `lib/help/macrofaq.txt:214` [line] This will search for the spell in all your books and equipment. If it is found, 
+- [ ] `lib/help/macrofaq.txt:215` [line] in either a book or a wielded item that contains a spell, then the spell is 
+- [ ] `lib/help/macrofaq.txt:216` [line] cast at the targetted monster.
+- [ ] `lib/help/macrofaq.txt:218` [line] This technique can be used for all the other skills as well (Use Mindcraft, 
+- [ ] `lib/help/macrofaq.txt:219` [line] Forge Ammo) etc.
+- [ ] `lib/help/macrofaq.txt:221` [line] [[[[[B*]If you answer no the recorder continues recording keypresses. If
+- [ ] `lib/help/macrofaq.txt:222` [line] you know you have made a mistake, you need to answer yes, and then not
+- [ ] `lib/help/macrofaq.txt:223` [line] save the macro!
+- [ ] `lib/help/macrofaq.txt:225` [line] ~~~~~12
+- [ ] `lib/help/macrofaq.txt:226` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:227` [line] #####G2.3 Prevent unwanted use of an item
+- [ ] `lib/help/macrofaq.txt:228` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:230` [line] #####BPrevent "losing" an item by "accident":
+- [ ] `lib/help/macrofaq.txt:232` [line] 1) {    Inscribe an object
+- [ ] `lib/help/macrofaq.txt:233` [line] 2) *    Show inventory list
+- [ ] `lib/help/macrofaq.txt:234` [line] 3)      (Choose an item)
+- [ ] `lib/help/macrofaq.txt:235` [line] 4) !d!k!v
+- [ ] `lib/help/macrofaq.txt:236` [line]         !d - don't drop (d)
+- [ ] `lib/help/macrofaq.txt:237` [line]         !k - don't destroy (k)
+- [ ] `lib/help/macrofaq.txt:238` [line]         !v - don't throw (v)
+- [ ] `lib/help/macrofaq.txt:239` [line] 5)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:241` [line] This prevents dropping, destroying, or throwing the item. You will be
+- [ ] `lib/help/macrofaq.txt:242` [line] asked if you really want to do so. This is one of the most common
+- [ ] `lib/help/macrofaq.txt:243` [line] inscriptions used, and one of the most useful.
+- [ ] `lib/help/macrofaq.txt:245` [line] #####BPrevent "using" an item at all:
+- [ ] `lib/help/macrofaq.txt:247` [line] 1) {    Inscribe an object
+- [ ] `lib/help/macrofaq.txt:248` [line] 2) *    Show inventory list
+- [ ] `lib/help/macrofaq.txt:249` [line] 3)      (Choose an item)
+- [ ] `lib/help/macrofaq.txt:250` [line] 4) !*   Don't do anything with this item without verifying
+- [ ] `lib/help/macrofaq.txt:251` [line] 5)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:253` [line] This inscription is commonly used on Scrolls of Word of Recall...
+- [ ] `lib/help/macrofaq.txt:254` [line] ~~~~~8
+- [ ] `lib/help/macrofaq.txt:255` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:256` [line] #####G2.4 Saving these macros and keymaps for reuse
+- [ ] `lib/help/macrofaq.txt:257` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:259` [line] Save the macros and keymaps for reuse by the current character:
+- [ ] `lib/help/macrofaq.txt:261` [line] 1) @    Interact with macros
+- [ ] `lib/help/macrofaq.txt:262` [line] 2) 2    Append macros to a file
+- [ ] `lib/help/macrofaq.txt:263` [line]         (optionally enter a filename: e.g. dump.prf or dump.txt)
+- [ ] `lib/help/macrofaq.txt:264` [line]         (Hit Enter to save the file with the filename shown)
+- [ ] `lib/help/macrofaq.txt:265` [line] 3) 6    Append keymaps to a file
+- [ ] `lib/help/macrofaq.txt:266` [line]         (Hit Enter to save the file with the filename shown)
+- [ ] `lib/help/macrofaq.txt:267` [line] 4)      (Hit Esc to exit the editor)
+- [ ] `lib/help/macrofaq.txt:269` [line] This pref file will be automatically loaded any time a character with
+- [ ] `lib/help/macrofaq.txt:270` [line] a name, race, or class matching the filename is loaded.
+- [ ] `lib/help/macrofaq.txt:272` [line] The "Append macros/keymaps to a file" commands will append ALL current
+- [ ] `lib/help/macrofaq.txt:273` [line] macros/keymaps to the given file. They will not overwrite the file.
+- [ ] `lib/help/macrofaq.txt:275` [line] You should edit the file to remove macros that weren't added by you,
+- [ ] `lib/help/macrofaq.txt:276` [line] to reduce clutter and prevent errors. Unfortunately the best way to do
+- [ ] `lib/help/macrofaq.txt:277` [line] this is still "by hand". Open up the pref file in a text editor and
+- [ ] `lib/help/macrofaq.txt:278` [line] remove the duplicate macros and keymaps added. These will be added
+- [ ] `lib/help/macrofaq.txt:279` [line] after the headers "# Automatic macro dump" and "# Automatic keymap
+- [ ] `lib/help/macrofaq.txt:280` [line] dump". The ones you added will be the very last ones in the list. The
+- [ ] `lib/help/macrofaq.txt:281` [line] others are the entire set of keymaps and macros from all other prefs
+- [ ] `lib/help/macrofaq.txt:282` [line] loaded. (This step isn't necessary, but is very helpful.)
+- [ ] `lib/help/macrofaq.txt:284` [line] ~~~~~32
+- [ ] `lib/help/macrofaq.txt:285` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:286` [line] #####R3. Overview
+- [ ] `lib/help/macrofaq.txt:287` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:289` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:290` [line] #####G3.1 Inscriptions
+- [ ] `lib/help/macrofaq.txt:291` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:293` [line] Inscriptions are "markings" which you can inscribe on any game item.
+- [ ] `lib/help/macrofaq.txt:295` [line] One common use is recording where you got one of your favorite items.
+- [ ] `lib/help/macrofaq.txt:296` [line] Example: The Broad Sword 'Glamdring' (2d5) (+10,+15) {icky thing, 50'!}
+- [ ] `lib/help/macrofaq.txt:298` [line] Another is to note important resists or activations on an item to make
+- [ ] `lib/help/macrofaq.txt:299` [line] figuring out resist combinations easier.
+- [ ] `lib/help/macrofaq.txt:300` [line] Example: The Nice Shiny Armor (-3) [35,+25] {resDk,resDis,A:Geno}
+- [ ] `lib/help/macrofaq.txt:302` [line] Inscriptions can "number" an item so that you don't have to know where
+- [ ] `lib/help/macrofaq.txt:303` [line] it is in your inventory.
+- [ ] `lib/help/macrofaq.txt:304` [line] Example: inscribing your scrolls {@r1} lets you use '1' at the prompt
+- [ ] `lib/help/macrofaq.txt:305` [line] for which scroll to read, instead of having to use the inventory letter,
+- [ ] `lib/help/macrofaq.txt:306` [line] which can change unnoticed.
+- [ ] `lib/help/macrofaq.txt:308` [line] Number inscriptions work together with macros to allow reproducible
+- [ ] `lib/help/macrofaq.txt:309` [line] labeling of items independent of inventory position.
+- [ ] `lib/help/macrofaq.txt:311` [line] Note that the game produces "fake" inscriptions, which look like real
+- [ ] `lib/help/macrofaq.txt:312` [line] inscriptions, but are really just displayed the same way (e.g. "cursed").
+- [ ] `lib/help/macrofaq.txt:314` [line] Finally, if you are in symbiosis with another creature, you can name it by
+- [ ] `lib/help/macrofaq.txt:315` [line] inscribing it with "#named SomeName" (the word "#named" must be entered
+- [ ] `lib/help/macrofaq.txt:316` [line] literally at the start of the inscription).  This will tell the game that
+- [ ] `lib/help/macrofaq.txt:317` [line] your symbiotic partner should be referred to by its name, rather than simply
+- [ ] `lib/help/macrofaq.txt:318` [line] "Your white jelly".  This has no effect on game play other than the aesthetic.
+- [ ] `lib/help/macrofaq.txt:320` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:321` [line] #####G3.2 Macros
+- [ ] `lib/help/macrofaq.txt:322` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:324` [line] Macros are mappings from a single "logical" keypress to a sequence of
+- [ ] `lib/help/macrofaq.txt:325` [line] keypresses, allowing you to use special keys on the keyboard, such as
+- [ ] `lib/help/macrofaq.txt:326` [line] function keys or keypad keys, possibly in conjunction with modifier
+- [ ] `lib/help/macrofaq.txt:327` [line] keys, to "automate" repetitive multi-key commands that you use a lot.
+- [ ] `lib/help/macrofaq.txt:329` [line] [[[[[BFor keys which don't have a system-independent representation, such as]
+- [ ] `lib/help/macrofaq.txt:330` [line] [[[[[Bfunction keys, this is the only way to change their behavior.]
+- [ ] `lib/help/macrofaq.txt:332` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:333` [line] #####G3.3 Keymaps
+- [ ] `lib/help/macrofaq.txt:334` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:336` [line] Keymaps are vaguely related to macros. A keymap maps a single keypress
+- [ ] `lib/help/macrofaq.txt:337` [line] to a series of keypresses, which bypass both other keymaps and any
+- [ ] `lib/help/macrofaq.txt:338` [line] macros. Angband uses keymaps to map the original and the roguelike
+- [ ] `lib/help/macrofaq.txt:339` [line] keysets to the underlying command set, and allows the user to modify or
+- [ ] `lib/help/macrofaq.txt:340` [line] add keymaps of their own. All keymap actions must be specified using
+- [ ] `lib/help/macrofaq.txt:341` [line] underlying commands. Keymaps and macros aren't expanded. The original
+- [ ] `lib/help/macrofaq.txt:342` [line] keyset is almost identical to the underlying keyset, except that
+- [ ] `lib/help/macrofaq.txt:343` [line] "numbers" are mapped to ";" plus a direction, "5" is mapped to ",",
+- [ ] `lib/help/macrofaq.txt:344` [line] and a few control-keys are mapped to various things. See *****command.txt*0[command.txt]
+- [ ] `lib/help/macrofaq.txt:345` [line] for the full set of underlying commands. Keymaps also allow the
+- [ ] `lib/help/macrofaq.txt:346` [line] "disabling" of a command by mapping it to "\x00".
+- [ ] `lib/help/macrofaq.txt:348` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:349` [line] #####G3.4 Pref files
+- [ ] `lib/help/macrofaq.txt:350` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:352` [line] Preference files save commands such as macros and keymaps which are
+- [ ] `lib/help/macrofaq.txt:353` [line] used to customise the game. They are used to implement the "original"
+- [ ] `lib/help/macrofaq.txt:354` [line] and "roguelike" keysets. They provide default appearances for items.
+- [ ] `lib/help/macrofaq.txt:356` [line] They also implement the default behaviors which make Angband look and
+- [ ] `lib/help/macrofaq.txt:357` [line] play the same (for the most part) on different systems.
+- [ ] `lib/help/macrofaq.txt:359` [line] Pref files can be saved with the name of a player name, class, and
+- [ ] `lib/help/macrofaq.txt:360` [line] race, and anytime a player with a matching characteristic is loaded,
+- [ ] `lib/help/macrofaq.txt:361` [line] the appropriate pref file is loaded. This makes some customisations
+- [ ] `lib/help/macrofaq.txt:362` [line] transparent and automatic.
+- [ ] `lib/help/macrofaq.txt:364` [line] Pref files let you do some things that could otherwise only reasonably
+- [ ] `lib/help/macrofaq.txt:365` [line] be done by changing the info files or source, such as changing the
+- [ ] `lib/help/macrofaq.txt:366` [line] appearance of a given terrain feature, or the symbol used for the
+- [ ] `lib/help/macrofaq.txt:367` [line] player.
+- [ ] `lib/help/macrofaq.txt:369` [line] Pref files let you set up and save your favorite game options, and
+- [ ] `lib/help/macrofaq.txt:370` [line] have them available for new characters without having to redo them.
+- [ ] `lib/help/macrofaq.txt:372` [line] ~~~~~33
+- [ ] `lib/help/macrofaq.txt:373` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:374` [line] #####R4. Common macros and techniques
+- [ ] `lib/help/macrofaq.txt:375` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:376` [line] ~~~~~13
+- [ ] `lib/help/macrofaq.txt:377` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:378` [line] #####G4.1 Clearing the command buffer
+- [ ] `lib/help/macrofaq.txt:379` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:381` [line] [[[[[v++++++++++ This is one of the most important techniques! ++++++++++]
+- [ ] `lib/help/macrofaq.txt:383` [line] Almost all action strings should begin with a sequence to clear the
+- [ ] `lib/help/macrofaq.txt:384` [line] buffer of existing commands and messages. These sequences are often
+- [ ] `lib/help/macrofaq.txt:385` [line] omitted in usenet postings and in this FAQ because they clutter the
+- [ ] `lib/help/macrofaq.txt:386` [line] description, but they should almost always be used.
+- [ ] `lib/help/macrofaq.txt:388` [line] If an unfinished command is still waiting for input when you press the
+- [ ] `lib/help/macrofaq.txt:389` [line] trigger key of a macro or keymap, the characters of its action string
+- [ ] `lib/help/macrofaq.txt:390` [line] will be taken as input for the command. The command will ignore keys
+- [ ] `lib/help/macrofaq.txt:391` [line] it doesn't know how to handle until it finds one that it does. This
+- [ ] `lib/help/macrofaq.txt:392` [line] often leads to something completely unexpected, with embarrassing
+- [ ] `lib/help/macrofaq.txt:393` [line] results such as your death, or losing a really nifty item.
+- [ ] `lib/help/macrofaq.txt:395` [line] If there are still messages waiting, the first characters in the
+- [ ] `lib/help/macrofaq.txt:396` [line] action will instead just clear the waiting messages. How this happens
+- [ ] `lib/help/macrofaq.txt:397` [line] depends on whether the *****option.txt*1[option (quick_messages)] is set. Then the action
+- [ ] `lib/help/macrofaq.txt:398` [line] will start executing in the middle of its action string, with equally
+- [ ] `lib/help/macrofaq.txt:399` [line] dangerous results as in the above case. Note that some messages caused
+- [ ] `lib/help/macrofaq.txt:400` [line] by a command are quite rare, and others could be produced by a game
+- [ ] `lib/help/macrofaq.txt:401` [line] state change like becoming hungry that has nothing to do with the command.
+- [ ] `lib/help/macrofaq.txt:403` [line] These types of problems are more common when using an action such as
+- [ ] `lib/help/macrofaq.txt:404` [line] auto-firing where a trigger key is repeatedly pressed.
+- [ ] `lib/help/macrofaq.txt:406` [line] [[[[[B"\e\e\e"]
+- [ ] `lib/help/macrofaq.txt:407` [line] Multiple escapes are used to clear the command buffer. Escape cancels
+- [ ] `lib/help/macrofaq.txt:408` [line] any command/input still being processed, and also clears a [single]
+- [ ] `lib/help/macrofaq.txt:409` [line] message whether/not the (quick_messages) option is set. This string
+- [ ] `lib/help/macrofaq.txt:410` [line] should be used to begin all action strings. It is also wise to put it
+- [ ] `lib/help/macrofaq.txt:411` [line] between actions in multi-action macros. Note that this technique can
+- [ ] `lib/help/macrofaq.txt:412` [line] also be dangerous, hiding warnings or important information.
+- [ ] `lib/help/macrofaq.txt:413` [line] Example: an action like "*tf1" would be changed to "\e\e\e*tf1".
+- [ ] `lib/help/macrofaq.txt:415` [line] There are a few situations in which you do not want to use escapes.
+- [ ] `lib/help/macrofaq.txt:416` [line] For example, after the spell Detect Monsters, an escape will clear the
+- [ ] `lib/help/macrofaq.txt:417` [line] detection. Or if the action is part of a multi-part action or is meant
+- [ ] `lib/help/macrofaq.txt:418` [line] to wait for user input such as the firing action "f1" which will wait
+- [ ] `lib/help/macrofaq.txt:419` [line] for targeting information.
+- [ ] `lib/help/macrofaq.txt:421` [line] [[[[[B"\s\s\s"]
+- [ ] `lib/help/macrofaq.txt:422` [line] Spaces are useful for clearing messages, but won't cancel a command
+- [ ] `lib/help/macrofaq.txt:423` [line] that is waiting for an item choice. Sometimes it is useful to split
+- [ ] `lib/help/macrofaq.txt:424` [line] an action into two parts and bind them to two separate trigger keys.
+- [ ] `lib/help/macrofaq.txt:425` [line] Prefixing spaces before the 2nd action will discard any remaining
+- [ ] `lib/help/macrofaq.txt:426` [line] messages without canceling unfinished commands from the 1st one. Some
+- [ ] `lib/help/macrofaq.txt:427` [line] players create a macro consisting of a large number of spaces to be
+- [ ] `lib/help/macrofaq.txt:428` [line] used to clear a flood of messages.
+- [ ] `lib/help/macrofaq.txt:430` [line] See sections:
+- [ ] `lib/help/macrofaq.txt:431` [line] - *****macrofaq.txt*1["Messages and Questions"] for how to deal with them.
+- [ ] `lib/help/macrofaq.txt:432` [line] - *****macrofaq.txt*2["My macro outputs "e - Floating Eye"..."] for an example of a common
+- [ ] `lib/help/macrofaq.txt:433` [line]   mistake using escape sequences.
+- [ ] `lib/help/macrofaq.txt:434` [line] - *****macrofaq.txt*3["My macro drops/takes off my main weapon!"] for an example of the
+- [ ] `lib/help/macrofaq.txt:435` [line]   kind of thing that can go wrong when you fail to use them.
+- [ ] `lib/help/macrofaq.txt:436` [line] - *****macrofaq.txt*4["What just killed me?"] for an example of skipping over messages
+- [ ] `lib/help/macrofaq.txt:437` [line]   *too* fast.
+- [ ] `lib/help/macrofaq.txt:439` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:440` [line] #####G4.2 Swap weapons
+- [ ] `lib/help/macrofaq.txt:441` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:443` [line] If you followed the *****macrofaq.txt*5[Quick-Start Tutorial] in Section 2.1, the 'X' key has
+- [ ] `lib/help/macrofaq.txt:444` [line] the keymapping "w0", which will wield the first item inscribed as "@0"
+- [ ] `lib/help/macrofaq.txt:445` [line] or "@w0". This will swap between 2 weapons which are both inscribed with
+- [ ] `lib/help/macrofaq.txt:446` [line] {@0} or {@w0}. If there is more than one item in the inventory inscribed
+- [ ] `lib/help/macrofaq.txt:447` [line] as 0, it will use the first one.
+- [ ] `lib/help/macrofaq.txt:449` [line] This will also work for other wieldable items. For example, if you
+- [ ] `lib/help/macrofaq.txt:450` [line] have a helm which gives telepathy, which can be a real pain when you
+- [ ] `lib/help/macrofaq.txt:451` [line] need to rest, it can be used to swap it with another helm.
+- [ ] `lib/help/macrofaq.txt:453` [line] Inscribing weapons with {@w1@w0}, {@w2@w0} allows directly wielding a
+- [ ] `lib/help/macrofaq.txt:454` [line] specific one. If you don't want that ability, you can just inscribe
+- [ ] `lib/help/macrofaq.txt:455` [line] both with {@w0}. These can also be inscribed as just {@1@0} and {@2@0}
+- [ ] `lib/help/macrofaq.txt:456` [line] if you don't inscribe any other items with numbers, although this is
+- [ ] `lib/help/macrofaq.txt:457` [line] not recommended.
+- [ ] `lib/help/macrofaq.txt:460` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:461` [line] #####G4.3 Resting
+- [ ] `lib/help/macrofaq.txt:462` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:464` [line] #####B= Rest as needed =
+- [ ] `lib/help/macrofaq.txt:465` [line] "R&\r"
+- [ ] `lib/help/macrofaq.txt:466` [line] R   - rest
+- [ ] `lib/help/macrofaq.txt:467` [line] &   - until 100% healthy
+- [ ] `lib/help/macrofaq.txt:468` [line] \r  - return.
+- [ ] `lib/help/macrofaq.txt:470` [line] Note that this isn't particularly dangerous, because the game will
+- [ ] `lib/help/macrofaq.txt:471` [line] break out of the resting command if you are disturbed by hunger,
+- [ ] `lib/help/macrofaq.txt:472` [line] sensing a monster, ...
+- [ ] `lib/help/macrofaq.txt:474` [line] #####B= Rest for a specific duration =
+- [ ] `lib/help/macrofaq.txt:475` [line] "R100\r"
+- [ ] `lib/help/macrofaq.txt:476` [line] R   - rest
+- [ ] `lib/help/macrofaq.txt:477` [line] 100 - turn count
+- [ ] `lib/help/macrofaq.txt:478` [line] \r  - return
+- [ ] `lib/help/macrofaq.txt:480` [line] This version is useful if you are already healed up. For fighter
+- [ ] `lib/help/macrofaq.txt:481` [line] pseudo-id, for example. Also useful for recovering a fixed amount of
+- [ ] `lib/help/macrofaq.txt:482` [line] mana before/after a spell, waiting for a Recall spell to kick in,...
+- [ ] `lib/help/macrofaq.txt:484` [line] Note that this is one of the few times when you can directly enter the
+- [ ] `lib/help/macrofaq.txt:485` [line] count after the command. Usually you need to enter the count before
+- [ ] `lib/help/macrofaq.txt:486` [line] the command, using the (0) count command.
+- [ ] `lib/help/macrofaq.txt:488` [line] #####B= Maximum Rest =
+- [ ] `lib/help/macrofaq.txt:489` [line] "R9999\r"
+- [ ] `lib/help/macrofaq.txt:491` [line] The maximum number of turns you can use as an argument. This can be
+- [ ] `lib/help/macrofaq.txt:492` [line] useful when waiting for shop inventory to change, etc. Be sure to take
+- [ ] `lib/help/macrofaq.txt:493` [line] off any non-permanent light source, and have plenty of food when you
+- [ ] `lib/help/macrofaq.txt:494` [line] rest for long periods of time.
+- [ ] `lib/help/macrofaq.txt:496` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:497` [line] #####G4.4 Activate the phial
+- [ ] `lib/help/macrofaq.txt:498` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:500` [line] "Am\s\s"
+- [ ] `lib/help/macrofaq.txt:501` [line] A   - Activate
+- [ ] `lib/help/macrofaq.txt:502` [line] m   - light source (the phial).
+- [ ] `lib/help/macrofaq.txt:503` [line] \s  - skip message
+- [ ] `lib/help/macrofaq.txt:504` [line] \s  - skip message
+- [ ] `lib/help/macrofaq.txt:506` [line] "Am\s\sR50\r"
+- [ ] `lib/help/macrofaq.txt:507` [line] Activate the phial and rest for 50 turns.
+- [ ] `lib/help/macrofaq.txt:509` [line] This can be bound to 'F' key since you won't need to refuel lanterns
+- [ ] `lib/help/macrofaq.txt:510` [line] much after you have the phial :).
+- [ ] `lib/help/macrofaq.txt:512` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:513` [line] #####G4.5 Kill item(s) on floor
+- [ ] `lib/help/macrofaq.txt:514` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:516` [line] The need to destroy large numbers of items arises as one reaches
+- [ ] `lib/help/macrofaq.txt:517` [line] deeper levels of the dungeon. The auto-squelch feature only partially
+- [ ] `lib/help/macrofaq.txt:518` [line] reduces the need for this. The behavior of these actions is affected
+- [ ] `lib/help/macrofaq.txt:519` [line] by the option (quick_messages), and the possible presence of a pile of
+- [ ] `lib/help/macrofaq.txt:520` [line] items on the floor.
+- [ ] `lib/help/macrofaq.txt:522` [line] *****option.txt*1[(quick_messages)] allows any key to cancel a message.
+- [ ] `lib/help/macrofaq.txt:524` [line] In ToME, multiple items on the floor are displayed in a list.
+- [ ] `lib/help/macrofaq.txt:525` [line] This allows the player to select an item from the floor by entering an
+- [ ] `lib/help/macrofaq.txt:526` [line] item index when there is a pile (more than one item). This generally
+- [ ] `lib/help/macrofaq.txt:527` [line] complicates writing these macros.
+- [ ] `lib/help/macrofaq.txt:529` [line] Note that space '\s' is used to clear messages in the action strings,
+- [ ] `lib/help/macrofaq.txt:530` [line] but one could use escape '\e' just as well.
+- [ ] `lib/help/macrofaq.txt:532` [line] Note: you cannot destroy artifacts, so these macros are safer and more
+- [ ] `lib/help/macrofaq.txt:533` [line] useful than they might first appear. The (k) Destroy item command will
+- [ ] `lib/help/macrofaq.txt:534` [line] fail when trying to destroy an artifact, leaving any following
+- [ ] `lib/help/macrofaq.txt:535` [line] characters in the action string, which may be interpreted differently
+- [ ] `lib/help/macrofaq.txt:536` [line] than anticipated.
+- [ ] `lib/help/macrofaq.txt:538` [line] [[[[[B"k-yy"]
+- [ ] `lib/help/macrofaq.txt:539` [line] k   - Kill item
+- [ ] `lib/help/macrofaq.txt:540` [line] -   - Select item from floor
+- [ ] `lib/help/macrofaq.txt:541` [line] y   - "yes" to query "Really destroy a <item>?"
+- [ ] `lib/help/macrofaq.txt:542` [line] y   - skip the "you destroy the <item>" message.
+- [ ] `lib/help/macrofaq.txt:544` [line] This version only works when (quick_messages) option is on. Here the
+- [ ] `lib/help/macrofaq.txt:545` [line] last 'y' key gets rid of the last message, since any key will. This
+- [ ] `lib/help/macrofaq.txt:546` [line] won't work for piles. The 'y' will be ignored as an invalid item choice.
+- [ ] `lib/help/macrofaq.txt:548` [line] [[[[[B"k-y\s"]
+- [ ] `lib/help/macrofaq.txt:549` [line] k   - Kill item
+- [ ] `lib/help/macrofaq.txt:550` [line] -   - Select item from floor
+- [ ] `lib/help/macrofaq.txt:551` [line] y   - "yes" to query "Really destroy a <item>?"
+- [ ] `lib/help/macrofaq.txt:552` [line] \s  - skip the "you destroy the <item>" message.
+- [ ] `lib/help/macrofaq.txt:554` [line] This version works as above, but also when (quick_messages) is off.
+- [ ] `lib/help/macrofaq.txt:556` [line] [[[[[B"0k-y\s"]
+- [ ] `lib/help/macrofaq.txt:557` [line] 0   - enter count (causes to skip prompt for how many to destroy)
+- [ ] `lib/help/macrofaq.txt:558` [line] k   - Kill item
+- [ ] `lib/help/macrofaq.txt:559` [line] -   - Select item from floor
+- [ ] `lib/help/macrofaq.txt:560` [line] \s  - skip the "you destroy the <item>" message.
+- [ ] `lib/help/macrofaq.txt:562` [line] Destroy a single item on floor below you. Doesn't prompt for a count.
+- [ ] `lib/help/macrofaq.txt:563` [line] This won't work for piles, which will prompt you for the item. Works
+- [ ] `lib/help/macrofaq.txt:564` [line] correctly when (quick_messages) is off, because there is no prompt
+- [ ] `lib/help/macrofaq.txt:565` [line] for how many to destroy.
+- [ ] `lib/help/macrofaq.txt:567` [line] [[[[[B"0k-ay\e"]
+- [ ] `lib/help/macrofaq.txt:568` [line] 0   - enter count (causes to skip prompt for how many to destroy)
+- [ ] `lib/help/macrofaq.txt:569` [line] k   - Kill item
+- [ ] `lib/help/macrofaq.txt:570` [line] -   - Select item from floor
+- [ ] `lib/help/macrofaq.txt:571` [line] a   - either item 'a', or ignored
+- [ ] `lib/help/macrofaq.txt:572` [line] \e  - escape (ignored), or cancel message
+- [ ] `lib/help/macrofaq.txt:574` [line] Destroy a single item on floor below you. Doesn't ask to confirm.
+- [ ] `lib/help/macrofaq.txt:575` [line] [[[[[vWARNING:] This action can destroy the first item in your inventory if
+- [ ] `lib/help/macrofaq.txt:576` [line] there aren't any items on the floor below you!
+- [ ] `lib/help/macrofaq.txt:578` [line] The leading '0' causes a prompt for a count to be skipped. If there is
+- [ ] `lib/help/macrofaq.txt:579` [line] a pile, the 'a' key will select the top item in the pile. If not, the
+- [ ] `lib/help/macrofaq.txt:580` [line] 'a' will aim a wand, the following 'y' will be ignored, and the final
+- [ ] `lib/help/macrofaq.txt:581` [line] escape will cancel the aiming.
+- [ ] `lib/help/macrofaq.txt:583` [line] [[[[[B"0k-yay\e"]
+- [ ] `lib/help/macrofaq.txt:584` [line] 0   - enter count (causes to skip prompt for how many to destroy)
+- [ ] `lib/help/macrofaq.txt:585` [line] k   - Kill item
+- [ ] `lib/help/macrofaq.txt:586` [line] -   - Select item from floor
+- [ ] `lib/help/macrofaq.txt:587` [line] y   - "yes" to query "Really destroy a <item>?", or ignored.
+- [ ] `lib/help/macrofaq.txt:588` [line] a   - top item (a) in a pile, or activate wand.
+- [ ] `lib/help/macrofaq.txt:589` [line] y   - "yes" to query "Really destroy a <item>?" (for piles).
+- [ ] `lib/help/macrofaq.txt:590` [line] \e  - skip the "you destroy the <item>" message.
+- [ ] `lib/help/macrofaq.txt:592` [line] The above action will work in most cases. This version works correctly
+- [ ] `lib/help/macrofaq.txt:593` [line] for piles. If there is a pile, the 'y' is ignored and the 'a' selects
+- [ ] `lib/help/macrofaq.txt:594` [line] the top item. If there isn't a pile, then the 'y' will correctly answer
+- [ ] `lib/help/macrofaq.txt:595` [line] the yes/no question "Really destroy a <item>?", and the following "ay"
+- [ ] `lib/help/macrofaq.txt:596` [line] will aim a rod, and then ignore the 'y' key press, and the final escape
+- [ ] `lib/help/macrofaq.txt:597` [line] will cancel the aiming. Works correctly when (quick_messages) is off.
+- [ ] `lib/help/macrofaq.txt:598` [line] When (quick_messages) is on, and there is no pile, the 'a' will cancel
+- [ ] `lib/help/macrofaq.txt:599` [line] the message, and the following 'y' will be passed through as an
+- [ ] `lib/help/macrofaq.txt:600` [line] unimplemented command, and the space will cancel the error message.
+- [ ] `lib/help/macrofaq.txt:602` [line] Backslashes "\\" may be required to keep the 'y's from being
+- [ ] `lib/help/macrofaq.txt:603` [line] interpreted as keymaps in case 'y' has been assigned one.
+- [ ] `lib/help/macrofaq.txt:605` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:606` [line] #####G4.6 Fire missile at nearest target
+- [ ] `lib/help/macrofaq.txt:607` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:609` [line] Each of these needs "\e\e\e\e" afterwards to cancel up to 4 possible
+- [ ] `lib/help/macrofaq.txt:610` [line] messages. The first message will always occur. Note that adding too
+- [ ] `lib/help/macrofaq.txt:611` [line] many escapes can cause you to miss the messages in which the monster
+- [ ] `lib/help/macrofaq.txt:612` [line] fights back.
+- [ ] `lib/help/macrofaq.txt:613` [line] - "You have NN <ammo> left. -more-"
+- [ ] `lib/help/macrofaq.txt:614` [line] - "The <ammo> hits the <monster>. -more-"
+- [ ] `lib/help/macrofaq.txt:615` [line] - "It was a <adj> hit! The monster ... -more-"
+- [ ] `lib/help/macrofaq.txt:616` [line] - "The <monster> dies/grunts with pain/..."
+- [ ] `lib/help/macrofaq.txt:618` [line] [[[[[B"f*t"]
+- [ ] `lib/help/macrofaq.txt:619` [line] f   - fire ammo from quiver slot
+- [ ] `lib/help/macrofaq.txt:620` [line] *   - target
+- [ ] `lib/help/macrofaq.txt:621` [line] t   - select first target
+- [ ] `lib/help/macrofaq.txt:623` [line] Note that targeting is affected by the option (*****option.txt*4[use_old_target]). If
+- [ ] `lib/help/macrofaq.txt:624` [line] this action is used with the (use_old_target) option set, the "f"
+- [ ] `lib/help/macrofaq.txt:625` [line] part will fire the missile before the targeting part "*t" is reached.
+- [ ] `lib/help/macrofaq.txt:626` [line] See section *****macrofaq.txt*6["My auto-firing macro shoots the wrong target!"].
+- [ ] `lib/help/macrofaq.txt:628` [line] [[[[[B"*tf"]
+- [ ] `lib/help/macrofaq.txt:629` [line] *t  - select first target
+- [ ] `lib/help/macrofaq.txt:630` [line] f   - fire ammo from quiver slot
+- [ ] `lib/help/macrofaq.txt:632` [line] If (use_old_target) is on, this works correctly, by selecting the
+- [ ] `lib/help/macrofaq.txt:633` [line] target before firing. If the option is off, it will still prompt you
+- [ ] `lib/help/macrofaq.txt:634` [line] to select a target, even though you just selected one.
+- [ ] `lib/help/macrofaq.txt:636` [line] [[[[[B"*tf*t"]
+- [ ] `lib/help/macrofaq.txt:637` [line] *t  - select first target
+- [ ] `lib/help/macrofaq.txt:638` [line] f   - fire ammo from quiver slot
+- [ ] `lib/help/macrofaq.txt:639` [line] *t  - select first target
+- [ ] `lib/help/macrofaq.txt:641` [line] This works correctly for (use_old_target) either on/off. If the option
+- [ ] `lib/help/macrofaq.txt:642` [line] is on, this works by selecting the target before firing. If the option
+- [ ] `lib/help/macrofaq.txt:643` [line] is off, the first target selection will be ignored, and firing will
+- [ ] `lib/help/macrofaq.txt:644` [line] wait on the second target selection.
+- [ ] `lib/help/macrofaq.txt:646` [line] Note that if there are no valid targets, "*t" will select the player's
+- [ ] `lib/help/macrofaq.txt:647` [line] current position. Also, it is fairly easy to make safe assumptions
+- [ ] `lib/help/macrofaq.txt:648` [line] about the (use_old_target) option, since a player doesn't tend to
+- [ ] `lib/help/macrofaq.txt:649` [line] change back and forth. It is generally easier to make one set of
+- [ ] `lib/help/macrofaq.txt:650` [line] actions that work for (use_old_target) on, and another for it off.
+- [ ] `lib/help/macrofaq.txt:652` [line] Note also that the swapping weapon macro can be very useful for swapping
+- [ ] `lib/help/macrofaq.txt:653` [line] the type of ammo in the quiver slot when you have two different sets of
+- [ ] `lib/help/macrofaq.txt:654` [line] ammo you use - your standard "fire at everyone normal" ammo (usually
+- [ ] `lib/help/macrofaq.txt:655` [line] not enchanted), and your big damage "Uniques and nasty monster" 
+- [ ] `lib/help/macrofaq.txt:656` [line] enchanted ammo.
+- [ ] `lib/help/macrofaq.txt:658` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:659` [line] #####G4.7 Preventing actions
+- [ ] `lib/help/macrofaq.txt:660` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:662` [line] #####B= Prevent selling =
+- [ ] `lib/help/macrofaq.txt:663` [line] {!d}
+- [ ] `lib/help/macrofaq.txt:664` [line] Prevent selling - use on main weapon, artifacts.
+- [ ] `lib/help/macrofaq.txt:666` [line] #####B= Prevent going up/down =
+- [ ] `lib/help/macrofaq.txt:667` [line] {^<}
+- [ ] `lib/help/macrofaq.txt:668` [line] Verify before going up stairs.
+- [ ] `lib/help/macrofaq.txt:669` [line] {^>}
+- [ ] `lib/help/macrofaq.txt:670` [line] Inscribe boots to make confirm before going down stairs.
+- [ ] `lib/help/macrofaq.txt:671` [line] This can also be useful on Charisma boosting items that you wear
+- [ ] `lib/help/macrofaq.txt:672` [line] around town but don't want to take into the dungeon.
+- [ ] `lib/help/macrofaq.txt:673` [line] {^>^r^z^m^p}
+- [ ] `lib/help/macrofaq.txt:674` [line] Prevent leaving town with this item. Need to catch stairs, scrolls and
+- [ ] `lib/help/macrofaq.txt:675` [line] rods of Recall, and Mage and Priest Word of Recall spells.
+- [ ] `lib/help/macrofaq.txt:677` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:678` [line] #####G4.8 Warrior macros and inscriptions
+- [ ] `lib/help/macrofaq.txt:679` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:681` [line] #####B= Identify with list =
+- [ ] `lib/help/macrofaq.txt:682` [line] Inscribe Identify scrolls {@r0}.
+- [ ] `lib/help/macrofaq.txt:683` [line] Then action "r0*" will cast Identify and bring up the inventory list.
+- [ ] `lib/help/macrofaq.txt:685` [line] #####B= Identify floor =
+- [ ] `lib/help/macrofaq.txt:686` [line] "r0-" will Identify without showing the inventory.
+- [ ] `lib/help/macrofaq.txt:688` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:689` [line] #####G4.9 Verification techniques
+- [ ] `lib/help/macrofaq.txt:690` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:692` [line] #####B= Verify All =
+- [ ] `lib/help/macrofaq.txt:693` [line] {!*}
+- [ ] `lib/help/macrofaq.txt:694` [line] verify any attempt to use this item. Useful for some things such as
+- [ ] `lib/help/macrofaq.txt:695` [line] Scrolls/rods of Recall that you don't want to lose or use by accident.
+- [ ] `lib/help/macrofaq.txt:697` [line] #####B= Verify drop, destroy, throw =
+- [ ] `lib/help/macrofaq.txt:698` [line] {!d!k!v}
+- [ ] `lib/help/macrofaq.txt:699` [line] don't drop, destroy, or throw this item. Prevents dropping your
+- [ ] `lib/help/macrofaq.txt:700` [line] favorite weapon,... This is one of the most useful inscriptions, as it
+- [ ] `lib/help/macrofaq.txt:701` [line] prevents the kind of typing accidents that can get you killed.
+- [ ] `lib/help/macrofaq.txt:703` [line] #####B= Verify selling =
+- [ ] `lib/help/macrofaq.txt:704` [line] {!d}
+- [ ] `lib/help/macrofaq.txt:705` [line] Prevents selling as well as dropping.
+- [ ] `lib/help/macrofaq.txt:707` [line] #####B= Multiple verification =
+- [ ] `lib/help/macrofaq.txt:708` [line] These inscriptions can be repeated. So {!*!*} will make you confirm
+- [ ] `lib/help/macrofaq.txt:709` [line] twice for any action using that item.
+- [ ] `lib/help/macrofaq.txt:711` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:712` [line] #####G4.10 Canceling targeting
+- [ ] `lib/help/macrofaq.txt:713` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:715` [line] [[[[[B"*\e\s"]
+- [ ] `lib/help/macrofaq.txt:716` [line] *   - start targeting
+- [ ] `lib/help/macrofaq.txt:717` [line] \e  - cancel targeting.
+- [ ] `lib/help/macrofaq.txt:718` [line] \s  - skip message "Target Aborted."
+- [ ] `lib/help/macrofaq.txt:720` [line] OR
+- [ ] `lib/help/macrofaq.txt:722` [line] [[[[[B"*q\r"]
+- [ ] `lib/help/macrofaq.txt:723` [line] *   - start targeting
+- [ ] `lib/help/macrofaq.txt:724` [line] q   - cancels targeting.
+- [ ] `lib/help/macrofaq.txt:725` [line] \r  - skip message "Target Aborted."
+- [ ] `lib/help/macrofaq.txt:727` [line] This is useful before casting Stone to Mud, or a ball spell. For ball
+- [ ] `lib/help/macrofaq.txt:728` [line] spells you usually want to target the middle of a pack, or sometimes
+- [ ] `lib/help/macrofaq.txt:729` [line] to "miss" the creature in order to get the ball to detonate on a
+- [ ] `lib/help/macrofaq.txt:730` [line] nearby wall.
+- [ ] `lib/help/macrofaq.txt:732` [line] Using a targeted action after this will cause the user to be prompted
+- [ ] `lib/help/macrofaq.txt:733` [line] for a target.
+- [ ] `lib/help/macrofaq.txt:735` [line] Canceling targeting is made necessary by the existence of the option
+- [ ] `lib/help/macrofaq.txt:736` [line] (use_last_target), which causes an action which requires a target to
+- [ ] `lib/help/macrofaq.txt:737` [line] use the last target without prompting. See section
+- [ ] `lib/help/macrofaq.txt:738` [line] *****macrofaq.txt*6["My auto-firing macro shoots the wrong target!"] for more on this.
+- [ ] `lib/help/macrofaq.txt:739` [line] ~~~~~15
+- [ ] `lib/help/macrofaq.txt:740` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:741` [line] #####G4.11 Automatically loading pref files
+- [ ] `lib/help/macrofaq.txt:742` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:744` [line] Angband automatically loads pref files when a character is loaded or
+- [ ] `lib/help/macrofaq.txt:745` [line] born. Among the last ones loaded are: "<$RACE>.prf", "<$CLASS>.prf",
+- [ ] `lib/help/macrofaq.txt:746` [line] and "<$PLAYER>.prf", in that order. These are the best ones to use to
+- [ ] `lib/help/macrofaq.txt:747` [line] customise the game for individuals. The order is important because
+- [ ] `lib/help/macrofaq.txt:748` [line] pref files which load later will overwrite options and macros/keymaps
+- [ ] `lib/help/macrofaq.txt:749` [line] from previous ones.
+- [ ] `lib/help/macrofaq.txt:751` [line] Here <$RACE> is the name of the character's race, <$CLASS> is the name
+- [ ] `lib/help/macrofaq.txt:752` [line] of its class, and <$PLAYER> is the character's name. Both <$RACE> and
+- [ ] `lib/help/macrofaq.txt:753` [line] <$CLASS> have a fixed number of choices. These are listed for ToME
+- [ ] `lib/help/macrofaq.txt:754` [line] in section *****macrofaq.txt*7["Pref file loading order"].
+- [ ] `lib/help/macrofaq.txt:756` [line] Your character's name is the one that appears during game play in the
+- [ ] `lib/help/macrofaq.txt:757` [line] upper left hand corner of the screen. If it isn't visible there, you
+- [ ] `lib/help/macrofaq.txt:758` [line] can use the (C) Character description command. Note that this name may
+- [ ] `lib/help/macrofaq.txt:759` [line] be different than the filename of the character's save file.
+- [ ] `lib/help/macrofaq.txt:761` [line] Filenames for the save and pref files are built from a "base name",
+- [ ] `lib/help/macrofaq.txt:762` [line] which is the player name with all non-alphanumeric characters changed
+- [ ] `lib/help/macrofaq.txt:763` [line] to underscores (_). On Windows and DOS systems the base name will also
+- [ ] `lib/help/macrofaq.txt:764` [line] be truncated to 8 characters. This could lead to different characters
+- [ ] `lib/help/macrofaq.txt:765` [line] having the same (default) pref files.
+- [ ] `lib/help/macrofaq.txt:766` [line] Example: "Grog the Elder" and "Grog the Younger" would both try to
+- [ ] `lib/help/macrofaq.txt:767` [line] load the same pref file "Grog_the.prf".
+- [ ] `lib/help/macrofaq.txt:769` [line] In recent versions of ToME "<$PLAYER>.prf" is the default filename
+- [ ] `lib/help/macrofaq.txt:770` [line] when saving your macros and keymaps from the (@) Interact with macros
+- [ ] `lib/help/macrofaq.txt:771` [line] screen. Just hit Enter to accept that name.
+- [ ] `lib/help/macrofaq.txt:773` [line] On some systems you may encounter problems automatically loading this
+- [ ] `lib/help/macrofaq.txt:774` [line] file if your name is more than 8 characters, or if it contains spaces
+- [ ] `lib/help/macrofaq.txt:775` [line] or special characters.
+- [ ] `lib/help/macrofaq.txt:777` [line] See section *****macrofaq.txt*8["Saving these macros and keymaps for reuse"] for how to
+- [ ] `lib/help/macrofaq.txt:778` [line] save your character's preferences.
+- [ ] `lib/help/macrofaq.txt:780` [line] See section *****macrofaq.txt*7["Pref file loading order"] for the full list of pref files
+- [ ] `lib/help/macrofaq.txt:781` [line] loaded and their order.
+- [ ] `lib/help/macrofaq.txt:783` [line] Note: for pref files to load automatically they must end in the file
+- [ ] `lib/help/macrofaq.txt:784` [line] extension "prf", which is the default when saving pref files. But it
+- [ ] `lib/help/macrofaq.txt:785` [line] is possible to save and load pref files with any or no file extension,
+- [ ] `lib/help/macrofaq.txt:786` [line] from the macros and visuals editor screens.
+- [ ] `lib/help/macrofaq.txt:788` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:789` [line] #####G4.12 Multiple macros bound to one trigger key
+- [ ] `lib/help/macrofaq.txt:790` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:792` [line] Angband supports using modifier keys on trigger keys. One thing this
+- [ ] `lib/help/macrofaq.txt:793` [line] lets you do is easily choose between variants of an action. Another is
+- [ ] `lib/help/macrofaq.txt:794` [line] to minimise the amount of moving your hands have to do, speeding up
+- [ ] `lib/help/macrofaq.txt:795` [line] play and reducing stress on your wrists.
+- [ ] `lib/help/macrofaq.txt:797` [line] [[[[[BYou can bind multiple versions of the same macro to the same trigger]
+- [ ] `lib/help/macrofaq.txt:798` [line] [[[[[Bkey, using Alt, Control, Shift in different combinations] to choose
+- [ ] `lib/help/macrofaq.txt:799` [line] among the different versions.
+- [ ] `lib/help/macrofaq.txt:800` [line] Example: use <Alt> for targeted, and <Shift> for non-targeted.
+- [ ] `lib/help/macrofaq.txt:802` [line] Another use is to heavily use modifiers on numeric keypad keys. The
+- [ ] `lib/help/macrofaq.txt:803` [line] standard version already comes with Shift-<digit> bound to running in
+- [ ] `lib/help/macrofaq.txt:804` [line] that direction. But by using various combinations of modifier keys, it
+- [ ] `lib/help/macrofaq.txt:805` [line] is possibly to play with the right hand almost always on the numeric
+- [ ] `lib/help/macrofaq.txt:806` [line] keypad, and the left on the modifier keys.
+- [ ] `lib/help/macrofaq.txt:808` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:809` [line] #####G4.13 Multi-part actions
+- [ ] `lib/help/macrofaq.txt:810` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:812` [line] Better to only do this when spells have ~0% failure.
+- [ ] `lib/help/macrofaq.txt:813` [line] Be careful of the order of commands. Commands that leave useful info
+- [ ] `lib/help/macrofaq.txt:814` [line] on the screen shouldn't be followed by ones that will clear it.
+- [ ] `lib/help/macrofaq.txt:815` [line] Be careful of commands that set or clear targets.
+- [ ] `lib/help/macrofaq.txt:816` [line] Use "\e\e\e\e" in-between commands to be safe.
+- [ ] `lib/help/macrofaq.txt:818` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:819` [line] #####G4.14 Easy running
+- [ ] `lib/help/macrofaq.txt:820` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:822` [line] Bind Shift+<keypad dir> to running for each of the directions.
+- [ ] `lib/help/macrofaq.txt:823` [line] For example, running "North":
+- [ ] `lib/help/macrofaq.txt:825` [line] 1) @    Interact with macros
+- [ ] `lib/help/macrofaq.txt:826` [line] 2) 4    Create a macro
+- [ ] `lib/help/macrofaq.txt:827` [line] 3) Shift+8   (Trigger key for the macro)
+- [ ] `lib/help/macrofaq.txt:828` [line] 4) \\.  Run
+- [ ] `lib/help/macrofaq.txt:829` [line]    8    "North"
+- [ ] `lib/help/macrofaq.txt:830` [line] 5)      (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:831` [line] 6)      (Hit Esc to exit the editor)
+- [ ] `lib/help/macrofaq.txt:833` [line] Macros for the other directions are added similarly. Remember that the
+- [ ] `lib/help/macrofaq.txt:834` [line] original and roguelike keysets differ, but using the backslashes makes
+- [ ] `lib/help/macrofaq.txt:835` [line] sure that the "underlying" keyset gets used:
+- [ ] `lib/help/macrofaq.txt:836` [line]  7 8 9
+- [ ] `lib/help/macrofaq.txt:837` [line]  4   6
+- [ ] `lib/help/macrofaq.txt:838` [line]  1 2 3
+- [ ] `lib/help/macrofaq.txt:840` [line] These macros are already in the "pref-***.prf" files that ship with
+- [ ] `lib/help/macrofaq.txt:841` [line] the standard Angband distribution for some systems, but not all.
+- [ ] `lib/help/macrofaq.txt:842` [line] Systems "mac", "win", "x11" have them. If you aren't sure if you have
+- [ ] `lib/help/macrofaq.txt:843` [line] them, just try moving in any direction with the shift key down.
+- [ ] `lib/help/macrofaq.txt:845` [line] [[[[[BThese do have to be macros instead of keymaps], because they rely on
+- [ ] `lib/help/macrofaq.txt:846` [line] keypad keys having different scan codes than the top-row number keys.
+- [ ] `lib/help/macrofaq.txt:848` [line] There are also default macros for Ctrl+<dir> which applies the command
+- [ ] `lib/help/macrofaq.txt:849` [line] (+) Alter to that direction.
+- [ ] `lib/help/macrofaq.txt:851` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:852` [line] #####G4.15 Farming techniques
+- [ ] `lib/help/macrofaq.txt:853` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:855` [line] #####v+++ NOTE: This is considered scumming! (cheating) +++
+- [ ] `lib/help/macrofaq.txt:857` [line] Farming is the practice of automatically "harvesting" large numbers of
+- [ ] `lib/help/macrofaq.txt:858` [line] weaker monsters for their experience value. This is usually done to
+- [ ] `lib/help/macrofaq.txt:859` [line] advance a lower level character. There are apparently several methods
+- [ ] `lib/help/macrofaq.txt:860` [line] that the "old timers" used to use. I don't know that farming is that
+- [ ] `lib/help/macrofaq.txt:861` [line] popular any more. Even then it was sort of a lark.
+- [ ] `lib/help/macrofaq.txt:863` [line] Apparently a golf ball is just the right size and weight for many
+- [ ] `lib/help/macrofaq.txt:864` [line] keyboards to hold a key down and get it to auto repeat. Then you walk
+- [ ] `lib/help/macrofaq.txt:865` [line] away, and the next morning you have gained several levels. Ballpoint
+- [ ] `lib/help/macrofaq.txt:866` [line] pen caps are also supposed to be good at wedging a key down.
+- [ ] `lib/help/macrofaq.txt:868` [line] Using a farming macro for long periods of time like this requires a
+- [ ] `lib/help/macrofaq.txt:869` [line] way of getting food, so it really needs to be employed by a magic user
+- [ ] `lib/help/macrofaq.txt:870` [line] who can create their own food.
+- [ ] `lib/help/macrofaq.txt:872` [line] Use turn counts with attack (move) commands to move around the room,
+- [ ] `lib/help/macrofaq.txt:873` [line] mowing down creatures as you move. Periodically rest enough to
+- [ ] `lib/help/macrofaq.txt:874` [line] regenerate to full mana. This may not be necessary if it takes long
+- [ ] `lib/help/macrofaq.txt:875` [line] enough to kill the monsters as you move.
+- [ ] `lib/help/macrofaq.txt:877` [line] This requires an effective macro and a room full of breeders which
+- [ ] `lib/help/macrofaq.txt:878` [line] can't attack for enough damage to kill you. Farming for short periods
+- [ ] `lib/help/macrofaq.txt:879` [line] of time with a fighter class is quite feasible. The limitation for
+- [ ] `lib/help/macrofaq.txt:880` [line] fighters is food. The limitation for spell casters is probably hit
+- [ ] `lib/help/macrofaq.txt:881` [line] points. You may also need to insert action sequences for healing if
+- [ ] `lib/help/macrofaq.txt:882` [line] the farmed monsters are capable of significantly damaging you.
+- [ ] `lib/help/macrofaq.txt:884` [line] Note that red and green worm masses can knock down the doors of the
+- [ ] `lib/help/macrofaq.txt:885` [line] room you're in. Blues can destroy potions and flasks, so you will need
+- [ ] `lib/help/macrofaq.txt:886` [line] to stash your potions outside somewhere before farming.
+- [ ] `lib/help/macrofaq.txt:887` [line] ~~~~~10
+- [ ] `lib/help/macrofaq.txt:888` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:889` [line] #####G4.16 Macros can contain their own trigger key
+- [ ] `lib/help/macrofaq.txt:890` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:892` [line] It is permissible to make a macro or keymap which contains its own key
+- [ ] `lib/help/macrofaq.txt:893` [line] in its action. It won't cause recursion, but there are a few wrinkles.
+- [ ] `lib/help/macrofaq.txt:895` [line] Example: you can bind "*tf1" to the 'f' key, to cause it to auto-fire
+- [ ] `lib/help/macrofaq.txt:896` [line] at the nearest target. You can still use the 'f' key for Fire in other
+- [ ] `lib/help/macrofaq.txt:897` [line] macros or keymaps.
+- [ ] `lib/help/macrofaq.txt:899` [line] If you bound 'f' as a keymap you will need to use "\\f" for Fire when
+- [ ] `lib/help/macrofaq.txt:900` [line] it is used in a macro action string. You don't need to do anything
+- [ ] `lib/help/macrofaq.txt:901` [line] special to use it in a keymap in its usual sense. Keymap and macro
+- [ ] `lib/help/macrofaq.txt:902` [line] expansion isn't done inside keymap action strings.
+- [ ] `lib/help/macrofaq.txt:904` [line] If you bound 'f' as a macro, the problem will be in entering the new
+- [ ] `lib/help/macrofaq.txt:905` [line] macro or keymap in the editor. When you try to press an 'f' key for
+- [ ] `lib/help/macrofaq.txt:906` [line] the action, it will expand to "*tf1", even when you don't want it to.
+- [ ] `lib/help/macrofaq.txt:907` [line] You will first have to remove the macro bound to 'f', then add the
+- [ ] `lib/help/macrofaq.txt:908` [line] macro or keymap that uses 'f' in its action, and then reenter the 'f'
+- [ ] `lib/help/macrofaq.txt:909` [line] macro. You can also create the macro in a pref file and load it using
+- [ ] `lib/help/macrofaq.txt:910` [line] the "Load pref file" command in the (@) Interact with macros screen.
+- [ ] `lib/help/macrofaq.txt:912` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:913` [line] #####G4.17 Changing the player's color and character (ASCII text display)
+- [ ] `lib/help/macrofaq.txt:914` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:916` [line] #####B= Using the Visuals Editor =
+- [ ] `lib/help/macrofaq.txt:917` [line] 1) %    Interact with visuals.
+- [ ] `lib/help/macrofaq.txt:918` [line] 2) 6    Change monster attr/chars
+- [ ] `lib/help/macrofaq.txt:919` [line] 3) a    (repeatedly) cycle thru colors (A moves backwards)
+- [ ] `lib/help/macrofaq.txt:920` [line] 4) c    (repeatedly) cycle thru characters (C moves backwards)
+- [ ] `lib/help/macrofaq.txt:921` [line] 5) Esc  accept changes
+- [ ] `lib/help/macrofaq.txt:922` [line] 6) Esc  exit the editor
+- [ ] `lib/help/macrofaq.txt:924` [line] #####B= Using the Enter User Pref command =
+- [ ] `lib/help/macrofaq.txt:925` [line] 1) "    Enter user pref line
+- [ ] `lib/help/macrofaq.txt:926` [line] 2) "R:0:<attr>:<char>"
+- [ ] `lib/help/macrofaq.txt:927` [line]         The user pref line.
+- [ ] `lib/help/macrofaq.txt:928` [line]         <attr> - the attr (color) specified as an integer index.
+- [ ] `lib/help/macrofaq.txt:929` [line]         <char> - the (ASCII) character specified as an integer.
+- [ ] `lib/help/macrofaq.txt:930` [line] 3)     (Hit Enter)
+- [ ] `lib/help/macrofaq.txt:932` [line] You can't directly use the Angband attr letters to specify colors, but
+- [ ] `lib/help/macrofaq.txt:933` [line] must instead use their index. Eg 4 is Red. These indexes can be found
+- [ ] `lib/help/macrofaq.txt:934` [line] from within the game using the (&) Interact with colors command. That
+- [ ] `lib/help/macrofaq.txt:935` [line] editor also allows you to change the colors used by the game.
+- [ ] `lib/help/macrofaq.txt:937` [line] The <char> integer is generally the index of an (ASCII) character.
+- [ ] `lib/help/macrofaq.txt:938` [line] Non-ASCII characters may be available on some systems. Available
+- [ ] `lib/help/macrofaq.txt:939` [line] characters can found using the (%) Interact with visuals command.
+- [ ] `lib/help/macrofaq.txt:941` [line] These integers can be specified in decimal, hexadecimal, or octal
+- [ ] `lib/help/macrofaq.txt:942` [line] notation. Decimal is the default, hexadecimal numbers are prefixed
+- [ ] `lib/help/macrofaq.txt:943` [line] with "0x", and octal numbers are prefixed with 0 (zero). Example: the
+- [ ] `lib/help/macrofaq.txt:944` [line] standard character for the player is '@'. This may be entered as "64",
+- [ ] `lib/help/macrofaq.txt:945` [line] "0x40", or "0100". Yellow may be entered as "11", "0x0B", or "013".
+- [ ] `lib/help/macrofaq.txt:947` [line] This pref line can be added to any pref file to save the change for
+- [ ] `lib/help/macrofaq.txt:948` [line] future reuse. Changes made using the internal colors editor screen can
+- [ ] `lib/help/macrofaq.txt:949` [line] be dumped from that screen. Note that colors and characters saved in
+- [ ] `lib/help/macrofaq.txt:950` [line] pref dumps are in hexadecimal.
+- [ ] `lib/help/macrofaq.txt:952` [line] After making a change, you must move the character or otherwise cause
+- [ ] `lib/help/macrofaq.txt:953` [line] a screen redraw for the change to be visible.
+- [ ] `lib/help/macrofaq.txt:955` [line] If you make a mistake, you can use the (0) command in the editor to
+- [ ] `lib/help/macrofaq.txt:956` [line] reset the visuals to their original colors and characters.
+- [ ] `lib/help/macrofaq.txt:958` [line] #####B= Changing Using the Monster Info file =
+- [ ] `lib/help/macrofaq.txt:959` [line] #####B----------------------------------------
+- [ ] `lib/help/macrofaq.txt:961` [line] This may also be done by changing the entry for the player in the info
+- [ ] `lib/help/macrofaq.txt:962` [line] file "r_info.txt". The player data starts with line "N:0:Player". In
+- [ ] `lib/help/macrofaq.txt:963` [line] the following line G:<c>:<a> the character <c> is entered directly,
+- [ ] `lib/help/macrofaq.txt:964` [line] and the attr (color) is specified by letter. See the section "Message
+- [ ] `lib/help/macrofaq.txt:965` [line] color lines" for the list of standard colors. In many versions you
+- [ ] `lib/help/macrofaq.txt:966` [line] will have to delete the file "lib\data\r_info.raw" and restart the
+- [ ] `lib/help/macrofaq.txt:967` [line] game for this change to take effect. Note that that char/attr pair is
+- [ ] `lib/help/macrofaq.txt:968` [line] entered in the opposite order as for an R: user pref line.
+- [ ] `lib/help/macrofaq.txt:970` [line] #####B= Options which Change Player appearance =
+- [ ] `lib/help/macrofaq.txt:971` [line] #####B------------------------------------------
+- [ ] `lib/help/macrofaq.txt:973` [line] These are accessible through the (=) Set options command.
+- [ ] `lib/help/macrofaq.txt:975` [line] *****option.txt*2[(hilite_player)] -- causes the player's symbol to be drawn with the
+- [ ] `lib/help/macrofaq.txt:976` [line] "cursor" on it. It will be drawn with the same color as the character.
+- [ ] `lib/help/macrofaq.txt:978` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:979` [line] #####G4.18 Recharging a rod using a Recharge Item spell
+- [ ] `lib/help/macrofaq.txt:980` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:982` [line] (You can also recharge staffs and wands with this technique.)
+- [ ] `lib/help/macrofaq.txt:984` [line] Inscribe the rod with {@m<d>}, where <d> is any decimal digit not
+- [ ] `lib/help/macrofaq.txt:985` [line] already used as a label.
+- [ ] `lib/help/macrofaq.txt:987` [line] The trick is that we want to use a digit to label the rod so we can
+- [ ] `lib/help/macrofaq.txt:988` [line] refer to it using its label instead of its inventory letter, but we
+- [ ] `lib/help/macrofaq.txt:989` [line] have usually used up many of the digits for spell books. If we were to
+- [ ] `lib/help/macrofaq.txt:990` [line] label the rod with {@m1} and the first spellbook was also labeled with
+- [ ] `lib/help/macrofaq.txt:991` [line] {@m1}, then the spellbook will sort first in the inventory so it will
+- [ ] `lib/help/macrofaq.txt:992` [line] be found first when looking for item '1' to use with the (m) command.
+- [ ] `lib/help/macrofaq.txt:993` [line] So that would try to recharge the spellbook, which will fail. Angband
+- [ ] `lib/help/macrofaq.txt:994` [line] doesn't restrict itself to "appropriate" items when looking for a
+- [ ] `lib/help/macrofaq.txt:995` [line] labeled item. It simply finds the first one whose command letter and
+- [ ] `lib/help/macrofaq.txt:996` [line] digit match.
+- [ ] `lib/help/macrofaq.txt:998` [line] You can't get around this by omitting the letter 'm', or using 'z'
+- [ ] `lib/help/macrofaq.txt:999` [line] instead. Using no command letter means it will still match. And if you
+- [ ] `lib/help/macrofaq.txt:1000` [line] use a command letter it has to be 'm', because that is the built-in
+- [ ] `lib/help/macrofaq.txt:1001` [line] trigger for the current command.
+- [ ] `lib/help/macrofaq.txt:1003` [line] Note that the digits used with different command triggers can be
+- [ ] `lib/help/macrofaq.txt:1004` [line] different, so inscribing {@z1@m0} is perfectly legal. Use digit 1
+- [ ] `lib/help/macrofaq.txt:1005` [line] when zapping the rod, and 0 when referring to it during the casting
+- [ ] `lib/help/macrofaq.txt:1006` [line] of a [mage] spell.
+- [ ] `lib/help/macrofaq.txt:1008` [line] You can also use this technique with scrolls. In that case you need to
+- [ ] `lib/help/macrofaq.txt:1009` [line] use the inscription {@r<d>} since the item is being referred to while
+- [ ] `lib/help/macrofaq.txt:1010` [line] processing the (r) Read scroll command.
+- [ ] `lib/help/macrofaq.txt:1012` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1013` [line] #####G4.19 Disabling a built-in command
+- [ ] `lib/help/macrofaq.txt:1014` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1016` [line] At times it may be useful to disable an underlying Angband command.
+- [ ] `lib/help/macrofaq.txt:1017` [line] For example, a dangerous key may be too easy to press by accident.
+- [ ] `lib/help/macrofaq.txt:1018` [line] The macro editor commands for removing macros and keymaps can't be
+- [ ] `lib/help/macrofaq.txt:1019` [line] used in this situation. [[[[[BInstead bind the trigger key to the action]
+- [ ] `lib/help/macrofaq.txt:1020` [line] [[[[[Bstring "\x00"]. This special 'command' takes no "energy" and won't
+- [ ] `lib/help/macrofaq.txt:1021` [line] generate an error message. It truly does "nothing". This will work for
+- [ ] `lib/help/macrofaq.txt:1022` [line] both macros and keymaps. If possible you should use a keymap instead
+- [ ] `lib/help/macrofaq.txt:1023` [line] of a macro to disable the key. A keymap will catch occurrences of the
+- [ ] `lib/help/macrofaq.txt:1024` [line] key both in macros and by typing, and will still allow you to use the
+- [ ] `lib/help/macrofaq.txt:1025` [line] key when it isn't being interpreted as a command.
+- [ ] `lib/help/macrofaq.txt:1027` [line] If you use the "Query a macro/keymap" on a trigger key bound to this
+- [ ] `lib/help/macrofaq.txt:1028` [line] action, it will report having found it, but no action string will be
+- [ ] `lib/help/macrofaq.txt:1029` [line] printed.
+- [ ] `lib/help/macrofaq.txt:1031` [line] Another technique is to use the action "\e\e\e". This is used in some
+- [ ] `lib/help/macrofaq.txt:1032` [line] of the standard pref files.
+- [ ] `lib/help/macrofaq.txt:1034` [line] [[[[[BIf you need to use the built-in command again you can use the '\' key]
+- [ ] `lib/help/macrofaq.txt:1035` [line] [[[[[Bat any prompt to bypass its macro/keymap.]
+- [ ] `lib/help/macrofaq.txt:1037` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1038` [line] #####G4.20 "Naming" an item (patch)
+- [ ] `lib/help/macrofaq.txt:1039` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1041` [line] #####B= 'Fake artifact' name =
+- [ ] `lib/help/macrofaq.txt:1042` [line] # "Name" an item
+- [ ] `lib/help/macrofaq.txt:1043` [line] This isn't an actual command in the interface, but a flag character
+- [ ] `lib/help/macrofaq.txt:1044` [line] that alters the way an item description is generated. This isn't part
+- [ ] `lib/help/macrofaq.txt:1045` [line] of standard Angband. It's added by Tom Morton's 'fake artifact' patch.
+- [ ] `lib/help/macrofaq.txt:1047` [line] Example: inscription {#Thumper} will cause a Club (+8,+8) to display
+- [ ] `lib/help/macrofaq.txt:1048` [line] as Club 'Thumper' (+8,+8) in your inventory and messages.
+- [ ] `lib/help/macrofaq.txt:1050` [line] ~~~~~34
+- [ ] `lib/help/macrofaq.txt:1051` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1052` [line] #####R5. Common Questions
+- [ ] `lib/help/macrofaq.txt:1053` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1055` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1056` [line] #####G5.1 Why can't I add a keymap for a function key?
+- [ ] `lib/help/macrofaq.txt:1057` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1059` [line] Because keymaps can only be created for keys with system-independent
+- [ ] `lib/help/macrofaq.txt:1060` [line] representations. This leaves out function keys, and several other
+- [ ] `lib/help/macrofaq.txt:1061` [line] special keys. The "Create a keymap" command will continue waiting for
+- [ ] `lib/help/macrofaq.txt:1062` [line] a keypress until you press a valid keymap trigger. You can, however,
+- [ ] `lib/help/macrofaq.txt:1063` [line] create a macro for a function key.
+- [ ] `lib/help/macrofaq.txt:1065` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1066` [line] #####G5.2 How can I automatically inscribe items when I pick them up?
+- [ ] `lib/help/macrofaq.txt:1067` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1069` [line] (Content removed because it was obsolete. Inscribe-on-pickup is now the default.)
+- [ ] `lib/help/macrofaq.txt:1071` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1072` [line] #####G5.3 Can I use macros inside other macros?
+- [ ] `lib/help/macrofaq.txt:1073` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1075` [line] No. Macros don't expand macro triggers they contain in their actions,
+- [ ] `lib/help/macrofaq.txt:1076` [line] in order to avoid recursion and other problems. However, keymap
+- [ ] `lib/help/macrofaq.txt:1077` [line] substitution is done, so you can use keymaps to alter the behavior of
+- [ ] `lib/help/macrofaq.txt:1078` [line] macros. This keymap expansion can be bypassed by preceding a trigger
+- [ ] `lib/help/macrofaq.txt:1079` [line] with "\\" in the action.
+- [ ] `lib/help/macrofaq.txt:1081` [line] Keymaps don't expand macro or keymap triggers in their actions.
+- [ ] `lib/help/macrofaq.txt:1083` [line] Also see section *****macrofaq.txt*9["Can I create an infinite loop using a macro?"].
+- [ ] `lib/help/macrofaq.txt:1085` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1086` [line] #####G5.4 How do I find out what the standard commands are?
+- [ ] `lib/help/macrofaq.txt:1087` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1089` [line] 1) ?   Angband help
+- [ ] `lib/help/macrofaq.txt:1090` [line] 2) 6   *****command.txt*0[Command Descriptions (command.txt)]
+- [ ] `lib/help/macrofaq.txt:1092` [line] Space - moves you down by a page
+- [ ] `lib/help/macrofaq.txt:1093` [line] Minus - moves up by a page
+- [ ] `lib/help/macrofaq.txt:1094` [line] 2     - moves down by a line
+- [ ] `lib/help/macrofaq.txt:1095` [line] 8     - moves you up by a line
+- [ ] `lib/help/macrofaq.txt:1097` [line] Note that the original and roguelike command sets differ, and both are
+- [ ] `lib/help/macrofaq.txt:1098` [line] different from the "underlying" command set.
+- [ ] `lib/help/macrofaq.txt:1100` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1101` [line] #####G5.5 How can I tell if a key has a keymap/macro?
+- [ ] `lib/help/macrofaq.txt:1102` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1104` [line] #####B= Query Macro/Keymap =
+- [ ] `lib/help/macrofaq.txt:1106` [line] In ToME this is easy:
+- [ ] `lib/help/macrofaq.txt:1107` [line] 1) @    Interact with macros
+- [ ] `lib/help/macrofaq.txt:1108` [line] 2) 3    Query a macro
+- [ ] `lib/help/macrofaq.txt:1109` [line] OR 7    Query a keymap
+- [ ] `lib/help/macrofaq.txt:1110` [line] 3)      (Press the trigger key to test)
+- [ ] `lib/help/macrofaq.txt:1111` [line] 4) Esc  (Exit macro editor when done)
+- [ ] `lib/help/macrofaq.txt:1113` [line] It will report "Found no macro" or "Found a macro" at the top of the
+- [ ] `lib/help/macrofaq.txt:1114` [line] screen. The action it is bound to will be displayed at the bottom of
+- [ ] `lib/help/macrofaq.txt:1115` [line] the screen, under the "Current action..." line. You must test for both
+- [ ] `lib/help/macrofaq.txt:1116` [line] macros and keymaps, and keymaps will only show for the current "mode",
+- [ ] `lib/help/macrofaq.txt:1117` [line] i.e. original/roguelike.
+- [ ] `lib/help/macrofaq.txt:1119` [line] #####B= Notes =
+- [ ] `lib/help/macrofaq.txt:1121` [line] Note: on some machines, there are duplicate keys such as left and right
+- [ ] `lib/help/macrofaq.txt:1122` [line] Shift keys. These will generally  produce different key codes and can
+- [ ] `lib/help/macrofaq.txt:1123` [line] have different macros and keymaps.
+- [ ] `lib/help/macrofaq.txt:1125` [line] Note: just because a key doesn't have a macro doesn't mean there isn't
+- [ ] `lib/help/macrofaq.txt:1126` [line] a command that uses that key.
+- [ ] `lib/help/macrofaq.txt:1128` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1129` [line] #####G5.6 How can I tell if a key has a built-in command bound to it?
+- [ ] `lib/help/macrofaq.txt:1130` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1132` [line] Er ... try pressing the key. If there is a command bound to that key
+- [ ] `lib/help/macrofaq.txt:1133` [line] it should usually generate a message of some kind. If there isn't one,
+- [ ] `lib/help/macrofaq.txt:1134` [line] it may respond: "Type '?' for help.". Some keys may not generate any
+- [ ] `lib/help/macrofaq.txt:1135` [line] message at all. Function keys are a good example.
+- [ ] `lib/help/macrofaq.txt:1137` [line] In ToME, the game will also generate "silly" error messages
+- [ ] `lib/help/macrofaq.txt:1138` [line] which may not look like error messages at first. After a few repeated
+- [ ] `lib/help/macrofaq.txt:1139` [line] key presses it uses the standard "Type '?' for help." message.
+- [ ] `lib/help/macrofaq.txt:1141` [line] Failing that, look in *****command.txt*0["command.txt"], which lists all
+- [ ] `lib/help/macrofaq.txt:1142` [line] commands, and is up-to-date. There is no specific method for checking if
+- [ ] `lib/help/macrofaq.txt:1143` [line] a key has a command bound to it from within the game.
+- [ ] `lib/help/macrofaq.txt:1145` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1146` [line] #####G5.7 Can I inscribe multiple items with the same number?
+- [ ] `lib/help/macrofaq.txt:1147` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1149` [line] You can, but it can cause problems if you aren't careful. Use the
+- [ ] `lib/help/macrofaq.txt:1150` [line] command letter in the inscriptions to minimise problems. For example,
+- [ ] `lib/help/macrofaq.txt:1151` [line] it is safe to inscribe both rods with {@z1} and a spell book with
+- [ ] `lib/help/macrofaq.txt:1152` [line] {@m1} because the command letter allows distinguishing the two.
+- [ ] `lib/help/macrofaq.txt:1154` [line] When the game looks for an item to use with a command, it tries the
+- [ ] `lib/help/macrofaq.txt:1155` [line] first one it finds that matches. If the command fails on that item, it
+- [ ] `lib/help/macrofaq.txt:1156` [line] doesn't continue looking. The search for a matching item also doesn't
+- [ ] `lib/help/macrofaq.txt:1157` [line] know how to only check the right kind of item, so if you have a Spellbook
+- [ ] `lib/help/macrofaq.txt:1158` [line] inscribed {@1} and scrolls inscribed {@1} or {@r1}, when you read a
+- [ ] `lib/help/macrofaq.txt:1159` [line] scroll it will find the spellbook first, even though it doesn't make
+- [ ] `lib/help/macrofaq.txt:1160` [line] sense to read it, and the command will fail.
+- [ ] `lib/help/macrofaq.txt:1162` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1163` [line] #####G5.8 How do I convert a macro to a keymap?
+- [ ] `lib/help/macrofaq.txt:1164` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1166` [line] You can simply remove it and re-add it "by hand", but for more complex
+- [ ] `lib/help/macrofaq.txt:1167` [line] actions there are faster, safer ways.
+- [ ] `lib/help/macrofaq.txt:1169` [line] #####B= Directly modifying the pref file =
+- [ ] `lib/help/macrofaq.txt:1171` [line] A macro with the following form in the pref file:
+- [ ] `lib/help/macrofaq.txt:1172` [line]   A:<action string>
+- [ ] `lib/help/macrofaq.txt:1173` [line]   P:<trigger>\r
+- [ ] `lib/help/macrofaq.txt:1174` [line] Should be converted to the keymap form:
+- [ ] `lib/help/macrofaq.txt:1175` [line]   A:<action string>
+- [ ] `lib/help/macrofaq.txt:1176` [line]   C:0:<trigger>
+- [ ] `lib/help/macrofaq.txt:1177` [line] The "\r" needs to be removed, and the 0 (zero) means standard keyset.
+- [ ] `lib/help/macrofaq.txt:1178` [line] Use 1 for roguelike keyset. To make a keymap for both keysets:
+- [ ] `lib/help/macrofaq.txt:1179` [line]   A:<action string>
+- [ ] `lib/help/macrofaq.txt:1180` [line]   C:0:<trigger>
+- [ ] `lib/help/macrofaq.txt:1181` [line]   C:1:<trigger>
+- [ ] `lib/help/macrofaq.txt:1183` [line] #####G= Using the "Interact with Macros" editor =
+- [ ] `lib/help/macrofaq.txt:1185` [line] 1) @    Interact with Macros
+- [ ] `lib/help/macrofaq.txt:1186` [line] 2) 3    Query a macro
+- [ ] `lib/help/macrofaq.txt:1187` [line]    <k>  The trigger key for the macro
+- [ ] `lib/help/macrofaq.txt:1188` [line]         (its action string will now become the current action)
+- [ ] `lib/help/macrofaq.txt:1189` [line] 3) 5    Remove a macro
+- [ ] `lib/help/macrofaq.txt:1190` [line]    <k>  The trigger key for the macro
+- [ ] `lib/help/macrofaq.txt:1191` [line] 4) 8    Create a keymap
+- [ ] `lib/help/macrofaq.txt:1192` [line]    <k>  The trigger key for the keymap
+- [ ] `lib/help/macrofaq.txt:1193` [line] 5)      (Hit Enter to accept the current action)
+- [ ] `lib/help/macrofaq.txt:1194` [line]         (Hit Esc to clear the message "Added a keymap")
+- [ ] `lib/help/macrofaq.txt:1196` [line] This technique can also be used to move or copy actions between macros
+- [ ] `lib/help/macrofaq.txt:1197` [line] or keymaps of the same kind. [[[[[BAnd old macro MUST be removed from a key]
+- [ ] `lib/help/macrofaq.txt:1198` [line] [[[[[Bbefore it can be used as the trigger key for a keymap], otherwise the
+- [ ] `lib/help/macrofaq.txt:1199` [line] macro action will expand when you press the trigger key in the editor.
+- [ ] `lib/help/macrofaq.txt:1200` [line] Converting a keymap to a macro doesn't require removing the keymap
+- [ ] `lib/help/macrofaq.txt:1201` [line] first.
+- [ ] `lib/help/macrofaq.txt:1203` [line] Note that not all macros can be converted to keymaps. Keymaps don't do
+- [ ] `lib/help/macrofaq.txt:1204` [line] macro or keymap expansion on their action strings, so macros that rely
+- [ ] `lib/help/macrofaq.txt:1205` [line] on this will no longer work. Also, keymaps can only be bound to a
+- [ ] `lib/help/macrofaq.txt:1206` [line] trigger key with a printable internal representation. For example, a
+- [ ] `lib/help/macrofaq.txt:1207` [line] function key can't be a trigger for a keymap.
+- [ ] `lib/help/macrofaq.txt:1208` [line] ~~~~~9
+- [ ] `lib/help/macrofaq.txt:1209` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1210` [line] #####G5.9 Can I create an infinite loop using a macro?
+- [ ] `lib/help/macrofaq.txt:1211` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1213` [line] No. Well, okay, you can, but only if you work *really* hard at it and
+- [ ] `lib/help/macrofaq.txt:1214` [line] abuse bugs in the macro handling code. This isn't something that will
+- [ ] `lib/help/macrofaq.txt:1215` [line] happen by accident just by using the trigger key inside its action.
+- [ ] `lib/help/macrofaq.txt:1217` [line] You also can't create recursion. So don't worry about this. See the
+- [ ] `lib/help/macrofaq.txt:1218` [line] section *****macrofaq.txt*10["Macros can contain their own trigger key"] for more info.
+- [ ] `lib/help/macrofaq.txt:1219` [line] ~~~~~4
+- [ ] `lib/help/macrofaq.txt:1220` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1221` [line] #####G5.10 What just killed me?
+- [ ] `lib/help/macrofaq.txt:1222` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1224` [line] When you are using lots of escapes and spaces in your macros to skip
+- [ ] `lib/help/macrofaq.txt:1225` [line] over messages, you can miss important things happening. One of these
+- [ ] `lib/help/macrofaq.txt:1226` [line] is dying. Usually when something goes wrong, you can just use the (^P)
+- [ ] `lib/help/macrofaq.txt:1227` [line] Previous Messages command to see what happened. But if you died the
+- [ ] `lib/help/macrofaq.txt:1228` [line] escapes can take you past the tombstone screen, your last chance to
+- [ ] `lib/help/macrofaq.txt:1229` [line] examine the previous messages list. This also happens without macros.
+- [ ] `lib/help/macrofaq.txt:1231` [line] To examine your recall, load the savefile and start a new character.
+- [ ] `lib/help/macrofaq.txt:1232` [line] You will then be able to use the message recall command to see the
+- [ ] `lib/help/macrofaq.txt:1233` [line] last messages of that character's previous incarnation.
+- [ ] `lib/help/macrofaq.txt:1235` [line] ~~~~~35
+- [ ] `lib/help/macrofaq.txt:1236` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1237` [line] #####R6. Common Problems
+- [ ] `lib/help/macrofaq.txt:1238` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1240` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1241` [line] #####G6.1 My macro works all the time when I press its key!
+- [ ] `lib/help/macrofaq.txt:1242` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1244` [line] Macros *do* work all the time. Every time you press a key, macro
+- [ ] `lib/help/macrofaq.txt:1245` [line] expansion is done on it, and then keymap expansion. So if you use 'y'
+- [ ] `lib/help/macrofaq.txt:1246` [line] as a trigger key for a macro, and then you try and answer a yes/no
+- [ ] `lib/help/macrofaq.txt:1247` [line] prompt with 'y', instead you will get the macro's action string.
+- [ ] `lib/help/macrofaq.txt:1249` [line] The answer to this is to change your macro to a keymap. These can be
+- [ ] `lib/help/macrofaq.txt:1250` [line] bound to keys which have a system-independent representation in the
+- [ ] `lib/help/macrofaq.txt:1251` [line] game, which includes all keys that you would use when interacting with
+- [ ] `lib/help/macrofaq.txt:1252` [line] the game interface.
+- [ ] `lib/help/macrofaq.txt:1254` [line] If you don't want to change it to a keymap, try changing the trigger
+- [ ] `lib/help/macrofaq.txt:1255` [line] key to a "special" key, such as a function key.
+- [ ] `lib/help/macrofaq.txt:1256` [line] ~~~~~6
+- [ ] `lib/help/macrofaq.txt:1257` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1258` [line] #####G6.2 My auto-firing macro shoots the wrong target!
+- [ ] `lib/help/macrofaq.txt:1259` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1261` [line] Your macro is probably firing at the previous target. This will happen
+- [ ] `lib/help/macrofaq.txt:1262` [line] if the option (*****option.txt*4[use_old_target]) is set. Then a macro will like "f1*t"
+- [ ] `lib/help/macrofaq.txt:1263` [line] or "m1a*t" will execute as:
+- [ ] `lib/help/macrofaq.txt:1265` [line] f   Fire
+- [ ] `lib/help/macrofaq.txt:1266` [line] 1   Ammo inscribed 1
+- [ ] `lib/help/macrofaq.txt:1267` [line]     (it will now fire at the last [wrong] target)
+- [ ] `lib/help/macrofaq.txt:1268` [line] *   Choose a [new] target
+- [ ] `lib/help/macrofaq.txt:1269` [line] t   Accept first target
+- [ ] `lib/help/macrofaq.txt:1271` [line] If there are no valid targets, the (t) targeting command will centre
+- [ ] `lib/help/macrofaq.txt:1272` [line] on your position. If you move, the target will still be your old
+- [ ] `lib/help/macrofaq.txt:1273` [line] square. The first time you use the "f1*t" macro it will fire at that
+- [ ] `lib/help/macrofaq.txt:1274` [line] square, even if there is now a valid target (monster) nearby.
+- [ ] `lib/help/macrofaq.txt:1276` [line] One fix is to turn off the (use_old_taret) option, since the action
+- [ ] `lib/help/macrofaq.txt:1277` [line] doesn't require it. This is done with the (=) Set Options command.
+- [ ] `lib/help/macrofaq.txt:1279` [line] Another is to change the action to choose the target before it fires.
+- [ ] `lib/help/macrofaq.txt:1280` [line] Example: "*tf1".
+- [ ] `lib/help/macrofaq.txt:1282` [line] [[[[[BNote:] just because you can "see" a monster doesn't mean you can target
+- [ ] `lib/help/macrofaq.txt:1283` [line] it. The code used for vision (line of sight) and firing (projection)
+- [ ] `lib/help/macrofaq.txt:1284` [line] is slightly different. So when shooting near corners or pillars it may
+- [ ] `lib/help/macrofaq.txt:1285` [line] happen that you can "see" a monster but not target it. If your action
+- [ ] `lib/help/macrofaq.txt:1286` [line] kills messages at the end, you could keep hitting your auto-fire macro
+- [ ] `lib/help/macrofaq.txt:1287` [line] and the only thing happening would be a large pile of missiles quietly
+- [ ] `lib/help/macrofaq.txt:1288` [line] accumulating underneath you.
+- [ ] `lib/help/macrofaq.txt:1290` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1291` [line] #####G6.3 I used to have items inscribed, and now they aren't!
+- [ ] `lib/help/macrofaq.txt:1292` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1294` [line] The game only knows about inscriptions that you are carrying. There is
+- [ ] `lib/help/macrofaq.txt:1295` [line] no way to "store" them independently of a character's save file. So if
+- [ ] `lib/help/macrofaq.txt:1296` [line] you lose all of an item that was inscribed, picking up another of that
+- [ ] `lib/help/macrofaq.txt:1297` [line] kind won't automatically inscribe it.
+- [ ] `lib/help/macrofaq.txt:1299` [line] Normal inscriptions aren't affected by your player's "memory".
+- [ ] `lib/help/macrofaq.txt:1301` [line] Note that some items, when fully identified, could have their
+- [ ] `lib/help/macrofaq.txt:1302` [line] descriptions grow so long that no inscription will show. In that case
+- [ ] `lib/help/macrofaq.txt:1303` [line] you can use the (I) Identify command. It will display the full
+- [ ] `lib/help/macrofaq.txt:1304` [line] description, even if nothing special is known about that item.
+- [ ] `lib/help/macrofaq.txt:1306` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1307` [line] #####G6.4 I changed some macros in a pref file and nothing happened!
+- [ ] `lib/help/macrofaq.txt:1308` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1310` [line] Settings loaded in later pref files will overwrite earlier ones. So if
+- [ ] `lib/help/macrofaq.txt:1311` [line] you add macros for the same trigger key to files "<$CLASS>.prf" and
+- [ ] `lib/help/macrofaq.txt:1312` [line] "<$PLAYER>.prf", the second one will get used because its file loads
+- [ ] `lib/help/macrofaq.txt:1313` [line] later. This affects macros, keymaps, actions, attrs/colors, and other
+- [ ] `lib/help/macrofaq.txt:1314` [line] info. See section *****macrofaq.txt*11["Pref lines summary"] for all the types of settings
+- [ ] `lib/help/macrofaq.txt:1315` [line] that can be loaded. Also see section *****macrofaq.txt*7["Pref file loading order"].
+- [ ] `lib/help/macrofaq.txt:1317` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1318` [line] #####G6.5 It moves me when I try to use my bow/rod/wand!
+- [ ] `lib/help/macrofaq.txt:1319` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1321` [line] Example: you type "f1" and it moves you in direction 1 (South West).
+- [ ] `lib/help/macrofaq.txt:1322` [line] What is happening is that the 'f' key isn't being handled correctly.
+- [ ] `lib/help/macrofaq.txt:1323` [line] It may be remapped to a bogus command, or one which doesn't take an
+- [ ] `lib/help/macrofaq.txt:1324` [line] argument. So the 'f' command is skipped/dealt with, and the '1' key is
+- [ ] `lib/help/macrofaq.txt:1325` [line] then treated as a direction. You can examine what is going on with the
+- [ ] `lib/help/macrofaq.txt:1326` [line] 'f' key using the (@) Interact with macros screen to check for any
+- [ ] `lib/help/macrofaq.txt:1327` [line] macros or keymaps bound to that key. Use the appropriate "Remove ..."
+- [ ] `lib/help/macrofaq.txt:1328` [line] command to restore the built-in Angband command.
+- [ ] `lib/help/macrofaq.txt:1329` [line] ~~~~~3
+- [ ] `lib/help/macrofaq.txt:1330` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1331` [line] #####G6.6 My macro drops/takes off my main weapon!
+- [ ] `lib/help/macrofaq.txt:1332` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1334` [line] This is probably caused by an auto-fire macro like "*tm1a" for magic
+- [ ] `lib/help/macrofaq.txt:1335` [line] missile. If you hold down the trigger key to repeatedly use it, and
+- [ ] `lib/help/macrofaq.txt:1336` [line] some game event (possibly caused by the macro) creates a message, then
+- [ ] `lib/help/macrofaq.txt:1337` [line] the action will be interpreted as:
+- [ ] `lib/help/macrofaq.txt:1338` [line] *    (cancel message)
+- [ ] `lib/help/macrofaq.txt:1339` [line] t    Take off item
+- [ ] `lib/help/macrofaq.txt:1340` [line] m    (ignored as invalid)
+- [ ] `lib/help/macrofaq.txt:1341` [line] 1    (ignored as invalid)
+- [ ] `lib/help/macrofaq.txt:1342` [line] a    Item a (main weapon)
+- [ ] `lib/help/macrofaq.txt:1344` [line] If there is room in your inventory, it will be put there. If not, your
+- [ ] `lib/help/macrofaq.txt:1345` [line] inventory will overflow and it will be dropped on the ground. If this
+- [ ] `lib/help/macrofaq.txt:1346` [line] happens during combat this is a very good way to die. This is just
+- [ ] `lib/help/macrofaq.txt:1347` [line] another good reason to have {!d!k!v} on your main weapon. See the
+- [ ] `lib/help/macrofaq.txt:1348` [line] section *****macrofaq.txt*12["Prevent unwanted use of an item"].
+- [ ] `lib/help/macrofaq.txt:1350` [line] This can be fixed by using the escape sequence "\e\e\e" before and
+- [ ] `lib/help/macrofaq.txt:1351` [line] after the action string to cancel any pending messages or commands.
+- [ ] `lib/help/macrofaq.txt:1352` [line] See the section *****macrofaq.txt*13["Clearing the command buffer"].
+- [ ] `lib/help/macrofaq.txt:1353` [line] ~~~~~2
+- [ ] `lib/help/macrofaq.txt:1354` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1355` [line] #####G6.7 My macro outputs "e - Floating Eye" on the message line!
+- [ ] `lib/help/macrofaq.txt:1356` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1358` [line] It is wise to add an escape sequence "\e\e\e" to the beginning and end
+- [ ] `lib/help/macrofaq.txt:1359` [line] of all macros for which this doesn't destroy useful information. See
+- [ ] `lib/help/macrofaq.txt:1360` [line] section *****macrofaq.txt*13["Clearing the command buffer"] for more information on this.
+- [ ] `lib/help/macrofaq.txt:1362` [line] But many players play on flavors of unix, which uses '/' as the path
+- [ ] `lib/help/macrofaq.txt:1363` [line] separator for files, and automatically type a forward slash when they
+- [ ] `lib/help/macrofaq.txt:1364` [line] mean to type a backslash. So many actions in macros/keymaps in usenet
+- [ ] `lib/help/macrofaq.txt:1365` [line] posts have the wrong type of slash. Angband "gurus" are perhaps more
+- [ ] `lib/help/macrofaq.txt:1366` [line] vulnerable to this than novices.
+- [ ] `lib/help/macrofaq.txt:1368` [line] The game sees this as:
+- [ ] `lib/help/macrofaq.txt:1369` [line] /    Identify a character
+- [ ] `lib/help/macrofaq.txt:1370` [line] e    Character to be identified
+- [ ] `lib/help/macrofaq.txt:1371` [line] And outputs "e - Floating Eye" on the message line.
+- [ ] `lib/help/macrofaq.txt:1373` [line] If this sequence gets expanded when you are trying to select an item,
+- [ ] `lib/help/macrofaq.txt:1374` [line] it will lead to different behaviors.
+- [ ] `lib/help/macrofaq.txt:1375` [line] Example:
+- [ ] `lib/help/macrofaq.txt:1376` [line] /    Switch between inventory and equipment
+- [ ] `lib/help/macrofaq.txt:1377` [line] e    Select item e.
+- [ ] `lib/help/macrofaq.txt:1378` [line] Or:
+- [ ] `lib/help/macrofaq.txt:1379` [line] /    Switch between inventory and equipment
+- [ ] `lib/help/macrofaq.txt:1380` [line] e    (ignored because invalid) Select item e.
+- [ ] `lib/help/macrofaq.txt:1381` [line] /    Switch between inventory and equipment
+- [ ] `lib/help/macrofaq.txt:1382` [line] e    Select item e.
+- [ ] `lib/help/macrofaq.txt:1384` [line] ~~~~~36
+- [ ] `lib/help/macrofaq.txt:1385` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1386` [line] #####R7. Inscriptions added by the game
+- [ ] `lib/help/macrofaq.txt:1387` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1389` [line] Some inscriptions are added by the game itself. These can overwrite
+- [ ] `lib/help/macrofaq.txt:1390` [line] your inscriptions. There are also "fake" and "special" inscriptions,
+- [ ] `lib/help/macrofaq.txt:1391` [line] which "look" like real inscriptions to the player.
+- [ ] `lib/help/macrofaq.txt:1393` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1394` [line] #####G7.1 Fake inscriptions
+- [ ] `lib/help/macrofaq.txt:1395` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1397` [line] These "fake" inscriptions are "covered up" by real inscriptions, but
+- [ ] `lib/help/macrofaq.txt:1398` [line] will reappear if the real inscription is removed.
+- [ ] `lib/help/macrofaq.txt:1400` [line] "fake" inscriptions are unaffected by the uninscribe command (}).
+- [ ] `lib/help/macrofaq.txt:1402` [line] {cursed} - cursed item
+- [ ] `lib/help/macrofaq.txt:1403` [line] {empty}  - item out of charges
+- [ ] `lib/help/macrofaq.txt:1404` [line] {tried}  - a "flavored" item which the character
+- [ ] `lib/help/macrofaq.txt:1405` [line]            has used, but whose effects are unknown.
+- [ ] `lib/help/macrofaq.txt:1406` [line] {N% off} - item bought on sale
+- [ ] `lib/help/macrofaq.txt:1407` [line] {quest}  - this item is a quest item. It may need to be taken to someone.
+- [ ] `lib/help/macrofaq.txt:1409` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1410` [line] #####G7.2 Auto-inscriptions
+- [ ] `lib/help/macrofaq.txt:1411` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1413` [line] These added when your character gets a "feeling" about an item.
+- [ ] `lib/help/macrofaq.txt:1414` [line] In ToME these are "special" inscriptions, like "fake" inscriptions
+- [ ] `lib/help/macrofaq.txt:1415` [line] above, which don't overwrite user inscriptions. They just hide user
+- [ ] `lib/help/macrofaq.txt:1416` [line] inscriptions, which are still there.
+- [ ] `lib/help/macrofaq.txt:1418` [line] {terrible}  - cursed or broken artifact
+- [ ] `lib/help/macrofaq.txt:1419` [line] {broken}    - broken item
+- [ ] `lib/help/macrofaq.txt:1420` [line] {cursed}    - cursed item
+- [ ] `lib/help/macrofaq.txt:1421` [line] {uncursed}  - previously cursed item
+- [ ] `lib/help/macrofaq.txt:1422` [line] {average}
+- [ ] `lib/help/macrofaq.txt:1423` [line] {good}      - good (magical) item
+- [ ] `lib/help/macrofaq.txt:1424` [line] {excellent} - ego item
+- [ ] `lib/help/macrofaq.txt:1425` [line] {special}   - unique item
+- [ ] `lib/help/macrofaq.txt:1426` [line] {on sale}   - displayed only in the store
+- [ ] `lib/help/macrofaq.txt:1428` [line] ~~~~~37
+- [ ] `lib/help/macrofaq.txt:1429` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1430` [line] #####R8. Keys and commands
+- [ ] `lib/help/macrofaq.txt:1431` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1433` [line] This section gives short descriptions of keys and commands used in
+- [ ] `lib/help/macrofaq.txt:1434` [line] actions and trigger key representations. They are only listed in this
+- [ ] `lib/help/macrofaq.txt:1435` [line] section if they aren't fully described elsewhere in this FAQ. Not all
+- [ ] `lib/help/macrofaq.txt:1436` [line] of these keys are actually for "commands". See the normal Angband help
+- [ ] `lib/help/macrofaq.txt:1437` [line] for a fuller description of these commands. The commands and keysets
+- [ ] `lib/help/macrofaq.txt:1438` [line] are documented in *****command.txt*0["command.txt"].
+- [ ] `lib/help/macrofaq.txt:1440` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1441` [line] #####G8.1 Keysets
+- [ ] `lib/help/macrofaq.txt:1442` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1444` [line] ToME supports two "keysets", which are fully customisable sets of
+- [ ] `lib/help/macrofaq.txt:1445` [line] keymaps. The "original" command set is close to the built-in commands,
+- [ ] `lib/help/macrofaq.txt:1446` [line] with some additions for ease of use such as number keys moving you in
+- [ ] `lib/help/macrofaq.txt:1447` [line] that direction. The "roguelike" command set allows easy movement on a
+- [ ] `lib/help/macrofaq.txt:1448` [line] keyboard without a numeric keypad. As a consequence its letter keys
+- [ ] `lib/help/macrofaq.txt:1449` [line] are almost completely "full". These used to be hard-coded by the game,
+- [ ] `lib/help/macrofaq.txt:1450` [line] but are now fully customisable. The default keymaps are in "pref.prf".
+- [ ] `lib/help/macrofaq.txt:1452` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1453` [line] #####G8.2 Item selection
+- [ ] `lib/help/macrofaq.txt:1454` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1456` [line] (*) - gives list of choices
+- [ ] `lib/help/macrofaq.txt:1457` [line] (-) - selects item on the floor
+- [ ] `lib/help/macrofaq.txt:1458` [line] (/) - toggles between the inventory and equipment lists.
+- [ ] `lib/help/macrofaq.txt:1460` [line] (space) - shows list of choices. Pressing (space) again hides the list.
+- [ ] `lib/help/macrofaq.txt:1461` [line] (lower) - selects the inventory item with that letter.
+- [ ] `lib/help/macrofaq.txt:1462` [line] (upper) - selects the inventory item with that letter, and requires
+- [ ] `lib/help/macrofaq.txt:1463` [line]     confirmation.
+- [ ] `lib/help/macrofaq.txt:1464` [line] (digit) - selects first item inscribed with "@#" or "@x#" where 'x' is
+- [ ] `lib/help/macrofaq.txt:1465` [line]     the command, and '#' is the digit. Only legal items are allowed.
+- [ ] `lib/help/macrofaq.txt:1467` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1468` [line] #####G8.3 Directions and Movement
+- [ ] `lib/help/macrofaq.txt:1469` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1471` [line] Original keyset directions
+- [ ] `lib/help/macrofaq.txt:1472` [line] 7 8 9
+- [ ] `lib/help/macrofaq.txt:1473` [line] 4 5 6
+- [ ] `lib/help/macrofaq.txt:1474` [line] 1 2 3
+- [ ] `lib/help/macrofaq.txt:1476` [line] Roguelike keyset directions
+- [ ] `lib/help/macrofaq.txt:1477` [line] y k u
+- [ ] `lib/help/macrofaq.txt:1478` [line] h 5 l
+- [ ] `lib/help/macrofaq.txt:1479` [line] b j n
+- [ ] `lib/help/macrofaq.txt:1481` [line] #####B= Underlying command keys =
+- [ ] `lib/help/macrofaq.txt:1483` [line] ;<dir> - walk (with pickup)
+- [ ] `lib/help/macrofaq.txt:1484` [line] +<dir> - alter
+- [ ] `lib/help/macrofaq.txt:1485` [line] .<dir> - run
+- [ ] `lib/help/macrofaq.txt:1487` [line] Digits AREN'T built-in movement commands in ToME. They are actually
+- [ ] `lib/help/macrofaq.txt:1488` [line] keymaps found in the standard pref file "pref.prf". The digits are
+- [ ] `lib/help/macrofaq.txt:1489` [line] direction arguments to the (;) Walk command.
+- [ ] `lib/help/macrofaq.txt:1491` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1492` [line] #####G8.4 Escape sequences
+- [ ] `lib/help/macrofaq.txt:1493` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1495` [line] Many [non-printable] characters have a standard printable encoding
+- [ ] `lib/help/macrofaq.txt:1496` [line] which uses an "escape" character to change the meaning of the
+- [ ] `lib/help/macrofaq.txt:1497` [line] following character. The backslash character is used as in the C
+- [ ] `lib/help/macrofaq.txt:1498` [line] language for many keys. The caret '^' is used for control keys.
+- [ ] `lib/help/macrofaq.txt:1500` [line] #####B= Escape sequences =
+- [ ] `lib/help/macrofaq.txt:1501` [line] \b backspace
+- [ ] `lib/help/macrofaq.txt:1502` [line] \e escape
+- [ ] `lib/help/macrofaq.txt:1503` [line] \n newline
+- [ ] `lib/help/macrofaq.txt:1504` [line] \r return
+- [ ] `lib/help/macrofaq.txt:1505` [line] \s space
+- [ ] `lib/help/macrofaq.txt:1506` [line] \t tab
+- [ ] `lib/help/macrofaq.txt:1507` [line] \xNN hex ASCII char
+- [ ] `lib/help/macrofaq.txt:1508` [line] \\ (literal) backslash
+- [ ] `lib/help/macrofaq.txt:1509` [line] \^ (literal) caret
+- [ ] `lib/help/macrofaq.txt:1511` [line] #####B= Backslash =
+- [ ] `lib/help/macrofaq.txt:1512` [line] In a macro, "\\" followed by a character uses the "underlying" command
+- [ ] `lib/help/macrofaq.txt:1513` [line] for that character without translation. This is useful in macros to
+- [ ] `lib/help/macrofaq.txt:1514` [line] avoid keymaps changing the behavior of the macro. In particular this
+- [ ] `lib/help/macrofaq.txt:1515` [line] can be used to make macros which work for both original and roguelike
+- [ ] `lib/help/macrofaq.txt:1516` [line] keysets. Keymaps don't have this problem.
+- [ ] `lib/help/macrofaq.txt:1518` [line] #####B= Newline and Return =
+- [ ] `lib/help/macrofaq.txt:1519` [line] These two characters can be used interchangeably.
+- [ ] `lib/help/macrofaq.txt:1521` [line] #####B= ASCII chars =
+- [ ] `lib/help/macrofaq.txt:1522` [line] Any ASCII character can be encoded in this way. So many keys will have
+- [ ] `lib/help/macrofaq.txt:1523` [line] more than one representation. For example, [Enter] can be "\r", "^M",
+- [ ] `lib/help/macrofaq.txt:1524` [line] and "\x09". The backslash representations are case sensitive, so "\t"
+- [ ] `lib/help/macrofaq.txt:1525` [line] is [Tab], but "\T" will just be interpreted as "T". The hexadecimal
+- [ ] `lib/help/macrofaq.txt:1526` [line] number must be exactly 2 digits.
+- [ ] `lib/help/macrofaq.txt:1528` [line] #####B= Escape and Space =
+- [ ] `lib/help/macrofaq.txt:1529` [line] See section *****macrofaq.txt*13["Clearing the command buffer"] for their main uses.
+- [ ] `lib/help/macrofaq.txt:1531` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1532` [line] #####G8.5 Repeats and Counts
+- [ ] `lib/help/macrofaq.txt:1533` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1535` [line] #####B= Auto repeat =
+- [ ] `lib/help/macrofaq.txt:1536` [line] Some commands will automatically repeat. These are:
+- [ ] `lib/help/macrofaq.txt:1537` [line] (T) Tunnel
+- [ ] `lib/help/macrofaq.txt:1538` [line] (B) Bash
+- [ ] `lib/help/macrofaq.txt:1539` [line] (D) Disarm
+- [ ] `lib/help/macrofaq.txt:1540` [line] (o) Open
+- [ ] `lib/help/macrofaq.txt:1541` [line] (c) Close
+- [ ] `lib/help/macrofaq.txt:1542` [line] (+) Alter
+- [ ] `lib/help/macrofaq.txt:1544` [line] #####B= Number keys =
+- [ ] `lib/help/macrofaq.txt:1546` [line] 0 - starts a repeat count. Some commands take a repeat count argument.
+- [ ] `lib/help/macrofaq.txt:1547` [line] They can be entered as "0<count><cmmd>". If the command is movement,
+- [ ] `lib/help/macrofaq.txt:1548` [line] it can (must) be preceded by space(s) to separate the direction
+- [ ] `lib/help/macrofaq.txt:1549` [line] (command) number from the count number.
+- [ ] `lib/help/macrofaq.txt:1550` [line] ~~~~~1
+- [ ] `lib/help/macrofaq.txt:1551` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1552` [line] #####G8.6 Messages and Questions
+- [ ] `lib/help/macrofaq.txt:1553` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1555` [line] #####B= Yes/No queries =
+- [ ] `lib/help/macrofaq.txt:1556` [line] Yes/No questions can be answered with 'y', 'n', or Esc. These are not
+- [ ] `lib/help/macrofaq.txt:1557` [line] case sensitive. Only 'y' or 'Y' will respond Yes. 'n', 'N', and Esc
+- [ ] `lib/help/macrofaq.txt:1558` [line] are No. If the option (quick_messages) is on, any other keypress is
+- [ ] `lib/help/macrofaq.txt:1559` [line] also No. When the option is off, it will keep waiting for a valid key.
+- [ ] `lib/help/macrofaq.txt:1561` [line] #####B= "-more-" message prompts =
+- [ ] `lib/help/macrofaq.txt:1562` [line] These may be cleared by Esc(\e), Space(\s), Enter(\r), or Newline(\n).
+- [ ] `lib/help/macrofaq.txt:1563` [line] If the (quick_messages) option is on, they can be cleared by any key.
+- [ ] `lib/help/macrofaq.txt:1565` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1566` [line] #####G8.7 Special keys
+- [ ] `lib/help/macrofaq.txt:1567` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1569` [line] #####B= Function keys =
+- [ ] `lib/help/macrofaq.txt:1570` [line] Function keys are free for reassignment, but only as macros. [[[[[BFunction]
+- [ ] `lib/help/macrofaq.txt:1571` [line] [[[[[Bkeys can be modified by Alt, Ctrl, Shift like other keys.]
+- [ ] `lib/help/macrofaq.txt:1573` [line] #####B= Alt keys =
+- [ ] `lib/help/macrofaq.txt:1574` [line] Alt-modified keys are generally free for reassignment as either macros
+- [ ] `lib/help/macrofaq.txt:1575` [line] or keymaps.
+- [ ] `lib/help/macrofaq.txt:1577` [line] #####B= Control keys =
+- [ ] `lib/help/macrofaq.txt:1578` [line] Control keys can be entered in as "^x" where 'x' is the key. Note
+- [ ] `lib/help/macrofaq.txt:1579` [line] that the case of 'x' is unimportant. This also allows typing control
+- [ ] `lib/help/macrofaq.txt:1580` [line] keys which would be intercepted by the operating system, such as ^C.
+- [ ] `lib/help/macrofaq.txt:1581` [line] You must type the caret '^' and the following key separately. Note
+- [ ] `lib/help/macrofaq.txt:1582` [line] that some have special meanings, such as ^M for Return, and ^H for
+- [ ] `lib/help/macrofaq.txt:1583` [line] backspace. Some also have special Operating System meanings, such as
+- [ ] `lib/help/macrofaq.txt:1584` [line] "^Z" in un*x, and "^C" in DOS. Control keys can be trigger keys for
+- [ ] `lib/help/macrofaq.txt:1585` [line] both macros and keymaps.
+- [ ] `lib/help/macrofaq.txt:1587` [line] #####B= Interrupting the game =
+- [ ] `lib/help/macrofaq.txt:1588` [line] (^C) This will kill your character and quit the game, after verifying.
+- [ ] `lib/help/macrofaq.txt:1590` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1591` [line] #####G8.8 Keys used in inscriptions
+- [ ] `lib/help/macrofaq.txt:1592` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1594` [line] #####B= Confirm command =
+- [ ] `lib/help/macrofaq.txt:1595` [line] ^ Confirm the following command.
+- [ ] `lib/help/macrofaq.txt:1596` [line] This isn't an actual command, but a character with a special meaning
+- [ ] `lib/help/macrofaq.txt:1597` [line] inside command strings. {^*} will confirm all actions for the item.
+- [ ] `lib/help/macrofaq.txt:1599` [line] ~~~~~38
+- [ ] `lib/help/macrofaq.txt:1600` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1601` [line] #####R9. Pref files
+- [ ] `lib/help/macrofaq.txt:1602` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1604` [line] All pref files are loaded from and saved to folder "\lib\user". The
+- [ ] `lib/help/macrofaq.txt:1605` [line] folder "\lib\pref" is unused at this time! The location and name of
+- [ ] `lib/help/macrofaq.txt:1606` [line] this folder can be configured.
+- [ ] `lib/help/macrofaq.txt:1608` [line] Warning: the directory "\lib\pref" is unused by the game. Pref files
+- [ ] `lib/help/macrofaq.txt:1609` [line] moved there will never get used (unless the user has redirected the
+- [ ] `lib/help/macrofaq.txt:1610` [line] folder locations).
+- [ ] `lib/help/macrofaq.txt:1612` [line] Integers can be in hex "0x10", decimal "16", or octal "020" formats.
+- [ ] `lib/help/macrofaq.txt:1613` [line] These are converted using the C library fn strtol(), and are case
+- [ ] `lib/help/macrofaq.txt:1614` [line] insensitive.
+- [ ] `lib/help/macrofaq.txt:1616` [line] Decimal numbers start with '1'-'9'.
+- [ ] `lib/help/macrofaq.txt:1617` [line] Octal numbers must start with '0' (zero).
+- [ ] `lib/help/macrofaq.txt:1618` [line] Hex numbers start with '0x' or '0X'.
+- [ ] `lib/help/macrofaq.txt:1620` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1621` [line] #####G9.1 Standard Pref files
+- [ ] `lib/help/macrofaq.txt:1622` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1624` [line] Below "***" stands for the 3-letter system abbreviations, such as
+- [ ] `lib/help/macrofaq.txt:1625` [line] "acn", "mac", "win", "x11", ...
+- [ ] `lib/help/macrofaq.txt:1627` [line] "font.prf"
+- [ ] `lib/help/macrofaq.txt:1628` [line] Includes "font-***.prf" files.
+- [ ] `lib/help/macrofaq.txt:1629` [line] This file defines special attr/char mappings for "text" mode.
+- [ ] `lib/help/macrofaq.txt:1631` [line] "graf.prf"
+- [ ] `lib/help/macrofaq.txt:1632` [line] Includes "graf-***.prf" files.
+- [ ] `lib/help/macrofaq.txt:1633` [line] This file defines special attr/char mappings for "graphics" mode.
+- [ ] `lib/help/macrofaq.txt:1635` [line] "pref.prf"
+- [ ] `lib/help/macrofaq.txt:1636` [line] Includes "pref-***.prf" files.
+- [ ] `lib/help/macrofaq.txt:1637` [line] This file defines "default" actions of various kinds. This includes
+- [ ] `lib/help/macrofaq.txt:1638` [line] mapping the original and roguelike keysets to the underlying keyset.
+- [ ] `lib/help/macrofaq.txt:1640` [line] "user.prf"
+- [ ] `lib/help/macrofaq.txt:1641` [line] Includes "user-***.prf" files.
+- [ ] `lib/help/macrofaq.txt:1642` [line] This file defines "override" actions of various kinds. It includes the
+- [ ] `lib/help/macrofaq.txt:1643` [line] pref files based on system, race, and class.
+- [ ] `lib/help/macrofaq.txt:1645` [line] "xtra-***.prf"
+- [ ] `lib/help/macrofaq.txt:1646` [line] This file defines special attr/char mappings for "graphics" mode.
+- [ ] `lib/help/macrofaq.txt:1647` [line] Currently this just maps the player icon based on race and class.
+- [ ] `lib/help/macrofaq.txt:1648` [line] "new" refers to Adam Bolt's tiles.
+- [ ] `lib/help/macrofaq.txt:1650` [line] [[[[[vWarning:] you shouldn't edit the base pref files without a good reason,
+- [ ] `lib/help/macrofaq.txt:1651` [line] and understanding what you are doing. Breaking these files can make
+- [ ] `lib/help/macrofaq.txt:1652` [line] your game unusable. They are, however, the place to make changes that
+- [ ] `lib/help/macrofaq.txt:1653` [line] should affect all users.
+- [ ] `lib/help/macrofaq.txt:1654` [line] ~~~~~7
+- [ ] `lib/help/macrofaq.txt:1655` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1656` [line] #####G9.2 Pref file loading order
+- [ ] `lib/help/macrofaq.txt:1657` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1659` [line] This loading order follows from the order of includes in "pref.prf".
+- [ ] `lib/help/macrofaq.txt:1660` [line] Files which are "hard-coded" in the source are preceded with an index.
+- [ ] `lib/help/macrofaq.txt:1661` [line] The rest are included by the other files. Files which come later will
+- [ ] `lib/help/macrofaq.txt:1662` [line] overwrite settings from earlier files.
+- [ ] `lib/help/macrofaq.txt:1664` [line] (1) "pref.prf"
+- [ ] `lib/help/macrofaq.txt:1665` [line]     "message.prf"
+- [ ] `lib/help/macrofaq.txt:1666` [line]     "pref-***.prf"
+- [ ] `lib/help/macrofaq.txt:1668` [line] (2) "graf.prf"
+- [ ] `lib/help/macrofaq.txt:1669` [line]     "font-xxx.prf"
+- [ ] `lib/help/macrofaq.txt:1670` [line]     "graf-***.prf"
+- [ ] `lib/help/macrofaq.txt:1672` [line] (3) "font.prf"
+- [ ] `lib/help/macrofaq.txt:1673` [line]     "font-xxx.prf"
+- [ ] `lib/help/macrofaq.txt:1674` [line]     "font-***.prf"
+- [ ] `lib/help/macrofaq.txt:1676` [line] (4) "user.prf"
+- [ ] `lib/help/macrofaq.txt:1677` [line]     "user-***.prf"
+- [ ] `lib/help/macrofaq.txt:1678` [line]     "<$RACE>.prf"
+- [ ] `lib/help/macrofaq.txt:1679` [line]     "<$CLASS>.prf"
+- [ ] `lib/help/macrofaq.txt:1681` [line] (5) "<$PLAYER>.prf"
+- [ ] `lib/help/macrofaq.txt:1683` [line] (6) ".angband.prf"
+- [ ] `lib/help/macrofaq.txt:1686` [line] = $RACE =
+- [ ] `lib/help/macrofaq.txt:1687` [line] Can be one of any of the races in ToME.
+- [ ] `lib/help/macrofaq.txt:1689` [line] = $CLASS =
+- [ ] `lib/help/macrofaq.txt:1690` [line] Can be one of any of the classes in ToME.
+- [ ] `lib/help/macrofaq.txt:1692` [line] = $PLAYER =
+- [ ] `lib/help/macrofaq.txt:1693` [line] The name of the current player being loaded or born. See section
+- [ ] `lib/help/macrofaq.txt:1694` [line] *****macrofaq.txt*15["Automatically loading pref files"] for more information.
+- [ ] `lib/help/macrofaq.txt:1696` [line] #####B= Specific pref files =
+- [ ] `lib/help/macrofaq.txt:1697` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1699` [line] "user-mac.prf"
+- [ ] `lib/help/macrofaq.txt:1700` [line] This is the only user pref file with example macros that ships with
+- [ ] `lib/help/macrofaq.txt:1701` [line] ToME. A good set of examples.
+- [ ] `lib/help/macrofaq.txt:1703` [line] "pref-win.prf"
+- [ ] `lib/help/macrofaq.txt:1704` [line] This is the same as (missing) "pref-dos.prf" and "pref-ibm.prf".
+- [ ] `lib/help/macrofaq.txt:1706` [line] "colours.prf"
+- [ ] `lib/help/macrofaq.txt:1707` [line] Amiga only. Contains Amiga palette.
+- [ ] `lib/help/macrofaq.txt:1709` [line] ".angband.prf"
+- [ ] `lib/help/macrofaq.txt:1710` [line] Only on multi-user systems. This doesn't ship with the source. This
+- [ ] `lib/help/macrofaq.txt:1711` [line] file must be located in the directory contained in environ variable
+- [ ] `lib/help/macrofaq.txt:1712` [line] "HOME".
+- [ ] `lib/help/macrofaq.txt:1713` [line] ~~~~~11
+- [ ] `lib/help/macrofaq.txt:1714` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1715` [line] #####G9.3 Pref lines summary
+- [ ] `lib/help/macrofaq.txt:1716` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1718` [line] Comment lines start with a '#' and extend to end of line.
+- [ ] `lib/help/macrofaq.txt:1720` [line] Note: integer values can be specified as decimal, as hexadecimal by
+- [ ] `lib/help/macrofaq.txt:1721` [line] preceding with an "x", or as octal by using a leading "0" (zero).
+- [ ] `lib/help/macrofaq.txt:1723` [line] E:<tv>:<a> - attr/char values for inventory objects by index
+- [ ] `lib/help/macrofaq.txt:1724` [line] F:<num>:<a>:<c> - attr/char values for features by index
+- [ ] `lib/help/macrofaq.txt:1725` [line] K:<num>:<a>:<c> - attr/char values for objects by index
+- [ ] `lib/help/macrofaq.txt:1726` [line] R:<num>:<a>:<c> - attr/char values for monsters by index
+- [ ] `lib/help/macrofaq.txt:1727` [line] S:<num>:<a>:<c> - attr/char values for special things by index
+- [ ] `lib/help/macrofaq.txt:1729` [line] A:<str> - action line
+- [ ] `lib/help/macrofaq.txt:1730` [line]   An action line should be followed by a keymap trigger "C:" line
+- [ ] `lib/help/macrofaq.txt:1731` [line]   or a macro trigger "P:" line. There can be intervening comments
+- [ ] `lib/help/macrofaq.txt:1732` [line]   and lines. The same action will be [re]used by all keymap and
+- [ ] `lib/help/macrofaq.txt:1733` [line]   command lines which follow it until there is another action line.
+- [ ] `lib/help/macrofaq.txt:1734` [line] P:<str> - macro line
+- [ ] `lib/help/macrofaq.txt:1735` [line]   <str> a macro encoding of a keypress. (system dependent)
+- [ ] `lib/help/macrofaq.txt:1736` [line] C:<mode>:<str> - keymap line
+- [ ] `lib/help/macrofaq.txt:1737` [line]   <mode> 0 = "original, 1 = "roguelike".
+- [ ] `lib/help/macrofaq.txt:1738` [line]   <str> logical keypress, including backslash codes such as "\e" and
+- [ ] `lib/help/macrofaq.txt:1739` [line]     control codes such as "^K". (system independent)
+- [ ] `lib/help/macrofaq.txt:1740` [line]   Note that there are 2 independent sets of keymaps now. Changing a
+- [ ] `lib/help/macrofaq.txt:1741` [line]     keymap in one doesn't affect the other.
+- [ ] `lib/help/macrofaq.txt:1743` [line] V:<num>:<kv>:<rv>:<gv>:<bv> - specify visual information
+- [ ] `lib/help/macrofaq.txt:1744` [line]   <num> is the color index (0-255, only 0-15 used)
+- [ ] `lib/help/macrofaq.txt:1745` [line]   <kv> black (?) value -- unused
+- [ ] `lib/help/macrofaq.txt:1746` [line]   <rv> red value (0-255)
+- [ ] `lib/help/macrofaq.txt:1747` [line]   <gv> green value (0-255)
+- [ ] `lib/help/macrofaq.txt:1748` [line]   <bv> blue value (0-255)
+- [ ] `lib/help/macrofaq.txt:1749` [line] W:<win>:<flag>:<value> - turn a window flag on/off.
+- [ ] `lib/help/macrofaq.txt:1750` [line]   <win>   window number (1-7)
+- [ ] `lib/help/macrofaq.txt:1751` [line]   <flag>  (0-31)
+- [ ] `lib/help/macrofaq.txt:1752` [line]   <value> 0 = off, 1 = on
+- [ ] `lib/help/macrofaq.txt:1754` [line] X:<str> - turn option off
+- [ ] `lib/help/macrofaq.txt:1755` [line] Y:<str> - turn option on
+- [ ] `lib/help/macrofaq.txt:1756` [line]   <str> the name of an option in option_text[].
+- [ ] `lib/help/macrofaq.txt:1757` [line]   These are the names displayed in the options screen (=).
+- [ ] `lib/help/macrofaq.txt:1759` [line] ?: - conditional expression
+- [ ] `lib/help/macrofaq.txt:1760` [line] %: - include another pref file
+- [ ] `lib/help/macrofaq.txt:1762` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1763` [line] #####G9.4 Option lines "X:" and "Y:"
+- [ ] `lib/help/macrofaq.txt:1764` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1766` [line] Options and their descriptions are listed in help file *****option.txt*0["option.txt"].
+- [ ] `lib/help/macrofaq.txt:1767` [line] These options are set within the game using the (=) Options command,
+- [ ] `lib/help/macrofaq.txt:1768` [line] and the option names are the ones displayed within parentheses in the
+- [ ] `lib/help/macrofaq.txt:1769` [line] options screen.
+- [ ] `lib/help/macrofaq.txt:1771` [line] #####B= Common options =
+- [ ] `lib/help/macrofaq.txt:1772` [line] rogue_like_commands
+- [ ] `lib/help/macrofaq.txt:1773` [line] use_old_target
+- [ ] `lib/help/macrofaq.txt:1774` [line] always_pickup
+- [ ] `lib/help/macrofaq.txt:1775` [line] auto_scum
+- [ ] `lib/help/macrofaq.txt:1777` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1778` [line] #####G9.5 Conditional expression lines "?:"
+- [ ] `lib/help/macrofaq.txt:1779` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1781` [line] expressions are lisp-like prefix notation.
+- [ ] `lib/help/macrofaq.txt:1782` [line] names (class, race, ...) aren't placed in quotes.
+- [ ] `lib/help/macrofaq.txt:1783` [line] AND     - logical AND
+- [ ] `lib/help/macrofaq.txt:1784` [line] IOR     - inclusive OR
+- [ ] `lib/help/macrofaq.txt:1785` [line] EQU     - (string) equals
+- [ ] `lib/help/macrofaq.txt:1786` [line] NOT     - logical negation
+- [ ] `lib/help/macrofaq.txt:1787` [line] [,]     - group expressions
+- [ ] `lib/help/macrofaq.txt:1788` [line] $SYS    - 3-letter system abbr in "pref-***.prf" (ami, mac, win,...)
+- [ ] `lib/help/macrofaq.txt:1790` [line] 0 - false
+- [ ] `lib/help/macrofaq.txt:1791` [line] 1 - true (can't just be non-zero)
+- [ ] `lib/help/macrofaq.txt:1793` [line] If the conditional expression is false all pref file commands
+- [ ] `lib/help/macrofaq.txt:1794` [line] encountered until the next conditional pref line are skipped.
+- [ ] `lib/help/macrofaq.txt:1796` [line] This isn't an actual command. It only works in pref files.
+- [ ] `lib/help/macrofaq.txt:1798` [line] The variable $SYS and the string value it may take on are case
+- [ ] `lib/help/macrofaq.txt:1799` [line] sensitive. The values also can't contain spaces. These constraints on
+- [ ] `lib/help/macrofaq.txt:1800` [line] the values hold when they are used in a pref file, but might not when
+- [ ] `lib/help/macrofaq.txt:1801` [line] used as pref filenames.
+- [ ] `lib/help/macrofaq.txt:1803` [line] This can be "turned back on" using the pref line "?:1", which is
+- [ ] `lib/help/macrofaq.txt:1804` [line] generally the last line in a file which contains conditional macros,
+- [ ] `lib/help/macrofaq.txt:1805` [line] to make sure that any files loaded after it don't get ignored as well.
+- [ ] `lib/help/macrofaq.txt:1807` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1808` [line] #####G9.6 Macro trigger lines "P:"
+- [ ] `lib/help/macrofaq.txt:1809` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1811` [line] All "special" keys are translated by "main-***.c" into encoded "macro
+- [ ] `lib/help/macrofaq.txt:1812` [line] triggers". These macro triggers have the encoded form "^_MMMxSS\r",
+- [ ] `lib/help/macrofaq.txt:1813` [line] where the "modifier" flags are stored in "MMM", and the two digit
+- [ ] `lib/help/macrofaq.txt:1814` [line] hexadecimal scan code of the keypress is stored in "SS". See source
+- [ ] `lib/help/macrofaq.txt:1815` [line] file "main-ibm.c" and others for more info. Note that because these
+- [ ] `lib/help/macrofaq.txt:1816` [line] scan codes are system-dependent, macro trigger encodings are as well.
+- [ ] `lib/help/macrofaq.txt:1817` [line] Keymaps are used for system independent mapping of triggers to actions.
+- [ ] `lib/help/macrofaq.txt:1819` [line] #####BModifier flags
+- [ ] `lib/help/macrofaq.txt:1821` [line] A - Alt
+- [ ] `lib/help/macrofaq.txt:1822` [line] C - Control
+- [ ] `lib/help/macrofaq.txt:1823` [line] S - Shift
+- [ ] `lib/help/macrofaq.txt:1824` [line] O - Option key (Mac)
+- [ ] `lib/help/macrofaq.txt:1826` [line] #####BIBM Scan codes
+- [ ] `lib/help/macrofaq.txt:1828` [line] x47 - keypad 7
+- [ ] `lib/help/macrofaq.txt:1829` [line] x48 - keypad 8
+- [ ] `lib/help/macrofaq.txt:1830` [line] x49 - keypad 9
+- [ ] `lib/help/macrofaq.txt:1831` [line] x4A - keypad -
+- [ ] `lib/help/macrofaq.txt:1832` [line] x4B - keypad 4
+- [ ] `lib/help/macrofaq.txt:1833` [line] x4C - keypad 5
+- [ ] `lib/help/macrofaq.txt:1834` [line] x4D - keypad 6
+- [ ] `lib/help/macrofaq.txt:1835` [line] x4E - keypad +
+- [ ] `lib/help/macrofaq.txt:1836` [line] x4F - keypad 1
+- [ ] `lib/help/macrofaq.txt:1837` [line] x50 - keypad 2
+- [ ] `lib/help/macrofaq.txt:1838` [line] x51 - keypad 3
+- [ ] `lib/help/macrofaq.txt:1839` [line] x52 - keypad Ins / .
+- [ ] `lib/help/macrofaq.txt:1840` [line] x53 - keypad Del / Enter
+- [ ] `lib/help/macrofaq.txt:1841` [line] x45 - Pause
+- [ ] `lib/help/macrofaq.txt:1843` [line] Others can be found using the "Query a macro" feature.
+- [ ] `lib/help/macrofaq.txt:1845` [line] Note that scan codes can't be assumed to be "in order", even for keys
+- [ ] `lib/help/macrofaq.txt:1846` [line] like function keys which "logically" should be!
+- [ ] `lib/help/macrofaq.txt:1848` [line] Note that you can't always just add a modifier to a known scan code
+- [ ] `lib/help/macrofaq.txt:1849` [line] because that combination might not be recognised by the hardware or
+- [ ] `lib/help/macrofaq.txt:1850` [line] the translation code in "main-***.c".
+- [ ] `lib/help/macrofaq.txt:1852` [line] Example: a Windows system will recognise function key F1, Shift-F1,
+- [ ] `lib/help/macrofaq.txt:1853` [line] and Ctrl-F1, but not Ctrl-Shift-F1. Similarly Pause and Alt-Pause are
+- [ ] `lib/help/macrofaq.txt:1854` [line] recognised, but not Ctrl-Pause, and Shift-Pause gives the same
+- [ ] `lib/help/macrofaq.txt:1855` [line] encoding as Pause alone.
+- [ ] `lib/help/macrofaq.txt:1857` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1858` [line] #####G9.7 Saving to a pref file
+- [ ] `lib/help/macrofaq.txt:1859` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1861` [line] Commands "Append macros to file" and "Append keymaps to file" don't
+- [ ] `lib/help/macrofaq.txt:1862` [line] erase the previous macros or keymaps. Instead they are appended. Note
+- [ ] `lib/help/macrofaq.txt:1863` [line] that this can produce *large* files after a while. Newer versions
+- [ ] `lib/help/macrofaq.txt:1864` [line] append to "<$PLAYER>.prf" by default, whereas older versions appended
+- [ ] `lib/help/macrofaq.txt:1865` [line] to "user.prf". The appended sections are preceded by headers of the
+- [ ] `lib/help/macrofaq.txt:1866` [line] form "Automatic macro/keymap dump". Using a distinctive comment line
+- [ ] `lib/help/macrofaq.txt:1867` [line] such as ###... after your entries can make editing the appended ones
+- [ ] `lib/help/macrofaq.txt:1868` [line] easier.
+- [ ] `lib/help/macrofaq.txt:1870` [line] [[[[[BNote: macros and keymaps aren't saved in the character file, so they]
+- [ ] `lib/help/macrofaq.txt:1871` [line] [[[[[Bmust be saved separately. All macros and keymaps entered by the user]
+- [ ] `lib/help/macrofaq.txt:1872` [line] [[[[[Bare lost when Angband terminates.]
+- [ ] `lib/help/macrofaq.txt:1874` [line] Note: keeping macros in the <$PLAYER>.prf files allows several users
+- [ ] `lib/help/macrofaq.txt:1875` [line] to share the same installation without interfering with each other.
+- [ ] `lib/help/macrofaq.txt:1876` [line] You can easily reuse or share preferences by moving them into a pref
+- [ ] `lib/help/macrofaq.txt:1877` [line] file "<my-name>.prf" and using the pref line "%:<my-name>.prf" to
+- [ ] `lib/help/macrofaq.txt:1878` [line] include them in "user.prf" for single user installations, or
+- [ ] `lib/help/macrofaq.txt:1879` [line] <$PLAYER>.prf for multi-user installations.
+- [ ] `lib/help/macrofaq.txt:1881` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1882` [line] #####G9.8 Editing pref files
+- [ ] `lib/help/macrofaq.txt:1883` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1885` [line] This is still most easily done in a text editor.
+- [ ] `lib/help/macrofaq.txt:1887` [line] ~~~~~39
+- [ ] `lib/help/macrofaq.txt:1888` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1889` [line] #####R10. Macro editing commands
+- [ ] `lib/help/macrofaq.txt:1890` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:1892` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1893` [line] #####G10.1 (") Enter a User Pref Command
+- [ ] `lib/help/macrofaq.txt:1894` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1896` [line] This allows entering a single pref line.
+- [ ] `lib/help/macrofaq.txt:1897` [line] Example: "X:auto_scum" turns auto-scum off.
+- [ ] `lib/help/macrofaq.txt:1899` [line] Example "A:<str>" sets the current action string. If you open the
+- [ ] `lib/help/macrofaq.txt:1900` [line] "Interact with macros" screen this action will be the default used.
+- [ ] `lib/help/macrofaq.txt:1901` [line] Then using the (") command again with "P:<key>" will create a macro
+- [ ] `lib/help/macrofaq.txt:1902` [line] for the action <str> previously entered.
+- [ ] `lib/help/macrofaq.txt:1904` [line] Not all pref commands can be used here, or are meaningful.
+- [ ] `lib/help/macrofaq.txt:1905` [line] The "pseudo" pref commands (?), (%) cannot be used here.
+- [ ] `lib/help/macrofaq.txt:1907` [line] See section *****macrofaq.txt*20["Advanced macro techniques"] for ways to [ab]use this.
+- [ ] `lib/help/macrofaq.txt:1909` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1910` [line] #####G10.2 (@) Interact with macros
+- [ ] `lib/help/macrofaq.txt:1911` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1913` [line] #####B= Vanilla command set = (2.8.3 - 2.9.1)
+- [ ] `lib/help/macrofaq.txt:1914` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1915` [line] Load a user pref file
+- [ ] `lib/help/macrofaq.txt:1916` [line] Append macros to a file
+- [ ] `lib/help/macrofaq.txt:1917` [line] Query a macro action
+- [ ] `lib/help/macrofaq.txt:1918` [line] Create a macro
+- [ ] `lib/help/macrofaq.txt:1919` [line] Remove a macro
+- [ ] `lib/help/macrofaq.txt:1920` [line] Append keymaps to a file
+- [ ] `lib/help/macrofaq.txt:1921` [line] Query a keymap
+- [ ] `lib/help/macrofaq.txt:1922` [line] Create a keymap
+- [ ] `lib/help/macrofaq.txt:1923` [line] Remove a keymap
+- [ ] `lib/help/macrofaq.txt:1924` [line] Enter a new action
+- [ ] `lib/help/macrofaq.txt:1926` [line] #####B= Load a user pref file =
+- [ ] `lib/help/macrofaq.txt:1927` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1928` [line] Loads a user pref file from "lib\user". Defaults to the name of the
+- [ ] `lib/help/macrofaq.txt:1929` [line] current character. Macros/keymaps loaded will replace existing ones.
+- [ ] `lib/help/macrofaq.txt:1931` [line] #####B= Append macros to a file =
+- [ ] `lib/help/macrofaq.txt:1932` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1933` [line] Macros are dumped in macro list order. Newer ones are at the end.
+- [ ] `lib/help/macrofaq.txt:1934` [line] Macros are *appended* to the file. The old one isn't overwritten. This
+- [ ] `lib/help/macrofaq.txt:1935` [line] prevents you from accidentally wiping out your old pref file. However,
+- [ ] `lib/help/macrofaq.txt:1936` [line] the file can grow very long without your noticing it. Placing a line
+- [ ] `lib/help/macrofaq.txt:1937` [line] of ###'s at the end of your macros can help sort out what is what.
+- [ ] `lib/help/macrofaq.txt:1938` [line] Macros are labeled with comment "# Macro 'NNN' ". These numbers are the
+- [ ] `lib/help/macrofaq.txt:1939` [line] internal macro list numbers, and have no relation to key scan codes.
+- [ ] `lib/help/macrofaq.txt:1940` [line] The filename must end in ".prf". It will save correctly without this
+- [ ] `lib/help/macrofaq.txt:1941` [line] extension, or with a different one, but if you save as "<$NAME>"
+- [ ] `lib/help/macrofaq.txt:1942` [line] instead of "<$NAME>.prf", it won't be automatically loaded when you
+- [ ] `lib/help/macrofaq.txt:1943` [line] load the character with that name.
+- [ ] `lib/help/macrofaq.txt:1945` [line] #####B= Query a macro =
+- [ ] `lib/help/macrofaq.txt:1946` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1947` [line] Press the trigger key to test at the prompt.
+- [ ] `lib/help/macrofaq.txt:1948` [line] This will show "Found a macro" on the message line if it found one,
+- [ ] `lib/help/macrofaq.txt:1949` [line] and the line "Trigger: <trigger>". This will show "Found no macro"
+- [ ] `lib/help/macrofaq.txt:1950` [line] on the message line if it didn't find a macro. Some keys such as
+- [ ] `lib/help/macrofaq.txt:1951` [line] function keys won't be recognised by the prompt. It will wait until
+- [ ] `lib/help/macrofaq.txt:1952` [line] you hit a key it recognises.
+- [ ] `lib/help/macrofaq.txt:1954` [line] This command doesn't alter any settings. It will return to the main
+- [ ] `lib/help/macrofaq.txt:1955` [line] menu after you hit any key it recognises.
+- [ ] `lib/help/macrofaq.txt:1957` [line] #####B= Create a macro =
+- [ ] `lib/help/macrofaq.txt:1958` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1959` [line] After choosing this command, press the trigger key for the macro.
+- [ ] `lib/help/macrofaq.txt:1960` [line] The internal form will be shown after the "Trigger: " prompt.
+- [ ] `lib/help/macrofaq.txt:1961` [line] Note that some keys may not be recognised for remapping, such as the
+- [ ] `lib/help/macrofaq.txt:1962` [line] new Windows keys, as well as modifier keys such as Alt, Control, Shift
+- [ ] `lib/help/macrofaq.txt:1963` [line] pressed by themselves. In this case it will continue to wait for a
+- [ ] `lib/help/macrofaq.txt:1964` [line] valid trigger key.
+- [ ] `lib/help/macrofaq.txt:1966` [line] The current action (if any) will be shown *below* the "Trigger: "
+- [ ] `lib/help/macrofaq.txt:1967` [line] prompt line. On the prompt line ("Action: ") will be shown the last
+- [ ] `lib/help/macrofaq.txt:1968` [line] macro sequence entered. This is the action in the "action buffer".
+- [ ] `lib/help/macrofaq.txt:1969` [line] This isn't necessarily the macro sequence currently bound to this key.
+- [ ] `lib/help/macrofaq.txt:1970` [line] This is the action that will be bound to the current trigger key if
+- [ ] `lib/help/macrofaq.txt:1971` [line] you hit Enter.
+- [ ] `lib/help/macrofaq.txt:1973` [line] You may type in an action string to replace the one after the prompt.
+- [ ] `lib/help/macrofaq.txt:1974` [line] Hit Enter when you are finished.
+- [ ] `lib/help/macrofaq.txt:1976` [line] For ToME you can quit the command assignment by hitting
+- [ ] `lib/help/macrofaq.txt:1977` [line] Esc. The new action entered won't be assigned, and the previous one
+- [ ] `lib/help/macrofaq.txt:1978` [line] will remain unaltered.
+- [ ] `lib/help/macrofaq.txt:1980` [line] #####B= Remove a macro =
+- [ ] `lib/help/macrofaq.txt:1981` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1982` [line] Removes the macro from the trigger key by creating an identity macro
+- [ ] `lib/help/macrofaq.txt:1983` [line] on that key for itself. So the macro isn't completely removed, just
+- [ ] `lib/help/macrofaq.txt:1984` [line] overwritten. The new identity macro will be saved when the macros are
+- [ ] `lib/help/macrofaq.txt:1985` [line] appended to a file. This is different from the "Remove a keymap"
+- [ ] `lib/help/macrofaq.txt:1986` [line] command, which completely removes the keymap.
+- [ ] `lib/help/macrofaq.txt:1988` [line] #####B----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1989` [line] The following "keymap" commands only apply to the current "mode"
+- [ ] `lib/help/macrofaq.txt:1990` [line] (original/roguelike). Keymaps for the other mode will be unaffected.
+- [ ] `lib/help/macrofaq.txt:1991` [line] Because keymaps can only be bound to trigger keys which have a system
+- [ ] `lib/help/macrofaq.txt:1992` [line] independent representation, some key presses won't be recognised by
+- [ ] `lib/help/macrofaq.txt:1993` [line] these editing commands. They will instead wait until you press a valid
+- [ ] `lib/help/macrofaq.txt:1994` [line] trigger key.
+- [ ] `lib/help/macrofaq.txt:1995` [line] #####B----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:1997` [line] #####B= Append keymaps to a file =
+- [ ] `lib/help/macrofaq.txt:1998` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:1999` [line] Works just like "Append macros to a file". These are appended after a
+- [ ] `lib/help/macrofaq.txt:2000` [line] header comment "# Automatic keymap dump".
+- [ ] `lib/help/macrofaq.txt:2002` [line] #####B= Query a keymap =
+- [ ] `lib/help/macrofaq.txt:2003` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:2004` [line] Works just like "Query a macro". This will show "Found a keymap" on
+- [ ] `lib/help/macrofaq.txt:2005` [line] the message line if it found one, and will display "Keypress: <map>".
+- [ ] `lib/help/macrofaq.txt:2006` [line] This will show "Found no keymap" on the message line if it didn't
+- [ ] `lib/help/macrofaq.txt:2007` [line] find a keymap. This command doesn't alter any settings. It will return
+- [ ] `lib/help/macrofaq.txt:2008` [line] to the main menu after you hit any key it recognises.
+- [ ] `lib/help/macrofaq.txt:2010` [line] #####B= Create a keymap =
+- [ ] `lib/help/macrofaq.txt:2011` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:2012` [line] Works just like the "Create a macro" command. Keymaps can only be
+- [ ] `lib/help/macrofaq.txt:2013` [line] assigned to keys which have a system independent representation. Note
+- [ ] `lib/help/macrofaq.txt:2014` [line] that creating a keymap will cause the behavior of any macro whose
+- [ ] `lib/help/macrofaq.txt:2015` [line] action string contains that key to change.
+- [ ] `lib/help/macrofaq.txt:2017` [line] #####B= Remove a keymap =
+- [ ] `lib/help/macrofaq.txt:2018` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:2019` [line] Removes the keymap completely from the trigger key. If the key had a
+- [ ] `lib/help/macrofaq.txt:2020` [line] built-in command it can now be used again. Note that removing a keymap
+- [ ] `lib/help/macrofaq.txt:2021` [line] will cause the behavior of any macro whose action string contained
+- [ ] `lib/help/macrofaq.txt:2022` [line] that key to change. This behaves differently from the "Remove a macro"
+- [ ] `lib/help/macrofaq.txt:2023` [line] command, which creates an identity macro.
+- [ ] `lib/help/macrofaq.txt:2025` [line] If the original "command" was itself a keymap, removing a user-entered
+- [ ] `lib/help/macrofaq.txt:2026` [line] keymap won't restore it. Example: the key (n) is bound to the built-in
+- [ ] `lib/help/macrofaq.txt:2027` [line] command "Repeat last action" in file "pref.prf" via a keymap. If you
+- [ ] `lib/help/macrofaq.txt:2028` [line] add a keymap for (n) and then remove it, the "Repeat last command"
+- [ ] `lib/help/macrofaq.txt:2029` [line] functionality won't be restored. You will have to add it back by hand,
+- [ ] `lib/help/macrofaq.txt:2030` [line] or reload a pref file that contains that stored keymap. [[[[[BIn particular]
+- [ ] `lib/help/macrofaq.txt:2031` [line] [[[[[Balmost all roguelike commands are now implemented as keymaps.]
+- [ ] `lib/help/macrofaq.txt:2033` [line] #####B= Enter a new action =
+- [ ] `lib/help/macrofaq.txt:2034` [line] #####B-----------------------------------
+- [ ] `lib/help/macrofaq.txt:2035` [line] Allows entering a new action. Actions are entered into a static buffer
+- [ ] `lib/help/macrofaq.txt:2036` [line] which is shared by both macros and keymaps. The action string entered
+- [ ] `lib/help/macrofaq.txt:2037` [line] will become the default action for creating a keymap or action, and
+- [ ] `lib/help/macrofaq.txt:2038` [line] will only change when a keymap or macro is created with a different
+- [ ] `lib/help/macrofaq.txt:2039` [line] action string, or when one is queried. Note that the same action can
+- [ ] `lib/help/macrofaq.txt:2040` [line] be bound to multiple trigger keys by hitting Enter when using the
+- [ ] `lib/help/macrofaq.txt:2041` [line] commands to create a keymap/macro.
+- [ ] `lib/help/macrofaq.txt:2043` [line] ~~~~~20
+- [ ] `lib/help/macrofaq.txt:2044` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2045` [line] #####R11. Advanced Macro Techniques
+- [ ] `lib/help/macrofaq.txt:2046` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2048` [line] This section outlines advanced techniques not really required for game
+- [ ] `lib/help/macrofaq.txt:2049` [line] play. But macros become addictive after a while ...
+- [ ] `lib/help/macrofaq.txt:2051` [line] Action strings in this section are enclosed in braces {} because many
+- [ ] `lib/help/macrofaq.txt:2052` [line] use a double quote (") inside the action string. These are not
+- [ ] `lib/help/macrofaq.txt:2053` [line] inscriptions.
+- [ ] `lib/help/macrofaq.txt:2055` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2056` [line] #####G11.1 Set current action using (@) command in an action
+- [ ] `lib/help/macrofaq.txt:2057` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2059` [line] {"@0<str>\r\e}
+- [ ] `lib/help/macrofaq.txt:2060` [line] @    - Interact with macros
+- [ ] `lib/help/macrofaq.txt:2061` [line] 0    - Enter a new action
+- [ ] `lib/help/macrofaq.txt:2062` [line] <str>- (action string)
+- [ ] `lib/help/macrofaq.txt:2063` [line] \r   - Enter the action
+- [ ] `lib/help/macrofaq.txt:2064` [line] \e   - Exit the macro editor
+- [ ] `lib/help/macrofaq.txt:2066` [line] This will work when bound to a macro.
+- [ ] `lib/help/macrofaq.txt:2068` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2069` [line] #####G11.2 Set current action using (") command in an action
+- [ ] `lib/help/macrofaq.txt:2070` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2072` [line] {"A:<action>\r}  - sets the current action.
+- [ ] `lib/help/macrofaq.txt:2073` [line] "    - Enter pref line
+- [ ] `lib/help/macrofaq.txt:2074` [line] A:   - Action line
+- [ ] `lib/help/macrofaq.txt:2075` [line] <str>- (action string)
+- [ ] `lib/help/macrofaq.txt:2076` [line] \r   - Enter the action
+- [ ] `lib/help/macrofaq.txt:2078` [line] This works in either a macro or keymap.
+- [ ] `lib/help/macrofaq.txt:2080` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2081` [line] #####G11.3 Create a new keymap using (") command in an action
+- [ ] `lib/help/macrofaq.txt:2082` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2084` [line] {"A:<act>\r"C:0:<key>\r}
+- [ ] `lib/help/macrofaq.txt:2085` [line] Here <act> can't contain an '\r' or '\e'.
+- [ ] `lib/help/macrofaq.txt:2087` [line] Example {"A:z0\r"C:0:J\r} binds action "z0" to (standard) keymap 'J'.
+- [ ] `lib/help/macrofaq.txt:2089` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2090` [line] #####G11.4 Create a new macro using (") command in an action
+- [ ] `lib/help/macrofaq.txt:2091` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2093` [line] {"A:<act>\r"P:<key>\r}
+- [ ] `lib/help/macrofaq.txt:2094` [line] Here <act> can't contain an '\r' or '\e'.
+- [ ] `lib/help/macrofaq.txt:2095` [line] Here <key> is a standard key. (not a "special" one like F1, \b, or ^A)
+- [ ] `lib/help/macrofaq.txt:2097` [line] Example
+- [ ] `lib/help/macrofaq.txt:2098` [line] {"A:<action1>\r"P:j\r} binds action <action1> to trigger 'j'.
+- [ ] `lib/help/macrofaq.txt:2099` [line] {"A:<action2>\r"P:j\r} binds action <action2> to trigger 'j'.
+- [ ] `lib/help/macrofaq.txt:2100` [line] If we bind these 2 macros to different trigger keys, the action that
+- [ ] `lib/help/macrofaq.txt:2101` [line] is on key (j) can be swapped back and forth.
+- [ ] `lib/help/macrofaq.txt:2103` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2104` [line] #####G11.5 Turning an option on/off in an action
+- [ ] `lib/help/macrofaq.txt:2105` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2107` [line] Turn an option on:
+- [ ] `lib/help/macrofaq.txt:2108` [line] {"Y:<option_name>\r}
+- [ ] `lib/help/macrofaq.txt:2110` [line] Turn an option of:
+- [ ] `lib/help/macrofaq.txt:2111` [line] {"Y:<option_name>\r}
+- [ ] `lib/help/macrofaq.txt:2113` [line] Example: Turn (quick_messages) on, do an action, and turn it back off:
+- [ ] `lib/help/macrofaq.txt:2114` [line] {"Y:quick_messages\r<action>"X:quick_messages\r}
+- [ ] `lib/help/macrofaq.txt:2116` [line] This will work in either a macro or keymap. <option_name> is the name
+- [ ] `lib/help/macrofaq.txt:2117` [line] of the option as it appears in the option editor accessed through the
+- [ ] `lib/help/macrofaq.txt:2118` [line] (=) command. These are also listed in the help file *****option.txt*0["option.txt"]. Note
+- [ ] `lib/help/macrofaq.txt:2119` [line] that option names contain underscores instead of spaces.
+- [ ] `lib/help/macrofaq.txt:2121` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2122` [line] #####G11.6 Inscribe/Uninscribe an item in an action
+- [ ] `lib/help/macrofaq.txt:2123` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2125` [line] (These action strings are enclosed in double quotes)
+- [ ] `lib/help/macrofaq.txt:2127` [line] Inscribe an item:
+- [ ] `lib/help/macrofaq.txt:2128` [line] "{<item>\s<inscr>\r"
+- [ ] `lib/help/macrofaq.txt:2130` [line] Uninscribe an item:
+- [ ] `lib/help/macrofaq.txt:2131` [line] "}<item>\r"
+- [ ] `lib/help/macrofaq.txt:2133` [line] <item> must be the inventory letter of the item, possibly preceded by
+- [ ] `lib/help/macrofaq.txt:2134` [line] a '/' to switch to the equipment list. You can't use digit labels for
+- [ ] `lib/help/macrofaq.txt:2135` [line] items with inscriptions that contain the command triggers '{' or '}',
+- [ ] `lib/help/macrofaq.txt:2136` [line] but you can use "@<digit>".
+- [ ] `lib/help/macrofaq.txt:2138` [line] This will work in either a macro or keymap.
+- [ ] `lib/help/macrofaq.txt:2140` [line] ~~~~~41
+- [ ] `lib/help/macrofaq.txt:2141` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2142` [line] #####R12. Problems
+- [ ] `lib/help/macrofaq.txt:2143` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2145` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2146` [line] #####G12.1 Keys to avoid remapping
+- [ ] `lib/help/macrofaq.txt:2147` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2149` [line] These don't really *need* to be avoided, but all carry dangers of one
+- [ ] `lib/help/macrofaq.txt:2150` [line] kind or another. You should think through potential problems before
+- [ ] `lib/help/macrofaq.txt:2151` [line] deciding to use them. You have been warned.
+- [ ] `lib/help/macrofaq.txt:2153` [line] #####B= Navigation keys =
+- [ ] `lib/help/macrofaq.txt:2154` [line] Enter, Esc, Backspace, ...
+- [ ] `lib/help/macrofaq.txt:2155` [line] These aren't a good choice unless you *really* need them. If you do it
+- [ ] `lib/help/macrofaq.txt:2156` [line] is far better to use keymaps. If you bind a macro to the Enter key,
+- [ ] `lib/help/macrofaq.txt:2157` [line] you will lose the ability to enter line-based commands like Inscribe.
+- [ ] `lib/help/macrofaq.txt:2159` [line] #####B= Commands generated internally =
+- [ ] `lib/help/macrofaq.txt:2160` [line] (_) Enter store
+- [ ] `lib/help/macrofaq.txt:2161` [line] This command is generated internally by the game when the player moves
+- [ ] `lib/help/macrofaq.txt:2162` [line] onto the door of a store. In some versions, if this key has a keymap
+- [ ] `lib/help/macrofaq.txt:2163` [line] bound to it, that will fire when you try to enter a store.
+- [ ] `lib/help/macrofaq.txt:2165` [line] #####B= Keys with important Operating System meanings =
+- [ ] `lib/help/macrofaq.txt:2166` [line] ^Z  (un*x) Suspends the game and returns to the command shell. This
+- [ ] `lib/help/macrofaq.txt:2167` [line]     is an operating system command, not an Angband command.
+- [ ] `lib/help/macrofaq.txt:2168` [line]     Command "fg" returns to Angband.
+- [ ] `lib/help/macrofaq.txt:2169` [line] ^\, ^D, ^S
+- [ ] `lib/help/macrofaq.txt:2170` [line]     These are keys that shouldn't be bound to macros or have their
+- [ ] `lib/help/macrofaq.txt:2171` [line]     behavior altered.
+- [ ] `lib/help/macrofaq.txt:2173` [line] #####B= Keys with dangerous ToME meanings =
+- [ ] `lib/help/macrofaq.txt:2174` [line] (Q) Quit (commit suicide), (k) destroy item, (^A) Enter Debug mode...
+- [ ] `lib/help/macrofaq.txt:2175` [line] Using these as triggers is dangerous in case, for some reason, you
+- [ ] `lib/help/macrofaq.txt:2176` [line] wind up in a situation where the macro hasn't loaded or is disabled.
+- [ ] `lib/help/macrofaq.txt:2177` [line] You also don't want to get into a habit of typing these too fast.
+- [ ] `lib/help/macrofaq.txt:2179` [line] #####B= Selection keys =
+- [ ] `lib/help/macrofaq.txt:2180` [line] (e) Equipment, (i) Inventory, (-) Floor item, (/) Switch inventory
+- [ ] `lib/help/macrofaq.txt:2181` [line] lists. You should avoid binding these as macro triggers, to prevent
+- [ ] `lib/help/macrofaq.txt:2182` [line] making inventory and choice management next to impossible. But even as
+- [ ] `lib/help/macrofaq.txt:2183` [line] keymaps they hold some dangers.
+- [ ] `lib/help/macrofaq.txt:2184` [line] Example: you bind keymap on '-' to destroy item on the floor. Now if
+- [ ] `lib/help/macrofaq.txt:2185` [line] you try to do an action on a floor item, and it fails (such as using
+- [ ] `lib/help/macrofaq.txt:2186` [line] rod to identify), then the '-' can be taken from the input stream and
+- [ ] `lib/help/macrofaq.txt:2187` [line] used as a keymap, which would destroy the item you tried to identify.
+- [ ] `lib/help/macrofaq.txt:2189` [line] #####B= Response keys =
+- [ ] `lib/help/macrofaq.txt:2190` [line] (y) yes, (n) no, (Esc) cancel, (Space) skip message,...
+- [ ] `lib/help/macrofaq.txt:2191` [line] Binding macros to these is a [[[[[vVery Bad Idea.] Macro expansion will then
+- [ ] `lib/help/macrofaq.txt:2192` [line] be done when you answer a question like "Are you sure you want to quit
+- [ ] `lib/help/macrofaq.txt:2193` [line] the game without saving?". The expanded macro action string will be
+- [ ] `lib/help/macrofaq.txt:2194` [line] used as the input, and may not lead to the answer you were trying for.
+- [ ] `lib/help/macrofaq.txt:2195` [line] Keymaps don't have this problem. As a rule you should never use a
+- [ ] `lib/help/macrofaq.txt:2196` [line] macro instead of a keymap unless necessary.
+- [ ] `lib/help/macrofaq.txt:2198` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2199` [line] #####G12.2 Num lock
+- [ ] `lib/help/macrofaq.txt:2200` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2202` [line] Whether/not NumLock is on can make a difference for some macros.
+- [ ] `lib/help/macrofaq.txt:2203` [line] For example, if NumLock is on under X11 the 'X' macro won't work.
+- [ ] `lib/help/macrofaq.txt:2205` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2206` [line] #####G12.3 Recovering
+- [ ] `lib/help/macrofaq.txt:2207` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2209` [line] Restarting ToME clears all macros entered during the last session.
+- [ ] `lib/help/macrofaq.txt:2211` [line] You can use "Load a pref file" in the "Interact with macros" screen to
+- [ ] `lib/help/macrofaq.txt:2212` [line] reload a good set of prefs, overwriting bad ones being used. This will
+- [ ] `lib/help/macrofaq.txt:2213` [line] not "erase" a macro/keymap which doesn't have a corresponding saved
+- [ ] `lib/help/macrofaq.txt:2214` [line] one in the pref file. So if you add a macro/keymap to a trigger key
+- [ ] `lib/help/macrofaq.txt:2215` [line] which didn't have anything bound to it, reloading the pref file won't
+- [ ] `lib/help/macrofaq.txt:2216` [line] restore the key to its original state.
+- [ ] `lib/help/macrofaq.txt:2218` [line] If you still have problems, restore or edit any modified *.prf files
+- [ ] `lib/help/macrofaq.txt:2219` [line] that might be loaded.
+- [ ] `lib/help/macrofaq.txt:2221` [line] Try saving your macros, and examine them to see what went wrong.
+- [ ] `lib/help/macrofaq.txt:2223` [line] [[[[[BYou can use the backspace '\' key at the command prompt to use the]
+- [ ] `lib/help/macrofaq.txt:2224` [line] [[[[[Boriginal "underlying" command bound to that key. For example, if you]
+- [ ] `lib/help/macrofaq.txt:2225` [line] [[[[[Bbound the key '@' to a macro, you wouldn't be able to enter the macro]
+- [ ] `lib/help/macrofaq.txt:2226` [line] [[[[[Beditor to rebind it to itself.] Pressing '\' first, then '@' causes the
+- [ ] `lib/help/macrofaq.txt:2227` [line] command handler to use the built-in command, which allows you to enter
+- [ ] `lib/help/macrofaq.txt:2228` [line] the command editor. Note: when you use the backspace inside an action
+- [ ] `lib/help/macrofaq.txt:2229` [line] string, you have to double it as "\\". Do not use just a single back-
+- [ ] `lib/help/macrofaq.txt:2230` [line] slash, or it will be ignored, and possibly alter the meaning of the
+- [ ] `lib/help/macrofaq.txt:2231` [line] character that follows it.
+- [ ] `lib/help/macrofaq.txt:2233` [line] You can remove a macro/keymap from an essential key (such as the Esc
+- [ ] `lib/help/macrofaq.txt:2234` [line] key). Use the (@) "Interact with macros" command to access the remove
+- [ ] `lib/help/macrofaq.txt:2235` [line] commands.
+- [ ] `lib/help/macrofaq.txt:2237` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2238` [line] #####G12.4 Unrecognised keys
+- [ ] `lib/help/macrofaq.txt:2239` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2241` [line] #####B= Un*x =
+- [ ] `lib/help/macrofaq.txt:2243` [line] Function keys may not be recognised on some Un*x systems.
+- [ ] `lib/help/macrofaq.txt:2245` [line] #####B= PC/Dos/Windows =
+- [ ] `lib/help/macrofaq.txt:2246` [line] Doesn't recognise the WINDOWS key (start menu) or the APPLICATION key
+- [ ] `lib/help/macrofaq.txt:2247` [line] (context menu).
+- [ ] `lib/help/macrofaq.txt:2249` [line] On some systems, doesn't recognise modifier keys (Alt, Ctrl, Shift) on
+- [ ] `lib/help/macrofaq.txt:2250` [line] keypad keys when NumLock is on.
+- [ ] `lib/help/macrofaq.txt:2252` [line] See special_key_list[] in "main-win.c" for list of "special" keys that
+- [ ] `lib/help/macrofaq.txt:2253` [line] are recognised.
+- [ ] `lib/help/macrofaq.txt:2255` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2256` [line] #####G12.5 Nonexistent commands
+- [ ] `lib/help/macrofaq.txt:2257` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2259` [line] Macros and keymaps can only be bound to keypresses. The game state
+- [ ] `lib/help/macrofaq.txt:2260` [line] changing isn't a keypress, so you can't trigger an action when you
+- [ ] `lib/help/macrofaq.txt:2261` [line] become hungry, blind, confused, slowed, pseudo-id an item, pick up an
+- [ ] `lib/help/macrofaq.txt:2262` [line] item, gain a level, have a rod recharge, or any other event that isn't
+- [ ] `lib/help/macrofaq.txt:2263` [line] directly triggered by a keypress.
+- [ ] `lib/help/macrofaq.txt:2265` [line] "Attacking" also isn't a command, but you can use commands (+) Alter
+- [ ] `lib/help/macrofaq.txt:2266` [line] grid, (;) Walk, and (.) Run.
+- [ ] `lib/help/macrofaq.txt:2268` [line] So you don't really _attack_ Morgoth, you just _alter_ him. First he's
+- [ ] `lib/help/macrofaq.txt:2269` [line] alive, then he's not. :)
+- [ ] `lib/help/macrofaq.txt:2271` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2272` [line] #####G12.6 File permissions
+- [ ] `lib/help/macrofaq.txt:2273` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2275` [line] If you lack write permission to the pref file currently loaded by the
+- [ ] `lib/help/macrofaq.txt:2276` [line] game, try saving to a file with a new name. The macros can be copied
+- [ ] `lib/help/macrofaq.txt:2277` [line] over "by hand" later.
+- [ ] `lib/help/macrofaq.txt:2279` [line] ~~~~~42
+- [ ] `lib/help/macrofaq.txt:2280` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2281` [line] #####R13. Miscellaneous
+- [ ] `lib/help/macrofaq.txt:2282` [line] #####R======================================================================
+- [ ] `lib/help/macrofaq.txt:2284` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2285` [line] #####G13.1 References
+- [ ] `lib/help/macrofaq.txt:2286` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2288` [line] *****command.txt*0["COMMAND.TXT"]
+- [ ] `lib/help/macrofaq.txt:2289` [line] - lists standard and roguelike keys and commands. full descriptions.
+- [ ] `lib/help/macrofaq.txt:2290` [line] - long description of command behavior.
+- [ ] `lib/help/macrofaq.txt:2291` [line] - intro to macros and user pref files.
+- [ ] `lib/help/macrofaq.txt:2293` [line] *****dungeon.txt*8["DUNGEON.TXT"]
+- [ ] `lib/help/macrofaq.txt:2294` [line] - look under "Objects Found in the Dungeon".
+- [ ] `lib/help/macrofaq.txt:2296` [line] *****option.txt*0["OPTION.TXT"]
+- [ ] `lib/help/macrofaq.txt:2297` [line] - list of options and their descriptions.
+- [ ] `lib/help/macrofaq.txt:2299` [line] "INSCRIPTIONS.HTML"
+- [ ] `lib/help/macrofaq.txt:2300` [line] - short intro by Julian Lighton. Available from
+- [ ] `lib/help/macrofaq.txt:2301` [line] "http://www.fragment.com/~jl8e/angband/inscriptions.html".
+- [ ] `lib/help/macrofaq.txt:2303` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2304` [line] #####G13.2 Contributors
+- [ ] `lib/help/macrofaq.txt:2305` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2307` [line] This FAQ was largely compiled from newsgroup postings to "r.g.r.a".
+- [ ] `lib/help/macrofaq.txt:2308` [line] So thanks to the generous contributors to the newsgroup! Email
+- [ ] `lib/help/macrofaq.txt:2309` [line] addresses have been removed to foil spam-bots.
+- [ ] `lib/help/macrofaq.txt:2311` [line] Ben Harrison    -- maintainer: Angband 2.7.1 - 2.8.5, =Ben= in source.
+- [ ] `lib/help/macrofaq.txt:2312` [line] Robert Ruehlman -- maintainer: Angband 2.9.0 - present.
+- [ ] `lib/help/macrofaq.txt:2313` [line] DarkGod         -- maintainer: PernAngband 2.9.9a - present
+- [ ] `lib/help/macrofaq.txt:2315` [line] Scott Bigham, DamonShawX, Jonathan Ellis, George W. Harris, Roger
+- [ ] `lib/help/macrofaq.txt:2316` [line] Hoyle, Graham S. Johnson, Chris Kern, Matthias Kurzke, Steve Lamb,
+- [ ] `lib/help/macrofaq.txt:2317` [line] Julian Lighton, Art Mruczek, Daniel Nash, Timo Pietilä, Jack Wise,
+- [ ] `lib/help/macrofaq.txt:2318` [line] Greg Wooledge, and others.
+- [ ] `lib/help/macrofaq.txt:2320` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2321` [line] #####G13.3 Legalese
+- [ ] `lib/help/macrofaq.txt:2322` [line] #####G----------------------------------------------------------------------
+- [ ] `lib/help/macrofaq.txt:2324` [line] Copyright 2000 Jim Lyon and others. Redistribution of unaltered copies
+- [ ] `lib/help/macrofaq.txt:2325` [line] of this document is permitted without restriction. Distribution of
+- [ ] `lib/help/macrofaq.txt:2326` [line] altered copies is permitted without restriction as long as the
+- [ ] `lib/help/macrofaq.txt:2327` [line] alteration does not significantly alter the content. (For example,
+- [ ] `lib/help/macrofaq.txt:2328` [line] translation and conversion to another format is permitted.)
+- [ ] `lib/help/macrofaq.txt:2329` [line] Distribution of all other altered copies is permitted as long as credit
+- [ ] `lib/help/macrofaq.txt:2330` [line] for previous authors is maintained, the contact information is
+- [ ] `lib/help/macrofaq.txt:2331` [line] replaced with that of the alterer, and redistribution is not further
+- [ ] `lib/help/macrofaq.txt:2332` [line] restricted.
+- [ ] `lib/help/macrofaq.txt:2334` [line] Edited for PernAngband V5.x.x by Dawnmist with permission from Jim Lyon
+- [ ] `lib/help/macrofaq.txt:2335` [line] August 2001. All comments to angband@dawnmist.8m.com

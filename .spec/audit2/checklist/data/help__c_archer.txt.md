@@ -1,0 +1,63 @@
+# 数据清单：lib/help/c_archer.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_archer.txt:1` [line] ~~~~~01|Archer
+- [ ] `lib/help/c_archer.txt:2` [line] ~~~~~02|Classes|Archer
+- [ ] `lib/help/c_archer.txt:3` [line] #####R=== Archers ===
+- [ ] `lib/help/c_archer.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_archer.txt:6` [line] Archers are to bows what warriors are to melee. They are the best class
+- [ ] `lib/help/c_archer.txt:7` [line] around with any bow/crossbow/sling/boomerang. 
+- [ ] `lib/help/c_archer.txt:9` [line] Needing a lot of ammo, they will learn early how to make it from junk found
+- [ ] `lib/help/c_archer.txt:10` [line] in the dungeons. They also gain, at skill level 20, the unique ability to make 
+- [ ] `lib/help/c_archer.txt:11` [line] their arrows/bolts/shots pierce through monsters!
+- [ ] `lib/help/c_archer.txt:13` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_archer.txt:14` [line] Strength         +2
+- [ ] `lib/help/c_archer.txt:15` [line] Intelligence     +1
+- [ ] `lib/help/c_archer.txt:16` [line] Wisdom           +0
+- [ ] `lib/help/c_archer.txt:17` [line] Dexterity        +2
+- [ ] `lib/help/c_archer.txt:18` [line] Constitution     +1
+- [ ] `lib/help/c_archer.txt:19` [line] Charisma         +1
+- [ ] `lib/help/c_archer.txt:20` [line] Hit Die          +d4
+- [ ] `lib/help/c_archer.txt:21` [line] Spell Points     +0%
+- [ ] `lib/help/c_archer.txt:22` [line] Exp Penalty      30%
+- [ ] `lib/help/c_archer.txt:24` [line] #####GStarting Skills:
+- [ ] `lib/help/c_archer.txt:25` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_archer.txt:26` [line] Combat                  1.000           [0.800]
+- [ ] `lib/help/c_archer.txt:27` [line]   Weaponmastery         1.000           [0.500]
+- [ ] `lib/help/c_archer.txt:28` [line]   Archery               1.000           [0.850]
+- [ ] `lib/help/c_archer.txt:29` [line]     Sling-mastery       0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:30` [line]     Bow-mastery         0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:31` [line]     Crossbow-mastery    0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:32` [line]     Boomerang-mastery   0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:33` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_archer.txt:34` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_archer.txt:35` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_archer.txt:36` [line] Magic                   0.000           [0.200]
+- [ ] `lib/help/c_archer.txt:37` [line]   Magic-Device          1.000           [1.100]
+- [ ] `lib/help/c_archer.txt:38` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_archer.txt:39` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:40` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_archer.txt:42` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_archer.txt:43` [line] #####BAbility              Character level
+- [ ] `lib/help/c_archer.txt:44` [line] Ammo creation               2
+- [ ] `lib/help/c_archer.txt:46` [line] #####GStarting Equipment
+- [ ] `lib/help/c_archer.txt:47` [line] An Archer begins the game with:
+- [ ] `lib/help/c_archer.txt:48` [line]     a Short Bow
+- [ ] `lib/help/c_archer.txt:49` [line]     a Sling
+- [ ] `lib/help/c_archer.txt:50` [line]     some ammo
+- [ ] `lib/help/c_archer.txt:51` [line] ~~~~~03|Creating Ammo
+- [ ] `lib/help/c_archer.txt:52` [line] #####GCreating Ammo
+- [ ] `lib/help/c_archer.txt:53` [line] Archers automatically gain the *****ability.txt*07[Ammo Creation] ability when they reach character 
+- [ ] `lib/help/c_archer.txt:54` [line] level 2. (Other classes can purchase this ability when they have enough skill 
+- [ ] `lib/help/c_archer.txt:55` [line] points.) This ability is accessed via the 'm' command.  The first type of 
+- [ ] `lib/help/c_archer.txt:56` [line] ammo you can make is sling ammo (pebbles or shots); as you increase in skill
+- [ ] `lib/help/c_archer.txt:57` [line] you'll be able to make other arrows (bow ammo) or bolts (crossbow ammo).
+- [ ] `lib/help/c_archer.txt:59` [line] Shots (or other sling ammo) are created from rubble piles found in the dungeons
+- [ ] `lib/help/c_archer.txt:60` [line] and other places.  To make shots, stand next to a rubble pile, activate the
+- [ ] `lib/help/c_archer.txt:61` [line] ammo creation ability from the 'm' menu, select 's'hots, then specify the
+- [ ] `lib/help/c_archer.txt:62` [line] direction to the rubble pile, which will be consumed during the ammo creation.
+- [ ] `lib/help/c_archer.txt:63` [line] Arrows or bolts are made from "junk" items ('~' symbol, such as shards of
+- [ ] `lib/help/c_archer.txt:64` [line] pottery) that you can find in the dungeons and other places.  To make arrows or
+- [ ] `lib/help/c_archer.txt:65` [line] bolts, assuming you have sufficient Archery skill, you must have the junk item
+- [ ] `lib/help/c_archer.txt:66` [line] in your inventory or on the ground at your feet.  Specify the junk item after
+- [ ] `lib/help/c_archer.txt:67` [line] selecting 'a'rrows or 'b'olts from the ammo creation menu, and it will be
+- [ ] `lib/help/c_archer.txt:68` [line] consumed and replaced with a stack of ammo.

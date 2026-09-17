@@ -1,0 +1,106 @@
+# 数据清单：lib/edit/t_lorien.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_lorien.txt:7` [feat] F:z:96:3
+- [ ] `lib/edit/t_lorien.txt:10` [feat] F:y:96:3
+- [ ] `lib/edit/t_lorien.txt:13` [feat] F:x:96:3
+- [ ] `lib/edit/t_lorien.txt:16` [feat] F:v:88:3
+- [ ] `lib/edit/t_lorien.txt:19` [feat] F:w:8:3:0:0:0:0:22
+- [ ] `lib/edit/t_lorien.txt:22` [cond] ?:[EQU $QUEST22 2]
+- [ ] `lib/edit/t_lorien.txt:23` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_lorien.txt:24` [cond] ?:[EQU $QUEST22 5]
+- [ ] `lib/edit/t_lorien.txt:25` [feat] F:w:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_lorien.txt:26` [cond] ?:1
+- [ ] `lib/edit/t_lorien.txt:29` [cond] ?:[EQU $QUEST20 1]
+- [ ] `lib/edit/t_lorien.txt:30` [feat] F:v:7:3:0:0:0:0:11
+- [ ] `lib/edit/t_lorien.txt:31` [cond] ?:1
+- [ ] `lib/edit/t_lorien.txt:35` [cond] ?:[EQU $QUEST10 1]
+- [ ] `lib/edit/t_lorien.txt:36` [feat] F:y:8:3:0:0:0:0:10
+- [ ] `lib/edit/t_lorien.txt:37` [cond] ?:1
+- [ ] `lib/edit/t_lorien.txt:41` [cond] ?:[EQU $QUEST"Old Mages quest" 1]
+- [ ] `lib/edit/t_lorien.txt:42` [feat] F:z:8:3:0:0:0:0:"Old Mages quest"
+- [ ] `lib/edit/t_lorien.txt:43` [cond] ?:1
+- [ ] `lib/edit/t_lorien.txt:48` [feat] F:a:74:3:0:0:0:0:23
+- [ ] `lib/edit/t_lorien.txt:51` [feat] F:B:75:3:0:0:0:0:2
+- [ ] `lib/edit/t_lorien.txt:54` [feat] F:b:74:3:0:0:0:0:24
+- [ ] `lib/edit/t_lorien.txt:57` [feat] F:c:74:3:0:0:0:0:11
+- [ ] `lib/edit/t_lorien.txt:60` [feat] F:d:74:3:0:0:0:0:16
+- [ ] `lib/edit/t_lorien.txt:63` [feat] F:f:74:3:0:0:0:0:17
+- [ ] `lib/edit/t_lorien.txt:66` [feat] F:g:74:3:0:0:0:0:25
+- [ ] `lib/edit/t_lorien.txt:69` [feat] F:h:74:3:0:0:0:0:26
+- [ ] `lib/edit/t_lorien.txt:72` [feat] F:i:74:3:0:0:0:0:21
+- [ ] `lib/edit/t_lorien.txt:75` [feat] F:j:74:3:0:0:0:0:22
+- [ ] `lib/edit/t_lorien.txt:78` [feat] F:k:161:3
+- [ ] `lib/edit/t_lorien.txt:79` [feat] F:l:162:3
+- [ ] `lib/edit/t_lorien.txt:80` [feat] F:m:163:3
+- [ ] `lib/edit/t_lorien.txt:81` [feat] F:n:165:3
+- [ ] `lib/edit/t_lorien.txt:84` [raw] f:ELVEN
+- [ ] `lib/edit/t_lorien.txt:87` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_lorien.txt:88` [row] D:#                         ,  ,                                       ,                             .              ,    ,                ,,                    
+- [ ] `lib/edit/t_lorien.txt:89` [row] D:#                      ,                          ,                                                .                                                          
+- [ ] `lib/edit/t_lorien.txt:90` [row] D:#               ,              ,                                                                   .                                                          
+- [ ] `lib/edit/t_lorien.txt:91` [row] D:#                           ,                            ,                          ,,           , .                                        ,      ,          
+- [ ] `lib/edit/t_lorien.txt:92` [row] D:#                   ,,     ,                                                                       ,               ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:93` [row] D:#           ,                            ,    ,                          ,     ,                   ,        ,                                     ,           
+- [ ] `lib/edit/t_lorien.txt:94` [row] D:#           ,                  ,                                   ,                               ,x                                          ,              
+- [ ] `lib/edit/t_lorien.txt:95` [row] D:#                                                                                                  ,                                           ,              
+- [ ] `lib/edit/t_lorien.txt:96` [row] D:#               ,,     ,                                                                           ,     ,    ,,                            ,                 
+- [ ] `lib/edit/t_lorien.txt:97` [row] D:#          ,            ,                                                                          ,                       ,                                  
+- [ ] `lib/edit/t_lorien.txt:98` [row] D:#                         ,  ,                                       ,                             ,              ,    ,                ,,                    
+- [ ] `lib/edit/t_lorien.txt:99` [row] D:#                      ,                          ,                                                ,                                                          
+- [ ] `lib/edit/t_lorien.txt:100` [row] D:#               ,              ,                                         z,,,,                ##   ,   ##                                                     
+- [ ] `lib/edit/t_lorien.txt:101` [row] D:#                      ,                          ,                          ,               ####  ,  ####                                                    
+- [ ] `lib/edit/t_lorien.txt:102` [row] D:#               ,              ,                                             ,   ###         ###1,,,,,h###                                                    
+- [ ] `lib/edit/t_lorien.txt:103` [row] D:#                           ,                            ,              ###  ,  #####,       ####, ,  ####                                  ,      ,          
+- [ ] `lib/edit/t_lorien.txt:104` [row] D:#                   ,,     ,                                           ##### ,  #####         ##   ,   ##          ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:105` [row] D:#           ,                            ,    ,                        ##### , ,##.##    ###  ##   ,   ##   ,                                     ,           
+- [ ] `lib/edit/t_lorien.txt:106` [row] D:#           ,                  ,                   #              #,   ##### ,  ##.##   #########  ,  ####                                     ,              
+- [ ] `lib/edit/t_lorien.txt:107` [row] D:#               ,,     ,                          ###            ###    #g#  ,    .     ########c,,,,,4###    ,,                            ,                 
+- [ ] `lib/edit/t_lorien.txt:108` [row] D:#                           ,                      ####  ,     ####      ,   ,    , ,,  #########  ,  ####                                  ,      ,          
+- [ ] `lib/edit/t_lorien.txt:109` [row] D:#                   ,,     ,                        ##############       ,,,,,    ,      #9#  ##   ,   ##          ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:110` [row] D:#           ,                            ,    ,     ##############       ,     ,  ,       ,        ,   ##   ,                                     ,           
+- [ ] `lib/edit/t_lorien.txt:111` [row] D:#           ,                  ,                     ###########j,,,,,,,,,,,,,,   ,       ,        ,  ####                                     ,              
+- [ ] `lib/edit/t_lorien.txt:112` [row] D:#          ,            ,                           #####B########       ,    ,,,,,,,,,,,,,,,,,,,,,,,,d###    y            ,                                  
+- [ ] `lib/edit/t_lorien.txt:113` [row] D:#                         ,  ,                      ##############   ,   ,                         ,  ####  ,,    ,    ,                ,,                    
+- [ ] `lib/edit/t_lorien.txt:114` [row] D:#                      ,                          ,####        ####      ,                         ,   ##  ,                                                  
+- [ ] `lib/edit/t_lorien.txt:115` [row] D:#               ,              ,                  ###            ###    #6#       ###    ###       ,      ,   ###  ###                                        
+- [ ] `lib/edit/t_lorien.txt:116` [row] D:#           ,                  ,                   #              #,   #####      ###    ###       ,   ,,,   ##########                        ,              
+- [ ] `lib/edit/t_lorien.txt:117` [row] D:#                                                                      #####      #7#    #i#    ,,,,,,,,     ##########                        ,              
+- [ ] `lib/edit/t_lorien.txt:118` [row] D:#               ,,     ,                                                ###        ,      ,     ,  ,   , ,    #3#  ###                      ,                 
+- [ ] `lib/edit/t_lorien.txt:119` [row] D:#          ,            ,                                                          ,      ,    ,,  ,   ,       ,    ,   ## ,                                  
+- [ ] `lib/edit/t_lorien.txt:120` [row] D:#                         ,  ,                                                ,,,  ,,,,,,,,,,,,,  ,,,  ,       ,  , ,  ####             ,,                    
+- [ ] `lib/edit/t_lorien.txt:121` [row] D:#                      ,                          ,                           , ,,,,           ,,,,b,,,,,,,,,,,,,,,,,,,w###                                   
+- [ ] `lib/edit/t_lorien.txt:122` [row] D:#               ,              ,                                             v,                   ,,,             ,    ####                                   
+- [ ] `lib/edit/t_lorien.txt:123` [row] D:#                           ,                            ,                 --,--    ,,             ,   VVV        ,     ##                  ,      ,          
+- [ ] `lib/edit/t_lorien.txt:124` [row] D:#                   ,,     ,                                            l----,----m                , VWWWV       #2#                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:125` [row] D:#           ,                            ,    ,                         ---VV,VV---                , VWWVV  ,   #####                             ,           
+- [ ] `lib/edit/t_lorien.txt:126` [row] D:#          ,            ,                                              ---VVW,WVV---               , VVVV       #####      ,                                  
+- [ ] `lib/edit/t_lorien.txt:127` [row] D:#                         ,  ,                                       , ---VWWaWVV---               ,,            ###   ,                ,,                    
+- [ ] `lib/edit/t_lorien.txt:128` [row] D:#                                                                      ---VVWWWVV---                ,,,                                        ,              
+- [ ] `lib/edit/t_lorien.txt:129` [row] D:#               ,,     ,                                                ---VVVVV---   ,,,,,,,,,,,,,,, ,       ,,                            ,                 
+- [ ] `lib/edit/t_lorien.txt:130` [row] D:#                                                                       n---------k   ,               ,                                        ,              
+- [ ] `lib/edit/t_lorien.txt:131` [row] D:#                      ,                          ,                         ---       ,              #5#                                                      
+- [ ] `lib/edit/t_lorien.txt:132` [row] D:#               ,              ,                                                      ,              ###                                                      
+- [ ] `lib/edit/t_lorien.txt:133` [row] D:#                           ,                            ,                            ,          ,   ###                                    ,      ,          
+- [ ] `lib/edit/t_lorien.txt:134` [row] D:#                   ,,     ,                                                         #0#                           ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:135` [row] D:#           ,                            ,    ,                          ,     ,    #####                   ,                                     ,           
+- [ ] `lib/edit/t_lorien.txt:136` [row] D:#           ,                  ,                                   ,                #####                                                      ,              
+- [ ] `lib/edit/t_lorien.txt:137` [row] D:#                                                                                    ###                                                       ,              
+- [ ] `lib/edit/t_lorien.txt:138` [row] D:#               ,,     ,                                                                                 ,    ,,                            ,                 
+- [ ] `lib/edit/t_lorien.txt:139` [row] D:#          ,            ,                                                                                                  ,                                  
+- [ ] `lib/edit/t_lorien.txt:140` [row] D:#                         ,  ,                                       ,                                            ,    ,                ,,                    
+- [ ] `lib/edit/t_lorien.txt:141` [row] D:#                           ,                            ,                          ,,           ,                                          ,      ,          
+- [ ] `lib/edit/t_lorien.txt:142` [row] D:#                   ,,     ,                                                                                       ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:143` [row] D:#           ,                            ,    ,                          ,     ,                            ,                                     ,           
+- [ ] `lib/edit/t_lorien.txt:144` [row] D:#           ,                  ,                                   ,                                                                           ,              
+- [ ] `lib/edit/t_lorien.txt:145` [row] D:#                                                                                                                                              ,              
+- [ ] `lib/edit/t_lorien.txt:146` [row] D:#               ,,     ,                                                                                 ,    ,,                            ,                 
+- [ ] `lib/edit/t_lorien.txt:147` [row] D:#                      ,                          ,                                                                                                           
+- [ ] `lib/edit/t_lorien.txt:148` [row] D:#               ,              ,                                                                                                                              
+- [ ] `lib/edit/t_lorien.txt:149` [row] D:#                           ,                            ,                          ,,           ,                                          ,      ,          
+- [ ] `lib/edit/t_lorien.txt:150` [row] D:#                   ,,     ,                                                                                       ,                ,,          ,             
+- [ ] `lib/edit/t_lorien.txt:151` [row] D:#                                                                                                                                                             
+- [ ] `lib/edit/t_lorien.txt:152` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_lorien.txt:155` [cond] ?:[EQU $LEAVING_QUES  0]
+- [ ] `lib/edit/t_lorien.txt:156` [raw] P:13:99
+- [ ] `lib/edit/t_lorien.txt:159` [cond] ?:[EQU $LEAVING_QUES  12]
+- [ ] `lib/edit/t_lorien.txt:160` [raw] P:26:109

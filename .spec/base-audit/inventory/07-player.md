@@ -1,0 +1,411 @@
+# Method inventory: 07-player
+
+## xtra1.cc (66 defs)
+
+- [x] `xtra1.cc:65` **cnv_stat**(int val, char *out_val) — [x] bevy/src/game.rs:3605 cnv_stat（非线性/线性两分支与 xtra1.cc:65 一致）；测试 cnv_stat_matches_the_original_field
+- [x] `xtra1.cc:130` **modify_stat_value**(int value, int amount) — Modify a stat value by a "modifier", return new value Stats go up: 3,4,...,17,18,18/10,18/20,...,18/220 Or even: 18/13, 18/23, 18/33, ..., 18/220 Stats go down: 18/220, 18/210,..., 18/10, 18, 17, ..., — synced from report
+- [~] `xtra1.cc:180` **prt_field**(const char *info, int row, int col) — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:192` **prt_piety**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:211` **prt_sane**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:250` **prt_stat**(int stat) — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:297` **prt_title**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:339` **prt_level**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:361` **prt_exp**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:390` **prt_gold**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:404` **prt_ac**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:417` **prt_hp**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:473` **prt_mh**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:512` **prt_sp**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:540` **prt_depth**(int row, int col) — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:613` **prt_state**(int row, int col) — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:719` **prt_speed**(int row, int col) — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:749` **prt_status_line**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:852` **prt_cut**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:896` **prt_stun**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:938` **health_redraw**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:1032` **prt_frame**() — [~] 终端字符屏（put_str/c_put_str）→ Bevy HUD（hud.rs 状态区）；accept.py terminal-UI 类机械复核
+- [~] `xtra1.cc:1090` **fixup_display**(u32b mask, F callback) — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1114` **fix_inven**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1122` **fix_equip**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1130` **fix_player**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1144` **fix_message**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1178` **fix_overhead**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1190` **fix_monster**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1205` **fix_object**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:1222` **fix_m_list**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [x] `xtra1.cc:1353` **calc_powers_corruption**() — Calculate powers of player given the current set of corruptions. — synced from report
+- [x] `xtra1.cc:1376` **add_powers**(std::vector<s16b> const &powers) — Add in powers
+- [x] `xtra1.cc:1385` **calc_powers**() — Calc the player powers — game.rs::sync_powers (game.rs:4978) + POWER_TEXTS (game.rs:4909) — synced from report
+- [x] `xtra1.cc:1492` **calc_sanity**() — Calculate the player's sanity — synced from report
+- [x] `xtra1.cc:1529` **calc_mana**() — Calculate maximum mana. You do not need to know any spells. Note that mana is lowered by heavy (or inappropriate) armor. This function induces status messages. — synced from report
+- [x] `xtra1.cc:1709` **calc_hitpoints**() — Calculate the players (maximal) hit points Adjust current hitpoints if necessary — synced from report
+- [x] `xtra1.cc:1817` **calc_torch_gods**() — [x] bevy/src/game.rs:4275 player_lite_ex 的 gods 段（xtra1.cc:1817 GOD_VARDA +1，在 5 上限之后）；顺带补 wild_mode 3 与 running+view_reduce_lite 1（options.rs view_reduce_lite）；测试 varda_grants_one_light_radius
+- [x] `xtra1.cc:1833` **calc_torch**() — Extract and set the current "lite radius" SWD: Experimental modification: multiple light sources have additive effect. — synced from report
+- [x] `xtra1.cc:1919` **weight_limit**() — Computes current weight limit.
+- [x] `xtra1.cc:1930` **calc_wield_monster**() — synced from report
+- [x] `xtra1.cc:1969` **calc_body**() — Calc which body parts the player have, based on the monster he incarnate, note that that's bnot a hack since body parts of the player when in it's own body are also defined in r_info(monster 0) — synced from report
+- [x] `xtra1.cc:2090` **calc_body_bonus**() — Should be called by every calc_bonus call — item.rs::totals_for (possessor body fold, item.rs:910-998) + mimic.rs::calc_body — synced from report
+- [x] `xtra1.cc:2138` **get_extra_blows_ability**() — Returns the number of extra blows based on abilities.
+- [x] `xtra1.cc:2147` **analyze_blow**(int *num, int *wgt, int *mul) — Returns the blow information based on class
+- [x] `xtra1.cc:2158` **get_weaponmastery_skill**() — Are all the weapons wielded of the right type ?
+- [x] `xtra1.cc:2202` **get_archery_skill**() — Are all the ranged weapons wielded of the right type ?
+- [x] `xtra1.cc:2242` **calc_gods**() — Apply gods — synced from report
+- [x] `xtra1.cc:2377` **calc_schools**() — Apply spell schools
+- [x] `xtra1.cc:2391` **calc_corruptions**() — Apply corruptions
+- [x] `xtra1.cc:2466` **apply_flags**(object_flag_set const &f, s16b pval, s16b tval, s16b to_h, s16b to_d, s16b to_a) — item.rs::totals_for (stealth/tunnel/invis/BLESSED fixes, item.rs:517-530) — synced from report
+- [x] `xtra1.cc:2621` **apply_lflags**(LF const &lflags)
+- [x] `xtra1.cc:2633` **monk_empty_hands**() — Are barehand fighter's hands empty? — synced from report
+- [x] `xtra1.cc:2676` **calc_bonuses**(bool silent) — Calculate the players current "state", taking into account not only race/class intrinsics, but also objects being worn and temporary spell effects. See also calc_mana() and calc_hitpoints(). Take note — synced from report
+- [~] `xtra1.cc:3935` **notice_stuff**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:3960` **update_stuff**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:4067` **redraw_stuff**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:4108` **window_stuff**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [~] `xtra1.cc:4193` **handle_stuff**() — [~] 子窗口/脏标记系统（p_ptr->update/redraw/window 与 fix_* 窗口）；Bevy 每帧重算（render::sync_*/hud::sync_hud），无子窗口；accept.py terminal-window 类机械复核
+- [x] `xtra1.cc:4206` **monk_heavy_armor**() — synced from report
+- [x] `xtra1.cc:4226` **get_artifact_idx**(int level)
+- [x] `xtra1.cc:4259` **gain_fate**(byte fate) — Chose a fate
+- [x] `xtra1.cc:4410` **fate_desc**(int fate)
+- [x] `xtra1.cc:4518` **dump_fates**()
+- [x] `xtra1.cc:4547` **luck**(int min, int max) — Return a luck number between a certain range — synced from report
+- [x] `xtra1.cc:4562` **race_flags_p**(player_race_flag_set const &flags_mask)
+
+## xtra2.cc (88 defs)
+
+- [x] `xtra2.cc:70` **corrupt_corrupted**() — [x] bevy/src/corrupt.rs corrupt_corrupted（magik(45) 分支）；测试 corrupt_corrupted_gains_or_loses_a_corruption
+- [x] `xtra2.cc:76` **set_parasite**(int v, int r) — Set "p_ptr->parasite" and "p_ptr->parasite_r_idx" notice observable changes
+- [x] `xtra2.cc:147` **set_simple_field**(s16b *p_field, s16b v, byte activate_color, const char *activate_msg, byte deactivate_color, const char *deactivate_msg) — Set a simple player field. — synced from report
+- [~] `xtra2.cc:201` **set_project**(int v, s16b gf, s16b dam, s16b rad, s16b flag) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:222` **set_roots**(int v, s16b ac, s16b dam) — Set "p_ptr->tim_roots" and others notice observable changes — synced from report
+- [~] `xtra2.cc:241` **set_tim_breath**(int v, bool magical) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:262` **set_tim_precognition**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:274` **set_absorb_soul**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:286` **set_disrupt_shield**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:298` **set_prob_travel**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:310` **set_invis**(int v, int p) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:328` **set_poison**(int v) — Set "p_ptr->tim_poison", notice observable changes — synced (ported)
+- [x] `xtra2.cc:339` **set_no_breeders**(int v) — Set "no_breeds" — game.rs:2057/11986 + modal.rs:16186 (activation) — synced from report
+- [x] `xtra2.cc:350` **set_tim_deadly**(int v) — Set "p_ptr->tim_deadly" — synced from report
+- [x] `xtra2.cc:361` **set_tim_ffall**(int v) — Set "p_ptr->tim_ffall" — game.rs:11981 (expiry) + modal.rs:16197 (activation)
+- [x] `xtra2.cc:372` **set_tim_fly**(int v) — Set "p_ptr->tim_fly" — game.rs:2079/11980 + modal.rs:16193
+- [x] `xtra2.cc:383` **set_tim_reflect**(int v) — Set "p_ptr->tim_reflect" — game.rs:12029 (expiry) + modal.rs:14644 (activation)
+- [~] `xtra2.cc:394` **set_strike**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:405` **set_oppose_cc**(int v) — Set "p_ptr->oppose_cc" — game.rs:2110 + expiry game.rs:11976
+- [x] `xtra2.cc:417` **set_mimic**(int v, int p, int level) — Set "p_ptr->tim_mimic", and "p_ptr->mimic_form", notice observable changes — synced from report
+- [x] `xtra2.cc:482` **set_blind**(int v) — Set "p_ptr->blind", notice observable changes Note the use of "PU_UN_VIEW", which is needed to memorize any terrain features which suddenly become "visible". Note that blindness is currently the only  — game.rs:1783/11866 + item.rs:6272-6276 (see-again), fov_dirty on change
+- [x] `xtra2.cc:519` **set_lite**(int v) — Set "p_ptr->tim_lite", notice observable changes Note the use of "PU_VIEW", which is needed to memorize any terrain features which suddenly become "visible". Note that blindness is currently the only  — synced (ported)
+- [x] `xtra2.cc:548` **set_confused**(int v) — Set "p_ptr->confused", notice observable changes — game.rs:11863/4326 + modal.rs:16024 (activation)
+- [x] `xtra2.cc:573` **set_poisoned**(int v) — Set "p_ptr->poisoned", notice observable changes — game.rs:4254 + item.rs:6272 (no longer poisoned)
+- [x] `xtra2.cc:597` **set_afraid**(int v) — Set "p_ptr->afraid", notice observable changes — game.rs:1780/16472 + modal.rs:15055
+- [x] `xtra2.cc:621` **set_paralyzed_aux**(int v) — Mechanics for setting the "paralyzed" field. — game.rs:1843/11876 (paralyze field + upkeep)
+- [x] `xtra2.cc:647` **set_paralyzed**(int v) — Set "p_ptr->paralyzed", notice observable changes — modal.rs:15991 + game.rs:4682 (max, no accumulation) — synced from report
+- [x] `xtra2.cc:665` **dec_paralyzed**() — Decrement "p_ptr->paralyzed", notice observable changes — game.rs:11876 ("You can move again." at modal.rs:16028)
+- [x] `xtra2.cc:676` **set_image**(int v) — Set "p_ptr->image", notice observable changes Note that we must redraw the map when hallucination changes. — synced (ported)
+- [x] `xtra2.cc:705` **set_light_speed**(int v) — Set "p_ptr->lightspeed", notice observable changes — game.rs:1882/11923 + modal.rs:11171
+- [x] `xtra2.cc:723` **set_fast**(int v, int p) — synced (ported)
+- [~] `xtra2.cc:775` **set_slow**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:796` **set_shield**(int v, int p, s16b o, s16b d1, s16b d2) — Set "p_ptr->shield", notice observable changes — synced from report
+- [x] `xtra2.cc:825` **set_blessed**(int v) — Set "p_ptr->blessed", notice observable changes — synced from report
+- [x] `xtra2.cc:846` **set_hero**(int v) — Set "p_ptr->hero", notice observable changes — modal.rs:14523 (activation) + game.rs:11879 (expiry)
+- [x] `xtra2.cc:869` **set_holy**(int v) — Set "p_ptr->holy", notice observable changes — synced from report
+- [x] `xtra2.cc:889` **set_shero**(int v) — Set "p_ptr->shero", notice observable changes — modal.rs:14525 (activation) + game.rs:11885 (expiry)
+- [~] `xtra2.cc:919` **set_protevil**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:939` **set_shadow**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:971` **set_invuln**(int v) — Set "p_ptr->invuln", notice observable changes — modal.rs:15189 (activation) + game.rs:11984 (expiry)
+- [~] `xtra2.cc:1002` **set_tim_esp**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:1025` **set_tim_thunder**(int v, int p1, int p2) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:1080` **set_tim_invis**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [~] `xtra2.cc:1104` **set_tim_infra**(int v) — [~] 计时器 setter：port 在调用点直接设置对应 ps 字段并记录消息；无全局 redraw/notice 需求；accept.py timer-setter 类机械复核
+- [x] `xtra2.cc:1128` **set_oppose_acid**(int v) — Set "p_ptr->oppose_acid", notice observable changes — game.rs:2104/11974 + item.rs:7280
+- [x] `xtra2.cc:1149` **set_oppose_elec**(int v) — Set "p_ptr->oppose_elec", notice observable changes — game.rs:2102/11973
+- [x] `xtra2.cc:1170` **set_oppose_fire**(int v) — Set "p_ptr->oppose_fire", notice observable changes — game.rs:2098/11971 + item.rs:7281
+- [x] `xtra2.cc:1191` **set_oppose_cold**(int v) — Set "p_ptr->oppose_cold", notice observable changes — game.rs:2100/11972 + item.rs:7284
+- [x] `xtra2.cc:1212` **set_oppose_pois**(int v) — Set "p_ptr->oppose_pois", notice observable changes — game.rs:2107/11975
+- [x] `xtra2.cc:1233` **set_tim_regen**(int v, int p) — Set "p_ptr->tim_regen", notice observable changes — synced (ported)
+- [x] `xtra2.cc:1284` **set_stun**(int v) — Set "p_ptr->stun", notice observable changes Note the special code to only notice "range" changes. — synced from report
+- [x] `xtra2.cc:1445` **set_cut**(int v) — Set "p_ptr->cut", notice observable changes Note the special code to only notice "range" changes. — synced from report
+- [x] `xtra2.cc:1647` **drop_from_wild**() — synced from report
+- [x] `xtra2.cc:1684` **set_food**(int v) — Set "p_ptr->food", notice observable changes The "p_ptr->food" variable can get as large as 20000, allowing the addition of the most "filling" item, Elvish Waybread, which adds 7500 food units, withou — synced from report
+- [x] `xtra2.cc:1865` **check_experience**() — Advance experience levels and print experience — synced from report
+- [x] `xtra2.cc:1989` **check_experience_obj**(object_type *o_ptr) — Advance experience levels and print experience — synced from report
+- [x] `xtra2.cc:2019` **gain_exp**(s32b amount) — Gain experience — synced (ported)
+- [x] `xtra2.cc:2049` **lose_exp**(s32b amount) — Lose experience — synced from report
+- [x] `xtra2.cc:2070` **get_coin_type**(std::shared_ptr<monster_race const> r_ptr) — Hack -- Return the "automatic coin type" of a monster race Used to allocate proper treasure when "Creeping coins" die XXX XXX XXX Note the use of actual "monster names" — synced from report
+- [x] `xtra2.cc:2100` **place_corpse**(monster_type *m_ptr) — This routine handles the production of corpses/skeletons/heads/skulls when a monster is killed. — synced from report
+- [x] `xtra2.cc:2186` **monster_race_in_list_p**(monster_type *m_ptr, const char *races[]) — [x] bevy/src/game.rs monster_race_in_list_p（精确种族名匹配，xtra2.cc:2186）
+- [x] `xtra2.cc:2202` **monster_death_gods**(monster_type *m_ptr) — [x] bevy/src/game.rs monster_death_gods（Aule/Ulmo/Mandos 全部种族表，xtra2.cc:2202）；kill_monster 已接线；测试 monster_death_gods_reacts_to_the_kill_race
+- [x] `xtra2.cc:2399` **monster_death**(int m_idx) — Handle the "death" of a monster. Disperse treasures centered at the monster location based on the various flags contained in the monster flags fields. Check for "Quest" completion when a quest monster
+- [x] `xtra2.cc:2973` **mon_take_hit**(int m_idx, int dam, bool *fear, const char *note) — Decreases monsters hit points, handling monster death. We return true if the monster has been killed (and deleted). We announce monster death (using an optional "death message" if given, and a otherwi — game.rs::kill_monster (game.rs:7897) + game.rs::kill_monster_with_note (game.rs:8038) — synced from report
+- [~] `xtra2.cc:3255` **get_screen_size**(int *wid_p, int *hgt_p) — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [~] `xtra2.cc:3266` **panel_bounds**() — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [~] `xtra2.cc:3295` **change_panel**(int dy, int dx) — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [~] `xtra2.cc:3349` **verify_panel**() — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [~] `xtra2.cc:3484` **resize_map**() — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [~] `xtra2.cc:3536` **resize_window**() — [~] 终端视口/面板（Term 尺寸与 panel 移动）；Bevy 相机/世界坐标替代；accept.py terminal-window 类机械复核
+- [x] `xtra2.cc:3571` **look_mon_desc**(int m_idx) — [x] bevy/src/game.rs look_mon_desc（living 判定 + 百分比档位，xtra2.cc:3571）；Modal::Look 使用；测试 look_mon_desc_matches_the_original_bands
+- [~] `xtra2.cc:3634` **target_able**(int m_idx) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:3673` **target_okay**() — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:3704` **target_pick**(point p, int dy, int dx, std::vector<point> const &points) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:3752` **target_set_accept**(int y, int x) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:3852` **target_object**(int y, int x, int mode, const char *info, bool *boring, object_type *o_ptr, char *out_val, const char **s1, const char *...) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:3908` **target_set_aux**(int y, int x, int mode, const char *info_) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:4339` **target_set**(int mode) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:4718` **get_aim_dir**(int *dp) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:4851` **get_rep_dir**(int *dp) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [~] `xtra2.cc:4922` **tgt_pt**(int *x, int *y) — [~] 目标/观察光标：port 用 input::TargetLock、Modal::Look、方向键助手替代全局 target 光标；accept.py targeting-ui 类机械复核
+- [x] `xtra2.cc:4986` **set_grace**(s32b v) — Set "p_ptr->grace", notice observable changes
+- [x] `xtra2.cc:4996` **test_object_wish**(char *name, object_type *o_ptr, object_type *forge) — synced from report
+- [x] `xtra2.cc:5150` **clean_wish_name**(char *buf, char *name) — synced (ported)
+- [x] `xtra2.cc:5187` **make_wish**() — Allow the player to make a wish — synced from report
+- [x] `xtra2.cc:5327` **corrupt_corrupted**() — [x] bevy/src/corrupt.rs corrupt_corrupted（magik(45) 分支）；测试 corrupt_corrupted_gains_or_loses_a_corruption
+- [x] `xtra2.cc:5342` **switch_subrace**(std::size_t racem, bool copy_old) — Change to an other subrace — synced from report
+- [x] `xtra2.cc:5366` **do_rebirth**() — Rebirth, recalc hp & exp/level — synced from report
+
+## skills.cc (40 defs)
+
+- [x] `skills.cc:57` **increase_skill**(int i, s16b *invest) — Advance the skill point of the skill specified by i and modify related skills — synced from report
+- [x] `skills.cc:97` **decrease_skill**(int i, s16b *invest) — Descrease the skill point of the skill specified by i and modify related skills — synced from report
+- [x] `skills.cc:123` **find_skill**(const char *needle) — Given the name of a skill, returns skill index or -1 if no such skill is found
+- [x] `skills.cc:141` **find_skill_i**(std::string const &needle)
+- [x] `skills.cc:146` **find_skill_i**(const char *needle)
+- [x] `skills.cc:168` **get_skill**(int skill) — synced from report
+- [x] `skills.cc:180` **get_skill_scale**(int skill, u32b scale) — Return "scale" (a misnomer -- this is max value) (current skill value) / (max skill value) — synced from report
+- [x] `skills.cc:199` **get_idx**(int i)
+- [x] `skills.cc:214` **is_known**(int s_idx)
+- [~] `skills.cc:245` **init_table_aux**(std::vector<skill_entry> *table, int father, int lev, bool full) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [~] `skills.cc:270` **init_table**(std::vector<skill_entry> *table, bool full) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [x] `skills.cc:276` **has_child**(int sel)
+- [~] `skills.cc:295` **dump_skills**(FILE *fff) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [~] `skills.cc:351` **print_skills**(std::vector<skill_entry> const &table, int sel, int start) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [x] `skills.cc:442` **recalc_skills**(bool init) — Checks various stuff to do when skills change, like new spells, ... — skill.rs::sync_magic_mana + game.rs::upkeep (game.rs:11624 antimagic abandons god) — synced from report
+- [x] `skills.cc:498` **recalc_skills_theory**(std::vector<s16b> &invest, std::vector<s32b> const &base_val, std::vector<s32b> const &base_mod, std::vector<s32b> const...) — Recalc the skill value — synced from report
+- [x] `skills.cc:563` **do_cmd_skill**() — Interreact with skills
+- [x] `skills.cc:740` **get_melee_skill**()
+- [x] `skills.cc:752` **get_melee_name**()
+- [x] `skills.cc:757` **get_melee_skills**()
+- [~] `skills.cc:777` **choose_melee**() — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [x] `skills.cc:854` **select_default_melee**()
+- [~] `skills.cc:873` **print_skill_batch**(const std::vector<std::tuple<std::string, int>> &p, int start) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [~] `skills.cc:898` **do_cmd_activate_skill_aux**() — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [x] `skills.cc:1044` **do_cmd_activate_skill**() — Ask & execute a skill
+- [x] `skills.cc:1261` **forbid_gloves**() — Which magic forbids non FA gloves — synced from report
+- [x] `skills.cc:1274` **forbid_non_blessed**() — Which gods forbid edged weapons — synced from report
+- [x] `skills.cc:1284` **augment_skills**(s32b *v, s32b *m, std::vector<skill_modifier> const &modifiers, std::size_t i) — Augment skill value/modifier with the given skill_modifiers
+- [x] `skills.cc:1298` **compute_skills**(s32b *v, s32b *m, std::size_t i) — Gets the base value of a skill, given a race/class/...
+- [x] `skills.cc:1312` **init_skill**(s32b value, s32b mod, std::size_t i) — Initialize a skill with given values
+- [x] `skills.cc:1382` **do_get_new_skill**() — synced from report
+- [x] `skills.cc:1554` **find_ability**(std::string const &name) — ABILITIES
+- [x] `skills.cc:1563` **find_ability**(const char *name) — Given the name of an ability, returns ability index or -1 if no such ability is found
+- [x] `skills.cc:1582` **can_learn_ability**(int ab) — Do we meet the requirements?
+- [x] `skills.cc:1628` **gain_ability**(int ab) — Learn an ability
+- [~] `skills.cc:1651` **compare_abilities**(std::size_t ab_idx1, std::size_t ab_idx2) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [~] `skills.cc:1661` **dump_abilities**(FILE *fff) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [~] `skills.cc:1697` **print_abilities**(const std::vector<std::size_t> &table, int sel, int start) — [~] 技能/能力树屏幕与树构建：port 由 general_skills.ron + skill.rs 加载、模态展示；accept.py skill-ui 类机械复核
+- [x] `skills.cc:1767` **do_cmd_ability**() — Interreact with abilities
+- [x] `skills.cc:1897` **apply_level_abilities**(int level) — Apply abilities to be granted this level
+
+## birth.cc (33 defs)
+
+- [x] `birth.cc:115` **create_random_name**() — [x] bevy/src/birth.rs create_random_name（三段音节表，birth.cc:115）；测试 create_random_name_uses_the_syllable_tables
+- [~] `birth.cc:155` **print_desc_aux**(const char *txt, int y, int xx) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:174` **print_desc**(const char *txt) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:182` **save_prev_data**() — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:213` **load_prev_data**(bool save) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [x] `birth.cc:271` **adjust_stat**(int value, int amount) — Returns adjusted stat -JK- Algorithm by -JWT- auto_roll is boolean and states maximum changes should be used rather than random ones to allow specification of higher values to wait for The "p_ptr->max — synced from report
+- [x] `birth.cc:326` **get_stats**() — Roll for a characters stats For efficiency, we include a chunk of "calc_bonuses()". — synced from report
+- [x] `birth.cc:399` **roll_player_hp**() — Roll for player HP — synced from report
+- [x] `birth.cc:442` **get_extra**() — Roll for some info that the auto-roller ignores
+- [x] `birth.cc:471` **init_randart**() — Fill the random_artifacts array with relevant info.
+- [x] `birth.cc:505` **get_money**() — Get the player's starting money — synced from report
+- [~] `birth.cc:534` **birth_put_stats**() — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [x] `birth.cc:571` **player_wipe**() — Clear all the global "character" data
+- [x] `birth.cc:742` **outfit_obj**(object_proto const *proto) — Create an object — synced from report
+- [x] `birth.cc:766` **outfit_objs**(std::vector<object_proto> const &protos)
+- [x] `birth.cc:778` **player_outfit_object**(int qty, int tval, int sval) — Give the player an object.
+- [x] `birth.cc:791` **player_outfit_spellbook**(const char *spell_name) — Give player a spell book.
+- [x] `birth.cc:813` **player_outfit**() — Init players with some belongings Having an item makes the player "aware" of its purpose. — synced (ported)
+- [~] `birth.cc:981` **dump_classes**(std::vector<u16b> const &classes, int sel, u32b *restrictions) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:1042` **dump_specs**(int sel_) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:1108` **dump_races**(int sel) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:1167` **dump_rmods**(int sel, int *racem, int max) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:1229` **dump_gods**(int sel, int *choice, int max) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [x] `birth.cc:1295` **player_birth_aux_ask**() — birth.rs::BirthFlow (interactive race/class/subrace/spec/god/stat steps, birth.rs:15-100)
+- [x] `birth.cc:2102` **player_birth_aux_point**() — Helper function for 'player_birth()'. This function handles "point-based" character creation. The player selects, for each stat, a value from 10 to 18 (inclusive), each costing a certain amount of poi — synced from report
+- [x] `birth.cc:2250` **player_birth_aux_auto**() — Use the autoroller or not to generate a char — synced from report
+- [x] `birth.cc:2558` **player_birth_aux**() — Helper function for 'player_birth()' The delay may be reduced, but is recommended to keep players from continuously rolling up characters, which can be VERY expensive CPU wise. And it cuts down on pla — synced from report
+- [x] `birth.cc:2672` **init_town**(int t_idx) — Initialize a random town
+- [x] `birth.cc:2692` **player_birth**() — Create a new character. Note that we may be called with "junk" leftover in the various fields, so we must be sure to clear them first. — synced from report
+- [~] `birth.cc:2851` **load_savefile_names**() — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:2948` **save_savefile_names**() — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:2992` **dump_savefiles**(int sel, int max) — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+- [~] `birth.cc:3041` **begin_screen**() — [~] 出生菜单/终端屏与 quick-start 上角色数据（port birth.rs 状态机无回填）；accept.py birth-ui 类机械复核
+
+## corrupt.cc (16 defs)
+
+- [x] `corrupt.cc:45` **subrace_add_power**(player_race_mod *rmp_ptr, int power) — Vampire corruption helpers — synced from report
+- [x] `corrupt.cc:50` **player_gain_vampire_teeth**() — synced from report
+- [x] `corrupt.cc:66` **player_gain_vampire_strength**() — synced from report
+- [x] `corrupt.cc:87` **player_gain_vampire**() — game.rs::display_race_name (game.rs:5049, "Vampire <title>" + HURT_LITE) + corrupt.rs:440 (resists/hold_life/lite) — synced from report
+- [~] `corrupt.cc:663` **init_corruptions**() — [~] 静态腐化表在 corrupt.rs CORRUPTIONS（无需运行时 init）；accept.py corruption-table 类机械复核
+- [x] `corrupt.cc:671` **player_has_corruption**(int corruption_idx) — Corruptions
+- [x] `corrupt.cc:681` **player_can_gain_corruption**(int corruption_idx)
+- [x] `corrupt.cc:722` **player_allow_corruption**(int corruption_idx)
+- [x] `corrupt.cc:761` **player_set_corruption**(int c, bool set)
+- [x] `corrupt.cc:769` **player_gain_corruption**(int corruption_idx)
+- [x] `corrupt.cc:785` **player_lose_corruption**(int corruption_idx)
+- [x] `corrupt.cc:803` **test_depend_corrupt**(s16b corrupt_idx, bool can_gain) — Test if we have that corruption We must: 1) have it or be willing to get it 2) have all its dependancies 3) have none of its opposing corruptions 4) pass the possible tests
+- [x] `corrupt.cc:848` **gain_random_corruption**()
+- [x] `corrupt.cc:877` **remove_corruption**(int c_idx)
+- [x] `corrupt.cc:886` **lose_corruption**()
+- [x] `corrupt.cc:927` **dump_corruptions**(bool color, bool header) — Dump the corruption list
+
+## mimic.cc (26 defs)
+
+- [x] `mimic.cc:43` **abomination_calc**()
+- [x] `mimic.cc:51` **mouse_calc**() — synced from report
+- [x] `mimic.cc:75` **mouse_power**()
+- [x] `mimic.cc:83` **eagle_calc**()
+- [x] `mimic.cc:119` **wolf_calc**()
+- [x] `mimic.cc:154` **spider_calc**()
+- [x] `mimic.cc:177` **spider_power**()
+- [x] `mimic.cc:185` **ent_calc**()
+- [x] `mimic.cc:209` **ent_power**()
+- [x] `mimic.cc:214` **vapour_calc**()
+- [x] `mimic.cc:246` **serpent_calc**()
+- [x] `mimic.cc:269` **mumak_calc**()
+- [x] `mimic.cc:308` **bear_calc**()
+- [x] `mimic.cc:350` **balrog_calc**()
+- [x] `mimic.cc:374` **maia_calc**()
+- [x] `mimic.cc:398` **fire_elemental_calc**()
+- [x] `mimic.cc:598` **mimic_form_enabled**(mimic_form_type const *f) — Is the mimicry form enabled for the current module?
+- [x] `mimic.cc:614` **get_mimic_form**(int mf_idx) — Get a mimic form by index
+- [x] `mimic.cc:624` **resolve_mimic_name**(const char *name) — Find a mimic by name — synced from report
+- [x] `mimic.cc:641` **find_random_mimic_shape**(byte level, bool limit) — Find a random mimic form
+- [x] `mimic.cc:672` **get_mimic_name**(s16b mf_idx) — Get mimic name
+- [x] `mimic.cc:680` **get_mimic_object_name**(s16b mf_idx) — Get mimic object name
+- [x] `mimic.cc:688` **get_mimic_level**(s16b mf_idx) — Get mimic object level
+- [x] `mimic.cc:696` **get_mimic_random_duration**(s16b mf_idx) — Get a random duration for the given mimic form
+- [x] `mimic.cc:705` **calc_mimic**() — Calculate bonuses for player's current mimic form — mimic.rs::apply_mimic_totals (mimic.rs:338, folded by item.rs::totals_for)
+- [x] `mimic.cc:721` **calc_mimic_power**() — Calculate powers for player's current mimic form
+
+## gods.cc (10 defs)
+
+- [x] `gods.cc:28` **inc_piety**(int god, s32b amt) — Add amt piety is god is god — game.rs::god_piety_on_kill (game.rs:10604) + game.rs::god_sync (game.rs:10528), clamped to +/-300000
+- [x] `gods.cc:47` **abandon_god**(int god) — Renounce to religion — synced from report
+- [x] `gods.cc:59` **may_follow_god**(int god) — Check if god may be followed by player
+- [~] `gods.cc:83` **follow_god**(int god, bool silent) — Get a religion — n/a per report — synced from report
+- [~] `gods.cc:117` **show_god_info**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `gods.cc:155` **wisdom_scale**(int max) — Rescale the wisdom value to a 0 <-> max range — synced from report
+- [x] `gods.cc:166` **god_at**(byte god_idx) — Get deity info for a given god index. Returns NULL for the "atheist" god.
+- [x] `gods.cc:181` **god_enabled**(struct deity_type *deity) — Check if god is enabled for the current module
+- [x] `gods.cc:197` **find_god**(const char *name) — Find a god by name
+- [x] `gods.cc:214` **praying_to**(int god) — synced from report
+
+## player_type.cc (0 defs)
+
+
+## util.cc (98 defs)
+
+- [~] `util.cc:157` **user_name**() — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:214` **path_parse**(char *buf, int max, const char *file) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:274` **path_parse**(char *buf, int max, const char *file) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:300` **path_build**(char *buf, int max, const char *path, const char *file) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:338` **my_fopen**(const char *file, const char *mode) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:355` **my_fclose**(FILE *fff) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:375` **my_fgets**(FILE *fff, char *buf, unsigned long n) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:456` **fd_kill**(const char *file) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:474` **fd_move**(const char *file, const char *what) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:501` **fd_make**(const char *file, int mode) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:521` **fd_open**(const char *file, int flags) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:538` **fd_seek**(int fd, unsigned long n) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:562` **fd_read**(int fd, char *buf, unsigned long n) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:595` **fd_write**(int fd, const char *buf, unsigned long n) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:628` **fd_close**(int fd) — [~] C stdio/路径封装 → Rust std::fs/PathBuf（save.rs/notes.rs/scores.rs 使用）；accept.py c-runtime 类机械复核
+- [~] `util.cc:691` **octify**(unsigned int i) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:699` **hexify**(unsigned int i) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:708` **deoct**(char c) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:717` **dehex**(char c) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:726` **trigger_text_to_ascii**(char **bufptr, const char **strptr) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:829` **text_to_ascii**(char *buf, const char *str) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:954` **trigger_ascii_to_text**(char **bufptr, const char **strptr) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1019` **ascii_to_text**(char *buf, const char *str) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1127` **macro_find_exact**(const char *pat) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1155` **macro_find_check**(const char *pat) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1183` **macro_find_maybe**(const char *pat) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1214` **macro_find_ready**(const char *pat) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1260` **macro_add**(const char *pat, const char *act) — [~] 宏/pref/转义工具；port 无用户宏与 pref 输入层（Bevy 绑定），accept.py pref-macro 类机械复核
+- [~] `util.cc:1329` **flush**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1339` **flush_on_failure**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1351` **bell**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1385` **inkey_aux**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1589` **inkey_real**(bool inkey_scan) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1768` **inkey**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1772` **inkey_scan**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1779` **msg_flush**(int x) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1801` **display_message**(int x, int y, int split, byte color, const char *t) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1855` **cmsg_print**(byte color, const char *msg) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1985` **cmsg_print**(byte color, std::string const &msg) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1991` **msg_print**(const char *msg) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:1996` **msg_print**(std::string const &msg) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2013` **screen_save**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2025` **screen_save_no_flush**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2039` **screen_load**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2051` **screen_load_no_flush**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2064` **msg_format**(const char *fmt, ...) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2083` **cmsg_format**(byte color, const char *fmt, ...) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2102` **c_put_str**(byte attr, const char *str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2107` **c_put_str**(byte attr, std::string const &str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2112` **put_str**(const char *str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2117` **put_str**(std::string const &str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2127` **c_prt**(byte attr, const char *str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2136` **c_prt**(byte attr, std::string const &s, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2141` **prt**(const char *str, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2146` **prt**(std::string const &s, int row, int col) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2165` **text_out_to_screen**(byte a, const char *str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2275` **text_out_to_file**(byte a, const char *str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2386` **text_out**(const char *str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2391` **text_out**(std::string const &str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2401` **text_out_c**(byte a, const char *str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2406` **text_out_c**(byte a, std::string const &str) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2415` **clear_from**(int row) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2439` **complete_command**(char *buf, int clen, int mlen) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2480` **askfor_aux**(std::string *buf, std::size_t max_len) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2510` **askfor_aux**(char *buf, int len) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2625` **askfor_aux_with_completion**(char *buf, int len) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2643` **get_string**(const char *prompt, char *buf, int len) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2671` **get_check**(const char *prompt) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2707` **get_check**(std::string const &prompt) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2720` **get_com**(const char *prompt, char *command) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2747` **get_quantity**(const char *prompt, s32b max) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2831` **pause_line**(int row) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:2878` **request_command**(int shopping) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [x] `util.cc:3118` **is_a_vowel**(int ch) — Check a char for "vowel-hood"
+- [~] `util.cc:3147` **get_keymap_dir**(char ch) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3203` **repeat_push**(int what) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3216` **repeat_pull**(int *what) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3228` **repeat_check**(s16b *command_ptr) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3269` **get_count**(int number, int max) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [x] `util.cc:3291` **count_bits**(u32b array) — [x] bevy/src/zutil.rs:64 count_bits（popcount）；测试 count_bits_matches_popcount
+- [x] `util.cc:3303` **strlower**(char *buf) — Return the lowered string
+- [x] `util.cc:3318` **test_monster_name**(const char *name) — Given monster name as string, return the index in r_info array. Name must exactly match (look out for commas and the like!), or else 0 is returned. Case doesn't matter. -GSN-
+- [x] `util.cc:3333` **test_mego_name**(const char *needle)
+- [x] `util.cc:3354` **test_item_name**(const char *needle) — Given item name as string, return the index in k_info array. Name must exactly match (look out for commas and the like!), or else -1 is returned. Case doesn't matter. -DG-
+- [x] `util.cc:3372` **bst**(s32b what, s32b t) — Break scalar time — synced from report
+- [x] `util.cc:3391` **get_day**(s32b day_no)
+- [x] `util.cc:3418` **get_player_race_name**(int pr, int ps)
+- [~] `util.cc:3443` **ask_menu**(const char *ask, const std::vector<std::string> &items) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3514` **draw_box**(int y, int x, int h, int w) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3542` **display_list**(int y, int x, int h, int w, const char *title, std::vector<std::string> const &list, std::size_t begin, std::size_t sel,...) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3561` **input_box_auto**(std::string const &prompt, std::string *buf, std::size_t max) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3578` **input_box_auto**(std::string const &title, std::size_t max) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3585` **msg_box_auto**(std::string const &text) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3601` **new_timer**(void (*callback) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [~] `util.cc:3610` **get_keymap_mode**() — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+- [x] `util.cc:3625` **in_bounds**(int y, int x) — Determines if a map location is fully inside the outer walls
+- [x] `util.cc:3633` **in_bounds2**(int y, int x) — Determines if a map location is on or inside the outer walls
+- [~] `util.cc:3642` **panel_contains**(int y, int x) — [~] 终端绘制/按键原语 → Bevy hud::/render::/input::/modal::；accept.py terminal-UI 类机械复核
+
+## variable.cc (2 defs)
+
+- [x] `variable.cc:35` **seed_flavor**() — bool character_xtra; The game is in an icky startup mode
+- [x] `variable.cc:600` **get_version_string**() — [x] bevy/src/zutil.rs:64 get_version_string（ToME 2.4.0 (ah, git)）；main.rs 窗口标题使用；测试 version_string_matches_the_checked_out_release
+

@@ -1,0 +1,59 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# s_info.txt — skills (54)
+
+- [x] `56` **Magic-Device** — F:RANDOM_GAIN — in RON
+- [x] `54` **Spell-learning** — F:HIDDEN — in RON
+- [x] `41` **Sorcery** — A:17:Cast a spell — in RON
+- [x] `1` **Conveyance** — A:17:Cast a spell F:RANDOM_GAIN — in RON
+- [x] `2` **Mana** — A:17:Cast a spell — in RON
+- [x] `3` **Fire** — A:17:Cast a spell — in RON
+- [x] `4` **Air** — A:17:Cast a spell — in RON
+- [x] `5` **Water** — A:17:Cast a spell — in RON
+- [x] `6` **Nature** — A:17:Cast a spell — in RON
+- [x] `7` **Earth** — A:17:Cast a spell — in RON
+- [x] `10` **Divination** — A:17:Cast a spell F:RANDOM_GAIN — in RON
+- [x] `11` **Temporal** — A:17:Cast a spell — in RON
+- [x] `14` **Meta** — A:17:Cast a spell — in RON
+- [x] `51` **Mind** — A:17:Cast a spell — in RON
+- [x] `55` **Udun** — A:17:Cast a spell F:HIDDEN — in RON
+- [x] `13` **Demonology** — A:17:Cast a spell — in RON
+- [x] `31` **Necromancy** — A:7:Use Necromancy F:RANDOM_GAIN G:60 — in RON
+- [x] `43` **Thaumaturgy** — A:8:Cast a thaumaturgy spell F:RANDOM_GAIN — in RON
+- [x] `15` **Magic** — A:19:Copy a spell F:RANDOM_GAIN — in RON
+- [x] `45` **Spell-power** —  — in RON
+- [x] `59` **Geomancy** — A:101:Use Geomancy f:Magic-Device:Magic%7;Spell-power:Magic%20;Sorcery:Magic%20;Mana:Magic%10;Fire:Magic%10;Air:Magic%10;Water:Magic%10;Earth:Magic%10;Geomancy:Fire%45;Geomancy:Earth%45;Geomancy:Air%45;Geomancy:Water%45;Conveyance:Magic%10;Divination… — in RON
+- [x] `16` **Combat** — F:RANDOM_GAIN — in RON
+- [x] `17` **Weaponmastery** — F:RANDOM_GAIN — in RON
+- [x] `18` **Sword-mastery** —  — in RON
+- [x] `19` **Axe-mastery** —  — in RON
+- [x] `20` **Polearm-mastery** —  — in RON
+- [x] `21` **Hafted-mastery** —  — in RON
+- [x] `22` **Backstab** —  — in RON
+- [x] `23` **Archery** — F:RANDOM_GAIN — in RON
+- [x] `24` **Sling-mastery** — A:23:Fire piercing shots — in RON
+- [x] `25` **Bow-mastery** — A:23:Fire piercing shots — in RON
+- [x] `26` **Crossbow-mastery** — A:23:Fire piercing shots — in RON
+- [x] `27` **Boomerang-mastery** —  — in RON
+- [x] `58` **Boulder-throwing** — A:21:Tear down a wall to create boulders — in RON
+- [x] `42` **Barehand-combat** — F:RANDOM_GAIN G:70 — in RON
+- [x] `47` **Bearform-combat** — F:AUTO_HIDE;HIDDEN — in RON
+- [x] `52` **Critical-hits** —  — in RON
+- [x] `57` **Stunning-blows** — f:Critical-hits:Sword-mastery%5;Sword-mastery:Weaponmastery%25;Axe-mastery:Weaponmastery%25;Polearm-mastery:Weaponmastery%25;Stunning-blows:Hafted-mastery%5;Hafted-mastery:Weaponmastery%25;Sling-mastery:Archery%25;Bow-mastery:Archery%25;Crossbow-mast… — in RON
+- [x] `28` **Spirituality** — F:RANDOM_GAIN — in RON
+- [x] `53` **Prayer** — A:17:Cast a spell — in RON
+- [x] `12` **Druidistic** — A:1:Cast a druidistic spell — in RON
+- [x] `29` **Mindcraft** — A:2:Use Mindcraft F:RANDOM_GAIN G:50 — in RON
+- [x] `9` **Music** — A:17:Cast a spell f:Prayer:Spirituality%10;Druidistic:Spirituality%10;Mindcraft:Spirituality%10;Music:Spirituality%10;Prayer:Magic%10;Druidistic:Magic%10;Mindcraft:Magic%10;Music:Magic%10 — in RON
+- [x] `30` **Misc** —  — in RON
+- [x] `33` **Antimagic** — A:3:Use antimagic E:Magic-Device:Antimagic;Mana:Antimagic;Geomancy:Antimagic;Fire:Antimagic;Air:Antimagic;Water:Antimagic;Earth:Antimagic;Conveyance:Antimagic;Divination:Antimagic;Temporal:Antimagic;Meta:Antimagic;Mind:Antimagic;Nature:Antimagic;Udun… — in RON
+- [x] `36` **Stealth** — F:RANDOM_GAIN — in RON
+- [x] `40` **Stealing** — A:15:Steal object — in RON
+- [x] `46` **Dodging** — A:16:Check dodge chance f:Backstab:Stealth%5;Stealing:Stealth%15;Dodging:Stealth%10 — in RON
+- [x] `48` **Monster-lore** — A:22:Turn pet into companion F:RANDOM_GAIN — in RON
+- [x] `44` **Summoning** — A:13:Manipulate totems F:RANDOM_GAIN G:60 — in RON
+- [x] `49` **Corpse-preservation** —  — in RON
+- [x] `50` **Possession** — A:11:Use the possession skill — in RON
+- [x] `8` **Symbiosis** — A:20:Use symbiotic powers F:RANDOM_GAIN G:70 — in RON
+- [x] `32` **Mimicry** — A:6:Use Mimicry F:RANDOM_GAIN G:80 T:Main:Combat;Combat:Weaponmastery;Weaponmastery:Sword-mastery;Sword-mastery:Critical-hits;Weaponmastery:Axe-mastery;Weaponmastery:Hafted-mastery;Hafted-mastery:Stunning-blows;Weaponmastery:Polearm-mastery;Combat:Ar… — in RON

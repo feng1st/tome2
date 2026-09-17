@@ -1,0 +1,72 @@
+# 数据清单：lib/edit/t_d_khaz.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_d_khaz.txt:6` [feat] F:o:207:3
+- [ ] `lib/edit/t_d_khaz.txt:9` [feat] F:A:93:3
+- [ ] `lib/edit/t_d_khaz.txt:12` [feat] F:F:205:3
+- [ ] `lib/edit/t_d_khaz.txt:15` [feat] F:R:206:3
+- [ ] `lib/edit/t_d_khaz.txt:18` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_khaz.txt:19` [row] D:#ooooooooooooo####^^^^^^^^^#######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#####oooo#######oo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^######
+- [ ] `lib/edit/t_d_khaz.txt:20` [row] D:#ooo##ooooooooo#####^^^^^##########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^########ooo########ooo##########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#############
+- [ ] `lib/edit/t_d_khaz.txt:21` [row] D:##oo###oo####oo##############################^^^^^^^^^^^^^^^^^########################oooo#########oo####  ###########^^^^^^^^^^^^^^^^^^^^^^^^#######    #####
+- [ ] `lib/edit/t_d_khaz.txt:22` [row] D:##############o#########oo###oo###################^^^^^^^############################oooo#########oo######       #################################   #####oooo
+- [ ] `lib/edit/t_d_khaz.txt:23` [row] D:#^^^^########oooooooooooooo##ooooooooo#############################  #################oooo########oo###########     ##########################     ######ooooo
+- [ ] `lib/edit/t_d_khaz.txt:24` [row] D:#############ooooooooooooooooooooooooooo######  ########### ######  ############## ####oooo#######o##o#############    ###################    ###########ooo##
+- [ ] `lib/edit/t_d_khaz.txt:25` [row] D:#^#############ooooo##################oo### # #### # #####   #### ###############   ###ooo########ooo##   ##   ######  #   ##   ##   ##      # #######ooooo###
+- [ ] `lib/edit/t_d_khaz.txt:26` [row] D:#^^################oo#################ooooo####       ## ;                     ##   ;;  o        ; o       ##                                   # ooooooooo###
+- [ ] `lib/edit/t_d_khaz.txt:27` [row] D:#^^^^################o##########o#####oooooooooooooooooooooo                   AAAAAAAA #          o               ;           oooooooooooooooooooooooo##ooo##
+- [ ] `lib/edit/t_d_khaz.txt:28` [row] D:#^^^^^^################################# ##   ;            o             ;    AAFFFFFAA A          o        ;                  o                   R#o########
+- [ ] `lib/edit/t_d_khaz.txt:29` [row] D:#^^^^^^################################          ###       o           ###     AAFFFFAAAA    ##    o               ###;        o         ##A      ############
+- [ ] `lib/edit/t_d_khaz.txt:30` [row] D:#^^^^^#################################          ###       o     ###  ### ##   AAFFFFFAAo    ###   o                ###        o        #AAFFA     RR#########
+- [ ] `lib/edit/t_d_khaz.txt:31` [row] D:#^^^^^^^################################       ###### ;;   o       #########   AAAFFFFFAo  ######  o              ## ###       o       ## #AFA      #R########
+- [ ] `lib/edit/t_d_khaz.txt:32` [row] D:#^^^^^^^^################################ #    ## ####     o    ;    ## # #     AAAAAAAAA  ####### #             ####  #       o       ## ###FF#  ###R#R######
+- [ ] `lib/edit/t_d_khaz.txt:33` [row] D:#^^^^^^^###################################     ## ##      o      ;  ;### #         AAAAo   # #  ##o              # ##     ;   o        # ##FF  ;#R##RR#######
+- [ ] `lib/edit/t_d_khaz.txt:34` [row] D:#^^^^^^^^^################################       ##  AAAAAAAA          ###              o    ###   o               # #         o         ##       # #R########
+- [ ] `lib/edit/t_d_khaz.txt:35` [row] D:#^^^^^^^^^#################################         AAFFFFFFAA                          o          o                           o                  #R #########
+- [ ] `lib/edit/t_d_khaz.txt:36` [row] D:#^^^^^^^^^^################################       ; AAFFFFFFFAAoooooooo                 o          o                oooooooooooo       AAAA         R#########
+- [ ] `lib/edit/t_d_khaz.txt:37` [row] D:#^^^^^^^^^^^^^###########################           AAAFFFFFAA        o                 o          o                o                 FFFFF A       ##########
+- [ ] `lib/edit/t_d_khaz.txt:38` [row] D:#^^^^^^^^^^^^^^^##########################     AAAAAAAAAAAAAAFF       o           ### # o          o   ;###         o         ###  #   AF FAA      #R#########
+- [ ] `lib/edit/t_d_khaz.txt:39` [row] D:#^^^^^^^^^^^^#############################     AFFFAA       #####;    o          # ##   o          o   # ###        o        #   #   #  FF      ; ############
+- [ ] `lib/edit/t_d_khaz.txt:40` [row] D:#^^^^^^^^^###############################      AAFFFA;    ## ## #     o         #### ## o   ;      o  #######       o         ### #A   AAA          ##########
+- [ ] `lib/edit/t_d_khaz.txt:41` [row] D:#^#########################################      AFAA;    ##  ###     oooooooo  #### # #o          o  ######   oooooo       ###AAFF o          ;   R##########
+- [ ] `lib/edit/t_d_khaz.txt:42` [row] D:#################ooo######################        AA    ;  ### #             o   #  ##  o          o   #####   o             ## AFFA#              RR#########
+- [ ] `lib/edit/t_d_khaz.txt:43` [row] D:####oo##ooo#####o#######o###ooo###########                   ##   ;          o    ##    o          o    ###    o       ;      ###FFAA ;;          R########oo#
+- [ ] `lib/edit/t_d_khaz.txt:44` [row] D:#ooooooooooooooooooooooooooooooo##oooooooo                               ;   o    ;     o          o           o   ;              # ;;          ; oooooooooooo
+- [ ] `lib/edit/t_d_khaz.txt:45` [row] D:#ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooAAAFooooooooooooooooooooooooooooooooooooooooooooooo
+- [ ] `lib/edit/t_d_khaz.txt:46` [row] D:#oooooooooooooooooo##oooooo##oooooo##ooooo                     AA         ;             o          o      AA FFA                               ;  Roooooooo#oo
+- [ ] `lib/edit/t_d_khaz.txt:47` [row] D:#^#######################oo####ooooo#######     #####            FFAFA # #              o          o           AFFF###                    #       ######o####o
+- [ ] `lib/edit/t_d_khaz.txt:48` [row] D:#^^#######################o###########           ####             AAFFFAA#              oA         o           A FA## # ##              ## ##    RR####o######
+- [ ] `lib/edit/t_d_khaz.txt:49` [row] D:#^#######################################      ## ### ;;   ;       AAFFAA#####          oA         FFFAA         ### ###               ## ####    R####oo#####
+- [ ] `lib/edit/t_d_khaz.txt:50` [row] D:#^^########################################    #######          ;    #A#####            oA         o             #  ####  #              # ###    RRR###o#####
+- [ ] `lib/edit/t_d_khaz.txt:51` [row] D:#^^^###############ooo###################       ### #             ;  ;#  ##             oA      AA o  FA          #####    ;            ### ##  ;; R#####oo###
+- [ ] `lib/edit/t_d_khaz.txt:52` [row] D:#####oo##oo#####oooooooo##############oo##       ###       ;           ####             o  AA      o F A           ###                   ###      R#######oooo
+- [ ] `lib/edit/t_d_khaz.txt:53` [row] D:#ooooooooooo###ooooooooooooooooooooooooooo                                            # o    A     oF                                         #   oooooooooooo
+- [ ] `lib/edit/t_d_khaz.txt:54` [row] D:#ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooFoooFoooooooooooooooooooooooooooooooooooooooooooooooooooooo
+- [ ] `lib/edit/t_d_khaz.txt:55` [row] D:#^ooooooooooooooooo###oooooooooo##oooooooo                                   o         #o     A    o            o  AA        #                    ooooooo####o
+- [ ] `lib/edit/t_d_khaz.txt:56` [row] D:#^^#o###ooo#####ooo#####ooooo########oo#                    # #       ;      o    ###   o      A  Fo   ;###     o    A        ###                  oR#########
+- [ ] `lib/edit/t_d_khaz.txt:57` [row] D:#^^^^^###o################oo#############                  # # # ;           o   ###### #       AF o    ## #    o             ####              ;  R##########
+- [ ] `lib/edit/t_d_khaz.txt:58` [row] D:#^^^^^^^##################################R          ;      ####       ooooooo  #####   o   ;    A o  ######    ooooo A     #######               ############
+- [ ] `lib/edit/t_d_khaz.txt:59` [row] D:#^^^^^^^^^^##############################RR        AA;    ## #####     o ;      ####### o         Ao   ###  #       o  FFF  # ##  # o          ; #R###########
+- [ ] `lib/edit/t_d_khaz.txt:60` [row] D:#^^^^^^^^^^^^^^^#########################  R   AA  FF A ;  ## ##       o          ####  o          A   #####        o    AFF ### #              ##############
+- [ ] `lib/edit/t_d_khaz.txt:61` [row] D:#^^^^^^^^^^^^^^^^^^^###################RR       AAAFFFAA    ##    ;    o          ###   o          o    # #         o  ;    A ###   ; ;;         RR###########
+- [ ] `lib/edit/t_d_khaz.txt:62` [row] D:#^^^^^^^^^^^^^^^^^^^#################### R      AAAFFFAA ;             o            ;;  o        ; o                o        A              ;     R###########
+- [ ] `lib/edit/t_d_khaz.txt:63` [row] D:#^^^^^^^^^^^^^^^^^^######################R        AAFFA A    ooooooooooo                o          o                oooooooooooo    ;;          ;R ###########
+- [ ] `lib/edit/t_d_khaz.txt:64` [row] D:#^^^^^^^^^^^^^^^^^^^^^^#################RRR   ;     AFFA     o           ;     ;        o          o        ;             A    o                   R##########
+- [ ] `lib/edit/t_d_khaz.txt:65` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^##############R         ###         o         # #              o    ###   o               ###;   FF A o         ####    RR###########
+- [ ] `lib/edit/t_d_khaz.txt:66` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^############RRR       ### #        o AAA A  # ###             o    ## #  o              # # #  AAFF Ao        #   ##    R   ########
+- [ ] `lib/edit/t_d_khaz.txt:67` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^^##########R R       ### # #;;   ; o  AAAA ## ####            o  ## #### o             ### ###    FFAo       #######     R##########
+- [ ] `lib/edit/t_d_khaz.txt:68` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^^##########RR        ## ###        o  ;A A #### ##   A  A     o  ### # # o             # ## ###  AAF AA        #######   ###########
+- [ ] `lib/edit/t_d_khaz.txt:69` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^^^###########            ###         o    ;  ;## ##     AAA     o   # ###  o              #####    ;  FFAA      ####    ; ############
+- [ ] `lib/edit/t_d_khaz.txt:70` [row] D:#^^^^^^^^^^^^^^^^^^^^^^^############## R         ###       ; o          ##      AAAA    o    # #   o         A      ##       A oFA       ###      R###########
+- [ ] `lib/edit/t_d_khaz.txt:71` [row] D:#^^^^^^^^^^^^^^^^^^^^^^#################R                    o                   A     AoAA     A Ao   A A AAAAA               FFF               R#########oo#
+- [ ] `lib/edit/t_d_khaz.txt:72` [row] D:#^^^^^^^^^^^^^^^^^^#############o#######oooooooooooooooooooooo            ##       AA A o    A A   A  AR AAFFFAFA              oooooooooooooooooRooooooooooooo
+- [ ] `lib/edit/t_d_khaz.txt:73` [row] D:#^^^^^^^^^^^^^^^^^############ooooooooooo#     ###  RRR      RR         # ### RR   R    o  RR##     AAR F FFA#FF A AA    FFFFRR   R    ##      R  oooooo##oooo
+- [ ] `lib/edit/t_d_khaz.txt:74` [row] D:#^^^^^^^^^^^#################ooooooooooo####R######R ##    RR###   ######### ###RR####o  RR##### #ooo# ### R#F#F#RRRR   A  FF##R#R    ##### ##################
+- [ ] `lib/edit/t_d_khaz.txt:75` [row] D:#^^^^^^^^^^###################oo######oo###  ###########  ######## ## #### ###########oooo########ooo ##########R#A##A A  ######R#  ######  ##################
+- [ ] `lib/edit/t_d_khaz.txt:76` [row] D:#^^^^^^^##########oo####oo####ooo#########  ############  #########  ###^^^ #########ooooo########oo##################A###################    #########^######
+- [ ] `lib/edit/t_d_khaz.txt:77` [row] D:##^^^^^#########oooooooooooooooo#################^^#######  ###########^^^^^###########ooooo######ooo#######################################     #####^^^#####
+- [ ] `lib/edit/t_d_khaz.txt:78` [row] D:#^^^##########ooooooooooo##ooooo######^#########^^^^##################^^^^^^^^^^^######ooo#######oooo#########^^^^^^^^^^^^^^^^^^^###########       #####^^^###
+- [ ] `lib/edit/t_d_khaz.txt:79` [row] D:##############ooooo##########oo######^^^#####^^^^^^^^###############^^^^^^^^^^^^^^#####oooo#######ooo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^######      ####^^^^^##
+- [ ] `lib/edit/t_d_khaz.txt:80` [row] D:########ooo#####oo##################^^^^^^^^^^^^^^^^^#############^^^^^^^^^^^^^^^^^####oo########oooo#####^^^^^^^^^^^^^^^^^^^^^^^^^^^###########   #######^^^^
+- [ ] `lib/edit/t_d_khaz.txt:81` [row] D:#o##oooooooooooooooo##############^^^^^^^^^^^^^^^^^^^^^^#########^^^^^^^^^^^^^^^^^^#####oo########oo######^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#######  # ######^^^^^
+- [ ] `lib/edit/t_d_khaz.txt:82` [row] D:#oooooooooooooooooo########^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^########oooo#######ooooo###^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^##############^^^^^^
+- [ ] `lib/edit/t_d_khaz.txt:83` [row] D:##############################################################################################################################################################

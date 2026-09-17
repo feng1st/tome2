@@ -1,0 +1,29 @@
+# 数据清单：lib/help/r_yeek.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_yeek.txt:1` [line] ~~~~~01|Yeek
+- [ ] `lib/help/r_yeek.txt:2` [line] ~~~~~02|Races|Yeek
+- [ ] `lib/help/r_yeek.txt:3` [line] #####R=== Yeeks ===
+- [ ] `lib/help/r_yeek.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_yeek.txt:6` [line] Yeeks are the least powerful of all the races. They suffer disadvantages 
+- [ ] `lib/help/r_yeek.txt:7` [line] in nearly all skills and attributes but to compensate they learn (and thus
+- [ ] `lib/help/r_yeek.txt:8` [line] gain levels) extremely quickly. "Live fast, die young!"
+- [ ] `lib/help/r_yeek.txt:10` [line] #####GStat Modifiers
+- [ ] `lib/help/r_yeek.txt:11` [line] Strength        -5   
+- [ ] `lib/help/r_yeek.txt:12` [line] Intelligence    -5   
+- [ ] `lib/help/r_yeek.txt:13` [line] Wisdom          -5   
+- [ ] `lib/help/r_yeek.txt:14` [line] Dexterity       -5   
+- [ ] `lib/help/r_yeek.txt:15` [line] Constitution    -5   
+- [ ] `lib/help/r_yeek.txt:16` [line] Charisma        -5       
+- [ ] `lib/help/r_yeek.txt:17` [line] Hit Dice Sides  6         
+- [ ] `lib/help/r_yeek.txt:18` [line] Exp Penalty     -75%
+- [ ] `lib/help/r_yeek.txt:20` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_yeek.txt:21` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_yeek.txt:22` [line] Combat                  
+- [ ] `lib/help/r_yeek.txt:23` [line]   Weaponmastery        -0.500           [0.000]
+- [ ] `lib/help/r_yeek.txt:24` [line]   Archery	       -0.500           [0.000]
+- [ ] `lib/help/r_yeek.txt:25` [line] Sneakiness             -0.500           [0.000]
+- [ ] `lib/help/r_yeek.txt:26` [line]   Stealth              -5.000           [0.000]
+- [ ] `lib/help/r_yeek.txt:27` [line]   Disarming            -0.500           [0.000]
+- [ ] `lib/help/r_yeek.txt:28` [line] Magic                   
+- [ ] `lib/help/r_yeek.txt:29` [line]   Magic-Device         -0.500           [0.000]
+- [ ] `lib/help/r_yeek.txt:30` [line] Spirituality           -2.500           [0.000]

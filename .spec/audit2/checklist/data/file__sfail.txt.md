@@ -1,0 +1,36 @@
+# 数据清单：lib/file/sfail.txt（text，逐条/逐行）
+
+- [ ] `lib/file/sfail.txt:1` [line] 32
+- [ ] `lib/file/sfail.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/sfail.txt:3` [line] rose petals
+- [ ] `lib/file/sfail.txt:4` [line] dirty straw
+- [ ] `lib/file/sfail.txt:5` [line] rusty metal cutlery
+- [ ] `lib/file/sfail.txt:6` [line] small, furry animals
+- [ ] `lib/file/sfail.txt:7` [line] assorted toy jewelry
+- [ ] `lib/file/sfail.txt:8` [line] visions of merry, dancing gnomes
+- [ ] `lib/file/sfail.txt:9` [line] old and dusty accounting records
+- [ ] `lib/file/sfail.txt:10` [line] moldy crusts of bread
+- [ ] `lib/file/sfail.txt:11` [line] grass
+- [ ] `lib/file/sfail.txt:12` [line] wet mud
+- [ ] `lib/file/sfail.txt:13` [line] smelly bilge water
+- [ ] `lib/file/sfail.txt:14` [line] clean linens
+- [ ] `lib/file/sfail.txt:15` [line] scrap metal
+- [ ] `lib/file/sfail.txt:16` [line] rotting wood
+- [ ] `lib/file/sfail.txt:17` [line] leaves
+- [ ] `lib/file/sfail.txt:18` [line] small insects
+- [ ] `lib/file/sfail.txt:19` [line] rainwater
+- [ ] `lib/file/sfail.txt:20` [line] flowers
+- [ ] `lib/file/sfail.txt:21` [line] perfumed water
+- [ ] `lib/file/sfail.txt:22` [line] overcooked sausage
+- [ ] `lib/file/sfail.txt:23` [line] twigs
+- [ ] `lib/file/sfail.txt:24` [line] pine needles
+- [ ] `lib/file/sfail.txt:25` [line] hard leather
+- [ ] `lib/file/sfail.txt:26` [line] small bones
+- [ ] `lib/file/sfail.txt:27` [line] feathers
+- [ ] `lib/file/sfail.txt:28` [line] crumbling manuscripts
+- [ ] `lib/file/sfail.txt:29` [line] fresh air
+- [ ] `lib/file/sfail.txt:30` [line] stale, smelly air
+- [ ] `lib/file/sfail.txt:31` [line] dust
+- [ ] `lib/file/sfail.txt:32` [line] clay
+- [ ] `lib/file/sfail.txt:33` [line] earth
+- [ ] `lib/file/sfail.txt:34` [line] wood shavings

@@ -1,0 +1,85 @@
+# 数据清单：lib/edit/t_d_gond.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_d_gond.txt:10` [feat] F:D:92:3
+- [ ] `lib/edit/t_d_gond.txt:13` [feat] F:A:93:3
+- [ ] `lib/edit/t_d_gond.txt:16` [feat] F:F:205:3
+- [ ] `lib/edit/t_d_gond.txt:19` [feat] F:R:206:3
+- [ ] `lib/edit/t_d_gond.txt:22` [feat] F:w:174:3
+- [ ] `lib/edit/t_d_gond.txt:25` [feat] F:":66:3
+- [ ] `lib/edit/t_d_gond.txt:28` [feat] F:$:70:3
+- [ ] `lib/edit/t_d_gond.txt:33` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:34` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:35` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:36` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:37` [row] D:######################################^^^^^^^^^^^^R                                                                                                           
+- [ ] `lib/edit/t_d_gond.txt:38` [row] D:####################################^^^^^^^^^^^R                                                                                                              
+- [ ] `lib/edit/t_d_gond.txt:39` [row] D:##################################^^^^^^^                                                                     R R              R                              
+- [ ] `lib/edit/t_d_gond.txt:40` [row] D:#################################^^^^^^^^R                                                               C C R CCR CC CC C CCRC CR         R                  
+- [ ] `lib/edit/t_d_gond.txt:41` [row] D:################################^^^R^^^^^^^                                                         C RCRCR#R######R#R#####R#####CCR   CCR  R                 
+- [ ] `lib/edit/t_d_gond.txt:42` [row] D:###############################^^^^^^^^^^^^                                                  CRRR C# ######   DD D ####RDRD  D D ###R###CC C R                
+- [ ] `lib/edit/t_d_gond.txt:43` [row] D:##############################^^^^^^R^^^R                                                  C R####R##RD DDD      R.R##      R.DD DDD#RR#####C R               
+- [ ] `lib/edit/t_d_gond.txt:44` [row] D:#############################^^^^^^^^^^                                                  # R##########D         R#########         .D##########R R            
+- [ ] `lib/edit/t_d_gond.txt:45` [row] D:############################^^RR^^                                                      R ############       ..R###########R      ..D############C R          
+- [ ] `lib/edit/t_d_gond.txt:46` [row] D:############################                                                           C #############DR     .###ww#####ww###      .D#############CR          
+- [ ] `lib/edit/t_d_gond.txt:47` [row] D:###########################                                      RR          R          #############DD      .#wwww#R###wwRw#     R.RR############# R         
+- [ ] `lib/edit/t_d_gond.txt:48` [row] D:###########################              R               .         R        RR         C#R###########DR        .ww###R###ww         .DR############C  R   R   
+- [ ] `lib/edit/t_d_gond.txt:49` [row] D:##########################            R                #####     RR R #### R  R        C######wwww###          ..w##  R##R         ..D####wwww#####CR ####### 
+- [ ] `lib/edit/t_d_gond.txt:50` [row] D:##########################          R  #R#####       R ##R##         #######          C#R####D DDww#DR            #   .R#             DRRwD DD######C R## ##R#
+- [ ] `lib/edit/t_d_gond.txt:51` [row] D:####R#################R#w#           ###  ###R         ###  R        #######           ######   DDw#R                                 D#wDD   D####R   ##R####
+- [ ] `lib/edit/t_d_gond.txt:52` [row] D:####wR#w###R#R#####R#Rwww#           R####R###         #R##R         #######          R######D  R                                        RR..R######R         
+- [ ] `lib/edit/t_d_gond.txt:53` [row] D:#####wR##w#w##R##wRwww#w##           #####R###         # ###        #########R         ######D R               .. DD    DD               ..RRD######CR        
+- [ ] `lib/edit/t_d_gond.txt:54` [row] D:#####RwRwRwww##RwRwww#RR##           R######R#         R ##R      R##R####  RR R     RC#######Rw            ..DD D####### DD             ..ww#R##### C        
+- [ ] `lib/edit/t_d_gond.txt:55` [row] D:######w##ww#ww#wwwww#R####               . R            R            R#   R#          #######R##             D ##### R###### DD            ##########      R #
+- [ ] `lib/edit/t_d_gond.txt:56` [row] D:######www#wwwRwRwRwwRw####                        ..                         R       CR#######           .. D###### R# # #####           ..  ########R      #R
+- [ ] `lib/edit/t_d_gond.txt:57` [row] D:#######RwwwwRwwwRwwR#ww###                                  R                         #####D DD         .. D###R.R#R# #R## .###D          ..DDDR#####CR     R 
+- [ ] `lib/edit/t_d_gond.txt:58` [row] D:########RwwRwwRwwwR#w######          # ######         R R##   #####R                 C#  D              ..D##   ..##  RR    ..#       R      .. D DD#        R
+- [ ] `lib/edit/t_d_gond.txt:59` [row] D:#########R#wwwwRww##########         #R#R####R          ############                 R#D    R    .R#R      ## R ..R  R..    ..## D  R# #         ..D#C        
+- [ ] `lib/edit/t_d_gond.txt:60` [row] D:##########R####################      # #######         ############ R                 #D   R    R####R   D##     R# R ..#  @ @ ##    .#R##R     R RD#         
+- [ ] `lib/edit/t_d_gond.txt:61` [row] D:#### R####################           ####R# ##R        #####R#######                RC#D        # #R  R. D##            @@@ @ .##D   ..R## R     .D #RC       
+- [ ] `lib/edit/t_d_gond.txt:62` [row] D:####   ####RRRC##w#LL#""##           #######R          ## R##R#R  ##                C###  R    ###R   . D ###  R        @w@@..###D D   .####       ###R       
+- [ ] `lib/edit/t_d_gond.txt:63` [row] D:#### R####R##RC# R#LL#""#           #                        .  R  R                 ###D      R##R    D###.###   .#####w@ @###.##      R###R     R### R      
+- [ ] `lib/edit/t_d_gond.txt:64` [row] D:##### ###################                                    .    R                 C###       ## #R  D##   ..##.R##wRww#..##   ..# D   ## R      D###C       
+- [ ] `lib/edit/t_d_gond.txt:65` [row] D:#                                                                                             R####   D#      .#..#ww#Rw#..#      .#D    R##         ..       
+- [ ] `lib/edit/t_d_gond.txt:66` [row] D:#..                                                                                                             ..#w#w#w# R                                   
+- [ ] `lib/edit/t_d_gond.txt:67` [row] D:#                                                                                             .##R#   D#      .#.R#ww#wR#..#      .#D   ####R        ..       
+- [ ] `lib/edit/t_d_gond.txt:68` [row] D:############ ########## #                .                   .           .          R###D   ..#R###R   ##   ..##..##www##..##   ..##    #R #     R R##C       
+- [ ] `lib/edit/t_d_gond.txt:69` [row] D:####  #### K# C#  #LL# "#           R    .    R              .           .           ###       ##R#   DD###.###   .#####   R###.###D    R###   .  D#R#        
+- [ ] `lib/edit/t_d_gond.txt:70` [row] D:####  ### K  CC ww# L# "##            ##### #          R ## #### #    # ####        CR##D            .. DD###               ..###DD    .###R   DD####RC       
+- [ ] `lib/edit/t_d_gond.txt:71` [row] D:####  ####KK#CC#ww#L # "###          ## ######         ###R ###R# R#   #####         R#DD                D##                R .##D   ..R# #   D #####CR       
+- [ ] `lib/edit/t_d_gond.txt:72` [row] D:######## ######################      #########         R####R#R### #   ## R#         CRD               ..D##     R#R  .RR      ##    .#R##R  .D#####  R       
+- [ ] `lib/edit/t_d_gond.txt:73` [row] D:####### #####R$R$#R#### ####         ### ###R# R       ## ########R#   # #            #    ww   ww      .DD## R R.##RR ##   RR## D   #R#      R######         
+- [ ] `lib/edit/t_d_gond.txt:74` [row] D:########$R$$R#R$RR$##### ##         R##R######         ##R# ### R###    R## R        CRR..ww# R #Rw       D####.#########R#R####D            ..######C        
+- [ ] `lib/edit/t_d_gond.txt:75` [row] D:######$$R#$R$$#$#$##$#$###                R                                          C D..w#R .###w      . DD#################D D            .DR#####R       D
+- [ ] `lib/edit/t_d_gond.txt:76` [row] D:#######R#$##$$$#$#$$R$####                                                           C#D .w###.R# R         D D### #########DD                D #R###R        
+- [ ] `lib/edit/t_d_gond.txt:77` [row] D:######R$R$$$#$#R#$R$$R$$#                  R               R  RR                    RC##D.w##R # Rw         ..D D #######  D                    D ###        D
+- [ ] `lib/edit/t_d_gond.txt:78` [row] D:#####$$$$#$$R#$$$$$R$$R###           ###### #          RR###   R###RR                RC#D.ww#####ww           R                     RR           DD#C         
+- [ ] `lib/edit/t_d_gond.txt:79` [row] D:#####R$$#$$R#####$R$$$R###           ## ####R R        #R## ##### ##R                  R ..ww###wwR  ..D DR RDDDR  R R  .DD R R D DR           R. DR R        
+- [ ] `lib/edit/t_d_gond.txt:80` [row] D:####R$$###R########R#R$$$#           ###R#####R        ##  ####### #                  C     wwwRw   .DDR######R#RDRD  RDDD#R###R#R#DDD          RR R R        
+- [ ] `lib/edit/t_d_gond.txt:81` [row] D:###R$#################R###           # ## ## #         ###########R#                  CRDD         .DD###wwwwww####R . R#R##wwwwww### D         .DD#C R      D
+- [ ] `lib/edit/t_d_gond.txt:82` [row] D:#######################R##           R####  #R         #############                   R#          .D##www   .wRw###DDD###www   .www#RDR        .D#R         D
+- [ ] `lib/edit/t_d_gond.txt:83` [row] D:###########################           R         #                R R                  CR#          .D#ww      ..ww#######ww      R.ww#D          D#R       DD 
+- [ ] `lib/edit/t_d_gond.txt:84` [row] D:###########################                     R  R#                                  C#D               R      ..#######   R                 ..DD#R        DD
+- [ ] `lib/edit/t_d_gond.txt:85` [row] D:############################                   ##R  #R                                  R#D       ..D#ww   R R..ww#######wR  R   ..ww#D      .. DR# R         
+- [ ] `lib/edit/t_d_gond.txt:86` [row] D:############################                  #########                                C ##DD      .D##www   .www#########www  R.www##D      . R##            
+- [ ] `lib/edit/t_d_gond.txt:87` [row] D:#############################                  #####R#                                    R#D DD   DD  ##wwwwww## #### #####wwwwww###D     DD D##RC           
+- [ ] `lib/edit/t_d_gond.txt:88` [row] D:##############################               R  ###R                                       #### DD  DDD ##### #  ######R # ########DDDD RDRD ###RC            
+- [ ] `lib/edit/t_d_gond.txt:89` [row] D:###############################                 ### RR                                    CR R#R#R##DDD RDR  DD##############D DRRD D D## #R#CCRR             
+- [ ] `lib/edit/t_d_gond.txt:90` [row] D:################################               R   #                                           CC R  ##R# #R#####R###R#R#R#####R###R###RCRC CR                
+- [ ] `lib/edit/t_d_gond.txt:91` [row] D:#################################           R  R  R #  R                                          CRCR   CCCRCC CRRCRCCC C R #C C CR RC C                     
+- [ ] `lib/edit/t_d_gond.txt:92` [row] D:##################################              ####                                                          R R   R       # R                               
+- [ ] `lib/edit/t_d_gond.txt:93` [row] D:####################################          R #####                                                                                                         
+- [ ] `lib/edit/t_d_gond.txt:94` [row] D:######################################      #### ########                                                                                                     
+- [ ] `lib/edit/t_d_gond.txt:95` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:96` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:97` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:98` [row] D:##############################################################################################################################################################
+- [ ] `lib/edit/t_d_gond.txt:101` [cond] ?:[EQU $LEAVING_QUEST 0]
+- [ ] `lib/edit/t_d_gond.txt:102` [raw] P:33:50
+- [ ] `lib/edit/t_d_gond.txt:105` [cond] ?:[EQU $LEAVING_QUEST 19]
+- [ ] `lib/edit/t_d_gond.txt:106` [raw] P:51:190
+- [ ] `lib/edit/t_d_gond.txt:109` [cond] ?:[EQU $LEAVING_QUEST 20]
+- [ ] `lib/edit/t_d_gond.txt:110` [raw] P:33:13
+- [ ] `lib/edit/t_d_gond.txt:113` [cond] ?:[EQU $LEAVING_QUEST 21]
+- [ ] `lib/edit/t_d_gond.txt:114` [raw] P:27:168
+- [ ] `lib/edit/t_d_gond.txt:117` [cond] ?:[EQU $LEAVING_QUEST 22]
+- [ ] `lib/edit/t_d_gond.txt:118` [raw] P:6:42

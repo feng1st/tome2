@@ -1,0 +1,49 @@
+# 数据清单：lib/help/c_hafted.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_hafted.txt:1` [line] ~~~~~01|Haftedmaster
+- [ ] `lib/help/c_hafted.txt:2` [line] ~~~~~02|Classes|Haftedmaster
+- [ ] `lib/help/c_hafted.txt:3` [line] #####R=== Haftedmasters ===
+- [ ] `lib/help/c_hafted.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_hafted.txt:6` [line] The Haftedmaster is a Warrior who specialises in blunt weapons.
+- [ ] `lib/help/c_hafted.txt:8` [line] The training is so intense and specific that Haftedmasters gain huge bonuses
+- [ ] `lib/help/c_hafted.txt:9` [line] when fighting with their chosen weapon, dependent on their *****skills.txt*06[Hafted-mastery] skill.
+- [ ] `lib/help/c_hafted.txt:11` [line] In most other respects they perform about as well as a generic Warrior.
+- [ ] `lib/help/c_hafted.txt:13` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_hafted.txt:14` [line] Strength         +5
+- [ ] `lib/help/c_hafted.txt:15` [line] Intelligence     -2
+- [ ] `lib/help/c_hafted.txt:16` [line] Wisdom           -2
+- [ ] `lib/help/c_hafted.txt:17` [line] Dexterity        +2
+- [ ] `lib/help/c_hafted.txt:18` [line] Constitution     +2
+- [ ] `lib/help/c_hafted.txt:19` [line] Charisma         -1
+- [ ] `lib/help/c_hafted.txt:20` [line] Hit Die          +d9
+- [ ] `lib/help/c_hafted.txt:21` [line] Spell Points     +0%
+- [ ] `lib/help/c_hafted.txt:22` [line] Exp Penalty       0%
+- [ ] `lib/help/c_hafted.txt:24` [line] #####GStarting Skills:
+- [ ] `lib/help/c_hafted.txt:25` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_hafted.txt:26` [line] Combat                  2.000           [0.900]
+- [ ] `lib/help/c_hafted.txt:27` [line]   Weaponmastery         1.000           [0.950]
+- [ ] `lib/help/c_hafted.txt:28` [line]     Sword-mastery       0.000           [0.300]
+- [ ] `lib/help/c_hafted.txt:29` [line]     Axe-mastery         0.000           [0.300]
+- [ ] `lib/help/c_hafted.txt:30` [line]     Hafted-mastery      1.000           [0.700]
+- [ ] `lib/help/c_hafted.txt:31` [line]       Stunning-blows    0.000           [0.500]
+- [ ] `lib/help/c_hafted.txt:32` [line]     Polearm-mastery     0.000           [0.300]
+- [ ] `lib/help/c_hafted.txt:33` [line]   Archery               1.000           [0.600]
+- [ ] `lib/help/c_hafted.txt:34` [line]   Antimagic             0.000           [0.550]
+- [ ] `lib/help/c_hafted.txt:35` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_hafted.txt:36` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_hafted.txt:37` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_hafted.txt:38` [line] Magic                   1.000           [0.300]
+- [ ] `lib/help/c_hafted.txt:39` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_hafted.txt:40` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_hafted.txt:41` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_hafted.txt:42` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_hafted.txt:44` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_hafted.txt:45` [line] #####BAbility              Character level
+- [ ] `lib/help/c_hafted.txt:46` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_hafted.txt:47` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_hafted.txt:48` [line] Spread blows                25
+- [ ] `lib/help/c_hafted.txt:50` [line] #####GStarting Equipment
+- [ ] `lib/help/c_hafted.txt:51` [line] An Haftedmaster begins the game with:
+- [ ] `lib/help/c_hafted.txt:52` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_hafted.txt:53` [line]     a Chain Mail
+- [ ] `lib/help/c_hafted.txt:54` [line]     a Flail

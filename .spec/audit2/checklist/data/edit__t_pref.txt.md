@@ -1,0 +1,39 @@
+# 数据清单：lib/edit/t_pref.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/t_pref.txt:7` [feat] F:{:7:3:0:0:0:0:4
+- [ ] `lib/edit/t_pref.txt:10` [feat] F:~:7:3:0:0:0:0:1
+- [ ] `lib/edit/t_pref.txt:13` [feat] F:|:7:3:0:0:0:0:2
+- [ ] `lib/edit/t_pref.txt:16` [feat] F:>:7:3:0:0:0:0:3
+- [ ] `lib/edit/t_pref.txt:19` [feat] F:^:97:3
+- [ ] `lib/edit/t_pref.txt:22` [feat] F:.:1:3
+- [ ] `lib/edit/t_pref.txt:25` [feat] F:T:96:3
+- [ ] `lib/edit/t_pref.txt:28` [feat] F:W:187:3
+- [ ] `lib/edit/t_pref.txt:31` [feat] F:V:84:3
+- [ ] `lib/edit/t_pref.txt:34` [feat] F:L:85:3
+- [ ] `lib/edit/t_pref.txt:37` [feat] F:K:86:3
+- [ ] `lib/edit/t_pref.txt:40` [feat] F:C:87:3
+- [ ] `lib/edit/t_pref.txt:43` [feat] F:,:88:3
+- [ ] `lib/edit/t_pref.txt:46` [feat] F:@:94:3
+- [ ] `lib/edit/t_pref.txt:49` [feat] F:;:49:3
+- [ ] `lib/edit/t_pref.txt:52` [feat] F:-:89:3
+- [ ] `lib/edit/t_pref.txt:55` [feat] F:#:63:3
+- [ ] `lib/edit/t_pref.txt:58` [feat] F:s:193:3
+- [ ] `lib/edit/t_pref.txt:60` [feat] F:S:194:3
+- [ ] `lib/edit/t_pref.txt:62` [feat] F:t:195:3
+- [ ] `lib/edit/t_pref.txt:65` [feat] F:X:190:3
+- [ ] `lib/edit/t_pref.txt:67` [feat] F:U:191:3
+- [ ] `lib/edit/t_pref.txt:69` [feat] F:Y:192:3
+- [ ] `lib/edit/t_pref.txt:72` [feat] F:O:200:3
+- [ ] `lib/edit/t_pref.txt:75` [feat] F:1:74:3:0:0:0:0:0
+- [ ] `lib/edit/t_pref.txt:78` [feat] F:2:74:3:0:0:0:0:1
+- [ ] `lib/edit/t_pref.txt:81` [feat] F:3:74:3:0:0:0:0:2
+- [ ] `lib/edit/t_pref.txt:84` [feat] F:4:74:3:0:0:0:0:3
+- [ ] `lib/edit/t_pref.txt:87` [feat] F:5:74:3:0:0:0:0:4
+- [ ] `lib/edit/t_pref.txt:90` [feat] F:6:74:3:0:0:0:0:5
+- [ ] `lib/edit/t_pref.txt:93` [feat] F:7:74:3:0:0:0:0:6
+- [ ] `lib/edit/t_pref.txt:96` [feat] F:8:74:3:0:0:0:0:7
+- [ ] `lib/edit/t_pref.txt:99` [feat] F:9:74:3:0:0:0:0:8
+- [ ] `lib/edit/t_pref.txt:102` [feat] F:0:74:3:0:0:0:0:9
+- [ ] `lib/edit/t_pref.txt:105` [feat] F:I:173:3
+- [ ] `lib/edit/t_pref.txt:108` [feat] F:M:204:3
+- [ ] `lib/edit/t_pref.txt:111` [feat] F: :0:3

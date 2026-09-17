@@ -1,0 +1,55 @@
+# 数据清单：lib/help/c_warper.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_warper.txt:1` [line] |||||oy
+- [ ] `lib/help/c_warper.txt:2` [line] ~~~~~01|Warper
+- [ ] `lib/help/c_warper.txt:3` [line] ~~~~~02|Classes|Warper
+- [ ] `lib/help/c_warper.txt:4` [line] #####R=== Warpers ===
+- [ ] `lib/help/c_warper.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_warper.txt:7` [line] A Warper is a type of mage that prefers to deal in magic that alters the 
+- [ ] `lib/help/c_warper.txt:8` [line] fabric of space and time. They specialise in the schools of *****m_convey.txt*0[Conveyance], 
+- [ ] `lib/help/c_warper.txt:9` [line] *****m_divin.txt*0[Divination] and *****m_tempo.txt*0[Temporal] magic. 
+- [ ] `lib/help/c_warper.txt:11` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_warper.txt:12` [line] Strength         -5
+- [ ] `lib/help/c_warper.txt:13` [line] Intelligence     +3
+- [ ] `lib/help/c_warper.txt:14` [line] Wisdom           +0
+- [ ] `lib/help/c_warper.txt:15` [line] Dexterity        +1
+- [ ] `lib/help/c_warper.txt:16` [line] Constitution     -2
+- [ ] `lib/help/c_warper.txt:17` [line] Charisma         +1
+- [ ] `lib/help/c_warper.txt:18` [line] Hit Die          +d0
+- [ ] `lib/help/c_warper.txt:19` [line] Spell Points    +50%
+- [ ] `lib/help/c_warper.txt:20` [line] Exp Penalty      30%
+- [ ] `lib/help/c_warper.txt:22` [line] #####GStarting Skills:
+- [ ] `lib/help/c_warper.txt:23` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_warper.txt:24` [line] Combat                  1.000           [0.200]
+- [ ] `lib/help/c_warper.txt:25` [line]   Weaponmastery         0.700           [0.400]
+- [ ] `lib/help/c_warper.txt:26` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_warper.txt:27` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_warper.txt:28` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_warper.txt:29` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_warper.txt:30` [line]   Spell-power           1.000           [0.700]
+- [ ] `lib/help/c_warper.txt:31` [line]   Mana                  1.000           [0.700]
+- [ ] `lib/help/c_warper.txt:32` [line]   Geomancy              
+- [ ] `lib/help/c_warper.txt:33` [line]     Fire                0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:34` [line]     Water               0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:35` [line]     Air                 0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:36` [line]     Earth               0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:37` [line]   Meta                  0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:38` [line]   Conveyance            0.000           [1.200]
+- [ ] `lib/help/c_warper.txt:39` [line]   Divination            0.000           [1.200]
+- [ ] `lib/help/c_warper.txt:40` [line]   Temporal              0.000           [1.200]
+- [ ] `lib/help/c_warper.txt:41` [line]   Mind                  0.000           [0.700]
+- [ ] `lib/help/c_warper.txt:42` [line]   Nature                0.000           [0.800]
+- [ ] `lib/help/c_warper.txt:43` [line]   Necromancy            0.000           [0.700]
+- [ ] `lib/help/c_warper.txt:44` [line]   Thaumaturgy           0.000           [0.700]
+- [ ] `lib/help/c_warper.txt:45` [line] Spirituality            1.000           [0.550]
+- [ ] `lib/help/c_warper.txt:46` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_warper.txt:47` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_warper.txt:49` [line] *A Warper cannot learn the Geomancy skill, but it is shown in his skill 
+- [ ] `lib/help/c_warper.txt:50` [line] screen because the elemental schools are sub-skills of it.
+- [ ] `lib/help/c_warper.txt:52` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_warper.txt:53` [line] #####BAbility              Character level
+- [ ] `lib/help/c_warper.txt:54` [line] Perfect casting             1
+- [ ] `lib/help/c_warper.txt:56` [line] #####GStarting Equipment
+- [ ] `lib/help/c_warper.txt:57` [line] A Warper begins the game with:
+- [ ] `lib/help/c_warper.txt:58` [line]     a Book of Beginner Cantrips
+- [ ] `lib/help/c_warper.txt:59` [line]     a Dagger

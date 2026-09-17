@@ -1,0 +1,65 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# st_info.txt — stores (60)
+
+- [x] `0` **General Store** — A:0:0:1:2:3:4 G:1:U I:100:& Wooden Torch~;95:& Brass Lantern~;95:& Flask~ of oil;100:& Ration~ of Food;100:& Hard Biscuit~;90:& Strip~ of Venison;70:& Pint~ of Fine Wine;80:& Pint~ of Fine Ale;60:& Shovel~;50:& Pick~;100:& Iron Spike~;70:& Iron Shot~… — in RON
+- [x] `1` **Armoury** — A:0:0:1:2:3:4 G:2:s I:70:& Pair~ of Soft Leather Boots;60:& Pair~ of Hard Leather Boots;80:& Hard Leather Cap~;70:& Metal Cap~;65:& Iron Helm~;100:& Robe~;90:& Soft Leather Armour~;90:& Soft Studded Leather~;90:& Hard Leather Armour~;85:& Hard Studde… — in RON
+- [x] `2` **Weaponsmith** — A:23:0:1:2:3:4 G:3:w I:100:& Dagger~;100:& Main Gauche~;100:& Rapier~;100:& Small Sword~;100:& Short Sword~;100:& Sabre~;100:& Cutlass~;100:& Tulwar~;100:& Broad Sword~;100:& Long Sword~;100:& Scimitar~;100:& Katana~;100:& Bastard Sword~;100:& Spear~… — in RON
+- [x] `3` **Temple** — A:0:0:1:2:3:4 G:4:g I:100:& Quarterstaff~;100:& Mace~;100:& War Hammer~;100:& Lucerne Hammer~;100:& Morning Star~;100:& Flail~;100:& Lead-Filled Mace~;100:Remove Curse;100:Blessing;100:Holy Chant;100:Heroism;100:Word of Recall;100:Word of Recall;100:… — in RON
+- [x] `4` **Alchemy shop** — A:0:0:1:2:3:4 G:5:b I:100:Enchant Weapon To-Hit;100:Enchant Weapon To-Dam;100:Enchant Armour;100:Light;100:Phase Door;100:Phase Door;100:Monster Confusion;100:Magic Mapping;100:Treasure Detection;100:Object Detection;100:Detect Invisible;100:Rechargi… — in RON
+- [x] `5` **Magic shop** — A:0:0:1:2:3:4 G:6:r I:100:Protection;100:Levitation;100:Protection;100:Fire Resistance;100:Cold Resistance;100:Charisma;100:Slow Digestion;100:Acid Resistance;100:Lightning Resistance;100:Cure Light Wounds;25:& Wooden Rod~ of# O:34:35:36:37 T:100:40:… — in RON
+- [x] `6` **Black Market** — A:30:0:1:2:3:4 F:ALL_ITEM;MEDIUM_LEVEL G:7:D O:38:39:40:41 W:24 — in RON
+- [x] `7` **Home** — A:0:0:54:55:3:0 G:8:y O:0:0:0:0 W:240 — in RON
+- [x] `8` **Book Store** — A:0:0:1:2:3:4 G:9:o O:42:43:44:45 T:100:111:50;100:111:50;100:111:255;100:111:255;100:111:255;100:111:255;100:111:255;100:111:255 W:24 — in RON
+- [x] `9` **Pet Shop** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL G:+:b I:100:Egg;100:& Hard Biscuit~ O:46:47:48:49 T:100:70:6 W:12 — in RON
+- [x] `10` **Mayor's Office** — A:0:0:16:15:35:0 G:+:o O:1:1:1:1 W:0 — in RON
+- [x] `11` **Inn** — A:2:4:5:6:7:0 G:+:w I:100:& Ration~ of Food;100:& Hard Biscuit~;100:& Strip~ of Venison;100:& Pint~ of Fine Wine;100:& Pint~ of Fine Ale O:2:2:18:18 W:8 — in RON
+- [x] `12` **The Soothsayer** — A:0:0:2:0:8:0 F:RANDOM G:+:B I:20:Divination;20:Divination;20:Divination;20:Divination;20:Divination;20:Divination O:3:3:3:3 W:2 — in RON
+- [x] `13` **Library** — A:0:0:0:15:16:2 G:+:U O:4:4:4:4 W:2 — in RON
+- [x] `14` **Castle** — A:0:0:16:35:0:0 G:+:o O:16:16:16:16 W:0 — in RON
+- [x] `15` **Casino** — A:13:0:9:10:0:12 G:+:s O:17:17:17:17 W:0 — in RON
+- [x] `16` **Beastmaster Shanty** — A:0:0:21:22:0:0 G:+:g O:19:19:19:19 W:0 — in RON
+- [x] `17` **Fighters Hall** — A:0:0:24:25:0:0 G:+:s O:20:20:20:20 W:0 — in RON
+- [x] `18` **Tower of Magery** — A:0:0:26:0:0:0 G:+:b O:21:21:21:21 W:0 — in RON
+- [x] `19` **Inner Temple** — A:0:0:28:29:0:0 G:+:G O:22:22:22:22 W:0 — in RON
+- [x] `20` **Paladins Guild** — A:0:0:28:25:0:0 G:+:g O:23:23:23:23 W:0 — in RON
+- [x] `21` **Rangers Guild** — A:0:0:31:32:0:0 G:+:u O:24:24:24:24 W:0 — in RON
+- [x] `22` **Thunderlords' Nest** — A:0:0:33:2:34:0 G:+:U O:25:25:25:25 W:0 — in RON
+- [x] `23` **The Mirror** — A:0:0:44:15:16:43 G:+:U O:51:51:51:51 W:0 — in RON
+- [x] `24` **Seat of Ruling** — A:0:0:17:35:0:0 G:+:U O:52:52:52:52 W:0 — in RON
+- [x] `25` **Wizards Spire** — A:60:0:26:0:0:0 G:+:U O:54:54:54:54 W:0 — in RON
+- [x] `26` **Priests Circle** — A:0:0:28:29:0:0 G:+:o O:55:55:55:55 W:0 — in RON
+- [x] `27` **Tower of the King** — A:0:0:17:35:0:0 G:+:U O:57:57:57:57 W:0 — in RON
+- [x] `28` **Library** — A:0:0:0:15:16:2 G:+:U O:58:58:58:58 W:2 — in RON
+- [x] `29` **The White Tree** — A:2:4:5:6:7:0 G:+:w I:100:& Ration~ of Food;100:& Hard Biscuit~;100:& Strip~ of Venison;100:& Pint~ of Fine Wine;100:& Pint~ of Fine Ale O:59:59:59:59 W:8 — in RON
+- [x] `30` **Craftsmaster** — A:0:0:24:25:0:0 G:+:s O:60:60:60:60 W:0 — in RON
+- [x] `31` **Earth-Dome (Nature)** — A:0:0:39:0:0:0 G:+:U O:61:61:61:61 W:0 — in RON
+- [x] `32` **Minstrels Haven** — A:0:0:40:41:0:0 G:+:U O:62:62:62:62 W:0 — in RON
+- [x] `33` **Star-Dome** — A:0:0:0:47:0:0 G:+:U O:63:63:63:63 W:0 — in RON
+- [x] `34` **Valarin Temple** — A:0:0:28:48:0:0 G:+:U O:64:64:64:64 W:0 — in RON
+- [x] `35` **Sea-Dome** — A:0:0:49:35:0:0 G:+:U O:65:65:65:65 W:0 — in RON
+- [x] `36` **The Golden Flower** — A:0:0:50:51:0:0 G:+:U O:66:66:66:66 W:0 — in RON
+- [x] `37` **The Fountain** — A:0:0:52:53:0:0 G:+:U O:67:67:67:67 W:0 — in RON
+- [x] `38` **Axe Smith** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL;RANDOM G:3:w O:12:13:14:15 T:100:24:256 W:12 — in RON
+- [x] `39` **Hafted Smith** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL;RANDOM G:3:w O:12:13:14:15 T:100:21:256 W:12 — in RON
+- [x] `40` **Polearm Smith** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL;RANDOM G:3:w O:12:13:14:15 T:100:22:256 W:12 — in RON
+- [x] `41` **Sword Smith** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL;RANDOM G:3:w O:12:13:14:15 T:100:23:256 W:12 — in RON
+- [x] `42` **Rare Jewelry Shop** — A:0:0:1:2:3:4 F:DEEP_LEVEL;DEPEND_LEVEL;FORCE_LEVEL;RANDOM;VERY_RARE G:6:v O:34:35:36:37 T:100:40:256;100:45:256 W:10 — in RON
+- [x] `43` **Jewelry Shop** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;FORCE_LEVEL;MEDIUM_LEVEL;RANDOM;RARE G:6:y O:34:35:36:37 T:100:40:256;100:45:256 W:20 — in RON
+- [x] `44` **Footwear Shop** — A:0:0:1:2:3:4 F:COMMON;MEDIUM_LEVEL;RANDOM G:2:r O:8:9:10:11 T:100:30:256 W:12 — in RON
+- [x] `45` **Rare Footwear Shop** — A:0:0:1:2:3:4 F:DEEP_LEVEL;MEDIUM_LEVEL;RANDOM;VERY_RARE G:2:r O:8:9:10:11 T:100:30:256 W:8 — in RON
+- [x] `46` **Library** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;MEDIUM_LEVEL;RANDOM G:9:y O:8:9:10:11 T:100:110:256;100:111:256;100:112:256;100:113:256;100:114:256;100:115:256;100:116:256;100:117:256;100:118:256;100:119:256;100:120:256;100:121:256;100:122:256;100:123:256;100:124:256;1… — in RON
+- [x] `47` **Forbidden Library** — A:0:0:1:2:3:4 F:DEEP_LEVEL;DEPEND_LEVEL;RANDOM;RARE G:9:v O:8:9:10:11 T:100:110:256;100:111:256;100:112:256;100:113:256;100:114:256;100:115:256;100:116:256;100:117:256;100:118:256;100:119:256;100:120:256;100:121:256;100:122:256;100:123:256;100:124:25… — in RON
+- [x] `48` **Expensive Black Market** — A:0:0:1:2:3:4 F:ALL_ITEM;DEEP_LEVEL;DEPEND_LEVEL;MEDIUM_LEVEL;RANDOM G:7:v O:38:39:40:41 W:12 — in RON
+- [x] `49` **Common Shop** — A:0:0:1:2:3:4 F:RANDOM G:1:U I:95:& Brass Lantern~;100:& Flask~ of oil;100:& Ration~ of Food;60:& Shovel~;50:& Pick~;100:& Iron Spike~;70:& Iron Shot~;70:& Bolt~;70:& Arrow~;98:& Cloak~;46:& Fur Cloak~;100:Word of Recall;100:Cure Critical Wounds O:0:… — in RON
+- [x] `50` **Dragon Hunter** — A:0:0:1:2:3:4 F:DEEP_LEVEL;DEPEND_LEVEL;RANDOM;VERY_RARE G:2:v O:8:9:10:11 T:100:38:256 W:12 — in RON
+- [x] `51` **Speed Ring Market** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;RANDOM;SHALLOW_LEVEL;VERY_RARE G:6:G O:34:35:36:37 T:100:45:31 W:6 — in RON
+- [x] `52` **Scribe** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;MEDIUM_LEVEL;RANDOM G:5:B O:8:9:10:11 T:100:70:256 W:12 — in RON
+- [x] `53` **Potion Store** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;MEDIUM_LEVEL;RANDOM G:5:B O:8:9:10:11 T:100:71:256;100:72:256 W:12 — in RON
+- [x] `54` **Recaller** — A:33:0:1:2:3:0 F:COMMON;RANDOM G:+:b I:100:Word of Recall O:8:9:10:11 W:2 — in RON
+- [x] `55` **Master Archer** — A:0:0:1:2:3:4 F:DEPEND_LEVEL;MEDIUM_LEVEL;RANDOM;RARE G:3:g O:12:13:14:15 T:100:19:2;100:19:12;20:19:13;100:19:23;20:19:24;50:16:256;50:17:256;50:18:256 W:24 — in RON
+- [x] `57` **The Mathom-house** — A:0:0:59:0:3:0 F:MUSEUM G:+:g O:0:0:0:0 W:255 — in RON
+- [x] `58` **The Prancing Pony** — A:2:4:5:6:7:0 G:+:w I:100:& Ration~ of Food;100:& Hard Biscuit~;100:& Strip~ of Venison;100:& Pint~ of Fine Wine;100:& Pint~ of Fine Ale O:69:69:69:69 W:8 — in RON
+- [x] `59` **Mining Supply store** — A:0:0:1:2:3:4 F:MEDIUM_LEVEL G:+:s I:100:& Wooden Torch~;95:& Brass Lantern~;95:& Flask~ of oil;75:& Dwarven Lantern~;60:& Feanorian Lamp~ O:11:15:26:40 T:100:20:256;60:65:6;70:71:22 W:24 — in RON
+- [x] `60` **Library** — A:61:0:0:15:16:2 G:+:U O:4:4:4:4 W:2 — in RON

@@ -1,0 +1,46 @@
+# 数据清单：lib/help/m_fire.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_fire.txt:1` [line] |||||oy
+- [ ] `lib/help/m_fire.txt:2` [line] ~~~~~01|Magic|Fire School
+- [ ] `lib/help/m_fire.txt:3` [line] ~~~~~02|Fire Magic
+- [ ] `lib/help/m_fire.txt:4` [line] ~~~~~03|Skills|Fire - Spell Info
+- [ ] `lib/help/m_fire.txt:5` [line] #####R === ToME Magic - Fire School ===
+- [ ] `lib/help/m_fire.txt:7` [line] The fire school of magic contains spells where the element of fire is used
+- [ ] `lib/help/m_fire.txt:8` [line] to create the final spell effect. There are rumours of a "Tome of the Eternal
+- [ ] `lib/help/m_fire.txt:9` [line] Flame" which contains all the fire school spells within its bindings.
+- [ ] `lib/help/m_fire.txt:11` [line] #####RFire Spells
+- [ ] `lib/help/m_fire.txt:12` [line] There are five spells available for the fire school. These spells are:
+- [ ] `lib/help/m_fire.txt:13` [line] 1. [[[[[RGlobe of Light] (school level 1)
+- [ ] `lib/help/m_fire.txt:14` [line]    Creates a globe of pure light.
+- [ ] `lib/help/m_fire.txt:15` [line]    At spell level 3 it starts damaging monsters.
+- [ ] `lib/help/m_fire.txt:16` [line]    At spell level 15 it starts creating a more powerful kind of light.
+- [ ] `lib/help/m_fire.txt:17` [line] 2. [[[[[RFire Golem] (dual school level 7)
+- [ ] `lib/help/m_fire.txt:18` [line]    Creates a fiery golem and controls it.
+- [ ] `lib/help/m_fire.txt:19` [line]    During the control the available keylist is:
+- [ ] `lib/help/m_fire.txt:20` [line]       Movement keys: move the golem (depending on its speed it can move more
+- [ ] `lib/help/m_fire.txt:21` [line]           than one square).
+- [ ] `lib/help/m_fire.txt:22` [line]       , : pickup all items on the floor
+- [ ] `lib/help/m_fire.txt:23` [line]       d : drop all carried items
+- [ ] `lib/help/m_fire.txt:24` [line]       i : list all carried items
+- [ ] `lib/help/m_fire.txt:25` [line]       m : end the possession/use golem powers
+- [ ] `lib/help/m_fire.txt:26` [line]       Most of the other keys are disabled; you cannot interact with your
+- [ ] `lib/help/m_fire.txt:27` [line]       real body while controlling the golem.
+- [ ] `lib/help/m_fire.txt:28` [line]    But to cast the spell you will need a lantern or a wooden torch to create
+- [ ] `lib/help/m_fire.txt:29` [line]    the golem.
+- [ ] `lib/help/m_fire.txt:30` [line] #####v   Your Fire and Mind skills must have reached a combined average level 
+- [ ] `lib/help/m_fire.txt:31` [line] #####v   of 7 in order to cast this spell.
+- [ ] `lib/help/m_fire.txt:32` [line] 3. [[[[[RFireflash] (school level 10)
+- [ ] `lib/help/m_fire.txt:33` [line]    Conjures a ball of fire to burn your foes to ashes.
+- [ ] `lib/help/m_fire.txt:34` [line]    At spell level 20 it turns into a ball of holy fire.
+- [ ] `lib/help/m_fire.txt:35` [line] 4. [[[[[RFirewall] (school level 15)
+- [ ] `lib/help/m_fire.txt:36` [line]    Creates a fiery wall to incinerate monsters stupid enough to attack you.
+- [ ] `lib/help/m_fire.txt:37` [line]    At spell level 6 it turns into a wall of hell fire.
+- [ ] `lib/help/m_fire.txt:38` [line] 5. [[[[[RFiery Shield] (school level 20)
+- [ ] `lib/help/m_fire.txt:39` [line]    Creates a shield of fierce flames around you.
+- [ ] `lib/help/m_fire.txt:40` [line]    At spell level 8 it turns into a greater kind of flame that cannot be
+- [ ] `lib/help/m_fire.txt:41` [line]    resisted by your foes.
+- [ ] `lib/help/m_fire.txt:44` [line] #####GUdun spells that can be cast with Fire skill
+- [ ] `lib/help/m_fire.txt:46` [line] 1. [[[[[DFlame of Udun] (dual school level 35)
+- [ ] `lib/help/m_fire.txt:47` [line]    Turns you temporarily into a powerful Balrog.
+- [ ] `lib/help/m_fire.txt:48` [line] #####v   Your Fire and Udun skills must have reached a combined average level 
+- [ ] `lib/help/m_fire.txt:49` [line] #####v   of 35 in order to cast this spell.

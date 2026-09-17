@@ -1,0 +1,65 @@
+# 数据清单：lib/file/timenorm.txt（text，逐条/逐行）
+
+- [ ] `lib/file/timenorm.txt:1` [line] S:0000
+- [ ] `lib/file/timenorm.txt:2` [line] E:0000
+- [ ] `lib/file/timenorm.txt:3` [line] D:It is midnight.
+- [ ] `lib/file/timenorm.txt:5` [line] S:0001
+- [ ] `lib/file/timenorm.txt:6` [line] E:0200
+- [ ] `lib/file/timenorm.txt:7` [line] D:It is deep night.
+- [ ] `lib/file/timenorm.txt:9` [line] S:0300 
+- [ ] `lib/file/timenorm.txt:10` [line] E:0400
+- [ ] `lib/file/timenorm.txt:11` [line] D:It is early morning, but still dark.
+- [ ] `lib/file/timenorm.txt:13` [line] S:0500 
+- [ ] `lib/file/timenorm.txt:14` [line] E:0544
+- [ ] `lib/file/timenorm.txt:15` [line] D:It will be day soon.
+- [ ] `lib/file/timenorm.txt:17` [line] S:0545 
+- [ ] `lib/file/timenorm.txt:18` [line] E:0559
+- [ ] `lib/file/timenorm.txt:19` [line] D:The sun is rising.
+- [ ] `lib/file/timenorm.txt:21` [line] S:0600 
+- [ ] `lib/file/timenorm.txt:22` [line] E:0614
+- [ ] `lib/file/timenorm.txt:23` [line] D:The sun has risen.
+- [ ] `lib/file/timenorm.txt:25` [line] S:0615 
+- [ ] `lib/file/timenorm.txt:26` [line] E:0659
+- [ ] `lib/file/timenorm.txt:27` [line] D:Morning has broken.
+- [ ] `lib/file/timenorm.txt:29` [line] S:0700 
+- [ ] `lib/file/timenorm.txt:30` [line] E:0859
+- [ ] `lib/file/timenorm.txt:31` [line] D:It is early morning.
+- [ ] `lib/file/timenorm.txt:33` [line] S:0900 
+- [ ] `lib/file/timenorm.txt:34` [line] E:0959
+- [ ] `lib/file/timenorm.txt:35` [line] D:It is midmorning.
+- [ ] `lib/file/timenorm.txt:37` [line] S:1000 
+- [ ] `lib/file/timenorm.txt:38` [line] E:1154
+- [ ] `lib/file/timenorm.txt:39` [line] D:It is late morning.
+- [ ] `lib/file/timenorm.txt:41` [line] S:1155 
+- [ ] `lib/file/timenorm.txt:42` [line] E:1159
+- [ ] `lib/file/timenorm.txt:43` [line] D:It is almost noon.
+- [ ] `lib/file/timenorm.txt:45` [line] S:1200 
+- [ ] `lib/file/timenorm.txt:46` [line] E:1200
+- [ ] `lib/file/timenorm.txt:47` [line] D:It is noon.
+- [ ] `lib/file/timenorm.txt:49` [line] S:1201 
+- [ ] `lib/file/timenorm.txt:50` [line] E:1459
+- [ ] `lib/file/timenorm.txt:51` [line] D:It is early afternoon.
+- [ ] `lib/file/timenorm.txt:53` [line] S:1500 
+- [ ] `lib/file/timenorm.txt:54` [line] E:1559
+- [ ] `lib/file/timenorm.txt:55` [line] D:It is midafternoon.
+- [ ] `lib/file/timenorm.txt:57` [line] S:1600 
+- [ ] `lib/file/timenorm.txt:58` [line] E:1659
+- [ ] `lib/file/timenorm.txt:59` [line] D:It is late afternoon.
+- [ ] `lib/file/timenorm.txt:61` [line] S:1700 
+- [ ] `lib/file/timenorm.txt:62` [line] E:1729
+- [ ] `lib/file/timenorm.txt:63` [line] D:It will be night soon.
+- [ ] `lib/file/timenorm.txt:65` [line] S:1730 
+- [ ] `lib/file/timenorm.txt:66` [line] E:1759
+- [ ] `lib/file/timenorm.txt:67` [line] D:The sun is setting.
+- [ ] `lib/file/timenorm.txt:69` [line] S:1800 
+- [ ] `lib/file/timenorm.txt:70` [line] E:1859
+- [ ] `lib/file/timenorm.txt:71` [line] D:The night has begun.
+- [ ] `lib/file/timenorm.txt:73` [line] S:1900 
+- [ ] `lib/file/timenorm.txt:74` [line] E:2059
+- [ ] `lib/file/timenorm.txt:75` [line] D:It is early night.
+- [ ] `lib/file/timenorm.txt:77` [line] S:2100 
+- [ ] `lib/file/timenorm.txt:78` [line] E:2358
+- [ ] `lib/file/timenorm.txt:79` [line] D:It is late night.
+- [ ] `lib/file/timenorm.txt:81` [line] S:2359
+- [ ] `lib/file/timenorm.txt:82` [line] E:2358
+- [ ] `lib/file/timenorm.txt:83` [line] D:It is almost midnight.

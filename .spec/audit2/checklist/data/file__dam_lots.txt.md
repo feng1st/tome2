@@ -1,0 +1,22 @@
+# 数据清单：lib/file/dam_lots.txt（text，逐条/逐行）
+
+- [ ] `lib/file/dam_lots.txt:1` [line] 18
+- [ ] `lib/file/dam_lots.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/dam_lots.txt:3` [line] You stab %s in the stomach.
+- [ ] `lib/file/dam_lots.txt:4` [line] You cut off %s's hand.
+- [ ] `lib/file/dam_lots.txt:5` [line] You chop down on %s's shins.
+- [ ] `lib/file/dam_lots.txt:6` [line] You gave %s a deep gash.
+- [ ] `lib/file/dam_lots.txt:7` [line] You gave %s a gigantic bruise.
+- [ ] `lib/file/dam_lots.txt:8` [line] You cut off %s's arm!
+- [ ] `lib/file/dam_lots.txt:9` [line] You cut off %s's leg!
+- [ ] `lib/file/dam_lots.txt:10` [line] You stab %s in the heart.
+- [ ] `lib/file/dam_lots.txt:11` [line] You slash at %s face.
+- [ ] `lib/file/dam_lots.txt:12` [line] You throw %s down at the ground.
+- [ ] `lib/file/dam_lots.txt:13` [line] You attempt to strangle %s.
+- [ ] `lib/file/dam_lots.txt:14` [line] You grab %s's head and twist it.
+- [ ] `lib/file/dam_lots.txt:15` [line] You knocked out several of %s's teeth!
+- [ ] `lib/file/dam_lots.txt:16` [line] You broke some of %s's ribs!
+- [ ] `lib/file/dam_lots.txt:17` [line] %^s spins around dizzily after your blow.
+- [ ] `lib/file/dam_lots.txt:18` [line] %^s sputters at your tight, choking hold!
+- [ ] `lib/file/dam_lots.txt:19` [line] %^s grunts under the force of your blows.
+- [ ] `lib/file/dam_lots.txt:20` [line] %^s screams shrilly in fear.

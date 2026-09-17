@@ -1,0 +1,45 @@
+# 数据清单：lib/help/c_mimic.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_mimic.txt:1` [line] ~~~~~01|Mimic
+- [ ] `lib/help/c_mimic.txt:2` [line] ~~~~~02|Classes|Mimic
+- [ ] `lib/help/c_mimic.txt:3` [line] #####R=== Mimics ===
+- [ ] `lib/help/c_mimic.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_mimic.txt:6` [line] Mimics possess the ability to transform into various creatures using 
+- [ ] `lib/help/c_mimic.txt:7` [line] special cloaks. While transformed, they lose their intrinsic abilities, 
+- [ ] `lib/help/c_mimic.txt:8` [line] and gain those of the creature they have transformed into.
+- [ ] `lib/help/c_mimic.txt:10` [line] At higher skill levels, Mimics gain additional Mimicry powers which help them 
+- [ ] `lib/help/c_mimic.txt:11` [line] to further blend in with their surroundings or modify themselves.
+- [ ] `lib/help/c_mimic.txt:13` [line] See more on *****m_mimic.txt*0[Mimicry powers].
+- [ ] `lib/help/c_mimic.txt:16` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_mimic.txt:17` [line] Strength         +1
+- [ ] `lib/help/c_mimic.txt:18` [line] Intelligence     -2
+- [ ] `lib/help/c_mimic.txt:19` [line] Wisdom           +1
+- [ ] `lib/help/c_mimic.txt:20` [line] Dexterity        +1
+- [ ] `lib/help/c_mimic.txt:21` [line] Constitution     +0
+- [ ] `lib/help/c_mimic.txt:22` [line] Charisma         +1
+- [ ] `lib/help/c_mimic.txt:23` [line] Hit Die          +d8
+- [ ] `lib/help/c_mimic.txt:24` [line] Spell Points     +0%
+- [ ] `lib/help/c_mimic.txt:25` [line] Exp Penalty      40%
+- [ ] `lib/help/c_mimic.txt:27` [line] #####GStarting Skills:
+- [ ] `lib/help/c_mimic.txt:28` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_mimic.txt:29` [line] Combat                  1.000           [0.800]
+- [ ] `lib/help/c_mimic.txt:30` [line]   Weaponmastery         1.000           [0.800]
+- [ ] `lib/help/c_mimic.txt:31` [line]   Archery               1.000           [0.700]
+- [ ] `lib/help/c_mimic.txt:32` [line]   Barehand-combat       1.000           [0.600]
+- [ ] `lib/help/c_mimic.txt:33` [line] Sneakiness              1.000           [0.800]
+- [ ] `lib/help/c_mimic.txt:34` [line]   Stealth               1.000           [0.800]
+- [ ] `lib/help/c_mimic.txt:35` [line]   Disarming             1.000           [0.700]
+- [ ] `lib/help/c_mimic.txt:36` [line] Magic                   1.000           [0.700]
+- [ ] `lib/help/c_mimic.txt:37` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_mimic.txt:38` [line] Spirituality            1.000           [0.500]
+- [ ] `lib/help/c_mimic.txt:39` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_mimic.txt:40` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_mimic.txt:41` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_mimic.txt:42` [line]   Corpse-preservation   1.000           [0.900]
+- [ ] `lib/help/c_mimic.txt:43` [line]   Possession            0.000           [0.100]
+- [ ] `lib/help/c_mimic.txt:44` [line]   Mimicry               1.000           [0.800]
+- [ ] `lib/help/c_mimic.txt:46` [line] #####GStarting Equipment
+- [ ] `lib/help/c_mimic.txt:47` [line] A Mimic begins the game with:
+- [ ] `lib/help/c_mimic.txt:48` [line]     a Mouse Fur
+- [ ] `lib/help/c_mimic.txt:49` [line]     a Potion of Healing
+- [ ] `lib/help/c_mimic.txt:50` [line]     a Dagger

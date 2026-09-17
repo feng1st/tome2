@@ -1,0 +1,32 @@
+# 数据清单：lib/help/m_mimic.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_mimic.txt:1` [line] |||||oy
+- [ ] `lib/help/m_mimic.txt:2` [line] ~~~~~01|Magic|Mimicry
+- [ ] `lib/help/m_mimic.txt:3` [line] ~~~~~02|Mimic|Mimicry powers
+- [ ] `lib/help/m_mimic.txt:4` [line] ~~~~~03|Skills|Mimicry - mimicry powers
+- [ ] `lib/help/m_mimic.txt:5` [line] #####R === ToME Magic - Mimicry ===
+- [ ] `lib/help/m_mimic.txt:6` [line] Mimics can alter their form using special cloaks called cloaks of mimicry.
+- [ ] `lib/help/m_mimic.txt:7` [line] Even though this ability can give them access to increased stats, regeneration,
+- [ ] `lib/help/m_mimic.txt:8` [line] speed and resistances, there is always the risk of the shape-change going
+- [ ] `lib/help/m_mimic.txt:9` [line] horribly wrong, turning the character into an abomination for some time.
+- [ ] `lib/help/m_mimic.txt:10` [line] Also, you should keep in mind that any racial power or stat modifier is
+- [ ] `lib/help/m_mimic.txt:11` [line] overridden during the shape-shift. 
+- [ ] `lib/help/m_mimic.txt:13` [line] As your mimicry skill increases, your character is less likely to spoil
+- [ ] `lib/help/m_mimic.txt:14` [line] the transformation attempt and may even gain other powers, such as making
+- [ ] `lib/help/m_mimic.txt:15` [line] his colouration match his surroundings (becoming in all respects invisible)
+- [ ] `lib/help/m_mimic.txt:16` [line] or even stranger abilities... rumours abound about Tarka the Chameleon and 
+- [ ] `lib/help/m_mimic.txt:17` [line] her two pairs of boots of speed.
+- [ ] `lib/help/m_mimic.txt:19` [line] The powers are accessed using the 'm' key and then selecting 'Use Mimicry';
+- [ ] `lib/help/m_mimic.txt:20` [line] they are cast with spell points, like normal spells, which can be increased
+- [ ] `lib/help/m_mimic.txt:21` [line] as usual through the *****skills.txt*21[Magic] skill.
+- [ ] `lib/help/m_mimic.txt:23` [line] 1. [[[[[sMimic] (Level 1) Cost:2
+- [ ] `lib/help/m_mimic.txt:24` [line]    Allows you to mimic the creature whose cloak you are wearing for a time.
+- [ ] `lib/help/m_mimic.txt:25` [line] 2. [[[[[sInvisibility] (Level 10) Cost:6
+- [ ] `lib/help/m_mimic.txt:26` [line]    Turns you invisible for a time.
+- [ ] `lib/help/m_mimic.txt:27` [line] 3. [[[[[sLegs Mimicry] (Level 25) Cost:20
+- [ ] `lib/help/m_mimic.txt:28` [line]    Gives you an additional set of legs for a time.
+- [ ] `lib/help/m_mimic.txt:29` [line] 4. [[[[[sWall Mimicry] (Level 30) Cost:40
+- [ ] `lib/help/m_mimic.txt:30` [line]    Allows you to move within walls, and [[[[[Bonly] walls, for a time.
+- [ ] `lib/help/m_mimic.txt:31` [line] [[[[[v    Be careful you don't get stuck in a wall when it runs out.]
+- [ ] `lib/help/m_mimic.txt:32` [line] 5. [[[[[sArms Mimicry] (Level 35) Cost:100
+- [ ] `lib/help/m_mimic.txt:33` [line]    Gives you an additional set of arms for a time.

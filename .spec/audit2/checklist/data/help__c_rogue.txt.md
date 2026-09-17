@@ -1,0 +1,54 @@
+# 数据清单：lib/help/c_rogue.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_rogue.txt:1` [line] |||||oy
+- [ ] `lib/help/c_rogue.txt:2` [line] ~~~~~01|Rogue
+- [ ] `lib/help/c_rogue.txt:3` [line] ~~~~~02|Classes|Rogue
+- [ ] `lib/help/c_rogue.txt:4` [line] #####R== Rogues ===
+- [ ] `lib/help/c_rogue.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_rogue.txt:7` [line] A rogue is a jack of all trades, but the master of none. With the notable 
+- [ ] `lib/help/c_rogue.txt:8` [line] exception of Archery and Monster-related skills, Rogues are capable of adapting 
+- [ ] `lib/help/c_rogue.txt:9` [line] to almost any situation. Their strong point lies in stealth and careful 
+- [ ] `lib/help/c_rogue.txt:10` [line] planning: Where a Warrior would simply hack away (and risk being hacked up 
+- [ ] `lib/help/c_rogue.txt:11` [line] himself) or a Mage would Manathrust, a Rogue would awaken a monster with a 
+- [ ] `lib/help/c_rogue.txt:12` [line] dagger in the back, or would wait for the creature to be killed by the line of 
+- [ ] `lib/help/c_rogue.txt:13` [line] traps she had previously laid between her and her opponent.
+- [ ] `lib/help/c_rogue.txt:15` [line] Rogues have access to the schools of *****m_convey.txt*0[Conveyance], *****m_divin.txt*0[Divination] and *****m_tempo.txt*0[Temporal] magic.
+- [ ] `lib/help/c_rogue.txt:17` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_rogue.txt:18` [line] Strength         +2
+- [ ] `lib/help/c_rogue.txt:19` [line] Intelligence     +1
+- [ ] `lib/help/c_rogue.txt:20` [line] Wisdom           -2
+- [ ] `lib/help/c_rogue.txt:21` [line] Dexterity        +3
+- [ ] `lib/help/c_rogue.txt:22` [line] Constitution     +1
+- [ ] `lib/help/c_rogue.txt:23` [line] Charisma         -1
+- [ ] `lib/help/c_rogue.txt:24` [line] Hit Die          +d6
+- [ ] `lib/help/c_rogue.txt:25` [line] Spell Points     +0%
+- [ ] `lib/help/c_rogue.txt:26` [line] Exp Penalty      25%
+- [ ] `lib/help/c_rogue.txt:28` [line] #####GStarting Skills
+- [ ] `lib/help/c_rogue.txt:29` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_rogue.txt:30` [line] Combat                  1.000           [0.700]
+- [ ] `lib/help/c_rogue.txt:31` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_rogue.txt:32` [line]     Sword-mastery       1.000           [0.300]
+- [ ] `lib/help/c_rogue.txt:33` [line]       Critical-hits     1.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:34` [line] Sneakiness              1.000           [2.000]
+- [ ] `lib/help/c_rogue.txt:35` [line]   Stealth               1.000           [1.500]
+- [ ] `lib/help/c_rogue.txt:36` [line]   Disarming             1.000           [2.000]
+- [ ] `lib/help/c_rogue.txt:37` [line]   Backstab              1.000           [1.000]
+- [ ] `lib/help/c_rogue.txt:38` [line]   Stealing              1.000           [2.000]
+- [ ] `lib/help/c_rogue.txt:39` [line]   Dodging               1.000           [2.000]
+- [ ] `lib/help/c_rogue.txt:40` [line] Magic                   1.000           [0.700]
+- [ ] `lib/help/c_rogue.txt:41` [line]   Magic-Device          1.000           [1.550]
+- [ ] `lib/help/c_rogue.txt:42` [line]   Conveyance            0.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:43` [line]   Divination            0.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:44` [line]   Temporal              0.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:45` [line] Spirituality            1.000           [0.700]
+- [ ] `lib/help/c_rogue.txt:46` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:47` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_rogue.txt:49` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_rogue.txt:50` [line] #####BAbility              Character level
+- [ ] `lib/help/c_rogue.txt:51` [line] Trapping                    1
+- [ ] `lib/help/c_rogue.txt:52` [line] Extra Max Blow(1)           10
+- [ ] `lib/help/c_rogue.txt:54` [line] #####GStarting Equipment
+- [ ] `lib/help/c_rogue.txt:55` [line] A Rogue begins the game with:
+- [ ] `lib/help/c_rogue.txt:56` [line]     a Dagger
+- [ ] `lib/help/c_rogue.txt:57` [line]     a Catapult Trap Set
+- [ ] `lib/help/c_rogue.txt:58` [line]     some Iron Shots

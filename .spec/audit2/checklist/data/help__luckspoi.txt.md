@@ -1,0 +1,89 @@
+# 数据清单：lib/help/luckspoi.txt（text，逐条/逐行）
+
+- [ ] `lib/help/luckspoi.txt:1` [line] |||||oy
+- [ ] `lib/help/luckspoi.txt:2` [line] ~~~~~01|Luck (spoiler)
+- [ ] `lib/help/luckspoi.txt:3` [line] ~~~~~02|Spoilers|Luck
+- [ ] `lib/help/luckspoi.txt:4` [line] #####RLuck
+- [ ] `lib/help/luckspoi.txt:6` [line] "You've got to ask yourself one question: do I feel lucky? Well do ya 
+- [ ] `lib/help/luckspoi.txt:7` [line] punk?"
+- [ ] `lib/help/luckspoi.txt:8` [line]         --Clint Eastwood (Dirty Harry)
+- [ ] `lib/help/luckspoi.txt:10` [line] #####G1. Starting luck
+- [ ] `lib/help/luckspoi.txt:11` [line] Most races start with no luck points. Those that start with luck are listed
+- [ ] `lib/help/luckspoi.txt:12` [line] below from most luck to least luck.
+- [ ] `lib/help/luckspoi.txt:14` [line] Hobbit (+5); 
+- [ ] `lib/help/luckspoi.txt:15` [line] Maia (+4); 
+- [ ] `lib/help/luckspoi.txt:16` [line] Gnome, Dunadan, Thunderlord (+2); 
+- [ ] `lib/help/luckspoi.txt:17` [line] Beorning (+1);
+- [ ] `lib/help/luckspoi.txt:18` [line] Half-Ogre, Dark Elf, Ent (-2); 
+- [ ] `lib/help/luckspoi.txt:19` [line] Orc (-3); 
+- [ ] `lib/help/luckspoi.txt:20` [line] Troll (-4); 
+- [ ] `lib/help/luckspoi.txt:21` [line] Petty Dwarf, DeathMold, Yeek (-5).
+- [ ] `lib/help/luckspoi.txt:23` [line] Most subraces start with no luck points. Those that start with luck are listed
+- [ ] `lib/help/luckspoi.txt:24` [line] below from most luck to least luck.
+- [ ] `lib/help/luckspoi.txt:26` [line] Barbarian (+1); 
+- [ ] `lib/help/luckspoi.txt:27` [line] Spectre, Skeleton (-3); 
+- [ ] `lib/help/luckspoi.txt:28` [line] Zombie (-4).
+- [ ] `lib/help/luckspoi.txt:30` [line] So, a Hobbit starts with 5 luck points, a Beorning Barbarian starts with 2 luck
+- [ ] `lib/help/luckspoi.txt:31` [line] points, while a Yeek Zombie starts with -9 luck points.
+- [ ] `lib/help/luckspoi.txt:33` [line] #####G2. Descriptions
+- [ ] `lib/help/luckspoi.txt:34` [line] Drinking a potion of self-knowledge will tell you how lucky or unlucky your
+- [ ] `lib/help/luckspoi.txt:35` [line] character is.
+- [ ] `lib/help/luckspoi.txt:37` [line] DESCRIPTION         VALUE
+- [ ] `lib/help/luckspoi.txt:38` [line] incredibly unlucky  less than -27
+- [ ] `lib/help/luckspoi.txt:39` [line] extremely unlucky   less than -18
+- [ ] `lib/help/luckspoi.txt:40` [line] very unlucky        less than -9
+- [ ] `lib/help/luckspoi.txt:41` [line] unlucky             less than 0
+- [ ] `lib/help/luckspoi.txt:42` [line] normal luck         0
+- [ ] `lib/help/luckspoi.txt:43` [line] lucky               more than 0
+- [ ] `lib/help/luckspoi.txt:44` [line] very lucky          more than 9
+- [ ] `lib/help/luckspoi.txt:45` [line] extremely lucky     more than 18
+- [ ] `lib/help/luckspoi.txt:46` [line] incredibly lucky    more than 27
+- [ ] `lib/help/luckspoi.txt:48` [line] Luck < -30 is treated as -30 and luck > 30 is treated as +30.
+- [ ] `lib/help/luckspoi.txt:50` [line] #####G3. Items affecting luck
+- [ ] `lib/help/luckspoi.txt:51` [line] Elven cloaks give a bonus to luck.
+- [ ] `lib/help/luckspoi.txt:53` [line] Only one type of ego item is lucky, or perhaps that should be unlucky.
+- [ ] `lib/help/luckspoi.txt:54` [line] All Morgul items have -10 luck.
+- [ ] `lib/help/luckspoi.txt:56` [line] Artifacts can affect your luck. Beware: not all artifacts give you good luck.
+- [ ] `lib/help/luckspoi.txt:57` [line] Listed below are the artifacts which affect your luck.
+- [ ] `lib/help/luckspoi.txt:59` [line] The Phial of Galadriel (+4)
+- [ ] `lib/help/luckspoi.txt:60` [line] The Arkenstone of Thrain (+3)
+- [ ] `lib/help/luckspoi.txt:61` [line] The Ring of Power 'Narya' (+1)
+- [ ] `lib/help/luckspoi.txt:62` [line] The Ring of Power 'Nenya' (+2)
+- [ ] `lib/help/luckspoi.txt:63` [line] The Ring of Power 'Vilya' (+3)
+- [ ] `lib/help/luckspoi.txt:64` [line] The Metal Cap of Thengel (+3)
+- [ ] `lib/help/luckspoi.txt:65` [line] The Shadow Cloak of Luthien (+2)
+- [ ] `lib/help/luckspoi.txt:66` [line] The Set of Cesti of Fingolfin (+4)
+- [ ] `lib/help/luckspoi.txt:67` [line] The Long Sword 'Anduril' (+4)
+- [ ] `lib/help/luckspoi.txt:68` [line] The Long Bow of Bard (+2)
+- [ ] `lib/help/luckspoi.txt:69` [line] The Mage Staff of Eternity (+12)
+- [ ] `lib/help/luckspoi.txt:70` [line] The Harp of Maglor (+3)
+- [ ] `lib/help/luckspoi.txt:71` [line] The Drum of the Sky (+2)
+- [ ] `lib/help/luckspoi.txt:72` [line] The Harp of Daeron (+1)
+- [ ] `lib/help/luckspoi.txt:73` [line] The Long Sword of Eternity (+10)
+- [ ] `lib/help/luckspoi.txt:74` [line] The Robe of Great Luck (+60)
+- [ ] `lib/help/luckspoi.txt:75` [line] The Heavy Crossbow of Eternity (+5)
+- [ ] `lib/help/luckspoi.txt:76` [line] The Iron Helm of Knowledge (-6)
+- [ ] `lib/help/luckspoi.txt:77` [line] The Shield of Deflection of Gil-galad (+5)
+- [ ] `lib/help/luckspoi.txt:78` [line] The Set of Gauntlets of Eol (+3)
+- [ ] `lib/help/luckspoi.txt:79` [line] The Demonblade of Gothmog (-20)
+- [ ] `lib/help/luckspoi.txt:80` [line] The Long Sword 'Durandil' (+3)
+- [ ] `lib/help/luckspoi.txt:81` [line] The Phial of Undeath (-5)
+- [ ] `lib/help/luckspoi.txt:82` [line] The Ring of Phasing (+15)
+- [ ] `lib/help/luckspoi.txt:83` [line] The Blue Stone 'Toris Mejistos' (+2)
+- [ ] `lib/help/luckspoi.txt:84` [line] The Silver Bolt 'Stone-biter' (+3)
+- [ ] `lib/help/luckspoi.txt:85` [line] The Elven Cloak of Mellyrn (+4)
+- [ ] `lib/help/luckspoi.txt:86` [line] The Set of Cesti 'Skycleaver' (+1)
+- [ ] `lib/help/luckspoi.txt:88` [line] #####G4. What does it affect.
+- [ ] `lib/help/luckspoi.txt:89` [line] It affects your chance to-hit in ranged combat and melee combat.
+- [ ] `lib/help/luckspoi.txt:91` [line] It affects your chance of critical hits in ranged combat and melee combat.
+- [ ] `lib/help/luckspoi.txt:93` [line] It affects your chance of being missed by a monster attack. This effectively
+- [ ] `lib/help/luckspoi.txt:94` [line] changes armour class by -13 (incredibly unlucky) to +13 (incredibly lucky).
+- [ ] `lib/help/luckspoi.txt:96` [line] It affects the rarity of special objects, artifacts, and ego items.
+- [ ] `lib/help/luckspoi.txt:98` [line] It affects the number of wishes on a staff of wishing.
+- [ ] `lib/help/luckspoi.txt:100` [line] It affects the base level for applying magic to an item.
+- [ ] `lib/help/luckspoi.txt:102` [line] It affects the chance of an item being good or great.
+- [ ] `lib/help/luckspoi.txt:104` [line] It affects the chance of creating a special object.
+- [ ] `lib/help/luckspoi.txt:106` [line] It prevents the death fate if you are lucky.
+- [ ] `lib/help/luckspoi.txt:108` [line] It affects the number of skill points you receive when quaffing the Potion of
+- [ ] `lib/help/luckspoi.txt:109` [line] Learning.
+- [ ] `lib/help/luckspoi.txt:112` [line]                                    Written for ToME 2.0 by Chris Hadgis

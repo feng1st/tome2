@@ -1,0 +1,72 @@
+# 数据清单：lib/help/c_summon.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_summon.txt:1` [line] ~~~~~01|Summoners
+- [ ] `lib/help/c_summon.txt:2` [line] ~~~~~02|Classes|Summoners
+- [ ] `lib/help/c_summon.txt:3` [line] #####R=== Summoners ===
+- [ ] `lib/help/c_summon.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_summon.txt:6` [line] A Summoner is, with one exception, a fairly weak class. While he starts 
+- [ ] `lib/help/c_summon.txt:7` [line] out a decent enough fighter, his fighting skill doesn't improve that much,
+- [ ] `lib/help/c_summon.txt:8` [line] he doesn't cast magic and has little in the way of survival skills. However,
+- [ ] `lib/help/c_summon.txt:9` [line] this weakness doesn't trouble him much, because he can summon creatures to
+- [ ] `lib/help/c_summon.txt:10` [line] do his bidding and still gain experience from their kills.
+- [ ] `lib/help/c_summon.txt:12` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_summon.txt:13` [line] Strength        +1
+- [ ] `lib/help/c_summon.txt:14` [line] Intelligence    -2
+- [ ] `lib/help/c_summon.txt:15` [line] Wisdom          +1
+- [ ] `lib/help/c_summon.txt:16` [line] Dexterity       +1
+- [ ] `lib/help/c_summon.txt:17` [line] Constitution     0
+- [ ] `lib/help/c_summon.txt:18` [line] Charisma        +1
+- [ ] `lib/help/c_summon.txt:19` [line] Hit Die         +d8
+- [ ] `lib/help/c_summon.txt:20` [line] Spell Points    +0%
+- [ ] `lib/help/c_summon.txt:21` [line] Exp Penalty     40%
+- [ ] `lib/help/c_summon.txt:23` [line] #####GStarting Skills
+- [ ] `lib/help/c_summon.txt:24` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_summon.txt:25` [line] Combat                  1.000           [0.600]
+- [ ] `lib/help/c_summon.txt:26` [line]   Weaponmastery         1.000           [0.600]
+- [ ] `lib/help/c_summon.txt:27` [line]   Archery               1.000           [0.400]
+- [ ] `lib/help/c_summon.txt:28` [line] Sneakiness              1.000           [0.700]
+- [ ] `lib/help/c_summon.txt:29` [line]   Stealth               1.000           [0.700]
+- [ ] `lib/help/c_summon.txt:30` [line]   Disarming             1.000           [0.500]
+- [ ] `lib/help/c_summon.txt:31` [line] Magic                   1.000           [0.800]
+- [ ] `lib/help/c_summon.txt:32` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_summon.txt:33` [line] Spirituality            1.000           [0.500]
+- [ ] `lib/help/c_summon.txt:34` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_summon.txt:35` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_summon.txt:36` [line] Monster-lore           16.000           [1.200]
+- [ ] `lib/help/c_summon.txt:37` [line]   Summoning             1.000           [0.700]
+- [ ] `lib/help/c_summon.txt:38` [line]   Corpse-preservation   1.000           [1.000]
+- [ ] `lib/help/c_summon.txt:40` [line] #####GStarting Equipment
+- [ ] `lib/help/c_summon.txt:41` [line] A Summoner starts the game with:
+- [ ] `lib/help/c_summon.txt:42` [line]     A Potion of Healing
+- [ ] `lib/help/c_summon.txt:43` [line]     A Short Sword
+- [ ] `lib/help/c_summon.txt:44` [line]     A Suit of Hard Leather Armour
+- [ ] `lib/help/c_summon.txt:45` [line] ~~~~~03|Summoners|Summoning
+- [ ] `lib/help/c_summon.txt:46` [line] ~~~~~04|Skills|Summoning - Summoning powers
+- [ ] `lib/help/c_summon.txt:47` [line] #####GSummoning
+- [ ] `lib/help/c_summon.txt:48` [line] [[[[[BThe summoner's powers of invocation are accessed using the 'm' key.]
+- [ ] `lib/help/c_summon.txt:49` [line] In order to invoke a monster, a summoner must possess a related totem.
+- [ ] `lib/help/c_summon.txt:51` [line] There are two kinds of summoning, decided by the totem used:
+- [ ] `lib/help/c_summon.txt:53` [line] [[[[[BPartial Summoning]
+- [ ] `lib/help/c_summon.txt:54` [line] Partial summoning creates a simulacrum of the monster, with little will 
+- [ ] `lib/help/c_summon.txt:55` [line] of its own. The Summoner must maintain the simulacrum using mana; when 
+- [ ] `lib/help/c_summon.txt:56` [line] he runs out, or stops paying the mana, the simulacrum vanishes.
+- [ ] `lib/help/c_summon.txt:58` [line] [[[[[BTrue Summoning]
+- [ ] `lib/help/c_summon.txt:59` [line] True summoning is quite different in effect from Partial Summoning, but the 
+- [ ] `lib/help/c_summon.txt:60` [line] two are closely related in usage. A True Totem conjures a full copy of the 
+- [ ] `lib/help/c_summon.txt:61` [line] creature in question; the process tends to make the monster a loyal ally to 
+- [ ] `lib/help/c_summon.txt:62` [line] the summoner, but this loyalty is not guaranteed, nor is the survival of the 
+- [ ] `lib/help/c_summon.txt:63` [line] totem used in the summoning.
+- [ ] `lib/help/c_summon.txt:65` [line] [[[[[BTotem Creation]
+- [ ] `lib/help/c_summon.txt:66` [line] In order to summon any creature, the Summoner needs a totem. Totems cannot be 
+- [ ] `lib/help/c_summon.txt:67` [line] found; they must be created through a special process which involves taking 
+- [ ] `lib/help/c_summon.txt:68` [line] the corpse of a creature (the summoner need not have been involved in the 
+- [ ] `lib/help/c_summon.txt:69` [line] death of the creature in question), and extracting certain essences from it.
+- [ ] `lib/help/c_summon.txt:71` [line] The summoner can create a totem using the 'm' command, and unless one is 
+- [ ] `lib/help/c_summon.txt:72` [line] working on a unique's corpse, must choose whether the resulting totem is a 
+- [ ] `lib/help/c_summon.txt:73` [line] Partial or True Totem.
+- [ ] `lib/help/c_summon.txt:75` [line] [[[[[BImportant Note]
+- [ ] `lib/help/c_summon.txt:76` [line] Uniques are very willful creatures by definition, and thus have three special 
+- [ ] `lib/help/c_summon.txt:77` [line] rules about their summoning:
+- [ ] `lib/help/c_summon.txt:78` [line] 1. No partial totem can be made from a unique's corpse.
+- [ ] `lib/help/c_summon.txt:79` [line] 2. The totem in question is always destroyed.
+- [ ] `lib/help/c_summon.txt:80` [line] 3. The unique is twice as likely to be disloyal.

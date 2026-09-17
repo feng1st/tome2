@@ -1,0 +1,27 @@
+# 数据清单：lib/file/dam_med.txt（text，逐条/逐行）
+
+- [ ] `lib/file/dam_med.txt:1` [line] 23
+- [ ] `lib/file/dam_med.txt:2` [line] ******** BUFFER LINE *********************************** DO NOT REMOVE *******
+- [ ] `lib/file/dam_med.txt:3` [line] You kick %s in the belly!
+- [ ] `lib/file/dam_med.txt:4` [line] You head-butt %s.
+- [ ] `lib/file/dam_med.txt:5` [line] You push %s over.
+- [ ] `lib/file/dam_med.txt:6` [line] You broke %s's finger!
+- [ ] `lib/file/dam_med.txt:7` [line] You broke %s's toe!
+- [ ] `lib/file/dam_med.txt:8` [line] You kick %s in the shins.
+- [ ] `lib/file/dam_med.txt:9` [line] You stab %s in the arm.
+- [ ] `lib/file/dam_med.txt:10` [line] You stab %s in the leg.
+- [ ] `lib/file/dam_med.txt:11` [line] You hit %s over the head.
+- [ ] `lib/file/dam_med.txt:12` [line] You knee %s in the groin!
+- [ ] `lib/file/dam_med.txt:13` [line] You aim a high kick at %s's head.
+- [ ] `lib/file/dam_med.txt:14` [line] You stab %s in the ribs.
+- [ ] `lib/file/dam_med.txt:15` [line] You chop at %s's neck.
+- [ ] `lib/file/dam_med.txt:16` [line] You put a tight choke-hold on %s.
+- [ ] `lib/file/dam_med.txt:17` [line] You attempt to topple %s over.
+- [ ] `lib/file/dam_med.txt:18` [line] You punch %s.
+- [ ] `lib/file/dam_med.txt:19` [line] You attempt to poke %s in the eye!
+- [ ] `lib/file/dam_med.txt:20` [line] You twist %s's leg.
+- [ ] `lib/file/dam_med.txt:21` [line] You twist %s's arm.
+- [ ] `lib/file/dam_med.txt:22` [line] You bend %s's fingers.
+- [ ] `lib/file/dam_med.txt:23` [line] You punch %s in the kidneys!
+- [ ] `lib/file/dam_med.txt:24` [line] You smash %s with your elbow.
+- [ ] `lib/file/dam_med.txt:25` [line] You smash %s with your knee.

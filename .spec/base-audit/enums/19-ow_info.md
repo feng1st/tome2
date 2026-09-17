@@ -1,0 +1,75 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# ow_info.txt — store owners (70)
+
+- [x] `0` **Bilbo the Friendly(Hobbit)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:20000:120 L:Dunadan;Dwarf;Elf;Half-Elf;High-Elf;Hobbit;RohanKnight — in RON
+- [x] `1` **Uldrik(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:20000:120 L:Dunadan;Hobbit;Human — in RON
+- [x] `2` **Otick(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:100:120 L:Dunadan;Hobbit;Human — in RON
+- [x] `3` **Merana(Human)** — C:200:100:95 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:0:120 L:Human — in RON
+- [x] `4` **Mirimbar(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:120 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `5` **Raistlin the Chicken(Human)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:20000:130 L:Human — in RON
+- [x] `6` **Sultan the Midget(Gnome)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:120 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `7` **Lyar-el the Comely(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:120 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `8` **Kon-Dar the Ugly(Half-Orc)** — C:120:100:80 H:Dwarf;Elf;Gnome;Half-Elf;High-Elf;Human;RohanKnight I:5000:140 L:Beorning;Half-Ogre;Kobold;Orc;Troll — in RON
+- [x] `9` **Darg-Low the Grim(Human)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Human — in RON
+- [x] `10` **Decado the Handsome(Dunadan)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:25000:140 L:Dunadan;Human;RohanKnight — in RON
+- [x] `11` **Wieland the Smith(Dwarf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:140 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `12` **Arnold the Beastly(Barbarian)** — C:120:100:80 I:5000:140 — in RON
+- [x] `13` **Arndal Beast-Slayer(Half-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `14` **Eddie Beast-Master(Half-Orc)** — C:120:100:80 H:Dwarf;Elf;Gnome;Half-Elf;High-Elf;Human;RohanKnight I:25000:140 L:Beorning;Half-Ogre;Kobold;Orc;Troll — in RON
+- [x] `15` **Oglign Dragon-Slayer(Dwarf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:130 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `16` **Aragorn(Dunadan)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:20000:140 L:Dunadan;Human;RohanKnight — in RON
+- [x] `17` **Sondar(Human)** — C:120:100:80 I:0:140 — in RON
+- [x] `18` **Celebor(Half-Elf)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:100:120 L:Dunadan;Hobbit;Human — in RON
+- [x] `19` **Sharra(Human)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:25000:140 L:Dunadan;Human;RohanKnight — in RON
+- [x] `20` **Hjolgar(Barbarian)** — C:120:100:80 I:5000:140 — in RON
+- [x] `21` **Tanistil(Elf)** — C:120:100:80 I:5000:140 — in RON
+- [x] `22` **Eldore(Human)** — C:120:100:80 I:5000:140 — in RON
+- [x] `23` **Vilios(Human)** — C:120:100:80 I:5000:140 — in RON
+- [x] `24` **Angros(Elf)** — C:120:100:80 I:5000:140 — in RON
+- [x] `25` **Palano(Thunderlord)** — C:120:100:80 I:0:140 L:Thunderlord — in RON
+- [x] `26` **Ludwig the Humble(Dwarf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:5000:130 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `27` **Gunnar the Paladin(Half-Troll)** — C:120:100:80 H:Dwarf;Elf;Gnome;Half-Elf;High-Elf;Human;RohanKnight I:10000:130 L:Beorning;Half-Ogre;Kobold;Orc;Troll — in RON
+- [x] `28` **Torin the Chosen(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:25000:130 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `29` **Sarastro the Wise(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:30000:130 L:Dunadan;Hobbit;Human — in RON
+- [x] `30` **Mauser the Chemist(Half-Elf)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Dunadan;Hobbit;Human — in RON
+- [x] `31` **Wizzle the Chaotic(Hobbit)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Dunadan;Dwarf;Elf;Half-Elf;High-Elf;Hobbit;RohanKnight — in RON
+- [x] `32` **Midas the Greedy(Gnome)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:140 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `33` **Ja-Far the Alchemist(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:140 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `34` **Ariel the Sorceress(Half-Elf)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:20000:140 L:Dunadan;Hobbit;Human — in RON
+- [x] `35` **Buggerby the Great(Gnome)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:20000:140 L:Dwarf;Gnome;Petty-Dwarf — in RON
+- [x] `36` **Inglorian the Mage(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:30000:140 L:Dunadan;Hobbit;Human — in RON
+- [x] `37` **Luthien Starshine(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:130 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `38` **Gary Gygaz(Half-Troll)** — C:120:100:80 H:Dwarf;Elf;Gnome;Half-Elf;High-Elf;Human;RohanKnight I:20000:180 — in RON
+- [x] `39` **Histor the Goblin(Half-Orc)** — C:120:100:80 H:Dwarf;Elf;Gnome;Half-Elf;High-Elf;Human;RohanKnight I:20000:180 — in RON
+- [x] `40` **Zorak the Smart(Dwarf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:180 — in RON
+- [x] `41` **Tipo the Fair(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:30000:180 — in RON
+- [x] `42` **Dolaf the Greedy(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Dunadan;Hobbit;Human — in RON
+- [x] `43` **Odnar the Sage(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `44` **Gandar the Neutral(Dark-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:25000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `45` **Ro-sha the Patient(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `46` **N'rak the Summoner(Human)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:10000:130 L:Dunadan;Human;RohanKnight — in RON
+- [x] `47` **Esperion the Beastlover(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `48` **Flarim the Shopkeeper(Dunadan)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:25000:110 L:Dunadan;Human;RohanKnight — in RON
+- [x] `49` **Tril-akheb the Supreme(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `50` **Dorchel(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 L:Dark-Elf;Elf;Half-Elf;High-Elf — in RON
+- [x] `51` **Galadriel(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `52` **Celeborn(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:15000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `53` **Aulendil(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 — in RON
+- [x] `54` **Valceronwe(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 — in RON
+- [x] `55` **Voronwe(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 — in RON
+- [x] `56` **Celegail(Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 — in RON
+- [x] `57` **Turgon(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:30000:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `58` **Pengolodh(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `59` **Aerandir(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `60` **Celebrimbor(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `61` **Lomelosse(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `62` **Arlindel(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `63` **Sulraen(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `64` **Firiel(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `65` **Earendur(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Elf;Half-Elf;High-Elf — in RON
+- [x] `66` **Glorfindel(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Half-Elf;High-Elf — in RON
+- [x] `67` **Ecthelion(High-Elf)** — C:120:100:80 H:Beorning;Half-Ogre;Kobold;Orc;Troll I:0:110 L:Half-Elf;High-Elf — in RON
+- [x] `68` **Kanris(Human)** — C:120:100:80 I:5000:140 — in RON
+- [x] `69` **Barliman Butterbur(Human)** — C:120:100:80 H:Beorning;DeathMold;Half-Ogre;Kobold;Orc;Troll I:100:120 L:Dunadan;Hobbit;Human — in RON

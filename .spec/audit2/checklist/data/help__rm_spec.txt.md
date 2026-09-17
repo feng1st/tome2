@@ -1,0 +1,40 @@
+# 数据清单：lib/help/rm_spec.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_spec.txt:1` [line] ~~~~~01|Spectre
+- [ ] `lib/help/rm_spec.txt:2` [line] ~~~~~02|Race Modifiers|Spectre
+- [ ] `lib/help/rm_spec.txt:3` [line] #####R=== Spectral Race ===
+- [ ] `lib/help/rm_spec.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_spec.txt:7` [line] Another powerful undead creature, the spectre is a ghastly apparition,
+- [ ] `lib/help/rm_spec.txt:8` [line] surrounded by an unearthly glow.  They exist only partially on our
+- [ ] `lib/help/rm_spec.txt:9` [line] plane of existence: half-corporeal, they can pass through walls, though 
+- [ ] `lib/help/rm_spec.txt:10` [line] this requires a sacrifice of some of their life-force.  As a result 
+- [ ] `lib/help/rm_spec.txt:11` [line] they cannot rest whilst passing through a wall. 
+- [ ] `lib/help/rm_spec.txt:13` [line] As undead, they have a firm hold on their life force, can see invisible, and
+- [ ] `lib/help/rm_spec.txt:14` [line] resist poison and cold.  They also resist nether.  Spectres make superb
+- [ ] `lib/help/rm_spec.txt:15` [line] spellcasters, but their physical form is very weak.  Like Zombies,
+- [ ] `lib/help/rm_spec.txt:16` [line] Spectres gain almost no nutrition from ordinary food.
+- [ ] `lib/help/rm_spec.txt:18` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_spec.txt:19` [line] Strength       -5   
+- [ ] `lib/help/rm_spec.txt:20` [line] Intelligence   +2   
+- [ ] `lib/help/rm_spec.txt:21` [line] Wisdom         +2   
+- [ ] `lib/help/rm_spec.txt:22` [line] Dexterity      +2   
+- [ ] `lib/help/rm_spec.txt:23` [line] Constitution   -3   
+- [ ] `lib/help/rm_spec.txt:24` [line] Charisma       -6      
+- [ ] `lib/help/rm_spec.txt:25` [line] Hit Dice       -3 sides        
+- [ ] `lib/help/rm_spec.txt:26` [line] Spell Points   +5%
+- [ ] `lib/help/rm_spec.txt:27` [line] Exp Penalty    +80%
+- [ ] `lib/help/rm_spec.txt:29` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/rm_spec.txt:30` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/rm_spec.txt:31` [line] Combat                  
+- [ ] `lib/help/rm_spec.txt:32` [line]   Weaponmastery        -0.500           [0.000]
+- [ ] `lib/help/rm_spec.txt:33` [line]   Archery	       -0.200           [0.000]
+- [ ] `lib/help/rm_spec.txt:34` [line] Sneakiness              0.200           [0.000]
+- [ ] `lib/help/rm_spec.txt:35` [line]   Stealth               2.000           [0.000]
+- [ ] `lib/help/rm_spec.txt:36` [line]   Disarming             0.200           [0.000]
+- [ ] `lib/help/rm_spec.txt:37` [line] Magic                   
+- [ ] `lib/help/rm_spec.txt:38` [line]   Magic-Device          0.800           [0.000]
+- [ ] `lib/help/rm_spec.txt:39` [line] Spirituality            0.700           [0.000]
+- [ ] `lib/help/rm_spec.txt:41` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_spec.txt:42` [line] A spectral character begins the game with:
+- [ ] `lib/help/rm_spec.txt:43` [line]     Some scrolls of satisfy hunger
+- [ ] `lib/help/rm_spec.txt:44` [line]     Some torches

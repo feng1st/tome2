@@ -1,0 +1,65 @@
+# 数据清单：lib/file/book-2.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-2.txt:2` [line]        Mordekainen's Magical Compendum of Deep Thought, Vol. 3
+- [ ] `lib/file/book-2.txt:3` [line]        -------------------------------------------------------
+- [ ] `lib/file/book-2.txt:6` [line] I think my new thing will be to try to be a real happy guy. I'll just
+- [ ] `lib/file/book-2.txt:7` [line] walk around being real happy until some jerk says something stupid to
+- [ ] `lib/file/book-2.txt:8` [line] me.  
+- [ ] `lib/file/book-2.txt:10` [line] When you're going up the stairs and you take a step, kick the other
+- [ ] `lib/file/book-2.txt:11` [line] leg up high behind you to keep people from following too close.
+- [ ] `lib/file/book-2.txt:13` [line] I wonder if angels believe in ghosts. 
+- [ ] `lib/file/book-2.txt:15` [line] I don't understand people who say life is a mystery, because what is
+- [ ] `lib/file/book-2.txt:16` [line] it they want to know?
+- [ ] `lib/file/book-2.txt:18` [line] I think people tend to forget that trees are living creatures. They're
+- [ ] `lib/file/book-2.txt:19` [line] sort of like dogs. Huge, quiet, motionless dogs, with bark instead of
+- [ ] `lib/file/book-2.txt:20` [line] fur.
+- [ ] `lib/file/book-2.txt:22` [line] Sometimes I think the world has gone completely mad. And then I think,
+- [ ] `lib/file/book-2.txt:23` [line] "Aw, who cares?" And then I think, "Hey, what's for supper?"
+- [ ] `lib/file/book-2.txt:25` [line] If a kid asks where rain comes from, I think a cute thing to tell him
+- [ ] `lib/file/book-2.txt:26` [line] is "God is crying". And if he asks why God is crying, another cute
+- [ ] `lib/file/book-2.txt:27` [line] thing to tell him is "Probably because of something you did".
+- [ ] `lib/file/book-2.txt:29` [line] Contrary to popular belief, the most dangerous animal is not the lion
+- [ ] `lib/file/book-2.txt:30` [line] or tiger or even the elephant. The most dangerous animal is a shark
+- [ ] `lib/file/book-2.txt:31` [line] riding on an elephant, just trampling and eating everything they see.
+- [ ] `lib/file/book-2.txt:33` [line] As I bit into the nectarine, it had a crisp juiciness about it that
+- [ ] `lib/file/book-2.txt:34` [line] was very pleasurable- until I realized it wasn't a nectarine at all,
+- [ ] `lib/file/book-2.txt:35` [line] but a HUMAN HEAD!!
+- [ ] `lib/file/book-2.txt:37` [line] Anytime I see something screech across a room and latch onto someone's
+- [ ] `lib/file/book-2.txt:38` [line] neck, and the guy screams and tries to get it off, I have to laugh,
+- [ ] `lib/file/book-2.txt:39` [line] because what _is_ that thing?!
+- [ ] `lib/file/book-2.txt:41` [line] If you define cowardice as running away at the first sign of danger,
+- [ ] `lib/file/book-2.txt:42` [line] screaming and tripping and begging for mercy, then yes, Mister Brave
+- [ ] `lib/file/book-2.txt:43` [line] Man, I guess I am a coward.
+- [ ] `lib/file/book-2.txt:45` [line] Blow ye winds, like the trumpet blows, but without that noise. 
+- [ ] `lib/file/book-2.txt:47` [line] The face of a child can say it all, especially the mouth part of the face. 
+- [ ] `lib/file/book-2.txt:49` [line] When I heard that trees grow a new "ring" for each year they live, I
+- [ ] `lib/file/book-2.txt:50` [line] thought, we humans are kind of like that; we grow a new layer of skin
+- [ ] `lib/file/book-2.txt:51` [line] each year; and after many years we are thick and unwieldy from all our
+- [ ] `lib/file/book-2.txt:52` [line] skin layers.
+- [ ] `lib/file/book-2.txt:54` [line] It's too bad that whole families have been torn apart by something as
+- [ ] `lib/file/book-2.txt:55` [line] simple as wild dogs.
+- [ ] `lib/file/book-2.txt:57` [line] Even though he was an enemy of mine, I had to admit that what he had
+- [ ] `lib/file/book-2.txt:58` [line] accomplished was a brilliant piece of strategy. First, he punched me,
+- [ ] `lib/file/book-2.txt:59` [line] then he kicked me, then he punched me again.
+- [ ] `lib/file/book-2.txt:61` [line] To me, truth is not some vague, foggy notion. Truth is real. And, at
+- [ ] `lib/file/book-2.txt:62` [line] the same unreal. Fiction and fact and everything in-between, plus some
+- [ ] `lib/file/book-2.txt:63` [line] things I can't remember, all rolled into one big "thing". This is
+- [ ] `lib/file/book-2.txt:64` [line] truth, to me.
+- [ ] `lib/file/book-2.txt:66` [line] If you're ever stuck in some thick undergrowth, in your underwear,
+- [ ] `lib/file/book-2.txt:67` [line] don't stop and start thinking of what other words have "under" in
+- [ ] `lib/file/book-2.txt:68` [line] them, because that's probably the first sign of jungle madness.
+- [ ] `lib/file/book-2.txt:70` [line] Sometimes the beauty of the world is so overwhelming, I just want to
+- [ ] `lib/file/book-2.txt:71` [line] throw back my head and gargle. Just gargle and gargle, and I don't
+- [ ] `lib/file/book-2.txt:72` [line] care who hears me, because I am beautiful.
+- [ ] `lib/file/book-2.txt:74` [line] We used to laugh at Grandpa when he'd head off to go fishing. But we
+- [ ] `lib/file/book-2.txt:75` [line] wouldn't be laughing when he'd come back with some whore he picked up
+- [ ] `lib/file/book-2.txt:76` [line] in town.
+- [ ] `lib/file/book-2.txt:78` [line] I think in one of my previous lives I was a mighty king, because I
+- [ ] `lib/file/book-2.txt:79` [line] like people that do what I say.
+- [ ] `lib/file/book-2.txt:81` [line] A man doesn't automatically get my respect. He has to get down in the
+- [ ] `lib/file/book-2.txt:82` [line] dirt and beg for it.
+- [ ] `lib/file/book-2.txt:84` [line] People think it would be fun to be a bird because you could fly. But
+- [ ] `lib/file/book-2.txt:85` [line] they forget the negative side, which is the preening.
+- [ ] `lib/file/book-2.txt:87` [line] When I think back on all the blessings I have been given in my life, I
+- [ ] `lib/file/book-2.txt:88` [line] can't think of a single one, unless you count that rattlesnake that
+- [ ] `lib/file/book-2.txt:89` [line] granted me all those wishes.

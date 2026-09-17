@@ -1,0 +1,60 @@
+# 数据清单：lib/file/book-1.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-1.txt:2` [line]        Mordekainen's Magical Compendum of Deep Thought, Vol. 2
+- [ ] `lib/file/book-1.txt:3` [line]        -------------------------------------------------------
+- [ ] `lib/file/book-1.txt:6` [line] It makes me mad when people say I turned and ran like a scared
+- [ ] `lib/file/book-1.txt:7` [line] rabbit. Maybe it was like an angry rabbit, who was running to go fight
+- [ ] `lib/file/book-1.txt:8` [line] in another fight, away from the first fight.
+- [ ] `lib/file/book-1.txt:10` [line] Perhaps, if I am very lucky, the feeble efforts of my lifetime will
+- [ ] `lib/file/book-1.txt:11` [line] someday be noticed, and maybe, in a small way, they will be acknowledged
+- [ ] `lib/file/book-1.txt:12` [line] as the greatest works of genius ever created by Man.
+- [ ] `lib/file/book-1.txt:14` [line] Sometimes I think I'd be better off dead. No, wait, not me, you. 
+- [ ] `lib/file/book-1.txt:16` [line] If you ever catch on fire, try to avoid looking in a mirror, because I
+- [ ] `lib/file/book-1.txt:17` [line] bet that will really throw you into a panic.
+- [ ] `lib/file/book-1.txt:19` [line] Children need encouragement. If a kid gets an answer right, tell him
+- [ ] `lib/file/book-1.txt:20` [line] it was a lucky guess. That way he develops a good, lucky feeling.
+- [ ] `lib/file/book-1.txt:22` [line] The crows seemed to be calling his name, thought Caw. 
+- [ ] `lib/file/book-1.txt:24` [line] If your friend is already dead, and being eaten by vultures, I think
+- [ ] `lib/file/book-1.txt:25` [line] it's okay to feed some bits of your friend to one of the vultures, to
+- [ ] `lib/file/book-1.txt:26` [line] teach him to do some tricks. But only if you're serious about adopting
+- [ ] `lib/file/book-1.txt:27` [line] the vulture.
+- [ ] `lib/file/book-1.txt:29` [line] Broken promises don't upset me. I just think, why did they believe me?
+- [ ] `lib/file/book-1.txt:31` [line] One thing vampire children have to be taught early on is, don't run
+- [ ] `lib/file/book-1.txt:32` [line] with a wooden stake.
+- [ ] `lib/file/book-1.txt:34` [line] Consider the daffodil. And while you're doing that, I'll be over here,
+- [ ] `lib/file/book-1.txt:35` [line] looking through your stuff.
+- [ ] `lib/file/book-1.txt:37` [line] I think my new thing will be to try to be a real happy guy. I'll just
+- [ ] `lib/file/book-1.txt:38` [line] walk around being real happy until some jerk says something stupid to
+- [ ] `lib/file/book-1.txt:39` [line] me.
+- [ ] `lib/file/book-1.txt:41` [line] I hope some animal never bores a hole in my head and lays its eggs in
+- [ ] `lib/file/book-1.txt:42` [line] my brain, because later you might think you're having a good idea but
+- [ ] `lib/file/book-1.txt:43` [line] it's just eggs hatching.
+- [ ] `lib/file/book-1.txt:45` [line] Whenever you read a good book, it's like the author is right there, in
+- [ ] `lib/file/book-1.txt:46` [line] the room talking to you, which is why I don't like to read good books.
+- [ ] `lib/file/book-1.txt:48` [line] What is it about a beautiful sunny afternoon, with the birds singing
+- [ ] `lib/file/book-1.txt:49` [line] and the wind rustling through the leaves, that makes you want to get
+- [ ] `lib/file/book-1.txt:50` [line] drunk?
+- [ ] `lib/file/book-1.txt:52` [line] Instead of a trap door, what about a trap window? The guy looks out
+- [ ] `lib/file/book-1.txt:53` [line] it, and if he leans too far, he falls out. Wait. I guess that's like a
+- [ ] `lib/file/book-1.txt:54` [line] regular window.
+- [ ] `lib/file/book-1.txt:56` [line] If I ever get real rich, I hope I'm not real mean to poor people, like
+- [ ] `lib/file/book-1.txt:57` [line] I am now.
+- [ ] `lib/file/book-1.txt:59` [line] Most of the time it was probably real bad being stuck down in a
+- [ ] `lib/file/book-1.txt:60` [line] dungeon. But some days, when there was a bad storm outside, you'd look
+- [ ] `lib/file/book-1.txt:61` [line] out your little window and think, "Boy, I'm glad I'm not out in that."
+- [ ] `lib/file/book-1.txt:63` [line] Sometimes you have to be careful when selecting a new name for
+- [ ] `lib/file/book-1.txt:64` [line] yourself. For instance, let's say you have chosen the nickname "Fly
+- [ ] `lib/file/book-1.txt:65` [line] Head." Normally you would think that "fly Head" would mean a person
+- [ ] `lib/file/book-1.txt:66` [line] who has beautiful swept-back features, as if flying through the
+- [ ] `lib/file/book-1.txt:67` [line] air. But think again. Couldn't it also mean "having a head like a
+- [ ] `lib/file/book-1.txt:68` [line] fly"? I'm afraid some people might actually think that.
+- [ ] `lib/file/book-1.txt:70` [line] I hope that after I die, people will say of me: "That guy sure owed me
+- [ ] `lib/file/book-1.txt:71` [line] a lot of money."
+- [ ] `lib/file/book-1.txt:73` [line] The tired and thirsty prospector threw himself down at the edge of the
+- [ ] `lib/file/book-1.txt:74` [line] watering hole and started to drink. But then he looked around and saw
+- [ ] `lib/file/book-1.txt:75` [line] skulls and bones everywhere. "Uh-oh," he thought. "This watering hole
+- [ ] `lib/file/book-1.txt:76` [line] is reserved for skeletons."
+- [ ] `lib/file/book-1.txt:78` [line] Anytime I see something screech across a room and latch onto someone's
+- [ ] `lib/file/book-1.txt:79` [line] neck, and the guy screams and tries to get it off, I have to laugh,
+- [ ] `lib/file/book-1.txt:80` [line] because what is that thing.
+- [ ] `lib/file/book-1.txt:82` [line] I hope life isn't a big joke, because I don't get it.

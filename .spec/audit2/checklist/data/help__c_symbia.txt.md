@@ -1,0 +1,62 @@
+# 数据清单：lib/help/c_symbia.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_symbia.txt:1` [line] |||||oy
+- [ ] `lib/help/c_symbia.txt:2` [line] ~~~~~01|Symbiant
+- [ ] `lib/help/c_symbia.txt:3` [line] ~~~~~02|Classes|Symbiant
+- [ ] `lib/help/c_symbia.txt:4` [line] #####R=== Symbiants ===
+- [ ] `lib/help/c_symbia.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_symbia.txt:7` [line] Symbiants live in harmony with all of the monsters that do not move:
+- [ ] `lib/help/c_symbia.txt:8` [line] the Mushrooms, Molds, Floating Eyes, and such. They can hypnotise these
+- [ ] `lib/help/c_symbia.txt:9` [line] creatures and then form a symbiotic relationship. Using other symbiotic
+- [ ] `lib/help/c_symbia.txt:10` [line] powers, they can even use the magical abilities of their pets.
+- [ ] `lib/help/c_symbia.txt:12` [line] Once hypnotised, the monster is placed onto the body, or "worn" in order to 
+- [ ] `lib/help/c_symbia.txt:13` [line] initiate the symbiotic relationship.
+- [ ] `lib/help/c_symbia.txt:15` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_symbia.txt:16` [line] Strength       +1
+- [ ] `lib/help/c_symbia.txt:17` [line] Intelligence   -2
+- [ ] `lib/help/c_symbia.txt:18` [line] Wisdom         +1
+- [ ] `lib/help/c_symbia.txt:19` [line] Dexterity      +1
+- [ ] `lib/help/c_symbia.txt:20` [line] Constitution    0
+- [ ] `lib/help/c_symbia.txt:21` [line] Charisma       +1
+- [ ] `lib/help/c_symbia.txt:22` [line] Hit Die        +d8
+- [ ] `lib/help/c_symbia.txt:23` [line] Spell Points   +0%
+- [ ] `lib/help/c_symbia.txt:24` [line] Exp Penalty    40%
+- [ ] `lib/help/c_symbia.txt:26` [line] #####GStarting Skills
+- [ ] `lib/help/c_symbia.txt:27` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_symbia.txt:28` [line] Combat                  1.000           [0.800]
+- [ ] `lib/help/c_symbia.txt:29` [line]   Weaponmastery         1.000           [0.800]
+- [ ] `lib/help/c_symbia.txt:30` [line]   Archery               1.000           [0.700]
+- [ ] `lib/help/c_symbia.txt:31` [line]   Barehand-combat       1.000           [0.600]
+- [ ] `lib/help/c_symbia.txt:32` [line] Sneakiness              1.000           [0.800]
+- [ ] `lib/help/c_symbia.txt:33` [line]   Stealth               1.000           [0.800]
+- [ ] `lib/help/c_symbia.txt:34` [line]   Disarming             1.000           [0.700]
+- [ ] `lib/help/c_symbia.txt:35` [line] Magic                   1.000           [0.700]
+- [ ] `lib/help/c_symbia.txt:36` [line]   Magic-Device          1.000           [1.000]
+- [ ] `lib/help/c_symbia.txt:37` [line] Spirituality            1.000           [0.500]
+- [ ] `lib/help/c_symbia.txt:38` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_symbia.txt:39` [line]   Music                 0.000           [0.300]
+- [ ] `lib/help/c_symbia.txt:40` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_symbia.txt:41` [line]   Corpse-preservation   1.000           [0.900]
+- [ ] `lib/help/c_symbia.txt:42` [line]   Possession            0.000           [0.100]
+- [ ] `lib/help/c_symbia.txt:43` [line]   Symbiosis             1.000           [0.800]
+- [ ] `lib/help/c_symbia.txt:45` [line] #####GStarting Equipment
+- [ ] `lib/help/c_symbia.txt:46` [line] A Symbiant begins the game with:
+- [ ] `lib/help/c_symbia.txt:47` [line]     a Dagger
+- [ ] `lib/help/c_symbia.txt:48` [line]     a Scroll of Summon Never-Moving Pet
+- [ ] `lib/help/c_symbia.txt:51` [line] #####GSymbiosis
+- [ ] `lib/help/c_symbia.txt:52` [line] Symbiants rely on the partnerships they form, hypnotising creatures
+- [ ] `lib/help/c_symbia.txt:53` [line] and then "wearing" them: "I get by with a little help from my friends".
+- [ ] `lib/help/c_symbia.txt:54` [line] Depending on the monster, this does nothing except protect the player
+- [ ] `lib/help/c_symbia.txt:55` [line] slightly (the worn monster takes some of the damage the player would
+- [ ] `lib/help/c_symbia.txt:56` [line] otherwise) or grant some very powerful attacks and summons.
+- [ ] `lib/help/c_symbia.txt:57` [line] Their "spells" are used by the 'm' command; as their Symbiosis skill
+- [ ] `lib/help/c_symbia.txt:58` [line] increases, they automatically gain more powers.
+- [ ] `lib/help/c_symbia.txt:59` [line] For more detail about the specific powers, look here: *****m_symbio.txt*0[Symbiosis]
+- [ ] `lib/help/c_symbia.txt:60` [line] ~~~~~03|Symbiant|Naming your symbiote
+- [ ] `lib/help/c_symbia.txt:61` [line] #####GNaming your symbiote
+- [ ] `lib/help/c_symbia.txt:62` [line] For those sentimental Symbiants who like to name your symbiotes, you 
+- [ ] `lib/help/c_symbia.txt:63` [line] can use the Inscribe command '{'. Inscribe your hypnotized symbiote 
+- [ ] `lib/help/c_symbia.txt:64` [line] with "#named Fido" (or whatever name you choose, but don't forget the 
+- [ ] `lib/help/c_symbia.txt:65` [line] leading '#'), and it will be listed in your equipment as "a Red Mold 
+- [ ] `lib/help/c_symbia.txt:66` [line] named Fido", and the game will refer to your symbiote by name ("Fido 
+- [ ] `lib/help/c_symbia.txt:67` [line] is healed", for instance, rather than "Your Red mold is healed").

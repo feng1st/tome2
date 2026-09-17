@@ -1,0 +1,65 @@
+# 数据清单：lib/file/book-0.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-0.txt:2` [line] 	   Mordekainen's Magical Compendum of Deep Thought.
+- [ ] `lib/file/book-0.txt:3` [line] 	   ------------------------------------------------
+- [ ] `lib/file/book-0.txt:5` [line] If they ever come up with a swashbuckling School, I think one of the
+- [ ] `lib/file/book-0.txt:6` [line] courses should be Laughing, Then Jumping Off Something.
+- [ ] `lib/file/book-0.txt:8` [line] It takes a big man to cry, but it takes a bigger man to laugh at that man. 
+- [ ] `lib/file/book-0.txt:10` [line] The people in the village were real poor, so none of the children had
+- [ ] `lib/file/book-0.txt:11` [line] any toys. But this one little boy had gotten an old enema bag and
+- [ ] `lib/file/book-0.txt:12` [line] filled it with rocks, and he would go around and whap the other
+- [ ] `lib/file/book-0.txt:13` [line] children across the face with it. Man, I think my heart almost
+- [ ] `lib/file/book-0.txt:14` [line] broke. Later the boy came up and offered to give me the toy. This was
+- [ ] `lib/file/book-0.txt:15` [line] too much! I reached out my hand, but then he ran away. I chased him
+- [ ] `lib/file/book-0.txt:16` [line] down and took the enema bag. He cried a little, but that's the way of
+- [ ] `lib/file/book-0.txt:17` [line] these people.
+- [ ] `lib/file/book-0.txt:19` [line] Dad always thought laughter was the best medicine, which I guess is
+- [ ] `lib/file/book-0.txt:20` [line] why several of us died of tuberculosis.
+- [ ] `lib/file/book-0.txt:22` [line] Maybe in order to understand mankind, we have to look at the word
+- [ ] `lib/file/book-0.txt:23` [line] itself: "Mankind". Basically, it's made up of two separate words -
+- [ ] `lib/file/book-0.txt:24` [line] "mank" and "ind". What do these words mean? It's a mystery, and
+- [ ] `lib/file/book-0.txt:25` [line] that's why so is mankind.
+- [ ] `lib/file/book-0.txt:27` [line] Ambition is like a frog sitting on a Venus Flytrap. The flytrap can
+- [ ] `lib/file/book-0.txt:28` [line] bite and bite, but it won't bother the frog because it only has little
+- [ ] `lib/file/book-0.txt:29` [line] tiny plant teeth. But some other stuff could happen and it could be
+- [ ] `lib/file/book-0.txt:30` [line] like ambition.
+- [ ] `lib/file/book-0.txt:32` [line] I'd rather be rich than stupid. 
+- [ ] `lib/file/book-0.txt:34` [line] We tend to scoff at the beliefs of the ancients. But we can't scoff at
+- [ ] `lib/file/book-0.txt:35` [line] them personally, to their faces, and this is what annoys me.
+- [ ] `lib/file/book-0.txt:37` [line] Probably the earliest flyswatters were nothing more than some sort of
+- [ ] `lib/file/book-0.txt:38` [line] striking surface attached to the end of a long stick.
+- [ ] `lib/file/book-0.txt:40` [line] As the evening sky faded from a salmon color to a sort of flint gray,
+- [ ] `lib/file/book-0.txt:41` [line] I thought back to the salmon I caught that morning, and how gray he
+- [ ] `lib/file/book-0.txt:42` [line] was, and how I named him Flint.
+- [ ] `lib/file/book-0.txt:44` [line] When I was a kid my favorite relative was Uncle Caveman. After school
+- [ ] `lib/file/book-0.txt:45` [line] we'd all go play in his cave, and every once in a while he would eat
+- [ ] `lib/file/book-0.txt:46` [line] one of us. It wasn't until later that I found out that Uncle Caveman
+- [ ] `lib/file/book-0.txt:47` [line] was a bear.
+- [ ] `lib/file/book-0.txt:49` [line] Why do there have to be rules for everything? It's gotten to the point
+- [ ] `lib/file/book-0.txt:50` [line] that rules dominate just about every aspect of our lives.  In fact, it
+- [ ] `lib/file/book-0.txt:51` [line] might be said that rules have become the foot-long sticks of mankind.
+- [ ] `lib/file/book-0.txt:53` [line] If I had a mine shaft, I don't think I would just abandon it. There's
+- [ ] `lib/file/book-0.txt:54` [line] got to be a better way.
+- [ ] `lib/file/book-0.txt:56` [line] If I had a nickname, I think I would want it to be "Prince of
+- [ ] `lib/file/book-0.txt:57` [line] Weasels", because then I could go up and bite people and they would
+- [ ] `lib/file/book-0.txt:58` [line] turn around and go, "What the-?" And then they would recognize me, and
+- [ ] `lib/file/book-0.txt:59` [line] go, "Oh, it's you, the Prince of Weasels."
+- [ ] `lib/file/book-0.txt:61` [line] It's amazing to me that one of the world's most feared diseases would
+- [ ] `lib/file/book-0.txt:62` [line] be carried by one of the world's smallest animals: the real tiny
+- [ ] `lib/file/book-0.txt:63` [line] dog. 
+- [ ] `lib/file/book-0.txt:65` [line] Sometimes life seems like a dream, especially when I look down and see
+- [ ] `lib/file/book-0.txt:66` [line] that I forgot to put on my pants.
+- [ ] `lib/file/book-0.txt:68` [line] I bet it was pretty hard to pick up girls if you had the Black Death. 
+- [ ] `lib/file/book-0.txt:70` [line] It's fascinating to think that all around us there's an invisible
+- [ ] `lib/file/book-0.txt:71` [line] world we can't even see. I'm speaking, of course, of the World of the
+- [ ] `lib/file/book-0.txt:72` [line] Invisible Scary Skeletons.
+- [ ] `lib/file/book-0.txt:74` [line] Whenever I hear the sparrow chirping, watch the woodpecker chirp,
+- [ ] `lib/file/book-0.txt:75` [line] catch a chirping trout, or listen to the sad howl of the chirp rat, I
+- [ ] `lib/file/book-0.txt:76` [line] think: Oh boy! I'm going insane again.
+- [ ] `lib/file/book-0.txt:78` [line] He was the kind of man who was not ashamed to show affection. I guess
+- [ ] `lib/file/book-0.txt:79` [line] that's what I hated about him.
+- [ ] `lib/file/book-0.txt:81` [line] The next time I have meat and mashed potatoes, I think I'll put a very
+- [ ] `lib/file/book-0.txt:82` [line] large blob of potatoes on my plate with just a little piece of
+- [ ] `lib/file/book-0.txt:83` [line] meat. And if someone asks me why I didn't get more meat, I'll just
+- [ ] `lib/file/book-0.txt:84` [line] say, "Oh, you mean this?" and pull out a big piece of meat from inside
+- [ ] `lib/file/book-0.txt:85` [line] the blob of potatoes, where I've hidden it. Good magic trick, huh?

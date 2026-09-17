@@ -1,0 +1,48 @@
+# 数据清单：lib/help/m_symbio.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_symbio.txt:1` [line] |||||oy
+- [ ] `lib/help/m_symbio.txt:2` [line] ~~~~~01|Magic|Symbiosis
+- [ ] `lib/help/m_symbio.txt:3` [line] ~~~~~02|Symbiosis Magic
+- [ ] `lib/help/m_symbio.txt:4` [line] ~~~~~03|Skills|Symbiosis - Symbiotic Powers
+- [ ] `lib/help/m_symbio.txt:5` [line] #####R === ToME Magic - Symbiosis ===
+- [ ] `lib/help/m_symbio.txt:7` [line] Symbiosis is the art of joining body, fate and sometimes even mind with
+- [ ] `lib/help/m_symbio.txt:8` [line] creatures not capable of moving on their own.
+- [ ] `lib/help/m_symbio.txt:10` [line] While a humble student of the Craft of Slime (as it's sometimes called)
+- [ ] `lib/help/m_symbio.txt:11` [line] has very few options apart from asking the symbiote to help him in combat,
+- [ ] `lib/help/m_symbio.txt:12` [line] master practitioners have access to an incredible array of tricks.
+- [ ] `lib/help/m_symbio.txt:14` [line] Once hypnotised, the monster is placed onto the body, or "worn", in order to 
+- [ ] `lib/help/m_symbio.txt:15` [line] initiate the symbiotic relationship.
+- [ ] `lib/help/m_symbio.txt:17` [line] #####uSymbiotic Powers
+- [ ] `lib/help/m_symbio.txt:18` [line] There are nine powers a symbiant can develop. They are:
+- [ ] `lib/help/m_symbio.txt:19` [line] 1. [[[[[uHypnotize] (level 1) Cost:1
+- [ ] `lib/help/m_symbio.txt:20` [line]    The very basis of symbiosis itself, this asks a monster to lower its
+- [ ] `lib/help/m_symbio.txt:21` [line]    natural defences so that it can be safely "worn".
+- [ ] `lib/help/m_symbio.txt:22` [line] 2. [[[[[uRelease] (level 1) Cost:1
+- [ ] `lib/help/m_symbio.txt:23` [line]    Sometimes even life-long friends part. This power allows you to revert
+- [ ] `lib/help/m_symbio.txt:24` [line]    a monster on the floor to its primal state, even though the shock of waking
+- [ ] `lib/help/m_symbio.txt:25` [line]    up will lower it to 0 HP.
+- [ ] `lib/help/m_symbio.txt:26` [line] 3. [[[[[uCharm never-moving] (level 3) Cost:2
+- [ ] `lib/help/m_symbio.txt:27` [line]    A symbiant soon learns to communicate with molds and slimes.
+- [ ] `lib/help/m_symbio.txt:28` [line]    This power allows him to gain the "friendship" of such a creature.
+- [ ] `lib/help/m_symbio.txt:29` [line] 4. [[[[[uLife share] (level 5) Cost:5
+- [ ] `lib/help/m_symbio.txt:30` [line]    The cells of the symbiant and the symbiote intermingle, spreading damage
+- [ ] `lib/help/m_symbio.txt:31` [line]    evenly among the two organisms.
+- [ ] `lib/help/m_symbio.txt:32` [line] 5. [[[[[uUse minor powers] (level 10) Cost:10
+- [ ] `lib/help/m_symbio.txt:33` [line]    Allows you to tap into minor magic abilities provided by your symbiote
+- [ ] `lib/help/m_symbio.txt:34` [line]    such as Blink or Slow.
+- [ ] `lib/help/m_symbio.txt:35` [line] 6. [[[[[uHeal symbiote] (level 15) Cost:14
+- [ ] `lib/help/m_symbio.txt:36` [line]    Consciously altering the metabolism of your symbiote, you can urge its
+- [ ] `lib/help/m_symbio.txt:37` [line]    bodily structure to repair itself almost instantaneously.
+- [ ] `lib/help/m_symbio.txt:38` [line] 7. [[[[[uUse major powers] (level 25) Cost:30
+- [ ] `lib/help/m_symbio.txt:39` [line]    Highly intelligent slimes such as Quylthulgs may be more than willing to
+- [ ] `lib/help/m_symbio.txt:40` [line]    employ their summoning or teleporting powers on your behalf; this power
+- [ ] `lib/help/m_symbio.txt:41` [line]    can also call upon the abilities normally invoked by "Use minor powers"
+- [ ] `lib/help/m_symbio.txt:42` [line]    (but this would be a waste of mana).
+- [ ] `lib/help/m_symbio.txt:43` [line] 8. [[[[[uSummon never-moving pet] (level 30) Cost:35
+- [ ] `lib/help/m_symbio.txt:44` [line]    By releasing certain chemicals in the air, a symbiant can attract the
+- [ ] `lib/help/m_symbio.txt:45` [line]    attention of slimes and mold; the better specimens are found in deeper
+- [ ] `lib/help/m_symbio.txt:46` [line]    dungeons, of course.
+- [ ] `lib/help/m_symbio.txt:47` [line] 9. [[[[[uForce symbiosis] (level 40) Cost:60
+- [ ] `lib/help/m_symbio.txt:48` [line]    An expert symbiant has such control over the cells of primitive
+- [ ] `lib/help/m_symbio.txt:49` [line]    life-forms that he can temporarily "charm" part of them, thus forcing
+- [ ] `lib/help/m_symbio.txt:50` [line]    their powers to manifest at his own advantage.

@@ -1,0 +1,597 @@
+# Method inventory: 02-spells
+
+## spells1.cc (52 defs)
+
+- [x] `spells1.cc:95` **poly_r_idx**(int r_idx) — Helper function -- return a "nearby" race for polymorphing Note that this function is one of the more "dangerous" ones... — synced from report
+- [x] `spells1.cc:139` **teleport_player_directed**(int rad, int dir) — Teleport player, using a distance and a direction as a rough guide. This function is not at all obsessive about correctness. This function allows teleporting into vaults (!) — synced from report
+- [x] `spells1.cc:255` **teleport_away**(int m_idx, int dis) — Teleport a monster, normally up to "dis" grids away. Attempt to move the monster at least "dis/2" grids away. But allow variation to prevent infinite loops. — synced from report
+- [x] `spells1.cc:364` **teleport_to_player**(int m_idx) — Teleport monster next to the player — synced from report
+- [x] `spells1.cc:478` **teleport_player**(int dis) — synced from report
+- [x] `spells1.cc:635` **get_pos_player**(int dis, int *ny, int *nx) — get a grid near the given location This function is slightly obsessive about correctness.
+- [x] `spells1.cc:702` **teleport_monster_to**(int m_idx, int ny, int nx) — Teleport a monster to a grid near the given location This function is slightly obsessive about correctness.
+- [x] `spells1.cc:771` **teleport_player_to**(int ny, int nx) — Teleport player to a grid near the given location This function is slightly obsessive about correctness. This function allows teleporting into vaults (!)
+- [x] `spells1.cc:857` **teleport_player_level**() — Teleport the player one level up or down (random when legal) — synced from report
+- [x] `spells1.cc:951` **recall_player**(int d, int f) — Recall the player to town or dungeon
+- [x] `spells1.cc:985` **project_check_gods**(int typ) — [x] bevy/src/game.rs project_check_gods（Varda lite +1 / Ulmo 火系 -5）；project_gf 每投射调用；测试 project_check_gods_shifts_piety
+- [x] `spells1.cc:1016` **mh_attr**(int max) — [x] bevy/src/colors.rs mh_attr（15 色表）；render.rs sync_actors 对 MULTI_HUED 每帧闪烁；测试 mh_attr_stays_in_the_table
+- [~] `spells1.cc:1059` **spell_color**(int type) — [~] 投射物颜色（终端 attr）→ Bevy 效果绘制（UI 边界）；accept.py spells-display 类机械复核
+- [~] `spells1.cc:1161` **bolt_pict**(int y, int x, int ny, int nx, int typ) — [~] bolt/beam 的 attr/char 选择（终端绘制）→ Bevy 效果绘制（UI 边界）；accept.py spells-display 类机械复核
+- [x] `spells1.cc:1202` **spellbinder_trigger**() — Cast the spelbound spells
+- [x] `spells1.cc:1228` **take_hit**(int damage, const char *hit_from) — Decreases players hit points and sets death flag if necessary XXX XXX XXX Invulnerability needs to be changed into a "shield" XXX XXX XXX Hack -- this function allows the user to save (or quit) the ga — synced from report
+- [x] `spells1.cc:1470` **take_hit**(int damage, std::string const &kb_str) — synced from report
+- [x] `spells1.cc:1477` **take_sanity_hit**(int damage, const char *hit_from) — Decrease player's sanity. This is a copy of the function above.
+- [x] `spells1.cc:1566` **hates_acid**(object_type *o_ptr) — Does a given class of objects (usually) hate acid? Note that acid can either melt or corrode something. — item.rs::hates_element (item.rs:5520) — synced from report
+- [x] `spells1.cc:1615` **hates_elec**(object_type *o_ptr) — Does a given object (usually) hate electricity? — item.rs::hates_element (item.rs:5520)
+- [x] `spells1.cc:1636` **hates_fire**(object_type *o_ptr) — Does a given object (usually) hate fire? Hafted/Polearm weapons have wooden shafts. Arrows/Bows are mostly wooden. — item.rs::hates_element (item.rs:5520)
+- [x] `spells1.cc:1684` **hates_cold**(object_type *o_ptr) — Does a given object (usually) hate cold? — item.rs::hates_element (item.rs:5520)
+- [x] `spells1.cc:1712` **set_acid_destroy**(object_type *o_ptr) — Melt something — item.rs::floor_damage_events/inven_damage_ex (item.rs:5654/5981)
+- [x] `spells1.cc:1725` **set_elec_destroy**(object_type *o_ptr) — Electrical damage — item.rs::floor_damage_events/inven_damage_ex (item.rs:5654/5981)
+- [x] `spells1.cc:1738` **set_fire_destroy**(object_type *o_ptr) — Burn something — item.rs::floor_damage_events/inven_damage_ex (item.rs:5654/5981)
+- [x] `spells1.cc:1751` **set_cold_destroy**(object_type *o_ptr) — Freeze things — item.rs::floor_damage_events/inven_damage_ex (item.rs:5654/5981)
+- [~] `spells1.cc:1766` **int**(*inven_func) — [~] 这不是函数：inventory 行是 C 的 typedef 声明；accept.py typedef 类机械复核
+- [x] `spells1.cc:1774` **inven_damage**(inven_func typ, int perc) — Destroys a type of item on a given percent chance Note that missiles are no longer necessarily all destroyed Destruction taken from "melee.c" code for "stealing". Returns number of items destroyed. — synced from report
+- [x] `spells1.cc:1859` **minus_ac**() — Acid has hit the player, attempt to affect some armor. Note that the "base armor" of an object never changes. If any armor is damaged (or resists), the player takes less damage. — synced from report
+- [x] `spells1.cc:1930` **acid_dam**(int dam, const char *kb_str) — Hurt the player with Acid
+- [x] `spells1.cc:1960` **elec_dam**(int dam, const char *kb_str) — Hurt the player with electricity
+- [x] `spells1.cc:1989` **fire_dam**(int dam, const char *kb_str) — Hurt the player with Fire
+- [x] `spells1.cc:2018` **cold_dam**(int dam, const char *kb_str) — Hurt the player with Cold
+- [x] `spells1.cc:2055` **dec_stat**(int stat, int amount, int mode) — Decreases a stat by an amount indended to vary from 0 to 100 percent. Amount could be a little higher in extreme cases to mangle very high stats from massive assaults. -CWS Note that "permanent" means — synced from report
+- [x] `spells1.cc:2191` **res_stat**(int stat, bool full) — Restore a stat. Return true only if this actually makes a difference.
+- [x] `spells1.cc:2252` **apply_disenchant**(int mode) — Apply disenchantment to the player's stuff XXX XXX XXX This function is also called from the "melee" code If "mode is set to 0 then a random slot will be used, if not the "mode" slot will be used. Ret — synced from report
+- [x] `spells1.cc:2350` **corrupt_player**() — synced from report
+- [x] `spells1.cc:2375` **apply_nexus**(monster_type *m_ptr) — Apply Nexus — synced from report
+- [x] `spells1.cc:2432` **yx_to_dir**(int y2, int x2, int y1, int x1) — Convert 2 couples of coordonates to a direction
+- [x] `spells1.cc:2451` **invert_dir**(int dir) — Give the opposate direction of the given one
+- [x] `spells1.cc:2468` **get_mana_path_dir**(int y, int x, int oy, int ox, int pdir, int mana) — [x] bevy/src/game.rs get_mana_path_dir/mana_path_dir（含 pdir 优先与 n>2 随机规则）；测试 mana_path_dir_follows_the_veins；mana 场由 generate_grid_mana 生成（map.rs）
+- [x] `spells1.cc:2899` **project_f**(int who, int r, int y, int x, int dam, int typ) — We are called from "project()" to "damage" terrain features We are called both for "beam" effects and "ball" effects. The "r" parameter is the "distance from ground zero". Note that we determine if th — synced from report
+- [x] `spells1.cc:3730` **project_o**(int who, int r, int y, int x, int dam, int typ) — We are called from "project()" to "damage" objects We are called both for "beam" effects and "ball" effects. Perhaps we should only SOMETIMES damage things on the ground. The "r" parameter is the "dis — synced from report
+- [x] `spells1.cc:4046` **hurt_monster**(monster_type *m_ptr) — Can the monster be hurt ?
+- [x] `spells1.cc:4105` **project_m**(int who, int r, int y, int x, int dam, int typ) — Helper function for "project()" below. Handle a beam/bolt/ball causing damage to a monster. This routine takes a "source monster" (by index) which is mostly used to determine if the player is causing  — synced from report
+- [x] `spells1.cc:6762` **project_p**(int who, int r, int y, int x, int dam, int typ, int a_rad) — Helper function for "project()" below. Handle a beam/bolt/ball causing damage to the player. This routine takes a "source monster" (by index), a "distance", a default "damage", and a "damage type". Se — synced from report
+- [x] `spells1.cc:7875` **project**(int who, int rad, int y, int x, int dam, int typ, int flg) — Generic "beam"/"bolt"/"ball" projection routine. Input: who: Index of "source" monster (negative for "player") jk -- -2 for traps, only used with project_jump rad: Radius of explosion (0 = beam/bolt,  — synced from report
+- [x] `spells1.cc:8420` **potion_smash_effect**(int who, int y, int x, int o_sval) — Potions "smash open" and cause an area effect when (1) they are shattered while in the player's inventory, due to cold (etc) attacks; (2) they are thrown at a monster, or obstacle; (3) they are shatte — synced from report
+- [x] `spells1.cc:8618` **describe_attack_fully**(int type, char* r) — Describe the attack using normal names.
+- [x] `spells1.cc:8729` **name_spell**(random_spell const *s_ptr) — Give a randomly-generated spell a name. Note that it only describes the first effect! [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells1.cc:8763` **generate_spell**(int plev) [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells1.cc:8871` **do_poly_monster**(int y, int x) — Polymorph a monster at given location.
+
+## spells2.cc (118 defs)
+
+- [x] `spells2.cc:69` **summon_dragon_riders**() — Bias luck needs to be higher than weird luck, since it is usually tested several times... — modal.rs::activate_dg_curse "THUNDERLORD" summon (modal.rs:22471)
+- [x] `spells2.cc:75` **grow_things**(s16b type, int rad) — Grow things
+- [x] `spells2.cc:97` **grow_trees**(int rad) — Grow trees
+- [x] `spells2.cc:121` **grow_grass**(int rad) — Grow grass — synced from report
+- [x] `spells2.cc:145` **hp_player**(int num) — Increase players hit points, notice effects
+- [x] `spells2.cc:201` **warding_glyph**() — Leave a "glyph of warding" which prevents monster movement — synced from report
+- [x] `spells2.cc:214` **explosive_rune**()
+- [x] `spells2.cc:273` **do_dec_stat**(int stat, int mode) — Lose a "point" — synced from report
+- [x] `spells2.cc:322` **do_res_stat**(int stat, bool full) — Restore lost "points" in a stat
+- [x] `spells2.cc:355` **inc_stat**(int stat) — Increases a stat by one randomized level -RAK- Note that this function (used by stat potions) now restores the stat BEFORE increasing it.
+- [x] `spells2.cc:418` **do_inc_stat**(int stat) — Gain a "point" in a stat
+- [~] `spells2.cc:453` **identify_hooks**(object_type *o_ptr) — [~] HOOK_IDENTIFY 注册表；port 无 hook 注册（identify 直接 learn/known）；accept.py hooks 类机械复核
+- [x] `spells2.cc:465` **identify_pack**() — Identify everything being carried. Done by a potion of "self knowledge". — synced from report
+- [x] `spells2.cc:492` **identify_pack_fully**() — Identify everything being carried. Done by a potion of "self knowledge". — synced from report
+- [x] `spells2.cc:528` **remove_curse_object**(object_type *o_ptr, bool all)
+- [x] `spells2.cc:584` **remove_curse_aux**(int all) — Removes curses from items in inventory Note that Items which are "Perma-Cursed" (The One Ring, The Crown of Morgoth) can NEVER be uncursed. Note that if "all" is false, then Items which are "Heavy-Cur
+- [x] `spells2.cc:607` **remove_curse**() — Remove most curses
+- [x] `spells2.cc:615` **remove_all_curse**() — Remove all curses
+- [x] `spells2.cc:625` **restore_level**() — Restores any drained experience
+- [x] `spells2.cc:648` **alchemy**()
+- [x] `spells2.cc:742` **report_magics_aux**(int dur)
+- [x] `spells2.cc:787` **report_magics**()
+- [x] `spells2.cc:932` **lose_all_info**() — Forget everything — synced from report
+- [x] `spells2.cc:954` **detect_doors**(int rad) — Detect all doors on current panel — synced from report
+- [x] `spells2.cc:1019` **detect_stairs**(int rad) — Detect all stairs on current panel — synced from report
+- [x] `spells2.cc:1073` **detect_treasure**(int rad) — Detect any treasure on the current panel — synced from report
+- [x] `spells2.cc:1191` **detect_monsters_string**(const char *chars, int rad) — Detect all (string) monsters on current panel — synced from report; the mimic-glyph reveal now rides along with `detect_objects_ctx` (modal.rs:2752, used by the "detect_objects"/"detect_treasure"/"detect_all" arms), marking nearby monsters whose glyph is in the scan's string ("!=?|"/"$"); a detected sleeping mimic is visible as its imitated object (render.rs:431-438).
+- [x] `spells2.cc:1293` **detect_objects_gold**(int rad) — Detect all "gold" objects on the current panel — synced from report
+- [x] `spells2.cc:1310` **detect_objects_normal**(int rad) — Detect all "normal" objects on the current panel — synced from report
+- [x] `spells2.cc:1329` **detect_monsters_normal**(int rad) — Detect all "normal" monsters on the current panel
+- [x] `spells2.cc:1352` **detect_monsters_invis**(int rad) — Detect all "invisible" monsters on current panel — synced from report
+- [x] `spells2.cc:1375` **detect_monsters_orcs**(int rad) — Detect orcs
+- [x] `spells2.cc:1392` **detect_all**(int rad) — Detect everything — synced from report; `detect_all_ctx` (modal.rs:2822) runs doors/stairs/treasure/gold/objects/invis/normal monsters, and the "detect" arm (modal.rs:16074) routes DETECT_ALL/DETECT_XTRA/DRUEDAIN/THRAIN through it (ACT_ORCHAST stays the orc-only count).
+- [~] `spells2.cc:1414` **stair_creation**() — [~] 唯一调用点 ACT_ANGUIREL 在 lib/edit 数据中无人使用（已 grep 验证），属死激活；accept.py dead-activation 类机械复核
+- [x] `spells2.cc:1556` **enchant**(object_type *o_ptr, int n, int eflag) — Enchants a plus onto an item. -RAK- Revamped! Now takes item pointer, number of times to try enchanting, and a flag of what to try enchanting. Artifacts resist enchantment some of the time, and succes — synced from report
+- [x] `spells2.cc:1697` **enchant_spell**(int num_hit, int num_dam, int num_ac, int num_pval) — Enchant an item (in the inventory or on the floor) Note that "num_ac" requires armour, else weapon Returns true if attempted, false if cancelled — synced from report
+- [x] `spells2.cc:1751` **curse_artifact**(object_type * o_ptr) — synced from report
+- [x] `spells2.cc:1768` **random_resistance**(object_type *o_ptr, int specific) — synced from report
+- [x] `spells2.cc:2077` **note_found_object**(object_type *o_ptr) — [x] bevy/src/input.rs:3642（发现神器时写 notes，注释即 spells2.cc:2074 note_found_object）+ notes.rs:120
+- [x] `spells2.cc:2100` **ident_spell**() — Identify an object in the inventory (or on the floor) This routine does not automatically combine objects. Returns true if something was identified, else false. [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells2.cc:2157` **ident_all**() — Identify all objects in the level — synced from report
+- [x] `spells2.cc:2221` **recharge**(int power) — Recharge a wand/staff/rod from the pack or on the floor. This function has been rewritten in Oangband. -LM- Mage -- Recharge I --> recharge(90) Mage -- Recharge II --> recharge(150) Mage -- Recharge I — synced from report
+- [x] `spells2.cc:2472` **project_hack**(int typ, int dam) — Apply a "project()" directly to all viewable monsters Note that affected monsters are NOT auto-tracked by this usage. — synced from report
+- [x] `spells2.cc:2505` **project_meteor**(int radius, int typ, int dam, u32b flg) — Apply a "project()" a la meteor shower
+- [x] `spells2.cc:2540` **banish_evil**(int dist) — Banish evil monsters
+- [x] `spells2.cc:2550` **dispel_undead**(int dam) — Dispel undead monsters
+- [x] `spells2.cc:2558` **dispel_evil**(int dam) — Dispel evil monsters
+- [x] `spells2.cc:2566` **dispel_good**(int dam) — Dispel good monsters [audit: ported (GF_DISP_GOOD in game.rs/item.rs)]
+- [x] `spells2.cc:2574` **dispel_monsters**(int dam) — Dispel all monsters
+- [x] `spells2.cc:2583` **aggravate_monsters**(int who) — Wake up all monsters, and speed up "los" monsters. — synced from report
+- [~] `spells2.cc:2645` **get_genocide_race**(const char *msg, char *typ) — [~] tgt_pt 选怪取字符 → port 用方向型 genocide（modal.rs kind genocide/mass_genocide）；accept.py targeting-ui 类机械复核
+- [x] `spells2.cc:2672` **genocide_aux**(char typ) — Delete all non-unique/non-quest monsters of a given "type" from the level — synced from report
+- [x] `spells2.cc:2754` **genocide**() — synced from report
+- [x] `spells2.cc:2784` **mass_genocide**() — Delete all nearby (non-unique) monsters — synced from report
+- [x] `spells2.cc:2884` **destroy_area**(int y1, int x1, int r) — The spell of destruction This spell "deletes" monsters (instead of "killing" them). Later we may use one function for both "destruction" and "earthquake" by using the "full" to select "destruction". — synced from report
+- [x] `spells2.cc:3038` **earthquake**(int cy, int cx, int r) — Induce an "earthquake" of the given radius at the given location. This will turn some walls into floors and some floors into walls. The player will take damage and "jump" into a safe grid if possible, — synced from report
+- [x] `spells2.cc:3432` **cave_temp_room_lite**() — This routine clears the entire "temp" set. This routine will Perma-Lite all "temp" grids. This routine is used (only) by "lite_room()" Dark grids are illuminated. Also, process all affected monsters. 
+- [x] `spells2.cc:3526` **cave_temp_room_unlite**() — This routine clears the entire "temp" set. This routine will "darken" all "temp" grids. In addition, some of these grids will be "unmarked". This routine is used (only) by "unlite_room()" Also, proces
+- [x] `spells2.cc:3581` **cave_temp_room_aux**(int y, int x) — Aux function -- see below
+- [x] `spells2.cc:3609` **lite_room**(int y1, int x1) — Illuminate any room containing the given location.
+- [x] `spells2.cc:3645` **unlite_room**(int y1, int x1) — Darken all rooms containing the given location
+- [x] `spells2.cc:3683` **lite_area**(int dam, int rad) — Hack -- call light around the player Affect all monsters in the projection radius
+- [x] `spells2.cc:3705` **unlite_area**(int dam, int rad) — Hack -- call darkness around the player Affect all monsters in the projection radius
+- [x] `spells2.cc:3729` **fire_ball**(int typ, int dir, int dam, int rad) — Cast a ball spell Stop if we hit a monster, act as a "ball" Allow "target" mode to pass over monsters Affect grids, objects, and monsters — synced from report
+- [x] `spells2.cc:3757` **fire_cloud**(int typ, int dir, int dam, int rad, int time) — Cast a cloud spell Stop if we hit a monster, act as a "ball" Allow "target" mode to pass over monsters Affect grids, objects, and monsters
+- [x] `spells2.cc:3786` **fire_wave**(int typ, int dir, int dam, int rad, int time, s32b eff) — Cast a wave spell Stop if we hit a monster, act as a "ball" Allow "target" mode to pass over monsters Affect grids, objects, and monsters
+- [x] `spells2.cc:3797` **fire_wall**(int typ, int dir, int dam, int time) — Cast a persistant beam spell Pass through monsters, as a "beam" Affect monsters (not grids or objects)
+- [x] `spells2.cc:3806` **teleport_swap**(int dir)
+- [x] `spells2.cc:3905` **swap_position**(int lty, int ltx)
+- [x] `spells2.cc:4000` **project_hook**(int typ, int dir, int dam, int flg) — Hack -- apply a "projection()" in a direction (or at the target) — synced from report
+- [x] `spells2.cc:4028` **fire_bolt**(int typ, int dir, int dam) — Cast a bolt spell Stop if we hit a monster, as a "bolt" Affect monsters (not grids or objects) — synced from report
+- [x] `spells2.cc:4039` **fire_beam**(int typ, int dir, int dam) — Cast a beam spell Pass through monsters, as a "beam" Affect monsters (not grids or objects) — synced from report
+- [x] `spells2.cc:4048` **fire_bolt_or_beam**(int prob, int typ, int dir, int dam) — Cast a bolt spell, or rarely, a beam spell
+- [~] `spells2.cc:4064` **lite_line**(int dir) — [~] 旧版光线绘制（终端）→ Bevy FOV/光照（UI 边界）；accept.py spells-display 类机械复核
+- [x] `spells2.cc:4071` **drain_life**(int dir, int dam)
+- [x] `spells2.cc:4078` **wall_to_mud**(int dir)
+- [x] `spells2.cc:4085` **wizard_lock**(int dir)
+- [x] `spells2.cc:4091` **slow_monster**(int dir)
+- [x] `spells2.cc:4097` **sleep_monster**(int dir)
+- [x] `spells2.cc:4103` **confuse_monster**(int dir, int plev)
+- [x] `spells2.cc:4109` **poly_monster**(int dir) — synced from report
+- [x] `spells2.cc:4115` **fear_monster**(int dir, int plev)
+- [x] `spells2.cc:4121` **teleport_monster**(int dir)
+- [x] `spells2.cc:4134` **wall_stone**(int y, int x)
+- [x] `spells2.cc:4161` **destroy_doors_touch**()
+- [x] `spells2.cc:4167` **sleep_monsters_touch**()
+- [x] `spells2.cc:4173` **call_chaos**()
+- [x] `spells2.cc:4222` **activate_hi_summon**() — synced from report
+- [x] `spells2.cc:4293` **activate_ty_curse**() — Activate the evil Topi Ylinen curse rr9: Stop the nasty things when a Cyberdemon is summoned or the player gets paralyzed. — synced from report
+- [x] `spells2.cc:4372` **activate_dg_curse**() — Activate the ultra evil Dark God curse — synced from report
+- [x] `spells2.cc:4482` **summon_cyber**() — modal.rs::activate_ty_curse depth>65 "U" summons (modal.rs:22306)
+- [x] `spells2.cc:4493` **summon_dragon_riders**() — modal.rs::activate_dg_curse "THUNDERLORD" summons (modal.rs:22471)
+- [x] `spells2.cc:4504` **confuse_monsters**(int dam)
+- [x] `spells2.cc:4509` **charm_monsters**(int dam)
+- [x] `spells2.cc:4514` **charm_animals**(int dam)
+- [x] `spells2.cc:4519` **stun_monsters**(int dam)
+- [x] `spells2.cc:4524` **mindblast_monsters**(int dam)
+- [x] `spells2.cc:4529` **banish_monsters**(int dist)
+- [x] `spells2.cc:4534` **turn_monsters**(int dam)
+- [x] `spells2.cc:4539` **charm_monster**(int dir, int plev)
+- [x] `spells2.cc:4544` **control_one_undead**(int dir, int plev)
+- [x] `spells2.cc:4549` **charm_animal**(int dir, int plev) — synced from report
+- [x] `spells2.cc:4554` **change_wild_mode**()
+- [x] `spells2.cc:4576` **alter_reality**()
+- [x] `spells2.cc:4586` **heal_insanity**(int val)
+- [x] `spells2.cc:4624` **passwall**(int dir, bool safe) — Send the player shooting through walls in the given direction until they reach a non-wall space, or a monster, or a permanent wall. — synced from report
+- [~] `spells2.cc:4723` **print_dungeon_batch**(std::vector<int> const &dungeon_idxs, int start, bool mode) — [~] 地牢列表屏（recall 选择）→ port 用 Modal::ResetRecall；accept.py spells-display 类机械复核
+- [x] `spells2.cc:4759` **find_dungeon_by_name**(char const *name)
+- [x] `spells2.cc:4775` **reset_recall_aux**()
+- [x] `spells2.cc:4897` **reset_recall**(bool no_trepas_max_depth) — synced from report
+- [x] `spells2.cc:4936` **create_between_gate**(int dist, int y, int x) — Creates a between gate — synced from report
+- [x] `spells2.cc:4992` **choose_geomancy_feature**(int n, geomancy_entry *table)
+- [x] `spells2.cc:5010` **rotate_dir**(int dir, int mov)
+- [x] `spells2.cc:5042` **geomancy_random_wall**(int y, int x) — synced from report
+- [x] `spells2.cc:5074` **geomancy_random_floor**(int y, int x, bool kill_wall) — synced from report
+- [x] `spells2.cc:5113` **geomancy_can_tunnel**(int y, int x)
+- [x] `spells2.cc:5139` **geomancy_dig**(int oy, int ox, int dir, int length) — synced from report
+- [x] `spells2.cc:5188` **channel_the_elements**(int y, int x, int level)
+
+## spells3.cc (314 defs)
+
+- [x] `spells3.cc:195` **find_position**(int y, int x, int *yy, int *xx)
+- [x] `spells3.cc:210` **air_noxious_cloud**() — -------------------------------------------------------------
+- [x] `spells3.cc:232` **air_noxious_cloud_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:240` **air_wings_of_winds**()
+- [x] `spells3.cc:260` **air_wings_of_winds_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:265` **air_invisibility**() — synced from report
+- [x] `spells3.cc:275` **air_invisibility_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:283` **air_poison_blood**()
+- [x] `spells3.cc:303` **air_poison_blood_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:310` **air_thunderstorm**() — synced from report
+- [x] `spells3.cc:320` **air_thunderstorm_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:329` **air_sterilize**()
+- [x] `spells3.cc:335` **air_sterilize_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:342` **convey_blink**() — synced from report
+- [x] `spells3.cc:360` **convey_blink_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [~] `spells3.cc:367` **convey_teleport**() — n/a per report — synced from report
+- [x] `spells3.cc:374` **convey_teleport_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:381` **convey_teleport_away**() — synced from report
+- [x] `spells3.cc:410` **recall_get_d**()
+- [x] `spells3.cc:420` **recall_get_f**()
+- [x] `spells3.cc:430` **convey_recall**()
+- [x] `spells3.cc:478` **convey_recall_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:488` **convey_probability_travel**()
+- [x] `spells3.cc:494` **convey_probability_travel_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:501` **demonology_demon_blade**()
+- [x] `spells3.cc:526` **demonology_demon_blade_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:534` **demonology_demon_madness**()
+- [x] `spells3.cc:590` **demonology_demon_madness_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:598` **demonology_demon_field**()
+- [x] `spells3.cc:616` **demonology_demon_field_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:624` **demonology_doom_shield**()
+- [x] `spells3.cc:635` **demonology_doom_shield_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:644` **demonology_unholy_word**()
+- [x] `spells3.cc:701` **demonology_unholy_word_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:708` **demonology_demon_cloak**()
+- [x] `spells3.cc:714` **demonology_demon_cloak_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:721` **demonology_summon_demon**()
+- [x] `spells3.cc:749` **demonology_summon_demon_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:756` **demonology_discharge_minion**()
+- [x] `spells3.cc:799` **demonology_discharge_minion_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:807` **demonology_control_demon**()
+- [x] `spells3.cc:819` **demonology_control_demon_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:826` **divination_vision**()
+- [x] `spells3.cc:840` **divination_sense_hidden**()
+- [x] `spells3.cc:846` **divination_sense_hidden_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:863` **divination_reveal_ways**()
+- [x] `spells3.cc:870` **divination_reveal_ways_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:877` **divination_sense_monsters**()
+- [x] `spells3.cc:887` **divination_sense_monsters_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:904` **earth_stone_skin**()
+- [x] `spells3.cc:921` **earth_stone_skin_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:941` **earth_dig**()
+- [x] `spells3.cc:953` **earth_stone_prison**()
+- [x] `spells3.cc:974` **earth_strike**()
+- [x] `spells3.cc:994` **earth_strike_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1008` **earth_shake**()
+- [x] `spells3.cc:1029` **earth_shake_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1034` **eru_see_the_music**() — synced from report
+- [x] `spells3.cc:1055` **eru_see_the_music_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1062` **eru_listen_to_the_music**() — synced from report
+- [x] `spells3.cc:1081` **eru_lay_of_protection**() — synced from report
+- [x] `spells3.cc:1087` **eru_lay_of_protection_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1094` **fire_globe_of_light**()
+- [x] `spells3.cc:1118` **fire_globe_of_light_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1133` **fire_fireflash**()
+- [x] `spells3.cc:1156` **fire_fireflash_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1164` **fire_fiery_shield**()
+- [x] `spells3.cc:1181` **fire_fiery_shield_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1190` **fire_firewall**()
+- [x] `spells3.cc:1210` **fire_firewall_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1229` **fire_golem**()
+- [x] `spells3.cc:1272` **fire_golem_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1279` **geomancy_call_the_elements**()
+- [x] `spells3.cc:1299` **geomancy_call_the_elements_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1306` **geomancy_channel_elements**()
+- [x] `spells3.cc:1320` **geomancy_find_effect**(eff_type effs[], int feat)
+- [x] `spells3.cc:1334` **dir_to_eff_flags**(int dir)
+- [x] `spells3.cc:1357` **geomancy_elemental_wave**()
+- [x] `spells3.cc:1417` **geomancy_vaporize**()
+- [x] `spells3.cc:1463` **geomancy_vaporize_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1471` **geomancy_vaporize_depends**()
+- [x] `spells3.cc:1476` **geomancy_geolysis**()
+- [x] `spells3.cc:1491` **geomancy_geolysis_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1498` **geomancy_geolysis_depends**()
+- [x] `spells3.cc:1503` **geomancy_dripping_tread**()
+- [x] `spells3.cc:1519` **geomancy_dripping_tread_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1526` **geomancy_dripping_tread_depends**()
+- [x] `spells3.cc:1531` **geomancy_grow_barrier**()
+- [x] `spells3.cc:1547` **geomancy_grow_barrier_depends**()
+- [x] `spells3.cc:1559` **geomancy_find_summon**(geo_summon summons[], int feat)
+- [x] `spells3.cc:1573` **geomancy_count_elements**(const char **elements)
+- [x] `spells3.cc:1582` **geomancy_elemental_minion**()
+- [x] `spells3.cc:1677` **geomancy_elemental_minion_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1684` **get_manathrust_dam**(s16b *num, s16b *sides)
+- [x] `spells3.cc:1690` **mana_manathrust**()
+- [x] `spells3.cc:1706` **mana_manathrust_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1715` **mana_remove_curses**()
+- [x] `spells3.cc:1729` **mana_elemental_shield**()
+- [x] `spells3.cc:1760` **mana_elemental_shield_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1767` **mana_disruption_shield**()
+- [x] `spells3.cc:1786` **mana_disruption_shield_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1793` **manwe_wind_shield**() — synced from report
+- [x] `spells3.cc:1818` **manwe_wind_shield_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1841` **manwe_avatar**() — synced from report
+- [x] `spells3.cc:1853` **manwe_avatar_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1860` **manwe_blessing**() — synced from report
+- [x] `spells3.cc:1884` **manwe_blessing_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1891` **manwe_call**() — synced from report
+- [x] `spells3.cc:1913` **manwe_call_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:1920` **do_melkor_curse**(int m_idx) — synced from report
+- [x] `spells3.cc:2009` **melkor_curse**() — synced from report
+- [x] `spells3.cc:2030` **melkor_corpse_explosion**()
+- [x] `spells3.cc:2040` **melkor_corpse_explosion_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2047` **melkor_mind_steal**()
+- [x] `spells3.cc:2088` **melkor_mind_steal_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2095` **meta_recharge**() — synced from report
+- [x] `spells3.cc:2101` **meta_recharge_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2108` **get_spellbinder_max**()
+- [x] `spells3.cc:2118` **meta_spellbinder**()
+- [x] `spells3.cc:2214` **meta_spellbinder_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2222` **meta_disperse_magic**()
+- [x] `spells3.cc:2255` **meta_tracker**()
+- [x] `spells3.cc:2269` **stop_inertia_controlled_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:2278` **meta_inertia_control_hook_birth_objects**()
+- [x] `spells3.cc:2283` **meta_inertia_control**() — modal.rs::apply_effect "inertia_control" (modal.rs:9025) + timer game.rs:11999 + mana penalty skill.rs:333
+- [x] `spells3.cc:2328` **meta_inertia_control_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2335` **meta_inertia_control_timer_callback**()
+- [x] `spells3.cc:2353` **meta_inertia_control_calc_mana**(int *msp)
+- [x] `spells3.cc:2365` **mind_charm_power**() — synced from report
+- [x] `spells3.cc:2370` **mind_charm**() — synced from report
+- [x] `spells3.cc:2401` **mind_charm_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2408` **mind_confuse_power**() — inlined in modal.rs::apply_effect "confuse_monster" (modal.rs:17723)
+- [x] `spells3.cc:2413` **mind_confuse**() — synced from report
+- [x] `spells3.cc:2443` **mind_confuse_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2450` **mind_armor_of_fear_base_duration**()
+- [x] `spells3.cc:2455` **mind_armor_of_fear_power_sides**()
+- [x] `spells3.cc:2460` **mind_armor_of_fear_power_dice**()
+- [x] `spells3.cc:2465` **mind_armor_of_fear**()
+- [x] `spells3.cc:2476` **mind_armor_of_fear_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2485` **mind_stun_power**() — inlined in modal.rs::apply_effect "stun_bolt" (modal.rs:17287)
+- [x] `spells3.cc:2490` **mind_stun**() — synced from report
+- [x] `spells3.cc:2510` **mind_stun_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2517` **tempo_magelock**()
+- [x] `spells3.cc:2559` **tempo_slow_monster_power**()
+- [x] `spells3.cc:2564` **tempo_slow_monster**()
+- [x] `spells3.cc:2586` **tempo_slow_monster_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2600` **tempo_essence_of_speed_base_duration**()
+- [x] `spells3.cc:2605` **tempo_essence_of_speed_bonus**()
+- [x] `spells3.cc:2610` **tempo_essence_of_speed**()
+- [x] `spells3.cc:2622` **tempo_essence_of_speed_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2630` **tempo_banishment_power**()
+- [x] `spells3.cc:2635` **tempo_banishment**()
+- [x] `spells3.cc:2649` **tempo_banishment_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2656` **tulkas_divine_aim**() — synced from report
+- [x] `spells3.cc:2669` **tulkas_divine_aim_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2676` **tulkas_wave_of_power**() — synced from report
+- [x] `spells3.cc:2689` **tulkas_wave_of_power_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2696` **tulkas_whirlwind**() — synced from report
+- [x] `spells3.cc:2703` **udun_in_book**(s32b sval, s32b pval) — Return the number of Udun/Melkor spells in a given book — synced from report
+- [x] `spells3.cc:2728` **levels_in_book**(s32b sval, s32b pval) — synced from report
+- [x] `spells3.cc:2757` **udun_drain**()
+- [x] `spells3.cc:2808` **udun_genocide**() — synced from report
+- [x] `spells3.cc:2829` **udun_wraithform_base_duration**()
+- [x] `spells3.cc:2834` **udun_wraithform**()
+- [x] `spells3.cc:2840` **udun_wraithform_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2847` **udun_flame_of_udun_base_duration**()
+- [x] `spells3.cc:2852` **udun_flame_of_udun**()
+- [x] `spells3.cc:2861` **udun_flame_of_udun_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2868` **tidal_wave_damage**()
+- [x] `spells3.cc:2873` **tidal_wave_duration**()
+- [x] `spells3.cc:2878` **water_tidal_wave**()
+- [x] `spells3.cc:2889` **water_tidal_wave_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2897` **water_ice_storm_damage**()
+- [x] `spells3.cc:2902` **water_ice_storm_radius**()
+- [x] `spells3.cc:2907` **water_ice_storm_duration**()
+- [x] `spells3.cc:2912` **water_ice_storm**()
+- [x] `spells3.cc:2931` **water_ice_storm_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2940` **water_ent_potion_base_duration**()
+- [x] `spells3.cc:2945` **water_ent_potion**()
+- [x] `spells3.cc:2962` **water_ent_potion_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:2976` **water_vapor_damage**()
+- [x] `spells3.cc:2981` **water_vapor_radius**()
+- [x] `spells3.cc:2986` **water_vapor_duration**()
+- [x] `spells3.cc:2991` **water_vapor**()
+- [x] `spells3.cc:3001` **water_vapor_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3010` **get_geyser_damage**(int *dice, int *sides)
+- [x] `spells3.cc:3019` **water_geyser**()
+- [x] `spells3.cc:3037` **water_geyser_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3048` **charm_animal_power**() — synced from report
+- [x] `spells3.cc:3053` **charm_animal_radius**() — synced from report
+- [x] `spells3.cc:3058` **yavanna_charm_animal**() — synced from report
+- [x] `spells3.cc:3075` **yavanna_charm_animal_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3083` **yavanna_grow_grass_radius**() — inlined in modal.rs::apply_effect "yavanna_grow_grass" (modal.rs:15492)
+- [x] `spells3.cc:3088` **yavanna_grow_grass**() — synced from report
+- [x] `spells3.cc:3094` **yavanna_grow_grass_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3101` **tree_roots_duration**() — synced from report
+- [x] `spells3.cc:3106` **tree_roots_ac**() — inlined in modal.rs "yavanna_roots" (modal.rs:15525) via game::set_roots (game.rs:5257)
+- [x] `spells3.cc:3111` **tree_roots_damage**() — inlined in modal.rs "yavanna_roots" (modal.rs:15526) via game::roots_damage_bonus (game.rs:5270)
+- [x] `spells3.cc:3116` **yavanna_tree_roots**() — synced from report
+- [x] `spells3.cc:3125` **yavanna_tree_roots_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3134` **water_bite_base_duration**()
+- [x] `spells3.cc:3139` **water_bite_damage**()
+- [x] `spells3.cc:3144` **yavanna_water_bite**()
+- [x] `spells3.cc:3162` **yavanna_water_bite_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3170` **uproot_mlevel**() — synced from report
+- [x] `spells3.cc:3175` **yavanna_uproot**() — synced from report
+- [x] `spells3.cc:3219` **yavanna_uproot_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3226` **nature_grow_trees_radius**()
+- [x] `spells3.cc:3231` **nature_grow_trees**()
+- [x] `spells3.cc:3237` **nature_grow_trees_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3244` **nature_healing_percentage**()
+- [x] `spells3.cc:3249` **nature_healing_hp**()
+- [x] `spells3.cc:3254` **nature_healing**()
+- [x] `spells3.cc:3260` **nature_healing_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3268` **nature_recovery**()
+- [x] `spells3.cc:3296` **regeneration_base_duration**()
+- [x] `spells3.cc:3301` **regeneration_power**()
+- [x] `spells3.cc:3306` **nature_regeneration**()
+- [x] `spells3.cc:3318` **nature_regeneration_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3326` **summon_animal_level**()
+- [x] `spells3.cc:3331` **nature_summon_animal**()
+- [x] `spells3.cc:3343` **nature_summon_animal_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3350` **nature_grow_athelas**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3361` **device_heal_monster_hp**() — synced from report
+- [x] `spells3.cc:3366` **device_heal_monster**() — synced from report
+- [x] `spells3.cc:3379` **device_heal_monster_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3386` **device_haste_monster**()
+- [x] `spells3.cc:3399` **device_haste_monster_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3404` **device_wish**() — synced from report
+- [x] `spells3.cc:3412` **device_summon_monster**() — synced from report
+- [x] `spells3.cc:3422` **device_mana_pct**() — synced from report
+- [x] `spells3.cc:3427` **device_mana**() — synced from report
+- [x] `spells3.cc:3433` **device_mana_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3440` **device_nothing**()
+- [x] `spells3.cc:3445` **holy_fire_damage**() — synced from report
+- [x] `spells3.cc:3450` **device_holy_fire**() — synced from report
+- [x] `spells3.cc:3456` **device_holy_fire_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3463` **device_thunderlords**() — synced from report
+- [x] `spells3.cc:3506` **music_stop_singing_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3512` **holding_pattern_power**()
+- [x] `spells3.cc:3517` **music_holding_pattern_lasting**()
+- [x] `spells3.cc:3523` **music_holding_pattern_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3529` **music_holding_pattern_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3536` **illusion_pattern_power**()
+- [x] `spells3.cc:3541` **music_illusion_pattern_lasting**()
+- [x] `spells3.cc:3547` **music_illusion_pattern_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3553` **music_illusion_pattern_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3560` **stun_pattern_power**()
+- [x] `spells3.cc:3565` **music_stun_pattern_lasting**()
+- [x] `spells3.cc:3571` **music_stun_pattern_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3577` **music_stun_pattern_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3584` **music_song_of_the_sun_lasting**()
+- [x] `spells3.cc:3590` **music_song_of_the_sun_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3596` **flow_of_life_hp**()
+- [x] `spells3.cc:3601` **music_flow_of_life_lasting**()
+- [x] `spells3.cc:3607` **music_flow_of_life_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3613` **music_flow_of_life_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3620` **music_heroic_ballad_lasting**()
+- [x] `spells3.cc:3638` **music_heroic_ballad_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3644` **music_hobbit_melodies_lasting**()
+- [x] `spells3.cc:3654` **music_hobbit_melodies_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3660` **music_hobbit_melodies_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3677` **music_clairaudience_lasting**()
+- [x] `spells3.cc:3683` **music_clairaudience_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3689` **music_clairaudience_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3703` **music_blow_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3712` **music_blow_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3721` **music_gush_of_wind_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3730` **music_gush_of_wind_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3738` **music_horns_of_ylmir_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3744` **music_horns_of_ylmir_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3751` **music_ambarkanta_spell**() [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells3.cc:3757` **aule_firebrand_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3782` **aule_firebrand_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3808` **aule_enchant_weapon_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3845` **aule_enchant_weapon_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3873` **aule_enchant_armour_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3912` **aule_enchant_armour_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3919` **aule_child_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3939` **aule_child_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3946` **tears_of_luthien_hp**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:3951` **mandos_tears_of_luthien_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3961` **mandos_tears_of_luthien_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:3968` **mandos_spirit_of_the_feanturi_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:3990` **mandos_spirit_of_the_feanturi_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4003` **tale_of_doom_duration**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4008` **mandos_tale_of_doom_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4014` **mandos_tale_of_doom_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4021` **call_to_the_halls_mlev**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4026` **mandos_call_to_the_halls_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4048` **mandos_call_to_the_halls_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4055` **get_belegaer_damage**(int *dice, int *sides) — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4061` **ulmo_song_of_belegaer_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4079` **ulmo_song_of_belegaer_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4090` **draught_of_ulmonan_hp**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4095` **ulmo_draught_of_ulmonan_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4122` **ulmo_draught_of_ulmonan_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4129` **call_of_the_ulumuri_mlev**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4134` **ulmo_call_of_the_ulumuri_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4160` **ulmo_call_of_the_ulumuri_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4167` **wrath_of_ulmo_damage**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4172` **wrath_of_ulmo_duration**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4177` **ulmo_wrath_of_ulmo_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4198` **ulmo_wrath_of_ulmo_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4206` **light_of_valinor_damage**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4211` **light_of_valinor_radius**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4216` **varda_light_of_valinor_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4239` **varda_light_of_valinor_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+- [x] `spells3.cc:4254` **varda_call_of_almaren_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4268` **varda_evenstar_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4279` **star_kindler_bursts**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4284` **star_kindler_damage**() — [x] bevy/src/spell.rs spell_info 内同名闭包（spells3.cc 公式逐条移植）；测试覆盖
+- [x] `spells3.cc:4289` **varda_star_kindler_spell**() — [x] bevy/src/modal.rs apply_effect/投射段同名分支（spells3.cc 效果逐条移植，get_level_s 忠实等级）；数据在 spells.ron（convert_data 17 行 + SPELL_GOD）；spell.rs god_name/id 6-9；测试 god_spells_carry_their_school_and_deity + aule_enchant_filter_matches_the_original_tester
+- [x] `spells3.cc:4309` **varda_star_kindler_info**() — [x] bevy/src/spell.rs spell_info（spells3.cc 的 *_info 文本与公式）；Browse 模态展示（modal.rs）；测试 spell_info_matches_the_original_formulas/spell_info_covers_every_spell_without_panicking
+
+## spells4.cc (16 defs)
+
+- [x] `spells4.cc:56` **uses_piety_to_cast**(int s)
+- [x] `spells4.cc:62` **get_power_name**(s32b s) — Describe what type of energy the spell uses for casting
+- [x] `spells4.cc:68` **adjust_power**(s32b s, s32b amount) — Changes the amount of power(mana, piety, whatever) for the spell
+- [x] `spells4.cc:81` **get_power**(s32b s) — Return the amount of power available for casting spell — synced from report
+- [x] `spells4.cc:87` **print_spell_desc**(int s, int y) — [x] bevy/src/spell.rs print_spell_desc（描述行+piety 注记+info）；Browse 模态使用（modal.rs）
+- [x] `spells4.cc:116` **school_books_at**(int i) — static contents spell::book_spells (spell.rs:408)
+- [x] `spells4.cc:123` **school_book_add_spell**(school_book *school_book, s32b spell_idx) — static contents spell::book_spells (spell.rs:408) [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells4.cc:129` **school_book_length**(int sval) — spell::book_spells length via has_book_for (spell.rs:408/500)
+- [x] `spells4.cc:135` **spell_x**(int sval, int spell_idx, int i) — spell::book_spells lookup; random-book path via Item::spells (spell.rs:408, item.rs)
+- [x] `spells4.cc:150` **school_book_contains_spell**(int sval, s32b spell_idx) — synced from report
+- [x] `spells4.cc:160` **push_spell**(int book_idx, s32b spell_idx) — static contents spell::book_spells (spell.rs:408) [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells4.cc:167` **init_school_books**() — synced from report
+- [x] `spells4.cc:382` **random_book_setup**(s16b sval, s32b spell_idx) — synced from report
+- [x] `spells4.cc:392` **spell_school_name**(spell_type *spell)
+- [x] `spells4.cc:416` **print_spell**(const char *label_, byte color, int y, s32b s) [audit: ported (modal::apply_effect / fire_targeted)]
+- [x] `spells4.cc:448` **lua_cast_school_spell**(s32b s, bool no_cost) — synced from report
+
+## spells5.cc (8 defs)
+
+- [x] `spells5.cc:18` **spell_new**(s32b *index, const char *name)
+- [x] `spells5.cc:30` **no_info**() — [x] bevy/src/spell.rs no_info（默认空 info；spell_info 的兜底分支）
+- [x] `spells5.cc:35` **spell_at**(s32b index)
+- [x] `spells5.cc:58` **get_random_spell**(s16b random_type, int level) — synced from report
+- [x] `spells5.cc:80` **get_random_stick**(byte tval, int level) — Get a spell for a device of a given tval (wand or staff). — synced from report
+- [x] `spells5.cc:101` **spells_init_tome**() — spells.ron "Artifact Thunderlords" row (3+d3, staff alloc), modal.rs:16141
+- [~] `spells5.cc:124` **spells_init_theme**() — [~] 法术注册（Theme）：数据由 convert_data/spells.ron 承担；accept.py spell-registration 类机械复核
+- [x] `spells5.cc:371` **school_spells_init**() — synced from report
+
+## spells6.cc (14 defs)
+
+- [x] `spells6.cc:35` **school_provider_new**(byte deity_idx, long mul, long div) — synced from report
+- [x] `spells6.cc:45` **school_at**(int index)
+- [x] `spells6.cc:53` **school_init**(school_type *school, const char *name, s16b skill)
+- [x] `spells6.cc:67` **school_new**(s32b *school_idx, const char *name, s16b skill) — synced from report
+- [x] `spells6.cc:80` **sorcery_school_new**(s32b *school_idx, const char *name, s16b skill) — synced from report
+- [x] `spells6.cc:88` **god_school_new**(s32b *school_idx, byte god) — synced from report
+- [x] `spells6.cc:112` **school_god**(school_type *school, byte god, int mul, int div) — synced from report
+- [x] `spells6.cc:126` **udun_bonus_levels**() — synced from report
+- [x] `spells6.cc:131` **geomancy_depends_satisfied**()
+- [x] `spells6.cc:151` **get_provided_levels**(school_type *school) — synced from report
+- [x] `spells6.cc:173` **get_level_school_callback**(struct get_level_school_callback_data *data, int school_idx) — synced from report
+- [x] `spells6.cc:244` **get_level_school**(spell_type *spell, s32b max, s32b min, s32b *level, bool *na) — synced from report
+- [x] `spells6.cc:297` **schools_init**() — synced from report
+- [x] `spells6.cc:400` **mana_school_calc_mana**(int *msp) — synced from report
+
+## spell_type.cc (36 defs)
+
+- [x] `spell_type.cc:83` **school_idx_add_new**(spell_type *spell, s32b i)
+- [x] `spell_type.cc:92` **spell_type_set_inertia**(spell_type *spell, s32b difficulty, s32b delay) — synced from report
+- [x] `spell_type.cc:99` **spell_type_init_music**(spell_type *spell, s16b minimum_pval, std::string (*info_func)
+- [x] `spell_type.cc:119` **spell_type_init_music_lasting**(spell_type *spell, s16b minimum_pval, std::string (*info_func)
+- [x] `spell_type.cc:134` **spell_type_init_mage**(spell_type *spell, random_type random_type, s32b school_idx, std::string (*info_func)
+- [x] `spell_type.cc:165` **spell_type_init_priest**(spell_type *spell, s32b school_idx, std::string (*info_func)
+- [x] `spell_type.cc:182` **spell_type_init_device**(spell_type *spell, std::string (*info_func)
+- [x] `spell_type.cc:195` **spell_type_init_demonology**(spell_type *spell, std::string (*info_func)
+- [~] `spell_type.cc:206` **spell_type_init_geomancy**(spell_type *spell, std::string (*info_func) — [~] Geomancy 注册 → port 用 Modal::Geomancy 菜单；accept.py spell-registration 类机械复核
+- [x] `spell_type.cc:220` **spell_type_set_difficulty**(spell_type *spell, byte skill_level, s32b failure_rate) — synced from report
+- [x] `spell_type.cc:228` **spell_type_set_mana**(spell_type *spell, s32b min, s32b max) — synced from report
+- [x] `spell_type.cc:235` **spell_type_set_castable_while_blind**(spell_type *spell, bool value) — synced from report
+- [x] `spell_type.cc:242` **spell_type_set_castable_while_confused**(spell_type *spell, bool value) — spell::castable_while_confused (spell.rs:242)
+- [x] `spell_type.cc:249` **spell_type_describe**(spell_type *spell, const char *line) — [x] bevy/src/spell.rs spell_type_describe（SpellRow.desc，convert_data 从 spells5.cc 逐行转换）
+- [x] `spell_type.cc:256` **spell_type_add_school**(spell_type *spell, s32b school_idx)
+- [x] `spell_type.cc:261` **spell_type_set_device_charges**(spell_type *spell, const char *charges_s)
+- [x] `spell_type.cc:268` **spell_type_add_device_allocation**(spell_type *spell, struct device_allocation *a)
+- [x] `spell_type.cc:275` **spell_type_new**(const char *name)
+- [x] `spell_type.cc:282` **spell_type_produce_effect_lasting**(spell_type *spell)
+- [x] `spell_type.cc:288` **spell_type_produce_effect**(spell_type *spell)
+- [x] `spell_type.cc:294` **spell_type_name**(spell_type *spell)
+- [x] `spell_type.cc:301` **spell_type_skill_level**(spell_type *spell) — synced from report
+- [x] `spell_type.cc:308` **spell_type_description_foreach**(spell_type *spell, std::function<void (std::string const &text) — [x] bevy/src/spell.rs spell_type_description_foreach（同上）
+- [x] `spell_type.cc:316` **spell_type_roll_charges**(spell_type *spell)
+- [x] `spell_type.cc:321` **spell_type_device_allocation**(spell_type *spell, byte tval)
+- [x] `spell_type.cc:334` **spell_type_uses_piety_to_cast**(spell_type *spell)
+- [x] `spell_type.cc:340` **spell_type_castable_while_blind**(spell_type *spell) — synced from report
+- [x] `spell_type.cc:346` **spell_type_castable_while_confused**(spell_type *spell) — spell::castable_while_confused (spell.rs:242) used by Modal::Cast (modal.rs:10033)
+- [x] `spell_type.cc:352` **spell_type_minimum_pval**(spell_type *spell)
+- [x] `spell_type.cc:357` **spell_type_random_type**(spell_type *spell) — synced from report
+- [x] `spell_type.cc:372` **spell_type_inertia**(spell_type *spell, s32b *difficulty, s32b *delay) — spell::inertia_info (spell.rs:259) + Modal::Inertia (modal.rs:9025)
+- [x] `spell_type.cc:393` **spell_type_info**(spell_type *spell) — [x] bevy/src/spell.rs spell_type_info → spell_info；测试覆盖
+- [x] `spell_type.cc:400` **spell_type_failure_rate**(spell_type *spell) — synced from report
+- [x] `spell_type.cc:407` **spell_type_casting_stat**(spell_type *spell) — synced from report
+- [x] `spell_type.cc:414` **spell_type_mana_range**(spell_type *spell, range_type *range) — synced from report
+- [x] `spell_type.cc:424` **spell_type_dependencies_satisfied**(spell_type *spell)
+
+## powers.cc (4 defs)
+
+- [x] `powers.cc:45` **power_chance**(power_activation const &x_ref)
+- [x] `powers.cc:136` **power_activate**(int power) — synced from report
+- [~] `powers.cc:1078` **print_power_batch**(std::vector<int> const &power_idxs, int start, int max) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `powers.cc:1190` **do_cmd_power**() — Ask & execute a power
+
+## randart.cc (6 defs)
+
+- [x] `randart.cc:31` **grab_one_power**(int *ra_idx, object_type const *o_ptr, std::vector<s16b> &max_times) — Attempt to add a power to a randart — synced from report
+- [x] `randart.cc:136` **build_prob**(const char *learn) — Use W. Sheldon Simms' random name generator. This function builds probability tables which are used later on for letter selection. It relies on the ASCII character set.
+- [x] `randart.cc:176` **make_word**() — Use W. Sheldon Simms' random name generator. Generate a random word using the probability tables we built earlier. Relies on the ASCII character set. Relies on European vowels (a, e, i, o, u). The gen
+- [x] `randart.cc:234` **get_random_name**(char * return_name)
+- [x] `randart.cc:245` **create_artifact**(object_type *o_ptr, bool a_scroll, bool get_name) — synced from report
+- [x] `randart.cc:389` **artifact_scroll**()
+

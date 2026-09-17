@@ -1,0 +1,34 @@
+# 数据清单：lib/help/rm_herm.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_herm.txt:1` [line] ~~~~~01|Hermit
+- [ ] `lib/help/rm_herm.txt:2` [line] ~~~~~02|Race Modifiers|Hermit
+- [ ] `lib/help/rm_herm.txt:3` [line] #####R=== Hermit Race ===
+- [ ] `lib/help/rm_herm.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_herm.txt:6` [line] Hermits live retired from the world. Spending long hours studying, they 
+- [ ] `lib/help/rm_herm.txt:7` [line] weaken their physical side while they strengthen their spiritual powers. 
+- [ ] `lib/help/rm_herm.txt:8` [line] Thus they get higher mana reserves but are much worse at physical combat.
+- [ ] `lib/help/rm_herm.txt:10` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_herm.txt:11` [line] Strength       -3
+- [ ] `lib/help/rm_herm.txt:12` [line] Intelligence   +1
+- [ ] `lib/help/rm_herm.txt:13` [line] Wisdom         +1  
+- [ ] `lib/help/rm_herm.txt:14` [line] Dexterity      -3   
+- [ ] `lib/help/rm_herm.txt:15` [line] Constitution   -3   
+- [ ] `lib/help/rm_herm.txt:16` [line] Charisma       +1      
+- [ ] `lib/help/rm_herm.txt:17` [line] Hit Dice       -3 sides
+- [ ] `lib/help/rm_herm.txt:18` [line] Spell Points   +20%
+- [ ] `lib/help/rm_herm.txt:19` [line] Exp Penalty    +20%
+- [ ] `lib/help/rm_herm.txt:21` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/rm_herm.txt:22` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/rm_herm.txt:23` [line] Combat                  
+- [ ] `lib/help/rm_herm.txt:24` [line]   Weaponmastery        -0.500           [0.000]
+- [ ] `lib/help/rm_herm.txt:25` [line]   Archery	       -0.500           [0.000]
+- [ ] `lib/help/rm_herm.txt:26` [line] Sneakiness              0.400           [0.000]
+- [ ] `lib/help/rm_herm.txt:27` [line]   Stealth               3.000           [0.000]
+- [ ] `lib/help/rm_herm.txt:28` [line]   Disarming             0.500           [0.000]
+- [ ] `lib/help/rm_herm.txt:29` [line] Magic                   
+- [ ] `lib/help/rm_herm.txt:30` [line]   Magic-Device          1.000           [0.000]
+- [ ] `lib/help/rm_herm.txt:31` [line] Spirituality            0.500           [0.000]
+- [ ] `lib/help/rm_herm.txt:33` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_herm.txt:34` [line] A hermit begins the game with:
+- [ ] `lib/help/rm_herm.txt:35` [line]     Some rations
+- [ ] `lib/help/rm_herm.txt:36` [line]     Some torches

@@ -1,0 +1,336 @@
+# 数据清单：lib/file/monspeak.txt（text，逐条/逐行）
+
+- [ ] `lib/file/monspeak.txt:1` [line] # This is the file for allowing uniques to speak their "own" lines.
+- [ ] `lib/file/monspeak.txt:2` [line] # Deleting this file will have no real effect on the game.  Modifying it may
+- [ ] `lib/file/monspeak.txt:3` [line] # cause STRANGE unique lines to come up if the format's wrong, but shouldn't
+- [ ] `lib/file/monspeak.txt:4` [line] # crash anything.  The format goes like so:
+- [ ] `lib/file/monspeak.txt:5` [line] # 
+- [ ] `lib/file/monspeak.txt:6` [line] # N:45:whoever this is
+- [ ] `lib/file/monspeak.txt:7` [line] # 3
+- [ ] `lib/file/monspeak.txt:8` [line] # says bravado line 1
+- [ ] `lib/file/monspeak.txt:9` [line] # says bravado line 2
+- [ ] `lib/file/monspeak.txt:10` [line] # says bravado line 3
+- [ ] `lib/file/monspeak.txt:11` [line] # 2
+- [ ] `lib/file/monspeak.txt:12` [line] # says fear line 1
+- [ ] `lib/file/monspeak.txt:13` [line] # says fear line 2
+- [ ] `lib/file/monspeak.txt:14` [line] #
+- [ ] `lib/file/monspeak.txt:15` [line] # The number after the N: is the "monster index number" obtained from
+- [ ] `lib/file/monspeak.txt:16` [line] # r_info.txt.  The text field after that number isn't actually used--it's
+- [ ] `lib/file/monspeak.txt:17` [line] # just there to help humans edit the file.  The numbers on lines by
+- [ ] `lib/file/monspeak.txt:18` [line] # themselves say the number of "bravado" and "fear" lines.  Getting these
+- [ ] `lib/file/monspeak.txt:19` [line] # numbers wrong won't crash anything, but will produce strange lines.
+- [ ] `lib/file/monspeak.txt:20` [line] #
+- [ ] `lib/file/monspeak.txt:21` [line] # Two or more monsters can share lines; just put their N: lines in a
+- [ ] `lib/file/monspeak.txt:22` [line] # contiguous block.
+- [ ] `lib/file/monspeak.txt:23` [line] #
+- [ ] `lib/file/monspeak.txt:24` [line] # To stop a certain monster from having unique lines, put a # in front of
+- [ ] `lib/file/monspeak.txt:25` [line] # its N: line.
+- [ ] `lib/file/monspeak.txt:26` [line] #
+- [ ] `lib/file/monspeak.txt:27` [line] # Have fun with this!     --Matt G
+- [ ] `lib/file/monspeak.txt:29` [line] N:8:Farmer Maggot
+- [ ] `lib/file/monspeak.txt:30` [line] 3
+- [ ] `lib/file/monspeak.txt:31` [line] says, 'I'm carrying CASH!'
+- [ ] `lib/file/monspeak.txt:32` [line] smirks, 'You wouldn't kill me, would you?'
+- [ ] `lib/file/monspeak.txt:33` [line] gleefully shows off a nifty object he just bought.
+- [ ] `lib/file/monspeak.txt:34` [line] 2
+- [ ] `lib/file/monspeak.txt:35` [line] screams, 'Don't hurt a poor helpless hobbit!'
+- [ ] `lib/file/monspeak.txt:36` [line] yells, 'Where are my vicious dogs when I need them?'
+- [ ] `lib/file/monspeak.txt:38` [line] N:63:Smeagol
+- [ ] `lib/file/monspeak.txt:39` [line] 27
+- [ ] `lib/file/monspeak.txt:40` [line] sniggers.
+- [ ] `lib/file/monspeak.txt:41` [line] grovels.
+- [ ] `lib/file/monspeak.txt:42` [line] picks his nose.
+- [ ] `lib/file/monspeak.txt:43` [line] pines for his precious.
+- [ ] `lib/file/monspeak.txt:44` [line] searches his pockets.
+- [ ] `lib/file/monspeak.txt:45` [line] eats some slimy creatures.
+- [ ] `lib/file/monspeak.txt:46` [line] mutters, 'My precious, wheres my precious?'
+- [ ] `lib/file/monspeak.txt:47` [line] shouts, 'No Master Hobbitsisisisis!'
+- [ ] `lib/file/monspeak.txt:48` [line] cries, 'The ring was ours for agesisisisis!'
+- [ ] `lib/file/monspeak.txt:49` [line] says, 'Smeagol sneeking! ME! Shneekingsisis!'
+- [ ] `lib/file/monspeak.txt:50` [line] screams, 'Nasty Hobbitsisisisis...'
+- [ ] `lib/file/monspeak.txt:51` [line] says, 'Come on, quickly, follow Smeagol'
+- [ ] `lib/file/monspeak.txt:52` [line] says, 'Every way is guarded, silly foolsis!'
+- [ ] `lib/file/monspeak.txt:53` [line] says, 'Nasty Bagginis, stole my precious.'
+- [ ] `lib/file/monspeak.txt:54` [line] says, 'She will kill them oh yes she will precious.'
+- [ ] `lib/file/monspeak.txt:55` [line] whines, 'Weees wants some fishises.'
+- [ ] `lib/file/monspeak.txt:56` [line] says, 'Whats has its got in its pocketses, hmmm?'
+- [ ] `lib/file/monspeak.txt:57` [line] whimpers, 'We've lost itses we have.'
+- [ ] `lib/file/monspeak.txt:58` [line] says, 'He'll eastus all the world if he getsitses it.'
+- [ ] `lib/file/monspeak.txt:59` [line] says, 'No food, no rest; Smeagol a SNEAK!'
+- [ ] `lib/file/monspeak.txt:60` [line] says, 'What a dainty little dish you will be for her.'
+- [ ] `lib/file/monspeak.txt:61` [line] says, 'Hobbitses always SOOOO Polite.'
+- [ ] `lib/file/monspeak.txt:62` [line] screams, 'Stop, Thief!'
+- [ ] `lib/file/monspeak.txt:63` [line] says, 'Makeses him drop his weapon precious.'
+- [ ] `lib/file/monspeak.txt:64` [line] grovels, 'He has only four fingers on the black hand.'
+- [ ] `lib/file/monspeak.txt:65` [line] growls, 'Not nice Hobbits, not sensible!'
+- [ ] `lib/file/monspeak.txt:66` [line] says, 'If you findesis it, give it us back.'
+- [ ] `lib/file/monspeak.txt:67` [line] 3
+- [ ] `lib/file/monspeak.txt:68` [line] says, 'Don't hurt us, mastersisis.'
+- [ ] `lib/file/monspeak.txt:69` [line] says, 'Poor Smeagol, poor Smeagol.'
+- [ ] `lib/file/monspeak.txt:70` [line] says, 'No AH! Don't hurtsis us.'
+- [ ] `lib/file/monspeak.txt:72` [line] N:135:Mughash the Kobold Lord
+- [ ] `lib/file/monspeak.txt:73` [line] 4
+- [ ] `lib/file/monspeak.txt:74` [line] says, 'I may be a kobold, but I can beat you!'
+- [ ] `lib/file/monspeak.txt:75` [line] says, 'Feel my wrath, fool!'
+- [ ] `lib/file/monspeak.txt:76` [line] says, 'Death and destruction make me happy!'
+- [ ] `lib/file/monspeak.txt:77` [line] snickers evilly.
+- [ ] `lib/file/monspeak.txt:78` [line] 2
+- [ ] `lib/file/monspeak.txt:79` [line] screams, 'Cowards! Why did you abandon me?'
+- [ ] `lib/file/monspeak.txt:80` [line] begs for mercy.
+- [ ] `lib/file/monspeak.txt:82` [line] N:137:Wormtongue, Agent of Saruman
+- [ ] `lib/file/monspeak.txt:83` [line] 6
+- [ ] `lib/file/monspeak.txt:84` [line] whines and sniggers.
+- [ ] `lib/file/monspeak.txt:85` [line] leafs through 'Cowards Monthly.'
+- [ ] `lib/file/monspeak.txt:86` [line] whispers nasty things.
+- [ ] `lib/file/monspeak.txt:87` [line] says, 'I'll slaughter you slowly...'
+- [ ] `lib/file/monspeak.txt:88` [line] giggles as he fingers his knife.
+- [ ] `lib/file/monspeak.txt:89` [line] says, 'Now, you shall taste my wrath!'
+- [ ] `lib/file/monspeak.txt:90` [line] 3
+- [ ] `lib/file/monspeak.txt:91` [line] begs you to spare his miserable life.
+- [ ] `lib/file/monspeak.txt:92` [line] whines, 'This is not my fault!'
+- [ ] `lib/file/monspeak.txt:93` [line] screams, 'Help! Help!'
+- [ ] `lib/file/monspeak.txt:95` [line] N:138:Robin Hood, the Outlaw
+- [ ] `lib/file/monspeak.txt:96` [line] 6
+- [ ] `lib/file/monspeak.txt:97` [line] eyes your money pouch covetously.
+- [ ] `lib/file/monspeak.txt:98` [line] says, 'You look like Nottingham's man to me!'
+- [ ] `lib/file/monspeak.txt:99` [line] says, 'I bet I can shoot better than you...'
+- [ ] `lib/file/monspeak.txt:100` [line] says, 'Give 'til it hurts!'
+- [ ] `lib/file/monspeak.txt:101` [line] says, 'Don't force me to put an arrow in your skull...'
+- [ ] `lib/file/monspeak.txt:102` [line] says, 'Kevin Costner has soiled my name!'
+- [ ] `lib/file/monspeak.txt:103` [line] 3
+- [ ] `lib/file/monspeak.txt:104` [line] begs you to spare his life.
+- [ ] `lib/file/monspeak.txt:105` [line] says, 'But I'm a GOOD guy, really!'
+- [ ] `lib/file/monspeak.txt:106` [line] says, 'Money? Sure, take it all back!'
+- [ ] `lib/file/monspeak.txt:108` [line] #N:169:Brodda, the Easterling
+- [ ] `lib/file/monspeak.txt:109` [line] #N:291:Ulfast, Son of Ulfang
+- [ ] `lib/file/monspeak.txt:111` [line] N:180:Orfax, Son of Boldor
+- [ ] `lib/file/monspeak.txt:112` [line] N:237:Boldor, King of the Yeeks
+- [ ] `lib/file/monspeak.txt:113` [line] 5
+- [ ] `lib/file/monspeak.txt:114` [line] wonders aloud about the quality of your weapon.
+- [ ] `lib/file/monspeak.txt:115` [line] spouts torrents of taunts.
+- [ ] `lib/file/monspeak.txt:116` [line] shouts, 'YEEK! YEEK! YEEK!'
+- [ ] `lib/file/monspeak.txt:117` [line] says, 'I'll teach you to respect yeeks!'
+- [ ] `lib/file/monspeak.txt:118` [line] says, 'Feel lucky, punk?'
+- [ ] `lib/file/monspeak.txt:119` [line] 2
+- [ ] `lib/file/monspeak.txt:120` [line] sobs, 'I didn't MEAN it...'
+- [ ] `lib/file/monspeak.txt:121` [line] whimpers and moans.
+- [ ] `lib/file/monspeak.txt:123` [line] N:200:Hobbes the Tiger
+- [ ] `lib/file/monspeak.txt:124` [line] 4
+- [ ] `lib/file/monspeak.txt:125` [line] says, 'Why were people put here? TIGER FOOD!'
+- [ ] `lib/file/monspeak.txt:126` [line] says, 'Yum! Adventurer sandwiches!'
+- [ ] `lib/file/monspeak.txt:127` [line] says, 'I ate Calvin, now I'll eat YOU!'
+- [ ] `lib/file/monspeak.txt:128` [line] says, 'I'll make your short life nasty and brutish!'
+- [ ] `lib/file/monspeak.txt:129` [line] 1
+- [ ] `lib/file/monspeak.txt:130` [line] yells, 'Ow! Get me back to the comics!'
+- [ ] `lib/file/monspeak.txt:132` [line] N:140:Lagduf, the Snaga
+- [ ] `lib/file/monspeak.txt:133` [line] N:186:Grishnakh, the Hill Orc
+- [ ] `lib/file/monspeak.txt:134` [line] N:215:Golfimbul, the Hill Orc Chief
+- [ ] `lib/file/monspeak.txt:135` [line] N:260:Ufthak of Cirith Ungol
+- [ ] `lib/file/monspeak.txt:136` [line] N:314:Shagrat, the Orc Captain
+- [ ] `lib/file/monspeak.txt:137` [line] N:315:Gorbag, the Orc Captain
+- [ ] `lib/file/monspeak.txt:138` [line] N:330:Bolg, Son of Azog
+- [ ] `lib/file/monspeak.txt:139` [line] N:350:Ugluk, the Uruk
+- [ ] `lib/file/monspeak.txt:140` [line] N:356:Lugdush, the Uruk
+- [ ] `lib/file/monspeak.txt:141` [line] N:373:Azog, King of the Uruk-Hai
+- [ ] `lib/file/monspeak.txt:142` [line] 19
+- [ ] `lib/file/monspeak.txt:143` [line] fingers his blade and grins evilly.
+- [ ] `lib/file/monspeak.txt:144` [line] snickers, 'Now, I strike a blow for *our* side!'
+- [ ] `lib/file/monspeak.txt:145` [line] says, 'Orcs don't get no respect... I'm gonna change that!'
+- [ ] `lib/file/monspeak.txt:146` [line] calls your mother nasty names.
+- [ ] `lib/file/monspeak.txt:147` [line] says, 'I'll bet your innards would taste real sweet...'
+- [ ] `lib/file/monspeak.txt:148` [line] belches and spits.
+- [ ] `lib/file/monspeak.txt:149` [line] scratches his armpits.
+- [ ] `lib/file/monspeak.txt:150` [line] says, 'I love the smell of fresh blood.'
+- [ ] `lib/file/monspeak.txt:151` [line] says, 'Yeeha! Another idiot to slaughter!'
+- [ ] `lib/file/monspeak.txt:152` [line] hawks a loogie in your direction.
+- [ ] `lib/file/monspeak.txt:153` [line] farts thunderously.
+- [ ] `lib/file/monspeak.txt:154` [line] wonders aloud how many experience points you're worth.
+- [ ] `lib/file/monspeak.txt:155` [line] says, 'I love being psychotic!'
+- [ ] `lib/file/monspeak.txt:156` [line] says, 'My brain's on fire with the feeling to kill!'
+- [ ] `lib/file/monspeak.txt:157` [line] says, 'I shall torture you slowly.'
+- [ ] `lib/file/monspeak.txt:158` [line] calls you a scum-sucking pig-dog.
+- [ ] `lib/file/monspeak.txt:159` [line] says, 'I shall break you!'
+- [ ] `lib/file/monspeak.txt:160` [line] says, 'You're not so tough, loser!'
+- [ ] `lib/file/monspeak.txt:161` [line] says, 'Heh-heh, heh-heh, killing people is cool.'
+- [ ] `lib/file/monspeak.txt:162` [line] 6
+- [ ] `lib/file/monspeak.txt:163` [line] screams, 'Hey, orcs have rights too!'
+- [ ] `lib/file/monspeak.txt:164` [line] says, 'You're just prejudiced against orc-kind, aren't you?'
+- [ ] `lib/file/monspeak.txt:165` [line] begs, 'Spare me and I'll get you Ringil! Really!'
+- [ ] `lib/file/monspeak.txt:166` [line] says, 'Next time, I'm bringing more Uruks with me!'
+- [ ] `lib/file/monspeak.txt:167` [line] says, 'Don't hate me because I'm ugly!'
+- [ ] `lib/file/monspeak.txt:168` [line] whimpers and grovels.
+- [ ] `lib/file/monspeak.txt:170` [line] N:382:Mime, the Nibelung
+- [ ] `lib/file/monspeak.txt:171` [line] 4
+- [ ] `lib/file/monspeak.txt:172` [line] says, 'Wagner misrepresented us!'
+- [ ] `lib/file/monspeak.txt:173` [line] says, 'I'll mess up all your stuff!'
+- [ ] `lib/file/monspeak.txt:174` [line] says, 'Give me the Rheingold, or die!'
+- [ ] `lib/file/monspeak.txt:175` [line] hums 'Ride of the Valkyries.'
+- [ ] `lib/file/monspeak.txt:176` [line] 1
+- [ ] `lib/file/monspeak.txt:177` [line] screams, 'Help! Murder! Murder!'
+- [ ] `lib/file/monspeak.txt:179` [line] #N:392:Sangahyando of Umbar
+- [ ] `lib/file/monspeak.txt:180` [line] #N:380:Angamaite of Umbar
+- [ ] `lib/file/monspeak.txt:182` [line] #This next may be unnecessarily evil... :-]
+- [ ] `lib/file/monspeak.txt:184` [line] N:393:It
+- [ ] `lib/file/monspeak.txt:185` [line] 6
+- [ ] `lib/file/monspeak.txt:186` [line] says, 'Nyah, nyah, betcha can't find me!'
+- [ ] `lib/file/monspeak.txt:187` [line] says, 'Come get some!'
+- [ ] `lib/file/monspeak.txt:188` [line] magically summons mighty undead opponents!
+- [ ] `lib/file/monspeak.txt:189` [line] chuckles evilly.
+- [ ] `lib/file/monspeak.txt:190` [line] magically summons Cyberdemons!
+- [ ] `lib/file/monspeak.txt:191` [line] summons special opponents!
+- [ ] `lib/file/monspeak.txt:192` [line] 2
+- [ ] `lib/file/monspeak.txt:193` [line] howls, 'I'll be back!'
+- [ ] `lib/file/monspeak.txt:194` [line] whimpers, 'They said this invisibility thing was better than it is!'
+- [ ] `lib/file/monspeak.txt:196` [line] N:441:Barney the Dinosaur
+- [ ] `lib/file/monspeak.txt:197` [line] 7
+- [ ] `lib/file/monspeak.txt:198` [line] says, 'Cooperation! That's the magic word!'
+- [ ] `lib/file/monspeak.txt:199` [line] mutters, 'I *hate* those Teletubbies...'
+- [ ] `lib/file/monspeak.txt:200` [line] says, 'Won't you be my friend?'
+- [ ] `lib/file/monspeak.txt:201` [line] says, 'Let's all sing a HAPPY SONG!'
+- [ ] `lib/file/monspeak.txt:202` [line] mugs for the camera.
+- [ ] `lib/file/monspeak.txt:203` [line] simpers disgustingly.
+- [ ] `lib/file/monspeak.txt:204` [line] chews up a 'Tinky Winky' doll.
+- [ ] `lib/file/monspeak.txt:205` [line] 3
+- [ ] `lib/file/monspeak.txt:206` [line] begs, 'Don't! Think of the children!'
+- [ ] `lib/file/monspeak.txt:207` [line] screams, 'But I'm a big TV star!'
+- [ ] `lib/file/monspeak.txt:208` [line] sobs, 'All right! I apologise! I really really do!'
+- [ ] `lib/file/monspeak.txt:210` [line] N:505:Groo the Wanderer
+- [ ] `lib/file/monspeak.txt:211` [line] 4
+- [ ] `lib/file/monspeak.txt:212` [line] says: 'A fray! A fray!'
+- [ ] `lib/file/monspeak.txt:213` [line] says: 'Groo does what Groo does best!'
+- [ ] `lib/file/monspeak.txt:214` [line] says: 'All right, you savage, mindless creature. Prepare to meet your equal!'
+- [ ] `lib/file/monspeak.txt:215` [line] says: 'I will slay you, and hack you, and waste you, and destroy you!'
+- [ ] `lib/file/monspeak.txt:216` [line] 3
+- [ ] `lib/file/monspeak.txt:217` [line] says: 'Did I err?'
+- [ ] `lib/file/monspeak.txt:218` [line] says: 'I did not think Groo could be frightened...'
+- [ ] `lib/file/monspeak.txt:219` [line] says: 'I need no aid! Groo is beyond help!'
+- [ ] `lib/file/monspeak.txt:221` [line] N:934:Fangorn the Treebeard
+- [ ] `lib/file/monspeak.txt:222` [line] 6
+- [ ] `lib/file/monspeak.txt:223` [line] says: 'The night stretches out on the Isengard!'
+- [ ] `lib/file/monspeak.txt:224` [line] says: 'Trolls are strong, Ents are STRONGER!'
+- [ ] `lib/file/monspeak.txt:225` [line] says: 'Saruman will now stop using his axes on the trees...'
+- [ ] `lib/file/monspeak.txt:226` [line] says: 'have you seen some Ent women ?'
+- [ ] `lib/file/monspeak.txt:227` [line] says: 'I will crush all those burarum ... those orcs!'
+- [ ] `lib/file/monspeak.txt:228` [line] says: 'I am totally of the side of nobody since nobody is totally of my side...'
+- [ ] `lib/file/monspeak.txt:229` [line] 0
+- [ ] `lib/file/monspeak.txt:231` [line] N:732:Bull Gates
+- [ ] `lib/file/monspeak.txt:232` [line] 10
+- [ ] `lib/file/monspeak.txt:233` [line] says, '640K should be enough for ANYBODY!'
+- [ ] `lib/file/monspeak.txt:234` [line] says, 'Buy Windows 2000; the filesystem rocks!'
+- [ ] `lib/file/monspeak.txt:235` [line] says, 'Linux?  Never heard of it...'
+- [ ] `lib/file/monspeak.txt:236` [line] says, 'Resistance is futile--you will be assimilated.'
+- [ ] `lib/file/monspeak.txt:237` [line] says, 'NT is the solution for ALL your needs!'
+- [ ] `lib/file/monspeak.txt:238` [line] hacks out some code and calls it a Service Pack.
+- [ ] `lib/file/monspeak.txt:239` [line] says, 'We don't have a monopoly... Mac OS still exists!'
+- [ ] `lib/file/monspeak.txt:240` [line] wonders if he should buy a small country.
+- [ ] `lib/file/monspeak.txt:241` [line] says, 'Where will we let you go today?  The Recycle Bin!'
+- [ ] `lib/file/monspeak.txt:242` [line] cackles diabolically.
+- [ ] `lib/file/monspeak.txt:243` [line] 3
+- [ ] `lib/file/monspeak.txt:244` [line] sobs, 'OK, Linux doesn't suck. Let me live?'
+- [ ] `lib/file/monspeak.txt:245` [line] screams, 'Is megalomania THAT bad?'
+- [ ] `lib/file/monspeak.txt:246` [line] apologises for MS-DOS.
+- [ ] `lib/file/monspeak.txt:248` [line] N:733:Santa Claus
+- [ ] `lib/file/monspeak.txt:249` [line] 8
+- [ ] `lib/file/monspeak.txt:250` [line] says, 'Ho ho ho! You're gonna die!'
+- [ ] `lib/file/monspeak.txt:251` [line] says, 'You're gettin' COAL in your stocking!'
+- [ ] `lib/file/monspeak.txt:252` [line] says, 'On Smasher, on Crasher, now dash away all!'
+- [ ] `lib/file/monspeak.txt:253` [line] chortles sadistically.
+- [ ] `lib/file/monspeak.txt:254` [line] says, 'You're on the Naughty List!'
+- [ ] `lib/file/monspeak.txt:255` [line] says, 'No presents for you, ever!'
+- [ ] `lib/file/monspeak.txt:256` [line] says, 'I'll sic my man-eating reindeer on you!'
+- [ ] `lib/file/monspeak.txt:257` [line] says, 'I hate Christmas so much that I've gone psychotic!'
+- [ ] `lib/file/monspeak.txt:258` [line] 3
+- [ ] `lib/file/monspeak.txt:259` [line] sobs, 'Think of the children you'll disappoint!'
+- [ ] `lib/file/monspeak.txt:260` [line] sobs, 'No, Virginia, there isn't... not any more...'
+- [ ] `lib/file/monspeak.txt:261` [line] attempts to buy you off with offers of goodies.
+- [ ] `lib/file/monspeak.txt:263` [line] N:764:Uriel, Angel of Fire
+- [ ] `lib/file/monspeak.txt:264` [line] N:765:Azriel, Angel of Death
+- [ ] `lib/file/monspeak.txt:265` [line] N:769:Gabriel, the Messenger
+- [ ] `lib/file/monspeak.txt:266` [line] 7
+- [ ] `lib/file/monspeak.txt:267` [line] says, 'Repent, evildoer!'
+- [ ] `lib/file/monspeak.txt:268` [line] says, 'My righteousness shall cleanse you!'
+- [ ] `lib/file/monspeak.txt:269` [line] says, 'Don't EVER steal from the collection plate!'
+- [ ] `lib/file/monspeak.txt:270` [line] says, 'God may love you, but *I* don't!'
+- [ ] `lib/file/monspeak.txt:271` [line] says, 'I shall smite thee with extreme prejudice!'
+- [ ] `lib/file/monspeak.txt:272` [line] says, 'Hope you like eternal damnation!'
+- [ ] `lib/file/monspeak.txt:273` [line] says, 'Verily, it is too late for thee.'
+- [ ] `lib/file/monspeak.txt:274` [line] 3
+- [ ] `lib/file/monspeak.txt:275` [line] screams, 'Help! I am undone!'
+- [ ] `lib/file/monspeak.txt:276` [line] says, 'The Most High hath ordained this; I must follow.'
+- [ ] `lib/file/monspeak.txt:277` [line] screams, 'My God, my God, why hast thou forsaken me?'
+- [ ] `lib/file/monspeak.txt:280` [line] N:850:Carcharoth, the Jaws of Thirst
+- [ ] `lib/file/monspeak.txt:281` [line] N:846:Fenris Wolf
+- [ ] `lib/file/monspeak.txt:282` [line] N:840:Draugluin, Sire of All Werewolves
+- [ ] `lib/file/monspeak.txt:283` [line] 8
+- [ ] `lib/file/monspeak.txt:284` [line] barks and bellows frighteningly!
+- [ ] `lib/file/monspeak.txt:285` [line] says, 'Oh good, another chew toy!'
+- [ ] `lib/file/monspeak.txt:286` [line] says, 'Yummy! I was getting tired of chicken...'
+- [ ] `lib/file/monspeak.txt:287` [line] lets out an earsplitting howl.
+- [ ] `lib/file/monspeak.txt:288` [line] drools all over the dungeon.
+- [ ] `lib/file/monspeak.txt:289` [line] lifts his leg at the nearest wall.
+- [ ] `lib/file/monspeak.txt:290` [line] says, 'Bad adventurer! No more living for you!'
+- [ ] `lib/file/monspeak.txt:291` [line] snarls and howls.
+- [ ] `lib/file/monspeak.txt:292` [line] 3
+- [ ] `lib/file/monspeak.txt:293` [line] cringes and whimpers.
+- [ ] `lib/file/monspeak.txt:294` [line] says, 'Look, I promise I won't bite the mailman anymore!'
+- [ ] `lib/file/monspeak.txt:295` [line] says, 'Hey, put that rolled-up newspaper down!'
+- [ ] `lib/file/monspeak.txt:297` [line] N:830:Cantoras, the Skeletal Lord
+- [ ] `lib/file/monspeak.txt:298` [line] N:831:Mephistopheles, Lord of Hell
+- [ ] `lib/file/monspeak.txt:299` [line] N:818:The Mouth of Sauron
+- [ ] `lib/file/monspeak.txt:300` [line] N:819:Klingsor, Evil Master of Magic
+- [ ] `lib/file/monspeak.txt:301` [line] N:804:Vecna, the Emperor Lich
+- [ ] `lib/file/monspeak.txt:302` [line] N:844:Feagwath the Undead Sorceror
+- [ ] `lib/file/monspeak.txt:303` [line] N:856:Gothmog, the High Captain of Balrogs
+- [ ] `lib/file/monspeak.txt:304` [line] N:860:Sauron, the Sorcerer
+- [ ] `lib/file/monspeak.txt:305` [line] 12
+- [ ] `lib/file/monspeak.txt:306` [line] brags, 'My power is beyond compare!'
+- [ ] `lib/file/monspeak.txt:307` [line] snorts, 'A mere mortal dares challenge my might? HA!'
+- [ ] `lib/file/monspeak.txt:308` [line] says, 'Not another one! I just finished chewing on the last!'
+- [ ] `lib/file/monspeak.txt:309` [line] wonders aloud how many XP you're worth.
+- [ ] `lib/file/monspeak.txt:310` [line] leafs through 'Evil Geniuses For Dummies'.
+- [ ] `lib/file/monspeak.txt:311` [line] mutters, 'Another darn loser to kill...'
+- [ ] `lib/file/monspeak.txt:312` [line] says, 'Angband shall claim your remains!'
+- [ ] `lib/file/monspeak.txt:313` [line] says, 'Another 12 skulls and I get that reward from the Boss!'
+- [ ] `lib/file/monspeak.txt:314` [line] yawns at your pathetic efforts to kill him.
+- [ ] `lib/file/monspeak.txt:315` [line] says, 'Minions, slaughter this fool!'
+- [ ] `lib/file/monspeak.txt:316` [line] says, 'Set thine house in order, for thou shalt die...'
+- [ ] `lib/file/monspeak.txt:317` [line] says, 'I'm no god... God has MERCY!'
+- [ ] `lib/file/monspeak.txt:318` [line] 2
+- [ ] `lib/file/monspeak.txt:319` [line] screams, 'This CAN'T be happening!'
+- [ ] `lib/file/monspeak.txt:320` [line] shouts, 'Kill me if you want, the Boss will getcha!'
+- [ ] `lib/file/monspeak.txt:322` [line] N:928:Mathilde, the Science Student
+- [ ] `lib/file/monspeak.txt:323` [line] 3
+- [ ] `lib/file/monspeak.txt:324` [line] waves.
+- [ ] `lib/file/monspeak.txt:325` [line] wishes you luck.
+- [ ] `lib/file/monspeak.txt:326` [line] skips along happily.
+- [ ] `lib/file/monspeak.txt:327` [line] 1
+- [ ] `lib/file/monspeak.txt:328` [line] is surrounded by the purple aura of the RNG. Touch at your peril.
+- [ ] `lib/file/monspeak.txt:330` [line] N:861:Dark God, the Mighty Coder of Hell
+- [ ] `lib/file/monspeak.txt:331` [line] 6
+- [ ] `lib/file/monspeak.txt:332` [line] says 'Hullo'.
+- [ ] `lib/file/monspeak.txt:333` [line] emits a low 'hmmmm'.
+- [ ] `lib/file/monspeak.txt:334` [line] screams 'I came from the Hells for YOU!'
+- [ ] `lib/file/monspeak.txt:335` [line] laughs out loudly.
+- [ ] `lib/file/monspeak.txt:336` [line] mutters something about bugs.
+- [ ] `lib/file/monspeak.txt:337` [line] asks you about the new version.
+- [ ] `lib/file/monspeak.txt:338` [line] 1
+- [ ] `lib/file/monspeak.txt:339` [line] screams 'ToME rules!'.
+- [ ] `lib/file/monspeak.txt:341` [line] N:969:Princess
+- [ ] `lib/file/monspeak.txt:342` [line] 4
+- [ ] `lib/file/monspeak.txt:343` [line] cries.
+- [ ] `lib/file/monspeak.txt:344` [line] screams 'Help me !!!'.
+- [ ] `lib/file/monspeak.txt:345` [line] whines 'I need your help, great hero...'.
+- [ ] `lib/file/monspeak.txt:346` [line] implores you to help her.
+- [ ] `lib/file/monspeak.txt:347` [line] 1
+- [ ] `lib/file/monspeak.txt:348` [line] screams 'I am too young to die!'.
+- [ ] `lib/file/monspeak.txt:350` [line] N:970:Merton Proudfoot, the lost hobbit
+- [ ] `lib/file/monspeak.txt:351` [line] 1
+- [ ] `lib/file/monspeak.txt:352` [line] whines 'Please help me, noble hero! My leg is broken, and I cannot walk.'
+- [ ] `lib/file/monspeak.txt:353` [line] 1
+- [ ] `lib/file/monspeak.txt:354` [line] whines 'No, please don't hurt me!'
+- [ ] `lib/file/monspeak.txt:356` [line] N:1039:Improv, the mighty MoLD
+- [ ] `lib/file/monspeak.txt:357` [line] 2
+- [ ] `lib/file/monspeak.txt:358` [line] screams 'Your code is ugly!'
+- [ ] `lib/file/monspeak.txt:359` [line] mutters something about bugs.
+- [ ] `lib/file/monspeak.txt:360` [line] 1
+- [ ] `lib/file/monspeak.txt:361` [line] screams 'ToME rules!'.

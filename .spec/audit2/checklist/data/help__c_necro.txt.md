@@ -1,0 +1,74 @@
+# 数据清单：lib/help/c_necro.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_necro.txt:1` [line] |||||oy
+- [ ] `lib/help/c_necro.txt:2` [line] ~~~~~01|Necromancer
+- [ ] `lib/help/c_necro.txt:3` [line] ~~~~~02|Classes|Necromancer
+- [ ] `lib/help/c_necro.txt:4` [line] #####R=== Necromancers ===
+- [ ] `lib/help/c_necro.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_necro.txt:7` [line] As a Priest devotes his life to his chosen deity, so Necromancers 
+- [ ] `lib/help/c_necro.txt:8` [line] devote their lives to the study of death. Familiar with all of the 
+- [ ] `lib/help/c_necro.txt:9` [line] forms of unbeing, they are able to manipulate spirit and flesh for
+- [ ] `lib/help/c_necro.txt:10` [line] great effect.
+- [ ] `lib/help/c_necro.txt:12` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_necro.txt:13` [line] Strength         -5
+- [ ] `lib/help/c_necro.txt:14` [line] Intelligence     +3
+- [ ] `lib/help/c_necro.txt:15` [line] Wisdom           +0
+- [ ] `lib/help/c_necro.txt:16` [line] Dexterity        +1
+- [ ] `lib/help/c_necro.txt:17` [line] Constitution     -2
+- [ ] `lib/help/c_necro.txt:18` [line] Charisma         +1
+- [ ] `lib/help/c_necro.txt:19` [line] Hit Die          +d0
+- [ ] `lib/help/c_necro.txt:20` [line] Spell Points    +50%
+- [ ] `lib/help/c_necro.txt:21` [line] Exp Penalty      30%
+- [ ] `lib/help/c_necro.txt:23` [line] #####GStarting Skills:
+- [ ] `lib/help/c_necro.txt:24` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_necro.txt:25` [line] Combat                  1.000           [0.400]
+- [ ] `lib/help/c_necro.txt:26` [line]   Weaponmastery         0.700           [0.600]
+- [ ] `lib/help/c_necro.txt:27` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_necro.txt:28` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_necro.txt:29` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_necro.txt:30` [line]   Magic-Device          1.000           [1.200]
+- [ ] `lib/help/c_necro.txt:31` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_necro.txt:32` [line]   Mana                  0.000           [0.600]
+- [ ] `lib/help/c_necro.txt:33` [line]   Geomancy
+- [ ] `lib/help/c_necro.txt:34` [line]     Fire                0.000           [0.800]
+- [ ] `lib/help/c_necro.txt:35` [line]     Water               0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:36` [line]     Air                 0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:37` [line]     Earth               0.000           [0.800]
+- [ ] `lib/help/c_necro.txt:38` [line]   Meta                  0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:39` [line]   Conveyance            0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:40` [line]   Divination            0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:41` [line]   Temporal              0.000           [0.800]
+- [ ] `lib/help/c_necro.txt:42` [line]   Mind                  0.000           [0.900]
+- [ ] `lib/help/c_necro.txt:43` [line]   Nature                0.000           [0.500]
+- [ ] `lib/help/c_necro.txt:44` [line]   Necromancy            1.000           [1.000]
+- [ ] `lib/help/c_necro.txt:45` [line]   Thaumaturgy           0.000           [0.700]
+- [ ] `lib/help/c_necro.txt:46` [line] Spirituality            1.000           [0.550]
+- [ ] `lib/help/c_necro.txt:47` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_necro.txt:48` [line] Monster-lore            1.000           [1.100]
+- [ ] `lib/help/c_necro.txt:49` [line]   Corpse-preservation   5.000           [0.900]
+- [ ] `lib/help/c_necro.txt:51` [line] *A Necromancer cannot learn the Geomancy skill, but it is shown in his skill 
+- [ ] `lib/help/c_necro.txt:52` [line] screen because the elemental schools are sub-skills of it.
+- [ ] `lib/help/c_necro.txt:54` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_necro.txt:55` [line] #####BAbility              Character level
+- [ ] `lib/help/c_necro.txt:56` [line] Perfect casting             1
+- [ ] `lib/help/c_necro.txt:57` [line] Undead Form                 25
+- [ ] `lib/help/c_necro.txt:59` [line] #####GStarting Equipment
+- [ ] `lib/help/c_necro.txt:60` [line] A Necromancer begins the game with:
+- [ ] `lib/help/c_necro.txt:61` [line]     a Book of Beginner Cantrips
+- [ ] `lib/help/c_necro.txt:62` [line]     a Dagger
+- [ ] `lib/help/c_necro.txt:64` [line] #####GNecromancy
+- [ ] `lib/help/c_necro.txt:65` [line] *****m_necrom.txt*0[Necromancy powers] [[[[[Bare accessed using the 'm' key.]  
+- [ ] `lib/help/c_necro.txt:66` [line] Even from the start of his career, an inexperienced Necromancer
+- [ ] `lib/help/c_necro.txt:67` [line] can channel forces from the underworld to assault the mind of
+- [ ] `lib/help/c_necro.txt:68` [line] living creatures, therefore terrifying them. With little effort he
+- [ ] `lib/help/c_necro.txt:69` [line] can also learn the art of reanimating a dead corpse, turning it into
+- [ ] `lib/help/c_necro.txt:70` [line] an undead slave. It is only at a later point in his career that this
+- [ ] `lib/help/c_necro.txt:71` [line] foul mage learns to manipulate his life force as well, gaining the
+- [ ] `lib/help/c_necro.txt:72` [line] ability to absorb hit points from both living and dead opponents.
+- [ ] `lib/help/c_necro.txt:73` [line] The greatest Necromancers even gain the ability to survive their own
+- [ ] `lib/help/c_necro.txt:74` [line] death: when they should be killed, they instead turn into a ghostly
+- [ ] `lib/help/c_necro.txt:75` [line] being; they then receive a set number of Death Points, which are in
+- [ ] `lib/help/c_necro.txt:76` [line] all respects similar to hit points except that they go automatically
+- [ ] `lib/help/c_necro.txt:77` [line] down each turn. If the Necromancer manages to kill a certain number
+- [ ] `lib/help/c_necro.txt:78` [line] of creatures before his Death Points reach 0 he is returned to life;
+- [ ] `lib/help/c_necro.txt:79` [line] otherwise his will dissipates and he finally achieves true death.

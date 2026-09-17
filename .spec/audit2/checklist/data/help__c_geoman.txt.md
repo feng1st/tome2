@@ -1,0 +1,54 @@
+# 数据清单：lib/help/c_geoman.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_geoman.txt:1` [line] |||||oy
+- [ ] `lib/help/c_geoman.txt:2` [line] ~~~~~01|Geomancer
+- [ ] `lib/help/c_geoman.txt:3` [line] ~~~~~02|Classes|Geomancer
+- [ ] `lib/help/c_geoman.txt:4` [line] #####R=== Geomancers ===
+- [ ] `lib/help/c_geoman.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_geoman.txt:7` [line] Geomancers harness the power of the elements earth, air, fire and water.
+- [ ] `lib/help/c_geoman.txt:8` [line] The level of their *****skills.txt*60[Geomancy] skill gives them access to their own
+- [ ] `lib/help/c_geoman.txt:9` [line] *****m_geoman.txt*0[school of Geomancy], but the levels of the Fire, Water, Air, and Earth
+- [ ] `lib/help/c_geoman.txt:10` [line] skills will have an effect on the outcome of each spell.
+- [ ] `lib/help/c_geoman.txt:12` [line] Geomancers need the aid of a Mage Staff in order to use their powers.
+- [ ] `lib/help/c_geoman.txt:14` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_geoman.txt:15` [line] Strength         -5
+- [ ] `lib/help/c_geoman.txt:16` [line] Intelligence     +3
+- [ ] `lib/help/c_geoman.txt:17` [line] Wisdom           +0
+- [ ] `lib/help/c_geoman.txt:18` [line] Dexterity        +1
+- [ ] `lib/help/c_geoman.txt:19` [line] Constitution     -2
+- [ ] `lib/help/c_geoman.txt:20` [line] Charisma         +1
+- [ ] `lib/help/c_geoman.txt:21` [line] Hit Die          +d0
+- [ ] `lib/help/c_geoman.txt:22` [line] Spell Points    +50%
+- [ ] `lib/help/c_geoman.txt:23` [line] Exp Penalty      30%
+- [ ] `lib/help/c_geoman.txt:25` [line] #####GStarting Skills:
+- [ ] `lib/help/c_geoman.txt:26` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_geoman.txt:27` [line] Combat                  1.000           [0.200]
+- [ ] `lib/help/c_geoman.txt:28` [line]   Weaponmastery         0.700           [0.400]
+- [ ] `lib/help/c_geoman.txt:29` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_geoman.txt:30` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_geoman.txt:31` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_geoman.txt:32` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_geoman.txt:33` [line]   Spell-power           1.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:34` [line]   Geomancy              1.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:35` [line]     Fire                1.000           [1.050]
+- [ ] `lib/help/c_geoman.txt:36` [line]     Water               1.000           [1.050]
+- [ ] `lib/help/c_geoman.txt:37` [line]     Air                 1.000           [1.050]
+- [ ] `lib/help/c_geoman.txt:38` [line]     Earth               1.000           [1.050]
+- [ ] `lib/help/c_geoman.txt:39` [line]   Meta                  0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:40` [line]   Conveyance            0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:41` [line]   Divination            0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:42` [line]   Temporal              0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:43` [line]   Mind                  0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:44` [line]   Nature                0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:45` [line]   Necromancy            0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:46` [line]   Thaumaturgy           0.000           [0.700]
+- [ ] `lib/help/c_geoman.txt:47` [line] Spirituality            1.000           [0.550]
+- [ ] `lib/help/c_geoman.txt:48` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_geoman.txt:49` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_geoman.txt:51` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_geoman.txt:52` [line] #####BAbility              Character level
+- [ ] `lib/help/c_geoman.txt:53` [line] Perfect casting             1
+- [ ] `lib/help/c_geoman.txt:55` [line] #####GStarting Equipment
+- [ ] `lib/help/c_geoman.txt:56` [line] A Geomancer begins the game with:
+- [ ] `lib/help/c_geoman.txt:57` [line]     a Spellbook of Geyser
+- [ ] `lib/help/c_geoman.txt:58` [line]     a Mage Staff

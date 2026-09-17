@@ -1,0 +1,35 @@
+# 数据清单：lib/help/r_hobbit.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_hobbit.txt:1` [line] ~~~~~01|Hobbit
+- [ ] `lib/help/r_hobbit.txt:2` [line] ~~~~~02|Races|Hobbit
+- [ ] `lib/help/r_hobbit.txt:3` [line] #####R=== Hobbits ===
+- [ ] `lib/help/r_hobbit.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_hobbit.txt:6` [line] Hobbits, or halflings, are very good at ranged combat (especially with slings),
+- [ ] `lib/help/r_hobbit.txt:7` [line] throwing, and have good saving throws. They also are very good at searching,
+- [ ] `lib/help/r_hobbit.txt:8` [line] disarming, perception and stealth; so they make excellent rogues, but prefer
+- [ ] `lib/help/r_hobbit.txt:9` [line] to be called burglars.  They are much weaker than humans, and not good at melee
+- [ ] `lib/help/r_hobbit.txt:10` [line] fighting.  Halflings have fair infra-vision, so they can detect warm creatures
+- [ ] `lib/help/r_hobbit.txt:11` [line] at a distance. Hobbits have their dexterity sustained and in time they learn to
+- [ ] `lib/help/r_hobbit.txt:12` [line] cook a delicious meal from available ingredients.  Their sturdy constitutions
+- [ ] `lib/help/r_hobbit.txt:13` [line] also allow them to resist the insidious poison of the ring-wraiths.
+- [ ] `lib/help/r_hobbit.txt:15` [line] #####GStat Modifiers
+- [ ] `lib/help/r_hobbit.txt:16` [line] Strength        -2   
+- [ ] `lib/help/r_hobbit.txt:17` [line] Intelligence    +2   
+- [ ] `lib/help/r_hobbit.txt:18` [line] Wisdom          +1   
+- [ ] `lib/help/r_hobbit.txt:19` [line] Dexterity       +3   
+- [ ] `lib/help/r_hobbit.txt:20` [line] Constitution    +2   
+- [ ] `lib/help/r_hobbit.txt:21` [line] Charisma        +1       
+- [ ] `lib/help/r_hobbit.txt:22` [line] Hit Dice Sides  7         
+- [ ] `lib/help/r_hobbit.txt:23` [line] Exp Penalty     +10%
+- [ ] `lib/help/r_hobbit.txt:25` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_hobbit.txt:26` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_hobbit.txt:27` [line] Combat                  
+- [ ] `lib/help/r_hobbit.txt:28` [line]   Weaponmastery        -1.000           [0.000]
+- [ ] `lib/help/r_hobbit.txt:29` [line]   Archery		2.000           [0.000]
+- [ ] `lib/help/r_hobbit.txt:30` [line]     Sling-Mastery	0.000		[0.300]
+- [ ] `lib/help/r_hobbit.txt:31` [line] Sneakiness              1.200           [0.000]
+- [ ] `lib/help/r_hobbit.txt:32` [line]   Stealth               5.000           [0.000]
+- [ ] `lib/help/r_hobbit.txt:33` [line]   Disarming             1.500           [0.000]
+- [ ] `lib/help/r_hobbit.txt:34` [line] Magic                   
+- [ ] `lib/help/r_hobbit.txt:35` [line]   Magic-Device          1.800           [0.000]
+- [ ] `lib/help/r_hobbit.txt:36` [line] Spirituality            9.000           [0.000]

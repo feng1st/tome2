@@ -1,0 +1,7 @@
+[
+    (skill:"Monster-lore", bop:"+", base:0, mop:"+", gain:500),
+    (skill:"Spell-learning", bop:"+", base:1000, mop:"+", gain:0),
+    (skill:"Prayer", bop:"+", base:0, mop:"+", gain:500),
+    (skill:"Udun", bop:"+", base:0, mop:"+", gain:400),
+    (skill:"Magic-Device", bop:"+", base:1000, mop:"+", gain:1000),
+]

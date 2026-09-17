@@ -1,0 +1,1403 @@
+# 数据清单：lib/edit/p_info.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/p_info.txt:17` [G] G:k:+0:+500:Monster-lore
+- [ ] `lib/edit/p_info.txt:18` [G] G:k:+1000:+0:Spell-learning
+- [ ] `lib/edit/p_info.txt:19` [G] G:k:+0:+500:Prayer
+- [ ] `lib/edit/p_info.txt:20` [G] G:k:+0:+400:Udun
+- [ ] `lib/edit/p_info.txt:21` [G] G:k:+1000:+1000:Magic-Device
+- [ ] `lib/edit/p_info.txt:54` [C] C:N:0:0:Warrior
+- [ ] `lib/edit/p_info.txt:55` [C] C:D:0:Simple fighters, they hack away with their trusty weapon.
+- [ ] `lib/edit/p_info.txt:56` [C] C:D:1:Rookie
+- [ ] `lib/edit/p_info.txt:57` [C] C:D:1:Soldier
+- [ ] `lib/edit/p_info.txt:58` [C] C:D:1:Mercenary
+- [ ] `lib/edit/p_info.txt:59` [C] C:D:1:Veteran
+- [ ] `lib/edit/p_info.txt:60` [C] C:D:1:Swordsman
+- [ ] `lib/edit/p_info.txt:61` [C] C:D:1:Champion
+- [ ] `lib/edit/p_info.txt:62` [C] C:D:1:Hero
+- [ ] `lib/edit/p_info.txt:63` [C] C:D:1:Baron
+- [ ] `lib/edit/p_info.txt:64` [C] C:D:1:Duke
+- [ ] `lib/edit/p_info.txt:65` [C] C:D:1:Lord
+- [ ] `lib/edit/p_info.txt:66` [C] C:S:5:-2:-2:2:2:-1:0:0
+- [ ] `lib/edit/p_info.txt:67` [C] C:B:4:30:5
+- [ ] `lib/edit/p_info.txt:68` [C] C:P:9:0
+- [ ] `lib/edit/p_info.txt:69` [C] C:R:30:0
+- [ ] `lib/edit/p_info.txt:70` [C] C:F:RES_FEAR
+- [ ] `lib/edit/p_info.txt:71` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:72` [C] C:O:45:38:1d1
+- [ ] `lib/edit/p_info.txt:73` [C] C:O:37:4:1d1
+- [ ] `lib/edit/p_info.txt:74` [C] C:k:+2000:+800:Combat
+- [ ] `lib/edit/p_info.txt:75` [C] C:k:+1000:+850:Weaponmastery
+- [ ] `lib/edit/p_info.txt:76` [C] C:k:+0:+400:Sword-mastery
+- [ ] `lib/edit/p_info.txt:77` [C] C:k:+0:+400:Axe-mastery
+- [ ] `lib/edit/p_info.txt:78` [C] C:k:+0:+400:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:79` [C] C:k:+0:+400:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:80` [C] C:k:+1000:+600:Archery
+- [ ] `lib/edit/p_info.txt:81` [C] C:k:+0000:+400:Stealth
+- [ ] `lib/edit/p_info.txt:82` [C] C:k:+1000:+300:Magic
+- [ ] `lib/edit/p_info.txt:83` [C] C:k:+1000:+400:Spirituality
+- [ ] `lib/edit/p_info.txt:84` [C] C:k:+0:+550:Antimagic
+- [ ] `lib/edit/p_info.txt:85` [C] C:k:+0:+150:Magic-Device
+- [ ] `lib/edit/p_info.txt:86` [C] C:b:25:Spread blows
+- [ ] `lib/edit/p_info.txt:87` [C] C:b:1:Extra Max Blow(1)
+- [ ] `lib/edit/p_info.txt:88` [C] C:b:1:Extra Max Blow(2)
+- [ ] `lib/edit/p_info.txt:91` [C] C:a:N:Warrior
+- [ ] `lib/edit/p_info.txt:92` [C] C:a:D:Simple fighters, they hack away with their trusty weapon.
+- [ ] `lib/edit/p_info.txt:93` [C] C:a:O:23:16:1d1
+- [ ] `lib/edit/p_info.txt:94` [C] C:a:g:All Gods
+- [ ] `lib/edit/p_info.txt:96` [C] C:a:N:Swordmaster
+- [ ] `lib/edit/p_info.txt:97` [C] C:a:D:Fighters specialised in the use of swords
+- [ ] `lib/edit/p_info.txt:98` [C] C:a:k:+1000:+300:Sword-mastery
+- [ ] `lib/edit/p_info.txt:99` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:100` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:101` [C] C:a:k:+0:-100:Axe-mastery
+- [ ] `lib/edit/p_info.txt:102` [C] C:a:k:+0:-100:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:103` [C] C:a:k:+0:-100:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:104` [C] C:a:O:23:16:1d1
+- [ ] `lib/edit/p_info.txt:105` [C] C:a:g:Nobody
+- [ ] `lib/edit/p_info.txt:106` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:107` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:108` [C] C:a:g:Melkor Bauglir
+- [ ] `lib/edit/p_info.txt:109` [C] C:a:g:Yavanna Kementari
+- [ ] `lib/edit/p_info.txt:111` [C] C:a:N:Axemaster
+- [ ] `lib/edit/p_info.txt:112` [C] C:a:D:Fighters specialised in the use of axes
+- [ ] `lib/edit/p_info.txt:113` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:114` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:115` [C] C:a:k:+1000:+300:Axe-mastery
+- [ ] `lib/edit/p_info.txt:116` [C] C:a:k:+0:-100:Sword-mastery
+- [ ] `lib/edit/p_info.txt:117` [C] C:a:k:+0:-100:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:118` [C] C:a:k:+0:-100:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:119` [C] C:a:O:24:1:1d1
+- [ ] `lib/edit/p_info.txt:120` [C] C:a:g:Nobody
+- [ ] `lib/edit/p_info.txt:121` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:122` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:123` [C] C:a:g:Melkor Bauglir
+- [ ] `lib/edit/p_info.txt:124` [C] C:a:g:Yavanna Kementari
+- [ ] `lib/edit/p_info.txt:126` [C] C:a:N:Haftedmaster
+- [ ] `lib/edit/p_info.txt:127` [C] C:a:D:Fighters specialised in the use of hafted weapons
+- [ ] `lib/edit/p_info.txt:128` [C] C:a:k:+1000:+300:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:129` [C] C:a:k:+0:+500:Stunning-blows
+- [ ] `lib/edit/p_info.txt:130` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:131` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:132` [C] C:a:k:+0:-100:Axe-mastery
+- [ ] `lib/edit/p_info.txt:133` [C] C:a:k:+0:-100:Sword-mastery
+- [ ] `lib/edit/p_info.txt:134` [C] C:a:k:+0:-100:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:135` [C] C:a:O:21:13:1d1
+- [ ] `lib/edit/p_info.txt:136` [C] C:a:g:All Gods
+- [ ] `lib/edit/p_info.txt:138` [C] C:a:N:Polearmmaster
+- [ ] `lib/edit/p_info.txt:139` [C] C:a:D:Fighters specialised in the use of polearms
+- [ ] `lib/edit/p_info.txt:140` [C] C:a:k:+1000:+300:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:141` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:142` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:143` [C] C:a:k:+0:-100:Axe-mastery
+- [ ] `lib/edit/p_info.txt:144` [C] C:a:k:+0:-100:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:145` [C] C:a:k:+0:-100:Sword-mastery
+- [ ] `lib/edit/p_info.txt:146` [C] C:a:O:22:8:1d1
+- [ ] `lib/edit/p_info.txt:147` [C] C:a:g:All Gods
+- [ ] `lib/edit/p_info.txt:149` [C] C:a:N:Unbeliever
+- [ ] `lib/edit/p_info.txt:150` [C] C:a:D:They don't believe in magic and can even prevent its usage around them
+- [ ] `lib/edit/p_info.txt:151` [C] C:a:k:=0:=0:Prayer
+- [ ] `lib/edit/p_info.txt:152` [C] C:a:k:=0:=0:Magic
+- [ ] `lib/edit/p_info.txt:153` [C] C:a:k:=0:=0:Magic-Device
+- [ ] `lib/edit/p_info.txt:154` [C] C:a:k:=0:=0:Spirituality
+- [ ] `lib/edit/p_info.txt:155` [C] C:a:k:+1000:+100:Antimagic
+- [ ] `lib/edit/p_info.txt:156` [C] C:a:O:23:33:1d1
+- [ ] `lib/edit/p_info.txt:157` [C] C:a:g:Nobody
+- [ ] `lib/edit/p_info.txt:159` [C] C:a:N:Demonologist
+- [ ] `lib/edit/p_info.txt:160` [C] C:a:D:Masters of the school of demonology, they are trained in both melee
+- [ ] `lib/edit/p_info.txt:161` [C] C:a:D:fighting and using demon spells to enhance their combat potential.
+- [ ] `lib/edit/p_info.txt:162` [C] C:a:O:115:55:1d1
+- [ ] `lib/edit/p_info.txt:163` [C] C:a:k:+0:-50:Combat
+- [ ] `lib/edit/p_info.txt:164` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:165` [C] C:a:k:+0:+200:Sword-mastery
+- [ ] `lib/edit/p_info.txt:166` [C] C:a:k:=0:=0:Axe-mastery
+- [ ] `lib/edit/p_info.txt:167` [C] C:a:k:=0:=0:Hafted-mastery
+- [ ] `lib/edit/p_info.txt:168` [C] C:a:k:=0:=0:Polearm-mastery
+- [ ] `lib/edit/p_info.txt:169` [C] C:a:k:+1000:-200:Archery
+- [ ] `lib/edit/p_info.txt:170` [C] C:a:k:+1000:+400:Magic
+- [ ] `lib/edit/p_info.txt:171` [C] C:a:k:+1000:+300:Spirituality
+- [ ] `lib/edit/p_info.txt:172` [C] C:a:k:=0:=0:Antimagic
+- [ ] `lib/edit/p_info.txt:173` [C] C:a:k:+1000:+1000:Demonology
+- [ ] `lib/edit/p_info.txt:174` [C] C:a:g:Nobody
+- [ ] `lib/edit/p_info.txt:175` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:176` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:177` [C] C:a:g:Melkor Bauglir
+- [ ] `lib/edit/p_info.txt:179` [C] C:N:1:3:Mage
+- [ ] `lib/edit/p_info.txt:180` [C] C:D:0:The basic spellcaster with lots of different skills
+- [ ] `lib/edit/p_info.txt:181` [C] C:D:1:Apprentice
+- [ ] `lib/edit/p_info.txt:182` [C] C:D:1:Trickster
+- [ ] `lib/edit/p_info.txt:183` [C] C:D:1:Illusionist
+- [ ] `lib/edit/p_info.txt:184` [C] C:D:1:Spellbinder
+- [ ] `lib/edit/p_info.txt:185` [C] C:D:1:Evoker
+- [ ] `lib/edit/p_info.txt:186` [C] C:D:1:Conjurer
+- [ ] `lib/edit/p_info.txt:187` [C] C:D:1:Warlock
+- [ ] `lib/edit/p_info.txt:188` [C] C:D:1:Sorcerer
+- [ ] `lib/edit/p_info.txt:189` [C] C:D:1:Ipsissimus
+- [ ] `lib/edit/p_info.txt:190` [C] C:D:1:Archimage
+- [ ] `lib/edit/p_info.txt:191` [C] C:S:-5:3:0:1:-2:1:50:0
+- [ ] `lib/edit/p_info.txt:192` [C] C:B:4:40:2
+- [ ] `lib/edit/p_info.txt:193` [C] C:P:0:30
+- [ ] `lib/edit/p_info.txt:194` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:195` [C] C:k:+1000:+900:Magic
+- [ ] `lib/edit/p_info.txt:196` [C] C:k:+0:+200:Magic-Device
+- [ ] `lib/edit/p_info.txt:197` [C] C:k:+0:+600:Spell-power
+- [ ] `lib/edit/p_info.txt:198` [C] C:k:+1000:+600:Mana
+- [ ] `lib/edit/p_info.txt:199` [C] C:k:+0:+700:Fire
+- [ ] `lib/edit/p_info.txt:200` [C] C:k:+0:+700:Water
+- [ ] `lib/edit/p_info.txt:201` [C] C:k:+0:+700:Air
+- [ ] `lib/edit/p_info.txt:202` [C] C:k:+0:+700:Earth
+- [ ] `lib/edit/p_info.txt:203` [C] C:k:+0:+700:Temporal
+- [ ] `lib/edit/p_info.txt:204` [C] C:k:+0:+700:Divination
+- [ ] `lib/edit/p_info.txt:205` [C] C:k:+0:+700:Conveyance
+- [ ] `lib/edit/p_info.txt:206` [C] C:k:+0:+700:Nature
+- [ ] `lib/edit/p_info.txt:207` [C] C:k:+0:+700:Meta
+- [ ] `lib/edit/p_info.txt:208` [C] C:k:+0:+700:Mind
+- [ ] `lib/edit/p_info.txt:209` [C] C:k:+0:+700:Necromancy
+- [ ] `lib/edit/p_info.txt:210` [C] C:k:+0:+700:Thaumaturgy
+- [ ] `lib/edit/p_info.txt:211` [C] C:k:+1000:+550:Spirituality
+- [ ] `lib/edit/p_info.txt:212` [C] C:k:+1000:+200:Combat
+- [ ] `lib/edit/p_info.txt:213` [C] C:k:+700:+500:Weaponmastery
+- [ ] `lib/edit/p_info.txt:214` [C] C:k:+0000:+400:Stealth
+- [ ] `lib/edit/p_info.txt:215` [C] C:b:1:Perfect casting
+- [ ] `lib/edit/p_info.txt:216` [C] C:g:All Gods
+- [ ] `lib/edit/p_info.txt:218` [C] C:a:N:Mage
+- [ ] `lib/edit/p_info.txt:219` [C] C:a:D:The basic unspecialized warrior-spellcaster
+- [ ] `lib/edit/p_info.txt:220` [C] C:a:k:+0:+300:Combat
+- [ ] `lib/edit/p_info.txt:221` [C] C:a:k:+0:+200:Sorcery
+- [ ] `lib/edit/p_info.txt:222` [C] C:a:k:+0:+300:Mana
+- [ ] `lib/edit/p_info.txt:223` [C] C:a:k:+0:+200:Fire
+- [ ] `lib/edit/p_info.txt:224` [C] C:a:k:+0:+200:Water
+- [ ] `lib/edit/p_info.txt:225` [C] C:a:k:+0:+200:Air
+- [ ] `lib/edit/p_info.txt:226` [C] C:a:k:+0:+200:Earth
+- [ ] `lib/edit/p_info.txt:227` [C] C:a:k:+0:+200:Conveyance
+- [ ] `lib/edit/p_info.txt:228` [C] C:a:k:+0:+200:Nature
+- [ ] `lib/edit/p_info.txt:229` [C] C:a:k:+0:+200:Temporal
+- [ ] `lib/edit/p_info.txt:230` [C] C:a:k:+0:+200:Divination
+- [ ] `lib/edit/p_info.txt:231` [C] C:a:k:+0:+200:Meta
+- [ ] `lib/edit/p_info.txt:232` [C] C:a:k:+0:+200:Mind
+- [ ] `lib/edit/p_info.txt:233` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:234` [C] C:a:O:111:50:1d1
+- [ ] `lib/edit/p_info.txt:236` [C] C:a:N:Geomancer
+- [ ] `lib/edit/p_info.txt:237` [C] C:a:D:The master of the four elements
+- [ ] `lib/edit/p_info.txt:238` [C] C:a:k:+0:-150:Magic-Device
+- [ ] `lib/edit/p_info.txt:239` [C] C:a:k:+1000:+100:Spell-power
+- [ ] `lib/edit/p_info.txt:240` [C] C:a:k:-1000:-600:Mana
+- [ ] `lib/edit/p_info.txt:241` [C] C:a:k:+1000:+700:Geomancy
+- [ ] `lib/edit/p_info.txt:242` [C] C:a:k:+1000:+350:Fire
+- [ ] `lib/edit/p_info.txt:243` [C] C:a:k:+1000:+350:Water
+- [ ] `lib/edit/p_info.txt:244` [C] C:a:k:+1000:+350:Air
+- [ ] `lib/edit/p_info.txt:245` [C] C:a:k:+1000:+350:Earth
+- [ ] `lib/edit/p_info.txt:246` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:247` [C] C:a:O:6:1:1d1
+- [ ] `lib/edit/p_info.txt:249` [C] C:a:N:Warper
+- [ ] `lib/edit/p_info.txt:250` [C] C:a:D:The master of space and time
+- [ ] `lib/edit/p_info.txt:251` [C] C:a:k:+0:-150:Magic-Device
+- [ ] `lib/edit/p_info.txt:252` [C] C:a:k:+1000:+100:Spell-power
+- [ ] `lib/edit/p_info.txt:253` [C] C:a:k:+0:+100:Mana
+- [ ] `lib/edit/p_info.txt:254` [C] C:a:k:+0:+100:Fire
+- [ ] `lib/edit/p_info.txt:255` [C] C:a:k:+0:+100:Water
+- [ ] `lib/edit/p_info.txt:256` [C] C:a:k:+0:+100:Air
+- [ ] `lib/edit/p_info.txt:257` [C] C:a:k:+0:+100:Earth
+- [ ] `lib/edit/p_info.txt:258` [C] C:a:k:+0:+500:Conveyance
+- [ ] `lib/edit/p_info.txt:259` [C] C:a:k:+0:+100:Nature
+- [ ] `lib/edit/p_info.txt:260` [C] C:a:k:+0:+500:Temporal
+- [ ] `lib/edit/p_info.txt:261` [C] C:a:k:+0:+500:Divination
+- [ ] `lib/edit/p_info.txt:262` [C] C:a:k:+0:+100:Meta
+- [ ] `lib/edit/p_info.txt:263` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:264` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:265` [C] C:a:O:111:50:1d1
+- [ ] `lib/edit/p_info.txt:267` [C] C:a:N:Sorceror
+- [ ] `lib/edit/p_info.txt:268` [C] C:a:D:The master of all magic schools
+- [ ] `lib/edit/p_info.txt:269` [C] C:a:k:+0:-200:Magic-Device
+- [ ] `lib/edit/p_info.txt:270` [C] C:a:k:=0:=0:Weaponmastery
+- [ ] `lib/edit/p_info.txt:271` [C] C:a:k:=0:=0:Combat
+- [ ] `lib/edit/p_info.txt:272` [C] C:a:k:+1000:+700:Sorcery
+- [ ] `lib/edit/p_info.txt:273` [C] C:a:k:+0:+100:Magic
+- [ ] `lib/edit/p_info.txt:274` [C] C:a:k:-1000:+300:Mana
+- [ ] `lib/edit/p_info.txt:275` [C] C:a:k:+0:+300:Fire
+- [ ] `lib/edit/p_info.txt:276` [C] C:a:k:+0:+300:Water
+- [ ] `lib/edit/p_info.txt:277` [C] C:a:k:+0:+300:Air
+- [ ] `lib/edit/p_info.txt:278` [C] C:a:k:+0:+300:Earth
+- [ ] `lib/edit/p_info.txt:279` [C] C:a:k:+0:+300:Conveyance
+- [ ] `lib/edit/p_info.txt:280` [C] C:a:k:+0:+300:Nature
+- [ ] `lib/edit/p_info.txt:281` [C] C:a:k:+0:+300:Temporal
+- [ ] `lib/edit/p_info.txt:282` [C] C:a:k:+0:+300:Divination
+- [ ] `lib/edit/p_info.txt:283` [C] C:a:k:+0:+300:Meta
+- [ ] `lib/edit/p_info.txt:284` [C] C:a:k:+0:+300:Mind
+- [ ] `lib/edit/p_info.txt:285` [C] C:a:k:+0:+200:Necromancy
+- [ ] `lib/edit/p_info.txt:286` [C] C:a:k:+0:+200:Thaumaturgy
+- [ ] `lib/edit/p_info.txt:287` [C] C:a:O:36:2:1d1
+- [ ] `lib/edit/p_info.txt:288` [C] C:a:O:111:50:1d1
+- [ ] `lib/edit/p_info.txt:290` [C] C:a:N:Necromancer
+- [ ] `lib/edit/p_info.txt:291` [C] C:a:D:The master of death, and undeath
+- [ ] `lib/edit/p_info.txt:292` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:293` [C] C:a:k:+0:+200:Combat
+- [ ] `lib/edit/p_info.txt:294` [C] C:a:k:+1000:+300:Necromancy
+- [ ] `lib/edit/p_info.txt:295` [C] C:a:k:-1000:+0:Mana
+- [ ] `lib/edit/p_info.txt:296` [C] C:a:k:+0:+100:Fire
+- [ ] `lib/edit/p_info.txt:297` [C] C:a:k:+0:+100:Earth
+- [ ] `lib/edit/p_info.txt:298` [C] C:a:k:+0:-200:Nature
+- [ ] `lib/edit/p_info.txt:299` [C] C:a:k:+0:+100:Temporal
+- [ ] `lib/edit/p_info.txt:300` [C] C:a:k:+0:+200:Mind
+- [ ] `lib/edit/p_info.txt:301` [C] C:a:k:+1000:+600:Monster-lore
+- [ ] `lib/edit/p_info.txt:302` [C] C:a:k:+5000:+900:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:303` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:304` [C] C:a:O:111:50:1d1
+- [ ] `lib/edit/p_info.txt:305` [C] C:a:b:25:Undead Form
+- [ ] `lib/edit/p_info.txt:307` [C] C:a:N:Thaumaturgist
+- [ ] `lib/edit/p_info.txt:308` [C] C:a:D:Thaumaturgy spells come from within and are different for each character.
+- [ ] `lib/edit/p_info.txt:309` [C] C:a:D:Since attack is the best defence, all their spells are offensive.
+- [ ] `lib/edit/p_info.txt:310` [C] C:a:k:-1000:+0:Mana
+- [ ] `lib/edit/p_info.txt:311` [C] C:a:k:+2000:+50:Magic
+- [ ] `lib/edit/p_info.txt:312` [C] C:a:k:+1000:+300:Thaumaturgy
+- [ ] `lib/edit/p_info.txt:313` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:314` [C] C:a:k:+0:-150:Magic-Device
+- [ ] `lib/edit/p_info.txt:315` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:316` [C] C:a:O:111:50:1d1
+- [ ] `lib/edit/p_info.txt:318` [C] C:N:2:1:Archer
+- [ ] `lib/edit/p_info.txt:319` [C] C:D:0:'Kill them before they see you' could be the motto of the archer class.
+- [ ] `lib/edit/p_info.txt:320` [C] C:D:0:As deadly with a bow as a warrior is with a sword.
+- [ ] `lib/edit/p_info.txt:321` [C] C:D:1:Rock Thrower
+- [ ] `lib/edit/p_info.txt:322` [C] C:D:1:Slinger
+- [ ] `lib/edit/p_info.txt:323` [C] C:D:1:Great Slinger
+- [ ] `lib/edit/p_info.txt:324` [C] C:D:1:Tosser
+- [ ] `lib/edit/p_info.txt:325` [C] C:D:1:Bowman
+- [ ] `lib/edit/p_info.txt:326` [C] C:D:1:Great Bowman
+- [ ] `lib/edit/p_info.txt:327` [C] C:D:1:Great Bowman
+- [ ] `lib/edit/p_info.txt:328` [C] C:D:1:Archer
+- [ ] `lib/edit/p_info.txt:329` [C] C:D:1:Archer
+- [ ] `lib/edit/p_info.txt:330` [C] C:D:1:Great Archer
+- [ ] `lib/edit/p_info.txt:331` [C] C:S:2:1:0:2:1:1:0:0
+- [ ] `lib/edit/p_info.txt:332` [C] C:B:4:35:4
+- [ ] `lib/edit/p_info.txt:333` [C] C:P:4:30
+- [ ] `lib/edit/p_info.txt:334` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:335` [C] C:k:+1000:+800:Combat
+- [ ] `lib/edit/p_info.txt:336` [C] C:k:+1000:+500:Weaponmastery
+- [ ] `lib/edit/p_info.txt:337` [C] C:k:+1000:+750:Archery
+- [ ] `lib/edit/p_info.txt:338` [C] C:k:+0:+300:Bow-mastery
+- [ ] `lib/edit/p_info.txt:339` [C] C:k:+0:+300:Crossbow-mastery
+- [ ] `lib/edit/p_info.txt:340` [C] C:k:+0:+300:Sling-mastery
+- [ ] `lib/edit/p_info.txt:341` [C] C:k:+0:+300:Boomerang-mastery
+- [ ] `lib/edit/p_info.txt:342` [C] C:k:+0:%150:Boulder-throwing
+- [ ] `lib/edit/p_info.txt:343` [C] C:k:+0000:+400:Stealth
+- [ ] `lib/edit/p_info.txt:344` [C] C:k:+1000:+300:Magic
+- [ ] `lib/edit/p_info.txt:345` [C] C:k:+0:+100:Magic-Device
+- [ ] `lib/edit/p_info.txt:346` [C] C:k:+1000:+400:Spirituality
+- [ ] `lib/edit/p_info.txt:347` [C] C:b:2:Ammo creation
+- [ ] `lib/edit/p_info.txt:349` [C] C:a:N:Archer
+- [ ] `lib/edit/p_info.txt:350` [C] C:a:D:'Kill them before they see you' could be the motto of the archer class.
+- [ ] `lib/edit/p_info.txt:351` [C] C:a:D:As deadly with a bow as a warrior is with a sword.
+- [ ] `lib/edit/p_info.txt:352` [C] C:a:k:+0:+100:Archery
+- [ ] `lib/edit/p_info.txt:353` [C] C:a:k:+0:+200:Bow-mastery
+- [ ] `lib/edit/p_info.txt:354` [C] C:a:k:+0:+200:Crossbow-mastery
+- [ ] `lib/edit/p_info.txt:355` [C] C:a:k:+0:+200:Sling-mastery
+- [ ] `lib/edit/p_info.txt:356` [C] C:a:k:+0:+200:Boomerang-mastery
+- [ ] `lib/edit/p_info.txt:357` [C] C:a:k:-1000:-100:Magic
+- [ ] `lib/edit/p_info.txt:358` [C] C:a:O:19:12:1d1
+- [ ] `lib/edit/p_info.txt:359` [C] C:a:O:19:2:1d1
+- [ ] `lib/edit/p_info.txt:360` [C] C:a:O:17:1:10d3
+- [ ] `lib/edit/p_info.txt:361` [C] C:a:O:17:1:10d3
+- [ ] `lib/edit/p_info.txt:362` [C] C:a:g:All Gods
+- [ ] `lib/edit/p_info.txt:364` [C] C:a:N:Ranger
+- [ ] `lib/edit/p_info.txt:365` [C] C:a:D:Rangers are capable archers but are also trained in hand to hand combat
+- [ ] `lib/edit/p_info.txt:366` [C] C:a:D:and nature/conveyance/divination magic schools
+- [ ] `lib/edit/p_info.txt:367` [C] C:a:k:+0:+400:Magic
+- [ ] `lib/edit/p_info.txt:368` [C] C:a:k:+0:+500:Nature
+- [ ] `lib/edit/p_info.txt:369` [C] C:a:k:+0:+500:Divination
+- [ ] `lib/edit/p_info.txt:370` [C] C:a:k:+0:+500:Conveyance
+- [ ] `lib/edit/p_info.txt:371` [C] C:a:k:+0:+200:Monster-lore
+- [ ] `lib/edit/p_info.txt:372` [C] C:a:O:19:12:1d1
+- [ ] `lib/edit/p_info.txt:373` [C] C:a:O:17:1:10d3
+- [ ] `lib/edit/p_info.txt:374` [C] C:a:O:23:10:1d1
+- [ ] `lib/edit/p_info.txt:375` [C] C:a:g:Nobody
+- [ ] `lib/edit/p_info.txt:376` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:377` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:378` [C] C:a:g:Yavanna Kementari
+- [ ] `lib/edit/p_info.txt:380` [C] C:N:3:2:Rogue
+- [ ] `lib/edit/p_info.txt:381` [C] C:D:0:Rogues are masters of tricks. They can steal from shops and monsters,
+- [ ] `lib/edit/p_info.txt:382` [C] C:D:0:and excel at stealthily exploring the dungeon.
+- [ ] `lib/edit/p_info.txt:383` [C] C:D:1:Cutpurse
+- [ ] `lib/edit/p_info.txt:384` [C] C:D:1:Robber
+- [ ] `lib/edit/p_info.txt:385` [C] C:D:1:Burglar
+- [ ] `lib/edit/p_info.txt:386` [C] C:D:1:Filcher
+- [ ] `lib/edit/p_info.txt:387` [C] C:D:1:Sharper
+- [ ] `lib/edit/p_info.txt:388` [C] C:D:1:Low Thief
+- [ ] `lib/edit/p_info.txt:389` [C] C:D:1:High Thief
+- [ ] `lib/edit/p_info.txt:390` [C] C:D:1:Master Thief
+- [ ] `lib/edit/p_info.txt:391` [C] C:D:1:Assassin
+- [ ] `lib/edit/p_info.txt:392` [C] C:D:1:Guildmaster
+- [ ] `lib/edit/p_info.txt:393` [C] C:S:2:1:-2:3:1:-1:0:0
+- [ ] `lib/edit/p_info.txt:394` [C] C:B:4:30:3
+- [ ] `lib/edit/p_info.txt:395` [C] C:P:6:25
+- [ ] `lib/edit/p_info.txt:396` [C] C:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:397` [C] C:G:EASE_STEAL
+- [ ] `lib/edit/p_info.txt:398` [C] C:R:3:1
+- [ ] `lib/edit/p_info.txt:399` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:400` [C] C:R:6:1
+- [ ] `lib/edit/p_info.txt:401` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:402` [C] C:R:9:1
+- [ ] `lib/edit/p_info.txt:403` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:404` [C] C:R:12:1
+- [ ] `lib/edit/p_info.txt:405` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:406` [C] C:R:15:1
+- [ ] `lib/edit/p_info.txt:407` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:408` [C] C:R:18:1
+- [ ] `lib/edit/p_info.txt:409` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:410` [C] C:R:21:1
+- [ ] `lib/edit/p_info.txt:411` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:412` [C] C:R:24:1
+- [ ] `lib/edit/p_info.txt:413` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:414` [C] C:R:27:1
+- [ ] `lib/edit/p_info.txt:415` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:416` [C] C:R:30:1
+- [ ] `lib/edit/p_info.txt:417` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:418` [C] C:R:33:1
+- [ ] `lib/edit/p_info.txt:419` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:420` [C] C:R:36:1
+- [ ] `lib/edit/p_info.txt:421` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:422` [C] C:R:39:1
+- [ ] `lib/edit/p_info.txt:423` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:424` [C] C:R:42:1
+- [ ] `lib/edit/p_info.txt:425` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:426` [C] C:R:45:1
+- [ ] `lib/edit/p_info.txt:427` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:428` [C] C:R:48:1
+- [ ] `lib/edit/p_info.txt:429` [C] C:F:CRIT
+- [ ] `lib/edit/p_info.txt:430` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:431` [C] C:k:+1000:+700:Combat
+- [ ] `lib/edit/p_info.txt:432` [C] C:k:+1000:+700:Weaponmastery
+- [ ] `lib/edit/p_info.txt:433` [C] C:k:+1000:+300:Sword-mastery
+- [ ] `lib/edit/p_info.txt:434` [C] C:k:+1000:+500:Critical-hits
+- [ ] `lib/edit/p_info.txt:435` [C] C:k:+1000:+700:Magic
+- [ ] `lib/edit/p_info.txt:436` [C] C:k:+0:+550:Magic-Device
+- [ ] `lib/edit/p_info.txt:437` [C] C:k:+0:+500:Conveyance
+- [ ] `lib/edit/p_info.txt:438` [C] C:k:+0:+500:Divination
+- [ ] `lib/edit/p_info.txt:439` [C] C:k:+0:+500:Temporal
+- [ ] `lib/edit/p_info.txt:440` [C] C:k:+1000:+700:Spirituality
+- [ ] `lib/edit/p_info.txt:441` [C] C:k:+1000:+1500:Stealth
+- [ ] `lib/edit/p_info.txt:442` [C] C:k:+1000:+1000:Backstab
+- [ ] `lib/edit/p_info.txt:443` [C] C:k:+1000:+2000:Stealing
+- [ ] `lib/edit/p_info.txt:444` [C] C:k:+1000:+2000:Dodging
+- [ ] `lib/edit/p_info.txt:445` [C] C:g:All Gods
+- [ ] `lib/edit/p_info.txt:446` [C] C:b:10:Extra Max Blow(1)
+- [ ] `lib/edit/p_info.txt:448` [C] C:a:N:Rogue
+- [ ] `lib/edit/p_info.txt:449` [C] C:a:D:Rogues are masters of tricks. They can steal from shops and monsters,
+- [ ] `lib/edit/p_info.txt:450` [C] C:a:D:and lure monsters into deadly monster traps.
+- [ ] `lib/edit/p_info.txt:452` [C] C:a:N:Assassin
+- [ ] `lib/edit/p_info.txt:453` [C] C:a:D:Assassins are stealthy killers.
+- [ ] `lib/edit/p_info.txt:454` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:455` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:456` [C] C:a:k:+0:+300:Sword-mastery
+- [ ] `lib/edit/p_info.txt:457` [C] C:a:k:+1000:+300:Critical-hits
+- [ ] `lib/edit/p_info.txt:458` [C] C:a:k:+1000:+300:Boomerang-mastery
+- [ ] `lib/edit/p_info.txt:459` [C] C:a:k:+0:-500:Magic
+- [ ] `lib/edit/p_info.txt:460` [C] C:a:k:+0:-400:Conveyance
+- [ ] `lib/edit/p_info.txt:461` [C] C:a:k:+0:-400:Divination
+- [ ] `lib/edit/p_info.txt:462` [C] C:a:k:+0:-300:Temporal
+- [ ] `lib/edit/p_info.txt:463` [C] C:a:k:+0:+500:Stealth
+- [ ] `lib/edit/p_info.txt:464` [C] C:a:k:+0:+1000:Backstab
+- [ ] `lib/edit/p_info.txt:465` [C] C:a:k:+0:-1800:Stealing
+- [ ] `lib/edit/p_info.txt:466` [C] C:a:k:+0:-800:Magic-Device
+- [ ] `lib/edit/p_info.txt:468` [C] C:N:4:5:Loremaster
+- [ ] `lib/edit/p_info.txt:469` [C] C:D:0:Loremasters are skilled in most combat and monster skills.
+- [ ] `lib/edit/p_info.txt:470` [C] C:D:1:Apprentice
+- [ ] `lib/edit/p_info.txt:471` [C] C:D:1:Apprentice
+- [ ] `lib/edit/p_info.txt:472` [C] C:D:1:Initiate
+- [ ] `lib/edit/p_info.txt:473` [C] C:D:1:Initiate
+- [ ] `lib/edit/p_info.txt:474` [C] C:D:1:Sage
+- [ ] `lib/edit/p_info.txt:475` [C] C:D:1:Sage
+- [ ] `lib/edit/p_info.txt:476` [C] C:D:1:Lorekeeper
+- [ ] `lib/edit/p_info.txt:477` [C] C:D:1:Lorekeeper
+- [ ] `lib/edit/p_info.txt:478` [C] C:D:1:Loremaster
+- [ ] `lib/edit/p_info.txt:479` [C] C:D:1:Loremaster
+- [ ] `lib/edit/p_info.txt:480` [C] C:S:1:-2:1:1:0:1:0:0
+- [ ] `lib/edit/p_info.txt:481` [C] C:B:4:30:3
+- [ ] `lib/edit/p_info.txt:482` [C] C:P:8:40
+- [ ] `lib/edit/p_info.txt:483` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:484` [C] C:k:+1000:+700:Combat
+- [ ] `lib/edit/p_info.txt:485` [C] C:k:+1000:+700:Weaponmastery
+- [ ] `lib/edit/p_info.txt:486` [C] C:k:+1000:+700:Archery
+- [ ] `lib/edit/p_info.txt:487` [C] C:k:+1000:+700:Barehand-combat
+- [ ] `lib/edit/p_info.txt:488` [C] C:k:+0:+600:Magic
+- [ ] `lib/edit/p_info.txt:489` [C] C:k:+1000:+700:Stealth
+- [ ] `lib/edit/p_info.txt:490` [C] C:k:+1000:+700:Spirituality
+- [ ] `lib/edit/p_info.txt:491` [C] C:k:+1000:+600:Monster-lore
+- [ ] `lib/edit/p_info.txt:492` [C] C:k:+0:+500:Possession
+- [ ] `lib/edit/p_info.txt:493` [C] C:k:+1000:+700:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:494` [C] C:k:+0:+500:Summoning
+- [ ] `lib/edit/p_info.txt:495` [C] C:k:+0:+500:Symbiosis
+- [ ] `lib/edit/p_info.txt:496` [C] C:k:+0:+500:Mimicry
+- [ ] `lib/edit/p_info.txt:497` [C] C:k:+0:+300:Music
+- [ ] `lib/edit/p_info.txt:498` [C] C:g:All Gods
+- [ ] `lib/edit/p_info.txt:500` [C] C:a:N:Loremaster
+- [ ] `lib/edit/p_info.txt:501` [C] C:a:D:Loremasters are skilled in most combat and monster skills.
+- [ ] `lib/edit/p_info.txt:502` [C] C:a:O:21:3:1d1
+- [ ] `lib/edit/p_info.txt:503` [C] C:a:O:36:6:1d1
+- [ ] `lib/edit/p_info.txt:504` [C] C:a:O:19:2:1d1
+- [ ] `lib/edit/p_info.txt:505` [C] C:a:O:16:0:3d10
+- [ ] `lib/edit/p_info.txt:507` [C] C:a:N:Possessor
+- [ ] `lib/edit/p_info.txt:508` [C] C:a:D:Only the soul matters; a possessor can abandon his/her current body to
+- [ ] `lib/edit/p_info.txt:509` [C] C:a:D:incarnate in the body of a dead monster, thus gaining its powers
+- [ ] `lib/edit/p_info.txt:510` [C] C:a:D:and weaknesses.
+- [ ] `lib/edit/p_info.txt:511` [C] C:a:O:71:37:1d1
+- [ ] `lib/edit/p_info.txt:512` [C] C:a:O:23:10:1d1
+- [ ] `lib/edit/p_info.txt:513` [C] C:a:O:36:6:1d1
+- [ ] `lib/edit/p_info.txt:514` [C] C:a:k:+0:-100:Combat
+- [ ] `lib/edit/p_info.txt:515` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:516` [C] C:a:k:+0:-300:Archery
+- [ ] `lib/edit/p_info.txt:517` [C] C:a:k:+0:-100:Barehand-combat
+- [ ] `lib/edit/p_info.txt:518` [C] C:a:k:+0:-200:Spirituality
+- [ ] `lib/edit/p_info.txt:519` [C] C:a:k:+1000:+300:Possession
+- [ ] `lib/edit/p_info.txt:520` [C] C:a:k:+0:+200:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:521` [C] C:a:k:+0:-500:Summoning
+- [ ] `lib/edit/p_info.txt:522` [C] C:a:k:+0:-500:Symbiosis
+- [ ] `lib/edit/p_info.txt:523` [C] C:a:k:+0:-500:Mimicry
+- [ ] `lib/edit/p_info.txt:525` [C] C:a:N:Mimic
+- [ ] `lib/edit/p_info.txt:526` [C] C:a:D:Disguise is the way of the mimic. Through the use of cloaks of mimicry
+- [ ] `lib/edit/p_info.txt:527` [C] C:a:D:they can change shape for a limited time. They also can temporarily
+- [ ] `lib/edit/p_info.txt:528` [C] C:a:D:change part of their anatomy.
+- [ ] `lib/edit/p_info.txt:529` [C] C:a:O:71:37:1d1
+- [ ] `lib/edit/p_info.txt:530` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:531` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:532` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:533` [C] C:a:k:+0:-100:Barehand-combat
+- [ ] `lib/edit/p_info.txt:534` [C] C:a:k:+1000:+100:Magic
+- [ ] `lib/edit/p_info.txt:535` [C] C:a:k:+0:+100:Stealth
+- [ ] `lib/edit/p_info.txt:536` [C] C:a:k:+0:-200:Spirituality
+- [ ] `lib/edit/p_info.txt:537` [C] C:a:k:+0:-400:Possession
+- [ ] `lib/edit/p_info.txt:538` [C] C:a:k:+0:+200:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:539` [C] C:a:k:+0:-500:Summoning
+- [ ] `lib/edit/p_info.txt:540` [C] C:a:k:+0:-500:Symbiosis
+- [ ] `lib/edit/p_info.txt:541` [C] C:a:k:+1000:+300:Mimicry
+- [ ] `lib/edit/p_info.txt:543` [C] C:a:N:Symbiant
+- [ ] `lib/edit/p_info.txt:544` [C] C:a:D:A symbiant can merge his/her body with one of a monster unable to move
+- [ ] `lib/edit/p_info.txt:545` [C] C:a:D:by itself. They also have a few spells to help the symbiosis.
+- [ ] `lib/edit/p_info.txt:546` [C] C:a:O:23:4:1d1
+- [ ] `lib/edit/p_info.txt:547` [C] C:a:O:70:6:1d1
+- [ ] `lib/edit/p_info.txt:548` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:549` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:550` [C] C:a:k:+0:-100:Barehand-combat
+- [ ] `lib/edit/p_info.txt:551` [C] C:a:k:+1000:+100:Magic
+- [ ] `lib/edit/p_info.txt:552` [C] C:a:k:+0:+100:Stealth
+- [ ] `lib/edit/p_info.txt:553` [C] C:a:k:+0:-200:Spirituality
+- [ ] `lib/edit/p_info.txt:554` [C] C:a:k:+0:-400:Possession
+- [ ] `lib/edit/p_info.txt:555` [C] C:a:k:+0:+200:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:556` [C] C:a:k:+0:-500:Summoning
+- [ ] `lib/edit/p_info.txt:557` [C] C:a:k:+1000:+300:Symbiosis
+- [ ] `lib/edit/p_info.txt:558` [C] C:a:k:+0:-500:Mimicry
+- [ ] `lib/edit/p_info.txt:560` [C] C:a:N:Summoner
+- [ ] `lib/edit/p_info.txt:561` [C] C:a:D:The summoner can conjure monsters from totems made from defeated foes.
+- [ ] `lib/edit/p_info.txt:562` [C] C:a:O:71:37:1d1
+- [ ] `lib/edit/p_info.txt:563` [C] C:a:O:23:10:1d1
+- [ ] `lib/edit/p_info.txt:564` [C] C:a:O:36:6:1d1
+- [ ] `lib/edit/p_info.txt:565` [C] C:a:k:+0:-100:Combat
+- [ ] `lib/edit/p_info.txt:566` [C] C:a:k:+0:-100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:567` [C] C:a:k:+0:-300:Archery
+- [ ] `lib/edit/p_info.txt:568` [C] C:a:k:-1000:-700:Barehand-combat
+- [ ] `lib/edit/p_info.txt:569` [C] C:a:k:+1000:+200:Magic
+- [ ] `lib/edit/p_info.txt:570` [C] C:a:k:+0:+0:Stealth
+- [ ] `lib/edit/p_info.txt:571` [C] C:a:k:+0:-200:Spirituality
+- [ ] `lib/edit/p_info.txt:572` [C] C:a:k:+15000:+100:Monster-lore
+- [ ] `lib/edit/p_info.txt:573` [C] C:a:k:+0:-500:Possession
+- [ ] `lib/edit/p_info.txt:574` [C] C:a:k:+0:+300:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:575` [C] C:a:k:+1000:+200:Summoning
+- [ ] `lib/edit/p_info.txt:576` [C] C:a:k:+0:-500:Symbiosis
+- [ ] `lib/edit/p_info.txt:577` [C] C:a:k:+0:-500:Mimicry
+- [ ] `lib/edit/p_info.txt:579` [C] C:a:N:Monk
+- [ ] `lib/edit/p_info.txt:580` [C] C:a:D:Barehanded, lightly armoured fighters, they wreak havoc with
+- [ ] `lib/edit/p_info.txt:581` [C] C:a:D:their bare fists, and can also use a few prayers.
+- [ ] `lib/edit/p_info.txt:582` [C] C:a:O:71:37:1d1
+- [ ] `lib/edit/p_info.txt:583` [C] C:a:O:36:4:1d1
+- [ ] `lib/edit/p_info.txt:584` [C] C:a:k:-1000:+200:Combat
+- [ ] `lib/edit/p_info.txt:585` [C] C:a:k:-1000:-400:Weaponmastery
+- [ ] `lib/edit/p_info.txt:586` [C] C:a:k:-1000:-300:Archery
+- [ ] `lib/edit/p_info.txt:587` [C] C:a:k:+0:+200:Barehand-combat
+- [ ] `lib/edit/p_info.txt:588` [C] C:a:k:+0:+0:Magic
+- [ ] `lib/edit/p_info.txt:589` [C] C:a:k:+0:+200:Stealth
+- [ ] `lib/edit/p_info.txt:590` [C] C:a:k:+0:+200:Spirituality
+- [ ] `lib/edit/p_info.txt:591` [C] C:a:k:+0:-400:Possession
+- [ ] `lib/edit/p_info.txt:592` [C] C:a:k:+0:-200:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:593` [C] C:a:k:+0:-500:Summoning
+- [ ] `lib/edit/p_info.txt:594` [C] C:a:k:+0:-500:Symbiosis
+- [ ] `lib/edit/p_info.txt:595` [C] C:a:k:+0:-500:Mimicry
+- [ ] `lib/edit/p_info.txt:596` [C] C:a:k:+0:+500:Meta
+- [ ] `lib/edit/p_info.txt:597` [C] C:a:k:+0:+500:Mind
+- [ ] `lib/edit/p_info.txt:598` [C] C:a:k:+0:+500:Temporal
+- [ ] `lib/edit/p_info.txt:599` [C] C:a:k:+0:+700:Dodging
+- [ ] `lib/edit/p_info.txt:601` [C] C:a:N:Bard
+- [ ] `lib/edit/p_info.txt:602` [C] C:a:D:Bards sing and play songs full of power, beauty or sadness to affect
+- [ ] `lib/edit/p_info.txt:603` [C] C:a:D:everything that can hear them, using music instruments of various types.
+- [ ] `lib/edit/p_info.txt:604` [C] C:a:O:71:37:1d1
+- [ ] `lib/edit/p_info.txt:605` [C] C:a:O:23:10:1d1
+- [ ] `lib/edit/p_info.txt:606` [C] C:a:O:36:2:1d1
+- [ ] `lib/edit/p_info.txt:607` [C] C:a:O:14:59:1d1
+- [ ] `lib/edit/p_info.txt:608` [C] C:a:k:+1000:+0:Magic
+- [ ] `lib/edit/p_info.txt:609` [C] C:a:k:-1000:-700:Archery
+- [ ] `lib/edit/p_info.txt:610` [C] C:a:k:+0:-100:Barehand-combat
+- [ ] `lib/edit/p_info.txt:611` [C] C:a:k:+0:+100:Spirituality
+- [ ] `lib/edit/p_info.txt:612` [C] C:a:k:+0:-500:Possession
+- [ ] `lib/edit/p_info.txt:613` [C] C:a:k:+0:-100:Summoning
+- [ ] `lib/edit/p_info.txt:614` [C] C:a:k:+0:-100:Symbiosis
+- [ ] `lib/edit/p_info.txt:615` [C] C:a:k:+0:-100:Mimicry
+- [ ] `lib/edit/p_info.txt:616` [C] C:a:k:+1000:+500:Music
+- [ ] `lib/edit/p_info.txt:618` [C] C:N:5:4:Priest
+- [ ] `lib/edit/p_info.txt:619` [C] C:D:0:A priest serves a god (Vala, Maia or Eru himself) to bring down
+- [ ] `lib/edit/p_info.txt:620` [C] C:D:0:the empire of fear and shadows of Morgoth.
+- [ ] `lib/edit/p_info.txt:621` [C] C:D:1:Believer
+- [ ] `lib/edit/p_info.txt:622` [C] C:D:1:Acolyte
+- [ ] `lib/edit/p_info.txt:623` [C] C:D:1:Adept
+- [ ] `lib/edit/p_info.txt:624` [C] C:D:1:Curate
+- [ ] `lib/edit/p_info.txt:625` [C] C:D:1:Canon
+- [ ] `lib/edit/p_info.txt:626` [C] C:D:1:Priest
+- [ ] `lib/edit/p_info.txt:627` [C] C:D:1:High Priest
+- [ ] `lib/edit/p_info.txt:628` [C] C:D:1:Cardinal
+- [ ] `lib/edit/p_info.txt:629` [C] C:D:1:Inquisitor
+- [ ] `lib/edit/p_info.txt:630` [C] C:D:1:Pope
+- [ ] `lib/edit/p_info.txt:631` [C] C:S:-1:-3:3:-1:0:2:0:0
+- [ ] `lib/edit/p_info.txt:632` [C] C:B:4:35:3
+- [ ] `lib/edit/p_info.txt:633` [C] C:P:2:20
+- [ ] `lib/edit/p_info.txt:634` [C] C:G:GOD_FRIEND
+- [ ] `lib/edit/p_info.txt:635` [C] C:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:636` [C] C:k:+1000:+900:Magic
+- [ ] `lib/edit/p_info.txt:637` [C] C:k:+0:+600:Spell-power
+- [ ] `lib/edit/p_info.txt:638` [C] C:k:+0:+600:Necromancy
+- [ ] `lib/edit/p_info.txt:639` [C] C:k:+0:+600:Mindcraft
+- [ ] `lib/edit/p_info.txt:640` [C] C:k:+1000:+1000:Spirituality
+- [ ] `lib/edit/p_info.txt:641` [C] C:k:+1000:+700:Prayer
+- [ ] `lib/edit/p_info.txt:642` [C] C:k:+2000:+700:Combat
+- [ ] `lib/edit/p_info.txt:643` [C] C:k:+1000:+700:Weaponmastery
+- [ ] `lib/edit/p_info.txt:644` [C] C:k:+0000:+400:Stealth
+- [ ] `lib/edit/p_info.txt:645` [C] C:k:+0:+50:Magic-Device
+- [ ] `lib/edit/p_info.txt:646` [C] C:b:1:Perfect casting
+- [ ] `lib/edit/p_info.txt:648` [C] C:a:N:Priest(Eru)
+- [ ] `lib/edit/p_info.txt:649` [C] C:a:D:A priest that serves Eru Iluvatar to bring down
+- [ ] `lib/edit/p_info.txt:650` [C] C:a:D:the empire of fear and shadows of Morgoth.
+- [ ] `lib/edit/p_info.txt:651` [C] C:a:O:21:5:1d1
+- [ ] `lib/edit/p_info.txt:652` [C] C:a:g:Eru Iluvatar
+- [ ] `lib/edit/p_info.txt:653` [C] C:a:k:+0:+300:Prayer
+- [ ] `lib/edit/p_info.txt:654` [C] C:a:k:+0:-600:Necromancy
+- [ ] `lib/edit/p_info.txt:655` [C] C:a:k:+0:+100:Spell-power
+- [ ] `lib/edit/p_info.txt:657` [C] C:a:N:Priest(Manwe)
+- [ ] `lib/edit/p_info.txt:658` [C] C:a:D:A priest that serves Manwe Sulimo to bring down
+- [ ] `lib/edit/p_info.txt:659` [C] C:a:D:the empire of fear and shadows of Morgoth.
+- [ ] `lib/edit/p_info.txt:660` [C] C:a:O:21:5:1d1
+- [ ] `lib/edit/p_info.txt:661` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:662` [C] C:a:k:+0:+300:Prayer
+- [ ] `lib/edit/p_info.txt:663` [C] C:a:k:+0:-600:Necromancy
+- [ ] `lib/edit/p_info.txt:664` [C] C:a:k:+0:+50:Weaponmastery
+- [ ] `lib/edit/p_info.txt:666` [C] C:a:N:Druid
+- [ ] `lib/edit/p_info.txt:667` [C] C:a:D:A priest that serves Yavanna Kementari to protect
+- [ ] `lib/edit/p_info.txt:668` [C] C:a:D:and help the regrowth of nature on Arda.
+- [ ] `lib/edit/p_info.txt:669` [C] C:a:O:21:5:1d1
+- [ ] `lib/edit/p_info.txt:670` [C] C:a:g:Yavanna Kementari
+- [ ] `lib/edit/p_info.txt:671` [C] C:a:k:+0:+300:Prayer
+- [ ] `lib/edit/p_info.txt:672` [C] C:a:k:+0:-600:Necromancy
+- [ ] `lib/edit/p_info.txt:673` [C] C:a:k:+0:+50:Weaponmastery
+- [ ] `lib/edit/p_info.txt:674` [C] C:a:k:+1000:+700:Monster-lore
+- [ ] `lib/edit/p_info.txt:675` [C] C:a:k:+1000:+700:Summoning
+- [ ] `lib/edit/p_info.txt:677` [C] C:a:N:Dark-Priest
+- [ ] `lib/edit/p_info.txt:678` [C] C:a:D:A priest that serves Melkor Bauglir to bring chaos
+- [ ] `lib/edit/p_info.txt:679` [C] C:a:D:and destruction to Arda.
+- [ ] `lib/edit/p_info.txt:680` [C] C:a:O:21:5:1d1
+- [ ] `lib/edit/p_info.txt:681` [C] C:a:g:Melkor Bauglir
+- [ ] `lib/edit/p_info.txt:682` [C] C:a:k:+0:+200:Prayer
+- [ ] `lib/edit/p_info.txt:683` [C] C:a:k:+0:+200:Necromancy
+- [ ] `lib/edit/p_info.txt:684` [C] C:a:k:+0:-600:Mindcraft
+- [ ] `lib/edit/p_info.txt:685` [C] C:a:k:+0:+200:Spell-power
+- [ ] `lib/edit/p_info.txt:686` [C] C:a:k:+1000:+1000:Corpse-preservation
+- [ ] `lib/edit/p_info.txt:688` [C] C:a:N:Paladin
+- [ ] `lib/edit/p_info.txt:689` [C] C:a:D:A fighting priest that serves Tulkas to bring down
+- [ ] `lib/edit/p_info.txt:690` [C] C:a:D:the empire of fear and shadows of Morgoth.
+- [ ] `lib/edit/p_info.txt:691` [C] C:a:O:23:25:1d1
+- [ ] `lib/edit/p_info.txt:692` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:693` [C] C:a:k:+0:+200:Prayer
+- [ ] `lib/edit/p_info.txt:694` [C] C:a:k:+0:-600:Necromancy
+- [ ] `lib/edit/p_info.txt:695` [C] C:a:k:+0:+100:Weaponmastery
+- [ ] `lib/edit/p_info.txt:696` [C] C:a:k:+0:+100:Combat
+- [ ] `lib/edit/p_info.txt:697` [C] C:a:k:+0:+900:Barehand-combat
+- [ ] `lib/edit/p_info.txt:698` [C] C:a:b:1:Extra Max Blow(1)
+- [ ] `lib/edit/p_info.txt:700` [C] C:a:N:Mindcrafter
+- [ ] `lib/edit/p_info.txt:701` [C] C:a:D:A priest who has learned to tap in his own mental powers
+- [ ] `lib/edit/p_info.txt:702` [C] C:a:O:21:5:1d1
+- [ ] `lib/edit/p_info.txt:703` [C] C:a:g:Eru Iluvatar
+- [ ] `lib/edit/p_info.txt:704` [C] C:a:g:Manwe Sulimo
+- [ ] `lib/edit/p_info.txt:705` [C] C:a:g:Tulkas
+- [ ] `lib/edit/p_info.txt:706` [C] C:a:g:Melkor Bauglir
+- [ ] `lib/edit/p_info.txt:707` [C] C:a:g:Yavanna Kementari
+- [ ] `lib/edit/p_info.txt:708` [C] C:a:k:+0:-300:Prayer
+- [ ] `lib/edit/p_info.txt:709` [C] C:a:k:+0:-200:Necromancy
+- [ ] `lib/edit/p_info.txt:710` [C] C:a:k:+1000:+300:Mindcraft
+- [ ] `lib/edit/p_info.txt:711` [C] C:a:k:+0:+100:Magic-Device
+- [ ] `lib/edit/p_info.txt:736` [I] I:
+- [ ] `lib/edit/p_info.txt:738` [R] R:N:0:Human
+- [ ] `lib/edit/p_info.txt:739` [R] R:D:Humans are the second born, the Edain.
+- [ ] `lib/edit/p_info.txt:740` [R] R:D:They are the basic race to which all others are compared.
+- [ ] `lib/edit/p_info.txt:741` [R] R:D:Average in ability, they can be any class.
+- [ ] `lib/edit/p_info.txt:742` [R] R:S:0:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:743` [R] R:P:10:100:0
+- [ ] `lib/edit/p_info.txt:744` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:745` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:746` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:747` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:748` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:749` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:750` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:752` [R] R:N:1:Half-Elf
+- [ ] `lib/edit/p_info.txt:753` [R] R:D:A crossbreed of elf and human, they get the best of the two races.
+- [ ] `lib/edit/p_info.txt:754` [R] R:S:0:1:1:1:-1:1:0
+- [ ] `lib/edit/p_info.txt:755` [R] R:P:9:110:2
+- [ ] `lib/edit/p_info.txt:756` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:757` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:758` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:759` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:760` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:761` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:762` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:763` [R] R:G:ELF
+- [ ] `lib/edit/p_info.txt:764` [R] R:k:+300:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:765` [R] R:k:+1500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:766` [R] R:k:+1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:767` [R] R:k:-100:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:768` [R] R:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:770` [R] R:N:2:Elf
+- [ ] `lib/edit/p_info.txt:771` [R] R:D:Elves are the first born, the Eldar.
+- [ ] `lib/edit/p_info.txt:772` [R] R:D:More spiritual than physical beings, they are weaker than humans
+- [ ] `lib/edit/p_info.txt:773` [R] R:D:but are more intelligent.
+- [ ] `lib/edit/p_info.txt:774` [R] R:S:-1:2:2:1:-2:2:0
+- [ ] `lib/edit/p_info.txt:775` [R] R:P:8:120:3
+- [ ] `lib/edit/p_info.txt:776` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:777` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:778` [R] R:F:RES_LITE
+- [ ] `lib/edit/p_info.txt:779` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:780` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:781` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:782` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:783` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:784` [R] R:G:ELF
+- [ ] `lib/edit/p_info.txt:785` [R] R:k:+600:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:786` [R] R:k:+3000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:787` [R] R:k:+2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:788` [R] R:k:-500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:789` [R] R:k:+1500:+000:Archery
+- [ ] `lib/edit/p_info.txt:791` [R] R:N:3:Hobbit
+- [ ] `lib/edit/p_info.txt:792` [R] R:D:An old but quiet race related to humans.
+- [ ] `lib/edit/p_info.txt:793` [R] R:D:They are small and quite weak but good at many things.
+- [ ] `lib/edit/p_info.txt:794` [R] R:S:-2:2:1:3:2:1:5
+- [ ] `lib/edit/p_info.txt:795` [R] R:P:7:110:4
+- [ ] `lib/edit/p_info.txt:796` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:797` [R] R:Z:create food
+- [ ] `lib/edit/p_info.txt:798` [R] R:G:RESIST_BLACK_BREATH
+- [ ] `lib/edit/p_info.txt:799` [R] R:G:XTRA_MIGHT_SLING
+- [ ] `lib/edit/p_info.txt:800` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:801` [R] R:F:SUST_DEX
+- [ ] `lib/edit/p_info.txt:802` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:803` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:804` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:805` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:806` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:807` [R] R:k:+0:+300:Sling-mastery
+- [ ] `lib/edit/p_info.txt:808` [R] R:k:+1800:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:809` [R] R:k:+9000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:810` [R] R:k:+5000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:811` [R] R:k:-1000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:812` [R] R:k:+2000:+000:Archery
+- [ ] `lib/edit/p_info.txt:814` [R] R:N:4:Gnome
+- [ ] `lib/edit/p_info.txt:815` [R] R:D:Related to dwarves, Gnomes are between Dwarves and Hobbits in size.
+- [ ] `lib/edit/p_info.txt:816` [R] R:D:Very good at magic use, they are poor as fighters.
+- [ ] `lib/edit/p_info.txt:817` [R] R:S:-1:2:0:2:1:-2:2
+- [ ] `lib/edit/p_info.txt:818` [R] R:P:8:135:4
+- [ ] `lib/edit/p_info.txt:819` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:820` [R] R:Z:blink
+- [ ] `lib/edit/p_info.txt:821` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:822` [R] R:F:FREE_ACT
+- [ ] `lib/edit/p_info.txt:823` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:824` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:825` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:826` [R] R:k:+1200:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:827` [R] R:k:+6000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:828` [R] R:k:+3000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:829` [R] R:k:-800:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:830` [R] R:k:+1200:+000:Archery
+- [ ] `lib/edit/p_info.txt:832` [R] R:N:5:Dwarf
+- [ ] `lib/edit/p_info.txt:833` [R] R:D:The children of Aule, a strong but small race.
+- [ ] `lib/edit/p_info.txt:834` [R] R:D:Miners and fighters of legend.
+- [ ] `lib/edit/p_info.txt:835` [R] R:S:2:-2:2:-2:2:-3:0
+- [ ] `lib/edit/p_info.txt:836` [R] R:P:11:125:5
+- [ ] `lib/edit/p_info.txt:837` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:838` [R] R:Z:find secret passages
+- [ ] `lib/edit/p_info.txt:839` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:840` [R] R:F:RES_BLIND
+- [ ] `lib/edit/p_info.txt:841` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:842` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:843` [R] R:k:+0:+200:Axe-mastery
+- [ ] `lib/edit/p_info.txt:844` [R] R:k:+900:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:845` [R] R:k:+5000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:846` [R] R:k:-1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:847` [R] R:k:+1500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:848` [R] R:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:850` [R] R:N:6:Orc
+- [ ] `lib/edit/p_info.txt:851` [R] R:D:Quite strong but not very smart.
+- [ ] `lib/edit/p_info.txt:852` [R] R:S:2:-1:0:1:1:-4:-3
+- [ ] `lib/edit/p_info.txt:853` [R] R:P:10:110:3
+- [ ] `lib/edit/p_info.txt:854` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:855` [R] R:Z:remove fear
+- [ ] `lib/edit/p_info.txt:856` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:857` [R] R:F:RES_DARK
+- [ ] `lib/edit/p_info.txt:858` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:859` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:860` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:861` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:862` [R] R:k:-300:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:863` [R] R:k:-1000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:864` [R] R:k:-1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:865` [R] R:k:+1200:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:866` [R] R:k:-500:+000:Archery
+- [ ] `lib/edit/p_info.txt:868` [R] R:N:7:Troll
+- [ ] `lib/edit/p_info.txt:869` [R] R:D:They can bear the light of the sun.
+- [ ] `lib/edit/p_info.txt:870` [R] R:D:They are extremely strong and dumb.
+- [ ] `lib/edit/p_info.txt:871` [R] R:S:4:-4:-2:-4:3:-6:-4
+- [ ] `lib/edit/p_info.txt:872` [R] R:P:12:137:3
+- [ ] `lib/edit/p_info.txt:873` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:874` [R] R:Z:berserk
+- [ ] `lib/edit/p_info.txt:875` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:876` [R] R:F:SUST_STR
+- [ ] `lib/edit/p_info.txt:877` [R] R:R:15:0
+- [ ] `lib/edit/p_info.txt:878` [R] R:F:REGEN
+- [ ] `lib/edit/p_info.txt:879` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:880` [R] R:k:-800:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:881` [R] R:k:-4000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:882` [R] R:k:-2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:883` [R] R:k:+2000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:884` [R] R:k:-1000:+000:Archery
+- [ ] `lib/edit/p_info.txt:886` [R] R:N:8:Dunadan
+- [ ] `lib/edit/p_info.txt:887` [R] R:D:The greatest of the Edain, humans in all respects but
+- [ ] `lib/edit/p_info.txt:888` [R] R:D:stronger, smarter and wiser.
+- [ ] `lib/edit/p_info.txt:889` [R] R:S:1:2:2:2:3:2:2
+- [ ] `lib/edit/p_info.txt:890` [R] R:P:10:180:0
+- [ ] `lib/edit/p_info.txt:891` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:892` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:893` [R] R:F:REGEN
+- [ ] `lib/edit/p_info.txt:894` [R] R:F:SUST_CON
+- [ ] `lib/edit/p_info.txt:895` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:896` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:897` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:898` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:899` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:900` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:901` [R] R:k:+500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:902` [R] R:k:+2500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:903` [R] R:k:+2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:904` [R] R:k:+1500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:905` [R] R:k:+1000:+000:Archery
+- [ ] `lib/edit/p_info.txt:907` [R] R:N:9:High-Elf
+- [ ] `lib/edit/p_info.txt:908` [R] R:D:Elves are the first born, the Eldar.
+- [ ] `lib/edit/p_info.txt:909` [R] R:D:High elves are the best of the Eldar, strong, fast, intellectual, though
+- [ ] `lib/edit/p_info.txt:910` [R] R:D:they sometimes lack wisdom.
+- [ ] `lib/edit/p_info.txt:911` [R] R:S:1:3:2:3:1:5:0
+- [ ] `lib/edit/p_info.txt:912` [R] R:P:10:200:4
+- [ ] `lib/edit/p_info.txt:913` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:914` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:915` [R] R:F:RES_LITE
+- [ ] `lib/edit/p_info.txt:916` [R] R:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:917` [R] R:G:ELF
+- [ ] `lib/edit/p_info.txt:918` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:919` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:920` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:921` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:922` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:923` [R] R:k:+2000:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:924` [R] R:k:+10000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:925` [R] R:k:+4000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:926` [R] R:k:+1000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:927` [R] R:k:+2500:+000:Archery
+- [ ] `lib/edit/p_info.txt:929` [R] R:N:10:Half-Ogre
+- [ ] `lib/edit/p_info.txt:930` [R] R:D:A crossbreed between a human and an ogre.
+- [ ] `lib/edit/p_info.txt:931` [R] R:D:They are similar to half-trolls, strong and dumb.
+- [ ] `lib/edit/p_info.txt:932` [R] R:S:3:-1:-1:-1:3:-3:-2
+- [ ] `lib/edit/p_info.txt:933` [R] R:P:12:130:3
+- [ ] `lib/edit/p_info.txt:934` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:935` [R] R:Z:set explosive rune
+- [ ] `lib/edit/p_info.txt:936` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:937` [R] R:F:RES_DARK
+- [ ] `lib/edit/p_info.txt:938` [R] R:F:SUST_STR
+- [ ] `lib/edit/p_info.txt:939` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:940` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:941` [R] R:k:-500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:942` [R] R:k:-2500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:943` [R] R:k:-2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:944` [R] R:k:+2000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:945` [R] R:k:+000:+000:Archery
+- [ ] `lib/edit/p_info.txt:947` [R] R:N:11:Beorning
+- [ ] `lib/edit/p_info.txt:948` [R] R:D:A race of men shapeshifters.
+- [ ] `lib/edit/p_info.txt:949` [R] R:D:They have the unique power of being able to polymorph to bear forms.
+- [ ] `lib/edit/p_info.txt:950` [R] R:S:4:-2:-2:-1:3:-5:1
+- [ ] `lib/edit/p_info.txt:951` [R] R:P:12:150:3
+- [ ] `lib/edit/p_info.txt:952` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:953` [R] R:Z:turn into a bear
+- [ ] `lib/edit/p_info.txt:954` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:955` [R] R:F:SUST_STR
+- [ ] `lib/edit/p_info.txt:956` [R] R:R:20:1
+- [ ] `lib/edit/p_info.txt:957` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:958` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:959` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:960` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:961` [R] R:k:+1000:+1000:Bearform-combat
+- [ ] `lib/edit/p_info.txt:962` [R] R:k:-800:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:963` [R] R:k:-3000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:964` [R] R:k:-2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:965` [R] R:k:+2500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:966` [R] R:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:968` [R] R:N:12:Kobold
+- [ ] `lib/edit/p_info.txt:969` [R] R:D:A weaker kind of goblin, related to orcs.
+- [ ] `lib/edit/p_info.txt:970` [R] R:S:1:-1:0:1:0:-4:0
+- [ ] `lib/edit/p_info.txt:971` [R] R:P:9:125:3
+- [ ] `lib/edit/p_info.txt:972` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:973` [R] R:Z:poison dart
+- [ ] `lib/edit/p_info.txt:974` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:975` [R] R:F:RES_POIS
+- [ ] `lib/edit/p_info.txt:976` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:977` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:978` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:979` [R] R:k:-300:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:980` [R] R:k:-1000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:981` [R] R:k:-1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:982` [R] R:k:+1000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:983` [R] R:k:-800:+000:Archery
+- [ ] `lib/edit/p_info.txt:985` [R] R:N:13:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:986` [R] R:D:A nearly extinct subrace of dwarves.
+- [ ] `lib/edit/p_info.txt:987` [R] R:D:They prefer to live in the darkness.
+- [ ] `lib/edit/p_info.txt:988` [R] R:S:1:-1:2:0:2:-4:-5
+- [ ] `lib/edit/p_info.txt:989` [R] R:P:11:135:5
+- [ ] `lib/edit/p_info.txt:990` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:991` [R] R:Z:detect doors and traps
+- [ ] `lib/edit/p_info.txt:992` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:993` [R] R:F:RES_DARK
+- [ ] `lib/edit/p_info.txt:994` [R] R:F:RES_DISEN
+- [ ] `lib/edit/p_info.txt:995` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:996` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:997` [R] R:k:+500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:998` [R] R:k:+5000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:999` [R] R:k:+1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1000` [R] R:k:+000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1001` [R] R:k:+000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1003` [R] R:N:14:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1004` [R] R:D:Elves are the first born, the Eldar.
+- [ ] `lib/edit/p_info.txt:1005` [R] R:D:Dark elves are rare on Middle-earth and even though not evil
+- [ ] `lib/edit/p_info.txt:1006` [R] R:D:they are not good.
+- [ ] `lib/edit/p_info.txt:1007` [R] R:S:-1:3:2:2:-2:1:-2
+- [ ] `lib/edit/p_info.txt:1008` [R] R:P:9:150:5
+- [ ] `lib/edit/p_info.txt:1009` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1010` [R] R:Z:magic missile
+- [ ] `lib/edit/p_info.txt:1011` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:1012` [R] R:F:RES_DARK
+- [ ] `lib/edit/p_info.txt:1013` [R] R:R:20:0
+- [ ] `lib/edit/p_info.txt:1014` [R] R:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1015` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:1016` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1017` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1018` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:1019` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1020` [R] R:G:ELF
+- [ ] `lib/edit/p_info.txt:1021` [R] R:k:+0:+200:Magic
+- [ ] `lib/edit/p_info.txt:1022` [R] R:k:+1500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1023` [R] R:k:+10000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1024` [R] R:k:+3000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1025` [R] R:k:-500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1026` [R] R:k:+1000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1028` [R] R:N:15:Ent
+- [ ] `lib/edit/p_info.txt:1029` [R] R:D:Guardian of the forests of Middle-earth, summoned by Yavanna before
+- [ ] `lib/edit/p_info.txt:1030` [R] R:D:even the elves awoke. It is said 'Trolls are strong, Ents are STRONGER'.
+- [ ] `lib/edit/p_info.txt:1031` [R] R:S:10:-3:2:-5:11:-3:-2
+- [ ] `lib/edit/p_info.txt:1032` [R] R:P:14:210:5
+- [ ] `lib/edit/p_info.txt:1033` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1034` [R] R:Z:grow trees
+- [ ] `lib/edit/p_info.txt:1035` [R] R:G:AC_LEVEL
+- [ ] `lib/edit/p_info.txt:1036` [R] R:G:NO_FOOD
+- [ ] `lib/edit/p_info.txt:1037` [R] R:G:NO_STUN
+- [ ] `lib/edit/p_info.txt:1038` [R] R:R:1:-5
+- [ ] `lib/edit/p_info.txt:1039` [R] R:F:SENS_FIRE
+- [ ] `lib/edit/p_info.txt:1040` [R] R:F:SLOW_DIGEST
+- [ ] `lib/edit/p_info.txt:1041` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1042` [R] R:R:5:0
+- [ ] `lib/edit/p_info.txt:1043` [R] R:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1044` [R] R:R:20:0
+- [ ] `lib/edit/p_info.txt:1045` [R] R:F:ESP_EVIL
+- [ ] `lib/edit/p_info.txt:1046` [R] R:F:ESP_ORC
+- [ ] `lib/edit/p_info.txt:1047` [R] R:F:ESP_TROLL
+- [ ] `lib/edit/p_info.txt:1048` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:1049` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1050` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1051` [R] R:O:70:32:2d3
+- [ ] `lib/edit/p_info.txt:1052` [R] R:b:1:Tree walking
+- [ ] `lib/edit/p_info.txt:1053` [R] R:k:+0:+200:Barehand-combat
+- [ ] `lib/edit/p_info.txt:1054` [R] R:k:+0:+600:Boulder-throwing
+- [ ] `lib/edit/p_info.txt:1055` [R] R:k:+500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1056` [R] R:k:+10000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1057` [R] R:k:-6000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1058` [R] R:k:-300:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1059` [R] R:k:-200:+000:Archery
+- [ ] `lib/edit/p_info.txt:1061` [R] R:N:16:RohanKnight
+- [ ] `lib/edit/p_info.txt:1062` [R] R:D:Humans from the land of Rohan, riding the great Mearas.
+- [ ] `lib/edit/p_info.txt:1063` [R] R:D:Fast and powerful in battle.
+- [ ] `lib/edit/p_info.txt:1064` [R] R:S:4:-2:3:1:4:2:0
+- [ ] `lib/edit/p_info.txt:1065` [R] R:P:10:220:0
+- [ ] `lib/edit/p_info.txt:1066` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1067` [R] R:Z:Rohan Knight's Powers
+- [ ] `lib/edit/p_info.txt:1068` [R] R:R:1:3
+- [ ] `lib/edit/p_info.txt:1069` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1070` [R] R:R:5:1
+- [ ] `lib/edit/p_info.txt:1071` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1072` [R] R:R:10:1
+- [ ] `lib/edit/p_info.txt:1073` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1074` [R] R:R:15:1
+- [ ] `lib/edit/p_info.txt:1075` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1076` [R] R:R:20:1
+- [ ] `lib/edit/p_info.txt:1077` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1078` [R] R:R:25:1
+- [ ] `lib/edit/p_info.txt:1079` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1080` [R] R:R:30:1
+- [ ] `lib/edit/p_info.txt:1081` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1082` [R] R:R:35:1
+- [ ] `lib/edit/p_info.txt:1083` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1084` [R] R:R:40:1
+- [ ] `lib/edit/p_info.txt:1085` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1086` [R] R:R:45:1
+- [ ] `lib/edit/p_info.txt:1087` [R] R:F:SPEED
+- [ ] `lib/edit/p_info.txt:1088` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1089` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1090` [R] R:k:+500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1091` [R] R:k:+2500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1092` [R] R:k:-8000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1093` [R] R:k:+100:+200:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1094` [R] R:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1095` [R] R:N:17:Thunderlord
+- [ ] `lib/edit/p_info.txt:1096` [R] R:D:A thunderlord is a Great Eagle of Manwe, ridden by a Maia of Manwe.
+- [ ] `lib/edit/p_info.txt:1097` [R] R:D:They carry the power of wind and thunder.
+- [ ] `lib/edit/p_info.txt:1098` [R] R:S:6:2:1:1:3:8:2
+- [ ] `lib/edit/p_info.txt:1099` [R] R:P:12:400:0
+- [ ] `lib/edit/p_info.txt:1100` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1101` [R] R:Z:Thunderlord's Powers
+- [ ] `lib/edit/p_info.txt:1102` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:1103` [R] R:F:FEATHER
+- [ ] `lib/edit/p_info.txt:1104` [R] R:R:4:0
+- [ ] `lib/edit/p_info.txt:1105` [R] R:F:ESP_DRAGON
+- [ ] `lib/edit/p_info.txt:1106` [R] R:R:5:0
+- [ ] `lib/edit/p_info.txt:1107` [R] R:F:RES_ELEC
+- [ ] `lib/edit/p_info.txt:1108` [R] R:R:10:0
+- [ ] `lib/edit/p_info.txt:1109` [R] R:F:RES_COLD
+- [ ] `lib/edit/p_info.txt:1110` [R] R:R:15:0
+- [ ] `lib/edit/p_info.txt:1111` [R] R:F:RES_ACID
+- [ ] `lib/edit/p_info.txt:1112` [R] R:R:17:0
+- [ ] `lib/edit/p_info.txt:1113` [R] R:F:FLY
+- [ ] `lib/edit/p_info.txt:1114` [R] R:R:35:0
+- [ ] `lib/edit/p_info.txt:1115` [R] R:F:RES_POIS
+- [ ] `lib/edit/p_info.txt:1116` [R] R:R:45:0
+- [ ] `lib/edit/p_info.txt:1117` [R] R:F:IM_ELEC
+- [ ] `lib/edit/p_info.txt:1118` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:1119` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1120` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1121` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1122` [R] R:k:+000:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1123` [R] R:k:+5000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1124` [R] R:k:-16000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1125` [R] R:k:+1500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1126` [R] R:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1128` [R] R:N:18:DeathMold
+- [ ] `lib/edit/p_info.txt:1129` [R] R:D:A pure mass of evilness, DeathMolds cannot move, but they have much more
+- [ ] `lib/edit/p_info.txt:1130` [R] R:D:power than an average race.
+- [ ] `lib/edit/p_info.txt:1131` [R] R:S:10:0:10:0:10:-15:-5
+- [ ] `lib/edit/p_info.txt:1132` [R] R:P:15:250:10
+- [ ] `lib/edit/p_info.txt:1133` [R] R:E:1:1:1:4:0:0
+- [ ] `lib/edit/p_info.txt:1134` [R] R:Z:Death Mold's Powers
+- [ ] `lib/edit/p_info.txt:1135` [R] R:G:EXPERIMENTAL
+- [ ] `lib/edit/p_info.txt:1136` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:1137` [R] R:F:HOLD_LIFE
+- [ ] `lib/edit/p_info.txt:1138` [R] R:F:IMMOVABLE
+- [ ] `lib/edit/p_info.txt:1139` [R] R:F:RES_NETHER
+- [ ] `lib/edit/p_info.txt:1140` [R] R:F:RES_NEXUS
+- [ ] `lib/edit/p_info.txt:1141` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1142` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1143` [R] R:k:+0:+200:Necromancy
+- [ ] `lib/edit/p_info.txt:1144` [R] R:k:-500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1145` [R] R:k:+7500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1146` [R] R:k:+25000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1147` [R] R:k:+2500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1148` [R] R:k:+2500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1150` [R] R:N:19:Yeek
+- [ ] `lib/edit/p_info.txt:1151` [R] R:D:The weakest of all the races, bad at everything except gaining levels quickly.
+- [ ] `lib/edit/p_info.txt:1152` [R] R:S:-5:-5:-5:-5:-5:-5:-5
+- [ ] `lib/edit/p_info.txt:1153` [R] R:P:6:25:2
+- [ ] `lib/edit/p_info.txt:1154` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1155` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:1156` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:1157` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1158` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1159` [R] R:C:Rogue
+- [ ] `lib/edit/p_info.txt:1160` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1161` [R] R:k:-500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1162` [R] R:k:-2500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1163` [R] R:k:-5000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1164` [R] R:k:-500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1165` [R] R:k:-500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1167` [R] R:N:20:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1168` [R] R:D:Elves are the first born, the Eldar.
+- [ ] `lib/edit/p_info.txt:1169` [R] R:D:Wood elves live in the great forests of Middle-earth.
+- [ ] `lib/edit/p_info.txt:1170` [R] R:S:-3:2:1:5:-4:1:0
+- [ ] `lib/edit/p_info.txt:1171` [R] R:P:7:130:4
+- [ ] `lib/edit/p_info.txt:1172` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1173` [R] R:G:XTRA_MIGHT_BOW
+- [ ] `lib/edit/p_info.txt:1174` [R] R:R:1:1
+- [ ] `lib/edit/p_info.txt:1175` [R] R:F:RES_LITE
+- [ ] `lib/edit/p_info.txt:1176` [R] R:F:XTRA_MIGHT
+- [ ] `lib/edit/p_info.txt:1177` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:1178` [R] R:C:Loremaster
+- [ ] `lib/edit/p_info.txt:1179` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1180` [R] R:C:Priest
+- [ ] `lib/edit/p_info.txt:1181` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1182` [R] R:G:ELF
+- [ ] `lib/edit/p_info.txt:1183` [R] R:k:+0:+200:Archery
+- [ ] `lib/edit/p_info.txt:1184` [R] R:b:1:Tree walking
+- [ ] `lib/edit/p_info.txt:1185` [R] R:k:+600:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1186` [R] R:k:+3000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1187` [R] R:k:+5000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1188` [R] R:k:-2500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1189` [R] R:k:+4000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1191` [R] R:N:21:Maia
+- [ ] `lib/edit/p_info.txt:1192` [R] R:D:An old race, dating from before the creation of Arda, the Maiar were
+- [ ] `lib/edit/p_info.txt:1193` [R] R:D:created by Eru to help the Valar in their task.
+- [ ] `lib/edit/p_info.txt:1194` [R] R:S:0:0:0:0:0:0:4
+- [ ] `lib/edit/p_info.txt:1195` [R] R:P:10:100:0
+- [ ] `lib/edit/p_info.txt:1196` [R] R:E:1:1:1:2:1:1
+- [ ] `lib/edit/p_info.txt:1197` [R] R:G:NO_GOD
+- [ ] `lib/edit/p_info.txt:1198` [R] R:R:1:0
+- [ ] `lib/edit/p_info.txt:1199` [R] R:F:AGGRAVATE
+- [ ] `lib/edit/p_info.txt:1200` [R] R:R:20:0
+- [ ] `lib/edit/p_info.txt:1201` [R] R:F:DRAIN_EXP
+- [ ] `lib/edit/p_info.txt:1202` [R] R:R:6:1
+- [ ] `lib/edit/p_info.txt:1203` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1204` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1205` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1206` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1207` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1208` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1209` [R] R:R:12:1
+- [ ] `lib/edit/p_info.txt:1210` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1211` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1212` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1213` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1214` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1215` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1216` [R] R:R:18:1
+- [ ] `lib/edit/p_info.txt:1217` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1218` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1219` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1220` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1221` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1222` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1223` [R] R:R:24:1
+- [ ] `lib/edit/p_info.txt:1224` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1225` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1226` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1227` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1228` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1229` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1230` [R] R:R:30:1
+- [ ] `lib/edit/p_info.txt:1231` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1232` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1233` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1234` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1235` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1236` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1237` [R] R:R:36:1
+- [ ] `lib/edit/p_info.txt:1238` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1239` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1240` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1241` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1242` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1243` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1244` [R] R:R:42:1
+- [ ] `lib/edit/p_info.txt:1245` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1246` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1247` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1248` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1249` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1250` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1251` [R] R:R:48:1
+- [ ] `lib/edit/p_info.txt:1252` [R] R:F:CHR
+- [ ] `lib/edit/p_info.txt:1253` [R] R:F:CON
+- [ ] `lib/edit/p_info.txt:1254` [R] R:F:DEX
+- [ ] `lib/edit/p_info.txt:1255` [R] R:F:INT
+- [ ] `lib/edit/p_info.txt:1256` [R] R:F:STR
+- [ ] `lib/edit/p_info.txt:1257` [R] R:F:WIS
+- [ ] `lib/edit/p_info.txt:1258` [R] R:C:Archer
+- [ ] `lib/edit/p_info.txt:1259` [R] R:C:Mage
+- [ ] `lib/edit/p_info.txt:1260` [R] R:C:Warrior
+- [ ] `lib/edit/p_info.txt:1261` [R] R:k:+000:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1262` [R] R:k:+000:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1263` [R] R:k:=0:=0:Prayer
+- [ ] `lib/edit/p_info.txt:1264` [R] R:k:+000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1265` [R] R:k:+000:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1266` [R] R:k:+000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1288` [I] I:
+- [ ] `lib/edit/p_info.txt:1290` [S] S:N:0: 
+- [ ] `lib/edit/p_info.txt:1291` [S] S:D:A:A normal member of the race.
+- [ ] `lib/edit/p_info.txt:1292` [S] S:S:0:0:0:0:0:0:0:100
+- [ ] `lib/edit/p_info.txt:1293` [S] S:P:0:0:0
+- [ ] `lib/edit/p_info.txt:1294` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1295` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1296` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1297` [S] S:A:DeathMold
+- [ ] `lib/edit/p_info.txt:1298` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1299` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1300` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1301` [S] S:A:Ent
+- [ ] `lib/edit/p_info.txt:1302` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1303` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1304` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1305` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1306` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1307` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1308` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1309` [S] S:A:Maia
+- [ ] `lib/edit/p_info.txt:1310` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1311` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1312` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1313` [S] S:A:Thunderlord
+- [ ] `lib/edit/p_info.txt:1314` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1315` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1316` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1320` [S] S:N:1:Vampire
+- [ ] `lib/edit/p_info.txt:1321` [S] S:D:B:Vampires are powerful undead, wielding great powers. They still fear the
+- [ ] `lib/edit/p_info.txt:1322` [S] S:D:B:sunlight and cannot easily satiate their hunger.
+- [ ] `lib/edit/p_info.txt:1323` [S] S:S:0:0:0:0:0:0:0:100
+- [ ] `lib/edit/p_info.txt:1324` [S] S:P:0:0:0
+- [ ] `lib/edit/p_info.txt:1325` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1326` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1327` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1328` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1329` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1330` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1331` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1332` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1333` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1334` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1335` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1336` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1337` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1338` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1339` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1340` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1341` [S] S:C:A:Mage
+- [ ] `lib/edit/p_info.txt:1342` [S] S:O:70:0:5d3
+- [ ] `lib/edit/p_info.txt:1343` [S] S:O:70:32:2d3
+- [ ] `lib/edit/p_info.txt:1345` [S] S:N:2:Spectre
+- [ ] `lib/edit/p_info.txt:1346` [S] S:D:B:Spectres only partially exist in the mortal world and so they can
+- [ ] `lib/edit/p_info.txt:1347` [S] S:D:B:pass through walls. They are somewhat physically weak.
+- [ ] `lib/edit/p_info.txt:1348` [S] S:S:-5:1:1:2:-3:-6:-3:105
+- [ ] `lib/edit/p_info.txt:1349` [S] S:P:-4:80:3
+- [ ] `lib/edit/p_info.txt:1350` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1351` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1352` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1353` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1354` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1355` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1356` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1357` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1358` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1359` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1360` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1361` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1362` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1363` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1364` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1365` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1366` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1367` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1368` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1369` [S] S:C:F:Archer
+- [ ] `lib/edit/p_info.txt:1370` [S] S:C:F:Warrior
+- [ ] `lib/edit/p_info.txt:1371` [S] S:G:NO_CUT
+- [ ] `lib/edit/p_info.txt:1372` [S] S:G:NO_FOOD
+- [ ] `lib/edit/p_info.txt:1373` [S] S:G:NO_SUBRACE_CHANGE
+- [ ] `lib/edit/p_info.txt:1374` [S] S:G:SEMI_WRAITH
+- [ ] `lib/edit/p_info.txt:1375` [S] S:G:UNDEAD
+- [ ] `lib/edit/p_info.txt:1376` [S] S:R:1:0
+- [ ] `lib/edit/p_info.txt:1377` [S] S:F:HOLD_LIFE
+- [ ] `lib/edit/p_info.txt:1378` [S] S:F:RES_COLD
+- [ ] `lib/edit/p_info.txt:1379` [S] S:F:RES_NETHER
+- [ ] `lib/edit/p_info.txt:1380` [S] S:F:RES_POIS
+- [ ] `lib/edit/p_info.txt:1381` [S] S:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1382` [S] S:F:SLOW_DIGEST
+- [ ] `lib/edit/p_info.txt:1383` [S] S:O:70:32:2d3
+- [ ] `lib/edit/p_info.txt:1384` [S] S:k:+800:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1385` [S] S:k:+700:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1386` [S] S:k:+2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1387` [S] S:k:-500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1388` [S] S:k:-200:+000:Archery
+- [ ] `lib/edit/p_info.txt:1390` [S] S:N:3:Skeleton
+- [ ] `lib/edit/p_info.txt:1391` [S] S:D:B:Yet an other kind of undead. Their physical 'body' is not very vulnerable
+- [ ] `lib/edit/p_info.txt:1392` [S] S:D:B:to sharp things.
+- [ ] `lib/edit/p_info.txt:1393` [S] S:S:0:-2:-2:0:1:-4:-3:70
+- [ ] `lib/edit/p_info.txt:1394` [S] S:P:0:45:1
+- [ ] `lib/edit/p_info.txt:1395` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1396` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1397` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1398` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1399` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1400` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1401` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1402` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1403` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1404` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1405` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1406` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1407` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1408` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1409` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1410` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1411` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1412` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1413` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1414` [S] S:G:NO_CUT
+- [ ] `lib/edit/p_info.txt:1415` [S] S:G:NO_FOOD
+- [ ] `lib/edit/p_info.txt:1416` [S] S:G:NO_SUBRACE_CHANGE
+- [ ] `lib/edit/p_info.txt:1417` [S] S:G:UNDEAD
+- [ ] `lib/edit/p_info.txt:1418` [S] S:R:1:0
+- [ ] `lib/edit/p_info.txt:1419` [S] S:F:HOLD_LIFE
+- [ ] `lib/edit/p_info.txt:1420` [S] S:F:RES_POIS
+- [ ] `lib/edit/p_info.txt:1421` [S] S:F:RES_SHARDS
+- [ ] `lib/edit/p_info.txt:1422` [S] S:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1423` [S] S:R:10:0
+- [ ] `lib/edit/p_info.txt:1424` [S] S:F:RES_COLD
+- [ ] `lib/edit/p_info.txt:1425` [S] S:O:70:32:2d3
+- [ ] `lib/edit/p_info.txt:1426` [S] S:k:-500:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1427` [S] S:k:+500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1428` [S] S:k:-1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1429` [S] S:k:+800:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1430` [S] S:k:+000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1432` [S] S:N:4:Zombie
+- [ ] `lib/edit/p_info.txt:1433` [S] S:D:B:Strong and dumb is a zombie.
+- [ ] `lib/edit/p_info.txt:1434` [S] S:S:2:-6:-6:1:4:-5:-4:70
+- [ ] `lib/edit/p_info.txt:1435` [S] S:P:3:45:1
+- [ ] `lib/edit/p_info.txt:1436` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1437` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1438` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1439` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1440` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1441` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1442` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1443` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1444` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1445` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1446` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1447` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1448` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1449` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1450` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1451` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1452` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1453` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1454` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1455` [S] S:C:F:Mage
+- [ ] `lib/edit/p_info.txt:1456` [S] S:G:NO_FOOD
+- [ ] `lib/edit/p_info.txt:1457` [S] S:G:NO_SUBRACE_CHANGE
+- [ ] `lib/edit/p_info.txt:1458` [S] S:G:UNDEAD
+- [ ] `lib/edit/p_info.txt:1459` [S] S:R:1:0
+- [ ] `lib/edit/p_info.txt:1460` [S] S:F:HOLD_LIFE
+- [ ] `lib/edit/p_info.txt:1461` [S] S:F:RES_POIS
+- [ ] `lib/edit/p_info.txt:1462` [S] S:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1463` [S] S:F:SLOW_DIGEST
+- [ ] `lib/edit/p_info.txt:1464` [S] S:R:5:0
+- [ ] `lib/edit/p_info.txt:1465` [S] S:F:RES_COLD
+- [ ] `lib/edit/p_info.txt:1466` [S] S:O:70:32:2d3
+- [ ] `lib/edit/p_info.txt:1467` [S] S:k:-200:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1468` [S] S:k:+500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1469` [S] S:k:-1000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1470` [S] S:k:+500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1471` [S] S:k:+000:+000:Archery
+- [ ] `lib/edit/p_info.txt:1473` [S] S:N:5:Barbarian
+- [ ] `lib/edit/p_info.txt:1474` [S] S:D:A:Hardy members of their race, they are strong fighters but poor spellcasters.
+- [ ] `lib/edit/p_info.txt:1475` [S] S:S:2:-3:-2:1:1:-3:1:50
+- [ ] `lib/edit/p_info.txt:1476` [S] S:P:1:25:0
+- [ ] `lib/edit/p_info.txt:1477` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1478` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1479` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1480` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1481` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1482` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1483` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1484` [S] S:C:F:Mage
+- [ ] `lib/edit/p_info.txt:1485` [S] S:R:10:0
+- [ ] `lib/edit/p_info.txt:1486` [S] S:F:RES_FEAR
+- [ ] `lib/edit/p_info.txt:1487` [S] S:k:-1000:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1488` [S] S:k:+200:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1489` [S] S:k:-2000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1490` [S] S:k:+1200:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1491` [S] S:k:+500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1493` [S] S:N:6:Hermit
+- [ ] `lib/edit/p_info.txt:1494` [S] S:D:A:Through years of isolation hermits can manage to increase their mana
+- [ ] `lib/edit/p_info.txt:1495` [S] S:D:A:reserves but at the cost of an increased physical weakness.
+- [ ] `lib/edit/p_info.txt:1496` [S] S:S:-3:1:1:-3:-3:1:0:120
+- [ ] `lib/edit/p_info.txt:1497` [S] S:P:-3:20:1
+- [ ] `lib/edit/p_info.txt:1498` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1499` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1500` [S] S:A:DeathMold
+- [ ] `lib/edit/p_info.txt:1501` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1502` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1503` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1504` [S] S:A:Ent
+- [ ] `lib/edit/p_info.txt:1505` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1506` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1507` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1508` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1509` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1510` [S] S:A:Maia
+- [ ] `lib/edit/p_info.txt:1511` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1512` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1513` [S] S:A:Thunderlord
+- [ ] `lib/edit/p_info.txt:1514` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1515` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1516` [S] S:C:F:Archer
+- [ ] `lib/edit/p_info.txt:1517` [S] S:C:F:Warrior
+- [ ] `lib/edit/p_info.txt:1518` [S] S:k:+1000:+000:Magic-Device
+- [ ] `lib/edit/p_info.txt:1519` [S] S:k:+500:+000:Spirituality
+- [ ] `lib/edit/p_info.txt:1520` [S] S:k:+3000:+000:Stealth
+- [ ] `lib/edit/p_info.txt:1521` [S] S:k:-500:+000:Weaponmastery
+- [ ] `lib/edit/p_info.txt:1522` [S] S:k:-500:+000:Archery
+- [ ] `lib/edit/p_info.txt:1524` [S] S:N:8:LostSoul
+- [ ] `lib/edit/p_info.txt:1525` [S] S:D:A:In some very rare occasions souls can come back from the Halls of Mandos.
+- [ ] `lib/edit/p_info.txt:1526` [S] S:S:0:0:0:0:0:0:0:100
+- [ ] `lib/edit/p_info.txt:1527` [S] S:P:0:0:0
+- [ ] `lib/edit/p_info.txt:1528` [S] S:E:0:0:0:0:0:0
+- [ ] `lib/edit/p_info.txt:1529` [S] S:G:ASTRAL
+- [ ] `lib/edit/p_info.txt:1530` [S] S:G:NO_SUBRACE_CHANGE
+- [ ] `lib/edit/p_info.txt:1531` [S] S:R:1:0
+- [ ] `lib/edit/p_info.txt:1532` [S] S:F:SEE_INVIS
+- [ ] `lib/edit/p_info.txt:1533` [S] S:A:Beorning
+- [ ] `lib/edit/p_info.txt:1534` [S] S:A:Dark-Elf
+- [ ] `lib/edit/p_info.txt:1535` [S] S:A:DeathMold
+- [ ] `lib/edit/p_info.txt:1536` [S] S:A:Dunadan
+- [ ] `lib/edit/p_info.txt:1537` [S] S:A:Dwarf
+- [ ] `lib/edit/p_info.txt:1538` [S] S:A:Elf
+- [ ] `lib/edit/p_info.txt:1539` [S] S:A:Ent
+- [ ] `lib/edit/p_info.txt:1540` [S] S:A:Gnome
+- [ ] `lib/edit/p_info.txt:1541` [S] S:A:Half-Elf
+- [ ] `lib/edit/p_info.txt:1542` [S] S:A:Half-Ogre
+- [ ] `lib/edit/p_info.txt:1543` [S] S:A:High-Elf
+- [ ] `lib/edit/p_info.txt:1544` [S] S:A:Hobbit
+- [ ] `lib/edit/p_info.txt:1545` [S] S:A:Human
+- [ ] `lib/edit/p_info.txt:1546` [S] S:A:Kobold
+- [ ] `lib/edit/p_info.txt:1547` [S] S:A:Maia
+- [ ] `lib/edit/p_info.txt:1548` [S] S:A:Orc
+- [ ] `lib/edit/p_info.txt:1549` [S] S:A:Petty-Dwarf
+- [ ] `lib/edit/p_info.txt:1550` [S] S:A:RohanKnight
+- [ ] `lib/edit/p_info.txt:1551` [S] S:A:Thunderlord
+- [ ] `lib/edit/p_info.txt:1552` [S] S:A:Troll
+- [ ] `lib/edit/p_info.txt:1553` [S] S:A:Wood-Elf
+- [ ] `lib/edit/p_info.txt:1554` [S] S:A:Yeek
+- [ ] `lib/edit/p_info.txt:1555` [S] S:O:70:32:25d2
+- [ ] `lib/edit/p_info.txt:1556` [S] S:O:70:12:25d3
+- [ ] `lib/edit/p_info.txt:1559` [S] S:N:9:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- [ ] `lib/edit/p_info.txt:1560` [S] S:D:A:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- [ ] `lib/edit/p_info.txt:1561` [S] S:S:0:0:0:0:0:0:0:100
+- [ ] `lib/edit/p_info.txt:1562` [S] S:P:0:0:0
+- [ ] `lib/edit/p_info.txt:1563` [S] S:E:0:0:0:0:0:0

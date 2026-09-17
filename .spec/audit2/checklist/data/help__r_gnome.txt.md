@@ -1,0 +1,35 @@
+# 数据清单：lib/help/r_gnome.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_gnome.txt:1` [line] ~~~~~01|Gnome
+- [ ] `lib/help/r_gnome.txt:2` [line] ~~~~~02|Races|Gnome
+- [ ] `lib/help/r_gnome.txt:3` [line] #####R=== Gnomes ===
+- [ ] `lib/help/r_gnome.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_gnome.txt:6` [line] Gnomes are smaller than dwarves but larger than halflings. Like the hobbits,
+- [ ] `lib/help/r_gnome.txt:7` [line] they live in the earth in burrow-like homes. Gnomes make excellent magi,
+- [ ] `lib/help/r_gnome.txt:8` [line] and have very good saving throws. They are good at searching, disarming,
+- [ ] `lib/help/r_gnome.txt:9` [line] perception, and stealth. They have lower strength than humans and they are
+- [ ] `lib/help/r_gnome.txt:10` [line] not very good at fighting with hand weapons, but have developed a fondness
+- [ ] `lib/help/r_gnome.txt:11` [line] for the crossbow. Gnomes have fair infra-vision, so they can detect
+- [ ] `lib/help/r_gnome.txt:12` [line] warm-blooded creatures at a distance. Gnomes are intrinsically protected
+- [ ] `lib/help/r_gnome.txt:13` [line] against paralysis and some slowing effects. At higher levels, gnomes learn
+- [ ] `lib/help/r_gnome.txt:14` [line] to teleport at will.
+- [ ] `lib/help/r_gnome.txt:16` [line] #####GStat Modifiers
+- [ ] `lib/help/r_gnome.txt:17` [line] Strength        -1   
+- [ ] `lib/help/r_gnome.txt:18` [line] Intelligence    +2   
+- [ ] `lib/help/r_gnome.txt:19` [line] Wisdom          0   
+- [ ] `lib/help/r_gnome.txt:20` [line] Dexterity       +2   
+- [ ] `lib/help/r_gnome.txt:21` [line] Constitution    +1   
+- [ ] `lib/help/r_gnome.txt:22` [line] Charisma        -2       
+- [ ] `lib/help/r_gnome.txt:23` [line] Hit Dice Sides  8         
+- [ ] `lib/help/r_gnome.txt:24` [line] Exp Penalty     +35%
+- [ ] `lib/help/r_gnome.txt:26` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_gnome.txt:27` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_gnome.txt:28` [line] Combat                  
+- [ ] `lib/help/r_gnome.txt:29` [line]   Weaponmastery        -0.800           [0.000]
+- [ ] `lib/help/r_gnome.txt:30` [line]   Archery		1.200           [0.000]
+- [ ] `lib/help/r_gnome.txt:31` [line] Sneakiness              0.600           [0.000]
+- [ ] `lib/help/r_gnome.txt:32` [line]   Stealth               3.000           [0.000]
+- [ ] `lib/help/r_gnome.txt:33` [line]   Disarming             1.000           [0.000]
+- [ ] `lib/help/r_gnome.txt:34` [line] Magic                   
+- [ ] `lib/help/r_gnome.txt:35` [line]   Magic-Device          1.200           [0.000]
+- [ ] `lib/help/r_gnome.txt:36` [line] Spirituality            6.000           [0.000]

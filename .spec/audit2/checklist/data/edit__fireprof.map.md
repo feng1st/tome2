@@ -1,0 +1,35 @@
+# 数据清单：lib/edit/fireprof.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/fireprof.map:5` [feat] F:X:63:3
+- [ ] `lib/edit/fireprof.map:8` [feat] F:.:88:3
+- [ ] `lib/edit/fireprof.map:11` [feat] F:f:86:3
+- [ ] `lib/edit/fireprof.map:14` [feat] F:F:85:3
+- [ ] `lib/edit/fireprof.map:18` [feat] F:!:88:5:0:*21
+- [ ] `lib/edit/fireprof.map:21` [feat] F:m:88:5:324
+- [ ] `lib/edit/fireprof.map:24` [feat] F:H:88:5:341
+- [ ] `lib/edit/fireprof.map:27` [feat] F:b:88:5:377
+- [ ] `lib/edit/fireprof.map:31` [feat] F:C:88:5:613:*25
+- [ ] `lib/edit/fireprof.map:34` [feat] F:<:6:3
+- [ ] `lib/edit/fireprof.map:36` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/fireprof.map:37` [row] D:X......m.................H.........b...m......X
+- [ ] `lib/edit/fireprof.map:38` [row] D:X.............b...............................X
+- [ ] `lib/edit/fireprof.map:39` [row] D:X.......................m.....m.......H...b.C.X
+- [ ] `lib/edit/fireprof.map:40` [row] D:X...............m.!........b.............FFFf.X
+- [ ] `lib/edit/fireprof.map:41` [row] D:X.........m!............H....!........fffFFFffX
+- [ ] `lib/edit/fireprof.map:42` [row] D:X..................................fffFFFFFFfFX
+- [ ] `lib/edit/fireprof.map:43` [row] D:XFFf..............................fFFFFff..fffX
+- [ ] `lib/edit/fireprof.map:44` [row] D:XFFFff........FFFFFF...........fffFFFfff......X
+- [ ] `lib/edit/fireprof.map:45` [row] D:XfFFFFfff....FFFFFFFf.......fffFFFFFf.........X
+- [ ] `lib/edit/fireprof.map:46` [row] D:X.fFFFFFFff.FFFFFFFFFfF..fffFFFFFFff..........X
+- [ ] `lib/edit/fireprof.map:47` [row] D:X..fFFFFFFFffFFFfffFFFfffFFFFFFFFf............X
+- [ ] `lib/edit/fireprof.map:48` [row] D:X...fFFFFFFFFFFff.ffFFFFFFFFFFFff.............X
+- [ ] `lib/edit/fireprof.map:49` [row] D:X....fffFFFFFFff...ffFFFFFFFFFf...............X
+- [ ] `lib/edit/fireprof.map:50` [row] D:X.......ffFFFf.......ffffFFfff................X
+- [ ] `lib/edit/fireprof.map:51` [row] D:X.........fff.................................X
+- [ ] `lib/edit/fireprof.map:52` [row] D:X.............................................X
+- [ ] `lib/edit/fireprof.map:53` [row] D:X.............................................X
+- [ ] `lib/edit/fireprof.map:54` [row] D:X.............................................X
+- [ ] `lib/edit/fireprof.map:55` [row] D:X..................................<..........X
+- [ ] `lib/edit/fireprof.map:56` [row] D:X.............................................X
+- [ ] `lib/edit/fireprof.map:57` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/fireprof.map:60` [raw] P:22:26

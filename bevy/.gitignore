@@ -1,0 +1,5 @@
+/target
+tools/.venv
+__pycache__
+savegame.ron
+scores.ron

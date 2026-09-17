@@ -1,0 +1,35 @@
+# 数据清单：lib/edit/wolves.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/wolves.map:2` [feat] F:X:61:0
+- [ ] `lib/edit/wolves.map:5` [feat] F:#:57:0
+- [ ] `lib/edit/wolves.map:8` [feat] F:<:6:0
+- [ ] `lib/edit/wolves.map:11` [feat] F:-:89:0
+- [ ] `lib/edit/wolves.map:14` [feat] F:.:88:0
+- [ ] `lib/edit/wolves.map:17` [feat] F:t:96:0
+- [ ] `lib/edit/wolves.map:20` [feat] F:D:4:0
+- [ ] `lib/edit/wolves.map:23` [feat] F:d:5:0
+- [ ] `lib/edit/wolves.map:26` [feat] F:z:89:0:0:397
+- [ ] `lib/edit/wolves.map:29` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/wolves.map:30` [row] D:X...t.---.......-.-.....-...#.--X
+- [ ] `lib/edit/wolves.map:31` [row] D:X-..#..-......-.....--......t...X
+- [ ] `lib/edit/wolves.map:32` [row] D:X...t.--.tt#ddt##t#dd#t#....#...X
+- [ ] `lib/edit/wolves.map:33` [row] D:Xz-.t....#.--...#...-..#.--.t...X
+- [ ] `lib/edit/wolves.map:34` [row] D:X#d##....#.z.z..t---...t....#tD#X
+- [ ] `lib/edit/wolves.map:35` [row] D:X....---.t......t..-.z.#..z.....X
+- [ ] `lib/edit/wolves.map:36` [row] D:X...--.-.#...z..#.--...t........X
+- [ ] `lib/edit/wolves.map:37` [row] D:X##t#-z-.#####dd#dd##tt#....#t#tX
+- [ ] `lib/edit/wolves.map:38` [row] D:X..-t.--.t....-.t...--.#.---t...X
+- [ ] `lib/edit/wolves.map:39` [row] D:X.--t---.t......#..--z-#----#-..X
+- [ ] `lib/edit/wolves.map:40` [row] D:X...D....#.--z...---.--t--.-d--.X
+- [ ] `lib/edit/wolves.map:41` [row] D:X...#....#........---..#--..#z-.X
+- [ ] `lib/edit/wolves.map:42` [row] D:X#t#t....t..-...t-z-...t....#tt#X
+- [ ] `lib/edit/wolves.map:43` [row] D:X..-.....#-..-..#......#.....--.X
+- [ ] `lib/edit/wolves.map:44` [row] D:X...-.--.#dd#ttt##t##Dd#.....--.X
+- [ ] `lib/edit/wolves.map:45` [row] D:X#Dt#....#-.....#......#....##t#X
+- [ ] `lib/edit/wolves.map:46` [row] D:X...#...-t----..#......t...-tz--X
+- [ ] `lib/edit/wolves.map:47` [row] D:X.z.t...-#--.-..t......#.---#-..X
+- [ ] `lib/edit/wolves.map:48` [row] D:X.--t.---#-z.--.#.....zt--..d-..X
+- [ ] `lib/edit/wolves.map:49` [row] D:X---#....###dd#tt##dd###--..t...X
+- [ ] `lib/edit/wolves.map:50` [row] D:X.z-t..-...-....-..-.--.....#<zzX
+- [ ] `lib/edit/wolves.map:51` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/wolves.map:54` [raw] P:3:4

@@ -1,0 +1,1155 @@
+# 数据清单：lib/help/command.txt（text，逐条/逐行）
+
+- [ ] `lib/help/command.txt:1` [line] |||||oy
+- [ ] `lib/help/command.txt:2` [line] ~~~~~99|Commands
+- [ ] `lib/help/command.txt:3` [line] #####R=== List of Commands ===
+- [ ] `lib/help/command.txt:6` [line]     Angband commands are entered as an "underlying command" (a single key)
+- [ ] `lib/help/command.txt:7` [line] plus a variety of optional or required arguments.  You may choose how the
+- [ ] `lib/help/command.txt:8` [line] "keyboard keys" are mapped to the "underlying commands" by choosing one of
+- [ ] `lib/help/command.txt:9` [line] two standard "keysets", the "original" keyset or the "roguelike" keyset.
+- [ ] `lib/help/command.txt:11` [line]     The original keyset is very similar to the "underlying" command set,
+- [ ] `lib/help/command.txt:12` [line] with a few additions (such as the ability to use the numeric "directions" to
+- [ ] `lib/help/command.txt:13` [line] "walk" or the "5" key to "stay still").  The roguelike keyset provides similar
+- [ ] `lib/help/command.txt:14` [line] additions, and also allows the use of the h/j/k/l/y/u/b/n keys to "walk" (or,
+- [ ] `lib/help/command.txt:15` [line] in combination with the shift or control keys, to run or tunnel), which thus
+- [ ] `lib/help/command.txt:16` [line] requires a variety of key mappings to allow access to the underlying commands
+- [ ] `lib/help/command.txt:17` [line] used for walking/running/tunneling.  In particular, the "roguelike" keyset
+- [ ] `lib/help/command.txt:18` [line] includes many more "capital" and "control" keys, as shown below.
+- [ ] `lib/help/command.txt:20` [line]     Note that any keys that are not required for access to the underlying
+- [ ] `lib/help/command.txt:21` [line] command set may be used by the user as "command macro" triggers (see below).
+- [ ] `lib/help/command.txt:22` [line] You may always specify any "underlying command" directly by pressing backslash
+- [ ] `lib/help/command.txt:23` [line] ("\") plus the "underlying command" key.  This is normally only used in "macro"
+- [ ] `lib/help/command.txt:24` [line] definitions.  [[[[[BYou may often enter "control-keys" as a caret ("^") plus the key]
+- [ ] `lib/help/command.txt:25` [line] (so "^" + "p" often yields "^P").
+- [ ] `lib/help/command.txt:27` [line]     Some commands allow an optional "repeat count", which allows you to tell
+- [ ] `lib/help/command.txt:28` [line] the game that you wish to do the command multiple times, unless you press a
+- [ ] `lib/help/command.txt:29` [line] key or are otherwise disturbed.  To enter a "repeat count", type '0', followed
+- [ ] `lib/help/command.txt:30` [line] by the numerical count, followed by the command.  You must type "space" before
+- [ ] `lib/help/command.txt:31` [line] entering certain commands.  Skipping the numerical count yields a count of 99.
+- [ ] `lib/help/command.txt:32` [line] An option allows certain commands (open, tunnel, etc) to auto-repeat.
+- [ ] `lib/help/command.txt:34` [line]     Some commands will prompt for extra information, such as a direction, an
+- [ ] `lib/help/command.txt:35` [line] inventory or equipment item, a spell, a textual inscription, the symbol of a
+- [ ] `lib/help/command.txt:36` [line] monster race, a sub-command, a verification, an amount of time, a quantity,
+- [ ] `lib/help/command.txt:37` [line] a file name, or various other things.  Normally you can hit return to choose
+- [ ] `lib/help/command.txt:38` [line] the "default" response, or escape to cancel the command entirely.
+- [ ] `lib/help/command.txt:40` [line]     Some commands will prompt for a spell or an inventory item.  Pressing
+- [ ] `lib/help/command.txt:41` [line] space (or '*') will give you a list of choices.  Pressing "-" (minus) selects
+- [ ] `lib/help/command.txt:42` [line] the item on the floor.  Pressing a lowercase letter selects the given item.
+- [ ] `lib/help/command.txt:43` [line] Pressing a capital letter selects the given item after verification.  Pressing
+- [ ] `lib/help/command.txt:44` [line] a numeric digit '#' selects the first item (if any) whose inscription contains
+- [ ] `lib/help/command.txt:45` [line] "@#" or "@x#", where "x" is the current "underlying command".  You may only
+- [ ] `lib/help/command.txt:46` [line] specify items which are "legal" for the command.  Whenever an item inscription
+- [ ] `lib/help/command.txt:47` [line] contains "!*" or "!x" (with "x" as above) you must verify its selection.
+- [ ] `lib/help/command.txt:49` [line]     In ToME, there are items which occasionally teleport you away, asking
+- [ ] `lib/help/command.txt:50` [line] for permission first. The recurring "Teleport (y/n)?" can be annoying, and
+- [ ] `lib/help/command.txt:51` [line] this behavior can be eliminated by inscribing the object which causes the
+- [ ] `lib/help/command.txt:52` [line] teleportation with "." (or any inscription containing the character ".").
+- [ ] `lib/help/command.txt:53` [line] With this inscription, the object will no longer teleport you around nor
+- [ ] `lib/help/command.txt:54` [line] keep asking you. If you want to restore the teleport ability to the object,
+- [ ] `lib/help/command.txt:55` [line] just remove the "." from its inscription. Note that cursed items which
+- [ ] `lib/help/command.txt:56` [line] teleport you are unaffected by the inscription.
+- [ ] `lib/help/command.txt:58` [line]     Some commands will prompt for a direction.  You may enter a "compass"
+- [ ] `lib/help/command.txt:59` [line] direction using any of the "direction keys" shown below.  Sometimes, you may
+- [ ] `lib/help/command.txt:60` [line] specify that you wish to use the current "target", by pressing "t" or "5", or
+- [ ] `lib/help/command.txt:61` [line] that you wish to select a new target, by pressing "*" (see "Target" below).
+- [ ] `lib/help/command.txt:62` [line] ~~~~~95
+- [ ] `lib/help/command.txt:63` [line] #####G        Original Keyset Directions       Roguelike Keyset Directions
+- [ ] `lib/help/command.txt:65` [line]                  7  8  9                           y  k  u
+- [ ] `lib/help/command.txt:66` [line]                  4     6                           h     l
+- [ ] `lib/help/command.txt:67` [line]                  1  2  3                           b  j  n
+- [ ] `lib/help/command.txt:69` [line]     Each of the standard keysets provides some short-cuts over the "underlying
+- [ ] `lib/help/command.txt:70` [line] commands".  For example, both keysets allow you to "walk" by simply pressing
+- [ ] `lib/help/command.txt:71` [line] an "original" direction key (or a "roguelike" direction key if you are using
+- [ ] `lib/help/command.txt:72` [line] the roguelike keyset), instead of using the "walk" command plus a direction.
+- [ ] `lib/help/command.txt:73` [line] [[[[[BThe roguelike keyset allows you to "run" or "tunnel" by simply holding the]
+- [ ] `lib/help/command.txt:74` [line] [[[[[Bshift or control modifier key down while pressing a "roguelike" direction key,]
+- [ ] `lib/help/command.txt:75` [line] [[[[[Binstead of using the "run" or "tunnel" command plus a direction.]  Both keysets
+- [ ] `lib/help/command.txt:76` [line] allow the use of the "5" key to "stand still", which is most convenient when
+- [ ] `lib/help/command.txt:77` [line] using the original keyset.
+- [ ] `lib/help/command.txt:79` [line]     Note that on many systems, it is possible to define "macros" (or "command
+- [ ] `lib/help/command.txt:80` [line] macros") to various keys, or key combinations, so that it is often possible to
+- [ ] `lib/help/command.txt:81` [line] make macros which, for example, allow the use of the shift or control modifier
+- [ ] `lib/help/command.txt:82` [line] keys, plus a numeric keypad key, to specify the "run" or "tunnel" command, with
+- [ ] `lib/help/command.txt:83` [line] the given direction, regardless of any keymap definitions, by using the fact
+- [ ] `lib/help/command.txt:84` [line] that you can always, for example, use "\" + "." + "6", to specify "run east".
+- [ ] `lib/help/command.txt:85` [line] ~~~~~100|Commands|Original keyset
+- [ ] `lib/help/command.txt:86` [line] #####R=== Original Keyset Command Summary (4.2.x) ===
+- [ ] `lib/help/command.txt:88` [line]  *****command.txt*1[a  Aim a wand]                           *****command.txt*2[A  Activate an artifact]
+- [ ] `lib/help/command.txt:89` [line]  *****command.txt*3[b  Browse a book]                        *****command.txt*4[B  Bash a door]
+- [ ] `lib/help/command.txt:90` [line]  *****command.txt*5[c  Close a door]                         *****command.txt*6[C  Character description]
+- [ ] `lib/help/command.txt:91` [line]  *****command.txt*7[d  Drop an item]                         D  (unused)
+- [ ] `lib/help/command.txt:92` [line]  *****command.txt*9[e  Equipment list]                       *****command.txt*10[E  Eat some food]
+- [ ] `lib/help/command.txt:93` [line]  *****command.txt*11[f  Fire (shoot) an item]                 *****command.txt*12[F  Fuel your lantern/torch]
+- [ ] `lib/help/command.txt:94` [line]  *****command.txt*13[g  Stay still (flip pickup)]             *****command.txt*14[G  Gain new skills]
+- [ ] `lib/help/command.txt:95` [line]  *****command.txt*15[h  Hack up a corpse]                     *****command.txt*16[H  Drink from a fountain]
+- [ ] `lib/help/command.txt:96` [line]  *****command.txt*17[i  Inventory list]                       *****command.txt*18[I  Inspect (closely examine) an item]
+- [ ] `lib/help/command.txt:97` [line]  *****command.txt*19[j  Jam a door]                           J  (unused)
+- [ ] `lib/help/command.txt:98` [line]  *****command.txt*20[k  Destroy an item]                      *****command.txt*21[K  Cure meat]
+- [ ] `lib/help/command.txt:99` [line]  *****command.txt*22[l  Look around]                          *****command.txt*23[L  Look around dungeon by sector]
+- [ ] `lib/help/command.txt:100` [line]  *****command.txt*24[m  Cast a spell / use mental power]      *****command.txt*25[M  Full dungeon map]
+- [ ] `lib/help/command.txt:101` [line]  *****command.txt*85[n  Repeat last command]                  *****command.txt*91[N  Abilities Screen]  
+- [ ] `lib/help/command.txt:102` [line]  *****command.txt*26[o  Open a door or chest]                 *****command.txt*27[O  Sacrifice at an altar]
+- [ ] `lib/help/command.txt:103` [line]  *****command.txt*28[p  Pray to your god (if any)]            *****command.txt*29[P  Pet commands]
+- [ ] `lib/help/command.txt:104` [line]  *****command.txt*30[q  Quaff a potion]                       *****command.txt*31[Q  Quit (commit suicide)]
+- [ ] `lib/help/command.txt:105` [line]  *****command.txt*32[r  Read a scroll]                        *****command.txt*33[R  Rest for a period]
+- [ ] `lib/help/command.txt:106` [line]  *****command.txt*34[s  Search for traps/doors]               *****command.txt*35[S  Toggle search mode]
+- [ ] `lib/help/command.txt:107` [line]  *****command.txt*36[t  Take off equipment]                   *****command.txt*37[T  Dig a tunnel]
+- [ ] `lib/help/command.txt:108` [line]  *****command.txt*38[u  Use a staff]                          *****command.txt*39[U  Use bonus power (if any)]
+- [ ] `lib/help/command.txt:109` [line]  *****command.txt*40[v  Throw an item]                        *****command.txt*41[V  Version Info]
+- [ ] `lib/help/command.txt:110` [line]  *****command.txt*42[w  Wear/wield equipment]                 W  (unused)
+- [ ] `lib/help/command.txt:111` [line]  *****command.txt*43[x  Engrave the floor]                    X  (unused)
+- [ ] `lib/help/command.txt:112` [line]  *****command.txt*44[y  Give item to monster]                 *****command.txt*96[Y  Chat with a monster]
+- [ ] `lib/help/command.txt:113` [line]  *****command.txt*45[z  Zap a rod]                            *****command.txt*46[Z  Steal]
+- [ ] `lib/help/command.txt:114` [line]  *****command.txt*47[!  Interact with system]                *****debug.txt*101[^A  (special - debug command)]
+- [ ] `lib/help/command.txt:115` [line]  *****command.txt*49[@  Interact with macros]                ^B  (unused)
+- [ ] `lib/help/command.txt:116` [line]  *****command.txt*89[#  Begin extended command]              ^C  (special - break)
+- [ ] `lib/help/command.txt:117` [line]  *****command.txt*97[$  Record macros]                       ^D  (unused)
+- [ ] `lib/help/command.txt:118` [line]  *****command.txt*51[%  Interact with visuals]               *****command.txt*52[^E  Toggle choice window]
+- [ ] `lib/help/command.txt:119` [line]  ^  (special - control key)             *****command.txt*53[^F  Repeat level feeling]
+- [ ] `lib/help/command.txt:120` [line]  *****command.txt*54[&  Interact with colors]                ^G  (unused)
+- [ ] `lib/help/command.txt:121` [line]  *****command.txt*55[*  Target monster or location]          ^H  (unused)
+- [ ] `lib/help/command.txt:122` [line]  (  (unused)                            ^I  (special - tab)
+- [ ] `lib/help/command.txt:123` [line]  )  (unused)                            ^J  (special - linefeed)
+- [ ] `lib/help/command.txt:124` [line]  *****command.txt*58[{  Inscribe an object]                  ^K  (unused)
+- [ ] `lib/help/command.txt:125` [line]  *****command.txt*59[}  Uninscribe an object]                ^L  (unused)
+- [ ] `lib/help/command.txt:126` [line]  [  (unused)                            ^M  (special - return)
+- [ ] `lib/help/command.txt:127` [line]  ]  (unused)                            ^N  (unused)
+- [ ] `lib/help/command.txt:128` [line]  *****command.txt*60[-  Walk (flip pickup)]                  ^O  (unused)
+- [ ] `lib/help/command.txt:129` [line]  *****command.txt*61[_  Re-Enter store]                      *****command.txt*62[^P  Show previous messages]
+- [ ] `lib/help/command.txt:130` [line]  *****command.txt*63[+  Alter grid]                          *****command.txt*64[^Q  Quit to next midi song]
+- [ ] `lib/help/command.txt:131` [line]  *****command.txt*65[=  Set options]                         *****command.txt*66[^R  Redraw the screen]
+- [ ] `lib/help/command.txt:132` [line]  *****command.txt*67[;  Walk (with pickup)]                  *****command.txt*68[^S  Save and don't quit]
+- [ ] `lib/help/command.txt:133` [line]  *****command.txt*69[:  Take notes]                          *****command.txt*70[^T  Time of the day]
+- [ ] `lib/help/command.txt:134` [line]  '  (unused)                            ^U  (unused)
+- [ ] `lib/help/command.txt:135` [line]  *****command.txt*71["  Enter a user pref command]           ^V  (unused)
+- [ ] `lib/help/command.txt:136` [line]  *****command.txt*72[,  Stay still (with pickup)]            ^W  (special - wizard mode)
+- [ ] `lib/help/command.txt:137` [line]  *****command.txt*74[<  Go up staircase]                     *****command.txt*75[^X  Save and quit]
+- [ ] `lib/help/command.txt:138` [line]  *****command.txt*76[.  Run]                                 ^Y  (unused)
+- [ ] `lib/help/command.txt:139` [line]  *****command.txt*77[>  Go down staircase]                   ^Z  (unused)
+- [ ] `lib/help/command.txt:140` [line]  *****command.txt*79[\  (special - bypass keymap)]
+- [ ] `lib/help/command.txt:141` [line]  *****command.txt*81[`  (special - escape)]                   *****command.txt*82[~  Display current knowledge]
+- [ ] `lib/help/command.txt:142` [line]  *****command.txt*83[/  Identify symbol]                      *****command.txt*84[?  Help]
+- [ ] `lib/help/command.txt:143` [line]                                         *****command.txt*98[^\]  Take an html screenshot]
+- [ ] `lib/help/command.txt:146` [line] ~~~~~101|Commands|Roguelike keyset
+- [ ] `lib/help/command.txt:147` [line] #####R===  Roguelike Keyset Command Summary (4.2.x) ===
+- [ ] `lib/help/command.txt:149` [line]  *****command.txt*45[a  Zap a rod (Activate)]                 *****command.txt*2[A  Activate an artifact]
+- [ ] `lib/help/command.txt:150` [line]  *****command.txt*95[b  (walk - south west)]                  *****command.txt*95[B  (run - south west)]
+- [ ] `lib/help/command.txt:151` [line]  *****command.txt*5[c  Close a door]                         *****command.txt*6[C  Character description]
+- [ ] `lib/help/command.txt:152` [line]  *****command.txt*7[d  Drop an item]                         D  (unused)
+- [ ] `lib/help/command.txt:153` [line]  *****command.txt*9[e  Equipment list]                       *****command.txt*10[E  Eat some food]
+- [ ] `lib/help/command.txt:154` [line]  *****command.txt*4[f  Bash a door (force)]                  *****command.txt*12[F  Fuel your lantern/torch]
+- [ ] `lib/help/command.txt:155` [line]  *****command.txt*13[g  Stay still (flip pickup)]             *****command.txt*14[G  Gain new skills]
+- [ ] `lib/help/command.txt:156` [line]  *****command.txt*95[h  (walk - west)]                        *****command.txt*95[H  (run - west)]
+- [ ] `lib/help/command.txt:157` [line]  *****command.txt*17[i  Inventory list]                       *****command.txt*18[I  Observe an item]
+- [ ] `lib/help/command.txt:158` [line]  *****command.txt*95[j  (walk - south)]                       *****command.txt*95[J  (run - south)]
+- [ ] `lib/help/command.txt:159` [line]  *****command.txt*95[k  (walk - north)]                       *****command.txt*95[K  (run - north)]
+- [ ] `lib/help/command.txt:160` [line]  *****command.txt*95[l  (walk - east)]                        *****command.txt*95[L  (run - east)]
+- [ ] `lib/help/command.txt:161` [line]  *****command.txt*24[m  Spell casting / mental power]         *****command.txt*25[M  Full dungeon map]
+- [ ] `lib/help/command.txt:162` [line]  *****command.txt*95[n  (walk - south east)]                  *****command.txt*95[N  (run - south east)]
+- [ ] `lib/help/command.txt:163` [line]  *****command.txt*26[o  Open a door or chest]                 *****command.txt*39[O  Use bonus power (if any)]
+- [ ] `lib/help/command.txt:164` [line]  *****command.txt*28[p  Pray to your god (if any)]            *****command.txt*3[P  Browse a book]
+- [ ] `lib/help/command.txt:165` [line]  *****command.txt*30[q  Quaff a potion]                       *****command.txt*31[Q  Quit (commit suicide)]
+- [ ] `lib/help/command.txt:166` [line]  *****command.txt*32[r  Read a scroll]                        *****command.txt*33[R  Rest for a period]
+- [ ] `lib/help/command.txt:167` [line]  *****command.txt*34[s  Search for traps/doors]               *****command.txt*97[S  Record macros]
+- [ ] `lib/help/command.txt:168` [line]  *****command.txt*11[t  Fire an item]                         *****command.txt*36[T  Take off equipment]
+- [ ] `lib/help/command.txt:169` [line]  *****command.txt*95[u  (walk - north east)]                  *****command.txt*95[U  (run - north east)]
+- [ ] `lib/help/command.txt:170` [line]  *****command.txt*40[v  Throw an item]                        *****command.txt*16[V  Drink from a fountain]
+- [ ] `lib/help/command.txt:171` [line]  *****command.txt*42[w  Wear/wield equipment]                 *****command.txt*23[W  Locate player on map (Where)]
+- [ ] `lib/help/command.txt:172` [line]  *****command.txt*22[x  Look around]                          *****command.txt*29[X  Pet commands]
+- [ ] `lib/help/command.txt:173` [line]  *****command.txt*95[y  (walk - north west)]                  *****command.txt*95[Y  (run - north west)]
+- [ ] `lib/help/command.txt:174` [line]  *****command.txt*1[z  Aim a wand (Zap)]                     *****command.txt*38[Z  Use a staff (Zap)]
+- [ ] `lib/help/command.txt:175` [line]  *****command.txt*47[!  Interact with system]                ^A  (special - debug command)
+- [ ] `lib/help/command.txt:176` [line]  *****command.txt*49[@  Interact with macros]                *****command.txt*95[^B  (tunnel - south west)]
+- [ ] `lib/help/command.txt:177` [line]  *****command.txt*35[#  Toggle search mode]                  ^C  (special - break)
+- [ ] `lib/help/command.txt:178` [line]  *****command.txt*15[$  Hack up a corpse]                    *****command.txt*20[^D  Destroy item]
+- [ ] `lib/help/command.txt:179` [line]  *****command.txt*51[%  Interact with visuals]               *****command.txt*52[^E  Toggle choice window]
+- [ ] `lib/help/command.txt:180` [line]  ^  (special - control key)             *****command.txt*53[^F  Repeat level feeling]
+- [ ] `lib/help/command.txt:181` [line]  *****command.txt*54[&  Interact with colors]                *****command.txt*27[^G  Sacrifice at an altar]
+- [ ] `lib/help/command.txt:182` [line]  *****command.txt*55[*  Target monster or location]          *****command.txt*95[^H  (tunnel - west)]
+- [ ] `lib/help/command.txt:183` [line]  *****command.txt*96[(  Chat]                                ^I  (special - tab)
+- [ ] `lib/help/command.txt:184` [line]  *****command.txt*89[)  Begin extended command]              *****command.txt*95[^J  (tunnel - south)]
+- [ ] `lib/help/command.txt:185` [line]  *****command.txt*58[{  Inscribe an object]                  *****command.txt*95[^K  (tunnel - north)]
+- [ ] `lib/help/command.txt:186` [line]  *****command.txt*59[}  Uninscribe an object]                *****command.txt*95[^L  (tunnel - east)]
+- [ ] `lib/help/command.txt:187` [line]  [*****command.txt*46[  Steal]                               *****command.txt*95[^M  (tunnel - south)]
+- [ ] `lib/help/command.txt:188` [line]  ]*****command.txt*43[  Engrave the floor]                   *****command.txt*95[^N  (tunnel - south east)]
+- [ ] `lib/help/command.txt:189` [line]  *****command.txt*60[-  Walk (flip pickup)]                  *****command.txt*21[^O  Cure meat]
+- [ ] `lib/help/command.txt:190` [line]  *****command.txt*61[_  Enter store]                         *****command.txt*62[^P  Show previous messages]
+- [ ] `lib/help/command.txt:191` [line]  *****command.txt*63[+  Alter grid]                          *****command.txt*64[^Q  Quit to next midi song]
+- [ ] `lib/help/command.txt:192` [line]  *****command.txt*65[=  Set options]                         *****command.txt*66[^R  Redraw the screen]
+- [ ] `lib/help/command.txt:193` [line]  *****command.txt*67[;  Walk (with pickup)]                  *****command.txt*68[^S  Save and don't quit]
+- [ ] `lib/help/command.txt:194` [line]  *****command.txt*69[:  Take notes]                          *****command.txt*37[^T  Dig a Tunnel]
+- [ ] `lib/help/command.txt:195` [line]  *****command.txt*44['  Give object to monster]              *****command.txt*95[^U  (tunnel - north east)]
+- [ ] `lib/help/command.txt:196` [line]  *****command.txt*71["  Enter a user pref command]           ^V  (unused)
+- [ ] `lib/help/command.txt:197` [line]  *****command.txt*76[,  Run]                                 ^W  (special - wizard mode)
+- [ ] `lib/help/command.txt:198` [line]  *****command.txt*74[<  Go up staircase]                     *****command.txt*75[^X  Save and quit]
+- [ ] `lib/help/command.txt:199` [line]  *****command.txt*72[.  Stay still (with pickup)]            *****command.txt*95[^Y  (tunnel - north west)]
+- [ ] `lib/help/command.txt:200` [line]  *****command.txt*77[>  Go down staircase]                   ^Z  (unused)
+- [ ] `lib/help/command.txt:201` [line]  *****command.txt*79[\  (special - bypass keymap)]
+- [ ] `lib/help/command.txt:202` [line]  *****command.txt*81[`  (special - escape)]                   *****command.txt*82[~  Display current knowledge]
+- [ ] `lib/help/command.txt:203` [line]  *****command.txt*83[/  Identify symbol]                      *****command.txt*84[?  Help]
+- [ ] `lib/help/command.txt:205` [line] ~~~~~102|Commands|Special keys
+- [ ] `lib/help/command.txt:206` [line] #####R=== Special Keys ===
+- [ ] `lib/help/command.txt:208` [line]         Certain special keys may be intercepted by the operating system or
+- [ ] `lib/help/command.txt:209` [line] the host machine, causing unexpected results.  In general, these special keys
+- [ ] `lib/help/command.txt:210` [line] are control keys, and often, you can disable their special effects.
+- [ ] `lib/help/command.txt:212` [line]         If you are playing on a UNIX or similar system, then Ctrl-C will
+- [ ] `lib/help/command.txt:213` [line] interrupt ToME.  The second and third interrupt will induce a warning
+- [ ] `lib/help/command.txt:214` [line] bell, and the fourth will induce both a warning bell and a special message,
+- [ ] `lib/help/command.txt:215` [line] since the fifth will quit the game, after killing your character.  Also,
+- [ ] `lib/help/command.txt:216` [line] Ctrl-Z will suspend the game, and return you to the original command shell,
+- [ ] `lib/help/command.txt:217` [line] until you resume the game with the "fg" command.  There is now a compilation
+- [ ] `lib/help/command.txt:218` [line] option to force the game to prevent the "double ctrl-z escape death trick".
+- [ ] `lib/help/command.txt:219` [line] The Ctrl-\ and Ctrl-D and Ctrl-S keys should not be intercepted.
+- [ ] `lib/help/command.txt:221` [line]         It is often possible to specify "control-keys" without actually
+- [ ] `lib/help/command.txt:222` [line] pressing the control key, by typing a caret ("^") followed by the key.
+- [ ] `lib/help/command.txt:223` [line] This is useful for specifying control-key commands which might be caught
+- [ ] `lib/help/command.txt:224` [line] by the operating system as explained above.
+- [ ] `lib/help/command.txt:225` [line] ~~~~~79
+- [ ] `lib/help/command.txt:226` [line]         Pressing [[[[[Gbackslash ("\\")] before a command will bypass all keymaps,
+- [ ] `lib/help/command.txt:227` [line] and the next keypress will be interpreted as an "underlying command" key,
+- [ ] `lib/help/command.txt:228` [line] unless it is a caret ("^"), in which case the keypress after that will be
+- [ ] `lib/help/command.txt:229` [line] turned into a control-key and interpreted as a command in the underlying
+- [ ] `lib/help/command.txt:230` [line] ToME keyset.  The backslash key is useful for creating macro actions
+- [ ] `lib/help/command.txt:231` [line] which are not affected by any keymap definitions that may be in force, for
+- [ ] `lib/help/command.txt:232` [line] example, the sequence "\" + "." + "6" will always mean "run east", even if
+- [ ] `lib/help/command.txt:233` [line] the "." key has been mapped to a different underlying command.
+- [ ] `lib/help/command.txt:235` [line]         The "0" and "^" and "\" keys all have special meaning when entered
+- [ ] `lib/help/command.txt:236` [line] at the command prompt, and there is no "useful" way to specify any of them
+- [ ] `lib/help/command.txt:237` [line] as an "underlying command", which is okay, since they would have no effect.
+- [ ] `lib/help/command.txt:238` [line] ~~~~~81
+- [ ] `lib/help/command.txt:239` [line]         For many input requests or queries, the [[[[[Gspecial character ESCAPE]
+- [ ] `lib/help/command.txt:240` [line] will abort the command.  The "[y/n]" prompts may be answered with "y" or
+- [ ] `lib/help/command.txt:241` [line] "n", or escape.  The "-more-" message prompts may be cleared (after reading
+- [ ] `lib/help/command.txt:242` [line] the displayed message) by pressing ESCAPE, SPACE, RETURN, LINEFEED, or by
+- [ ] `lib/help/command.txt:243` [line] any keypress, if the "quick_messages" option is turned on.
+- [ ] `lib/help/command.txt:244` [line] ~~~~~103|Commands|Command counts
+- [ ] `lib/help/command.txt:245` [line] ~~~~~104|Commands|Repeating a command
+- [ ] `lib/help/command.txt:246` [line] #####R===  Command Counts ===
+- [ ] `lib/help/command.txt:248` [line]         Some commands can be executed a fixed number of times by preceding
+- [ ] `lib/help/command.txt:249` [line] them with a count.  Counted commands will execute until the count expires,
+- [ ] `lib/help/command.txt:250` [line] until you type any character, or until something significant happens, such
+- [ ] `lib/help/command.txt:251` [line] as being attacked.  Thus, a counted command doesn't work to attack another
+- [ ] `lib/help/command.txt:252` [line] creature.  While the command is being repeated, the number of times left
+- [ ] `lib/help/command.txt:253` [line] to be repeated will flash by on the line at the bottom of the screen.
+- [ ] `lib/help/command.txt:255` [line]         [[[[[BTo give a count to a command, type 0, the repeat count, and then]
+- [ ] `lib/help/command.txt:256` [line] [[[[[Bthe command.] If you want to give a movement command and you are using the
+- [ ] `lib/help/command.txt:257` [line] original command set (where the movement commands are digits), press space
+- [ ] `lib/help/command.txt:258` [line] after the count and you will be prompted for the command.
+- [ ] `lib/help/command.txt:260` [line]         Counted commands are very useful for searching or tunneling, as
+- [ ] `lib/help/command.txt:261` [line] they automatically terminate on success, or if you are attacked.  You may
+- [ ] `lib/help/command.txt:262` [line] also terminate any counted command (or resting or running), by typing any
+- [ ] `lib/help/command.txt:263` [line] character.  This character is ignored, but it is safest to use a SPACE or
+- [ ] `lib/help/command.txt:264` [line] ESCAPE which are always ignored as commands in case you type the command
+- [ ] `lib/help/command.txt:265` [line] just after the count expires.
+- [ ] `lib/help/command.txt:267` [line]         You can tell ToME to automatically use a repeat count of 99
+- [ ] `lib/help/command.txt:268` [line] with commands you normally want to repeat (open, tunnel, bash, alter,
+- [ ] `lib/help/command.txt:269` [line] etc) by setting the "always_repeat" option.
+- [ ] `lib/help/command.txt:272` [line] #####R===  Selection of Objects ===
+- [ ] `lib/help/command.txt:274` [line]         Many commands will also prompt for a particular object to be used.
+- [ ] `lib/help/command.txt:275` [line] For example, the command to read a scroll will ask you which of the
+- [ ] `lib/help/command.txt:276` [line] scrolls that you are carrying that you wish to read.  In such cases, the
+- [ ] `lib/help/command.txt:277` [line] selection is made by typing a letter of the alphabet.  The prompt will
+- [ ] `lib/help/command.txt:278` [line] indicate the possible letters, and will also allow you to type the key
+- [ ] `lib/help/command.txt:279` [line] "*", which causes all of the available options to be described.  The list
+- [ ] `lib/help/command.txt:280` [line] of choices will also be shown in the Choice window, if you are using a
+- [ ] `lib/help/command.txt:281` [line] windows environment and windows are turned on.  Often you will be able to
+- [ ] `lib/help/command.txt:282` [line] press "/" to select an object from your equipment instead of your
+- [ ] `lib/help/command.txt:283` [line] inventory.  Pressing space once will have the same effect as "*", and
+- [ ] `lib/help/command.txt:284` [line] the second time will cancel the command and run the "i" or "e" command.
+- [ ] `lib/help/command.txt:286` [line]         [[[[[BThe particular object may be selected by an upper case or a lower]
+- [ ] `lib/help/command.txt:287` [line] [[[[[Bcase letter.  If lower case is used, the selection takes place]
+- [ ] `lib/help/command.txt:288` [line] [[[[[Bimmediately.  If upper case is used, then the particular option is]
+- [ ] `lib/help/command.txt:289` [line] [[[[[Bdescribed, and you are given the option of confirming or retracting that]
+- [ ] `lib/help/command.txt:290` [line] [[[[[Bchoice.]  Upper case selection is thus safer, but requires an extra key
+- [ ] `lib/help/command.txt:291` [line] stroke.  Also see the "!*" and "!x" inscriptions, below.
+- [ ] `lib/help/command.txt:293` [line]         For many commands, [[[[[Byou can also use "-" to select an object on the]
+- [ ] `lib/help/command.txt:294` [line] [[[[[Bfloor where you are standing.]  This lets you read scrolls or quaff
+- [ ] `lib/help/command.txt:295` [line] potions, for example, off the dungeon floor without picking them up.
+- [ ] `lib/help/command.txt:296` [line] ~~~~~90
+- [ ] `lib/help/command.txt:297` [line]         If you enter a number between 0 and 9, the first item engraved
+- [ ] `lib/help/command.txt:298` [line] with "@#" where "#" is the number you entered will be selected.  For example,
+- [ ] `lib/help/command.txt:299` [line] if you have a shovel engraved with "@0" and you type "w" (for wield) and
+- [ ] `lib/help/command.txt:300` [line] then 0, you will wield the shovel.  This is very useful for macros (see
+- [ ] `lib/help/command.txt:301` [line] below), since you can use this to select an object regardless of its
+- [ ] `lib/help/command.txt:302` [line] location in your pack. Multiple numbers can be engraved on the same object; for
+- [ ] `lib/help/command.txt:303` [line] example, if a sword is engraved with @1@0, then either "w1" or "w0" will
+- [ ] `lib/help/command.txt:304` [line] wield it.  Normally, you inscribe "@1@0" on your primary weapon, and
+- [ ] `lib/help/command.txt:305` [line] "@2@0" on your secondary weapon.  [[[[[BNote that an inscription containing]
+- [ ] `lib/help/command.txt:306` [line] [[[[[B"@x#" will act like "@#" but only when the current "ToME command"]
+- [ ] `lib/help/command.txt:307` [line] [[[[[Bis "x".]  Thus you can put "@z4" on a rod and "@u4" on a staff, and then 
+- [ ] `lib/help/command.txt:308` [line] use both "z4" and "u4" as desired.
+- [ ] `lib/help/command.txt:310` [line]         Note that any object containing "!x" in its inscription, where
+- [ ] `lib/help/command.txt:311` [line] "x" is the current "ToME command" (or containing "!*" ever) will induce
+- [ ] `lib/help/command.txt:312` [line] "verification" whenever that object is "selected".  Thus, inscribing, say,
+- [ ] `lib/help/command.txt:313` [line] "!f!k!d" on an object will greatly reduce the odds of you "losing" it by
+- [ ] `lib/help/command.txt:314` [line] accident, and [[[[[Binscribing "!*" on an object] will allow you to be very paranoid
+- [ ] `lib/help/command.txt:315` [line] about the object.  Note that "selling" and "dropping" both use the "d" command.
+- [ ] `lib/help/command.txt:317` [line] ~~~~~105|Pref files
+- [ ] `lib/help/command.txt:318` [line] #####R=== User Pref Files ===
+- [ ] `lib/help/command.txt:320` [line]         ToME allows you to change various aspects of the game to suit
+- [ ] `lib/help/command.txt:321` [line] your tastes.  You may define keymaps (changing the way ToME maps your
+- [ ] `lib/help/command.txt:322` [line] keypresses to underlying commands), create macros (allowing you to map a
+- [ ] `lib/help/command.txt:323` [line] single keypress to a series of keypresses), modify the visuals (allowing
+- [ ] `lib/help/command.txt:324` [line] you to change the appearance of monsters, objects, or terrain features),
+- [ ] `lib/help/command.txt:325` [line] change the colors (allowing you to make a given color brighter, darker,
+- [ ] `lib/help/command.txt:326` [line] or even completely different), or set options (turning them off or on).
+- [ ] `lib/help/command.txt:328` [line]         ToME stores your preferences in files called "user pref files",
+- [ ] `lib/help/command.txt:329` [line] which contain comments and "user pref commands", which are simple strings
+- [ ] `lib/help/command.txt:330` [line] describing one aspect of the system about which the user has a preference.
+- [ ] `lib/help/command.txt:331` [line] There are many ways to load a user pref file, and in fact, some of these
+- [ ] `lib/help/command.txt:332` [line] files are automatically loaded for you by the game.  All of the files are
+- [ ] `lib/help/command.txt:333` [line] kept in the "lib/user/" directory, though you may have to use one of the
+- [ ] `lib/help/command.txt:334` [line] command line arguments to redirect this directory, especially on multiuser
+- [ ] `lib/help/command.txt:335` [line] systems.  You may also enter single user pref commands directly, using the
+- [ ] `lib/help/command.txt:336` [line] special "Enter a user pref command" command, activated by "double quote".
+- [ ] `lib/help/command.txt:337` [line] You may have to use the "redraw" command (^R) after changing certain of
+- [ ] `lib/help/command.txt:338` [line] the aspects of the game, to allow ToME to adapt to your changes.
+- [ ] `lib/help/command.txt:340` [line]         When the game starts up, after you have loaded an old character,
+- [ ] `lib/help/command.txt:341` [line] or created a new character, some user pref files are loaded automatically.
+- [ ] `lib/help/command.txt:342` [line] First, the "pref.prf" file is loaded.  This file contains some user pref
+- [ ] `lib/help/command.txt:343` [line] commands which will work on all platforms.  Then one of "font-xxx.prf"
+- [ ] `lib/help/command.txt:344` [line] (for normal usage) or "graf-xxx.prf" (for bitmap usage) is loaded.  These
+- [ ] `lib/help/command.txt:345` [line] files contain attr/char changes to allow the monsters, objects, and/or
+- [ ] `lib/help/command.txt:346` [line] terrain features to look "better" on your system.  Then the "pref-xxx.prf"
+- [ ] `lib/help/command.txt:347` [line] file is loaded.  This file contains pre-defined system specific stuff
+- [ ] `lib/help/command.txt:348` [line] (macros, color definitions, etc).  Then, the "user-xxx.prf" file is loaded.
+- [ ] `lib/help/command.txt:349` [line] This file contains user-defined system specific stuff.  The "user-xxx.prf"
+- [ ] `lib/help/command.txt:350` [line] file is used as the "default" user pref file in many places.  The "xxx" is
+- [ ] `lib/help/command.txt:351` [line] the "system suffix" for your system, taken from the "main-xxx.c" file which
+- [ ] `lib/help/command.txt:352` [line] was used to generate your executable.  Finally, the "Race.prf", "Class.prf",
+- [ ] `lib/help/command.txt:353` [line] and "Name.prf" files are loaded, where "Race", "Class", and "Name" are
+- [ ] `lib/help/command.txt:354` [line] replaced by the actual race, class, and name of the current character.
+- [ ] `lib/help/command.txt:356` [line]         Several commands allow you to both load existing user pref files,
+- [ ] `lib/help/command.txt:357` [line] create new user pref files, append information to existing user pref files,
+- [ ] `lib/help/command.txt:358` [line] and/or interact with various of the user preferences in a more intuitive
+- [ ] `lib/help/command.txt:359` [line] way than the user pref commands allow.  The commands include "Interact with
+- [ ] `lib/help/command.txt:360` [line] macros" (@), "Interact with visuals" (%), and "Interact with colors" (&),
+- [ ] `lib/help/command.txt:361` [line] described below.
+- [ ] `lib/help/command.txt:362` [line] ~~~~~106|Pref files|Macros
+- [ ] `lib/help/command.txt:363` [line] #####G--- User Pref Files (Macros) ---
+- [ ] `lib/help/command.txt:365` [line]         The "Interact with macros" command allows you to define or remove
+- [ ] `lib/help/command.txt:366` [line] "macros", which are mappings from a single logical keypress to a sequence
+- [ ] `lib/help/command.txt:367` [line] of keypresses, allowing you to use special keys on the keyboard, such as
+- [ ] `lib/help/command.txt:368` [line] function keys or keypad keys, possibly in conjunction with modifier keys,
+- [ ] `lib/help/command.txt:369` [line] to "automate" repetitive multi-keypress commands that you use a lot.
+- [ ] `lib/help/command.txt:371` [line]         Since macros represent keypress sequences, and not all keypresses
+- [ ] `lib/help/command.txt:372` [line] have a printable representation, macro triggers and actions must often be
+- [ ] `lib/help/command.txt:373` [line] "encoded" into a human readable form.  This is done using several types
+- [ ] `lib/help/command.txt:374` [line] of encoding, including "\xHH" for character number HH in hexidecimal, "\e"
+- [ ] `lib/help/command.txt:375` [line] for the "escape" code, "\n" for the "newline" code, "\r" for the "return"
+- [ ] `lib/help/command.txt:376` [line] code, "\s" for the "space" code, "\\" for backslash, "\^" for caret, and
+- [ ] `lib/help/command.txt:377` [line] "^X" for the code for any "control" key "ctrl-X".  Note that the "action"
+- [ ] `lib/help/command.txt:378` [line] of a macro will not be checked against other macro triggers (unless the
+- [ ] `lib/help/command.txt:379` [line] macro action contains a "control-backslash"), so you cannot make infinite
+- [ ] `lib/help/command.txt:380` [line] loops.  You may specify extremely long macros, but you are limited in
+- [ ] `lib/help/command.txt:381` [line] length by the underlying input mechanisms, which in general limit you
+- [ ] `lib/help/command.txt:382` [line] to about 1024 keys in both triggers and actions.
+- [ ] `lib/help/command.txt:384` [line]         The special "\" command (which must be encoded in macros as "\\")
+- [ ] `lib/help/command.txt:385` [line] is very useful in macros, since it bypasses all keymaps and allows the next
+- [ ] `lib/help/command.txt:386` [line] keystroke to be considered a command in the underlying ToME command set.
+- [ ] `lib/help/command.txt:387` [line] For example, a macro which maps Shift-KP6 to "\" + "." + "6" will induce
+- [ ] `lib/help/command.txt:388` [line] the "run east" behavior, regardless of what keyset the user has chosen, and
+- [ ] `lib/help/command.txt:389` [line] regardless of what keymaps have been defined.
+- [ ] `lib/help/command.txt:391` [line]         Macros can be specified in user pref files as a pair of lines, one
+- [ ] `lib/help/command.txt:392` [line] of the form "A:<str>", which defines the encoded macro action, and one of
+- [ ] `lib/help/command.txt:393` [line] the form "P:<str>", which defines the encoded macro trigger.
+- [ ] `lib/help/command.txt:395` [line]       A [[[[[Bcommon example of a macro] to cast the first spell in your first spell
+- [ ] `lib/help/command.txt:396` [line] book at the nearest monster would be: \e\e\em1a*t where \e is an escape (to make
+- [ ] `lib/help/command.txt:397` [line] sure you are not still within another command), m1 selects the spell book that 
+- [ ] `lib/help/command.txt:398` [line] is inscribed ({) with @m1, a selects the first spell in that book, and *t targets
+- [ ] `lib/help/command.txt:399` [line] the nearest monster. 
+- [ ] `lib/help/command.txt:401` [line]       More detailed information about specific macros can be found in
+- [ ] `lib/help/command.txt:402` [line] *****macrofaq.txt*0[macrofaq.txt], originally written by Jim Lyon (jplyon@attglobal.net),
+- [ ] `lib/help/command.txt:403` [line] modified for ToME with Jim's permission by Dawnmist 
+- [ ] `lib/help/command.txt:404` [line] (angband@dawnmist.8m.com).
+- [ ] `lib/help/command.txt:405` [line] ~~~~~107|Pref files|Keymaps
+- [ ] `lib/help/command.txt:406` [line] #####G--- User Pref Files (Keymaps) ---
+- [ ] `lib/help/command.txt:408` [line]         The "Interact with macros" command also allows you to define
+- [ ] `lib/help/command.txt:409` [line] "keymaps", which are vaguely related to macros.  A keymap maps a single
+- [ ] `lib/help/command.txt:410` [line] keypress to a series of keypresses, which bypass both other keymaps and
+- [ ] `lib/help/command.txt:411` [line] any macros.  ToME uses keymaps to map the original and the roguelike
+- [ ] `lib/help/command.txt:412` [line] keysets to the underlying command set, and allows the user to modify or
+- [ ] `lib/help/command.txt:413` [line] add keymaps of their own.  Note that all keymap actions must be specified
+- [ ] `lib/help/command.txt:414` [line] using underlying commands, not keypresses from the original or roguelike
+- [ ] `lib/help/command.txt:415` [line] keysets.  The original keyset is almost identical to the underlying keyset,
+- [ ] `lib/help/command.txt:416` [line] except that "numbers" are mapped to ";" plus a direction, "5" is mapped to
+- [ ] `lib/help/command.txt:417` [line] ",", and a few control-keys are mapped to various things.  See "command.txt"
+- [ ] `lib/help/command.txt:418` [line] for the full set of underlying commands.  Some uses for keymaps include the
+- [ ] `lib/help/command.txt:419` [line] ability to "disable" a command by mapping it to "\x00", 
+- [ ] `lib/help/command.txt:421` [line] 	Keymaps can be specified in user pref files as line of the form
+- [ ] `lib/help/command.txt:422` [line] "M:<T> <key> <str>", where <T> is the keyset (0/1 for original/roguelike),
+- [ ] `lib/help/command.txt:423` [line] <key> is the encoded trigger key, and <str> is the encoded keymap action.
+- [ ] `lib/help/command.txt:424` [line] ~~~~~108|Pref files|Visuals
+- [ ] `lib/help/command.txt:425` [line] #####G--- User Pref Files (Visuals) ---
+- [ ] `lib/help/command.txt:427` [line]         You can use the "Interact with visuals" command to change various
+- [ ] `lib/help/command.txt:428` [line] visual information, currently including the choice of what attr/char values
+- [ ] `lib/help/command.txt:429` [line] are used to represent various monsters, objects, or terrain features.  Note
+- [ ] `lib/help/command.txt:430` [line] that in combination appropriate support in "main-xxx.c", and with the use of
+- [ ] `lib/help/command.txt:431` [line] the "use_graphics" flag, you may be able to specify that "graphic bitmaps"
+- [ ] `lib/help/command.txt:432` [line] should be used instead of normal "colored characters" for various things.
+- [ ] `lib/help/command.txt:434` [line]         When interactively modifying the attr/char values for monsters,
+- [ ] `lib/help/command.txt:435` [line] objects, or terrain features, pressing "n" or "N" will change which entry
+- [ ] `lib/help/command.txt:436` [line] you are changing, pressing "a" or "A" will rotate through the available
+- [ ] `lib/help/command.txt:437` [line] attr values, and pressing "c" or "C" will rotate though the available char
+- [ ] `lib/help/command.txt:438` [line] values.  Note that attr/char values with the "high bit" set may induce the
+- [ ] `lib/help/command.txt:439` [line] display of special "graphic" pictures if the "use_graphics" flag is set,
+- [ ] `lib/help/command.txt:440` [line] and your system supports the "use_graphics" flag.
+- [ ] `lib/help/command.txt:442` [line]         Note that this command can be abused in various ways, and if you
+- [ ] `lib/help/command.txt:443` [line] must do so, remember that you are only cheating yourself.
+- [ ] `lib/help/command.txt:445` [line] 	Keymaps can be specified in user pref files as line of the form
+- [ ] `lib/help/command.txt:446` [line] "R:<N>:<A>/<C>" or "K:<N>:<A>/<C>" or "F:<N>:<A>/<C>" or "U:<N>:<A>/<C>".
+- [ ] `lib/help/command.txt:447` [line] ~~~~~109|Pref files|Colors
+- [ ] `lib/help/command.txt:448` [line] #####G--- User Pref Files (Colors) ---
+- [ ] `lib/help/command.txt:450` [line]         The "Interact with colors" command allows you to change the actual
+- [ ] `lib/help/command.txt:451` [line] internal values used to display various colors.  This command may or may
+- [ ] `lib/help/command.txt:452` [line] not have any effect on your machine.  Advanced machines may allow you to
+- [ ] `lib/help/command.txt:453` [line] change the actual RGB values used to represent each of the 16 colors used
+- [ ] `lib/help/command.txt:454` [line] by ToME, and perhaps even allow you to define new colors which are not
+- [ ] `lib/help/command.txt:455` [line] currently used by ToME.
+- [ ] `lib/help/command.txt:457` [line] 	Colors can be specified in user pref files as line of the form
+- [ ] `lib/help/command.txt:458` [line] "V:<N>:<V>:<R>:<G>:<B>".
+- [ ] `lib/help/command.txt:459` [line] ~~~~~110|Pref files|Options
+- [ ] `lib/help/command.txt:460` [line] #####G--- User Pref Files (Options) ---
+- [ ] `lib/help/command.txt:462` [line]         The "Interact with options" command allows you to turn options
+- [ ] `lib/help/command.txt:463` [line] on or off.  You may turn options off or on using the user pref commands
+- [ ] `lib/help/command.txt:464` [line] of the form "X:<option>" or "Y:<option>" respectively.
+- [ ] `lib/help/command.txt:466` [line] ~~~~~111|Commands|Command descriptions 
+- [ ] `lib/help/command.txt:467` [line] #####R===  Command Descriptions ===
+- [ ] `lib/help/command.txt:469` [line]         The following command descriptions are listed as the command name
+- [ ] `lib/help/command.txt:470` [line] plus the "underlying command" key.  This is followed by the command name
+- [ ] `lib/help/command.txt:471` [line] and "roguelike" keyset key, if different from the underlying command key.
+- [ ] `lib/help/command.txt:472` [line] Then comes a brief description of the command, including information about
+- [ ] `lib/help/command.txt:473` [line] alternative methods of specifying the command in each keyset, when needed.
+- [ ] `lib/help/command.txt:474` [line] Several commands (tunnel, bash, open) are repeated 99 times if the
+- [ ] `lib/help/command.txt:475` [line] "always_repeat" option is set and no repeat count is given.  Some commands
+- [ ] `lib/help/command.txt:476` [line] use the "repeat count" to automatically repeat the command several times,
+- [ ] `lib/help/command.txt:477` [line] while others use the "repeat count" as an "argument", for example, commands
+- [ ] `lib/help/command.txt:478` [line] which need a "quantity" will use the "repeat count" instead of asking for
+- [ ] `lib/help/command.txt:479` [line] a quantity, allowing the use of "0d" for "drop all".  Commands which ask
+- [ ] `lib/help/command.txt:480` [line] for a quantity will convert any "letters" into the maximal legal value.
+- [ ] `lib/help/command.txt:481` [line] ~~~~~112|Commands|Inventory
+- [ ] `lib/help/command.txt:482` [line] #####R---  Inventory Commands ---
+- [ ] `lib/help/command.txt:483` [line] ~~~~~17
+- [ ] `lib/help/command.txt:484` [line] [[[[[GInventory list (i)]
+- [ ] `lib/help/command.txt:485` [line]         Displays a list of objects being carried but not equipped.  You
+- [ ] `lib/help/command.txt:486` [line]         can carry up to 23 different items, not counting those in your
+- [ ] `lib/help/command.txt:487` [line]         equipment.  Often, many identical objects can be "stacked" into
+- [ ] `lib/help/command.txt:488` [line]         a "pile" which will count as a single item.  This is always
+- [ ] `lib/help/command.txt:489` [line]         true of things like potions, scrolls, and food, but you may have
+- [ ] `lib/help/command.txt:490` [line]         to set options to allow wands, staves, and other such objects to
+- [ ] `lib/help/command.txt:491` [line]         stack.  Each object has a weight, and if you carry more objects
+- [ ] `lib/help/command.txt:492` [line]         than your strength permits, you will begin to slow down.
+- [ ] `lib/help/command.txt:493` [line] ~~~~~9 
+- [ ] `lib/help/command.txt:494` [line] [[[[[GEquipment list (e)]
+- [ ] `lib/help/command.txt:495` [line]         Use this command to display a list of the objects currently being
+- [ ] `lib/help/command.txt:496` [line]         used by your character.  The number and type of available slots for
+- [ ] `lib/help/command.txt:497` [line]         equipment may vary. A human for example has 15 slots for equipment,
+- [ ] `lib/help/command.txt:498` [line]         each corresponding to a different location on the body, and each of
+- [ ] `lib/help/command.txt:499` [line]         which may contain only a single object at a time, and each of which
+- [ ] `lib/help/command.txt:500` [line]         may only contain objects of the proper "type".
+- [ ] `lib/help/command.txt:501` [line]         You must be using an object to receive any of its special
+- [ ] `lib/help/command.txt:502` [line]         powers.
+- [ ] `lib/help/command.txt:503` [line] ~~~~~7
+- [ ] `lib/help/command.txt:504` [line] [[[[[GDrop an item (d)]
+- [ ] `lib/help/command.txt:505` [line]         This command drops an item from your inventory or equipment onto the
+- [ ] `lib/help/command.txt:506` [line]         dungeon floor.  If the place you are standing on already has objects
+- [ ] `lib/help/command.txt:507` [line]         in it, ToME will attempt to drop the item onto an adjacent space.
+- [ ] `lib/help/command.txt:508` [line]         A floor spot can hold more than one object, but there is still the
+- [ ] `lib/help/command.txt:509` [line]         possibility that if the floor is too full and you attempt to drop
+- [ ] `lib/help/command.txt:510` [line]         something, it may disappear and be destroyed.  If the selected pile
+- [ ] `lib/help/command.txt:511` [line]         contains multiple items, you may specify a quantity.
+- [ ] `lib/help/command.txt:512` [line] ~~~~~20
+- [ ] `lib/help/command.txt:513` [line] [[[[[GDestroy an item (k) or Destroy an item (^D)]
+- [ ] `lib/help/command.txt:514` [line]         This destroys an item in your inventory or on the dungeon floor.
+- [ ] `lib/help/command.txt:515` [line]         If the selected pile contains multiple objects, you may specify
+- [ ] `lib/help/command.txt:516` [line]         a quantity.  You must always verify this command.
+- [ ] `lib/help/command.txt:517` [line] ~~~~~42
+- [ ] `lib/help/command.txt:518` [line] [[[[[GWear/Wield equipment (w)]
+- [ ] `lib/help/command.txt:519` [line]         To wear or wield an object in your inventory, use this command.
+- [ ] `lib/help/command.txt:520` [line]         Since only one object can be in each slot at a time, if you wear
+- [ ] `lib/help/command.txt:521` [line]         or wield an item into a slot which is already occupied, the old
+- [ ] `lib/help/command.txt:522` [line]         item will be first be taken off, and may in fact be dropped if
+- [ ] `lib/help/command.txt:523` [line]         there is no room for it in your inventory.
+- [ ] `lib/help/command.txt:524` [line] ~~~~~36
+- [ ] `lib/help/command.txt:525` [line] [[[[[GTake off equipment (t) or Take off equipment (T)]
+- [ ] `lib/help/command.txt:526` [line]         Use this command to take off a piece of equipment and return it
+- [ ] `lib/help/command.txt:527` [line]         to your inventory.  Occasionally, you will run into a cursed item
+- [ ] `lib/help/command.txt:528` [line]         which cannot be removed.  These items normally penalise you in some
+- [ ] `lib/help/command.txt:529` [line]         way and cannot be taken off until the curse is removed.  If there
+- [ ] `lib/help/command.txt:530` [line]         is no room in your inventory for the item, your pack will overflow
+- [ ] `lib/help/command.txt:531` [line]         and you will drop the item after taking it off.
+- [ ] `lib/help/command.txt:532` [line] ~~~~~113|Commands|Movement
+- [ ] `lib/help/command.txt:533` [line] #####R---  Movement Commands ---
+- [ ] `lib/help/command.txt:534` [line] ~~~~~67
+- [ ] `lib/help/command.txt:535` [line] [[[[[GWalk (with pickup) (;)]
+- [ ] `lib/help/command.txt:536` [line]         Moves one step in the given direction.  The square you are moving
+- [ ] `lib/help/command.txt:537` [line]         into must not be blocked by walls or doors.  You will pick up any
+- [ ] `lib/help/command.txt:538` [line]         items in the destination grid if the "always_pickup" option is set,
+- [ ] `lib/help/command.txt:539` [line]         or if the "query_pickup" option is set and you respond correctly.
+- [ ] `lib/help/command.txt:540` [line]         This command can take a count and requires a direction.  You may
+- [ ] `lib/help/command.txt:541` [line]         also use the "original" direction keys (both keysets) or the
+- [ ] `lib/help/command.txt:542` [line]         "roguelike" direction keys (roguelike keyset) to walk in a
+- [ ] `lib/help/command.txt:543` [line]         direction.
+- [ ] `lib/help/command.txt:544` [line] ~~~~~60
+- [ ] `lib/help/command.txt:545` [line] [[[[[GWalk (flip pickup) (-)]
+- [ ] `lib/help/command.txt:546` [line]         This is just like normal move, except that the "Pick things up"
+- [ ] `lib/help/command.txt:547` [line]         option is inverted.  In other words, if you normally pick up
+- [ ] `lib/help/command.txt:548` [line]         anything you encounter (the default), you will not pick things up
+- [ ] `lib/help/command.txt:549` [line]         when using this command.  If you normally do not pick things up,
+- [ ] `lib/help/command.txt:550` [line]         you will when using this command.  This command can take a count
+- [ ] `lib/help/command.txt:551` [line]         and requires a direction.
+- [ ] `lib/help/command.txt:552` [line] ~~~~~76
+- [ ] `lib/help/command.txt:553` [line] [[[[[GRun (.) or Run (,)]
+- [ ] `lib/help/command.txt:554` [line]         This command will move in the given direction, following any bends
+- [ ] `lib/help/command.txt:555` [line]         in the corridor, until you either have to make a "choice" between
+- [ ] `lib/help/command.txt:556` [line]         two directions or you are disturbed.  You can configure what will
+- [ ] `lib/help/command.txt:557` [line]         disturb you by setting the disturbance options.  Run requires a
+- [ ] `lib/help/command.txt:558` [line]         direction.  You may also use shift plus the "roguelike" direction
+- [ ] `lib/help/command.txt:559` [line]         keys (roguelike keyset), or shift plus the "original" direction keys
+- [ ] `lib/help/command.txt:560` [line]         on the keypad (both keysets, some machines) to run in a direction.
+- [ ] `lib/help/command.txt:561` [line] ~~~~~74
+- [ ] `lib/help/command.txt:562` [line] [[[[[GGo up staircase (<)]
+- [ ] `lib/help/command.txt:563` [line]         Climbs up an up staircase you are standing on.  There is always at
+- [ ] `lib/help/command.txt:564` [line]         least one staircase going up on every level (this doesn't mean it's
+- [ ] `lib/help/command.txt:565` [line]         easy to find) except for the surface, where '<' will bring up the
+- [ ] `lib/help/command.txt:566` [line]         wilderness map.  Going up a staircase will take you to a new dungeon
+- [ ] `lib/help/command.txt:567` [line]         level unless you are at the first level of the dungeon, in which case
+- [ ] `lib/help/command.txt:568` [line]         you will return to the surface.  Note that whenever you leave a dungeon
+- [ ] `lib/help/command.txt:569` [line]         level, you will never find it again, unless the level contains a dungeon
+- [ ] `lib/help/command.txt:570` [line]         town.  This means that for all intents and purposes, any objects on that
+- [ ] `lib/help/command.txt:571` [line]         level are destroyed. This includes unknown artifacts unless the "Create
+- [ ] `lib/help/command.txt:572` [line]         characters in preserve mode" option was set when your character was
+- [ ] `lib/help/command.txt:573` [line]         created, in which case the artifacts may show up again later.
+- [ ] `lib/help/command.txt:574` [line] ~~~~~77
+- [ ] `lib/help/command.txt:575` [line] [[[[[GGo down staircase (>)]
+- [ ] `lib/help/command.txt:576` [line]         Descends a down staircase you are standing on.  There are always
+- [ ] `lib/help/command.txt:577` [line]         at least two staircases going down on each level, except for the
+- [ ] `lib/help/command.txt:578` [line]         last level of a dungeon, and some "quest" levels, which have none until
+- [ ] `lib/help/command.txt:579` [line]         the quest monsters are killed.  Going down a staircase will take you
+- [ ] `lib/help/command.txt:580` [line]         to a new dungeon level.  See "Go Up Staircase" for more info.
+- [ ] `lib/help/command.txt:582` [line]         This command is also used to enter Void Jumpgates, and to zoom in from
+- [ ] `lib/help/command.txt:583` [line]         the wilderness map.
+- [ ] `lib/help/command.txt:584` [line] ~~~~~114|Commands|Resting
+- [ ] `lib/help/command.txt:585` [line] #####R---   Resting Commands ---
+- [ ] `lib/help/command.txt:586` [line] ~~~~~72
+- [ ] `lib/help/command.txt:587` [line] [[[[[GStay still (with pickup) (,) or Stay still (with pickup) (.)]
+- [ ] `lib/help/command.txt:588` [line]         Stays in the same square for one move.  If you normally pick up
+- [ ] `lib/help/command.txt:589` [line]         objects you encounter, you will pick up whatever you are standing
+- [ ] `lib/help/command.txt:590` [line]         on.  This command can take a count.  You may also use the "5" key
+- [ ] `lib/help/command.txt:591` [line]         (both keysets).
+- [ ] `lib/help/command.txt:592` [line] ~~~~~13
+- [ ] `lib/help/command.txt:593` [line] [[[[[GStay still (flip pickup) (g)]
+- [ ] `lib/help/command.txt:594` [line]         Stays in the same square for one move.  If you normally pick up
+- [ ] `lib/help/command.txt:595` [line]         objects you encounter, you will not pick up whatever you are
+- [ ] `lib/help/command.txt:596` [line]         standing on.  If you normally do not pick up objects, you will
+- [ ] `lib/help/command.txt:597` [line]         pick up what you are standing on.  This command is normally only
+- [ ] `lib/help/command.txt:598` [line]         used when the "always_pickup" option is false.  This command can
+- [ ] `lib/help/command.txt:599` [line]         take a count.
+- [ ] `lib/help/command.txt:600` [line] ~~~~~33
+- [ ] `lib/help/command.txt:601` [line] [[[[[GRest (R)]
+- [ ] `lib/help/command.txt:602` [line]         Resting is better for you than repeatedly staying still, and can
+- [ ] `lib/help/command.txt:603` [line]         be told to automatically stop after a certain amount of time, or
+- [ ] `lib/help/command.txt:604` [line]         when various conditions are met.  In any case, you always wake up
+- [ ] `lib/help/command.txt:605` [line]         when anything disturbing happens, or when you press any key.  To
+- [ ] `lib/help/command.txt:606` [line]         rest, enter the Rest command, followed by the number of turns you
+- [ ] `lib/help/command.txt:607` [line]         want to rest, or "*" to rest until your hit points and mana are
+- [ ] `lib/help/command.txt:608` [line]         restored, or "&" to rest until you are fully "healed".  This command
+- [ ] `lib/help/command.txt:609` [line]         can take a count, which is used for the number of turns to rest.
+- [ ] `lib/help/command.txt:610` [line] ~~~~~61
+- [ ] `lib/help/command.txt:611` [line] [[[[[GEnter store (_)]
+- [ ] `lib/help/command.txt:612` [line]         When standing on the door of a store, this command allows the character
+- [ ] `lib/help/command.txt:613` [line]         to enter the store again. 
+- [ ] `lib/help/command.txt:614` [line] ~~~~~115|Commands|Searching
+- [ ] `lib/help/command.txt:615` [line] #####R---  Searching Commands ---
+- [ ] `lib/help/command.txt:616` [line] ~~~~~34
+- [ ] `lib/help/command.txt:617` [line] [[[[[GSearch (s)]
+- [ ] `lib/help/command.txt:618` [line]         This command can be used to locate hidden traps and secret doors
+- [ ] `lib/help/command.txt:619` [line]         in the spaces adjacent to the player.  More than a single turn of
+- [ ] `lib/help/command.txt:620` [line]         searching will be required in most cases.  You should always
+- [ ] `lib/help/command.txt:621` [line]         search a chest before trying to open it, since they are generally
+- [ ] `lib/help/command.txt:622` [line]         trapped.  This command can take a count, which is useful if you
+- [ ] `lib/help/command.txt:623` [line]         are fairly sure of finding something eventually, since the command
+- [ ] `lib/help/command.txt:624` [line]         stops as soon as anything is found.  This command can take a count.
+- [ ] `lib/help/command.txt:625` [line] ~~~~~35
+- [ ] `lib/help/command.txt:626` [line] [[[[[GToggle search mode (S) or Toggle search mode (#)]
+- [ ] `lib/help/command.txt:627` [line]         This command will take you into and out of search mode.  When
+- [ ] `lib/help/command.txt:628` [line]         first pressed, the message "Searching" will appear at the bottom
+- [ ] `lib/help/command.txt:629` [line]         of the screen.  You are now taking two turns for each command, one
+- [ ] `lib/help/command.txt:630` [line]         for the command and one turn to search.  This means that you are
+- [ ] `lib/help/command.txt:631` [line]         taking twice the time to move around the dungeon, and therefore
+- [ ] `lib/help/command.txt:632` [line]         twice the food.  Search mode will automatically turn off if you
+- [ ] `lib/help/command.txt:633` [line]         are disturbed.  You may also turn off search mode by entering the
+- [ ] `lib/help/command.txt:634` [line]         Search Mode command again.
+- [ ] `lib/help/command.txt:635` [line] ~~~~~116|Commands|Alteration commands
+- [ ] `lib/help/command.txt:636` [line] ~~~~~117|Commands|Terrain interaction
+- [ ] `lib/help/command.txt:637` [line] #####R---  Alter Commands ---
+- [ ] `lib/help/command.txt:638` [line] ~~~~~37
+- [ ] `lib/help/command.txt:639` [line] [[[[[GTunnel (T) or Tunnel (^T)]
+- [ ] `lib/help/command.txt:640` [line]         Tunnelling or mining is a very useful art.  There are many kinds of
+- [ ] `lib/help/command.txt:641` [line]         rock, with varying hardness, including permanent rock (permanent),
+- [ ] `lib/help/command.txt:642` [line]         granite (very hard), quartz veins (hard), magma veins (soft), and
+- [ ] `lib/help/command.txt:643` [line]         rubble (very soft).  Quartz and Magma veins may be displayed in a
+- [ ] `lib/help/command.txt:644` [line]         special way, and may sometimes contain treasure, in which case they
+- [ ] `lib/help/command.txt:645` [line]         will be displayed in a different way.  Rubble sometimes covers an
+- [ ] `lib/help/command.txt:646` [line]         object.  It is only possible to tunnel if you are wielding a digging
+- [ ] `lib/help/command.txt:647` [line]         tool such as a shovel or a pick.  Tunnelling ability increases with
+- [ ] `lib/help/command.txt:648` [line]         strength and tool weight.  This command can take a count, requires a
+- [ ] `lib/help/command.txt:649` [line]         direction, and is affected by the "always_repeat" option.
+- [ ] `lib/help/command.txt:650` [line] ~~~~~26
+- [ ] `lib/help/command.txt:651` [line] [[[[[GOpen a door or chest (o)]
+- [ ] `lib/help/command.txt:652` [line]         To open an object such as a door or chest, you must use this
+- [ ] `lib/help/command.txt:653` [line]         command.  If the object is locked, you will attempt to pick the
+- [ ] `lib/help/command.txt:654` [line]         lock based.  Some doors will be jammed shut and may have to be
+- [ ] `lib/help/command.txt:655` [line]         forced open.  You may need several tries to open a door or chest.
+- [ ] `lib/help/command.txt:656` [line]         Open can take a count, requires a direction, and is affected by
+- [ ] `lib/help/command.txt:657` [line]         the "always_repeat" option.
+- [ ] `lib/help/command.txt:658` [line] ~~~~~5
+- [ ] `lib/help/command.txt:659` [line] [[[[[GClose a door (c)]
+- [ ] `lib/help/command.txt:660` [line]         Non-intelligent and some other creatures cannot open doors, so
+- [ ] `lib/help/command.txt:661` [line]         shutting doors can be quite valuable.  Broken doors cannot be closed.
+- [ ] `lib/help/command.txt:662` [line]         Bashing a door open may break it. Close can take a count, requires a
+- [ ] `lib/help/command.txt:663` [line]         direction, and is affected by the "always_repeat" option.
+- [ ] `lib/help/command.txt:664` [line] ~~~~~19
+- [ ] `lib/help/command.txt:665` [line] [[[[[GJam a door (j) or Spike a door (S)]
+- [ ] `lib/help/command.txt:666` [line]         Many monsters can simply open closed doors, and can eventually
+- [ ] `lib/help/command.txt:667` [line]         get through a locked door.  You may therefore occasionally want
+- [ ] `lib/help/command.txt:668` [line]         to jam a door shut with iron spikes.  Each spike used on the door
+- [ ] `lib/help/command.txt:669` [line]         will make it harder to bash down the door, up to a certain limit.
+- [ ] `lib/help/command.txt:670` [line]         Smaller monsters are less able to bash down doors.  In order to
+- [ ] `lib/help/command.txt:671` [line]         use this command, you must be carrying iron spikes.  Jam or Spike
+- [ ] `lib/help/command.txt:672` [line]         requires a direction.
+- [ ] `lib/help/command.txt:673` [line] ~~~~~4
+- [ ] `lib/help/command.txt:674` [line] [[[[[GBash a door (B) or Force a door (f)]
+- [ ] `lib/help/command.txt:675` [line]         This command allows you to bash down jammed doors.  Your bashing
+- [ ] `lib/help/command.txt:676` [line]         ability increases with strength.  Bashing open a door can (briefly)
+- [ ] `lib/help/command.txt:677` [line]         throw you off balance.  Doors that are stuck, or which have been
+- [ ] `lib/help/command.txt:678` [line]         jammed closed with spikes can only be opened by bashing, and all
+- [ ] `lib/help/command.txt:679` [line]         closed doors can be bashed open if desired.  Bashing a door open
+- [ ] `lib/help/command.txt:680` [line]         may permanently break it so that it can never be closed.  Bash or
+- [ ] `lib/help/command.txt:681` [line]         Force can take a count, requires a direction, and is affected by
+- [ ] `lib/help/command.txt:682` [line]         the "always_repeat" option.
+- [ ] `lib/help/command.txt:683` [line] ~~~~~63
+- [ ] `lib/help/command.txt:684` [line] [[[[[GAlter (+)]
+- [ ] `lib/help/command.txt:685` [line]         This special command allows the use of a single keypress to select
+- [ ] `lib/help/command.txt:686` [line]         any of the "obvious" commands above (attack, tunnel, bash, open,
+- [ ] `lib/help/command.txt:687` [line]         close), and, by using macros or keymaps, to combine this keypress
+- [ ] `lib/help/command.txt:688` [line]         with directions.  In general, this allows the use of the
+- [ ] `lib/help/command.txt:689` [line]         "control" key plus the appropriate "direction" key (including the
+- [ ] `lib/help/command.txt:690` [line]         roguelike direction keys in roguelike mode) as a kind of generic
+- [ ] `lib/help/command.txt:691` [line]         "alter the terrain feature of an adjacent grid" command.  Alter
+- [ ] `lib/help/command.txt:692` [line]         can take a count, requires a direction, and is affected by the
+- [ ] `lib/help/command.txt:693` [line]         "always_repeat" option.
+- [ ] `lib/help/command.txt:694` [line] ~~~~~43
+- [ ] `lib/help/command.txt:695` [line] [[[[[GEngrave the floor (x)]
+- [ ] `lib/help/command.txt:696` [line]         The dungeon is full of magics, and as such pools of it collect on
+- [ ] `lib/help/command.txt:697` [line]         the floor in places. With the "inscribe" command, it is possible
+- [ ] `lib/help/command.txt:698` [line]         to create some spell effects by inscribing words you have read from
+- [ ] `lib/help/command.txt:699` [line]         various parchments detailing the languages used within the dungeon.
+- [ ] `lib/help/command.txt:700` [line]         Then, if there is enough mana collected on that square, walking over 
+- [ ] `lib/help/command.txt:701` [line]         the inscription will trigger the spell. Some spells can be triggered
+- [ ] `lib/help/command.txt:702` [line]         only by the player, some only by monsters, and some are triggered by
+- [ ] `lib/help/command.txt:703` [line]         both.
+- [ ] `lib/help/command.txt:704` [line] ~~~~~46
+- [ ] `lib/help/command.txt:705` [line] [[[[[GSteal (Z)]
+- [ ] `lib/help/command.txt:706` [line]         Allows the player to try to steal items from shops. Also allows 
+- [ ] `lib/help/command.txt:707` [line]         rogues to steal from monsters.
+- [ ] `lib/help/command.txt:708` [line] ~~~~~118|Commands|Spells and prayers
+- [ ] `lib/help/command.txt:709` [line] #####R---  Spell and Prayer Commands ---
+- [ ] `lib/help/command.txt:710` [line] ~~~~~3
+- [ ] `lib/help/command.txt:711` [line] [[[[[GBrowse a book (b) or Peruse a book (P)]
+- [ ] `lib/help/command.txt:712` [line]         Only characters with some knowledge in the magic schools, such as
+- [ ] `lib/help/command.txt:713` [line]         mages, priests, rogues, and rangers, can read magic spellbooks.
+- [ ] `lib/help/command.txt:714` [line]         Warriors normally cannot read any books.  When this command is used,
+- [ ] `lib/help/command.txt:715` [line]         all of the spells or prayers contained in the selected book are
+- [ ] `lib/help/command.txt:716` [line]         displayed, along with information such as their level, the amount of
+- [ ] `lib/help/command.txt:717` [line]         mana or piety required to cast them, and whether or not you know the
+- [ ] `lib/help/command.txt:718` [line]         spell or prayer.
+- [ ] `lib/help/command.txt:719` [line] ~~~~~14
+- [ ] `lib/help/command.txt:720` [line] [[[[[GGain new skills (G)]
+- [ ] `lib/help/command.txt:721` [line]         Use this command to access the skills menu and spend the skill points
+- [ ] `lib/help/command.txt:722` [line]         you gain at each new character level to increase the range of things 
+- [ ] `lib/help/command.txt:723` [line]         your character is able to do.
+- [ ] `lib/help/command.txt:724` [line] ~~~~~91
+- [ ] `lib/help/command.txt:725` [line] [[[[[GGain new abilities (N)]
+- [ ] `lib/help/command.txt:726` [line]         Use this command to access the Abilities menu and spend the skill points
+- [ ] `lib/help/command.txt:727` [line]         you gain at each new character level to increase the range of things 
+- [ ] `lib/help/command.txt:728` [line]         your character is able to do.
+- [ ] `lib/help/command.txt:729` [line] ~~~~~24
+- [ ] `lib/help/command.txt:730` [line] [[[[[GCast a spell / Pray a prayer (m) / Use a mental power]
+- [ ] `lib/help/command.txt:731` [line]         To cast a spell or prayer, you must have the skill level required in 
+- [ ] `lib/help/command.txt:732` [line]         that school of magic to be able access that spell, and a book that 
+- [ ] `lib/help/command.txt:733` [line]         contains that spell in your inventory (for most schools). Each spell 
+- [ ] `lib/help/command.txt:734` [line]         has a chance of failure which starts out fairly large but decreases 
+- [ ] `lib/help/command.txt:735` [line]         as you gain levels.  If you don't have enough mana to cast a spell, 
+- [ ] `lib/help/command.txt:736` [line]         you will be told you do not have enough mana to cast it. Since in most
+- [ ] `lib/help/command.txt:737` [line]         cases you must read the spell from a book, you cannot be blind or 
+- [ ] `lib/help/command.txt:738` [line]         confused while casting, and there must be some light present.
+- [ ] `lib/help/command.txt:740` [line]         Some classes (for example, Thaumaturgists) have the ability to use 
+- [ ] `lib/help/command.txt:741` [line]         some magic without actually needing spell books of any sort. These 
+- [ ] `lib/help/command.txt:742` [line]         classes are able to access their magical powers through the use of 
+- [ ] `lib/help/command.txt:743` [line]         the 'm' command.
+- [ ] `lib/help/command.txt:744` [line] ~~~~~39
+- [ ] `lib/help/command.txt:745` [line] [[[[[GUse bonus power (if any) (U) or (O)]
+- [ ] `lib/help/command.txt:746` [line]         Some races and classes have special natural abilities. All of these
+- [ ] `lib/help/command.txt:747` [line]         possible abilities are listed in an index under the U (or O) command.
+- [ ] `lib/help/command.txt:748` [line]         These type of abilities can include the Vampire's bite, a DeathMold's
+- [ ] `lib/help/command.txt:749` [line]         telekinesis, and a RohanKnight's light speed capabilities.
+- [ ] `lib/help/command.txt:750` [line] ~~~~~119|Commands|Object manipulation
+- [ ] `lib/help/command.txt:751` [line] #####R---  Object Manipulation Commands ---
+- [ ] `lib/help/command.txt:752` [line] ~~~~~10
+- [ ] `lib/help/command.txt:753` [line] [[[[[GEat some food (E)]
+- [ ] `lib/help/command.txt:754` [line]         You must eat regularly to prevent starvation.  As you grow hungry,
+- [ ] `lib/help/command.txt:755` [line]         a message will appear at the bottom of the screen saying "Hungry".
+- [ ] `lib/help/command.txt:756` [line]         If you go hungry long enough, you will become weak, then start
+- [ ] `lib/help/command.txt:757` [line]         fainting, and eventually, you may will die of starvation.  You
+- [ ] `lib/help/command.txt:758` [line]         may use this command to eat food in your inventory.  Note that
+- [ ] `lib/help/command.txt:759` [line]         you can sometimes find food in the dungeon, or you can butcher
+- [ ] `lib/help/command.txt:760` [line]         corpses of killed creatures to obtain raw meat, but it is not
+- [ ] `lib/help/command.txt:761` [line]         always wise to eat strange food.
+- [ ] `lib/help/command.txt:762` [line] ~~~~~12
+- [ ] `lib/help/command.txt:763` [line] [[[[[GFuel your lantern/torch (F)]
+- [ ] `lib/help/command.txt:764` [line]         If you are using a torch and have more torches in your pack,
+- [ ] `lib/help/command.txt:765` [line]         or you are using a lantern and have flasks of oil in your pack,
+- [ ] `lib/help/command.txt:766` [line]         then your can "refuel" them with this command.  Torches and Lanterns
+- [ ] `lib/help/command.txt:767` [line]         are limited in their maximal fuel.  In general, two flasks will fully
+- [ ] `lib/help/command.txt:768` [line]         fuel a lantern and two torches will fully fuel a torch.
+- [ ] `lib/help/command.txt:769` [line] ~~~~~30
+- [ ] `lib/help/command.txt:770` [line] [[[[[GQuaff a potion (q)]
+- [ ] `lib/help/command.txt:771` [line]         Use this command to drink a potion.  Potions affect the player in
+- [ ] `lib/help/command.txt:772` [line]         various ways, but the effects are not always immediately obvious. 
+- [ ] `lib/help/command.txt:773` [line] ~~~~~32
+- [ ] `lib/help/command.txt:774` [line] [[[[[GRead a scroll (r)]
+- [ ] `lib/help/command.txt:775` [line]         Use this command to read a scroll.  Scroll spells usually have an
+- [ ] `lib/help/command.txt:776` [line]         area effect, except for a few cases where they act on other objects.
+- [ ] `lib/help/command.txt:777` [line]         Reading a scroll causes the parchment to disintegrate as the scroll
+- [ ] `lib/help/command.txt:778` [line]         takes effect.  Most scrolls which prompt for more information can
+- [ ] `lib/help/command.txt:779` [line]         be aborted (by pressing escape), which will stop reading the scroll
+- [ ] `lib/help/command.txt:780` [line]         before it disintegrates.
+- [ ] `lib/help/command.txt:781` [line] ~~~~~58 
+- [ ] `lib/help/command.txt:782` [line] [[[[[GInscribe an object ({)]
+- [ ] `lib/help/command.txt:783` [line]         This command inscribes a string on an object.  The inscription is
+- [ ] `lib/help/command.txt:784` [line]         displayed inside curly braces after the object description.  The
+- [ ] `lib/help/command.txt:785` [line]         inscription is limited to the particular object (or pile) and is
+- [ ] `lib/help/command.txt:786` [line]         not automatically transferred to all similar objects.  Under certain
+- [ ] `lib/help/command.txt:787` [line]         circumstances, ToME will display "fake" inscriptions on certain
+- [ ] `lib/help/command.txt:788` [line]         objects ("cursed", "broken", "tried", "empty", "NN% off") when
+- [ ] `lib/help/command.txt:789` [line]         appropriate.  These "fake" inscriptions are "covered up" by real
+- [ ] `lib/help/command.txt:790` [line]         inscriptions, but will re-appear if the real inscription is removed.
+- [ ] `lib/help/command.txt:791` [line]         In addition, ToME will occasionally place a "real" inscription on
+- [ ] `lib/help/command.txt:792` [line]         an object for you, normally as the result of your character getting
+- [ ] `lib/help/command.txt:793` [line]         a "feeling" about the item.  All characters will get "feelings" about
+- [ ] `lib/help/command.txt:794` [line]         weapons and armor after carrying them for a while.  Warriors get the
+- [ ] `lib/help/command.txt:795` [line]         most detailed feelings, and get them quicker than any other class.
+- [ ] `lib/help/command.txt:796` [line]         An item labeled as "{empty}" was found to be out of charges, and an
+- [ ] `lib/help/command.txt:797` [line]         item labeled as "{tried}" is a "flavoured" item which the character
+- [ ] `lib/help/command.txt:798` [line]         has used, but whose effects are unknown.  Certain inscriptions have
+- [ ] `lib/help/command.txt:799` [line]         a meaning to the game, see "@#", "@x#", "!*", and "!x", in the section
+- [ ] `lib/help/command.txt:800` [line]         on *****command.txt*90[inventory object selection.]
+- [ ] `lib/help/command.txt:801` [line] ~~~~~59
+- [ ] `lib/help/command.txt:802` [line] [[[[[GUninscribe an object (})]
+- [ ] `lib/help/command.txt:803` [line]         This command removes the inscription on an object.  This command will
+- [ ] `lib/help/command.txt:804` [line]         have no effect on "fake" inscriptions added by the game itself.
+- [ ] `lib/help/command.txt:805` [line] ~~~~~15
+- [ ] `lib/help/command.txt:806` [line] [[[[[GHack up a corpse (h or $)]
+- [ ] `lib/help/command.txt:807` [line]         Corpses can be cut up into smaller pieces of meat, allowing the user to
+- [ ] `lib/help/command.txt:808` [line]         eat the meat, or cure it for later use.
+- [ ] `lib/help/command.txt:809` [line] ~~~~~21
+- [ ] `lib/help/command.txt:810` [line] [[[[[GCure meat (K)]
+- [ ] `lib/help/command.txt:811` [line]         Curing meat requires the use of a potion of salt water, and is used to
+- [ ] `lib/help/command.txt:812` [line]         protect meat from hacked-up corpses from going bad.
+- [ ] `lib/help/command.txt:813` [line] ~~~~~16
+- [ ] `lib/help/command.txt:814` [line] [[[[[GDrink from a fountain (H)]
+- [ ] `lib/help/command.txt:815` [line]         All fountains in Arda are magical, and act like magical potions.  The
+- [ ] `lib/help/command.txt:816` [line]         game will ask you whether you want to quaff from a fountain or to fill
+- [ ] `lib/help/command.txt:817` [line]         empty bottles.  The only way to identify the type of fountain is to
+- [ ] `lib/help/command.txt:818` [line]         fill your bottles from it and see what you get.
+- [ ] `lib/help/command.txt:819` [line] ~~~~~44
+- [ ] `lib/help/command.txt:820` [line] [[[[[GGive item to monster (y)]
+- [ ] `lib/help/command.txt:821` [line]         This command is used to give an item within your inventory to a monster
+- [ ] `lib/help/command.txt:822` [line]         standing next to you. The monster may not accept the item you give it, 
+- [ ] `lib/help/command.txt:823` [line]         however.
+- [ ] `lib/help/command.txt:824` [line] ~~~~~96
+- [ ] `lib/help/command.txt:825` [line] [[[[[GChat (Y)]
+- [ ] `lib/help/command.txt:826` [line]         This command allows you to chat with someone. Be warned that most
+- [ ] `lib/help/command.txt:827` [line]         monsters won't chat
+- [ ] `lib/help/command.txt:829` [line] #####R---  Magical Object Commands ---
+- [ ] `lib/help/command.txt:830` [line] ~~~~~2
+- [ ] `lib/help/command.txt:831` [line] [[[[[GActivate an artifact (A)]
+- [ ] `lib/help/command.txt:832` [line]         You have heard rumours of special weapons and armour deep in the
+- [ ] `lib/help/command.txt:833` [line]         Pits, items that can let you breath fire like a dragon or light
+- [ ] `lib/help/command.txt:834` [line]         rooms with just a thought.  Should you ever be lucky enough to
+- [ ] `lib/help/command.txt:835` [line]         find such an item, this command will let you activate its special
+- [ ] `lib/help/command.txt:836` [line]         ability.  Special abilities can only be used if you are wearing or
+- [ ] `lib/help/command.txt:837` [line]         wielding the item. 
+- [ ] `lib/help/command.txt:838` [line]         Note that there are also a few common objects that can be activated,
+- [ ] `lib/help/command.txt:839` [line]         e.g. music instruments, monster eggs and spell-storing mage staves,
+- [ ] `lib/help/command.txt:840` [line]         and that some artifacts, so-called "junkarts", can't be wielded, but
+- [ ] `lib/help/command.txt:841` [line]         must be activated from the backpack.
+- [ ] `lib/help/command.txt:842` [line] ~~~~~1
+- [ ] `lib/help/command.txt:843` [line] [[[[[GAim a wand (a) or Zap a wand (z)]
+- [ ] `lib/help/command.txt:844` [line]         Wands must be aimed in a direction to be used.  Wands are magical
+- [ ] `lib/help/command.txt:845` [line]         devices, and therefore there is a chance you will not be able to
+- [ ] `lib/help/command.txt:846` [line]         figure out how to use them if you aren't good with magical
+- [ ] `lib/help/command.txt:847` [line]         devices.  They will fire a shot that affects the first object or
+- [ ] `lib/help/command.txt:848` [line]         creature encountered or fire a beam that affects anything in a
+- [ ] `lib/help/command.txt:849` [line]         given direction, depending on the wand.  An obstruction such as a
+- [ ] `lib/help/command.txt:850` [line]         door or wall will generally stop the effects from traveling any
+- [ ] `lib/help/command.txt:851` [line]         farther.  This command requires a direction and can use a target.
+- [ ] `lib/help/command.txt:852` [line] ~~~~~38
+- [ ] `lib/help/command.txt:853` [line] [[[[[GUse a staff (u) or Zap a staff (Z)]
+- [ ] `lib/help/command.txt:854` [line]         This command will use a staff.  A staff is normally very similar
+- [ ] `lib/help/command.txt:855` [line]         to a scroll, in that they normally either have an area effect or
+- [ ] `lib/help/command.txt:856` [line]         affect a specific object.  Staves are magical devices, and there
+- [ ] `lib/help/command.txt:857` [line]         is a chance you will not be able to figure out how to use them.
+- [ ] `lib/help/command.txt:858` [line] ~~~~~45 
+- [ ] `lib/help/command.txt:859` [line] [[[[[GZap a rod (z) or Activate a rod (a)]
+- [ ] `lib/help/command.txt:860` [line]         Rods are extremely powerful magical items, which cannot be burnt
+- [ ] `lib/help/command.txt:861` [line]         or shattered, and which can have either staff-like or wand-like
+- [ ] `lib/help/command.txt:862` [line]         effects, but unlike staves and wands, they don't have charges.
+- [ ] `lib/help/command.txt:863` [line]         Instead, they draw on the ambient magical energy to recharge
+- [ ] `lib/help/command.txt:864` [line]         themselves, and therefore can only be activated once every few
+- [ ] `lib/help/command.txt:865` [line]         turns.  The recharging time varies depending on the type of rod.
+- [ ] `lib/help/command.txt:866` [line]         This command may require a direction (depending on the type of
+- [ ] `lib/help/command.txt:867` [line]         rod, and whether you are aware of its type) and can use a target.
+- [ ] `lib/help/command.txt:868` [line] ~~~~~120|Commands|Throwing and missile weapons
+- [ ] `lib/help/command.txt:869` [line] #####R---  Throwing and Missile Weapons ---
+- [ ] `lib/help/command.txt:870` [line] ~~~~~11
+- [ ] `lib/help/command.txt:871` [line] [[[[[GFire an item (f) or Fire an item (t)]
+- [ ] `lib/help/command.txt:872` [line]         You may throw any object carried by your character.  Depending on
+- [ ] `lib/help/command.txt:873` [line]         the weight, it may travel across the room or drop down beside you.
+- [ ] `lib/help/command.txt:874` [line]         Only one object from a pile will be thrown at a time.  Note that
+- [ ] `lib/help/command.txt:875` [line]         throwing an object will often cause it to break, so be careful!
+- [ ] `lib/help/command.txt:876` [line]         If you throw something at a creature, your chances of hitting it
+- [ ] `lib/help/command.txt:877` [line]         are determined by your pluses to hit, your ability at throwing,
+- [ ] `lib/help/command.txt:878` [line]         and the object's pluses to hit.  Once the creature is it, the
+- [ ] `lib/help/command.txt:879` [line]         object may or may not do any damage to it.  You've heard rumors
+- [ ] `lib/help/command.txt:880` [line]         that some objects found in the dungeon can do huge amounts of
+- [ ] `lib/help/command.txt:881` [line]         damage when thrown, but you're not sure which objects those
+- [ ] `lib/help/command.txt:882` [line]         are....  Note that flasks of oil will do a fairly large chunk
+- [ ] `lib/help/command.txt:883` [line]         of damage to a monster on impact, supposedly representing fire
+- [ ] `lib/help/command.txt:884` [line]         damage, but it works against fire elementals too...  If you are
+- [ ] `lib/help/command.txt:885` [line]         wielding a missile launcher compatible with the object you are
+- [ ] `lib/help/command.txt:886` [line]         throwing, then you automatically use the launcher to fire the
+- [ ] `lib/help/command.txt:887` [line]         missile with much higher range, accuracy, and damage, then you
+- [ ] `lib/help/command.txt:888` [line]         would get by just throwing the missile.  Fire or Throw requires
+- [ ] `lib/help/command.txt:889` [line]         a direction.  Targeting mode (see the next command) can be invoked
+- [ ] `lib/help/command.txt:890` [line]         with "*" at the "Direction?" prompt.
+- [ ] `lib/help/command.txt:891` [line] ~~~~~40
+- [ ] `lib/help/command.txt:892` [line] [[[[[GThrow an item (v)]
+- [ ] `lib/help/command.txt:893` [line]         You may throw any object carried by your character.  The lighter
+- [ ] `lib/help/command.txt:894` [line]         the object, the farther you can throw it.  Only one object from a
+- [ ] `lib/help/command.txt:895` [line]         stack may be thrown at a time.  Throwing an object may break it.
+- [ ] `lib/help/command.txt:896` [line]         If you throw something at a monster, your chances of hitting it
+- [ ] `lib/help/command.txt:897` [line]         are determined by your pluses to hit, your ability at throwing,
+- [ ] `lib/help/command.txt:898` [line]         and the object's pluses to hit.  If the object hits the monster,
+- [ ] `lib/help/command.txt:899` [line]         it may or may not do damage.  Some objects, such as weapons, or
+- [ ] `lib/help/command.txt:900` [line]         flasks of oil, can do a substantial amount of damage.  This
+- [ ] `lib/help/command.txt:901` [line]         command requires a direction, and can take a target.
+- [ ] `lib/help/command.txt:902` [line] ~~~~~55
+- [ ] `lib/help/command.txt:903` [line] [[[[[GTargeting Mode (*)]
+- [ ] `lib/help/command.txt:904` [line]         This will allow you to aim your spells and such at a specific
+- [ ] `lib/help/command.txt:905` [line]         monster or grid, so that you can point directly towards that
+- [ ] `lib/help/command.txt:906` [line]         monster or grid (even if this is not a "compass" direction) when
+- [ ] `lib/help/command.txt:907` [line]         you are asked for a direction.  You can set a target using this
+- [ ] `lib/help/command.txt:908` [line]         command, or you can set a new target at the "Direction?" prompt when
+- [ ] `lib/help/command.txt:909` [line]         appropriate.  At the targeting prompt, you have many options.  First
+- [ ] `lib/help/command.txt:910` [line]         of all, targetting mode starts targetting nearby monsters which can
+- [ ] `lib/help/command.txt:911` [line]         be reached by "projectable" spells and thrown objects.  In this mode,
+- [ ] `lib/help/command.txt:912` [line]         you can press "t" (or "5" or ".") to select the current monster,
+- [ ] `lib/help/command.txt:913` [line]         space to advance to the next monster, "-" to back up to the previous
+- [ ] `lib/help/command.txt:914` [line]         monster, direction keys to advance to a monster more or less in that
+- [ ] `lib/help/command.txt:915` [line]         direction, "r" to "recall" the current monster, "q" to exit targetting
+- [ ] `lib/help/command.txt:916` [line]         mode, and "p" (or "o") to stop targetting monsters and enter the mode
+- [ ] `lib/help/command.txt:917` [line]         for targetting a location on the floor or in a wall.  Note that if
+- [ ] `lib/help/command.txt:918` [line]         there are no nearby monsters, you will automatically enter this mode.
+- [ ] `lib/help/command.txt:919` [line]         Note that hitting "o" is just like "p", except that the location
+- [ ] `lib/help/command.txt:920` [line]         cursor starts on the last examined monster instead of on the player.
+- [ ] `lib/help/command.txt:921` [line]         In this mode, you use the "direction" keys to move around, and the
+- [ ] `lib/help/command.txt:922` [line]         "q" key to quit, and the "t" (or "5" or ".") key to target the cursor
+- [ ] `lib/help/command.txt:923` [line]         location.  Note that targetting a location is slightly "dangerous",
+- [ ] `lib/help/command.txt:924` [line]         as the target is maintained even if you are far away.  To cancel an
+- [ ] `lib/help/command.txt:925` [line]         old target, simply hit "*" and then ESCAPE (or "q").  Note that when
+- [ ] `lib/help/command.txt:926` [line]         you cast a spell or throw an object at the target location, the path
+- [ ] `lib/help/command.txt:927` [line]         chosen is the "optimal" path towards that location, which may or may
+- [ ] `lib/help/command.txt:928` [line]         not be the path you want.  Sometimes, by clever choice of a location
+- [ ] `lib/help/command.txt:929` [line]         on the floor for your target, you may be able to convince a thrown
+- [ ] `lib/help/command.txt:930` [line]         object or cast spell to squeeze through a hole or corridor that is
+- [ ] `lib/help/command.txt:931` [line]         blocking direct access to a different grid.  Launching a ball spell
+- [ ] `lib/help/command.txt:932` [line]         or breath weapon at a location in the middle of a group of monsters
+- [ ] `lib/help/command.txt:933` [line]         can often improve the effects of that attack, since ball attacks are
+- [ ] `lib/help/command.txt:934` [line]         not stopped by interposed monsters if the ball is launched at a target.
+- [ ] `lib/help/command.txt:935` [line]         This command takes no time.
+- [ ] `lib/help/command.txt:936` [line] ~~~~~121|Commands|Looking        
+- [ ] `lib/help/command.txt:937` [line] #####R---  Looking Commands ---
+- [ ] `lib/help/command.txt:938` [line] ~~~~~25
+- [ ] `lib/help/command.txt:939` [line] [[[[[GFull screen map (M)]
+- [ ] `lib/help/command.txt:940` [line]         This command will show a map of the entire dungeon, reduced by a
+- [ ] `lib/help/command.txt:941` [line]         factor of nine, on the screen.  Only the major dungeon features
+- [ ] `lib/help/command.txt:942` [line]         will be visible because of the scale, so even some important
+- [ ] `lib/help/command.txt:943` [line]         objects may not show up on the map.  This is particularly useful
+- [ ] `lib/help/command.txt:944` [line]         in locating where the stairs are relative to your current
+- [ ] `lib/help/command.txt:945` [line]         position, or for identifying unexplored areas of the dungeon.
+- [ ] `lib/help/command.txt:946` [line]         This command takes no time.
+- [ ] `lib/help/command.txt:947` [line] ~~~~~23
+- [ ] `lib/help/command.txt:948` [line] [[[[[GLocate player on map (L) or Where is the player (W)]
+- [ ] `lib/help/command.txt:949` [line]         This command lets you scroll your map around, looking at all sectors
+- [ ] `lib/help/command.txt:950` [line]         of the current dungeon level, until you press escape, at which point
+- [ ] `lib/help/command.txt:951` [line]         the map will be re-centred on the player if necessary.  To scroll
+- [ ] `lib/help/command.txt:952` [line]         the map around, simply press any of the "direction" keys.  The top
+- [ ] `lib/help/command.txt:953` [line]         line will display the sector location, and the offset from your
+- [ ] `lib/help/command.txt:954` [line]         current sector.  This command takes no time.
+- [ ] `lib/help/command.txt:955` [line] ~~~~~22
+- [ ] `lib/help/command.txt:956` [line] [[[[[GLook around (l) or Examine things (x)]
+- [ ] `lib/help/command.txt:957` [line]         This command is used to look around at nearby monsters (to determine
+- [ ] `lib/help/command.txt:958` [line]         their type and health) and objects (to determine their type).  It is
+- [ ] `lib/help/command.txt:959` [line]         also used to find out what objects (if any) are under monsters, and
+- [ ] `lib/help/command.txt:960` [line]         if a monster is currently inside a wall.  This command takes no time.
+- [ ] `lib/help/command.txt:961` [line]         When you are looking at something, you may hit space for more details,
+- [ ] `lib/help/command.txt:962` [line]         or to advance to the next interesting monster or object, or minus ("-")
+- [ ] `lib/help/command.txt:963` [line]         to go back to the previous monster or object, or a direction key to
+- [ ] `lib/help/command.txt:964` [line]         advance to the nearest interesting monster or object (if any) in that
+- [ ] `lib/help/command.txt:965` [line]         general direction, or "r" to recall information about the current
+- [ ] `lib/help/command.txt:966` [line]         monster race, or "q" or escape to stop looking around.  You always
+- [ ] `lib/help/command.txt:967` [line]         start out looking at the "nearest" interesting monster or object.
+- [ ] `lib/help/command.txt:968` [line] ~~~~~18
+- [ ] `lib/help/command.txt:969` [line] [[[[[GObserve an item (I)]
+- [ ] `lib/help/command.txt:970` [line]         This command lets you observe a previously *identified* item.
+- [ ] `lib/help/command.txt:971` [line]         This will tell you things about the special powers of the object.
+- [ ] `lib/help/command.txt:972` [line]         Currently, it only makes sense for artifacts and ego-items.
+- [ ] `lib/help/command.txt:973` [line] ~~~~~122|Commands|Messages
+- [ ] `lib/help/command.txt:974` [line] #####R--- Message Commands ---
+- [ ] `lib/help/command.txt:975` [line] ~~~~~53
+- [ ] `lib/help/command.txt:976` [line] [[[[[GRepeat level feeling (^F)]
+- [ ] `lib/help/command.txt:977` [line]         Repeats the feeling about the dungeon level that you got when you
+- [ ] `lib/help/command.txt:978` [line]         first entered the level.
+- [ ] `lib/help/command.txt:979` [line] ~~~~~62
+- [ ] `lib/help/command.txt:980` [line] [[[[[GView previous messages (^P)]
+- [ ] `lib/help/command.txt:981` [line]         This command shows you all the recent messages.  You can scroll
+- [ ] `lib/help/command.txt:982` [line]         through them, or exit with ESCAPE.  This command takes no time.
+- [ ] `lib/help/command.txt:983` [line] ~~~~~69
+- [ ] `lib/help/command.txt:984` [line] [[[[[GTake notes (:)]
+- [ ] `lib/help/command.txt:985` [line]         This command allows you to take notes, which will then appear in your
+- [ ] `lib/help/command.txt:986` [line]         note file. The note file can be displayed through the "Display Current
+- [ ] `lib/help/command.txt:987` [line]         Knowledge" command (~ or |). This command takes no time.
+- [ ] `lib/help/command.txt:988` [line] ~~~~~123|Commands|Game status
+- [ ] `lib/help/command.txt:989` [line] #####R--- Game Status Commands ---
+- [ ] `lib/help/command.txt:990` [line] ~~~~~6
+- [ ] `lib/help/command.txt:991` [line] [[[[[GCharacter Description (C)]
+- [ ] `lib/help/command.txt:992` [line]         Brings up a full description of your character, including your
+- [ ] `lib/help/command.txt:993` [line]         skill levels, your current and potential stats, and various other
+- [ ] `lib/help/command.txt:994` [line]         information.  From this screen, you can change your name or use
+- [ ] `lib/help/command.txt:995` [line]         the file character description command to save your character
+- [ ] `lib/help/command.txt:996` [line]         status to a file.  That command saves additional information,
+- [ ] `lib/help/command.txt:997` [line]         including your background, your inventory, and the contents of
+- [ ] `lib/help/command.txt:998` [line]         your house.
+- [ ] `lib/help/command.txt:999` [line] ~~~~~82
+- [ ] `lib/help/command.txt:1000` [line] [[[[[GDisplay Current Knowledge (~ or |)]
+- [ ] `lib/help/command.txt:1001` [line]         The command opens a menu from which you can lookup information
+- [ ] `lib/help/command.txt:1002` [line]         collected so far. This includes known artifacts, unique monsters,
+- [ ] `lib/help/command.txt:1003` [line]         identified objects, killed creatures, recall depths, acquired
+- [ ] `lib/help/command.txt:1004` [line]         corruptions, current pets, current quests, current fates, known
+- [ ] `lib/help/command.txt:1005` [line]         traps, known dungeon towns and last but not least the note file.
+- [ ] `lib/help/command.txt:1007` [line]         Display known artifacts
+- [ ] `lib/help/command.txt:1008` [line]         This selection lists all of the artifacts that you have encountered.
+- [ ] `lib/help/command.txt:1009` [line]         Any artifact that appears in this list, which you cannot seem to
+- [ ] `lib/help/command.txt:1010` [line]         find, has been lost forever.  The "preserve" mode will prevent
+- [ ] `lib/help/command.txt:1011` [line]         you from accidentally losing any artifacts, but will also prevent
+- [ ] `lib/help/command.txt:1012` [line]         you from ever getting a "special" level feeling.
+- [ ] `lib/help/command.txt:1014` [line]         Display known uniques
+- [ ] `lib/help/command.txt:1015` [line]         Brings up a list of known unique monsters, plus their current
+- [ ] `lib/help/command.txt:1016` [line]         status.  Once killed, unique monsters never show up again, with a
+- [ ] `lib/help/command.txt:1017` [line]         few remarkable exceptions.
+- [ ] `lib/help/command.txt:1019` [line]         Display known objects
+- [ ] `lib/help/command.txt:1020` [line]         This list all 'flavoured' objects (such as rings, scrolls, wands,
+- [ ] `lib/help/command.txt:1021` [line]         potions, etc.) which you have identified.
+- [ ] `lib/help/command.txt:1023` [line]         Display kill count
+- [ ] `lib/help/command.txt:1024` [line]         This lists all killed creatures together with a total kill count.
+- [ ] `lib/help/command.txt:1026` [line]         Display recall depths
+- [ ] `lib/help/command.txt:1027` [line]         This lists all recall depths of entered dungeons as well as marks
+- [ ] `lib/help/command.txt:1028` [line]         the current recall dungeon with an asterisk.
+- [ ] `lib/help/command.txt:1030` [line]         Display corruptions
+- [ ] `lib/help/command.txt:1031` [line]         This lists all acquired corruptions with their beneficial and
+- [ ] `lib/help/command.txt:1032` [line]         detrimental effects.
+- [ ] `lib/help/command.txt:1034` [line]         Display current pets      
+- [ ] `lib/help/command.txt:1035` [line]         Display current quests
+- [ ] `lib/help/command.txt:1036` [line]         Display current fates
+- [ ] `lib/help/command.txt:1037` [line]         Display known traps
+- [ ] `lib/help/command.txt:1038` [line]         Display known dungeon towns
+- [ ] `lib/help/command.txt:1040` [line]         Display notes
+- [ ] `lib/help/command.txt:1041` [line]         Shows you your notes file, where all remarkable events are noted.
+- [ ] `lib/help/command.txt:1042` [line]         You can add notes yourself by using the "Take notes" command (:).
+- [ ] `lib/help/command.txt:1044` [line] ~~~~~70
+- [ ] `lib/help/command.txt:1045` [line] [[[[[GTime of the day (^T)]
+- [ ] `lib/help/command.txt:1046` [line]         This command is used to give the current date and time within the game.
+- [ ] `lib/help/command.txt:1047` [line]         Extremely useful for characters such as Vampires to check whether
+- [ ] `lib/help/command.txt:1048` [line]         it is safe to leave the dungeon.
+- [ ] `lib/help/command.txt:1049` [line] ~~~~~124|Commands|Saving and Exiting
+- [ ] `lib/help/command.txt:1050` [line] ~~~~~125|Saving and Exiting
+- [ ] `lib/help/command.txt:1051` [line] #####R--- Saving and Exiting Commands ---
+- [ ] `lib/help/command.txt:1052` [line] ~~~~~75
+- [ ] `lib/help/command.txt:1053` [line] [[[[[GSave and Quit (Ctrl-X)]
+- [ ] `lib/help/command.txt:1054` [line]         To save your game so that you can return to it later, use this
+- [ ] `lib/help/command.txt:1055` [line]         command.  Save files will also be generated (hopefully) if the
+- [ ] `lib/help/command.txt:1056` [line]         game crashes due to a system error.  After you die, you can use
+- [ ] `lib/help/command.txt:1057` [line]         your savefile to play again with the same options and such.
+- [ ] `lib/help/command.txt:1058` [line] ~~~~~68
+- [ ] `lib/help/command.txt:1059` [line] [[[[[GSave (Ctrl-S)]
+- [ ] `lib/help/command.txt:1060` [line]         This command saves the game but doesn't exit ToME.  Use this
+- [ ] `lib/help/command.txt:1061` [line]         frequently if you are paranoid about having the computer crash
+- [ ] `lib/help/command.txt:1062` [line]         while you are playing.
+- [ ] `lib/help/command.txt:1063` [line] ~~~~~31
+- [ ] `lib/help/command.txt:1064` [line] [[[[[GQuit (commit suicide) (Q)]
+- [ ] `lib/help/command.txt:1065` [line]         Kills your character and exits ToME.  You will be prompted to
+- [ ] `lib/help/command.txt:1066` [line]         make sure you really want to do this, and then asked to verify
+- [ ] `lib/help/command.txt:1067` [line]         that choice.  Note that dead characters are dead forever.
+- [ ] `lib/help/command.txt:1068` [line] ~~~~~126|Commands|Pref files
+- [ ] `lib/help/command.txt:1069` [line] ~~~~~127|Pref files|Commands
+- [ ] `lib/help/command.txt:1070` [line] #####R--- User pref file commands ---
+- [ ] `lib/help/command.txt:1071` [line] ~~~~~65
+- [ ] `lib/help/command.txt:1072` [line] [[[[[GInteract with options (=)]
+- [ ] `lib/help/command.txt:1073` [line]         Allow you to interact with options.  Note that using the "cheat"
+- [ ] `lib/help/command.txt:1074` [line]         options may mark your savefile as unsuitable for the high score
+- [ ] `lib/help/command.txt:1075` [line]         list.  You may change normal options using the "X" and "Y" user
+- [ ] `lib/help/command.txt:1076` [line]         pref commands.  You must use the "redraw" command (^R) after
+- [ ] `lib/help/command.txt:1077` [line]         changing certain options.
+- [ ] `lib/help/command.txt:1078` [line] ~~~~~49
+- [ ] `lib/help/command.txt:1079` [line] [[[[[GInteract with macros (@)]
+- [ ] `lib/help/command.txt:1080` [line]         Allow you to interact with macros.  You may load or save macros
+- [ ] `lib/help/command.txt:1081` [line]         from user pref files, create macros of various types, or define
+- [ ] `lib/help/command.txt:1082` [line]         keymaps.  You must define a "current action", shown at the bottom
+- [ ] `lib/help/command.txt:1083` [line]         of the screen, before you attempt to use any of the "create macro"
+- [ ] `lib/help/command.txt:1084` [line]         commands, which use that "current action" as their action.  This
+- [ ] `lib/help/command.txt:1085` [line]         is a horrible interface, and will be fixed eventually.
+- [ ] `lib/help/command.txt:1086` [line] ~~~~~51
+- [ ] `lib/help/command.txt:1087` [line] [[[[[GInteract with visuals (%)]
+- [ ] `lib/help/command.txt:1088` [line]         Allow you to interact with visuals.  You may load or save visuals
+- [ ] `lib/help/command.txt:1089` [line]         from user pref files, or modify the attr/char mappings for the
+- [ ] `lib/help/command.txt:1090` [line]         monsters, objects, and terrain features.  You must use the "redraw"
+- [ ] `lib/help/command.txt:1091` [line]         command (^R) to redraw the map after changing attr/char mappings.
+- [ ] `lib/help/command.txt:1092` [line] ~~~~~54
+- [ ] `lib/help/command.txt:1093` [line] [[[[[GInteract with colors (&)]
+- [ ] `lib/help/command.txt:1094` [line]         Allow the user to interact with colors.  This command only
+- [ ] `lib/help/command.txt:1095` [line]         works on some systems.
+- [ ] `lib/help/command.txt:1096` [line] ~~~~~47 
+- [ ] `lib/help/command.txt:1097` [line] [[[[[GInteract with the system (!)]
+- [ ] `lib/help/command.txt:1098` [line]         Allow the user to interact with the underlying visual system.
+- [ ] `lib/help/command.txt:1099` [line]         This command is currently unused.
+- [ ] `lib/help/command.txt:1100` [line] ~~~~~71
+- [ ] `lib/help/command.txt:1101` [line] [[[[[GEnter a user pref command (")]
+- [ ] `lib/help/command.txt:1102` [line]         ToME stores your preferences in files called "user pref files",
+- [ ] `lib/help/command.txt:1103` [line]         which contain comments and "user pref commands", which are simple strings
+- [ ] `lib/help/command.txt:1104` [line]         describing one aspect of the system about which the user has a preference.
+- [ ] `lib/help/command.txt:1105` [line]         You may enter single user pref commands directly, using the special "Enter 
+- [ ] `lib/help/command.txt:1106` [line]         a user pref command" command, activated by "double quote". You may have to
+- [ ] `lib/help/command.txt:1107` [line]         use the "redraw" command (^R) after changing certain of the aspects of the 
+- [ ] `lib/help/command.txt:1108` [line]         game, to allow ToME to adapt to your changes.
+- [ ] `lib/help/command.txt:1109` [line] ~~~~~128|Commands|Help
+- [ ] `lib/help/command.txt:1110` [line] #####R--- Help ---
+- [ ] `lib/help/command.txt:1111` [line] ~~~~~84
+- [ ] `lib/help/command.txt:1112` [line] [[[[[GHelp (?)]
+- [ ] `lib/help/command.txt:1113` [line]         Brings up the ToME on-line help system.  Note that the help
+- [ ] `lib/help/command.txt:1114` [line]         files are just text files in a particular format, and that other
+- [ ] `lib/help/command.txt:1115` [line]         help files may be available on the Net.  In particular, there are
+- [ ] `lib/help/command.txt:1116` [line]         a variety of spoiler files which do not come with the standard
+- [ ] `lib/help/command.txt:1117` [line]         distribution.  Check the place you got ToME from or ask on the
+- [ ] `lib/help/command.txt:1118` [line]         newsgroup rec.games.roguelike.angband about them. 
+- [ ] `lib/help/command.txt:1119` [line] ~~~~~83
+- [ ] `lib/help/command.txt:1120` [line] [[[[[GIdentify Symbol (/)]
+- [ ] `lib/help/command.txt:1121` [line]         Use this command to find out what a character stands for.  For
+- [ ] `lib/help/command.txt:1122` [line]         instance, by pressing "/.", you can find out that the "." symbol
+- [ ] `lib/help/command.txt:1123` [line]         stands for a floor spot.  When used with a symbol that represents
+- [ ] `lib/help/command.txt:1124` [line]         creatures, the this command will tell you only what class of
+- [ ] `lib/help/command.txt:1125` [line]         creature the symbol stands for, not give you specific information
+- [ ] `lib/help/command.txt:1126` [line]         about a creature you can see.  To get that, use the Look command.
+- [ ] `lib/help/command.txt:1128` [line]         There are three special symbols you can use with the Identify
+- [ ] `lib/help/command.txt:1129` [line]         Symbol command to access specific parts of your monster memory.
+- [ ] `lib/help/command.txt:1130` [line]         Typing Ctrl-A when asked for a symbol will recall details about
+- [ ] `lib/help/command.txt:1131` [line]         all monsters, typing Ctrl-U will recall details about all unique
+- [ ] `lib/help/command.txt:1132` [line]         monsters, and typing Ctrl-N will recall details about all
+- [ ] `lib/help/command.txt:1133` [line]         non-unique monsters.
+- [ ] `lib/help/command.txt:1135` [line]         If the character stands for a creature, you are asked if you want
+- [ ] `lib/help/command.txt:1136` [line]         to recall details.  If you answer yes, information about the
+- [ ] `lib/help/command.txt:1137` [line]         creatures you have encountered with that symbol is shown in the
+- [ ] `lib/help/command.txt:1138` [line]         Recall window if available, or on the screen if not.  You can also
+- [ ] `lib/help/command.txt:1139` [line]         answer "k" to see the list sorted by number of kills, or "p" to
+- [ ] `lib/help/command.txt:1140` [line]         see the list sorted by dungeon level the monster is normally found
+- [ ] `lib/help/command.txt:1141` [line]         on.  Pressing ESCAPE at any point will exit this command.
+- [ ] `lib/help/command.txt:1142` [line] ~~~~~41 
+- [ ] `lib/help/command.txt:1143` [line] [[[[[GGame Version (V)]
+- [ ] `lib/help/command.txt:1144` [line]         This command will tell you what version of ToME you are using.
+- [ ] `lib/help/command.txt:1145` [line]         For more information, see the "version.txt" help file.
+- [ ] `lib/help/command.txt:1147` [line] ~~~~~129|Commands|Extras
+- [ ] `lib/help/command.txt:1148` [line] #####R--- Extra Commands ---
+- [ ] `lib/help/command.txt:1149` [line] ~~~~~85
+- [ ] `lib/help/command.txt:1150` [line] [[[[[GRepeat last command (n)]
+- [ ] `lib/help/command.txt:1151` [line]         This will automatically repeat the last command you inputted.
+- [ ] `lib/help/command.txt:1152` [line] ~~~~~27
+- [ ] `lib/help/command.txt:1153` [line] [[[[[GSacrifice at an altar (O)]
+- [ ] `lib/help/command.txt:1154` [line]         Altars are places dedicated to the worship of a particular God. To
+- [ ] `lib/help/command.txt:1155` [line]         start worshipping the God who owns the altar, you must first sacrifice
+- [ ] `lib/help/command.txt:1156` [line]         on their altar. 
+- [ ] `lib/help/command.txt:1158` [line]         Be warned, not all Gods are equal in power, and once you have selected 
+- [ ] `lib/help/command.txt:1159` [line]         a God to worship, it is almost impossible to change which God you worship.
+- [ ] `lib/help/command.txt:1160` [line]         When your God is happy with you, you will receive more benefits from them.
+- [ ] `lib/help/command.txt:1161` [line]         Your God's happiness will decrease over time, so you will need to accomplish
+- [ ] `lib/help/command.txt:1162` [line]         deeds that increase your standing.  Note that there is no requirement 
+- [ ] `lib/help/command.txt:1163` [line]         for most classes to worship any God. (See *****gods.txt*0[gods.txt] for more information)
+- [ ] `lib/help/command.txt:1164` [line] ~~~~~28
+- [ ] `lib/help/command.txt:1165` [line] [[[[[GPray to your God (p)]
+- [ ] `lib/help/command.txt:1166` [line]         If you worship a God, you have the option of praying. The effects of
+- [ ] `lib/help/command.txt:1167` [line]         praying differ considerably depending on the god, ranging from the
+- [ ] `lib/help/command.txt:1168` [line]         battle frenzy of paladins to the self-healing powers of druids.
+- [ ] `lib/help/command.txt:1169` [line]         However, Gods do not like being disturbed, with negative effects on
+- [ ] `lib/help/command.txt:1170` [line]         your piety. See *****gods.txt*0[gods.txt] for more information.
+- [ ] `lib/help/command.txt:1171` [line] ~~~~~29
+- [ ] `lib/help/command.txt:1172` [line] [[[[[GPet commands (P)]
+- [ ] `lib/help/command.txt:1173` [line]         From time to time, you may acquire a pet within the dungeon. Pets are able
+- [ ] `lib/help/command.txt:1174` [line]         (to a more or less limited extent) to follow some simple commands, like
+- [ ] `lib/help/command.txt:1175` [line]         follow me. These commands are all accessed through the menu under "Pet 
+- [ ] `lib/help/command.txt:1176` [line]         Commands".
+- [ ] `lib/help/command.txt:1177` [line] ~~~~~52
+- [ ] `lib/help/command.txt:1178` [line] [[[[[GToggle Choice Window (^E)]
+- [ ] `lib/help/command.txt:1179` [line]         Toggles the display in the choice window (if available) between
+- [ ] `lib/help/command.txt:1180` [line]         your inventory and your equipment.  This command only applies if
+- [ ] `lib/help/command.txt:1181` [line]         you are running ToME under a windowing environment and the
+- [ ] `lib/help/command.txt:1182` [line]         choice window is available.  This also redraws the choice window.
+- [ ] `lib/help/command.txt:1183` [line] ~~~~~66
+- [ ] `lib/help/command.txt:1184` [line] [[[[[GRedraw Screen (^R)]
+- [ ] `lib/help/command.txt:1185` [line]         This command adapts to various changes in global options, and
+- [ ] `lib/help/command.txt:1186` [line]         redraws all of the windows.  This command should be used after
+- [ ] `lib/help/command.txt:1187` [line]         changing various global properties (options, attr/char mappings,
+- [ ] `lib/help/command.txt:1188` [line]         color definitions, etc).  When in doubt, use it.
+- [ ] `lib/help/command.txt:1189` [line] ~~~~~56        
+- [ ] `lib/help/command.txt:1190` [line] [[[[[GLoad screen dump (left-paren)]
+- [ ] `lib/help/command.txt:1191` [line]         This command loads a "snap-shot" of the current screen from the file
+- [ ] `lib/help/command.txt:1192` [line]         "dump.txt", and displays it on the screen.
+- [ ] `lib/help/command.txt:1193` [line] ~~~~~57        
+- [ ] `lib/help/command.txt:1194` [line] [[[[[GSave screen dump (right-paren)]
+- [ ] `lib/help/command.txt:1195` [line]         This command dumps a "snap-shot" of the current screen to the file
+- [ ] `lib/help/command.txt:1196` [line]         "dump.txt", including encoded color information.
+- [ ] `lib/help/command.txt:1197` [line] ~~~~~64
+- [ ] `lib/help/command.txt:1198` [line] [[[[[GQuit to next midi song (^Q)]
+- [ ] `lib/help/command.txt:1199` [line]         In the DOS binary (and maybe Windows) of ToME, it is possible for
+- [ ] `lib/help/command.txt:1200` [line]         the game to play any midi song in the lib/xtra/music directory. This
+- [ ] `lib/help/command.txt:1201` [line]         command allows the player to force the game to finish the current song
+- [ ] `lib/help/command.txt:1202` [line]         and move on to another one (i.e. if you are tired of hearing the current
+- [ ] `lib/help/command.txt:1203` [line]         song, you can change it).
+- [ ] `lib/help/command.txt:1204` [line] ~~~~~97
+- [ ] `lib/help/command.txt:1205` [line] [[[[[GRecord macros ($)]
+- [ ] `lib/help/command.txt:1206` [line]         This is an easier way to create macros. Activate it, press the key
+- [ ] `lib/help/command.txt:1207` [line]         sequence for your macro, reactivate it and it will create the macro
+- [ ] `lib/help/command.txt:1208` [line]         for you. Note than when possible using the @ key at item selection
+- [ ] `lib/help/command.txt:1209` [line]         is a good idea since it removes the need to inscribe items.
+- [ ] `lib/help/command.txt:1210` [line] ~~~~~98
+- [ ] `lib/help/command.txt:1211` [line] [[[[[GTake html screenshot (^\])]
+- [ ] `lib/help/command.txt:1212` [line] 	Creates an html screenshot of the current screen.
+- [ ] `lib/help/command.txt:1213` [line] ~~~~~89
+- [ ] `lib/help/command.txt:1214` [line] [[[[[GBegin extended command (#)]
+- [ ] `lib/help/command.txt:1215` [line] 	Begins an extended command.  Type "help" or "?" at the prompt for a
+- [ ] `lib/help/command.txt:1216` [line] 	list of these commands.
+- [ ] `lib/help/command.txt:1218` [line] -- 
+- [ ] `lib/help/command.txt:1219` [line] Original: Alexander Cutler and Andy Astrand
+- [ ] `lib/help/command.txt:1220` [line] Updated (2.7.6): Russ Allbery (rra@cs.stanford.edu)
+- [ ] `lib/help/command.txt:1221` [line] Updated (2.7.9): Ben Harrison (benh@phial.com)
+- [ ] `lib/help/command.txt:1222` [line] Updated PernAngband 5.x.x: Dawnmist (angband@dawnmist.8m.com)
+- [ ] `lib/help/command.txt:1223` [line] Updated for ToME 2.1

@@ -1,0 +1,31 @@
+# 数据清单：lib/edit/dragons.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/dragons.map:2` [feat] F:X:61:0
+- [ ] `lib/edit/dragons.map:5` [feat] F:^:97:0
+- [ ] `lib/edit/dragons.map:8` [feat] F:#:57:0
+- [ ] `lib/edit/dragons.map:11` [feat] F:<:6:0
+- [ ] `lib/edit/dragons.map:14` [feat] F:.:88:0
+- [ ] `lib/edit/dragons.map:17` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/dragons.map:18` [row] D:X^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/dragons.map:19` [row] D:X^^^^^.....................^^^^^X
+- [ ] `lib/edit/dragons.map:20` [row] D:X^^^.........................^^^X
+- [ ] `lib/edit/dragons.map:21` [row] D:X^^...........................^^X
+- [ ] `lib/edit/dragons.map:22` [row] D:X^^...........................^^X
+- [ ] `lib/edit/dragons.map:23` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:24` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:25` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:26` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:27` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:28` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:29` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:30` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:31` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:32` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:33` [row] D:X^.............................^X
+- [ ] `lib/edit/dragons.map:34` [row] D:X^^...........................^^X
+- [ ] `lib/edit/dragons.map:35` [row] D:X^^...........................^^X
+- [ ] `lib/edit/dragons.map:36` [row] D:X^^^........................<^^^X
+- [ ] `lib/edit/dragons.map:37` [row] D:X^^^^^.....................^^^^^X
+- [ ] `lib/edit/dragons.map:38` [row] D:X^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/dragons.map:39` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/dragons.map:42` [raw] P:6:6

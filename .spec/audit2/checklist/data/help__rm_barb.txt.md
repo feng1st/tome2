@@ -1,0 +1,36 @@
+# 数据清单：lib/help/rm_barb.txt（text，逐条/逐行）
+
+- [ ] `lib/help/rm_barb.txt:1` [line] ~~~~~01|Barbarian
+- [ ] `lib/help/rm_barb.txt:2` [line] ~~~~~02|Race Modifiers|Barbarian
+- [ ] `lib/help/rm_barb.txt:3` [line] #####R=== Barbarian Race ===
+- [ ] `lib/help/rm_barb.txt:5` [line] #####GDescription
+- [ ] `lib/help/rm_barb.txt:6` [line] Barbarians are hardy members of their race. They are fierce in combat, and
+- [ ] `lib/help/rm_barb.txt:7` [line] their wrath is feared throughout the world. Combat is their life: they learn
+- [ ] `lib/help/rm_barb.txt:8` [line] to feel no fear. Barbarians are, however, suspicious of magic, which makes 
+- [ ] `lib/help/rm_barb.txt:9` [line] magic devices fairly hard for them to use, and also makes it impossible for 
+- [ ] `lib/help/rm_barb.txt:10` [line] them to play Mages.
+- [ ] `lib/help/rm_barb.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/rm_barb.txt:13` [line] Strength       +2   
+- [ ] `lib/help/rm_barb.txt:14` [line] Intelligence   -3   
+- [ ] `lib/help/rm_barb.txt:15` [line] Wisdom         -2   
+- [ ] `lib/help/rm_barb.txt:16` [line] Dexterity      +1   
+- [ ] `lib/help/rm_barb.txt:17` [line] Constitution   +1   
+- [ ] `lib/help/rm_barb.txt:18` [line] Charisma       -3      
+- [ ] `lib/help/rm_barb.txt:19` [line] Hit Dice       +1 side
+- [ ] `lib/help/rm_barb.txt:20` [line] Spell Points   -50%
+- [ ] `lib/help/rm_barb.txt:21` [line] Exp Penalty    +25%
+- [ ] `lib/help/rm_barb.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/rm_barb.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/rm_barb.txt:25` [line] Combat                  
+- [ ] `lib/help/rm_barb.txt:26` [line]   Weaponmastery         1.200           [0.000]
+- [ ] `lib/help/rm_barb.txt:27` [line]   Archery		0.500           [0.000]
+- [ ] `lib/help/rm_barb.txt:28` [line] Sneakiness
+- [ ] `lib/help/rm_barb.txt:29` [line]   Stealth              -2.000           [0.000]
+- [ ] `lib/help/rm_barb.txt:30` [line]   Disarming            -0.200           [0.000]
+- [ ] `lib/help/rm_barb.txt:31` [line] Magic                   
+- [ ] `lib/help/rm_barb.txt:32` [line]   Magic-Device         -1.000           [0.000]
+- [ ] `lib/help/rm_barb.txt:33` [line] Spirituality            0.200           [0.000]
+- [ ] `lib/help/rm_barb.txt:35` [line] #####GStarting Equipment
+- [ ] `lib/help/rm_barb.txt:36` [line] A barbarian character begins the game with:
+- [ ] `lib/help/rm_barb.txt:37` [line]     Some rations
+- [ ] `lib/help/rm_barb.txt:38` [line]     Some torches

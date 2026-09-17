@@ -1,0 +1,48 @@
+# 数据清单：lib/help/c_axemas.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_axemas.txt:1` [line] ~~~~~01|Axemaster
+- [ ] `lib/help/c_axemas.txt:2` [line] ~~~~~02|Classes|Axemaster
+- [ ] `lib/help/c_axemas.txt:3` [line] #####R=== Axemasters ===
+- [ ] `lib/help/c_axemas.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_axemas.txt:6` [line] The Axemaster is a Warrior who specialises in axes.
+- [ ] `lib/help/c_axemas.txt:7` [line] The training is so intense and specific that Axemasters gain huge bonuses
+- [ ] `lib/help/c_axemas.txt:8` [line] when fighting with their chosen weapon, dependent on their Axe-mastery skill.
+- [ ] `lib/help/c_axemas.txt:9` [line] In most other respects they perform about as well as a generic Warrior.
+- [ ] `lib/help/c_axemas.txt:11` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_axemas.txt:12` [line] Strength         +5
+- [ ] `lib/help/c_axemas.txt:13` [line] Intelligence     -2
+- [ ] `lib/help/c_axemas.txt:14` [line] Wisdom           -2
+- [ ] `lib/help/c_axemas.txt:15` [line] Dexterity        +2
+- [ ] `lib/help/c_axemas.txt:16` [line] Constitution     +2
+- [ ] `lib/help/c_axemas.txt:17` [line] Charisma         -1
+- [ ] `lib/help/c_axemas.txt:18` [line] Hit Die          +d9
+- [ ] `lib/help/c_axemas.txt:19` [line] Spell Points     +0%
+- [ ] `lib/help/c_axemas.txt:20` [line] Exp Penalty       0%
+- [ ] `lib/help/c_axemas.txt:22` [line] #####GStarting Skills:
+- [ ] `lib/help/c_axemas.txt:23` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_axemas.txt:24` [line] Combat                  2.000           [0.900]
+- [ ] `lib/help/c_axemas.txt:25` [line]   Weaponmastery         1.000           [0.950]
+- [ ] `lib/help/c_axemas.txt:26` [line]     Sword-mastery       0.000           [0.300]
+- [ ] `lib/help/c_axemas.txt:27` [line]     Axe-mastery         1.000           [0.700]
+- [ ] `lib/help/c_axemas.txt:28` [line]     Hafted-mastery      0.000           [0.300]
+- [ ] `lib/help/c_axemas.txt:29` [line]     Polearm-mastery     0.000           [0.300]
+- [ ] `lib/help/c_axemas.txt:30` [line]   Archery               1.000           [0.600]
+- [ ] `lib/help/c_axemas.txt:31` [line]   Antimagic             0.000           [0.550]
+- [ ] `lib/help/c_axemas.txt:32` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_axemas.txt:33` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_axemas.txt:34` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_axemas.txt:35` [line] Magic                   1.000           [0.300]
+- [ ] `lib/help/c_axemas.txt:36` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_axemas.txt:37` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_axemas.txt:38` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_axemas.txt:39` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_axemas.txt:41` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_axemas.txt:42` [line] #####BAbility              Character level
+- [ ] `lib/help/c_axemas.txt:43` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_axemas.txt:44` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_axemas.txt:45` [line] Spread blows                25
+- [ ] `lib/help/c_axemas.txt:47` [line] #####GStarting Equipment
+- [ ] `lib/help/c_axemas.txt:48` [line] An Axemaster begins the game with:
+- [ ] `lib/help/c_axemas.txt:49` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_axemas.txt:50` [line]     a Chain Mail
+- [ ] `lib/help/c_axemas.txt:51` [line]     a Hatchet

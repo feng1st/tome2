@@ -1,0 +1,52 @@
+# 数据清单：lib/help/c_pr_drk.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_pr_drk.txt:1` [line] |||||oy
+- [ ] `lib/help/c_pr_drk.txt:2` [line] ~~~~~01|Dark Priest
+- [ ] `lib/help/c_pr_drk.txt:3` [line] ~~~~~02|Classes|Dark Priest
+- [ ] `lib/help/c_pr_drk.txt:4` [line] ~~~~~03|Melkor|Dark Priests
+- [ ] `lib/help/c_pr_drk.txt:5` [line] #####R=== Melkor's Priests ===
+- [ ] `lib/help/c_pr_drk.txt:7` [line] #####GDescription
+- [ ] `lib/help/c_pr_drk.txt:8` [line] All gods have priests; but those serving *****g_melkor.txt*0[Melkor], the dark enemy, are not
+- [ ] `lib/help/c_pr_drk.txt:9` [line] like their good counterparts. While usually it takes devotion and awe to be
+- [ ] `lib/help/c_pr_drk.txt:10` [line] inspired into serving a deity, Melkor's followers revere him because of the
+- [ ] `lib/help/c_pr_drk.txt:11` [line] power he gives them. Some of them may even be so ambitious as to aspire to
+- [ ] `lib/help/c_pr_drk.txt:12` [line] take his place upon the black throne of Angband. This he knows very well, but
+- [ ] `lib/help/c_pr_drk.txt:13` [line] as long as he can use those puny mortals to inspire fear into the followers of
+- [ ] `lib/help/c_pr_drk.txt:14` [line] the Valar and to bring destruction to Arda, he doesn't mind; he even lends power
+- [ ] `lib/help/c_pr_drk.txt:15` [line] to the ones more bent on destruction, while sapping their minds to reduce them
+- [ ] `lib/help/c_pr_drk.txt:16` [line] to unthinking slaves.
+- [ ] `lib/help/c_pr_drk.txt:18` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_pr_drk.txt:19` [line] Strength         -1
+- [ ] `lib/help/c_pr_drk.txt:20` [line] Intelligence     -3
+- [ ] `lib/help/c_pr_drk.txt:21` [line] Wisdom           +3
+- [ ] `lib/help/c_pr_drk.txt:22` [line] Dexterity        -1
+- [ ] `lib/help/c_pr_drk.txt:23` [line] Constitution     +0
+- [ ] `lib/help/c_pr_drk.txt:24` [line] Charisma         +2
+- [ ] `lib/help/c_pr_drk.txt:25` [line] Hit Die          +d2
+- [ ] `lib/help/c_pr_drk.txt:26` [line] Spell Points     +0%
+- [ ] `lib/help/c_pr_drk.txt:27` [line] Exp Penalty      20%
+- [ ] `lib/help/c_pr_drk.txt:29` [line] #####GStarting Skills:
+- [ ] `lib/help/c_pr_drk.txt:30` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_pr_drk.txt:31` [line] Combat                  2.000           [0.700]
+- [ ] `lib/help/c_pr_drk.txt:32` [line]   Weaponmastery         1.000           [0.700]
+- [ ] `lib/help/c_pr_drk.txt:33` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_pr_drk.txt:34` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_pr_drk.txt:35` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_pr_drk.txt:36` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_pr_drk.txt:37` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_pr_drk.txt:38` [line]   Spell-power           0.000           [0.800]
+- [ ] `lib/help/c_pr_drk.txt:39` [line] **Udun                  0.000           [0.400]
+- [ ] `lib/help/c_pr_drk.txt:40` [line]   Necromancy            0.000           [0.800]
+- [ ] `lib/help/c_pr_drk.txt:41` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_pr_drk.txt:42` [line]   Prayer                1.000           [1.400]
+- [ ] `lib/help/c_pr_drk.txt:43` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_pr_drk.txt:44` [line]   Corpse-preservation   1.000           [1.000]
+- [ ] `lib/help/c_pr_drk.txt:46` [line] **Actually, every character has this level of proficiency with the *****m_udun.txt*0[Udun] school,
+- [ ] `lib/help/c_pr_drk.txt:47` [line] provided they are worshipping Melkor
+- [ ] `lib/help/c_pr_drk.txt:50` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_pr_drk.txt:51` [line] #####BAbility              Character level
+- [ ] `lib/help/c_pr_drk.txt:52` [line] Perfect casting             1
+- [ ] `lib/help/c_pr_drk.txt:54` [line] #####GStarting Equipment
+- [ ] `lib/help/c_pr_drk.txt:55` [line] A Priest serving Melkor begins the game with:
+- [ ] `lib/help/c_pr_drk.txt:56` [line]     a Spellbook of Curse
+- [ ] `lib/help/c_pr_drk.txt:57` [line]     a Mace

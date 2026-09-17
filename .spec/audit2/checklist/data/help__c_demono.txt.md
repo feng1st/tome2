@@ -1,0 +1,48 @@
+# 数据清单：lib/help/c_demono.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_demono.txt:1` [line] |||||oy
+- [ ] `lib/help/c_demono.txt:2` [line] ~~~~~01|Demonologist
+- [ ] `lib/help/c_demono.txt:3` [line] ~~~~~02|Classes|Demonologist
+- [ ] `lib/help/c_demono.txt:4` [line] #####R=== Demonologists ===
+- [ ] `lib/help/c_demono.txt:6` [line] #####GDescription
+- [ ] `lib/help/c_demono.txt:7` [line] Masters of the Demons, members of this class can gain tremendous power
+- [ ] `lib/help/c_demono.txt:8` [line] over demonkind, either for good or for evil ends.
+- [ ] `lib/help/c_demono.txt:10` [line] Their spells are contained in specific blades, shields and helms (actually
+- [ ] `lib/help/c_demono.txt:11` [line] shaped in the form of horns) which when wielded allow the Demonologist to
+- [ ] `lib/help/c_demono.txt:12` [line] cast spells unique to her class; each piece of equipment holds 3 spells.
+- [ ] `lib/help/c_demono.txt:14` [line] See the information on the *****m_demono.txt*0[Demonology] school of magic for more details.
+- [ ] `lib/help/c_demono.txt:16` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_demono.txt:17` [line] Strength         +5
+- [ ] `lib/help/c_demono.txt:18` [line] Intelligence     -2
+- [ ] `lib/help/c_demono.txt:19` [line] Wisdom           -2
+- [ ] `lib/help/c_demono.txt:20` [line] Dexterity        +2
+- [ ] `lib/help/c_demono.txt:21` [line] Constitution     +2
+- [ ] `lib/help/c_demono.txt:22` [line] Charisma         -1
+- [ ] `lib/help/c_demono.txt:23` [line] Hit Die          +d9
+- [ ] `lib/help/c_demono.txt:24` [line] Spell Points     +0%
+- [ ] `lib/help/c_demono.txt:25` [line] Exp Penalty       0%
+- [ ] `lib/help/c_demono.txt:27` [line] #####GStarting Skills:
+- [ ] `lib/help/c_demono.txt:28` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_demono.txt:29` [line] Combat                  2.000           [0.750]
+- [ ] `lib/help/c_demono.txt:30` [line]   Weaponmastery         1.000           [0.750]
+- [ ] `lib/help/c_demono.txt:31` [line]     Sword-mastery       0.000           [0.600]
+- [ ] `lib/help/c_demono.txt:32` [line]   Archery               2.000           [0.400]
+- [ ] `lib/help/c_demono.txt:33` [line] Sneakiness              2.000           [1.800]
+- [ ] `lib/help/c_demono.txt:34` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_demono.txt:35` [line]   Disarming             2.000           [1.800]
+- [ ] `lib/help/c_demono.txt:36` [line] Magic                   2.000           [0.700]
+- [ ] `lib/help/c_demono.txt:37` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_demono.txt:38` [line]   Demonology            1.000           [1.000]
+- [ ] `lib/help/c_demono.txt:39` [line] Spirituality            2.000           [0.700]
+- [ ] `lib/help/c_demono.txt:40` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_demono.txt:41` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_demono.txt:43` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_demono.txt:44` [line] #####BAbility              Character level
+- [ ] `lib/help/c_demono.txt:45` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_demono.txt:46` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_demono.txt:47` [line] Spread blows                25
+- [ ] `lib/help/c_demono.txt:49` [line] #####GStarting Equipment
+- [ ] `lib/help/c_demono.txt:50` [line] A Demonologist begins the game with:
+- [ ] `lib/help/c_demono.txt:51` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_demono.txt:52` [line]     a Demonblade
+- [ ] `lib/help/c_demono.txt:53` [line]     a Chain Mail

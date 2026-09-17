@@ -1,0 +1,240 @@
+# 数据清单：lib/help/debug.txt（text，逐条/逐行）
+
+- [ ] `lib/help/debug.txt:1` [line] |||||oy
+- [ ] `lib/help/debug.txt:2` [line] ~~~~~99|Debug
+- [ ] `lib/help/debug.txt:3` [line] #####R=== Debug Commands ===
+- [ ] `lib/help/debug.txt:6` [line] Debug commands are entered as an "underlying command" (a single key)
+- [ ] `lib/help/debug.txt:7` [line] plus a variety of optional or required arguments.
+- [ ] `lib/help/debug.txt:9` [line] The debug commands are used for debugging and experimenting. The game
+- [ ] `lib/help/debug.txt:10` [line] will not be scored if you use debug commands.
+- [ ] `lib/help/debug.txt:12` [line] ~~~~~100|Debug|Command List
+- [ ] `lib/help/debug.txt:13` [line] #####R=== Command List Summary ===
+- [ ] `lib/help/debug.txt:15` [line]  *****debug.txt*1[a  Autorestore]
+- [ ] `lib/help/debug.txt:16` [line]  *****debug.txt*3[b  Teleport to target]                   *****debug.txt*4[B  HP to zero]
+- [ ] `lib/help/debug.txt:17` [line]  *****debug.txt*5[c  Create object]                        *****debug.txt*6[C  Create artifact]
+- [ ] `lib/help/debug.txt:18` [line]  *****debug.txt*7[d  Detect all]                           *****debug.txt*8[D  Teleport to the wilderness]
+- [ ] `lib/help/debug.txt:19` [line]  *****debug.txt*9[e  Edit character attributes]            *****debug.txt*10[E  Change grid's mana]
+- [ ] `lib/help/debug.txt:20` [line]  f  (unused)                                                *****debug.txt*12[F  Features]
+- [ ] `lib/help/debug.txt:21` [line]  *****debug.txt*13[g  Create good item]                     G  (unused)
+- [ ] `lib/help/debug.txt:22` [line]  *****debug.txt*15[h  Change life rating]                   *****debug.txt*16[H  Hostile monster creation]
+- [ ] `lib/help/debug.txt:23` [line]  i  (unused)                                                I  (unused)
+- [ ] `lib/help/debug.txt:24` [line]  *****debug.txt*19[j  Jump to other level]                  J  (unused)
+- [ ] `lib/help/debug.txt:25` [line]  *****debug.txt*21[k  Check attributes]                     K  (unused)
+- [ ] `lib/help/debug.txt:26` [line]  l  (unused)                                                L  (unused)
+- [ ] `lib/help/debug.txt:27` [line]  *****debug.txt*25[m  Magic Mapping]                        *****debug.txt*26[M  Gain corruption]
+- [ ] `lib/help/debug.txt:28` [line]  *****debug.txt*27[n  Summon named monster]                 *****debug.txt*28[N  Summon _friendly_ named monster]
+- [ ] `lib/help/debug.txt:29` [line]  *****debug.txt*29[o  Edit object attributes]               O  (unused)
+- [ ] `lib/help/debug.txt:30` [line]  *****debug.txt*31[p  Phase door]                           P  (unused)
+- [ ] `lib/help/debug.txt:31` [line]  *****debug.txt*33[q  Get a quest]                          Q  (unused)
+- [ ] `lib/help/debug.txt:32` [line]  r  (unused)                                                R  (unused)
+- [ ] `lib/help/debug.txt:33` [line]  *****debug.txt*37[s  Summon monster]                       *****debug.txt*38[S  Change the feature of the map]
+- [ ] `lib/help/debug.txt:34` [line]  *****debug.txt*39[t  Teleport]                             *****debug.txt*40[T  Teleport to a town]
+- [ ] `lib/help/debug.txt:35` [line]  *****debug.txt*41[u  Complete map]                         *****debug.txt*42[U  Become undead]
+- [ ] `lib/help/debug.txt:36` [line]  *****debug.txt*43[v  Random artifact/ego item]             V  (unused)
+- [ ] `lib/help/debug.txt:37` [line]  *****debug.txt*45[w  Wizard light the level]               *****debug.txt*46[W  Wish]
+- [ ] `lib/help/debug.txt:38` [line]  *****debug.txt*47[x  XP boost]                             X  (unused)
+- [ ] `lib/help/debug.txt:39` [line]  y  (unused)                             Y  (unused)
+- [ ] `lib/help/debug.txt:40` [line]  *****debug.txt*51[z  Zap monsters]                         Z  (unused)
+- [ ] `lib/help/debug.txt:41` [line]  !  (unused)                            ^A  (unused)
+- [ ] `lib/help/debug.txt:42` [line]  *****debug.txt*55[@  Increment monster level]             ^B  (unused)
+- [ ] `lib/help/debug.txt:43` [line]  #  (unused)                            ^C  (unused)
+- [ ] `lib/help/debug.txt:44` [line]  $  (unused)                            ^D  (unused)
+- [ ] `lib/help/debug.txt:45` [line]  %  (unused)                            ^E  (unused)
+- [ ] `lib/help/debug.txt:46` [line]  ^  (unused)                            ^F  (unused)
+- [ ] `lib/help/debug.txt:47` [line]  &  (unused)                            ^G  (unused)
+- [ ] `lib/help/debug.txt:48` [line]  *****debug.txt*61[*  Lose special powers]                 ^H  (unused)
+- [ ] `lib/help/debug.txt:49` [line]  (  (unused)                            ^I  (unused)
+- [ ] `lib/help/debug.txt:50` [line]  )  (unused)                            ^J  (unused)
+- [ ] `lib/help/debug.txt:51` [line]  {  (unused)                            ^K  (unused)
+- [ ] `lib/help/debug.txt:52` [line]  }  (unused)                            ^L  (unused)
+- [ ] `lib/help/debug.txt:53` [line]  [  (unused)                            ^M  (unused)
+- [ ] `lib/help/debug.txt:54` [line]  ]  (unused)                            ^N  (unused)
+- [ ] `lib/help/debug.txt:55` [line]  *****debug.txt*67[-  Create object]                       ^O  (unused)
+- [ ] `lib/help/debug.txt:56` [line]                                         ^P  (unused)
+- [ ] `lib/help/debug.txt:57` [line]  *****debug.txt*71[+  Gain a fate]                         ^Q  (unused)
+- [ ] `lib/help/debug.txt:58` [line]  *****debug.txt*73[=  Align monster]                       ^R  (unused)
+- [ ] `lib/help/debug.txt:59` [line]  ;  (unused)                            ^S  (unused)
+- [ ] `lib/help/debug.txt:60` [line]  :  (unused)                            ^T  (unused)
+- [ ] `lib/help/debug.txt:61` [line]  '  (unused)                            ^U  (unused)
+- [ ] `lib/help/debug.txt:62` [line]                                         ^V  (unused)
+- [ ] `lib/help/debug.txt:63` [line]  ,  (unused)                            ^W  (unused)
+- [ ] `lib/help/debug.txt:64` [line]  <  (unused)                            ^X  (unused)
+- [ ] `lib/help/debug.txt:65` [line]  .  (unused)                            ^Y  (unused)
+- [ ] `lib/help/debug.txt:66` [line]                                         ^Z  (unused)
+- [ ] `lib/help/debug.txt:67` [line]  \  (unused)                             |  (unused)
+- [ ] `lib/help/debug.txt:68` [line]  `  (unused)                             ~  (unused)
+- [ ] `lib/help/debug.txt:69` [line]  *****debug.txt*91[/  Summon monster]                       *****debug.txt*92[?  Help]
+- [ ] `lib/help/debug.txt:70` [line]                                         ^\  (unused)
+- [ ] `lib/help/debug.txt:72` [line] ~~~~~111|Debug|Command descriptions 
+- [ ] `lib/help/debug.txt:73` [line] #####R===  Command Descriptions ===
+- [ ] `lib/help/debug.txt:75` [line]         The following command descriptions are listed as the command name
+- [ ] `lib/help/debug.txt:76` [line] plus the "underlying command" key. Then comes a brief description of the
+- [ ] `lib/help/debug.txt:77` [line] command. Some commands use the "repeat count" to automatically repeat the
+- [ ] `lib/help/debug.txt:78` [line] command several times, while others use the "repeat count" as an "argument",
+- [ ] `lib/help/debug.txt:79` [line] for example, commands which need a "quantity" will use the "repeat count"
+- [ ] `lib/help/debug.txt:80` [line] instead of asking for a quantity, allowing the use of "0d" for "drop all".
+- [ ] `lib/help/debug.txt:81` [line] Commands which ask for a quantity will convert any "letters" into the
+- [ ] `lib/help/debug.txt:82` [line] maximal legal value.
+- [ ] `lib/help/debug.txt:83` [line] ~~~~~112|Debug|General
+- [ ] `lib/help/debug.txt:84` [line] #####R---  General Commands ---
+- [ ] `lib/help/debug.txt:85` [line] ~~~~~1
+- [ ] `lib/help/debug.txt:86` [line] [[[[[GAutorestore (a)]
+- [ ] `lib/help/debug.txt:87` [line]         Restores all your stats.  This includes HP, SP, hunger, lost levels, etc.
+- [ ] `lib/help/debug.txt:88` [line] ~~~~~3
+- [ ] `lib/help/debug.txt:89` [line] [[[[[GTeleport to target (b)]
+- [ ] `lib/help/debug.txt:90` [line]         You first need to have a monster targeted, then you can use
+- [ ] `lib/help/debug.txt:91` [line]         this command to teleport next to the monster.
+- [ ] `lib/help/debug.txt:92` [line] ~~~~~4
+- [ ] `lib/help/debug.txt:93` [line] [[[[[GHP to zero (B)]
+- [ ] `lib/help/debug.txt:94` [line]         Bring your health down to zero.
+- [ ] `lib/help/debug.txt:95` [line] ~~~~~5
+- [ ] `lib/help/debug.txt:96` [line] [[[[[GCreate object (c)]
+- [ ] `lib/help/debug.txt:97` [line]         Allows you to select and create a new object where you stand.
+- [ ] `lib/help/debug.txt:98` [line]         This brings up a menu where you can choose what type of object
+- [ ] `lib/help/debug.txt:99` [line]         you want created.
+- [ ] `lib/help/debug.txt:100` [line] ~~~~~6
+- [ ] `lib/help/debug.txt:101` [line] [[[[[GCreate artifact (C)]
+- [ ] `lib/help/debug.txt:102` [line]         Allows you to select and create a new artifact where you stand.
+- [ ] `lib/help/debug.txt:103` [line]         Use the "Command count", aka 0, to specify a number from
+- [ ] `lib/help/debug.txt:104` [line]         a_info.txt to put it on the ground where you are standing.
+- [ ] `lib/help/debug.txt:105` [line]         For example : 03^AC will create the Arkenstone of Thrane (+3)
+- [ ] `lib/help/debug.txt:106` [line] ~~~~~7
+- [ ] `lib/help/debug.txt:107` [line] [[[[[GDetect all (d)]
+- [ ] `lib/help/debug.txt:108` [line]         Sense ways out/monsters/objects.
+- [ ] `lib/help/debug.txt:109` [line] ~~~~~8
+- [ ] `lib/help/debug.txt:110` [line] [[[[[GTeleport to the wilderness (D)]
+- [ ] `lib/help/debug.txt:111` [line]         From a dungeon this will teleport you to the wilderness level
+- [ ] `lib/help/debug.txt:112` [line]         and if used in the wilderness it acts like teleport.
+- [ ] `lib/help/debug.txt:113` [line] ~~~~~9
+- [ ] `lib/help/debug.txt:114` [line] [[[[[GEdit character attributes (e)]
+- [ ] `lib/help/debug.txt:115` [line]         Edit character attributes including Str, Int, Dex, experience, gold, luck, etc.
+- [ ] `lib/help/debug.txt:116` [line] ~~~~~10
+- [ ] `lib/help/debug.txt:117` [line] [[[[[GChange grid's mana (E)]
+- [ ] `lib/help/debug.txt:118` [line]         Alter how much mana a grid has.
+- [ ] `lib/help/debug.txt:119` [line]         Use the "Command count", aka 0, to specify the amount of mana
+- [ ] `lib/help/debug.txt:120` [line]         that you want.
+- [ ] `lib/help/debug.txt:121` [line] ~~~~~12
+- [ ] `lib/help/debug.txt:122` [line] [[[[[GFeatures (F)]
+- [ ] `lib/help/debug.txt:123` [line]         Use the "Command count", aka 0, to specify a number from
+- [ ] `lib/help/debug.txt:124` [line]         f_info.txt to put a feature on the ground where you are
+- [ ] `lib/help/debug.txt:125` [line]         standing.
+- [ ] `lib/help/debug.txt:126` [line] ~~~~~13
+- [ ] `lib/help/debug.txt:127` [line] [[[[[GCreate good item (g)]
+- [ ] `lib/help/debug.txt:128` [line]         Create a random good item where you stand.
+- [ ] `lib/help/debug.txt:129` [line] ~~~~~15
+- [ ] `lib/help/debug.txt:130` [line] [[[[[GChange life rating (h)]
+- [ ] `lib/help/debug.txt:131` [line]         Change your life rating.
+- [ ] `lib/help/debug.txt:132` [line] ~~~~~16
+- [ ] `lib/help/debug.txt:133` [line] [[[[[GHostile monster creation (H)]
+- [ ] `lib/help/debug.txt:134` [line]         Summons a Pack of Creatures of the same kind.
+- [ ] `lib/help/debug.txt:135` [line] ~~~~~19
+- [ ] `lib/help/debug.txt:136` [line] [[[[[GJump to other level (j)]
+- [ ] `lib/help/debug.txt:137` [line]         Jump to other dungeon level. This does not work in the
+- [ ] `lib/help/debug.txt:138` [line]         wilderness as it is treated as all one level.
+- [ ] `lib/help/debug.txt:139` [line] ~~~~~21
+- [ ] `lib/help/debug.txt:140` [line] [[[[[GCheck attributes (k)]
+- [ ] `lib/help/debug.txt:141` [line]         Displays your characters attributes.
+- [ ] `lib/help/debug.txt:142` [line] ~~~~~25
+- [ ] `lib/help/debug.txt:143` [line] [[[[[GMagic Mapping (m)]
+- [ ] `lib/help/debug.txt:144` [line]         Like a Scroll of Magic mapping.
+- [ ] `lib/help/debug.txt:145` [line] ~~~~~26
+- [ ] `lib/help/debug.txt:146` [line] [[[[[GGain corruption (M)]
+- [ ] `lib/help/debug.txt:147` [line]         Allows your character to gain a corruption.
+- [ ] `lib/help/debug.txt:148` [line] ~~~~~27
+- [ ] `lib/help/debug.txt:149` [line] [[[[[GSummon named monster (n)]
+- [ ] `lib/help/debug.txt:150` [line]         Summon a monster that will appear next to you.
+- [ ] `lib/help/debug.txt:151` [line]         Use the "Command count", aka 0, to specify a number from
+- [ ] `lib/help/debug.txt:152` [line]         r_info.txt to summon a monster.
+- [ ] `lib/help/debug.txt:153` [line] ~~~~~28
+- [ ] `lib/help/debug.txt:154` [line] [[[[[GSummon _friendly_ named monster (N)]
+- [ ] `lib/help/debug.txt:155` [line]         The same as n but the creature will be your pet. Try this
+- [ ] `lib/help/debug.txt:156` [line]         with number 861, Darkgod is now your pet.
+- [ ] `lib/help/debug.txt:157` [line] ~~~~~29
+- [ ] `lib/help/debug.txt:158` [line] [[[[[GEdit object attributes (o)]
+- [ ] `lib/help/debug.txt:159` [line]         Allows you to alter the attributes of any object that you
+- [ ] `lib/help/debug.txt:160` [line]         have in your backpack.
+- [ ] `lib/help/debug.txt:161` [line] ~~~~~31
+- [ ] `lib/help/debug.txt:162` [line] [[[[[GPhase door (p)]
+- [ ] `lib/help/debug.txt:163` [line]         Like a Scroll of Phase Door.
+- [ ] `lib/help/debug.txt:164` [line] ~~~~~33
+- [ ] `lib/help/debug.txt:165` [line] [[[[[GGet a quest (q)]
+- [ ] `lib/help/debug.txt:166` [line]         Get a quest.
+- [ ] `lib/help/debug.txt:167` [line]         Use the "Command count", aka 0, to specify a number from
+- [ ] `lib/help/debug.txt:168` [line]         1 to 25, as defined in defines.h ( the QUEST_XXX items ).
+- [ ] `lib/help/debug.txt:169` [line]         For example : 04^Aq will get you the thieves quest.
+- [ ] `lib/help/debug.txt:170` [line] ~~~~~35
+- [ ] `lib/help/debug.txt:171` [line] [[[[[GGain reward (r)]
+- [ ] `lib/help/debug.txt:172` [line]         Some high being grants you a reward.
+- [ ] `lib/help/debug.txt:173` [line] ~~~~~37
+- [ ] `lib/help/debug.txt:174` [line] [[[[[GSummon monster (s)]
+- [ ] `lib/help/debug.txt:175` [line]         Summon a random monster, next to where you stand.
+- [ ] `lib/help/debug.txt:176` [line] ~~~~~38
+- [ ] `lib/help/debug.txt:177` [line] [[[[[GChange the feature of the map (S)]
+- [ ] `lib/help/debug.txt:178` [line]         This allows you to change the "special" field of the current
+- [ ] `lib/help/debug.txt:179` [line]         grid. This special field is used to store things like quest
+- [ ] `lib/help/debug.txt:180` [line]         ids, dungeon entries, and so on, not to be used unless
+- [ ] `lib/help/debug.txt:181` [line]         one knows what it's doing.
+- [ ] `lib/help/debug.txt:182` [line] ~~~~~39
+- [ ] `lib/help/debug.txt:183` [line] [[[[[GTeleport (t)]
+- [ ] `lib/help/debug.txt:184` [line]         Like a Scroll of Teleport.
+- [ ] `lib/help/debug.txt:185` [line] ~~~~~40
+- [ ] `lib/help/debug.txt:186` [line] [[[[[GTeleport to a town (T)]
+- [ ] `lib/help/debug.txt:187` [line]         Teleports you to a specific town.
+- [ ] `lib/help/debug.txt:188` [line]         Use the "Command count", aka 0, to specify a number from
+- [ ] `lib/help/debug.txt:189` [line]         wf_info.txt for where you want to go.
+- [ ] `lib/help/debug.txt:190` [line]         standing.
+- [ ] `lib/help/debug.txt:191` [line]         For example : 02^AT will teleport you to Gondolin
+- [ ] `lib/help/debug.txt:192` [line] ~~~~~41
+- [ ] `lib/help/debug.txt:193` [line] [[[[[GComplete map (u)]
+- [ ] `lib/help/debug.txt:194` [line]         Displays the complete map of the dungeon.
+- [ ] `lib/help/debug.txt:195` [line] ~~~~~42
+- [ ] `lib/help/debug.txt:196` [line] [[[[[GBecome undead (U)]
+- [ ] `lib/help/debug.txt:197` [line]         This is supposed to make you undead (as in the Necromantic power).
+- [ ] `lib/help/debug.txt:198` [line] ~~~~~43
+- [ ] `lib/help/debug.txt:199` [line] [[[[[GRandom artifact/ego item (v)]
+- [ ] `lib/help/debug.txt:200` [line]         Create a random artifact/ego item where you stand.
+- [ ] `lib/help/debug.txt:201` [line] ~~~~~45
+- [ ] `lib/help/debug.txt:202` [line] [[[[[GWizard light the level (w)]
+- [ ] `lib/help/debug.txt:203` [line]         Looks like the same as u.
+- [ ] `lib/help/debug.txt:204` [line] ~~~~~46
+- [ ] `lib/help/debug.txt:205` [line] [[[[[GWish (W)]
+- [ ] `lib/help/debug.txt:206` [line]         Makes all your wishes come true.
+- [ ] `lib/help/debug.txt:208` [line]         Read the *****wishing.txt*0[wishing spoiler] to see how these work.
+- [ ] `lib/help/debug.txt:209` [line] ~~~~~47
+- [ ] `lib/help/debug.txt:210` [line] [[[[[GXP boost (x)]
+- [ ] `lib/help/debug.txt:211` [line]         Use the "Command count", aka 0, to specify the increment,
+- [ ] `lib/help/debug.txt:212` [line]         if you do not specify a parameter it doubles your XP,
+- [ ] `lib/help/debug.txt:213` [line]         otherwise it increments by the specified amount.
+- [ ] `lib/help/debug.txt:214` [line] ~~~~~51
+- [ ] `lib/help/debug.txt:215` [line] [[[[[GZap monsters (z)]
+- [ ] `lib/help/debug.txt:216` [line]         All monsters in sight range vanish like Mass Genocide, only with no
+- [ ] `lib/help/debug.txt:217` [line]         HP price.
+- [ ] `lib/help/debug.txt:218` [line] ~~~~~55
+- [ ] `lib/help/debug.txt:219` [line] [[[[[GIncrement monster level (@)]
+- [ ] `lib/help/debug.txt:220` [line]         Level up a monster.
+- [ ] `lib/help/debug.txt:221` [line] ~~~~~61
+- [ ] `lib/help/debug.txt:222` [line] [[[[[GLose special powers (*)]
+- [ ] `lib/help/debug.txt:223` [line]         Returns your powers to a normal level.
+- [ ] `lib/help/debug.txt:224` [line] ~~~~~67
+- [ ] `lib/help/debug.txt:225` [line] [[[[[GCreate object (-)]
+- [ ] `lib/help/debug.txt:226` [line]         Allows you to create a new object where you stand. You must
+- [ ] `lib/help/debug.txt:227` [line]         specify an object number from k_info.txt.
+- [ ] `lib/help/debug.txt:228` [line] ~~~~~71
+- [ ] `lib/help/debug.txt:229` [line] [[[[[GGain a fate (+)]
+- [ ] `lib/help/debug.txt:230` [line]         Unearth more of your prophecy.
+- [ ] `lib/help/debug.txt:231` [line] ~~~~~73
+- [ ] `lib/help/debug.txt:232` [line] [[[[[GAlign monster (=)]
+- [ ] `lib/help/debug.txt:233` [line]         Use the "Command count", aka 0, to specify one of the following
+- [ ] `lib/help/debug.txt:234` [line]         alignment types:
+- [ ] `lib/help/debug.txt:235` [line]             0 monster becomes enemy
+- [ ] `lib/help/debug.txt:236` [line]             1 monster becomes neutral
+- [ ] `lib/help/debug.txt:237` [line]             2 monster becomes friendly
+- [ ] `lib/help/debug.txt:238` [line]             3 monster becomes pet
+- [ ] `lib/help/debug.txt:239` [line]             4 monster becomes companion
+- [ ] `lib/help/debug.txt:240` [line]         You then point at an enemy and press space.
+- [ ] `lib/help/debug.txt:241` [line] ~~~~~91
+- [ ] `lib/help/debug.txt:242` [line] [[[[[GSummon monster (/)]
+- [ ] `lib/help/debug.txt:243` [line]         Summons a random monster next to you.
+- [ ] `lib/help/debug.txt:244` [line] ~~~~~91
+- [ ] `lib/help/debug.txt:245` [line] [[[[[GHelp (?)]
+- [ ] `lib/help/debug.txt:246` [line]         Displays the main help file.

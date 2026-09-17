@@ -1,0 +1,368 @@
+# Method inventory: 01-commands
+
+## cmd1.cc (30 defs)
+
+- [x] `cmd1.cc:64` **test_hit_fire**(int chance, int ac, int vis) — Determine if the player "hits" a monster (normal combat). Note -- Always miss 5%, always hit 5%, otherwise random. — synced from report
+- [x] `cmd1.cc:98` **test_hit_norm**(int chance, int ac, int vis) — Determine if the player "hits" a monster (normal combat). Note -- Always miss 5%, always hit 5%, otherwise random. — synced from report
+- [x] `cmd1.cc:131` **critical_shot**(int weight, int plus, int dam, int skill) — Critical hits (from objects thrown by player) Factor in item weight, total plusses, and player level. — synced from report
+- [x] `cmd1.cc:172` **critical_norm**(int weight, int plus, int dam, int weapon_tval, bool *done_crit) — Critical hits (by player) Factor in weapon weight, total plusses, player level. — synced from report
+- [x] `cmd1.cc:248` **tot_dam_aux**(object_type *o_ptr, int tdam, monster_type *m_ptr, s32b *special) — Extract the "total damage" from a given object hitting a given monster. Note that "flasks of oil" do NOT do fire damage, although they certainly could be made to do so. XXX XXX Note that most brands a — synced from report
+- [x] `cmd1.cc:453` **carry**(int pickup) — Player "wants" to pick up an object or gold. Note that we ONLY handle things that can be picked up. See "move_player()" for handling of other things. — synced from report
+- [x] `cmd1.cc:462` **touch_zap_player**(monster_type *m_ptr) — synced from report
+- [x] `cmd1.cc:517` **carried_monster_attack**(s16b m_idx, int x, int y) — Carried monster can attack too. Based on monst_attack_monst. — synced from report
+- [x] `cmd1.cc:1012` **incarnate_monster_attack**(s16b m_idx, int x, int y) — Carried monster can attack too. Based on monst_attack_monst. — synced from report
+- [x] `cmd1.cc:1503` **flavored_attack**(int percent, char *output) — Fetch an attack description from dam_ .txt files. — synced from report
+- [x] `cmd1.cc:1551` **attack_special**(monster_type *m_ptr, s32b special, int dam) — Apply the special effects of an attack — synced from report
+- [x] `cmd1.cc:1621` **py_attack_hand**(int *k, monster_type *m_ptr, s32b *special) — Bare handed attacks — synced from report
+- [x] `cmd1.cc:1779` **do_nazgul**(int *k, int *num, int num_blow, int weap, std::shared_ptr<monster_race> r_ptr, object_type *o_ptr) — Apply nazgul effects — synced from report
+- [x] `cmd1.cc:1875` **py_attack**(int y, int x, int max_blow) — Player attacks a (poor, defenseless) creature -RAK- If no "weapon" is available, then "punch" the monster one time. — synced from report
+- [x] `cmd1.cc:2442` **player_can_enter**(byte feature) — synced from report
+- [x] `cmd1.cc:2538` **easy_open_door**(int y, int x) — easy_open_door -- If there is a jammed/closed/locked door at the given location, then attempt to unlock/open it. Return true if an attempt was made (successful or not), otherwise return false. The cod — synced from report
+- [x] `cmd1.cc:2639` **move_player_aux**(int dir, int do_pickup, int run) — Move player in the given direction, with the given "pickup" flag. This routine should (probably) always induce energy expenditure. Note that moving will always take a turn, and will always hit any mon — synced from report
+- [x] `cmd1.cc:3083` **move_player**(int dir, int do_pickup) — synced from report
+- [x] `cmd1.cc:3092` **see_obstacle_grid**(cave_type *c_ptr) — Hack -- Grid-based version of see_obstacle — synced from report
+- [x] `cmd1.cc:3130` **see_obstacle**(int dir, int y, int x) — Hack -- Check for a "known wall" or "dangerous" feature (see below) — synced from report
+- [x] `cmd1.cc:3147` **see_nothing**(int dir, int y, int x) — Hack -- Check for an "unknown corner" (see below) — synced from report
+- [x] `cmd1.cc:3351` **run_init**(int dir) — Initialize the running algorithm for a new direction. Diagonal Corridor -- allow diaginal entry into corridors. Blunt Corridor -- If there is a wall two spaces ahead and we seem to be in a corridor, t — synced from report
+- [x] `cmd1.cc:3445` **run_test**() — Update the current "run" path Return true if the running should be stopped — synced from report
+- [x] `cmd1.cc:3808` **run_step**(int dir) — Take one step along the current "run" path — synced from report
+- [x] `cmd1.cc:3863` **do_cmd_pet**() — Issue a pet command — synced from report
+- [x] `cmd1.cc:4278` **do_cmd_integrate_body**() — Incarnate into a body — synced from report
+- [x] `cmd1.cc:4321` **do_cmd_leave_body**(bool drop_body) — Leave a body — synced from report
+- [x] `cmd1.cc:4381` **execute_inscription**(byte i, byte y, byte x)
+- [x] `cmd1.cc:4535` **do_cmd_engrave**() — Choose an inscription and engrave it
+- [x] `cmd1.cc:4580` **do_spin**() — Let's do a spinning around attack: -- DG -- aDb y@k ooT Ah ... all of those will get hit. — synced from report
+
+## cmd2.cc (47 defs)
+
+- [x] `cmd2.cc:66` **do_cmd_immovable_special**() — synced from report
+- [x] `cmd2.cc:71` **do_cmd_bash_altar**(int y, int x) — Try to bash an altar — synced from report
+- [x] `cmd2.cc:81` **do_cmd_bash_fountain**(int y, int x) — Try to bash a fountain — synced from report
+- [x] `cmd2.cc:133` **stair_hooks**(stairs_direction direction) — Stair hooks — synced from report
+- [x] `cmd2.cc:145` **ask_leave**() — Ask for confirmation before leaving level; based on whether the 'confirm_stairs' option is set. — synced from report
+- [x] `cmd2.cc:168` **do_cmd_go_up**() — Go up one level — synced from report
+- [~] `cmd2.cc:321` **between_effect**() — Returns true if we are in the Between... — n/a per report — synced from report
+- [x] `cmd2.cc:365` **do_cmd_go_down**() — Go down one level — synced from report
+- [x] `cmd2.cc:566` **is_open**(cave_type *c_ptr) — Return true if the given grid is an open door
+- [x] `cmd2.cc:575` **is_closed**(cave_type *c_ptr) — Return true if the given grid is a closed door
+- [x] `cmd2.cc:589` **count_feats**(int *y, int *x, bool (*test) — Return the number of doors/traps around (or under) the character using the filter function 'test' — synced from report
+- [x] `cmd2.cc:638` **coords_to_dir**(int y, int x) — Convert an adjacent location to a direction. — synced from report
+- [x] `cmd2.cc:668` **do_cmd_open_aux**(int y, int x) — Perform the basic "open" command on doors Assume destination is a closed/locked/jammed door Assume there is no monster blocking the destination Returns true if repeated commands may continue — synced from report
+- [~] `cmd2.cc:768` **allow_repeat_command**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd2.cc:791` **do_cmd_open**() — Open a closed/locked/jammed door or a closed/locked chest. Unlocking a locked door/chest is worth one experience point. — synced from report
+- [x] `cmd2.cc:890` **do_cmd_close_aux**(int y, int x) — Perform the basic "close" command Assume destination is an open/broken door Assume there is no monster blocking the destination Returns true if repeated commands may continue — synced from report
+- [x] `cmd2.cc:939` **do_cmd_close**() — Close an open door. — synced from report
+- [x] `cmd2.cc:1021` **do_cmd_tunnel_test**(int y, int x) — Determine if a given grid may be "tunneled" — synced from report
+- [x] `cmd2.cc:1070` **twall**(int y, int x, byte feat) — Tunnel through wall. Assumes valid location. Note that it is impossible to "extend" rooms past their outer walls (which are actually part of the room). This will, however, produce grids which are NOT  — synced from report
+- [x] `cmd2.cc:1103` **do_cmd_tunnel_aux**(int y, int x) — Perform the basic "tunnel" command Assumes that the destination is a wall, a vein, a secret door, or rubble. Assumes that no monster is blocking the destination Returns true if repeated commands may c — synced from report
+- [x] `cmd2.cc:1380` **do_cmd_tunnel**() — Tunnels through "walls" (including rubble and closed doors) Note that you must tunnel in order to hit invisible monsters in walls, though moving into walls still takes a turn anyway. Digging is very d — synced from report
+- [x] `cmd2.cc:1445` **do_cmd_bash_aux**(int y, int x, int dir) — Perform the basic "bash" command Assume destination is a closed/locked/jammed door Assume there is no monster blocking the destination Returns true if repeated commands may continue — synced from report
+- [x] `cmd2.cc:1552` **do_cmd_bash**() — Bash open a door, success based on character strength For a closed door, pval is positive if locked; negative if stuck. For an open door, pval is positive for a broken door. A closed door can be opene — synced from report
+- [x] `cmd2.cc:1641` **do_cmd_alter**() — Manipulate an adjacent grid in some way Attack monsters, tunnel through walls, disarm traps, open doors. Consider confusion XXX XXX XXX This command must always take a turn, to prevent free detection  — synced from report
+- [x] `cmd2.cc:1708` **get_spike**(int *ip) — Find the index of some "spikes", if possible. XXX XXX XXX Let user choose a pile of spikes, perhaps?
+- [x] `cmd2.cc:1745` **do_cmd_spike**() — Jam a closed door with a spike This command may NOT be repeated — synced from report
+- [x] `cmd2.cc:1812` **do_cmd_walk_jump**(int pickup) — synced from report
+- [x] `cmd2.cc:1868` **do_cmd_unwalk**() — Try to ``walk'' using phase door. — synced from report
+- [x] `cmd2.cc:2029` **do_cmd_walk**(int pickup) — Support code for the "Walk" and "Jump" commands — synced from report
+- [x] `cmd2.cc:2044` **do_cmd_run_run**() — synced from report
+- [x] `cmd2.cc:2072` **do_cmd_run**() — Start running. — synced from report
+- [x] `cmd2.cc:2090` **do_cmd_stay**(int pickup) — Stay still. Search. Enter stores. Pick up treasure if "pickup" is true. — synced from report
+- [x] `cmd2.cc:2119` **do_cmd_rest**() — Resting allows a player to safely restore his hp -RAK- — synced from report
+- [x] `cmd2.cc:2218` **breakage_chance**(object_type *o_ptr) — Determines the odds of an object breaking when thrown at a monster Note that artifacts never break, see the "drop_near()" function. — synced from report
+- [x] `cmd2.cc:2274` **get_shooter_mult**(object_type *o_ptr) — Return multiplier of an object
+- [x] `cmd2.cc:2349` **do_cmd_fire**() — Fire an object from the pack or floor. You may only fire items that "match" your missile launcher. You must use slings + pebbles/shots, bows + arrows, xbows + bolts. See "calc_bonuses()" for more calc — synced from report
+- [x] `cmd2.cc:2780` **do_cmd_throw**() — Throw an object from the pack or floor. Note: "unseen" monsters are very hard to hit. Should throwing a weapon do full damage? Should it allow the magic to hit bonus of the weapon to have an effect? S — synced from report
+- [x] `cmd2.cc:3154` **do_cmd_boomerang**() — Throw a boomerang object from the equipement(bow). Note: "unseen" monsters are very hard to hit. Should throwing a weapon do full damage? Should it allow the magic to hit bonus of the weapon to have a — synced from report
+- [x] `cmd2.cc:3476` **tport_vertically**(bool how) — synced from report
+- [x] `cmd2.cc:3528` **do_cmd_immovable_special**() — Do a special ``movement'' action. Meant to be used for ``immovable'' characters. — synced from report
+- [x] `cmd2.cc:3698` **item_tester_hook_sacrificable**(object_type const *o_ptr) — Can we sacrifice it ? — synced from report
+- [x] `cmd2.cc:3720` **item_tester_hook_sacrifice_aule**(object_type const *o_ptr) — [x] bevy/src/item.rs item_tester_hook_sacrifice_aule（found==OBJ_FOUND_SELFMADE）；测试 aule_accepts_only_selfmade_items
+- [x] `cmd2.cc:3729` **do_cmd_sacrifice_aule**() — [x] bevy/src/input.rs do_cmd_sacrifice 的 Aule 分支（价值/10 加恩宠并销毁物品；cmd2.cc:3729）
+- [x] `cmd2.cc:3758` **do_cmd_sacrifice**() — Handle sacrifices. Grace is increased by value of sacrifice. — synced from report
+- [x] `cmd2.cc:3979` **do_cmd_steal**() — Steal an object from a monster — synced from report
+- [x] `cmd2.cc:4164` **do_cmd_give**() — Give an item to a monster — synced from report
+- [x] `cmd2.cc:4209` **do_cmd_chat**() — Chat with a monster — synced from report
+
+## cmd3.cc (28 defs)
+
+- [x] `cmd3.cc:55` **do_cmd_inven**() — Display p_ptr->inventory — synced from report
+- [x] `cmd3.cc:107` **do_cmd_equip**() — Display equipment
+- [x] `cmd3.cc:160` **item_tester_hook_wear**(object_type const *o_ptr) — The "wearable" tester
+- [x] `cmd3.cc:194` **is_slot_ok**(int slot)
+- [x] `cmd3.cc:203` **do_cmd_wield**() — Wield or wear a single item from the pack or floor
+- [x] `cmd3.cc:445` **do_cmd_takeoff**() — Take off an item
+- [x] `cmd3.cc:487` **do_cmd_drop**() — Drop an item — synced from report
+- [x] `cmd3.cc:553` **do_cmd_destroy**() — Destroy an item — synced from report
+- [x] `cmd3.cc:666` **do_cmd_observe**() — Observe an item which has been identify -ed
+- [x] `cmd3.cc:698` **do_cmd_uninscribe**() — Remove the inscription from an object XXX Mention item (when done)?
+- [x] `cmd3.cc:737` **do_cmd_inscribe**() — Inscribe an object with a comment
+- [x] `cmd3.cc:798` **do_cmd_refill_lamp**() — Refill the players lamp (from the pack or floor) — synced from report
+- [x] `cmd3.cc:861` **do_cmd_refill_torch**() — Refuel the players torch (from the pack or floor) — synced from report
+- [x] `cmd3.cc:913` **do_cmd_refill**() — Refill the players lamp, or restock his torches — synced from report
+- [x] `cmd3.cc:956` **do_cmd_target**() — Target command
+- [x] `cmd3.cc:976` **do_cmd_look**() — Look command
+- [~] `cmd3.cc:990` **do_cmd_locate**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd3.cc:1201` **compare_monster_experience**(int w1, int w2) — Sort by monster experience. — synced from report
+- [x] `cmd3.cc:1220` **compare_monster_level**(int w1, int w2) — Sort by monster level. — synced from report
+- [x] `cmd3.cc:1239` **compare_player_kills**(int w1, int w2) — Sort by player kills — synced from report
+- [x] `cmd3.cc:1259` **roff_top**(int r_idx) — Hack -- Display the "name" and "attr/chars" of a monster race — synced from report
+- [x] `cmd3.cc:1319` **do_cmd_query_symbol**() — Identify a character, allow recall of monsters Several "special" responses recall "multiple" monsters: ^A (all monsters) ^U (all unique monsters) ^N (all non-unique monsters) ^M (case insensitive name — synced from report
+- [x] `cmd3.cc:1551` **do_cmd_sense_grid_mana**() — Try to "sense" the grid's mana
+- [~] `cmd3.cc:1601` **cli_add**(const char *active, const char *trigger, const char *descr) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `cmd3.cc:1682` **get_string_cli**(const char *prompt, char *buf, int len) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `cmd3.cc:1715` **do_cmd_cli**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `cmd3.cc:1746` **do_cmd_cli_help**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `cmd3.cc:1780` **do_cmd_html_dump**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+
+## cmd4.cc (47 defs)
+
+- [~] `cmd4.cc:67` **do_cmd_redraw**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:127` **do_cmd_change_name**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:242` **do_cmd_message_one**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [x] `cmd4.cc:273` **do_cmd_messages**() — Show previous messages to the user -BEN- The screen format uses line 0 and (Term->hgt - 1) for headers and prompts, skips line 1 and (Term->hgt - 2), and uses line 2 thru (Term->hgt - 3) for old messa
+- [~] `cmd4.cc:488` **interact_with_options**(std::vector<option_type> const &options, char const *info, interaction_mode_t interaction_mode) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:610` **do_cmd_options_cheat**(const char *info) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:628` **toggle_frequency**(s16b current) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:647` **do_cmd_options_autosave**(const char *info) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:776` **do_cmd_options_aux**(int page, const char *info, bool read_only) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:801` **do_cmd_options_win**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:952` **option_dump**(const char *fname) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1050` **do_cmd_pref_file_hack**(int row) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1087` **do_cmd_options**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1363` **do_cmd_pref**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1382` **macro_dump**(const char *fname) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1448` **do_cmd_macro_aux**(char *buf, bool macro_screen) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1500` **do_cmd_macro_aux_keymap**(char *buf) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1529` **keymap_dump**(const char *fname) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1604` **do_cmd_macros**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:1965` **do_cmd_visuals**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:2390` **do_cmd_colors**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [x] `cmd4.cc:2602` **do_cmd_note**() — Take notes. There are two ways this can happen, either in the message recall or a file. — synced from report
+- [~] `cmd4.cc:2623` **do_cmd_version**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [x] `cmd4.cc:2657` **do_cmd_feeling**() — Note that "feeling" is set to zero unless some time has passed. Note that this is done when the level is GENERATED, not entered.
+- [~] `cmd4.cc:2723` **do_cmd_load_screen**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:2841` **do_cmd_save_screen**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [x] `cmd4.cc:2935` **do_cmd_knowledge_artifacts**() — Check the status of "artifacts"
+- [x] `cmd4.cc:3151` **monster_get_race_level**(int r_idx) — synced from report
+- [x] `cmd4.cc:3166` **do_cmd_knowledge_uniques**() — Display known uniques — synced from report
+- [x] `cmd4.cc:3240` **plural_aux**(char *name) — synced from report
+- [x] `cmd4.cc:3332` **do_cmd_knowledge_pets**() — Display current pets
+- [x] `cmd4.cc:3394` **do_cmd_knowledge_kill_count**() — Total kill count
+- [x] `cmd4.cc:3497` **do_cmd_knowledge_dungeons**() — List recall depths
+- [x] `cmd4.cc:3526` **do_cmd_knowledge_towns**() — List known towns — synced from report
+- [x] `cmd4.cc:3564` **do_cmd_knowledge_corruptions**() — List corruptions
+- [x] `cmd4.cc:3573` **do_cmd_knowledge_quests**() — Print quest status of all active quests — synced from report
+- [x] `cmd4.cc:3631` **do_cmd_knowledge_fates**() — Print fate status
+- [x] `cmd4.cc:3640` **do_cmd_knowledge_notes**() — Print the note file — synced from report
+- [x] `cmd4.cc:3650` **do_cmd_knowledge**() — Interact with "knowledge" — synced from report
+- [x] `cmd4.cc:3791` **do_cmd_checkquest**() — Check on the status of an active quest -KMW- TODO: Spill out status when not a simple kill # monster. — synced from report
+- [x] `cmd4.cc:3807` **do_cmd_change_tactic**(int i) — Change player's "tactic" setting — synced from report
+- [x] `cmd4.cc:3822` **do_cmd_change_movement**(int i) — Change player's "movement" setting — synced from report
+- [x] `cmd4.cc:3837` **do_cmd_time**() — Display the time and date — synced from report
+- [~] `cmd4.cc:3951` **macro_recorder_start**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:3958` **macro_recorder_add**(char c) — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:3967` **macro_recorder_stop**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+- [~] `cmd4.cc:4002` **do_cmd_macro_recorder**() — [~] cmd4.cc 选项/宏/键映射/视觉/颜色编辑器与屏幕转储（UI 立项）：port 无偏好界面（Options 资源载游戏开关），消息历史/版本在 modal.rs/zutil.rs，渲染由 Bevy 承担；accept.py cmd4-ui 类机械复核
+
+## cmd5.cc (19 defs)
+
+- [x] `cmd5.cc:94` **is_magestaff**() — Are we using a mage staff
+- [~] `cmd5.cc:123` **print_book**(s16b sval, s32b spell_idx, object_type *obj) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd5.cc:156` **browse_school_spell**(int book, int spell_idx, object_type *o_ptr)
+- [x] `cmd5.cc:227` **do_cmd_browse_aux**(object_type *o_ptr) — Peruse the spells/prayers in a book Note that all spells in the book are listed Note that browsing is allowed while confused or blind, and in the dark, primarily to allow browsing in stores.
+- [x] `cmd5.cc:241` **do_cmd_browse**()
+- [x] `cmd5.cc:260` **do_poly_wounds**()
+- [x] `cmd5.cc:288` **do_poly_self**()
+- [x] `cmd5.cc:452` **fetch**(int dir, int wgt, bool require_los) — Fetch an item (teleport it right underneath the caster) — synced from report
+- [x] `cmd5.cc:542` **symbiote_name**(bool capitalize) — Return the symbiote's name or description.
+- [x] `cmd5.cc:635` **calc_monster_spell_mana**(monster_power const *mp_ptr) — Calculate mana required for a given monster power.
+- [x] `cmd5.cc:815` **apply_monster_power**(monster_race const *r_ptr, std::size_t monster_spell_idx) — Apply the effect of a monster power — synced from report
+- [x] `cmd5.cc:1741` **use_monster_power_aux**(monster_race const *r_ptr, bool great, bool symbiosis, std::function<void(monster_power const *power) — Use a monster power and call the given callback.
+- [x] `cmd5.cc:1775` **use_symbiotic_power**(int r_idx, bool great) — Use a power of the monster in symbiosis
+- [x] `cmd5.cc:1788` **use_monster_power**(int r_idx, bool great) — Use a power of a possessed body.
+- [x] `cmd5.cc:1869` **is_ok_spell**(s32b spell_idx, s32b pval) — Is the spell castable? — synced from report
+- [x] `cmd5.cc:1896` **get_school_spell**(const char *do_what, s16b force_book) — Get a spell from a book
+- [x] `cmd5.cc:2083` **cast_school_spell**() — synced from report
+- [x] `cmd5.cc:2111` **hook_school_can_spellable**(object_type const *o_ptr) — Can it contains a schooled spell ?
+- [x] `cmd5.cc:2121` **do_cmd_copy_spell**() — Copy a spell from a bok to an object
+
+## cmd6.cc (30 defs)
+
+- [~] `cmd6.cc:66` **select_object_by_name**(std::string const &prompt) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd6.cc:149` **corpse_effect**(object_type *o_ptr, bool cutting) — Determine the effects of eating a corpse. A corpse can be eaten whole or cut into pieces for later.
+- [x] `cmd6.cc:977` **do_cmd_eat_food**() — Eat some food (from the pack or floor)
+- [x] `cmd6.cc:1465` **do_cmd_cut_corpse**() — Cut a corpse up for convenient storage
+- [x] `cmd6.cc:1566` **do_cmd_cure_meat**() — Use a potion to cure some meat Salt water works well.
+- [x] `cmd6.cc:1703` **quaff_potion**(int tval, int sval, int pval2) — synced from report
+- [x] `cmd6.cc:2294` **do_cmd_quaff_potion**() — Quaff a potion (from the pack or the floor)
+- [x] `cmd6.cc:2342` **do_cmd_fill_bottle**() — Fill an empty bottle
+- [x] `cmd6.cc:2420` **do_cmd_drink_fountain**() — Drink from a fountain
+- [x] `cmd6.cc:2491` **curse_armor**() — Curse the players armor — synced from report
+- [x] `cmd6.cc:2546` **curse_weapon**() — Curse the players weapon — synced from report
+- [x] `cmd6.cc:2619` **do_cmd_read_scroll**() — Read a scroll (from the pack or floor). Certain scrolls can be "aborted" without losing the scroll. These include scrolls with no effects but recharge or identify, which are cancelled before use. XXX  — synced from report
+- [x] `cmd6.cc:3245` **set_stick_mode**(object_type *o_ptr) — Set the 'stick mode' on
+- [x] `cmd6.cc:3257` **unset_stick_mode**() — Remove 'stick mode'
+- [x] `cmd6.cc:3270` **activate_stick**(object_type *o_ptr, bool *use_charge) — Activate a device
+- [x] `cmd6.cc:3301` **do_cmd_use_staff**() — Use a staff. -RAK- One charge of one staff disappears. Hack -- staffs of identify can be "cancelled".
+- [x] `cmd6.cc:3462` **do_cmd_aim_wand**() — Aim a wand (from the pack or floor). Use a single charge from a single item. Handle "unstacking" in a logical manner. For simplicity, you cannot use a stack of items from the ground. This would requir
+- [x] `cmd6.cc:3600` **item_tester_hook_attachable**(object_type const *o_ptr) — Hook to determine if an object is attachable
+- [x] `cmd6.cc:3610` **zap_combine_rod_tip**(object_type *q_ptr, int tip_item) — Combine a rod and a rod tip
+- [x] `cmd6.cc:3664` **do_cmd_zap_rod**() — Zap a rod, or attack a rod tip to a rod
+- [x] `cmd6.cc:4046` **ring_of_power**() — Hack -- activate the ring of power
+- [x] `cmd6.cc:4139` **brand_bolts**() — Enchant some bolts
+- [x] `cmd6.cc:4192` **get_eternal_artifact_idx**(object_type const *o_ptr) — Eternal flame activation
+- [x] `cmd6.cc:4229` **eternal_flame_item_tester_hook**(object_type const *o_ptr)
+- [x] `cmd6.cc:4240` **activate_eternal_flame**(int flame_item)
+- [x] `cmd6.cc:4276` **activate_maggot**() — Farmer Maggot's sling activation. — synced from report
+- [~] `cmd6.cc:4292` **activate_radagast**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `cmd6.cc:4328` **activate_valaroma**() — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd6.cc:4345` **do_cmd_activate**() — Objects in the p_ptr->inventory can now be activated, and SOME of those may be able to stack (ego wands or something) in any case, we can't know that it's impossible. BUT we'll ignore it for now, and  — synced from report
+- [x] `cmd6.cc:4505` **activation_aux**(object_type * o_ptr, bool doit, int item) — synced from report
+
+## cmd7.cc (35 defs)
+
+- [x] `cmd7.cc:52` **mindcraft_info**(char *p, int power) — Describe class powers of Mindcrafters 'p' points to a 80 byte long buffer [audit: spell info/help-text callback (UI 单独立项)]
+- [x] `cmd7.cc:113` **mimic_info**(char *p, int power) — Describe class powers of Mimics 'p' points to a 80 byte long buffer [audit: spell info/help-text callback (UI 单独立项)]
+- [~] `cmd7.cc:149` **display_magic_powers**(magic_power *powers, int max_powers, void (*power_info) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd7.cc:228` **get_magic_power**(int *sn, magic_power *powers, int max_powers, void (*power_info) — Allow user to choose a magic power. If a valid spell is chosen, saves it in ' sn' and returns true If the user hits escape, returns false, and set ' sn' to -1 If there are no legal choices, returns fa
+- [x] `cmd7.cc:352` **do_cmd_mindcraft**() — do_cmd_cast calls this function if the player's class is 'mindcrafter'.
+- [x] `cmd7.cc:747` **get_mimic_chance**(int mimic)
+- [x] `cmd7.cc:762` **do_cmd_mimic_lore**()
+- [x] `cmd7.cc:837` **mimic_forbid_travel**(void *, void *, void *)
+- [x] `cmd7.cc:855` **do_cmd_mimic**() — do_cmd_cast calls this function if the player's class is 'mimic'.
+- [x] `cmd7.cc:1151` **do_cmd_beastmaster**() — do_cmd_cast calls this function if the player's class is 'beastmaster'.
+- [x] `cmd7.cc:1193` **do_cmd_pray**() — Command to ask favors from your god.
+- [x] `cmd7.cc:1221` **spell_chance_random**(random_spell const *rspell) — Return percentage chance of spell failure.
+- [~] `cmd7.cc:1254` **print_spell_batch**(int batch, int max) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `cmd7.cc:1293` **select_spell_from_batch**(std::size_t batch) — List ten random spells and ask to pick one.
+- [x] `cmd7.cc:1373` **select_spell**() — Pick a random spell from a menu
+- [x] `cmd7.cc:1447` **do_cmd_powermage**()
+- [x] `cmd7.cc:1596` **brand_ammo**(int brand_type, int bolts_only) — Brand some ammunition. Used by Cubragol and a mage spell. The spell was moved here from cmd6.c where it used to be for Cubragol only. I've also expanded it to do either frost, fire or venom, at random
+- [x] `cmd7.cc:1680` **summon_monster**(int sumtype) — From Kamband by Ivan Tkatchev — synced from report
+- [x] `cmd7.cc:1700` **do_cmd_possessor**() — Use a class power of Possessor — synced from report
+- [x] `cmd7.cc:1795` **do_cmd_archer**() — do_cmd_cast calls this function if the player's class is 'archer'.
+- [x] `cmd7.cc:1967` **do_cmd_set_piercing**() — Control whether shots are allowed to pierce
+- [x] `cmd7.cc:2004` **necro_info**(char *p, int power) — Helper function to describe necro powers [audit: spell info/help-text callback (UI 单独立项)]
+- [x] `cmd7.cc:2037` **do_cmd_necromancer**() — Cast a Necromancy spell — synced from report
+- [x] `cmd7.cc:2335` **sroot**(s32b n) — math.h(sqrt) is banned of angband so ... :) — synced from report
+- [x] `cmd7.cc:2354` **do_cmd_unbeliever_antimagic**()
+- [x] `cmd7.cc:2382` **do_cmd_unbeliever**() — Detect traps + kill traps
+- [x] `cmd7.cc:2454` **do_cmd_summoner_extract**() — Summoners
+- [x] `cmd7.cc:2525` **summon_true**(int r_idx, int item)
+- [x] `cmd7.cc:2626` **do_cmd_summoner_summon**()
+- [x] `cmd7.cc:2694` **do_cmd_summoner**()
+- [x] `cmd7.cc:2768` **use_ability_blade**() — Dodge Chance Feedback.
+- [x] `cmd7.cc:2807` **symbiotic_info**(char *p, int power) — Helper function to describe symbiotic powers [audit: spell info/help-text callback (UI 单独立项)]
+- [x] `cmd7.cc:2832` **do_cmd_symbiotic**() — Cast a symbiotic spell
+- [x] `cmd7.cc:3209` **do_cmd_create_boulder**() — Boulder creation .. sorry :)
+- [x] `cmd7.cc:3254` **clamp_failure_chance**(int chance, int minfail) — Clamp failure chance — synced from report
+
+## bldg.cc (18 defs)
+
+- [x] `bldg.cc:58` **is_state_aux**(store_type const *s_ptr, int state) — A helper function for is_state
+- [x] `bldg.cc:84` **is_state**(store_type const *s_ptr, int state) — Test if the state accords with the player
+- [~] `bldg.cc:103` **clear_bldg**(int min_row, int max_row) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `bldg.cc:118` **show_building**(store_type const *s_ptr) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [~] `bldg.cc:214` **display_fruit**(int row, int col, int fruit) — [~] CLI/帮助截屏/地图查看/书与力量批量屏/建筑屏/重复编辑/Theme 神器激活（UI/Theme 立项）；accept.py misc-ui 类机械复核
+- [x] `bldg.cc:314` **gamble_comm**(int cmd) — gamble_comm
+- [x] `bldg.cc:538` **inn_comm**(int cmd) — inn commands Note that resting for the night was a perfect way to avoid player ghosts in the town if you could only make it to the inn in time (-: Now that the ghosts are temporarily disabled in 2.8.X — synced from report
+- [x] `bldg.cc:651` **get_questinfo**(int questnum) — Display quest information — synced from report
+- [x] `bldg.cc:673` **castle_quest**(int y, int x) — Request a quest from the Lord. — synced from report
+- [x] `bldg.cc:752` **town_history**() — Displaying town history -KMW-
+- [x] `bldg.cc:768` **compare_weapon_aux2**(object_type *o_ptr, int numblows, int r, int c, int mult, const char *attr, byte color) — compare_weapon_aux2 -KMW-
+- [x] `bldg.cc:784` **compare_weapon_aux1**(object_type *o_ptr, int col, int r) — compare_weapon_aux1 -KMW-
+- [x] `bldg.cc:864` **list_weapon**(object_type *o_ptr, int row, int col) — list_weapon -KMW-
+- [x] `bldg.cc:892` **item_tester_hook_melee_weapon**(object_type const *o_ptr) — Select melee weapons
+- [x] `bldg.cc:900` **compare_weapons**() — compare_weapons -KMW-
+- [x] `bldg.cc:984` **fix_item**(int istart, int iend, int ispecific, bool iac) — general all-purpose fixing routine for items from building personnel sharpen arrows, repair armor, repair weapon -KMW- — synced from report
+- [x] `bldg.cc:1078` **bldg_process_command**(const store_type *s_ptr, store_action_type const *ba_ptr) — Execute a building command
+- [x] `bldg.cc:1405` **enter_quest**() — Enter quest level
+
+## store.cc (40 defs)
+
+- [~] `store.cc:98` **say_comment_1**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [~] `store.cc:116` **say_comment_4**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [x] `store.cc:173` **purchase_analyze**(s32b price, s32b value, s32b guess) — Let a shop-keeper React to a purchase We paid "price", it was worth "value", and we thought it was worth "guess" — synced from report
+- [x] `store.cc:249` **price_item**(object_type *o_ptr, int greed, bool flip) — Determine the price of an item (qty one) in a store. This function takes into account the player's charisma, and the shop-keepers friendliness, and the shop-keeper's base greed, but never lets a shop- — synced from report
+- [x] `store.cc:334` **mass_roll**(int num, int max) — Special "mass production" computation — synced from report
+- [x] `store.cc:346` **mass_produce**(object_type *o_ptr) — Certain "cheap" objects should be created in "piles" Some objects can be sold at a "discount" (in small piles) — synced from report
+- [x] `store.cc:484` **store_object_similar**(object_type const *o_ptr, object_type *j_ptr) — Determine if a store item can "absorb" another item See "object_similar()" for the same function for the "player" — synced from report
+- [x] `store.cc:551` **store_object_absorb**(object_type *o_ptr, object_type *j_ptr) — Allow a store item to absorb another item — synced from report
+- [x] `store.cc:571` **store_check_num**(object_type *o_ptr) — Check to see if the shop will be carrying too many objects -RAK- Note that the shop, just like a player, will not accept things it cannot hold. Before, one could "nuke" potions this way. — synced from report
+- [x] `store.cc:614` **is_blessed**(object_type const *o_ptr) — synced from report
+- [x] `store.cc:627` **store_will_buy**(object_type const *o_ptr) — Determine if the current store will purchase the given item Note that a shop-keeper must refuse to buy "worthless" items — synced from report
+- [x] `store.cc:847` **home_carry**(object_type *o_ptr) — Add the item "o_ptr" to the inventory of the "Home" In all cases, return the slot (or -1) where the object was placed Note that this is a hacked up version of "inven_carry()". Also note that it may no — synced from report
+- [x] `store.cc:936` **store_carry**(object_type *o_ptr) — Add the item "o_ptr" to a real stores inventory. If the item is "worthless", it is thrown away (except in the home). If the item cannot be combined with an object already in the inventory, make a new  — synced from report
+- [x] `store.cc:1021` **store_item_increase**(int item, int num) — Increase, by a given amount, the number of a certain item in a certain store. This can result in zero items. — synced from report
+- [x] `store.cc:1040` **store_item_optimize**(int item) — Remove a slot if it is empty
+- [x] `store.cc:1064` **black_market_crap**(object_type *o_ptr) — This function will keep 'crap' out of the black market. Crap is defined as any item that is "available" elsewhere Based on a suggestion by "Lee Vogt" <lvogt@cig.mcel.mot.com> — synced from report
+- [x] `store.cc:1102` **store_delete**() — Attempt to delete (some of) a random item from the store Hack -- we attempt to "maintain" piles of items when possible. — synced from report
+- [x] `store.cc:1128` **return_level**() — Analyze store flags and return a level — synced from report
+- [x] `store.cc:1156` **kind_is_storeok**(object_kind const *k_ptr) — Hack -- determine if a template is "good" — synced from report
+- [x] `store.cc:1265` **store_create**() — Creates a random item and gives it to a store This algorithm needs to be rethought. A lot. Note -- the "level" given to "obj_get_num()" is a "favored" level, that is, there is a much higher chance of  — synced from report (town.rs:679-720)
+- [~] `store.cc:1459` **display_entry**(int pos) — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [~] `store.cc:1555` **display_inventory**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [~] `store.cc:1593` **store_prt_gold**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [~] `store.cc:1607` **display_store**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [x] `store.cc:1673` **get_stock**(int *com_val, const char *pmt, int i, int j) — Get the ID of a store item and return its value -RAK- — synced from report
+- [~] `store.cc:1743` **prompt_yesno**(const char *prompt) — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [x] `store.cc:1793` **purchase_haggle**(object_type *o_ptr, s32b *price) — Haggling routine -RAK- Return true if purchase is NOT successful — synced from report
+- [x] `store.cc:1837` **sell_haggle**(object_type *o_ptr, s32b *price) — Haggling routine -RAK- Return true if purchase is NOT successful — synced from report
+- [x] `store.cc:1884` **retire_owner_p**() — Will the owner retire?
+- [~] `store.cc:1906` **adjust_store_top_item_removed**() — [~] store.cc 商店屏幕/店主台词：port 商店 UI 在 modal.rs/town.rs（haggle/库存列表）；accept.py store-ui 类机械复核
+- [x] `store.cc:1931` **store_stole**() — Stole an item from a store -DG- — synced from report
+- [x] `store.cc:2128` **store_purchase**() — Buy an item from a store -RAK- — synced from report
+- [x] `store.cc:2436` **store_sell**() — Sell an item to the store (or home) — synced from report
+- [~] `store.cc:2737` **store_examine**() — Examine an item in a store -JDL- — n/a per report — synced from report
+- [x] `store.cc:2843` **store_process_command**(s16b *command_ptr) — Process a command in a store Note that we must allow the use of a few "special" commands in the stores which are not allowed in the dungeon, and we must disable some commands which are allowed in the  — synced from report; shop-return flag + Ctrl+I/E/W/T/B/K/N/Shift+K/Ctrl+Slash commands in modal.rs (close/open_shop_sub, modal.rs:8811/8823); only the ':' note prompt is modal-unreachable.
+- [x] `store.cc:3155` **do_cmd_store**() — Enter a store, and interact with it. Note that we use the standard "request_command()" function to get a command, allowing us to use "command_arg" and all command macros and other nifty stuff, but we 
+- [x] `store.cc:3422` **store_shuffle**(int which) — Shuffle one of the stores. — synced from report
+- [x] `store.cc:3472` **store_maint**(int town_num, int store_num) — Maintain the inventory at the stores. — synced from report
+- [x] `store.cc:3565` **store_init**(int town_num, int store_num) — Initialize the stores
+- [x] `store.cc:3608` **do_cmd_home_trump**() — Enter the home, and interact with it from the dungeon (trump magic). Note that we use the standard "request_command()" function to get a command, allowing us to use "command_arg" and all command macro
+
+## help.cc (29 defs)
+
+- [~] `help.cc:313` **trigger_void_jumpgate**(void *in, void *out) — Trigger functions
+- [~] `help.cc:318` **trigger_fountain**(void *in, void *out)
+- [~] `help.cc:323` **trigger_found_object**(void *in, void *out)
+- [~] `help.cc:328` **trigger_found_altar**(void *in, void *out)
+- [~] `help.cc:334` **trigger_found_stairs**(void *in, void *out)
+- [~] `help.cc:339` **trigger_get_rod**(void *in, void *out)
+- [~] `help.cc:344` **trigger_get_rod_tip**(void *in, void *out)
+- [~] `help.cc:349` **trigger_get_magic_device**(void *in, void *out)
+- [~] `help.cc:355` **trigger_end_turn_wilderness**(void *in, void *out)
+- [~] `help.cc:361` **trigger_game_theme**(void *in, void *out)
+- [~] `help.cc:365` **trigger_game_tome**(void *in, void *out)
+- [~] `help.cc:369` **trigger_1st_level**(void *in, void *out)
+- [~] `help.cc:373` **trigger_20th_level**(void *in, void *out)
+- [~] `help.cc:377` **trigger_identify_spell_item**(void *in_, void *out)
+- [~] `help.cc:389` **trigger_melee_skills**(void *in, void *out)
+- [~] `help.cc:393` **trigger_always**(void *in, void *out)
+- [~] `help.cc:565` **triggered_help_hook**(void *data, void *in, void *out)
+- [~] `help.cc:586` **hook_game_start**(void *data, void *in, void *out)
+- [~] `help.cc:592` **setup_triggered_help_hook**(int i)
+- [~] `help.cc:609` **setup_triggered_help_hooks**()
+- [~] `help.cc:627` **init_hooks_help**() — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:635` **show_context_help**(context_help_type *context_help) — Show help file [audit: frontend display/UI helper (UI 单独立项)]
+- [~] `help.cc:652` **find_context_help**(context_help_type table[], const char *key) — Find context help
+- [~] `help.cc:675` **help_race**(std::string const &race) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:680` **help_subrace**(std::string const &subrace) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:685` **help_class**(std::string const &klass) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:690` **help_god**(const char *god) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:701` **help_skill**(const std::string &skill) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+- [~] `help.cc:706` **help_ability**(std::string const &ability) — [~] help.cc 上下文帮助（UI 立项）：port 无游戏内帮助浏览器；accept.py help-viewer 类机械复核
+
+## squeltch.cc (10 defs)
+
+- [x] `squeltch.cc:63` **squeltch_grid**() — synced from report
+- [x] `squeltch.cc:90` **squeltch_inventory**() — synced from report
+- [x] `squeltch.cc:122` **create_new_rule**() — synced from report
+- [x] `squeltch.cc:166` **automatizer_save_rules**() — synced from report
+- [x] `squeltch.cc:236` **rename_rule**(Rule *rule) — synced from report
+- [x] `squeltch.cc:249` **do_cmd_automatizer**() — synced from report
+- [x] `squeltch.cc:452` **easy_add_rule**(add_rule_mode mode, bool do_status, object_type *o_ptr) — synced from report
+- [x] `squeltch.cc:515` **automatizer_add_rule**(object_type *o_ptr) — synced from report
+- [x] `squeltch.cc:557` **automatizer_init**() — Initialize the automatizer. — synced from report
+- [x] `squeltch.cc:574` **automatizer_load**(boost::filesystem::path const &path) — Load automatizer file. Returns true iff automatizer rules were loaded successfully. — synced from report
+

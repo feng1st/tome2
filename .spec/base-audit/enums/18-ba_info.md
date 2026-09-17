@@ -1,0 +1,52 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# ba_info.txt — building actions (47)
+
+- [x] `0` **Nothing** — C:0:0:0 I:0:0:. — in RON
+- [x] `1` **Sell an item** — C:0:0:0 I:43:0:s:d — in RON
+- [x] `2` **Purchase an item** — C:0:0:0 I:44:0:p:g — in RON
+- [x] `3` **Examine an item** — C:0:0:0 I:45:0:x — in RON
+- [x] `4` **Steal an item** — C:0:0:0 I:46:0:Z — in RON
+- [x] `5` **Rest for the night** — C:25:20:15 I:17:0:r — in RON
+- [x] `6` **Buy food and drink** — C:3:2:1 I:18:0:f — in RON
+- [x] `7` **Listen for rumours** — C:0:0:0 I:19:0:u — in RON
+- [x] `8` **Presage fate** — C:600:500:480 I:42:0:l — in RON
+- [x] `9` **In-Between** — C:0:0:0 I:12:0:b — in RON
+- [x] `10` **Play craps** — C:0:0:0 I:14:0:c — in RON
+- [x] `12` **Play dice slots** — C:0:0:0 I:16:0:d — in RON
+- [x] `13` **Game rules** — C:0:0:0 I:13:0:r — in RON
+- [x] `15` **Town history** — C:0:0:0 I:2:0:h — in RON
+- [x] `16` **Race legends** — C:0:0:0 I:3:0:l — in RON
+- [x] `17` **Look at busts of Kings** — C:0:0:0 I:5:0:l — in RON
+- [x] `21` **Get quest monster** — C:0:0:0 I:54:0:q — in RON
+- [x] `22` **Turn in quest corpse** — C:0:0:0 I:55:0:m — in RON
+- [x] `23` **Compare weapons** — C:220:200:180 I:21:0:c — in RON
+- [x] `24` **Enchant weapon** — C:750:700:150 I:23:0:w — in RON
+- [x] `25` **Enchant armour** — C:750:700:150 I:24:0:a — in RON
+- [x] `26` **Recharge item** — C:350:300:75 I:25:0:r — in RON
+- [x] `28` **Healing prayer** — C:600:400:0 I:28:0:h — in RON
+- [x] `29` **Restoration** — C:600:500:100 I:29:0:r — in RON
+- [x] `30` **Get share of stolen gold** — C:0:0:0 I:7:2:g — in RON
+- [x] `31` **Enchant arrows** — C:550:500:100 I:30:0:a — in RON
+- [x] `32` **Enchant bow** — C:550:500:100 I:31:0:b — in RON
+- [x] `33` **Recall to dungeon** — C:300:200:100 I:33:0:r — in RON
+- [x] `34` **Teleport to dungeon-level** — C:15000:10000:1000 I:34:0:t — in RON
+- [x] `35` **Get a quest** — C:0:0:0 I:6:0:q — in RON
+- [x] `39` **Herbal Healing** — C:32000:10000:0 I:50:0:h — in RON
+- [x] `40` **Song of Lore** — C:2000:800:50 I:26:0:s — in RON
+- [x] `41` **Distribute earnings** — C:0:0:0 I:7:2:d — in RON
+- [x] `43` **View fate** — C:500:500:500 I:42:0:v — in RON
+- [x] `44` **Research item** — C:1500:1500:1500 I:1:0:a — in RON
+- [x] `47` **Recharge item** — C:1200:1000:150 I:25:0:r — in RON
+- [x] `48` **Restoration** — C:1200:1000:200 I:29:0:r — in RON
+- [x] `49` **Morph restoration** — C:1500:1500:1500 I:37:0:r — in RON
+- [x] `50` **Enchant arrows** — C:1100:1000:200 I:30:0:a — in RON
+- [x] `51` **Enchant bow** — C:1100:1000:200 I:31:0:b — in RON
+- [x] `52` **Enchant armour** — C:1100:1000:200 I:24:0:a — in RON
+- [x] `53` **See Healers** — C:1100:1000:0 I:28:0:h — in RON
+- [x] `54` **Drop an item** — C:0:0:0 I:43:0:d:s — in RON
+- [x] `55` **Get an item** — C:0:0:0 I:44:0:g:p — in RON
+- [x] `59` **Donate an item** — C:0:0:0 I:43:0:d — in RON
+- [x] `60` **Get a quest** — C:0:0:0 I:56:0:q — in RON
+- [x] `61` **Get a quest** — C:0:0:0 I:61:0:q — in RON

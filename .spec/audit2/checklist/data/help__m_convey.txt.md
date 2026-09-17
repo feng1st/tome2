@@ -1,0 +1,62 @@
+# 数据清单：lib/help/m_convey.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_convey.txt:1` [line] |||||oy
+- [ ] `lib/help/m_convey.txt:2` [line] ~~~~~01|Magic|Conveyance School
+- [ ] `lib/help/m_convey.txt:3` [line] ~~~~~02|Conveyance Magic
+- [ ] `lib/help/m_convey.txt:4` [line] ~~~~~03|Skills|Conveyance - Spell Info
+- [ ] `lib/help/m_convey.txt:5` [line] #####R === ToME Magic - Conveyance School ===
+- [ ] `lib/help/m_convey.txt:7` [line] The conveyance school of magic contains spells where the forces of space are
+- [ ] `lib/help/m_convey.txt:8` [line] manipulated by the spell. There are rumours of a "Tome of of Translocation"
+- [ ] `lib/help/m_convey.txt:9` [line] which contains all the conveyance school spells within its bindings.
+- [ ] `lib/help/m_convey.txt:11` [line] Worshipping the God Manwe Sulimo also gives the ability to cast spells from
+- [ ] `lib/help/m_convey.txt:12` [line] the conveyance school at a level of 1/2 of your prayer level. E.g. if the
+- [ ] `lib/help/m_convey.txt:13` [line] skill "Spirituality: Prayer" is at level 10, you can cast up to level 5
+- [ ] `lib/help/m_convey.txt:14` [line] conveyance school spells.
+- [ ] `lib/help/m_convey.txt:16` [line] #####sConveyance Spells
+- [ ] `lib/help/m_convey.txt:17` [line] There are six spells available for the conveyance school. These Spells are:
+- [ ] `lib/help/m_convey.txt:18` [line] 1. [[[[[sPhase Door] (school level 1)
+- [ ] `lib/help/m_convey.txt:19` [line]    Teleports you on a small scale range.
+- [ ] `lib/help/m_convey.txt:20` [line]    At spell level 30 it creates void jumpgates.
+- [ ] `lib/help/m_convey.txt:21` [line] 2. [[[[[sDisarm] (school level 3)
+- [ ] `lib/help/m_convey.txt:22` [line]    Destroys doors and disarms traps in adjacent tiles.
+- [ ] `lib/help/m_convey.txt:23` [line]    At spell level 10 it unlocks doors and disarms traps.
+- [ ] `lib/help/m_convey.txt:24` [line] 3. [[[[[sTeleportation] (school level 10)
+- [ ] `lib/help/m_convey.txt:25` [line]    Teleports you around the level.
+- [ ] `lib/help/m_convey.txt:26` [line]    The casting time decreases with level.
+- [ ] `lib/help/m_convey.txt:27` [line] 4. [[[[[sTeleport Away] (school level 23)
+- [ ] `lib/help/m_convey.txt:28` [line]    Teleports a line of monsters away.
+- [ ] `lib/help/m_convey.txt:29` [line]    At spell level 10 it turns into a ball.
+- [ ] `lib/help/m_convey.txt:30` [line]    At spell level 20 it teleports all monsters in sight.
+- [ ] `lib/help/m_convey.txt:31` [line] 5. [[[[[sRecall] (school level 30)
+- [ ] `lib/help/m_convey.txt:32` [line]    Cast on yourself, it will recall you to the surface/dungeon.
+- [ ] `lib/help/m_convey.txt:33` [line]    Cast at a monster, it will make you swap positions with the monster.
+- [ ] `lib/help/m_convey.txt:34` [line]    Cast at an object, it will fetch the object to you (note that you must have
+- [ ] `lib/help/m_convey.txt:35` [line]       an empty space under your feet for the object to fall onto).
+- [ ] `lib/help/m_convey.txt:36` [line] 6. [[[[[sProbability Travel] (school level 35)
+- [ ] `lib/help/m_convey.txt:37` [line]    Renders you unstable.  When you hit a wall you travel through it and
+- [ ] `lib/help/m_convey.txt:38` [line]    instantly appear on the other side of it. You can also float up and down
+- [ ] `lib/help/m_convey.txt:39` [line]    at will.
+- [ ] `lib/help/m_convey.txt:41` [line] #####GAir spells that can be cast with Conveyance skill
+- [ ] `lib/help/m_convey.txt:43` [line] 1. [[[[[BWings of Winds] (dual school level 22)
+- [ ] `lib/help/m_convey.txt:44` [line]    Grants the power of levitation.
+- [ ] `lib/help/m_convey.txt:45` [line]    At spell level 16 it grants the power of controlled flight.
+- [ ] `lib/help/m_convey.txt:46` [line] #####v   Your Air and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_convey.txt:47` [line] #####v   of 22 in order to cast this spell.
+- [ ] `lib/help/m_convey.txt:49` [line] #####GTemporal spells that can be cast with Conveyance skill
+- [ ] `lib/help/m_convey.txt:51` [line] 1. [[[[[sBanishment] (dual school level 30)
+- [ ] `lib/help/m_convey.txt:52` [line]    Disrupts the space/time continuum in your area and teleports all monsters
+- [ ] `lib/help/m_convey.txt:53` [line]       away.
+- [ ] `lib/help/m_convey.txt:54` [line]    At spell level 15 it also may lock them in a time bubble for some turns.
+- [ ] `lib/help/m_convey.txt:55` [line] #####v   Your Temporal and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_convey.txt:56` [line] #####v   of 30 in order to cast this spell.
+- [ ] `lib/help/m_convey.txt:58` [line] #####GMeta spells that can be cast with Conveyance skill
+- [ ] `lib/help/m_convey.txt:60` [line] 1. [[[[[sTracker] (dual school level 30)
+- [ ] `lib/help/m_convey.txt:61` [line]    Tracks down the last teleportation that happened on the level and teleports
+- [ ] `lib/help/m_convey.txt:62` [line]    you to it.
+- [ ] `lib/help/m_convey.txt:63` [line] #####v   Your Meta and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_convey.txt:64` [line] #####v   of 30 in order to cast this spell.
+- [ ] `lib/help/m_convey.txt:66` [line] #####GUdun spells that can be cast with Conveyance skill
+- [ ] `lib/help/m_convey.txt:68` [line] 1. [[[[[DWraithform] (dual school level 30)
+- [ ] `lib/help/m_convey.txt:69` [line]    Turns you temporarily into an immaterial being.
+- [ ] `lib/help/m_convey.txt:70` [line] #####v   Your Udun and Conveyance skills must have reached a combined average level 
+- [ ] `lib/help/m_convey.txt:71` [line] #####v   of 30 in order to cast this spell.

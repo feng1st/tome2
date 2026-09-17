@@ -1,0 +1,58 @@
+# 数据清单：lib/help/g_yavann.txt（text，逐条/逐行）
+
+- [ ] `lib/help/g_yavann.txt:1` [line] |||||oy
+- [ ] `lib/help/g_yavann.txt:2` [line] ~~~~~01|Yavanna
+- [ ] `lib/help/g_yavann.txt:3` [line] ~~~~~02|Gods|Yavanna
+- [ ] `lib/help/g_yavann.txt:4` [line] #####R === Yavanna Kementari===
+- [ ] `lib/help/g_yavann.txt:6` [line] Yavanna, the Giver of Fruits, created all plants and animals and awakened the
+- [ ] `lib/help/g_yavann.txt:7` [line] Ents to protect the forests of Arda. Kementari, Queen of the Earth, is her
+- [ ] `lib/help/g_yavann.txt:8` [line] surname. Her most faithful followers are the *****c_druid.txt*0[Druids].
+- [ ] `lib/help/g_yavann.txt:10` [line] #####GThe benefits of Worshipping Yavanna
+- [ ] `lib/help/g_yavann.txt:11` [line] 1. As you increase your piety, Yavanna will grant you the ability to pass
+- [ ] `lib/help/g_yavann.txt:12` [line]    trees while praying.
+- [ ] `lib/help/g_yavann.txt:13` [line] 2. She makes you regenerate faster while praying on grass.
+- [ ] `lib/help/g_yavann.txt:14` [line] 3. She likes it when you kill nonliving creatures, undead or demons.
+- [ ] `lib/help/g_yavann.txt:15` [line] 4. She likes it if you charm animals (except evil ones).
+- [ ] `lib/help/g_yavann.txt:16` [line] 5. Yavanna likes Ents.
+- [ ] `lib/help/g_yavann.txt:18` [line] #####GThe disadvantages of Worshipping Yavanna
+- [ ] `lib/help/g_yavann.txt:19` [line] 1. Your piety slowly decreases with time, whether you are praying or not.
+- [ ] `lib/help/g_yavann.txt:20` [line] 2. She doesn't like it if you kill monsters while praying.
+- [ ] `lib/help/g_yavann.txt:21` [line] 3. She hates it if you kill animals while praying.
+- [ ] `lib/help/g_yavann.txt:22` [line] 4. She hates it if you hurt your animal pets.
+- [ ] `lib/help/g_yavann.txt:23` [line] 5. She hates it if you burn or destroy trees with magic or allow monsters to
+- [ ] `lib/help/g_yavann.txt:24` [line]    do so.
+- [ ] `lib/help/g_yavann.txt:25` [line] 6. She will completely abandon you if you wear The One Ring.
+- [ ] `lib/help/g_yavann.txt:26` [line] ~~~~~03|Yavanna|Prayers
+- [ ] `lib/help/g_yavann.txt:27` [line] #####GYavanna's Magic
+- [ ] `lib/help/g_yavann.txt:28` [line] Worshipping Yavanna gives the adventurer access to a set of special spells
+- [ ] `lib/help/g_yavann.txt:29` [line] that come directly from the hands of Yavanna. These spells use your piety to
+- [ ] `lib/help/g_yavann.txt:30` [line] cast rather than your spellpoints, and the level of spells that Yavanna will
+- [ ] `lib/help/g_yavann.txt:31` [line] permit you to use is determined by your Prayer skill - how skillful you are
+- [ ] `lib/help/g_yavann.txt:32` [line] in asking for her help without offending her!
+- [ ] `lib/help/g_yavann.txt:34` [line] There is a special book called the "Forest Tome of Yavanna" which contains
+- [ ] `lib/help/g_yavann.txt:35` [line] instructions for the procedure for each of the prayers Yavanna will grant.
+- [ ] `lib/help/g_yavann.txt:36` [line] There are five prayers all told, which are:
+- [ ] `lib/help/g_yavann.txt:37` [line] 1. [[[[[BCharm Animal] (Level 1)
+- [ ] `lib/help/g_yavann.txt:38` [line]    Tries to tame animals in a zone around your target.
+- [ ] `lib/help/g_yavann.txt:39` [line] 2. [[[[[BGrow Grass] (Level 10)
+- [ ] `lib/help/g_yavann.txt:40` [line]    Creates a floor of grass around you. While on grass and praying,
+- [ ] `lib/help/g_yavann.txt:41` [line]    a worshipper of Yavanna will know a greater regeneration rate.
+- [ ] `lib/help/g_yavann.txt:42` [line] 3. [[[[[BTree Roots] (Level 15)
+- [ ] `lib/help/g_yavann.txt:43` [line]    Creates roots deep in the floor from your feet, making you more stable and
+- [ ] `lib/help/g_yavann.txt:44` [line]    able to do better attacks, but preventing any movement (even teleportation).
+- [ ] `lib/help/g_yavann.txt:45` [line]    It also makes you recover from stunning almost immediately.
+- [ ] `lib/help/g_yavann.txt:46` [line] 4. [[[[[BWater Bite] (Level 20)
+- [ ] `lib/help/g_yavann.txt:47` [line]    Imbues your melee weapon with a natural stream of water.
+- [ ] `lib/help/g_yavann.txt:48` [line]    At level 25, it spreads over a 1 radius zone around your target.
+- [ ] `lib/help/g_yavann.txt:49` [line] 5. [[[[[BUproot] (Level 35)
+- [ ] `lib/help/g_yavann.txt:50` [line]    Awakes a tree to help you battle the forces of Morgoth.
+- [ ] `lib/help/g_yavann.txt:52` [line] Each of these spells can be increased in level both by improving your Prayer
+- [ ] `lib/help/g_yavann.txt:53` [line] skill, and by improving your Spell-power skill.
+- [ ] `lib/help/g_yavann.txt:55` [line] In addition to her specific magic, Yavanna will also assist with your ability
+- [ ] `lib/help/g_yavann.txt:56` [line] to use some magic from the "standard" schools, in relation to how skilled you
+- [ ] `lib/help/g_yavann.txt:57` [line] are at Prayer. These schools are as follows:
+- [ ] `lib/help/g_yavann.txt:58` [line]     *****m_earth.txt*0[Earth School] at 1/2 the Prayer skill level.
+- [ ] `lib/help/g_yavann.txt:59` [line]     *****m_nature.txt*0[Nature School] at 1/2 the Prayer skill level.
+- [ ] `lib/help/g_yavann.txt:60` [line]     *****m_water.txt*0[Water School] at 1/2 the Prayer skill level.
+- [ ] `lib/help/g_yavann.txt:61` [line]     *****m_tempo.txt*0[Temporal School] at 1/6 the Prayer skill level.
+- [ ] `lib/help/g_yavann.txt:62` [line] The spells from these schools are all cast using your normal spellpoints.

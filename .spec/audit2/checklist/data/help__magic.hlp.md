@@ -1,0 +1,34 @@
+# 数据清单：lib/help/magic.hlp（text，逐条/逐行）
+
+- [ ] `lib/help/magic.hlp:1` [line] |||||oy
+- [ ] `lib/help/magic.hlp:2` [line] ~~~~~01|Magic|Index
+- [ ] `lib/help/magic.hlp:3` [line] ~~~~~02|Help|Magic
+- [ ] `lib/help/magic.hlp:4` [line] #####RWelcome to the ToME Magic Help System.
+- [ ] `lib/help/magic.hlp:5` [line] #####R=============================================
+- [ ] `lib/help/magic.hlp:7` [line] Please choose one of the following help files:
+- [ ] `lib/help/magic.hlp:9` [line] General Info 
+- [ ] `lib/help/magic.hlp:11` [line]      *****/amagic.txt*0[(a) The ToME magic system]
+- [ ] `lib/help/magic.hlp:12` [line]      *****/bmagic.txt*02[(b) Wands and Staves]
+- [ ] `lib/help/magic.hlp:14` [line] Magic schools
+- [ ] `lib/help/magic.hlp:16` [line]      *****/cm_air.txt*0[(c) The Air School]
+- [ ] `lib/help/magic.hlp:17` [line]      *****/dm_convey.txt*0[(d) The Conveyance School]
+- [ ] `lib/help/magic.hlp:18` [line]      *****/em_demono.txt*0[(e) The Demonology School]
+- [ ] `lib/help/magic.hlp:19` [line]      *****/fm_divin.txt*0[(f) The Divination School]
+- [ ] `lib/help/magic.hlp:20` [line]      *****/gm_earth.txt*0[(g) The Earth School]
+- [ ] `lib/help/magic.hlp:21` [line]      *****/hm_fire.txt*0[(h) The Fire School]
+- [ ] `lib/help/magic.hlp:22` [line]      *****/im_geoman.txt*0[(i) The Geomancy School]
+- [ ] `lib/help/magic.hlp:23` [line]      *****/jm_mana.txt*0[(j) The Mana School]
+- [ ] `lib/help/magic.hlp:24` [line]      *****/km_meta.txt*0[(k) The Meta School]
+- [ ] `lib/help/magic.hlp:25` [line]      *****/lm_mind.txt*0[(l) The Mind School]
+- [ ] `lib/help/magic.hlp:26` [line]      *****/mm_nature.txt*0[(m) The Nature School]
+- [ ] `lib/help/magic.hlp:27` [line]      *****/nm_necrom.txt*0[(n) The Necromancy School]
+- [ ] `lib/help/magic.hlp:28` [line]      *****/om_tempo.txt*0[(o) The Temporal School]
+- [ ] `lib/help/magic.hlp:29` [line]      *****/pm_udun.txt*0[(p) The Udun School]
+- [ ] `lib/help/magic.hlp:30` [line]      *****/qm_water.txt*0[(q) The Water School]
+- [ ] `lib/help/magic.hlp:32` [line] Other powers accessed by the 'm' menu
+- [ ] `lib/help/magic.hlp:34` [line]      *****/rm_mimic.txt*0[(r) Mimicry Powers]
+- [ ] `lib/help/magic.hlp:35` [line]      *****/sm_mindcr.txt*0[(s) Mindcrafting Powers]
+- [ ] `lib/help/magic.hlp:36` [line]      *****/tm_music.txt*0[(t) Musical Songs]
+- [ ] `lib/help/magic.hlp:37` [line]      *****/um_symbio.txt*0[(u) Symbiotic Powers]
+- [ ] `lib/help/magic.hlp:38` [line]      *****/vm_thaum.txt*0[(v) Thaumaturgical Spells]     
+- [ ] `lib/help/magic.hlp:40` [line]      *****/zhelp.hlp*0[(z) Main Help menu]

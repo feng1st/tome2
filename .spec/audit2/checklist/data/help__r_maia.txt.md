@@ -1,0 +1,22 @@
+# 数据清单：lib/help/r_maia.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_maia.txt:1` [line] ~~~~~01|Maia
+- [ ] `lib/help/r_maia.txt:2` [line] ~~~~~02|Races|Maia
+- [ ] `lib/help/r_maia.txt:3` [line] #####R=== Maia ===
+- [ ] `lib/help/r_maia.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_maia.txt:6` [line] An old race, dating from before the creation of Arda, the Maiar were created by
+- [ ] `lib/help/r_maia.txt:7` [line] Eru to help the Valar in their task. However, they can not worship a God, nor
+- [ ] `lib/help/r_maia.txt:8` [line] is experience easy to remember for them. Due to their perceived advantages, 
+- [ ] `lib/help/r_maia.txt:9` [line] they are rather disliked by the denizens of the dungeon, and will find that most
+- [ ] `lib/help/r_maia.txt:10` [line] creatures take an instant dislike for the Maia. However, when they do finally 
+- [ ] `lib/help/r_maia.txt:11` [line] manage to remember their encounters, they will find that their abilities will 
+- [ ] `lib/help/r_maia.txt:12` [line] increase as they gain in knowledge.
+- [ ] `lib/help/r_maia.txt:14` [line] #####GStat Modifiers
+- [ ] `lib/help/r_maia.txt:15` [line] Strength        0   
+- [ ] `lib/help/r_maia.txt:16` [line] Intelligence    0   
+- [ ] `lib/help/r_maia.txt:17` [line] Wisdom          0   
+- [ ] `lib/help/r_maia.txt:18` [line] Dexterity       0   
+- [ ] `lib/help/r_maia.txt:19` [line] Constitution    0   
+- [ ] `lib/help/r_maia.txt:20` [line] Charisma        0       
+- [ ] `lib/help/r_maia.txt:21` [line] Hit Dice Sides  10         
+- [ ] `lib/help/r_maia.txt:22` [line] Exp Penalty     +0%

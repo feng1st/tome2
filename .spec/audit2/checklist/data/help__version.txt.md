@@ -1,0 +1,284 @@
+# 数据清单：lib/help/version.txt（text，逐条/逐行）
+
+- [ ] `lib/help/version.txt:1` [line] |||||oy
+- [ ] `lib/help/version.txt:2` [line] ~~~~~01|Development history
+- [ ] `lib/help/version.txt:3` [line] *****version.txt*01[The origins of ToME]
+- [ ] `lib/help/version.txt:4` [line] *****version.txt*02[Zangband History and Information]
+- [ ] `lib/help/version.txt:5` [line] *****version.txt*03[Brief Version History (of standard Angband)]
+- [ ] `lib/help/version.txt:6` [line] *****version.txt*04[A Posting from the Original Author (of Moria)]
+- [ ] `lib/help/version.txt:7` [line] *****version.txt*05[Previous Versions (outdated)]
+- [ ] `lib/help/version.txt:10` [line] #####R====== ToME Brief History =======
+- [ ] `lib/help/version.txt:12` [line] When Zangband came to its 2.2.0 version I (DarkGod) was an Angband winner and
+- [ ] `lib/help/version.txt:13` [line] I had been a C programmer for a long time, so I decided to take the sources
+- [ ] `lib/help/version.txt:14` [line] and to try to code my own variant. At this time I was reading the Pern
+- [ ] `lib/help/version.txt:15` [line] novels from Anne McCaffrey and I found them *VERY* good, so I decided to
+- [ ] `lib/help/version.txt:16` [line] include some elements of them into my variant from which it takes the name,
+- [ ] `lib/help/version.txt:17` [line] PernAngband.
+- [ ] `lib/help/version.txt:19` [line] One hard thing to decide was on which Angband to base it. Although I didn't
+- [ ] `lib/help/version.txt:20` [line] like Zangband because of the Zelazny universe, which I found to be not very
+- [ ] `lib/help/version.txt:21` [line] Tolkienish, I chose it because of all the good things it had (especially
+- [ ] `lib/help/version.txt:22` [line] the race powers that I wasn't able to code at the time). So I removed
+- [ ] `lib/help/version.txt:23` [line] much of the Zelazny stuff and replaced it with Tolkien and Pernish stuff.
+- [ ] `lib/help/version.txt:24` [line] And so the history of PernAngband began with the version 2.9.9a.
+- [ ] `lib/help/version.txt:26` [line] Now, in PernAngband 5.x.x, PernAngband is a thriving Angband variant
+- [ ] `lib/help/version.txt:27` [line] with plenty of unique features.
+- [ ] `lib/help/version.txt:29` [line] Then came some legal problems with Anne McCaffrey estate and ubisoft and
+- [ ] `lib/help/version.txt:30` [line] I had to remove the Pern stuff, so the game got renamed to ToME,
+- [ ] `lib/help/version.txt:31` [line] the Troubles of Middle Earth.
+- [ ] `lib/help/version.txt:32` [line] ~~~~~02
+- [ ] `lib/help/version.txt:33` [line] #####R=== Zangband History and Information ===
+- [ ] `lib/help/version.txt:35` [line] The seeds of Zangband lie in an obsolete and long ago vanished PC variant
+- [ ] `lib/help/version.txt:36` [line] (somewhat misleadingly) dubbed Angband--. The variant was written by a
+- [ ] `lib/help/version.txt:37` [line] hopeless Angband addict (previously Moria veteran and winner) who got 
+- [ ] `lib/help/version.txt:38` [line] bored with the standard monsters and wanted to introduce some new 
+- [ ] `lib/help/version.txt:39` [line] monsters. Angband-- was based on the PC Angband 1.31 sources, and 
+- [ ] `lib/help/version.txt:40` [line] it was set in Roger Zelazny's 'Amber' universe.
+- [ ] `lib/help/version.txt:42` [line] Later this individual got a better computer and learned to code, and 
+- [ ] `lib/help/version.txt:43` [line] produced the PC Zangband, and most Angband-- monsters survived into
+- [ ] `lib/help/version.txt:44` [line] PC Zangband 1.0. PC Zangband 1.0 was the first PC Angband to introduce
+- [ ] `lib/help/version.txt:45` [line] (simple, font-based) graphics, which were also used in the graphical
+- [ ] `lib/help/version.txt:46` [line] PC Angband 1.40. 
+- [ ] `lib/help/version.txt:48` [line] Yet this individual was still not cured of his addiction... his almost
+- [ ] `lib/help/version.txt:49` [line] as strong addiction to the Civilization style fantasy strategy game 
+- [ ] `lib/help/version.txt:50` [line] 'Master of Magic' inspired him to write a new magic system. The current
+- [ ] `lib/help/version.txt:51` [line] version of Zangband (2.*) incorporates this magic system, as well as
+- [ ] `lib/help/version.txt:52` [line] the best features from Angband-- and PC Zangband 1.0. It is based on
+- [ ] `lib/help/version.txt:53` [line] the Angband 2.8.1 sources (by Ben Harrison), and is therefore portable
+- [ ] `lib/help/version.txt:54` [line] to other systems (unlike the earlier versions which were for DOS-PC's
+- [ ] `lib/help/version.txt:55` [line] only).
+- [ ] `lib/help/version.txt:57` [line] Incidentally, this person (me, Topi Ylinen) also thought that the 
+- [ ] `lib/help/version.txt:58` [line] standard Angband monsters were too easy, which led him to introduce
+- [ ] `lib/help/version.txt:59` [line] such monsters as Death swords, Cyberdemons and Great Wyrms of Power...
+- [ ] `lib/help/version.txt:61` [line] Special thanks -- The current version of Zangband might not have come into
+- [ ] `lib/help/version.txt:62` [line] existence without the significant help from these excellent Angband
+- [ ] `lib/help/version.txt:63` [line] programmers:
+- [ ] `lib/help/version.txt:65` [line]         Ben Harrison, for obvious reasons.
+- [ ] `lib/help/version.txt:67` [line]         Greg Wooledge, who pointed out a bug in the dos compiler,
+- [ ] `lib/help/version.txt:68` [line]         which was preventing my progress with the first 2.* version
+- [ ] `lib/help/version.txt:69` [line]         of Zangband and for various patches.
+- [ ] `lib/help/version.txt:71` [line]         Julian Lighton, who must have sent me more ideas, patches, and
+- [ ] `lib/help/version.txt:72` [line]         bug reports than all the others together.
+- [ ] `lib/help/version.txt:74` [line]         Robert Ruehlmann, whose nice new main-dos.c enables SVGA
+- [ ] `lib/help/version.txt:75` [line]         graphics and even windows in MS-DOS.
+- [ ] `lib/help/version.txt:77` [line]         Paul Sexton, who is responsible for about 50% of the new code
+- [ ] `lib/help/version.txt:78` [line]         in 2.1.0.
+- [ ] `lib/help/version.txt:80` [line] 	Heino Vander Sanden, who created the quest-code and
+- [ ] `lib/help/version.txt:81` [line] 	Dean Anderson, whose patch showed me the quickest way to
+- [ ] `lib/help/version.txt:82` [line] 	implement the quests.
+- [ ] `lib/help/version.txt:84` [line] 	Adam Bolt, who created the new ZAngband tiles.
+- [ ] `lib/help/version.txt:86` [line] 	Scott Bigham, for the S-Lang patch.
+- [ ] `lib/help/version.txt:88` [line] 	Jeff Duprey for the new mutations.	
+- [ ] `lib/help/version.txt:90` [line] 	Leigh Silas Hanrihan for the new items.
+- [ ] `lib/help/version.txt:92` [line] 	Benny S. Hofmann, Aram Harrow, Greg Harvey, Keldon Jones,
+- [ ] `lib/help/version.txt:93` [line] 	Graham Murray, Remco Gerlich, Tim Baker and many others
+- [ ] `lib/help/version.txt:94` [line] 	for bugreports, patches, bugfixes, and ideas.
+- [ ] `lib/help/version.txt:97` [line] ZAngband 2.1.0c was Topi's last version, he has got a job and
+- [ ] `lib/help/version.txt:98` [line] doesn't have enough time anymore to continue work on ZAngband.
+- [ ] `lib/help/version.txt:99` [line] He asked for a new maintainer and I was the one to take over the task.
+- [ ] `lib/help/version.txt:100` [line] May I introduce myself, my name is Robert Ruehlmann, I'm the creator
+- [ ] `lib/help/version.txt:101` [line] of the graphical Angband versions for DOS and webmaster of
+- [ ] `lib/help/version.txt:102` [line] "Thangorodrim - The Angband Page" ("http://www.thangorodrim.net").
+- [ ] `lib/help/version.txt:103` [line] ~~~~~03
+- [ ] `lib/help/version.txt:104` [line] #####R=== Brief Version History (of standard Angband) ===
+- [ ] `lib/help/version.txt:106` [line] First came "VMS Moria", by Robert Alan Koeneke (1985).
+- [ ] `lib/help/version.txt:108` [line] Then came "Umoria" (Unix Moria), by James E. Wilson (1989).
+- [ ] `lib/help/version.txt:110` [line] In 1990, Alex Cutler and Andy Astrand, with the help of other students
+- [ ] `lib/help/version.txt:111` [line] at the University of Warwick, created Angband 1.0, based on the existing
+- [ ] `lib/help/version.txt:112` [line] code for Umoria 5.2.1.  They wanted to expand the game, keeping or even
+- [ ] `lib/help/version.txt:113` [line] strengthening the grounding in Tolkien lore, while adding more monsters
+- [ ] `lib/help/version.txt:114` [line] and items, including unique monsters and artifact items, plus activation,
+- [ ] `lib/help/version.txt:115` [line] pseudo-sensing, level feelings, and special dungeon rooms.
+- [ ] `lib/help/version.txt:117` [line] Over time, Sean Marsh, Geoff Hill, Charles Teague, and others, worked on
+- [ ] `lib/help/version.txt:118` [line] the source, releasing a copy known as "Angband 2.4.frog_knows" at some
+- [ ] `lib/help/version.txt:119` [line] point, which ran only on Unix systems, but which was ported by various
+- [ ] `lib/help/version.txt:120` [line] people to various other systems.
+- [ ] `lib/help/version.txt:122` [line] Then Charles Swiger (cs4w+@andrew.cmu.edu) attempted to clean up the mess,
+- [ ] `lib/help/version.txt:123` [line] resulting in several versions, starting sometime around November, 1993, with
+- [ ] `lib/help/version.txt:124` [line] Angband 2.5.1 (more or less) and leading up to Angband 2.6.2 in late 1994.
+- [ ] `lib/help/version.txt:125` [line] Several people ported (the primarily Unix/NeXT centered) Angband 2.6.1 to
+- [ ] `lib/help/version.txt:126` [line] other platforms, including Keith Randall, who made a Macintosh port that
+- [ ] `lib/help/version.txt:127` [line] added support for color usage.  Some of the changes during this period were
+- [ ] `lib/help/version.txt:128` [line] based on suggestions from the "net", PC Angband 1.40, UMoria 5.5, and some
+- [ ] `lib/help/version.txt:129` [line] of the Angband "variations", such as FAngband.
+- [ ] `lib/help/version.txt:131` [line] Finally, I (Ben Harrison) took over in late 1994 when Charles Swiger left.
+- [ ] `lib/help/version.txt:132` [line] Initially my intention was simply to clean up what had become, after ten
+- [ ] `lib/help/version.txt:133` [line] years, a rather unholy mess, but the deeper I delved into the code, the
+- [ ] `lib/help/version.txt:134` [line] more it became apparent that drastic changes were needed, so, starting
+- [ ] `lib/help/version.txt:135` [line] with MacAngband 2.6.1, I began a more or less total rewrite, resulting,
+- [ ] `lib/help/version.txt:136` [line] eventually, in Angband 2.7.0, released around January first, 1995.
+- [ ] `lib/help/version.txt:138` [line] Angband 2.7.0 was a very clean (but very buggy) rewrite that, among other
+- [ ] `lib/help/version.txt:139` [line] things, allowed extremely simple porting to multiple platforms, starting
+- [ ] `lib/help/version.txt:140` [line] with Unix and Macintosh, and by the time most of the bugs were cleaned up,
+- [ ] `lib/help/version.txt:141` [line] in Angband 2.7.2, including X11, and various IBM machines.  Angband 2.7.4
+- [ ] `lib/help/version.txt:142` [line] was released to the "ftp.cis.ksu.edu" site, and quickly gained acceptance,
+- [ ] `lib/help/version.txt:143` [line] perhaps helped by the OS2 and Windows and Amiga and Linux ports.  Angband
+- [ ] `lib/help/version.txt:144` [line] 2.7.5 and 2.7.6 added important capabilities such as macros and user pref
+- [ ] `lib/help/version.txt:145` [line] files, and continued to clean up the source.  Angband 2.7.8 was designed
+- [ ] `lib/help/version.txt:146` [line] to supply another "stable" version that we can all give to our friends,
+- [ ] `lib/help/version.txt:147` [line] with new "help files" and "spoiler files" for the "online help", plus a
+- [ ] `lib/help/version.txt:148` [line] variety of minor tweaks and some new features.  Angband 2.7.9 optimized
+- [ ] `lib/help/version.txt:149` [line] a few things, and tweaked a few other things, and cleaned up a few other
+- [ ] `lib/help/version.txt:150` [line] things, and introduced a few minor semantic changes.
+- [ ] `lib/help/version.txt:152` [line] It is very hard to pin down, along the way from 2.6.2 to 2.7.0, and thence
+- [ ] `lib/help/version.txt:153` [line] to 2.7.8, exactly what was added exactly when.  Most of these steps involved
+- [ ] `lib/help/version.txt:154` [line] so many changes as to make "diff files" not very useful, since often the diff
+- [ ] `lib/help/version.txt:155` [line] files were as long as the code itself.  Most of the changes, with the notable
+- [ ] `lib/help/version.txt:156` [line] exception of the creation of the new "main-xxx.c" files for the various new
+- [ ] `lib/help/version.txt:157` [line] platforms, and a few other exceptions generally noted in the source, were
+- [ ] `lib/help/version.txt:158` [line] written by myself, either spontaneously, or, more commonly, as the result of
+- [ ] `lib/help/version.txt:159` [line] a suggestion or comment by an Angband player.  So if you have any problems
+- [ ] `lib/help/version.txt:160` [line] with anything that you do not recognize from older versions, you can blame
+- [ ] `lib/help/version.txt:161` [line] them on me.  And if you like the new features and such, you can send me a
+- [ ] `lib/help/version.txt:162` [line] brief little "thank you" email (to benh@phial.com) or something...
+- [ ] `lib/help/version.txt:164` [line] The Official Angband Home Page ("http://www.phial.com/")
+- [ ] `lib/help/version.txt:165` [line] was created along with Angband 2.7.9 to serve as an up to date description
+- [ ] `lib/help/version.txt:166` [line] of any bugs found in various versions, and to list all of the people whose
+- [ ] `lib/help/version.txt:167` [line] email addresses I kept having to look up. 
+- [ ] `lib/help/version.txt:169` [line] ~~~~~04
+- [ ] `lib/help/version.txt:170` [line] #####R=== A Posting from the Original Author ===
+- [ ] `lib/help/version.txt:172` [line] From: koeneke@ionet.net (Robert Alan Koeneke)
+- [ ] `lib/help/version.txt:173` [line] Newsgroups: rec.games.roguelike.angband,rec.games.roguelike.moria
+- [ ] `lib/help/version.txt:174` [line] Subject: Early history of Moria
+- [ ] `lib/help/version.txt:175` [line] Date: Wed, 21 Feb 1996 04:20:51 GMT
+- [ ] `lib/help/version.txt:177` [line] I had some email show up asking about the origin of Moria, and its
+- [ ] `lib/help/version.txt:178` [line] relation to Rogue.  So I thought I would just post some text on the
+- [ ] `lib/help/version.txt:179` [line] early days of Moria.
+- [ ] `lib/help/version.txt:181` [line] First of all, yes, I really am the Robert Koeneke who wrote the first
+- [ ] `lib/help/version.txt:182` [line] Moria.  I had a lot of mail accussing me of pulling their leg and
+- [ ] `lib/help/version.txt:183` [line] such.  I just recently connected to Internet (yes, I work for a
+- [ ] `lib/help/version.txt:184` [line] company in the dark ages where Internet is concerned) and 
+- [ ] `lib/help/version.txt:185` [line] was real surprised to find Moria in the news groups...  Angband was an
+- [ ] `lib/help/version.txt:186` [line] even bigger surprise, since I have never seen it.  I probably spoke to
+- [ ] `lib/help/version.txt:187` [line] its originator though...  I have given permission to lots of people
+- [ ] `lib/help/version.txt:188` [line] through the years to enhance, modify, or whatever as long as they
+- [ ] `lib/help/version.txt:189` [line] freely distributed the results.  I have always been a proponent of
+- [ ] `lib/help/version.txt:190` [line] sharing games, not selling them.
+- [ ] `lib/help/version.txt:192` [line] Anyway...
+- [ ] `lib/help/version.txt:194` [line] Around 1980 or 81 I was enrolled in engineering courses at the
+- [ ] `lib/help/version.txt:195` [line] University of Oklahoma.  The engineering lab ran on a PDP 1170 under
+- [ ] `lib/help/version.txt:196` [line] an early version of UNIX.  I was always good at computers, so it was
+- [ ] `lib/help/version.txt:197` [line] natural for me to get to know the system administrators.  They invited
+- [ ] `lib/help/version.txt:198` [line] me one night to stay and play some games, an early startrek game, The
+- [ ] `lib/help/version.txt:199` [line] Colossal Cave Adventure (later just 'Adventure'), and late one night,
+- [ ] `lib/help/version.txt:200` [line] a new dungeon game called 'Rogue'.
+- [ ] `lib/help/version.txt:202` [line] So yes, I was exposed to Rogue before Moria was even a gleam in my
+- [ ] `lib/help/version.txt:203` [line] eye.  In fact, Rogue was directly responsible for millions of hours of
+- [ ] `lib/help/version.txt:204` [line] play time wasted on Moria and its descendents...
+- [ ] `lib/help/version.txt:206` [line] Soon after playing Rogue (and man, was I HOOKED), I got a job in a
+- [ ] `lib/help/version.txt:207` [line] different department as a student assistant in computers.  I worked on
+- [ ] `lib/help/version.txt:208` [line] one of the early VAX 11/780's running VMS, and no games were available
+- [ ] `lib/help/version.txt:209` [line] for it at that time.  The engineering lab got a real geek of an
+- [ ] `lib/help/version.txt:210` [line] administrator who thought the only purpose of a computer was WORK!
+- [ ] `lib/help/version.txt:211` [line] Imagine...  Soooo, no more games, and no more rogue!
+- [ ] `lib/help/version.txt:213` [line] This was intolerable!  So I decided to write my own rogue game, Moria
+- [ ] `lib/help/version.txt:214` [line] Beta 1.0.  I had three languages available on my VMS system.  Fortran
+- [ ] `lib/help/version.txt:215` [line] IV, PASCAL V1.?, and BASIC.  Since most of the game was string
+- [ ] `lib/help/version.txt:216` [line] manipulation, I wrote the first attempt at Moria in VMS BASIC, and it
+- [ ] `lib/help/version.txt:217` [line] looked a LOT like Rogue, at least what I could remember of it.  Then I
+- [ ] `lib/help/version.txt:218` [line] began getting ideas of how to improve it, how it should work
+- [ ] `lib/help/version.txt:219` [line] differently, and I pretty much didn't touch it for about a year.
+- [ ] `lib/help/version.txt:221` [line] Around 1983, two things happened that caused Moria to be born in its
+- [ ] `lib/help/version.txt:222` [line] recognizable form.  I was engaged to be married, and the only cure for
+- [ ] `lib/help/version.txt:223` [line] THAT is to work so hard you can't think about it; and I was enrolled
+- [ ] `lib/help/version.txt:224` [line] for fall to take an operating systems class in PASCAL.
+- [ ] `lib/help/version.txt:226` [line] So, I investigated the new version of VMS PASCAL and found out it had
+- [ ] `lib/help/version.txt:227` [line] a new feature.  Variable length strings!  Wow...
+- [ ] `lib/help/version.txt:229` [line] That summer I finished Moria 1.0 in VMS PASCAL.  I learned more about
+- [ ] `lib/help/version.txt:230` [line] data structures, optimization, and just plain programming that summer
+- [ ] `lib/help/version.txt:231` [line] then in all of my years in school.  I soon drew a crowd of devoted
+- [ ] `lib/help/version.txt:232` [line] Moria players...  All at OU.
+- [ ] `lib/help/version.txt:234` [line] I asked Jimmey Todd, a good friend of mine, to write a better
+- [ ] `lib/help/version.txt:235` [line] character generator for the game, and so the skills and history were
+- [ ] `lib/help/version.txt:236` [line] born.  Jimmey helped out on many of the functions in the game as well.
+- [ ] `lib/help/version.txt:237` [line] This would have been about Moria 2.0
+- [ ] `lib/help/version.txt:239` [line] In the following two years, I listened a lot to my players and kept
+- [ ] `lib/help/version.txt:240` [line] making enhancements to the game to fix problems, to challenge them,
+- [ ] `lib/help/version.txt:241` [line] and to keep them going.  If anyone managed to win, I immediately found
+- [ ] `lib/help/version.txt:242` [line] out how, and 'enhanced' the game to make it harder.  I once vowed it
+- [ ] `lib/help/version.txt:243` [line] was 'unbeatable', and a week later a friend of mine beat it!  His
+- [ ] `lib/help/version.txt:244` [line] character, 'Iggy', was placed into the game as 'The Evil Iggy', and
+- [ ] `lib/help/version.txt:245` [line] immortalized...  And of course, I went in and plugged up the trick he
+- [ ] `lib/help/version.txt:246` [line] used to win...
+- [ ] `lib/help/version.txt:248` [line] Around 1985 I started sending out source to other universities.  Just
+- [ ] `lib/help/version.txt:249` [line] before a OU / Texas football clash, I was asked to send a copy to the
+- [ ] `lib/help/version.txt:250` [line] Univeristy of Texas...  I couldn't resist...  I modified it so that
+- [ ] `lib/help/version.txt:251` [line] the begger on the town level was 'An OU football fan' and they moved
+- [ ] `lib/help/version.txt:252` [line] at maximum rate.  They also multiplied at maximum rate...  So the
+- [ ] `lib/help/version.txt:253` [line] first step you took and woke one up, it crossed the floor increasing
+- [ ] `lib/help/version.txt:254` [line] to hundreds of them and pounded you into oblivion...  I soon received
+- [ ] `lib/help/version.txt:255` [line] a call and provided instructions on how to 'de-enhance' the game!
+- [ ] `lib/help/version.txt:257` [line] Around 1986 - 87 I released Moria 4.7, my last official release.  I
+- [ ] `lib/help/version.txt:258` [line] was working on a Moria 5.0 when I left OU to go to work for American
+- [ ] `lib/help/version.txt:259` [line] Airlines (and yes, I still work there).  Moria 5.0 was a complete
+- [ ] `lib/help/version.txt:260` [line] rewrite, and contained many neat enhancements, features, you name it.
+- [ ] `lib/help/version.txt:261` [line] It had water, streams, lakes, pools, with water monsters.  It had
+- [ ] `lib/help/version.txt:262` [line] 'mysterious orbs' which could be carried like torches for light but
+- [ ] `lib/help/version.txt:263` [line] also gave off magical aura's (like protection from fire, or aggrivate
+- [ ] `lib/help/version.txt:264` [line] monster...).  It had new weapons and treasures...  I left it with the
+- [ ] `lib/help/version.txt:265` [line] student assistants at OU to be finished, but I guess it soon died on
+- [ ] `lib/help/version.txt:266` [line] the vine.  As far as I know, that source was lost...
+- [ ] `lib/help/version.txt:268` [line] I gave permission to anyone who asked to work on the game.  Several
+- [ ] `lib/help/version.txt:269` [line] people asked if they could convert it to 'C', and I said fine as long
+- [ ] `lib/help/version.txt:270` [line] as a complete credit history was maintained, and that it could NEVER
+- [ ] `lib/help/version.txt:271` [line] be sold, only given.  So I guess one or more of them succeeded in
+- [ ] `lib/help/version.txt:272` [line] their efforts to rewrite it in 'C'.
+- [ ] `lib/help/version.txt:274` [line] I have since received thousands of letters from all over the world
+- [ ] `lib/help/version.txt:275` [line] from players telling about their exploits, and from administrators
+- [ ] `lib/help/version.txt:276` [line] cursing the day I was born...  I received mail from behind the iron
+- [ ] `lib/help/version.txt:277` [line] curtain (while it was still standing) talking about the game on VAX's
+- [ ] `lib/help/version.txt:278` [line] (which supposedly couldn't be there due to export laws).  I used to
+- [ ] `lib/help/version.txt:279` [line] have a map with pins for every letter I received, but I gave up on
+- [ ] `lib/help/version.txt:280` [line] that!
+- [ ] `lib/help/version.txt:282` [line] I am very happy to learn my creation keeps on going...  I plan to
+- [ ] `lib/help/version.txt:283` [line] download it and Angband and play them...  Maybe something has been
+- [ ] `lib/help/version.txt:284` [line] added that will surprise me!  That would be nice...  I never got to
+- [ ] `lib/help/version.txt:285` [line] play Moria and be surprised...
+- [ ] `lib/help/version.txt:287` [line] Robert Alan Koeneke
+- [ ] `lib/help/version.txt:288` [line] koeneke@ionet.net
+- [ ] `lib/help/version.txt:290` [line] ~~~~~05
+- [ ] `lib/help/version.txt:291` [line] #####R=== Previous Versions (outdated) ===
+- [ ] `lib/help/version.txt:294` [line]                           VMS Moria Version 4.8
+- [ ] `lib/help/version.txt:295` [line] Version 0.1  : 03/25/83
+- [ ] `lib/help/version.txt:296` [line] Version 1.0  : 05/01/84
+- [ ] `lib/help/version.txt:297` [line] Version 2.0  : 07/10/84
+- [ ] `lib/help/version.txt:298` [line] Version 3.0  : 11/20/84
+- [ ] `lib/help/version.txt:299` [line] Version 4.0  : 01/20/85
+- [ ] `lib/help/version.txt:301` [line] Modules :
+- [ ] `lib/help/version.txt:302` [line]      V1.0  Dungeon Generator      - RAK
+- [ ] `lib/help/version.txt:303` [line]            Character Generator    - RAK & JWT
+- [ ] `lib/help/version.txt:304` [line]            Moria Module           - RAK
+- [ ] `lib/help/version.txt:305` [line]            Miscellaneous          - RAK & JWT
+- [ ] `lib/help/version.txt:306` [line]      V2.0  Town Level & Misc      - RAK
+- [ ] `lib/help/version.txt:307` [line]      V3.0  Internal Help & Misc   - RAK
+- [ ] `lib/help/version.txt:308` [line]      V4.0  Source Release Version - RAK
+- [ ] `lib/help/version.txt:310` [line] Robert Alan Koeneke               Jimmey Wayne Todd Jr.
+- [ ] `lib/help/version.txt:311` [line] Student/University of Oklahoma    Student/University of Oklahoma
+- [ ] `lib/help/version.txt:314` [line]                         Umoria Version 5.2 (formerly UNIX Moria)
+- [ ] `lib/help/version.txt:315` [line] Version 4.83 :  5/14/87
+- [ ] `lib/help/version.txt:316` [line] Version 4.85 : 10/26/87
+- [ ] `lib/help/version.txt:317` [line] Version 4.87 :  5/27/88
+- [ ] `lib/help/version.txt:318` [line] Version 5.0  :  11/2/89
+- [ ] `lib/help/version.txt:319` [line] Version 5.2  :   5/9/90
+- [ ] `lib/help/version.txt:321` [line] James E. Wilson, U.C. Berkeley
+- [ ] `lib/help/version.txt:322` [line]                  wilson@ernie.Berkeley.EDU
+- [ ] `lib/help/version.txt:323` [line]                  ...!ucbvax!ucbernie!wilson
+- [ ] `lib/help/version.txt:325` [line] Other contributors:
+- [ ] `lib/help/version.txt:326` [line] D. G. Kneller         - MS-DOS Moria port
+- [ ] `lib/help/version.txt:327` [line] Christopher J. Stuart - recall, options, inventory, and running code
+- [ ] `lib/help/version.txt:328` [line] Curtis McCauley       - Macintosh Moria port
+- [ ] `lib/help/version.txt:329` [line] Stephen A. Jacobs     - Atari ST Moria port
+- [ ] `lib/help/version.txt:330` [line] William Setzer        - object naming code
+- [ ] `lib/help/version.txt:331` [line] David J. Grabiner     - numerous bug reports, and consistency checking
+- [ ] `lib/help/version.txt:332` [line] Dan Bernstein         - UNIX hangup signal fix, many bug fixes
+- [ ] `lib/help/version.txt:333` [line] and many others...
+- [ ] `lib/help/version.txt:338` [line] Copyright (c) 1989 James E. Wilson, Robert A. Keoneke
+- [ ] `lib/help/version.txt:339` [line]   This software may be copied and distributed for educational, research, and
+- [ ] `lib/help/version.txt:340` [line]   not for profit purposes provided that this copyright and statement are
+- [ ] `lib/help/version.txt:341` [line]   included in all such copies.
+- [ ] `lib/help/version.txt:343` [line] Umoria Version 5.2, patch level 1
+- [ ] `lib/help/version.txt:345` [line] Angband Version 2.0   Alex Cutler, Andy Astrand, Sean Marsh, Geoff Hill, 
+- [ ] `lib/help/version.txt:346` [line]                       Charles Teague.
+- [ ] `lib/help/version.txt:348` [line] Angband Version 2.4   :  5/09/93
+- [ ] `lib/help/version.txt:350` [line] Angband Version 2.5   : 12/05/93 Charles Swiger.
+- [ ] `lib/help/version.txt:352` [line] Angband Version 2.6   :  9/04/94
+- [ ] `lib/help/version.txt:354` [line] Angband Version 2.7   :  1/1/95  Ben Harrison

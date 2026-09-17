@@ -1,0 +1,27 @@
+# 数据清单：lib/help/m_divin.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_divin.txt:1` [line] |||||oy
+- [ ] `lib/help/m_divin.txt:2` [line] ~~~~~01|Magic|Divination School
+- [ ] `lib/help/m_divin.txt:3` [line] ~~~~~02|Divination Magic
+- [ ] `lib/help/m_divin.txt:4` [line] ~~~~~03|Skills|Divination - Spell Info
+- [ ] `lib/help/m_divin.txt:5` [line] #####R === ToME Magic - Divination School ===
+- [ ] `lib/help/m_divin.txt:7` [line] The divination school of magic contains spells where magic is used to 
+- [ ] `lib/help/m_divin.txt:8` [line] psychically gain information about things. There are rumours of a "Tome of 
+- [ ] `lib/help/m_divin.txt:9` [line] Knowledge" which contains all the divination school spells within its bindings.
+- [ ] `lib/help/m_divin.txt:11` [line] Worshipping the God Eru Iluvatar also gives the ability to cast spells from
+- [ ] `lib/help/m_divin.txt:12` [line] the divination school at a level of 2/3 of your prayer level. E.g. if the 
+- [ ] `lib/help/m_divin.txt:13` [line] skill "Spirituality: Prayer" is at level 12, you can cast up to level 8 
+- [ ] `lib/help/m_divin.txt:14` [line] divination school spells.
+- [ ] `lib/help/m_divin.txt:16` [line] #####sDivination Spells
+- [ ] `lib/help/m_divin.txt:17` [line] There are six spells available for the divination school. These Spells are:
+- [ ] `lib/help/m_divin.txt:18` [line] 1. [[[[[sSense Monsters] (school level 1)
+- [ ] `lib/help/m_divin.txt:19` [line]    Detects all monsters near you.
+- [ ] `lib/help/m_divin.txt:20` [line]    At spell level 30 it allows you to sense monster minds for a while.
+- [ ] `lib/help/m_divin.txt:21` [line] 2. [[[[[sSense Hidden] (school level 5)
+- [ ] `lib/help/m_divin.txt:22` [line]    Detects the traps in a certain radius around you.
+- [ ] `lib/help/m_divin.txt:23` [line]    At spell level 15 it allows you to sense invisible monsters for a while.
+- [ ] `lib/help/m_divin.txt:24` [line] 3. [[[[[sReveal Ways] (school level 9)
+- [ ] `lib/help/m_divin.txt:25` [line]    Detects the doors/stairs/ways in a certain radius around you.
+- [ ] `lib/help/m_divin.txt:26` [line] 4. [[[[[sVision] (school level 15)
+- [ ] `lib/help/m_divin.txt:27` [line]    Detects the layout of the surrounding area.
+- [ ] `lib/help/m_divin.txt:28` [line]    At spell level 25 it maps and lights the whole level.

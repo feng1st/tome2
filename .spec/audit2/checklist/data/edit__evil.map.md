@@ -1,0 +1,34 @@
+# 数据清单：lib/edit/evil.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/evil.map:2` [feat] F:X:61:0
+- [ ] `lib/edit/evil.map:5` [feat] F:#:57:0
+- [ ] `lib/edit/evil.map:8` [feat] F:^:97:0
+- [ ] `lib/edit/evil.map:11` [feat] F:<:6:0
+- [ ] `lib/edit/evil.map:14` [feat] F:.:88:0
+- [ ] `lib/edit/evil.map:17` [feat] F:b:88:0:996:0:0:0:0:0:2
+- [ ] `lib/edit/evil.map:20` [feat] F:B:88:0:807:0:0:0:0:0:2
+- [ ] `lib/edit/evil.map:23` [feat] F:P:88:0:812:0:0:0:0:0:2
+- [ ] `lib/edit/evil.map:26` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/evil.map:27` [row] D:X^..^^^^^^^^^^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:28` [row] D:X^..^^^^^^^^^..^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:29` [row] D:X^...^^^^^^.........^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:30` [row] D:X^^..^^^^^..^^^^..^B^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:31` [row] D:X^...^^^^...^^^^^..^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:32` [row] D:X^^..^^^..^^.^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:33` [row] D:X^..^^^^^.....^^^^^.^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:34` [row] D:X^^..^^^^..^^.^^^.^......^^^^^^^X
+- [ ] `lib/edit/evil.map:35` [row] D:X^..^^^^..^^...^^...^..^.^^^^^^^X
+- [ ] `lib/edit/evil.map:36` [row] D:X^^..^^^..^^^..^...^^^....^^^^^^X
+- [ ] `lib/edit/evil.map:37` [row] D:X^^^...^.^^^.....^^^^P...<^^^^^^X
+- [ ] `lib/edit/evil.map:38` [row] D:X^^^.....^^^^..^^^^^^^^..^^^^^^^X
+- [ ] `lib/edit/evil.map:39` [row] D:X^^^^^^.^^^^..^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:40` [row] D:X^^^^^^^^^^^...^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:41` [row] D:X^^^^^.^^^^.^..^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:42` [row] D:X^^^^...^^...^^^...^^^^^^...^^^^X
+- [ ] `lib/edit/evil.map:43` [row] D:X^^^^.^....^^^^.^.....^..^..^^^^X
+- [ ] `lib/edit/evil.map:44` [row] D:X^^^^..^^^^^.....^...^..^^^B^^^^X
+- [ ] `lib/edit/evil.map:45` [row] D:X^^^P........^.....^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:46` [row] D:X^^^^^^...^^^^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:47` [row] D:X^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^X
+- [ ] `lib/edit/evil.map:48` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/evil.map:51` [raw] P:3:4

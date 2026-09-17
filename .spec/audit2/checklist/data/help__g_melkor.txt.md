@@ -1,0 +1,58 @@
+# 数据清单：lib/help/g_melkor.txt（text，逐条/逐行）
+
+- [ ] `lib/help/g_melkor.txt:1` [line] |||||oy
+- [ ] `lib/help/g_melkor.txt:2` [line] ~~~~~01|Melkor
+- [ ] `lib/help/g_melkor.txt:3` [line] ~~~~~02|Gods|Melkor
+- [ ] `lib/help/g_melkor.txt:4` [line] #####R === Melkor Bauglir ===
+- [ ] `lib/help/g_melkor.txt:6` [line] Melkor Bauglir is Morgoth, the Dark Enemy. He once was the most powerful
+- [ ] `lib/help/g_melkor.txt:7` [line] of the Valar. His most faithful followers are those of the class *****c_pr_drk.txt*0[Dark Priest].
+- [ ] `lib/help/g_melkor.txt:9` [line] #####GThe benefits of Worshipping Melkor Bauglir
+- [ ] `lib/help/g_melkor.txt:10` [line]  1. As you increase your piety, Melkor will grant boosts to your strength,
+- [ ] `lib/help/g_melkor.txt:11` [line]     constitution and charisma and will decrease intelligence and wisdom.
+- [ ] `lib/help/g_melkor.txt:12` [line]  2. As a follower of Melkor you are resistant to fire.
+- [ ] `lib/help/g_melkor.txt:13` [line]  3. If you are praying, Melkor may make you invisible and immune to fire.
+- [ ] `lib/help/g_melkor.txt:14` [line]  4. If you are praying, Melkor may cast Curse on your foes when you melee them.
+- [ ] `lib/help/g_melkor.txt:15` [line]  5. If you are praying, Melkor likes it when you kill monsters.
+- [ ] `lib/help/g_melkor.txt:16` [line]  6. If you are praying, Melkor *likes* it when you kill monsters that are
+- [ ] `lib/help/g_melkor.txt:17` [line]     aligned with good.
+- [ ] `lib/help/g_melkor.txt:18` [line]  7. Melkor likes the sacrifice of corpses and books at his altars.
+- [ ] `lib/help/g_melkor.txt:19` [line]  8. Melkor likes the permanent sacrifice of your own health at his altars.
+- [ ] `lib/help/g_melkor.txt:20` [line]  9. Melkor hates elves.
+- [ ] `lib/help/g_melkor.txt:21` [line] 10. Melkor grants access to the *****m_udun.txt*0[Udun] school of magic.
+- [ ] `lib/help/g_melkor.txt:22` [line] 11. Melkor can summon undead and demons to help you when your life goes down.
+- [ ] `lib/help/g_melkor.txt:24` [line] #####GThe disadvantages of Worshipping Melkor Bauglir
+- [ ] `lib/help/g_melkor.txt:25` [line] 1. Your piety decreases with time.
+- [ ] `lib/help/g_melkor.txt:26` [line] 2. Your piety decreases with time even more if you are praying.
+- [ ] `lib/help/g_melkor.txt:27` [line] 3. He will completely abandon you if you destroy The One Ring.
+- [ ] `lib/help/g_melkor.txt:28` [line] ~~~~~03|Melkor|Prayers
+- [ ] `lib/help/g_melkor.txt:29` [line] #####GMelkor Bauglir's Magic
+- [ ] `lib/help/g_melkor.txt:30` [line] Worshipping Melkor Bauglir gives the adventurer access to a set of special
+- [ ] `lib/help/g_melkor.txt:31` [line] spells that come directly from the hands of Melkor. These spells use your piety
+- [ ] `lib/help/g_melkor.txt:32` [line] to cast rather than your spellpoints, and the level of spells that Melkor will 
+- [ ] `lib/help/g_melkor.txt:33` [line] permit you to use is determined by your Prayer skill - how skillful you are
+- [ ] `lib/help/g_melkor.txt:34` [line] in asking for his help without offending him!
+- [ ] `lib/help/g_melkor.txt:36` [line] There is a special book called the "Corrupted Tome of Melkor" which 
+- [ ] `lib/help/g_melkor.txt:37` [line] contains instructions for the procedure for each of the prayers Melkor will
+- [ ] `lib/help/g_melkor.txt:38` [line] grant. There are three prayers all told, which are:
+- [ ] `lib/help/g_melkor.txt:39` [line] 1. [[[[[BCurse] (Level 1)
+- [ ] `lib/help/g_melkor.txt:40` [line]    It curses a monster, reducing its melee power
+- [ ] `lib/help/g_melkor.txt:41` [line]    At level 5 it can be auto-casted (with no piety cost) while fighting
+- [ ] `lib/help/g_melkor.txt:42` [line]    if your piety is over 5000.
+- [ ] `lib/help/g_melkor.txt:43` [line]    At level 15 it also reduces armor
+- [ ] `lib/help/g_melkor.txt:44` [line]    At level 25 it also reduces speed
+- [ ] `lib/help/g_melkor.txt:45` [line]    At level 35 it also reduces max life (but it is never fatal)
+- [ ] `lib/help/g_melkor.txt:46` [line] 2. [[[[[BCorpse Explosion] (Level 10)
+- [ ] `lib/help/g_melkor.txt:47` [line]    It makes corpses in an area around you explode for a percent of their hit
+- [ ] `lib/help/g_melkor.txt:48` [line]    points as damage
+- [ ] `lib/help/g_melkor.txt:49` [line] 3. [[[[[BMind Steal] (Level 20)
+- [ ] `lib/help/g_melkor.txt:50` [line]    It allows your spirit to temporarily leave your own body, which will
+- [ ] `lib/help/g_melkor.txt:51` [line]    be vulnerable, to control one of your enemies body
+- [ ] `lib/help/g_melkor.txt:53` [line] Each of these spells can be increased in level both by improving your Prayer
+- [ ] `lib/help/g_melkor.txt:54` [line] skill, and by improving your Spell-power skill.
+- [ ] `lib/help/g_melkor.txt:56` [line] In addition to his specific magic, Melkor will also assist with your ability to
+- [ ] `lib/help/g_melkor.txt:57` [line] use some magic from the "standard" schools, in relation to how skilled you 
+- [ ] `lib/help/g_melkor.txt:58` [line] are at Prayer. This school is as follows:
+- [ ] `lib/help/g_melkor.txt:59` [line]     *****m_mind.txt*0[Mind School] at 1/3 the Prayer skill level.
+- [ ] `lib/help/g_melkor.txt:61` [line] Melkor also grants all of his followers access to the *****m_udun.txt*0[Udun] school of magic,
+- [ ] `lib/help/g_melkor.txt:62` [line] but only powerful mages are able to cast all of its spells.
+- [ ] `lib/help/g_melkor.txt:64` [line] The spells from these schools are all cast using your normal spellpoints.

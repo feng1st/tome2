@@ -1,0 +1,28 @@
+# 数据清单：lib/help/help.hlp（text，逐条/逐行）
+
+- [ ] `lib/help/help.hlp:1` [line] |||||oy
+- [ ] `lib/help/help.hlp:2` [line] ~~~~~01|Help|Main Menu
+- [ ] `lib/help/help.hlp:3` [line] ~~~~~02|Main Menu
+- [ ] `lib/help/help.hlp:4` [line] #####RWelcome to the ToME Online Help System.
+- [ ] `lib/help/help.hlp:5` [line] #####R==============================================
+- [ ] `lib/help/help.hlp:7` [line] Please choose one of the following online help files:
+- [ ] `lib/help/help.hlp:9` [line]     *****/ageneral.txt*0[(a) About this help system]
+- [ ] `lib/help/help.hlp:10` [line]     *****/bnewbie.hlp*0[(b) Help for new players] Skills, magic, races, classes + more
+- [ ] `lib/help/help.hlp:11` [line]     *****/cadvanced.hlp*0[(c) Help for more experienced players] Options, Macros, Automatizer etc
+- [ ] `lib/help/help.hlp:12` [line]     *****/dtome_faq.txt*0[(d) ToME FAQ] Common questions
+- [ ] `lib/help/help.hlp:14` [line]     *****/sspoiler.hlp*0[(s) Spoiler menu] Dungeons, fates, luck, corruptions and stuff
+- [ ] `lib/help/help.hlp:17` [line]     *****/xindex.txt*0[(x) Alphabetical index] Trouble finding something? Try here
+- [ ] `lib/help/help.hlp:19` [line] #####GBasic keys:
+- [ ] `lib/help/help.hlp:20` [line] Space          | Advance 1 page (screen)
+- [ ] `lib/help/help.hlp:21` [line] 2, down arrow  | Advance 1 line
+- [ ] `lib/help/help.hlp:22` [line] 8, up arrow    | Back up 1 line
+- [ ] `lib/help/help.hlp:23` [line] -              | Back up 1 page (screen)
+- [ ] `lib/help/help.hlp:24` [line] 6, right arrow | Advance 1 link
+- [ ] `lib/help/help.hlp:25` [line] 4, left arrow  | Back up 1 link
+- [ ] `lib/help/help.hlp:26` [line] Return         | Activate the selected link
+- [ ] `lib/help/help.hlp:27` [line] Escape         | Leave the Online Help
+- [ ] `lib/help/help.hlp:28` [line] Backspace, ?   | Return to previous Help File
+- [ ] `lib/help/help.hlp:29` [line] #              | Go to a specific line (defaults to line 0)
+- [ ] `lib/help/help.hlp:30` [line] %              | Go to a specific help file (defaults to help.hlp)
+- [ ] `lib/help/help.hlp:31` [line] =              | Highlight lines containing a string (e.g. "word")
+- [ ] `lib/help/help.hlp:32` [line] /              | Search for a string (e.g. "word")

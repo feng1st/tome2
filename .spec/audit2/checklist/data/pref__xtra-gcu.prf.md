@@ -1,0 +1,24 @@
+# 数据清单：lib/pref/xtra-gcu.prf（hud，逐条/逐行）
+
+- [~] `lib/pref/xtra-gcu.prf:11` [A] A:.
+- [~] `lib/pref/xtra-gcu.prf:12` [P] P:\e[3~
+- [~] `lib/pref/xtra-gcu.prf:13` [A] A:0
+- [~] `lib/pref/xtra-gcu.prf:14` [P] P:\e[2~
+- [~] `lib/pref/xtra-gcu.prf:17` [A] A:1
+- [~] `lib/pref/xtra-gcu.prf:18` [P] P:\e[4~
+- [~] `lib/pref/xtra-gcu.prf:19` [A] A:2
+- [~] `lib/pref/xtra-gcu.prf:20` [P] P:\e[B
+- [~] `lib/pref/xtra-gcu.prf:21` [A] A:3
+- [~] `lib/pref/xtra-gcu.prf:22` [P] P:\e[6~
+- [~] `lib/pref/xtra-gcu.prf:23` [A] A:4
+- [~] `lib/pref/xtra-gcu.prf:24` [P] P:\e[D
+- [~] `lib/pref/xtra-gcu.prf:25` [A] A:5
+- [~] `lib/pref/xtra-gcu.prf:26` [P] P:\e[G
+- [~] `lib/pref/xtra-gcu.prf:27` [A] A:6
+- [~] `lib/pref/xtra-gcu.prf:28` [P] P:\e[C
+- [~] `lib/pref/xtra-gcu.prf:29` [A] A:7
+- [~] `lib/pref/xtra-gcu.prf:30` [P] P:\e[1~
+- [~] `lib/pref/xtra-gcu.prf:31` [A] A:8
+- [~] `lib/pref/xtra-gcu.prf:32` [P] P:\e[A
+- [~] `lib/pref/xtra-gcu.prf:33` [A] A:9
+- [~] `lib/pref/xtra-gcu.prf:34` [P] P:\e[5~

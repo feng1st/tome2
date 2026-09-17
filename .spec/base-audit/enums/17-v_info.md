@@ -1,0 +1,108 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# v_info.txt — vaults (103)
+
+- [x] `v:0` **Lesser vault (round)** — X:7:5:12:20 — in RON
+- [x] `v:1` **Lesser vault (octagon)** — X:7:5:14:20 — in RON
+- [x] `v:2` **Lesser vault (octagon)** — X:7:5:12:20 — in RON
+- [x] `v:3` **Lesser vault (square)** — X:7:5:12:20 — in RON
+- [x] `v:4` **Lesser vault (diagonal)** — X:7:5:12:20 — in RON
+- [x] `v:5` **Lesser vault (diagonal)** — X:7:5:12:20 — in RON
+- [x] `v:6` **Lesser vault (square)** — X:7:5:12:20 — in RON
+- [x] `v:7` **Lesser vault (spiral)** — X:7:5:19:21 — in RON
+- [x] `v:8` **Lesser vault (layers)** — X:7:5:21:21 — in RON
+- [x] `v:9` **Lesser vault (bank)** — X:7:7:9:21 — in RON
+- [x] `v:10` **Lesser vault (mine)** — X:7:7:9:21 — in RON
+- [x] `v:11` **Lesser vault (maze)** — X:7:5:22:22 — in RON
+- [x] `v:12` **Lesser vault (prison)** — X:7:10:15:35 — in RON
+- [x] `v:13` **Lesser vault (camp)** — X:7:10:15:37 — in RON
+- [x] `v:14` **Lesser vault (serpent)** — X:7:10:17:32 — in RON
+- [x] `v:15` **Lesser vault (zelazny)** — X:7:5:18:19 — in RON
+- [x] `v:16` **Lesser vault (overlap)** — X:7:5:12:18 — in RON
+- [x] `v:17` **Lesser vault (celtic)** — X:7:5:17:21 — in RON
+- [x] `v:18` **Lesser vault (mirror)** — X:7:5:17:19 — in RON
+- [x] `v:19` **Lesser vault (tower)** — X:7:5:18:15 — in RON
+- [x] `v:20` **Greater vault (huge)** — X:8:20:17:39 — in RON
+- [x] `v:21` **Greater vault (large)** — X:8:35:18:40 — in RON
+- [x] `v:22` **Greater vault (butterfly)** — X:8:25:18:40 — in RON
+- [x] `v:23` **Greater vault (castle)** — X:8:35:27:27 — in RON
+- [x] `v:24` **Greater vault (chambers)** — X:8:25:15:40 — in RON
+- [x] `v:25` **Greater vault (Sierpinski)** — X:8:35:28:39 — in RON
+- [x] `v:26` **Greater vault (swastika)** — X:8:25:23:29 — in RON
+- [x] `v:27` **Greater vault (great spiral)** — X:8:40:39:39 — in RON
+- [x] `v:28` **Greater vault (greater castle)** — X:8:40:25:51 — in RON
+- [x] `v:29` **Lesser vault (x-factor)** — X:8:25:25:26 — in RON
+- [x] `v:30` **Greater vault (university)** — X:8:30:29:38 — in RON
+- [x] `v:31` **Greater vault (nethack castle (almost))** — X:8:35:19:62 — in RON
+- [x] `v:32` **Greater vault (another nethack-style castle)** — X:8:30:18:52 — in RON
+- [x] `v:33` **Lesser vault (nethack-style tower)** — X:7:5:15:19 — in RON
+- [x] `v:34` **Lesser vault (nethack, rooms)** — X:7:5:14:27 — in RON
+- [x] `v:35` **Lesser vault (nethack city)** — X:7:9:17:33 — in RON
+- [x] `v:36` **Greater vault (nethack, large city)** — X:8:25:21:54 — in RON
+- [x] `v:37` **Lesser vault (nethack, tiny castle)** — X:7:5:14:34 — in RON
+- [x] `v:38` **Greater vault (nethack mirror)** — X:8:25:22:41 — in RON
+- [x] `v:39` **Greater vault (nethack tomb)** — X:8:25:13:57 — in RON
+- [x] `v:40` **Greater vault (nethack hell level #1)** — X:8:30:17:55 — in RON
+- [x] `v:41` **Greater vault (nethack hell level #2)** — X:8:30:15:54 — in RON
+- [x] `v:42` **Greater vault (nethack hell level #3)** — X:8:30:17:55 — in RON
+- [x] `v:43` **Lesser vault (easter egg)** — X:7:5:14:19 — in RON
+- [x] `v:44` **Greater vault (nethack samurai castle)** — X:8:35:20:59 — in RON
+- [x] `v:45` **Greater vault (nethack samurai castle #2)** — X:8:35:20:61 — in RON
+- [x] `v:46` **Greater vault (nethack spiral)** — X:8:30:19:38 — in RON
+- [x] `v:47` **Greater vault (nethack building)** — X:8:30:16:41 — in RON
+- [x] `v:48` **Lesser vault (nethack, spiral rooms)** — X:7:5:13:32 — in RON
+- [x] `v:49` **Greater vault (nethack building)** — X:8:30:17:54 — in RON
+- [x] `v:50` **Lesser vault (nethack, head)** — X:7:7:17:29 — in RON
+- [x] `v:51` **Lesser vault (maze of rooms)** — X:7:10:16:32 — in RON
+- [x] `v:52` **Lesser vault (tetris tiles)** — X:7:5:20:13 — in RON
+- [x] `v:53` **Lesser vault (hospital ward)** — X:7:5:14:20 — in RON
+- [x] `v:54` **Lesser vault (lesser crypt)** — X:7:5:13:26 — in RON
+- [x] `v:55` **Lesser vault (arena)** — X:7:5:15:17 — in RON
+- [x] `v:56` **Lesser vault (monster wc)** — X:7:5:12:12 — in RON
+- [x] `v:57` **Lesser vault ('not' 'and')** — X:7:5:11:15 — in RON
+- [x] `v:58` **Lesser vault (brain's lair)** — X:7:5:18:17 — in RON
+- [x] `v:59` **Lesser vault (yin-yang)** — X:7:5:17:16 — in RON
+- [x] `v:60` **Greater vault (der el bahri)** — X:8:35:28:45 — in RON
+- [x] `v:61` **Lesser vault (der el bahri sanctuary)** — X:7:5:12:22 — in RON
+- [x] `v:62` **Greater vault (hypostyle of ramses III)** — X:8:40:38:34 — in RON
+- [x] `v:63` **Lesser vault (amada temple)** — X:7:10:15:30 — in RON
+- [x] `v:64` **Lesser vault (amenhotep I)** — X:7:10:18:34 — in RON
+- [x] `v:65` **Lesser vault (hathor chapel)** — X:7:10:21:19 — in RON
+- [x] `v:66` **Lesser vault (osiris halls)** — X:7:10:17:34 — in RON
+- [x] `v:67` **Lesser vault (temple of sety)** — X:7:10:22:25 — in RON
+- [x] `v:68` **Lesser vault (temple at abydos)** — X:7:10:21:23 — in RON
+- [x] `v:69` **Greater vault (Spiral castle)** — X:8:35:31:25 — in RON
+- [x] `v:70` **Lesser vault (temple of dendereh)** — X:7:10:20:22 — in RON
+- [x] `v:71` **Greater vault (Karnak, part I)** — X:8:35:24:44 — in RON
+- [x] `v:72` **Lesser vault (Karnak, part II)** — X:7:10:20:29 — in RON
+- [x] `v:73` **Greater vault (mortuary temple of sety)** — X:8:35:25:34 — in RON
+- [x] `v:74` **Lesser vault (edfu)** — X:7:5:15:15 — in RON
+- [x] `v:75` **Greater vault (kom ombo)** — X:8:40:36:30 — in RON
+- [x] `v:76` **Lesser vault (belvoir keep)** — X:7:5:19:21 — in RON
+- [x] `v:82` **Lesser vault (checkerboard)** — X:7:5:13:21 — in RON
+- [x] `v:83` **Lesser vault (spiral checkers)** — X:7:5:14:17 — in RON
+- [x] `v:84` **Greater vault (monstrosity)** — X:8:25:17:28 — in RON
+- [x] `v:85` **Cyclone** — X:8:40:23:91 — in RON
+- [x] `v:86` **Miniature Cell** — X:7:5:5:5 — in RON
+- [x] `v:87` **Castle Death** — X:8:35:20:60 — in RON
+- [x] `v:88` **Mirrored Quartet** — X:8:20:21:49 — in RON
+- [x] `v:89` **False Wall** — X:8:20:15:64 — in RON
+- [x] `v:90` **Hellpit** — X:8:20:19:60 — in RON
+- [x] `v:91` **Roundabout Three** — X:8:30:20:97 — in RON
+- [x] `v:92` **The Reward is Worth It** — X:8:20:16:63 — in RON
+- [x] `v:93` **Little League Treasure Hoard** — X:7:2:5:19 — in RON
+- [x] `v:94` **Mini Maze** — X:7:2:15:25 — in RON
+- [x] `v:95` **Circlular Room** — X:7:2:8:9 — in RON
+- [x] `v:96` **Minor Boss Vault** — X:7:3:10:10 — in RON
+- [x] `v:97` **(Lesser) Major Boss Vault** — X:7:20:10:10 — in RON
+- [x] `v:98` **(Greater) Majorly Bossy Vault** — X:8:37:10:10 — in RON
+- [x] `v:99` **Bubbles** — X:8:35:25:41 — in RON
+- [x] `v:100` **Lesser Vault (Cross)** — X:7:10:13:20 — in RON
+- [x] `v:101` **The I in the Storm** — X:8:30:25:41 — in RON
+- [x] `v:102` **Roundabout Two** — X:8:30:25:40 — in RON
+- [x] `v:103` **Modified Greater Vault (Huge)** — X:8:45:17:39 — in RON
+- [x] `v:104` **The Bank from Hell** — X:8:30:20:31 — in RON
+- [x] `v:105` **The Between Vault** — X:8:15:6:25 — in RON
+- [x] `v:106` **Greater Vault (Mix&Match)** — X:8:35:28:73 — in RON
+- [~] `v:107` **The Wilderness Vault** — X:10:1:3:7 — X: typ not in {7,8} (converter keeps usable templates)

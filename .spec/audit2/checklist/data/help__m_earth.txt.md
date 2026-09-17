@@ -1,0 +1,34 @@
+# 数据清单：lib/help/m_earth.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_earth.txt:1` [line] |||||oy
+- [ ] `lib/help/m_earth.txt:2` [line] ~~~~~01|Magic|Earth School
+- [ ] `lib/help/m_earth.txt:3` [line] ~~~~~02|Earth Magic
+- [ ] `lib/help/m_earth.txt:4` [line] ~~~~~03|Skills|Earth - Spell Info
+- [ ] `lib/help/m_earth.txt:5` [line] #####R === ToME Magic - Earth School ===
+- [ ] `lib/help/m_earth.txt:7` [line] The earth school of magic contains spells where the element of earth is used
+- [ ] `lib/help/m_earth.txt:8` [line] to create the final spell effect. There are rumours of a "Tome of the
+- [ ] `lib/help/m_earth.txt:9` [line] Impenetrable Earth" which contains all the earth school spells within its
+- [ ] `lib/help/m_earth.txt:10` [line] bindings.
+- [ ] `lib/help/m_earth.txt:12` [line] Worshipping the God Tulkas or the Goddess Yavanna Kementari also gives the
+- [ ] `lib/help/m_earth.txt:13` [line] ability to cast spells from the earth school, at a level of 4/5 or 1/2,
+- [ ] `lib/help/m_earth.txt:14` [line] respectively, of your prayer level. E.g. if the skill "Spirituality: Prayer"
+- [ ] `lib/help/m_earth.txt:15` [line] is at level 10, a worshipper of Tulkas can cast up to level 8 earth school
+- [ ] `lib/help/m_earth.txt:16` [line] spells, whereas a worshipper of Yavanna can cast up to level 5 earth school
+- [ ] `lib/help/m_earth.txt:17` [line] spells.
+- [ ] `lib/help/m_earth.txt:19` [line] #####uEarth Spells
+- [ ] `lib/help/m_earth.txt:20` [line] There are five spells available for the earth school. These Spells are:
+- [ ] `lib/help/m_earth.txt:21` [line] 1. [[[[[uStone Skin] (school level 1)
+- [ ] `lib/help/m_earth.txt:22` [line]    Creates a shield of earth around you to protect you.
+- [ ] `lib/help/m_earth.txt:23` [line]    At spell level 25 it starts dealing damage to attackers.
+- [ ] `lib/help/m_earth.txt:24` [line] 2. [[[[[uDig] (school level 12)
+- [ ] `lib/help/m_earth.txt:25` [line]    Digs a hole in a wall much faster than any shovels.
+- [ ] `lib/help/m_earth.txt:26` [line] 3. [[[[[uStone Prison] (school level 25)
+- [ ] `lib/help/m_earth.txt:27` [line]    Creates a prison of walls around you.
+- [ ] `lib/help/m_earth.txt:28` [line]    At spell level 10 it allows you to target a monster.
+- [ ] `lib/help/m_earth.txt:29` [line] 4. [[[[[uShake] (school level 27)
+- [ ] `lib/help/m_earth.txt:30` [line]    Creates a localised earthquake.
+- [ ] `lib/help/m_earth.txt:31` [line]    At spell level 10 it can be targeted at any location.
+- [ ] `lib/help/m_earth.txt:32` [line] 5. [[[[[uStrike] (school level 30)
+- [ ] `lib/help/m_earth.txt:33` [line]    Creates a micro-ball of force that will push monsters backwards.
+- [ ] `lib/help/m_earth.txt:34` [line]    If the monster is caught near a wall, it'll be crushed against it.
+- [ ] `lib/help/m_earth.txt:35` [line]    At spell level 12 it turns into a ball of radius 1.

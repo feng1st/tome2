@@ -1,0 +1,34 @@
+# 数据清单：lib/help/m_mana.txt（text，逐条/逐行）
+
+- [ ] `lib/help/m_mana.txt:1` [line] |||||oy
+- [ ] `lib/help/m_mana.txt:2` [line] ~~~~~01|Magic|Mana School
+- [ ] `lib/help/m_mana.txt:3` [line] ~~~~~02|Mana Magic
+- [ ] `lib/help/m_mana.txt:4` [line] ~~~~~03|Skills|Mana - Spell Info
+- [ ] `lib/help/m_mana.txt:5` [line] #####R === ToME Magic - Mana School ===
+- [ ] `lib/help/m_mana.txt:7` [line] The mana school of magic contains spells where the raw force of magic is used
+- [ ] `lib/help/m_mana.txt:8` [line] to create the final spell effect. There are rumours of a "Tome of Magical 
+- [ ] `lib/help/m_mana.txt:9` [line] Energy" which contains all the mana school spells within its bindings.
+- [ ] `lib/help/m_mana.txt:11` [line] Worshipping the God Eru Iluvatar also gives the ability to cast spells from
+- [ ] `lib/help/m_mana.txt:12` [line] the mana school at a level of 1/2 of your prayer level. E.g. if the skill 
+- [ ] `lib/help/m_mana.txt:13` [line] "Spirituality: Prayer" is at level 10, you can cast up to level 5 mana school
+- [ ] `lib/help/m_mana.txt:14` [line] spells.
+- [ ] `lib/help/m_mana.txt:16` [line] #####sMana Spells
+- [ ] `lib/help/m_mana.txt:17` [line] There are four spells available for the mana school. These spells are:
+- [ ] `lib/help/m_mana.txt:18` [line] 1. [[[[[sManathrust] (school level 1)
+- [ ] `lib/help/m_mana.txt:19` [line]    Conjures up mana into a powerful bolt.
+- [ ] `lib/help/m_mana.txt:20` [line]    The damage is irresistible and will increase with spell level.
+- [ ] `lib/help/m_mana.txt:21` [line] 2. [[[[[sRemove Curses] (school level 10)
+- [ ] `lib/help/m_mana.txt:22` [line]    Removes curses of worn objects.
+- [ ] `lib/help/m_mana.txt:23` [line]    At spell level 20, removes heavy curses.
+- [ ] `lib/help/m_mana.txt:24` [line] 3. [[[[[sElemental Shield] (school level 20)
+- [ ] `lib/help/m_mana.txt:25` [line]    Provides resistance to the four basic elements.
+- [ ] `lib/help/m_mana.txt:26` [line] 4. [[[[[sDisruption Shield] (school level 45)
+- [ ] `lib/help/m_mana.txt:27` [line]    Uses mana instead of hitpoints to take damage.
+- [ ] `lib/help/m_mana.txt:28` [line]    At spell level 5 switches to Globe of Invulnerability.
+- [ ] `lib/help/m_mana.txt:29` [line]    The spell breaks as soon as a melee, shooting, throwing or magical skill
+- [ ] `lib/help/m_mana.txt:30` [line]    action is attempted, and lasts only a short time otherwise.
+- [ ] `lib/help/m_mana.txt:33` [line] #####GUdun spells that can be cast with Mana skill
+- [ ] `lib/help/m_mana.txt:35` [line] 1. [[[[[DDrain] (dual school level 1)
+- [ ] `lib/help/m_mana.txt:36` [line]    Drains the mana contained in wands, staves and rods to increase yours.
+- [ ] `lib/help/m_mana.txt:37` [line] #####v   Your Mana and Udun skills must have reached a combined average level 
+- [ ] `lib/help/m_mana.txt:38` [line] #####v   of 1 in order to cast this spell.

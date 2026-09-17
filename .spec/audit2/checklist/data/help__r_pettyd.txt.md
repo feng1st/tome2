@@ -1,0 +1,29 @@
+# 数据清单：lib/help/r_pettyd.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_pettyd.txt:1` [line] ~~~~~01|Petty Dwarf
+- [ ] `lib/help/r_pettyd.txt:2` [line] ~~~~~02|Races|Petty Dwarf
+- [ ] `lib/help/r_pettyd.txt:3` [line] #####R=== Petty Dwarves ===
+- [ ] `lib/help/r_pettyd.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_pettyd.txt:6` [line] A hated and persecuted race of nocturnal dwarves, these cave-dwellers are not
+- [ ] `lib/help/r_pettyd.txt:7` [line] bothered much by darkness. Their natural inclination to magically augmented
+- [ ] `lib/help/r_pettyd.txt:8` [line] items has made them immune to effects which could drain away magical
+- [ ] `lib/help/r_pettyd.txt:9` [line] enchantments, and, like ordinary dwarves, they can examine the dungeon to
+- [ ] `lib/help/r_pettyd.txt:10` [line] discover traps and secret doors.  They are quite proficient as priests,
+- [ ] `lib/help/r_pettyd.txt:11` [line] warriors or rogues.
+- [ ] `lib/help/r_pettyd.txt:13` [line] #####GStat Modifiers
+- [ ] `lib/help/r_pettyd.txt:14` [line] Strength        +1   
+- [ ] `lib/help/r_pettyd.txt:15` [line] Intelligence    -1   
+- [ ] `lib/help/r_pettyd.txt:16` [line] Wisdom          +2   
+- [ ] `lib/help/r_pettyd.txt:17` [line] Dexterity        0   
+- [ ] `lib/help/r_pettyd.txt:18` [line] Constitution    +2   
+- [ ] `lib/help/r_pettyd.txt:19` [line] Charisma        -4       
+- [ ] `lib/help/r_pettyd.txt:20` [line] Hit Dice Sides  11         
+- [ ] `lib/help/r_pettyd.txt:21` [line] Exp Penalty     +35%
+- [ ] `lib/help/r_pettyd.txt:23` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_pettyd.txt:24` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_pettyd.txt:25` [line] Sneakiness              0.500           [0.000]
+- [ ] `lib/help/r_pettyd.txt:26` [line]   Stealth               1.000           [0.000]
+- [ ] `lib/help/r_pettyd.txt:27` [line]   Disarming             0.300           [0.000]
+- [ ] `lib/help/r_pettyd.txt:28` [line] Magic                   
+- [ ] `lib/help/r_pettyd.txt:29` [line]   Magic-Device          0.500           [0.000]
+- [ ] `lib/help/r_pettyd.txt:30` [line] Spirituality            5.000           [0.000]

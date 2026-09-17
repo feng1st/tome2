@@ -1,0 +1,49 @@
+# 数据清单：lib/help/c_pr_man.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_pr_man.txt:1` [line] |||||oy
+- [ ] `lib/help/c_pr_man.txt:2` [line] ~~~~~01|Priest - Manwe
+- [ ] `lib/help/c_pr_man.txt:3` [line] ~~~~~02|Classes|Priest - Manwe
+- [ ] `lib/help/c_pr_man.txt:4` [line] ~~~~~03|Manwe|Priest - Manwe
+- [ ] `lib/help/c_pr_man.txt:5` [line] #####R=== Manwe's Priests ===
+- [ ] `lib/help/c_pr_man.txt:7` [line] #####GDescription
+- [ ] `lib/help/c_pr_man.txt:8` [line] As the forces of darkness arose, *****g_manwe.txt*0[Manwe], lord of air, realised that urgent
+- [ ] `lib/help/c_pr_man.txt:9` [line] action was needed to save Arda from the incoming darkness. So he started 
+- [ ] `lib/help/c_pr_man.txt:10` [line] gathering followers from the ranks of men and elves and he instructed them to 
+- [ ] `lib/help/c_pr_man.txt:11` [line] do battle against the forces of Udun. 
+- [ ] `lib/help/c_pr_man.txt:13` [line] His priests must be quick and strike before the situation becomes
+- [ ] `lib/help/c_pr_man.txt:14` [line] critical, always keeping a direct line of prayer with their patron deity.
+- [ ] `lib/help/c_pr_man.txt:16` [line] Manwe doesn't tolerate laziness, but He also does not appreciate mindless 
+- [ ] `lib/help/c_pr_man.txt:17` [line] killing; only a few measure up to his standards, but those are granted access 
+- [ ] `lib/help/c_pr_man.txt:18` [line] to a whole series of divine powers which will help them in their enduring 
+- [ ] `lib/help/c_pr_man.txt:19` [line] efforts.
+- [ ] `lib/help/c_pr_man.txt:21` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_pr_man.txt:22` [line] Strength         -1
+- [ ] `lib/help/c_pr_man.txt:23` [line] Intelligence     -3
+- [ ] `lib/help/c_pr_man.txt:24` [line] Wisdom           +3
+- [ ] `lib/help/c_pr_man.txt:25` [line] Dexterity        -1
+- [ ] `lib/help/c_pr_man.txt:26` [line] Constitution     +0
+- [ ] `lib/help/c_pr_man.txt:27` [line] Charisma         +2
+- [ ] `lib/help/c_pr_man.txt:28` [line] Hit Die          +d2
+- [ ] `lib/help/c_pr_man.txt:29` [line] Spell Points     +0%
+- [ ] `lib/help/c_pr_man.txt:30` [line] Exp Penalty      20%
+- [ ] `lib/help/c_pr_man.txt:32` [line] #####GStarting Skills:
+- [ ] `lib/help/c_pr_man.txt:33` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_pr_man.txt:34` [line] Combat                  2.000           [0.700]
+- [ ] `lib/help/c_pr_man.txt:35` [line]   Weaponmastery         1.000           [0.750]
+- [ ] `lib/help/c_pr_man.txt:36` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_pr_man.txt:37` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_pr_man.txt:38` [line]   Disarming		0.000		[0.900]
+- [ ] `lib/help/c_pr_man.txt:39` [line] Magic                   1.000           [0.900]
+- [ ] `lib/help/c_pr_man.txt:40` [line]   Magic-Device          1.000           [1.050]
+- [ ] `lib/help/c_pr_man.txt:41` [line]   Spell-power           0.000           [0.600]
+- [ ] `lib/help/c_pr_man.txt:42` [line] Spirituality            1.000           [1.000]
+- [ ] `lib/help/c_pr_man.txt:43` [line]   Prayer                1.000           [1.500]
+- [ ] `lib/help/c_pr_man.txt:44` [line]   Mindcraft             0.000           [0.600]
+- [ ] `lib/help/c_pr_man.txt:45` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_pr_man.txt:47` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_pr_man.txt:48` [line] #####BAbility              Character level
+- [ ] `lib/help/c_pr_man.txt:49` [line] Perfect casting             1
+- [ ] `lib/help/c_pr_man.txt:51` [line] #####GStarting Equipment
+- [ ] `lib/help/c_pr_man.txt:52` [line] A Priest serving Manwe begins the game with:
+- [ ] `lib/help/c_pr_man.txt:53` [line]     a Spellbook of Manwe's Blessing
+- [ ] `lib/help/c_pr_man.txt:54` [line]     a Mace

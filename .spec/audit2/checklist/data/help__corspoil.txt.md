@@ -1,0 +1,105 @@
+# 数据清单：lib/help/corspoil.txt（text，逐条/逐行）
+
+- [ ] `lib/help/corspoil.txt:1` [line] ~~~~~01|Corruptions (Spoiler)
+- [ ] `lib/help/corspoil.txt:2` [line] ~~~~~02|Spoilers|Corruptions
+- [ ] `lib/help/corspoil.txt:3` [line] #####R=== ToME Corruptions Spoiler ===
+- [ ] `lib/help/corspoil.txt:5` [line] Sometimes adventurers become exposed to the dark powers of Morgoth. If they 
+- [ ] `lib/help/corspoil.txt:6` [line] are unable to resist these powers, they become corrupted. Corruptions can 
+- [ ] `lib/help/corspoil.txt:7` [line] change their physical or mental abilities, some of which can be good, and
+- [ ] `lib/help/corspoil.txt:8` [line] some bad. Most corruptions will affect you permanently, although some only 
+- [ ] `lib/help/corspoil.txt:9` [line] operate when they are activated (whether by player choice or as a random 
+- [ ] `lib/help/corspoil.txt:10` [line] event). You can check which corruptions do you have in the knowledge screen 
+- [ ] `lib/help/corspoil.txt:11` [line] 6 (accessed through the '~' menu) or in a character dump.
+- [ ] `lib/help/corspoil.txt:13` [line] #####GGaining and (not) losing corruptions
+- [ ] `lib/help/corspoil.txt:14` [line] There are several ways that you can become corrupted.
+- [ ] `lib/help/corspoil.txt:16` [line] You can become corrupted by quaffing a Potion of Corruption or by drinking
+- [ ] `lib/help/corspoil.txt:17` [line] from a Fountain of Corruption. Also some strange items can be activated
+- [ ] `lib/help/corspoil.txt:18` [line] for corruption.
+- [ ] `lib/help/corspoil.txt:20` [line] Corruptions are permanent. Once you have one, you have it for life.
+- [ ] `lib/help/corspoil.txt:22` [line] [[[[[BBalrog Aura]
+- [ ] `lib/help/corspoil.txt:23` [line]   Surrounds you with a fiery aura
+- [ ] `lib/help/corspoil.txt:24` [line]   But it can burn scrolls when you read them
+- [ ] `lib/help/corspoil.txt:25` [line] [[[[[GGain message: A corrupted wall of flames surrounds you.]
+- [ ] `lib/help/corspoil.txt:26` [line] [[[[[RLose message: The wall of corrupted flames abandons you.]
+- [ ] `lib/help/corspoil.txt:29` [line] [[[[[BBalrog Wings]
+- [ ] `lib/help/corspoil.txt:30` [line]   Creates ugly, but working, wings allowing you to fly
+- [ ] `lib/help/corspoil.txt:31` [line]   But it reduces charisma by 4 and dexterity by 2
+- [ ] `lib/help/corspoil.txt:32` [line] [[[[[GGain message: Wings of shadow grow in your back.]
+- [ ] `lib/help/corspoil.txt:33` [line] [[[[[RLose message: The wings in your back fall apart.]
+- [ ] `lib/help/corspoil.txt:36` [line] [[[[[BBalrog Strength]
+- [ ] `lib/help/corspoil.txt:37` [line]   Provides 3 strength and 1 constitution
+- [ ] `lib/help/corspoil.txt:38` [line]   But it reduces charisma by 1 and dexterity by 3
+- [ ] `lib/help/corspoil.txt:39` [line] [[[[[GGain message: Your muscles get unnatural strength.]
+- [ ] `lib/help/corspoil.txt:40` [line] [[[[[RLose message: Your muscles get weaker again.]
+- [ ] `lib/help/corspoil.txt:43` [line] [[[[[BBalrog Form]
+- [ ] `lib/help/corspoil.txt:44` [line]   Allows you to turn into a Balrog at will
+- [ ] `lib/help/corspoil.txt:45` [line]   You need Balrog Aura, Balrog Wings and Balrog Strength to activate it
+- [ ] `lib/help/corspoil.txt:46` [line] [[[[[GGain message: You feel the might of a Balrog inside you.]
+- [ ] `lib/help/corspoil.txt:47` [line] [[[[[RLose message: The presence of the Balrog seems to abandon you.]
+- [ ] `lib/help/corspoil.txt:48` [line] It depends on:
+- [ ] `lib/help/corspoil.txt:49` [line]   Balrog Aura
+- [ ] `lib/help/corspoil.txt:50` [line]   Balrog Wings
+- [ ] `lib/help/corspoil.txt:51` [line]   Balrog Strength
+- [ ] `lib/help/corspoil.txt:54` [line] [[[[[BDemon Spirit]
+- [ ] `lib/help/corspoil.txt:55` [line]   Increases your intelligence by 1
+- [ ] `lib/help/corspoil.txt:56` [line]   But reduce your charisma by 2
+- [ ] `lib/help/corspoil.txt:57` [line] [[[[[GGain message: Your spirit opens to corrupted thoughts.]
+- [ ] `lib/help/corspoil.txt:58` [line] [[[[[RLose message: Your spirit closes again to the corrupted thoughts.]
+- [ ] `lib/help/corspoil.txt:61` [line] [[[[[BDemon Hide]
+- [ ] `lib/help/corspoil.txt:62` [line]   Increases your armour class by your level
+- [ ] `lib/help/corspoil.txt:63` [line]   Provides immunity to fire at level 40
+- [ ] `lib/help/corspoil.txt:64` [line]   But reduces speed by your level / 7
+- [ ] `lib/help/corspoil.txt:65` [line] [[[[[GGain message: Your skin grows into a thick hide.]
+- [ ] `lib/help/corspoil.txt:66` [line] [[[[[RLose message: Your skin returns to a natural state.]
+- [ ] `lib/help/corspoil.txt:69` [line] [[[[[BDemon Breath]
+- [ ] `lib/help/corspoil.txt:70` [line]   Provides fire breath
+- [ ] `lib/help/corspoil.txt:71` [line]   But gives a small chance to spoil potions when you quaff them
+- [ ] `lib/help/corspoil.txt:72` [line] [[[[[GGain message: Your breath becomes mephitic.]
+- [ ] `lib/help/corspoil.txt:73` [line] [[[[[RLose message: Your breath is once again normal.]
+- [ ] `lib/help/corspoil.txt:76` [line] [[[[[BDemon Realm]
+- [ ] `lib/help/corspoil.txt:77` [line]   Provides access to the demon school skill and the use of demonic equipment
+- [ ] `lib/help/corspoil.txt:78` [line]   You need Demon Spirit, Demon Hide and Demon Breath to activate it
+- [ ] `lib/help/corspoil.txt:79` [line] [[[[[GGain message: You feel more attuned to the demon realm.]
+- [ ] `lib/help/corspoil.txt:80` [line] [[[[[RLose message: You lose your attunement to the demon realm.]
+- [ ] `lib/help/corspoil.txt:81` [line] It depends on:
+- [ ] `lib/help/corspoil.txt:82` [line]   Demon Spirit
+- [ ] `lib/help/corspoil.txt:83` [line]   Demon Hide
+- [ ] `lib/help/corspoil.txt:84` [line]   Demon Breath
+- [ ] `lib/help/corspoil.txt:87` [line] [[[[[BRandom teleportation]
+- [ ] `lib/help/corspoil.txt:88` [line]   Randomly teleports you around
+- [ ] `lib/help/corspoil.txt:89` [line] [[[[[GGain message: Space seems to fizzle around you.]
+- [ ] `lib/help/corspoil.txt:90` [line] [[[[[RLose message: Space solidify again around you.]
+- [ ] `lib/help/corspoil.txt:91` [line] It is opposed to:
+- [ ] `lib/help/corspoil.txt:92` [line]   Anti-teleportation
+- [ ] `lib/help/corspoil.txt:95` [line] [[[[[BAnti-teleportation]
+- [ ] `lib/help/corspoil.txt:96` [line]   Prevents all teleportations, be it of you or monsters
+- [ ] `lib/help/corspoil.txt:97` [line] [[[[[GGain message: Space continuum freezes around you.]
+- [ ] `lib/help/corspoil.txt:98` [line] [[[[[RLose message: Space continuum can once more be altered around you.]
+- [ ] `lib/help/corspoil.txt:99` [line] It is opposed to:
+- [ ] `lib/help/corspoil.txt:100` [line]   Random teleportation
+- [ ] `lib/help/corspoil.txt:103` [line] [[[[[BTroll Blood]
+- [ ] `lib/help/corspoil.txt:104` [line]   Troll blood flows in your veins, granting increased regeneration
+- [ ] `lib/help/corspoil.txt:105` [line]   It also enables you to feel the presence of other troll beings
+- [ ] `lib/help/corspoil.txt:106` [line]   But it will make your presence more noticeable and aggravating
+- [ ] `lib/help/corspoil.txt:107` [line] [[[[[GGain message: Your blood thickens, you sense corruption in it.]
+- [ ] `lib/help/corspoil.txt:108` [line] [[[[[RLose message: Your blood returns to a normal state.]
+- [ ] `lib/help/corspoil.txt:111` [line] [[[[[BVampiric Teeth]
+- [ ] `lib/help/corspoil.txt:112` [line]   Your teeth allow you to drain blood to feed yourself
+- [ ] `lib/help/corspoil.txt:113` [line]   However your stomach now only accepts blood.
+- [ ] `lib/help/corspoil.txt:114` [line] [[[[[GGain message: You grow vampiric teeth!]
+- [ ] `lib/help/corspoil.txt:115` [line] It is not removable.
+- [ ] `lib/help/corspoil.txt:118` [line] [[[[[BVampiric Strength]
+- [ ] `lib/help/corspoil.txt:119` [line]   Your body seems somewhat dead
+- [ ] `lib/help/corspoil.txt:120` [line]   In this near-undead state it has improved strength, constitution and
+- [ ] `lib/help/corspoil.txt:121` [line]   intelligence, but also reduced dexterity, wisdom and charisma.
+- [ ] `lib/help/corspoil.txt:122` [line] [[[[[GGain message: Your body seems more dead than alive.]
+- [ ] `lib/help/corspoil.txt:123` [line] It is not removable.
+- [ ] `lib/help/corspoil.txt:124` [line] It depends on:
+- [ ] `lib/help/corspoil.txt:125` [line]   Vampiric Teeth
+- [ ] `lib/help/corspoil.txt:128` [line] [[[[[BVampire]
+- [ ] `lib/help/corspoil.txt:129` [line]   You are a Vampire. As such you resist cold, poison, darkness and nether.
+- [ ] `lib/help/corspoil.txt:130` [line]   Your life is sustained, but you cannot stand the light of the sun.
+- [ ] `lib/help/corspoil.txt:131` [line] [[[[[GGain message: You die to be reborn in a Vampire form.]
+- [ ] `lib/help/corspoil.txt:132` [line] It is not removable.
+- [ ] `lib/help/corspoil.txt:133` [line] It depends on:
+- [ ] `lib/help/corspoil.txt:134` [line]   Vampiric Strength

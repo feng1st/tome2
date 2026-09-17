@@ -1,0 +1,453 @@
+# 数据清单：lib/help/option.txt（text，逐条/逐行）
+
+- [ ] `lib/help/option.txt:1` [line] |||||oy
+- [ ] `lib/help/option.txt:2` [line] ~~~~~05|Options
+- [ ] `lib/help/option.txt:3` [line] #####R=== Options and Effects (ToME 2.1.x) ===
+- [ ] `lib/help/option.txt:5` [line] Most of the options are accessible through the '=' command, which provides
+- [ ] `lib/help/option.txt:6` [line] an interface to the various sets of options available to the player.
+- [ ] `lib/help/option.txt:8` [line] In the descriptions below, each option is listed as the textual summary
+- [ ] `lib/help/option.txt:9` [line] which is shown on the options screen, plus the internal name of the
+- [ ] `lib/help/option.txt:10` [line] option in brackets, followed by a textual description of the option.
+- [ ] `lib/help/option.txt:12` [line] Note that the internal name of the option can be used in user pref files
+- [ ] `lib/help/option.txt:13` [line] to force the option to a given setting; see *****command.txt*105["command.txt"] for more info.
+- [ ] `lib/help/option.txt:15` [line] Various concepts are mentioned in the descriptions below, including "disturb"
+- [ ] `lib/help/option.txt:16` [line] (cancel any running, resting, or repeated commands, which are in progress),
+- [ ] `lib/help/option.txt:17` [line] "flush" (forget any keypresses waiting in the keypress queue, including any
+- [ ] `lib/help/option.txt:18` [line] macros in progress), and "fresh" (dump any pending output to the screen).
+- [ ] `lib/help/option.txt:20` [line] ~~~~~06|Options|Startup
+- [ ] `lib/help/option.txt:21` [line] #####R=== Birth/Startup Options ===
+- [ ] `lib/help/option.txt:23` [line] The birth or startup options are only able to be changed during character
+- [ ] `lib/help/option.txt:24` [line] creation, and can be accessed by typing '=' during the creation process. They
+- [ ] `lib/help/option.txt:25` [line] can also be viewed from the option menu while playing, but not changed then.
+- [ ] `lib/help/option.txt:27` [line] #####GMaximise stats    [maximize]
+- [ ] `lib/help/option.txt:28` [line]     Maximise causes the race and class stat bonuses to be applied like
+- [ ] `lib/help/option.txt:29` [line]     equipment bonuses.  This usually makes the character harder at the
+- [ ] `lib/help/option.txt:30` [line]     beginning of the game, but easier later on, since the stats are no longer
+- [ ] `lib/help/option.txt:31` [line]     limited to a "natural" value of 28 (18/100).
+- [ ] `lib/help/option.txt:33` [line] #####GPreserve artifacts    [preserve]
+- [ ] `lib/help/option.txt:34` [line]     Preserve artifacts cancels all level feelings of the "special" variety,
+- [ ] `lib/help/option.txt:35` [line]     but allows missed artifacts to be "saved" by wandering monsters and
+- [ ] `lib/help/option.txt:36` [line]     found again at a later time.  This only works for non-identified artifacts.
+- [ ] `lib/help/option.txt:38` [line] #####GSpecify 'minimal' stats    [autoroll]
+- [ ] `lib/help/option.txt:39` [line]     Uses the standard autoroller for character creation. This allows the player
+- [ ] `lib/help/option.txt:40` [line]     to specify a set of minimum values for the stats, and the game will keep
+- [ ] `lib/help/option.txt:41` [line]     rerolling until it achieves them (or 1 million rolls, whichever comes
+- [ ] `lib/help/option.txt:42` [line]     first).  Be warned, however, that there is a maximum total power permitted
+- [ ] `lib/help/option.txt:43` [line]     for a starting character. Setting one stat to near maximum is easily
+- [ ] `lib/help/option.txt:44` [line]     achievable; 2 is reasonable; but 3 would require the remaining 3 stats to
+- [ ] `lib/help/option.txt:45` [line]     be near their minimum values.
+- [ ] `lib/help/option.txt:47` [line] #####GGenerate character using a point system    [point_based]
+- [ ] `lib/help/option.txt:48` [line]     Allows the player to distribute a certain number of points among her stats.
+- [ ] `lib/help/option.txt:49` [line]     It results in the player being able to get one or two really high stats, at
+- [ ] `lib/help/option.txt:50` [line]     the expense of other not-so-important stats; or to have a well-rounded
+- [ ] `lib/help/option.txt:51` [line]     character who is above average (but not great) in all stats. Unused points
+- [ ] `lib/help/option.txt:52` [line]     convert into starting gold for the player.
+- [ ] `lib/help/option.txt:54` [line] #####GAlways generate very unusual rooms    [ironman_rooms]
+- [ ] `lib/help/option.txt:55` [line]     Tries to place a special room or vault on every dungeon level. Very fun,
+- [ ] `lib/help/option.txt:56` [line]     but extremely deadly - imagine that Greater Checkerboard Vault with Lokkak
+- [ ] `lib/help/option.txt:57` [line]     on dungeon level 1!
+- [ ] `lib/help/option.txt:59` [line] #####GAllow use of some 'joke' monsters    [joke_monsters]
+- [ ] `lib/help/option.txt:60` [line]     Allows monsters flagged as being some of DarkGod's jokes to be generated.
+- [ ] `lib/help/option.txt:62` [line] #####GAlways make small levels    [always_small_level]
+- [ ] `lib/help/option.txt:63` [line]     Overrides the in-game option of small_levels, generating smaller levels
+- [ ] `lib/help/option.txt:64` [line]     whenever possible.
+- [ ] `lib/help/option.txt:66` [line] #####GYou can receive fates, good or bad    [fate_option]
+- [ ] `lib/help/option.txt:67` [line]     Allows the player to turn off ToME's *****fatespoi.txt*0[fates] for that character.
+- [ ] `lib/help/option.txt:69` [line] #####GItems always sell for 0 gold    [no_selling]
+- [ ] `lib/help/option.txt:70` [line]     Disables selling items back to shops for money. The value of gold found in the
+- [ ] `lib/help/option.txt:71` [line]     dungeon is increased to compensate.
+- [ ] `lib/help/option.txt:73` [line] ~~~~~07|Options|Ingame
+- [ ] `lib/help/option.txt:74` [line] #####RIN GAME OPTIONS
+- [ ] `lib/help/option.txt:75` [line] #####R===============
+- [ ] `lib/help/option.txt:77` [line] These options are available from within the game, and can be toggled on and
+- [ ] `lib/help/option.txt:78` [line] off at will during the course of the game.
+- [ ] `lib/help/option.txt:80` [line] ~~~~~08|Options|Interface
+- [ ] `lib/help/option.txt:81` [line] #####R=== Option Set 1 -- User Interface ===
+- [ ] `lib/help/option.txt:83` [line] #####GRogue-like commands    [rogue_like_commands]
+- [ ] `lib/help/option.txt:84` [line]     Selects the "roguelike" command set (see *****command.txt*0["command.txt"] for info).
+- [ ] `lib/help/option.txt:85` [line] ~~~~~1
+- [ ] `lib/help/option.txt:86` [line] #####GActivate quick messages    [quick_messages]
+- [ ] `lib/help/option.txt:87` [line]     Allows the use of any keypress as a response to the "-more-" prompt
+- [ ] `lib/help/option.txt:88` [line]     (useful for monster farming).  Allows most keys to mean "no" to any
+- [ ] `lib/help/option.txt:89` [line]     "[y/n]" prompt.
+- [ ] `lib/help/option.txt:91` [line] #####GPrompt before picking things up    [carry_query_flag]
+- [ ] `lib/help/option.txt:92` [line]     Forces the game to ask you for confirmation when you do something that
+- [ ] `lib/help/option.txt:93` [line]     would normally cause an item to be picked up.
+- [ ] `lib/help/option.txt:94` [line] ~~~~~4
+- [ ] `lib/help/option.txt:95` [line] #####GUse old target by default    [use_old_target]
+- [ ] `lib/help/option.txt:96` [line]     Forces all commands which normally ask for a direction to use the
+- [ ] `lib/help/option.txt:97` [line]     current target if there is one.  If the current target is a monster, it
+- [ ] `lib/help/option.txt:98` [line]     becomes unset when that monster dies.  Use of this option can be dangerous
+- [ ] `lib/help/option.txt:99` [line]     if you target locations on the ground, unless you clear them when done.
+- [ ] `lib/help/option.txt:101` [line] #####GPick things up by default    [always_pickup]
+- [ ] `lib/help/option.txt:102` [line]     Tells the game that walking onto an item should attempt to pick it up.
+- [ ] `lib/help/option.txt:103` [line]     Otherwise, you must use the "g" command, or the "-" command while walking.
+- [ ] `lib/help/option.txt:104` [line]     Combined with "carry_query_flag" (Prompt before picking things up), allows
+- [ ] `lib/help/option.txt:105` [line]     you to selectively pick up all items which you step on.
+- [ ] `lib/help/option.txt:107` [line] #####GPrompt before picking up heavy objects   [prompt_pickup_heavy]
+- [ ] `lib/help/option.txt:108` [line]     Generates a prompt whenever the character tries to pick up an item that
+- [ ] `lib/help/option.txt:109` [line]     would slow him down.
+- [ ] `lib/help/option.txt:111` [line] #####GRepeat obvious commands    [always_repeat]
+- [ ] `lib/help/option.txt:112` [line]     Tells the game that when you attempt to open a door or chest, bash
+- [ ] `lib/help/option.txt:113` [line]     a door, or tunnel through walls, that you wish to repeat the command
+- [ ] `lib/help/option.txt:114` [line]     99 times (see *****command.txt*0["command.txt"]).
+- [ ] `lib/help/option.txt:116` [line] #####GAudible bell (on errors, etc)    [ring_bell]
+- [ ] `lib/help/option.txt:117` [line]     Attempt to make a "bell" noise when various errors occur.
+- [ ] `lib/help/option.txt:119` [line] ~~~~~09|Options|Disturbance
+- [ ] `lib/help/option.txt:120` [line] #####R=== Option Set 2 -- Disturbance ===
+- [ ] `lib/help/option.txt:122` [line] #####GRun past stairs    [find_ignore_stairs]
+- [ ] `lib/help/option.txt:123` [line]     Ignore stairs when running.
+- [ ] `lib/help/option.txt:125` [line] #####GRun through open doors    [find_ignore_doors]
+- [ ] `lib/help/option.txt:126` [line]     Ignore open doors when running.
+- [ ] `lib/help/option.txt:128` [line] #####GRun past known corners    [find_cut]
+- [ ] `lib/help/option.txt:129` [line]     Cut sharply around known corners when running.  This will result in
+- [ ] `lib/help/option.txt:130` [line]     faster running, but may cause you to run into a lurking monster.
+- [ ] `lib/help/option.txt:132` [line] #####GRun into potential corners    [find_examine]
+- [ ] `lib/help/option.txt:133` [line]     Fully explore potential corners in hallways.  This is strongly
+- [ ] `lib/help/option.txt:134` [line]     recommended if your light source has a small radius (e.g. a torch).
+- [ ] `lib/help/option.txt:136` [line] #####GDisturb whenever any monster moves    [disturb_move]
+- [ ] `lib/help/option.txt:137` [line]     Disturb the player when any monster moves, appears, or disappears.
+- [ ] `lib/help/option.txt:138` [line]     This includes monsters which are only visible due to telepathy, so
+- [ ] `lib/help/option.txt:139` [line]     you should probably turn this option off if you want to "rest" near
+- [ ] `lib/help/option.txt:140` [line]     such monsters.
+- [ ] `lib/help/option.txt:142` [line] #####GDisturb whenever viewable monster moves    [disturb_near]
+- [ ] `lib/help/option.txt:143` [line]     Disturb the player when any viewable monster moves, whenever any
+- [ ] `lib/help/option.txt:144` [line]     monster becomes viewable for the first time, and also whenever any
+- [ ] `lib/help/option.txt:145` [line]     viewable monster becomes no longer viewable.  This option ignores
+- [ ] `lib/help/option.txt:146` [line]     the existence of telepathy for the purpose of determining whether
+- [ ] `lib/help/option.txt:147` [line]     a monster is viewable.
+- [ ] `lib/help/option.txt:149` [line] #####GDisturb whenever map panel changes    [disturb_panel]
+- [ ] `lib/help/option.txt:150` [line]     This option causes you to be disturbed (stop running) when the screen
+- [ ] `lib/help/option.txt:151` [line]     scrolls, as it does when you get close to the edge of the visible screen.
+- [ ] `lib/help/option.txt:153` [line] #####GDisturb whenever player state changes    [disturb_state]
+- [ ] `lib/help/option.txt:154` [line]     This option causes you to be disturbed whenever the player state
+- [ ] `lib/help/option.txt:155` [line]     changes, including changes in hunger, resistance, confusion, etc.
+- [ ] `lib/help/option.txt:157` [line] #####GDisturb whenever boring things happen    [disturb_minor]
+- [ ] `lib/help/option.txt:158` [line]     This option causes you to be disturbed by various boring things,
+- [ ] `lib/help/option.txt:159` [line]     including monsters bashing down doors, inventory feelings, and
+- [ ] `lib/help/option.txt:160` [line]     beginning to run out of light-source fuel.
+- [ ] `lib/help/option.txt:162` [line] #####GDisturb whenever random things happen    [disturb_other]
+- [ ] `lib/help/option.txt:163` [line]     In ToME, uncursed teleporting items may teleport you around sometimes,
+- [ ] `lib/help/option.txt:164` [line]     asking for your confirmation (and possibly disturbing your rest). If you
+- [ ] `lib/help/option.txt:165` [line]     unset this option, they will stop asking you and teleporting you randomly.
+- [ ] `lib/help/option.txt:166` [line]     Cursed items will neither ask for confirmation nor stop teleporting you
+- [ ] `lib/help/option.txt:167` [line]     even if this option is unset.  (You may also inscribe an item with {.}
+- [ ] `lib/help/option.txt:168` [line]     to suppress its random-teleportation power, unless it is cursed.)
+- [ ] `lib/help/option.txt:170` [line] #####GAlert user to various failures    [alert_failure]
+- [ ] `lib/help/option.txt:171` [line]     Produce a "bell" noise, and flushes all pending input, when various
+- [ ] `lib/help/option.txt:172` [line]     failures occur, as described above.
+- [ ] `lib/help/option.txt:174` [line] #####GGet last words when the character dies    [last_words]
+- [ ] `lib/help/option.txt:175` [line]     Display a random line  from  the "death.txt" file when your character
+- [ ] `lib/help/option.txt:176` [line]     dies. If this option is not selected, the "You die." message is displayed
+- [ ] `lib/help/option.txt:177` [line]     instead.
+- [ ] `lib/help/option.txt:179` [line] #####GConfirm to wear/wield known cursed items    [confirm_wear]
+- [ ] `lib/help/option.txt:180` [line]     Some players may occasionally, due to a typing mistake, find themselves
+- [ ] `lib/help/option.txt:181` [line]     wearing an item which they knew was cursed. If this option is set, you
+- [ ] `lib/help/option.txt:182` [line]     should be safe from such typing mistakes: you will be prompted if you
+- [ ] `lib/help/option.txt:183` [line]     attempt to wear or wield an item if your character knows it is cursed.
+- [ ] `lib/help/option.txt:185` [line] #####GPrompt before exiting a dungeon level    [confirm_stairs]
+- [ ] `lib/help/option.txt:186` [line]     Some players (such as myself) often accidentally press the '<' key
+- [ ] `lib/help/option.txt:187` [line]     and exit a Special feeling level. If this option is set, the program
+- [ ] `lib/help/option.txt:188` [line]     asks for confirmation before you go up or down the stairs. Others may
+- [ ] `lib/help/option.txt:189` [line]     find the prompt annoying; they should of course not set this option. :-)
+- [ ] `lib/help/option.txt:191` [line] #####GDisturb when visible pets move    [disturb_pets]
+- [ ] `lib/help/option.txt:192` [line]     The player may wish that some of the disturbance options do not apply
+- [ ] `lib/help/option.txt:193` [line]     to pets: for example, it can be annoying if your rest is always disturbed
+- [ ] `lib/help/option.txt:194` [line]     by a pet dog who pops in every now and then. By default, pets do not
+- [ ] `lib/help/option.txt:195` [line]     disturb you even if full monster disturbance options are set. If you
+- [ ] `lib/help/option.txt:196` [line]     want your pets to disturb you like normal monsters, set this option.
+- [ ] `lib/help/option.txt:198` [line] #####GAutomatically open doors    [easy_open]
+- [ ] `lib/help/option.txt:199` [line]     Opens (and unlocks) doors by walking into them.  Also, if you are adjacent
+- [ ] `lib/help/option.txt:200` [line]     to only one known door, using the "o"pen command will not prompt you for
+- [ ] `lib/help/option.txt:201` [line]     a direction.
+- [ ] `lib/help/option.txt:203` [line] #####GAutomatically tunnel walls    [easy_tunnel]
+- [ ] `lib/help/option.txt:204` [line]     Automatically tunnels into walls by walking into them.
+- [ ] `lib/help/option.txt:206` [line] ~~~~~10|Options|Game-play
+- [ ] `lib/help/option.txt:207` [line] #####R=== Option Set 3 -- Game-play ===
+- [ ] `lib/help/option.txt:209` [line] #####GAuto-haggle in stores    [auto_haggle]
+- [ ] `lib/help/option.txt:210` [line]     Disable haggling in stores, resulting in a ten percent sales tax
+- [ ] `lib/help/option.txt:211` [line]     on items which you would have otherwise been forced to haggle for.
+- [ ] `lib/help/option.txt:212` [line]     When this option is on, all prices listed in stores will be the
+- [ ] `lib/help/option.txt:213` [line]     actual price that you pay for an item, as opposed to the price
+- [ ] `lib/help/option.txt:214` [line]     that the shop-keeper will suggest.
+- [ ] `lib/help/option.txt:216` [line] #####GAuto-scum for good levels    [auto_scum]
+- [ ] `lib/help/option.txt:217` [line]     This is a hack but allows you to force the generation of "good" levels
+- [ ] `lib/help/option.txt:218` [line]     in the dungeon.  This option may be extremely slow on some machines,
+- [ ] `lib/help/option.txt:219` [line]     especially deep in the dungeon.  The minimum "goodness" of the level
+- [ ] `lib/help/option.txt:220` [line]     is based on the dungeon level, so the deeper you go, the better the
+- [ ] `lib/help/option.txt:221` [line]     level will be.
+- [ ] `lib/help/option.txt:223` [line] #####GExpand the power of the look command    [expand_look]
+- [ ] `lib/help/option.txt:224` [line]     Expand the "l"ook command to allow the user to look at grids which
+- [ ] `lib/help/option.txt:225` [line]     are not actually in view of the player, allowing the examination of
+- [ ] `lib/help/option.txt:226` [line]     objects/monsters which have only been detected by spells, or sensed
+- [ ] `lib/help/option.txt:227` [line]     via telepathy.
+- [ ] `lib/help/option.txt:229` [line] #####GExpand the power of the list commands    [expand_list]
+- [ ] `lib/help/option.txt:230` [line]     Expand the "listing" commands so that they wrap at the edges of
+- [ ] `lib/help/option.txt:231` [line]     the appropriate list.  This allows the "l"ook and "t"arget commands
+- [ ] `lib/help/option.txt:232` [line]     to cycle through all appropriate grids forever, and the "identify
+- [ ] `lib/help/option.txt:233` [line]     symbol" to browse through all of the monsters of a given type.
+- [ ] `lib/help/option.txt:235` [line] #####GMap remembers all perma-lit grids    [view_perma_grids]
+- [ ] `lib/help/option.txt:236` [line]     Memorise all perma-lit floor grids which are seen by the player.
+- [ ] `lib/help/option.txt:237` [line]     This option allows you to keep track of which explored floor grids
+- [ ] `lib/help/option.txt:238` [line]     were perma-lit, but does not distinguish between dark floor grids,
+- [ ] `lib/help/option.txt:239` [line]     unexplored floor grids, and unknown grids.  Turning off this option
+- [ ] `lib/help/option.txt:240` [line]     allows the player to always know which lit floor grids are in line
+- [ ] `lib/help/option.txt:241` [line]     of sight, but this is better accomplished by the "view_bright_lite"
+- [ ] `lib/help/option.txt:242` [line]     option.  Note that any non-floor grids which is seen by the player
+- [ ] `lib/help/option.txt:243` [line]     are always memorised, and any object which is seen by the player is
+- [ ] `lib/help/option.txt:244` [line]     memorised independently from the memorisation of the grid itself.
+- [ ] `lib/help/option.txt:246` [line] #####GMap remembers all torch-lit grids    [view_torch_grids]
+- [ ] `lib/help/option.txt:247` [line]     Memorise all (torch-lit) floor grids which are seen by the player.
+- [ ] `lib/help/option.txt:248` [line]     This option not only allows you to keep track of which floor grids
+- [ ] `lib/help/option.txt:249` [line]     have been explored, but also which ones are dark, because the use
+- [ ] `lib/help/option.txt:250` [line]     of this option activates a special color scheme for the display of
+- [ ] `lib/help/option.txt:251` [line]     floor grids, in which dark grids are drawn in dark grey, lit grids
+- [ ] `lib/help/option.txt:252` [line]     are drawn in white, and (if the "view_bright_lite" option is set)
+- [ ] `lib/help/option.txt:253` [line]     lit grids which are also in line of sight are drawn in orange.  Note
+- [ ] `lib/help/option.txt:254` [line]     that grids which are currently torch-lit are considered to be "lit",
+- [ ] `lib/help/option.txt:255` [line]     and are thus drawn in white, unless the "view_yellow_lite" option is
+- [ ] `lib/help/option.txt:256` [line]     set, in which case they are drawn in yellow.
+- [ ] `lib/help/option.txt:258` [line] #####GAllow some monsters to carry light    [monster_lite]
+- [ ] `lib/help/option.txt:259` [line]     This option allows some monsters to carry light sources around with them,
+- [ ] `lib/help/option.txt:260` [line]     lighting up the space around them. It can also allow you to see when some
+- [ ] `lib/help/option.txt:261` [line]     monsters are heading your way before they reach the bend in the corridor
+- [ ] `lib/help/option.txt:262` [line]     where you are hiding in ambush....
+- [ ] `lib/help/option.txt:264` [line] #####GGenerate dungeons with aligned rooms    [dungeon_align]
+- [ ] `lib/help/option.txt:265` [line]     Force all rooms to be aligned with the "panel" divisions.  This results
+- [ ] `lib/help/option.txt:266` [line]     in a much prettier dungeon, but may result in fewer greater vaults.
+- [ ] `lib/help/option.txt:268` [line] #####GGenerate dungeons with connected stairs    [dungeon_stair]
+- [ ] `lib/help/option.txt:269` [line]     Always generate a staircase back to the level whence you came, if you used
+- [ ] `lib/help/option.txt:270` [line]     a staircase to get to the level.  This is more "realistic", and safer,
+- [ ] `lib/help/option.txt:271` [line]     but less of a challenge for some people.
+- [ ] `lib/help/option.txt:273` [line] #####GMonsters chase current location (v.slow)    [flow_by_sound]
+- [ ] `lib/help/option.txt:274` [line]     Allow monsters to make paths to the player when they are nearby.  This
+- [ ] `lib/help/option.txt:275` [line]     option is extremely slow, but can produce viciously smart monsters.
+- [ ] `lib/help/option.txt:276` [line] ~~~~~3
+- [ ] `lib/help/option.txt:277` [line] #####GMonsters learn from their mistakes    [smart_learn]
+- [ ] `lib/help/option.txt:278` [line]     Allow monsters to learn what spell attacks you are resistant to,
+- [ ] `lib/help/option.txt:279` [line]     and to use this information to choose the best attacks.
+- [ ] `lib/help/option.txt:281` [line] #####GAllow unusually small dungeon levels    [small_levels]
+- [ ] `lib/help/option.txt:282` [line]     This option enables the creation of levels of varying sizes. Levels
+- [ ] `lib/help/option.txt:283` [line]     that are as small as one "screen" (80x24) are possible, and they can be
+- [ ] `lib/help/option.txt:284` [line]     quite dangerous, especially for a low level character, because they have
+- [ ] `lib/help/option.txt:285` [line]     as many monsters and traps as their full-sized counterparts.
+- [ ] `lib/help/option.txt:286` [line]     Note that this option has the side effect of enabling / disabling
+- [ ] `lib/help/option.txt:287` [line]     'destroyed' levels (they are enabled if small levels are).
+- [ ] `lib/help/option.txt:289` [line] #####GAllow empty 'arena' levels      [empty_levels]
+- [ ] `lib/help/option.txt:290` [line]     Normal dungeon levels consist mostly of rock. If this option is in
+- [ ] `lib/help/option.txt:291` [line]     use, levels which have empty floor instead of solid rock may also
+- [ ] `lib/help/option.txt:292` [line]     be created (somewhat reminiscent of Nethack's "big-room" levels).
+- [ ] `lib/help/option.txt:293` [line]     These levels can be extremely deadly, especially with breathing
+- [ ] `lib/help/option.txt:294` [line]     monsters (since there are few obstructions to shield you). Arena levels
+- [ ] `lib/help/option.txt:295` [line]     may have vaults, nests and pits in them like normal levels. Some
+- [ ] `lib/help/option.txt:296` [line]     arena levels are dark when they are created, but most are lit.
+- [ ] `lib/help/option.txt:298` [line] ~~~~~11|Options|Efficiency
+- [ ] `lib/help/option.txt:299` [line] #####R=== Option Set 4 -- Efficiency ===
+- [ ] `lib/help/option.txt:301` [line] #####GReduce lite-radius when running    [view_reduce_lite]
+- [ ] `lib/help/option.txt:302` [line]     Reduce the radius of the player's light to that of a torch (radius 1)
+- [ ] `lib/help/option.txt:303` [line]     when the player is running, which makes running more efficient (CPU-wise),
+- [ ] `lib/help/option.txt:304` [line]     but is extremely annoying.  Certain older versions of Angband used
+- [ ] `lib/help/option.txt:305` [line]     this behavior always, so "purists" should turn it on.
+- [ ] `lib/help/option.txt:307` [line] #####GAvoid checking for user abort    [avoid_abort]
+- [ ] `lib/help/option.txt:308` [line]     Avoid checking to see if the user has pressed a key during resting
+- [ ] `lib/help/option.txt:309` [line]     or running or repeated commands.  This not only makes the game much
+- [ ] `lib/help/option.txt:310` [line]     more efficient (on many systems), but also allows the use of certain
+- [ ] `lib/help/option.txt:311` [line]     obscure macro sequences, such as turning this option on, resting until
+- [ ] `lib/help/option.txt:312` [line]     done, turning this option off, and casting a spell.  Note that the use
+- [ ] `lib/help/option.txt:313` [line]     of this option may be dangerous on certain "graphic" machines.  Resting
+- [ ] `lib/help/option.txt:314` [line]     for long periods of time with this option set is dangerous since the
+- [ ] `lib/help/option.txt:315` [line]     resting may not stop until the user takes damage from starvation.
+- [ ] `lib/help/option.txt:317` [line] #####GAvoid processing special colors    [avoid_other]
+- [ ] `lib/help/option.txt:318` [line]     Avoid processing the "multi-hued" or "clear" attributes of monsters.
+- [ ] `lib/help/option.txt:319` [line]     This will cause all multi-hued monsters to appear violet and all
+- [ ] `lib/help/option.txt:320` [line]     clear monsters to appear white, and will cause trappers and lurkers to
+- [ ] `lib/help/option.txt:321` [line]     be visible on some machines, but it may greatly increase efficiency
+- [ ] `lib/help/option.txt:322` [line]     especially when telepathy is active.  Certain systems may choose to set
+- [ ] `lib/help/option.txt:323` [line]     this option if they are unable to support the special color processing,
+- [ ] `lib/help/option.txt:324` [line]     but if they handle graphics "correctly", by using attr/char pairs with
+- [ ] `lib/help/option.txt:325` [line]     the "high bits" set, then not only will the game correctly avoid using
+- [ ] `lib/help/option.txt:326` [line]     any "dangerous" color processing, but it will allow such processing to
+- [ ] `lib/help/option.txt:327` [line]     occur when it is not dangerous.  So if you are using graphics, and you
+- [ ] `lib/help/option.txt:328` [line]     use a normal attr/char for the floor grids, then you can use the
+- [ ] `lib/help/option.txt:329` [line]     "special lighting effects" for floors.
+- [ ] `lib/help/option.txt:331` [line] #####GFlush input on various failures    [flush_failure]
+- [ ] `lib/help/option.txt:332` [line]     This option forces the game to flush all pending input whenever various
+- [ ] `lib/help/option.txt:333` [line]     "failures" occur, such as failure to cast a spell, failure to use a wand,
+- [ ] `lib/help/option.txt:334` [line]     etc.  This is very useful if you use macros which include "directional"
+- [ ] `lib/help/option.txt:335` [line]     components with commands that can fail, since it will prevent you from
+- [ ] `lib/help/option.txt:336` [line]     walking towards monsters when your spells fail.
+- [ ] `lib/help/option.txt:338` [line] #####GFlush input whenever disturbed    [flush_disturb]
+- [ ] `lib/help/option.txt:339` [line]     This option forces the game to flush all pending input whenever the
+- [ ] `lib/help/option.txt:340` [line]     character is "disturbed".  This is useful if you use macros which take
+- [ ] `lib/help/option.txt:341` [line]     time, since it will prevent you from continuing your macro while being
+- [ ] `lib/help/option.txt:342` [line]     attacked by a monster.
+- [ ] `lib/help/option.txt:344` [line] #####GFlush input before every command    [flush_command]
+- [ ] `lib/help/option.txt:345` [line]     This option forces the game to flush all pending input before every
+- [ ] `lib/help/option.txt:346` [line]     command.  This option is silly, unless you are very paranoid.
+- [ ] `lib/help/option.txt:348` [line] #####GFlush output before every command    [fresh_before]
+- [ ] `lib/help/option.txt:349` [line]     This option forces the game to flush all output before every command.
+- [ ] `lib/help/option.txt:350` [line]     This will give you maximal information, but may slow down the game
+- [ ] `lib/help/option.txt:351` [line]     somewhat.  Note that this option is only useful when using macros,
+- [ ] `lib/help/option.txt:352` [line]     resting, running, or repeating commands, since the output is always
+- [ ] `lib/help/option.txt:353` [line]     flushed when the game is waiting for a keypress from the user.
+- [ ] `lib/help/option.txt:355` [line] #####GFlush output after every command    [fresh_after]
+- [ ] `lib/help/option.txt:356` [line]     This option forces the game to flush all output after not only every
+- [ ] `lib/help/option.txt:357` [line]     player command, but also after every round of processing monsters and
+- [ ] `lib/help/option.txt:358` [line]     objects, which will give you maximal information, but may slow down
+- [ ] `lib/help/option.txt:359` [line]     the game a lot, especially on slower machines; and on faster machines
+- [ ] `lib/help/option.txt:360` [line]     you normally do not have a chance to see the results anyway.
+- [ ] `lib/help/option.txt:362` [line] #####GFlush output after every message    [fresh_message]
+- [ ] `lib/help/option.txt:363` [line]     This option forces the game to flush all output after every message
+- [ ] `lib/help/option.txt:364` [line]     displayed by the game.  This will give you maximal information, but
+- [ ] `lib/help/option.txt:365` [line]     may slow down the game somewhat.
+- [ ] `lib/help/option.txt:367` [line] ~~~~~2
+- [ ] `lib/help/option.txt:368` [line] #####GHilite the player with the cursor    [hilite_player]
+- [ ] `lib/help/option.txt:369` [line]     Place the visible cursor on the player.  This looks fine on some Unix
+- [ ] `lib/help/option.txt:370` [line]     machines, but horrible on most graphics machines.  Note that only some
+- [ ] `lib/help/option.txt:371` [line]     machines are able to *not* show the cursor, but on those machines, hiding
+- [ ] `lib/help/option.txt:372` [line]     the cursor often speeds up the game and looks better.
+- [ ] `lib/help/option.txt:374` [line] #####GUse special colors for torch-lit grids    [view_yellow_lite]
+- [ ] `lib/help/option.txt:375` [line]     This option causes special colors to be used for "torch-lit" grids in
+- [ ] `lib/help/option.txt:376` [line]     certain situations (see "view_granite_lite" and "view_special_lite").
+- [ ] `lib/help/option.txt:377` [line]     Turning this option off will slightly improve game speed.
+- [ ] `lib/help/option.txt:379` [line] #####GUse special colors for 'viewable' grids    [view_bright_lite]
+- [ ] `lib/help/option.txt:380` [line]     This option causes special colors to be used for non "viewable" grids
+- [ ] `lib/help/option.txt:381` [line]     in certain situations (see "view_granite_lite" and "view_special_lite").
+- [ ] `lib/help/option.txt:382` [line]     When this option is set, floor grids which are normally drawn in white
+- [ ] `lib/help/option.txt:383` [line]     but which are not currently viewable by the player are instead drawn
+- [ ] `lib/help/option.txt:384` [line]     in dark grey.  This makes the viewable grids appear brighter than the
+- [ ] `lib/help/option.txt:385` [line]     others, allowing the player to easily determine which floor grids are
+- [ ] `lib/help/option.txt:386` [line]     in line of sight.  Turning this option off will probably increase the
+- [ ] `lib/help/option.txt:387` [line]     speed of the game.
+- [ ] `lib/help/option.txt:389` [line] #####GUse special colors for wall grids (slow)    [view_granite_lite]
+- [ ] `lib/help/option.txt:390` [line]     This option activates a special color scheme for all wall grids which
+- [ ] `lib/help/option.txt:391` [line]     are normally drawn in white (as walls and rubble normally are).  When
+- [ ] `lib/help/option.txt:392` [line]     the player is blind, we use dark grey, else if the grid is torch-lit,
+- [ ] `lib/help/option.txt:393` [line]     we use yellow (or white, depending on the "view_yellow_lite" option),
+- [ ] `lib/help/option.txt:394` [line]     else if the "view_bright_lite" option is set, and the grid is not in line
+- [ ] `lib/help/option.txt:395` [line]     of sight, or the grid is dark, or the grid is only "partially" lit, then
+- [ ] `lib/help/option.txt:396` [line]     we use grey, otherwise we use the normal white.  Turning this option
+- [ ] `lib/help/option.txt:397` [line]     off will probably increase the speed of the game.
+- [ ] `lib/help/option.txt:399` [line] #####GUse special colors for floor grids (slow)    [view_special_lite]
+- [ ] `lib/help/option.txt:400` [line]     This option activates a special color scheme for all floor grids which
+- [ ] `lib/help/option.txt:401` [line]     are normally drawn in white (as they normally are).  When the player is
+- [ ] `lib/help/option.txt:402` [line]     blind, we use dark grey, else if the grid is torch-lit, we use yellow
+- [ ] `lib/help/option.txt:403` [line]     (or white, depending on the "view_yellow_lite" option), else if the grid
+- [ ] `lib/help/option.txt:404` [line]     is dark, we use dark grey, else if the "view_bright_lite" option is
+- [ ] `lib/help/option.txt:405` [line]     set, and the grid is not in line of sight, we use grey, otherwise we
+- [ ] `lib/help/option.txt:406` [line]     use the normal white.  Turning this option off will probably increase
+- [ ] `lib/help/option.txt:407` [line]     the speed of the game.
+- [ ] `lib/help/option.txt:409` [line] #####GCentre the view on the player (very slow)    [center_player]
+- [ ] `lib/help/option.txt:410` [line]     Keeps the player's character in the centre of the screen, and moves the
+- [ ] `lib/help/option.txt:411` [line]     dungeon around the player. Can be useful to prevent off-screen breaths.
+- [ ] `lib/help/option.txt:413` [line] ~~~~~12|Options|ToME Options
+- [ ] `lib/help/option.txt:414` [line] #####R=== ToME Options ===
+- [ ] `lib/help/option.txt:416` [line] Features which are unique to ToME are collected in this menu.
+- [ ] `lib/help/option.txt:418` [line] #####GIngame contextual help    [ingame_help]
+- [ ] `lib/help/option.txt:419` [line]     Setting this option allows the game to trigger a help message the first
+- [ ] `lib/help/option.txt:420` [line]     time you come across an item or some other trigger. This is very useful
+- [ ] `lib/help/option.txt:421` [line]     for new players.  More experienced players may wish to switch this option
+- [ ] `lib/help/option.txt:422` [line]     off.
+- [ ] `lib/help/option.txt:424` [line] #####GUse the old(Z) coloring scheme(reload the game)    [old_colors]
+- [ ] `lib/help/option.txt:425` [line]     Setting this option toggles the ASCII game colour display from the
+- [ ] `lib/help/option.txt:426` [line]     standard Angband monster colours to the Zangband-based monster colours.
+- [ ] `lib/help/option.txt:427` [line]     Since this alters the display and monster memory display, you need to
+- [ ] `lib/help/option.txt:428` [line]     reload the game when you alter this setting before it will display the
+- [ ] `lib/help/option.txt:429` [line]     new colours.
+- [ ] `lib/help/option.txt:431` [line] #####GAutomatically clear '-more-' prompts    [auto_more]
+- [ ] `lib/help/option.txt:432` [line]     Setting this option automatically clears any messages from the top
+- [ ] `lib/help/option.txt:433` [line]     of the window. Be warned that this could be dangerous, as you don't
+- [ ] `lib/help/option.txt:434` [line]     actually get to see the messages unless you use ^P.
+- [ ] `lib/help/option.txt:436` [line] #####GPlayer char represent his/her health    [player_char_health]
+- [ ] `lib/help/option.txt:437` [line]     Setting this option only affects the game when playing without tiles.
+- [ ] `lib/help/option.txt:438` [line]     As the player becomes injured, his icon changes to a figure representing
+- [ ] `lib/help/option.txt:439` [line]     the percentage of health remaining; for example if he is down to 68% of
+- [ ] `lib/help/option.txt:440` [line]     his maximum hitpoints, his character will be a '6' instead of an '@'.
+- [ ] `lib/help/option.txt:441` [line]     The character used only starts changing once the player has lost at
+- [ ] `lib/help/option.txt:442` [line]     least 30% of his maximum hitpoints.
+- [ ] `lib/help/option.txt:444` [line] #####GStats are represented in a linear way    [linear_stats]
+- [ ] `lib/help/option.txt:445` [line]     Setting this option alters the display of character stats. The default
+- [ ] `lib/help/option.txt:446` [line]     is 3 to 40 (linear), but the older 3 to 18/220 (Moria/Angband style) is
+- [ ] `lib/help/option.txt:447` [line]     retained for players who prefer it.
+- [ ] `lib/help/option.txt:449` [line] #####GIn option windows, just omit the select char    [inventory_no_move]
+- [ ] `lib/help/option.txt:450` [line]     If this option is set, the equipment/inventory windows don't move items
+- [ ] `lib/help/option.txt:451` [line]     around when a prompt asks for an item.
+- [ ] `lib/help/option.txt:454` [line] #####R=== Stacking Options ===
+- [ ] `lib/help/option.txt:456` [line] In ToME items are allowed to stack on floors and monsters are allowed to
+- [ ] `lib/help/option.txt:457` [line] maintain inventories. These features are enabled by default, and aren't
+- [ ] `lib/help/option.txt:458` [line] accessible through the option menu, but can still be disabled through
+- [ ] `lib/help/option.txt:459` [line] user pref files (see *****command.txt*105["command.txt"]).
+- [ ] `lib/help/option.txt:461` [line] #####GAllow objects to stack on the floor   [testing_stack]
+- [ ] `lib/help/option.txt:462` [line]         Allows a cave grid to hold more than one object (or one kind of
+- [ ] `lib/help/option.txt:463` [line]         object).
+- [ ] `lib/help/option.txt:465` [line] #####GAllow monsters to carry objects    [testing_carry]
+- [ ] `lib/help/option.txt:466` [line]         If this option is set, monsters which "pick up" objects will drop
+- [ ] `lib/help/option.txt:467` [line]         the objects they were carrying when you kill them. Note that monsters
+- [ ] `lib/help/option.txt:468` [line]         which "crush" objects are not affected by this option.
+- [ ] `lib/help/option.txt:470` [line] ~~~~~13|Options|Base Delay Factor
+- [ ] `lib/help/option.txt:471` [line] #####R=== Base Delay Factor ===
+- [ ] `lib/help/option.txt:473` [line] The "delay_factor" value, if non-zero, is used to slow down the game, which is
+- [ ] `lib/help/option.txt:474` [line] useful to allow you to observe the temporal effects of bolt, beam, and ball
+- [ ] `lib/help/option.txt:475` [line] attacks.  The actual delay is equal to "delay_factor" cubed, in milliseconds.
+- [ ] `lib/help/option.txt:476` [line] Frequently used factors are 2 or 3.
+- [ ] `lib/help/option.txt:478` [line] ~~~~~14|Options|Hitpoint Warning
+- [ ] `lib/help/option.txt:479` [line] #####R=== Hitpoint Warning ===
+- [ ] `lib/help/option.txt:481` [line] The "hitpoint_warn" value, if non-zero, is the percentage of maximal hitpoints
+- [ ] `lib/help/option.txt:482` [line] at which the player is warned that he may die.  It is also used as the cut-off
+- [ ] `lib/help/option.txt:483` [line] for using red to display hitpoints, mana and sanity. It is entered as a value
+- [ ] `lib/help/option.txt:484` [line] between 0 and 9 (0% and 90%).
+- [ ] `lib/help/option.txt:486` [line] ~~~~~15|Options|Autosave
+- [ ] `lib/help/option.txt:487` [line] #####R=== Autosave Options ===
+- [ ] `lib/help/option.txt:489` [line] Ideally, the game should be so stable that these options are not needed
+- [ ] `lib/help/option.txt:490` [line] at all. However, even if the game were 100% reliable (which, to be frank, it
+- [ ] `lib/help/option.txt:491` [line] probably is not), the user might forget to save, and his hardware could fail
+- [ ] `lib/help/option.txt:492` [line] him. For all of these reasons, you may want to use these options:
+- [ ] `lib/help/option.txt:494` [line] #####GAutosave when entering new levels    [autosave_l]
+- [ ] `lib/help/option.txt:495` [line]         If this option is set, the program will attempt to save your
+- [ ] `lib/help/option.txt:496` [line]         character every time before creating a new dungeon level. Useful
+- [ ] `lib/help/option.txt:497` [line]         if you experience any game or computer crashes (or your dog enjoys
+- [ ] `lib/help/option.txt:498` [line]         kicking your power cords out of the wall like mine does!).
+- [ ] `lib/help/option.txt:500` [line] #####GTimed autosave    [autosave_t]
+- [ ] `lib/help/option.txt:501` [line]         If this option is set, the program will attempt to save your
+- [ ] `lib/help/option.txt:502` [line]         character every n game turns, where n is the "frequency".  To set
+- [ ] `lib/help/option.txt:503` [line] 	frequency, press n: it will increase the frequency to the next
+- [ ] `lib/help/option.txt:504` [line] 	category, these being every 50, 100, 250, 500, 1000, 2500, 5000,
+- [ ] `lib/help/option.txt:505` [line] 	10000 or 25000 turns. (After 25000, pressing n again will cycle back
+- [ ] `lib/help/option.txt:506` [line] 	to 0.) Note that the frequency must be higher than 0 and the
+- [ ] `lib/help/option.txt:507` [line] 	"Timed autosave" set to "yes" for timed autosaves to take place.
+- [ ] `lib/help/option.txt:509` [line] ~~~~~16|Options|Automatizer
+- [ ] `lib/help/option.txt:510` [line] #####R=== The Automatizer ===
+- [ ] `lib/help/option.txt:512` [line] Allows you to set options for the game to automatically destroy or pick up
+- [ ] `lib/help/option.txt:513` [line] objects when you identify them, for example skeletons, essences, cursed
+- [ ] `lib/help/option.txt:514` [line] daggers, etc. Useful for reducing the clutter in the dungeon, and reducing the
+- [ ] `lib/help/option.txt:515` [line] amount of loot to have to sort through. This *****automat.txt*0[Tutorial] may help you.
+- [ ] `lib/help/option.txt:517` [line] ~~~~~17|Options|Window Flags
+- [ ] `lib/help/option.txt:518` [line] #####R=== Window Flags ===
+- [ ] `lib/help/option.txt:520` [line] Selects what kind of information is displayed in which window, on platforms
+- [ ] `lib/help/option.txt:521` [line] which use multiple windows.
+- [ ] `lib/help/option.txt:523` [line] You can select a window to be able to toggle between 2 different
+- [ ] `lib/help/option.txt:524` [line] sets of information (e.g. Basic Character stats and monster recall)
+- [ ] `lib/help/option.txt:525` [line] by pressing the "y" key over the second display option.
+- [ ] `lib/help/option.txt:527` [line] ~~~~~18|Options|Cheating
+- [ ] `lib/help/option.txt:528` [line] #####R=== Cheating Options ===
+- [ ] `lib/help/option.txt:530` [line] #####GPeek into object creation    [cheat_peek]
+- [ ] `lib/help/option.txt:531` [line]     Cheaters never win.  But they can peek at object creation.
+- [ ] `lib/help/option.txt:533` [line] #####GPeek into monster creation    [cheat_hear]
+- [ ] `lib/help/option.txt:534` [line]     Cheaters never win.  But they can peek at monster creation.
+- [ ] `lib/help/option.txt:536` [line] #####GPeek into dungeon creation    [cheat_room]
+- [ ] `lib/help/option.txt:537` [line]     Cheaters never win.  But they can peek at room creation.
+- [ ] `lib/help/option.txt:539` [line] #####GPeek into something else    [cheat_xtra]
+- [ ] `lib/help/option.txt:540` [line]     Cheaters never win.  But they can see debugging messages.
+- [ ] `lib/help/option.txt:542` [line] #####GKnow complete monster info    [cheat_know]
+- [ ] `lib/help/option.txt:543` [line]     Cheaters never win.  But they can know all about monsters.
+- [ ] `lib/help/option.txt:545` [line] #####GAllow player to avoid death    [cheat_live]
+- [ ] `lib/help/option.txt:546` [line]     Cheaters never win.  But they can cheat death.
+- [ ] `lib/help/option.txt:548` [line] ~~~~~19|Options|Dump/Load Options
+- [ ] `lib/help/option.txt:549` [line] #####R=== Dump Options ===
+- [ ] `lib/help/option.txt:551` [line] Allows the player to save the options to a file (defaults to charname.prf)
+- [ ] `lib/help/option.txt:552` [line] so that they can be reloaded into other character files.
+- [ ] `lib/help/option.txt:555` [line] #####R=== Load Options ===
+- [ ] `lib/help/option.txt:557` [line] Allows you to load a preference file saved through the "Dump Options"
+- [ ] `lib/help/option.txt:558` [line] command in another character file, hence saving all the initial time of having
+- [ ] `lib/help/option.txt:559` [line] to reset all the options every time you wish to play.
+- [ ] `lib/help/option.txt:562` [line] +++ Ben +++ (Updated by Dark God and Dawnmist et al. for ToME)

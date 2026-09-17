@@ -1,0 +1,208 @@
+自动生成的数据枚举清单。逐条对照 bevy 的 RON/代码标注：
+`[x]`=该记录已进 RON 且其特殊行为已消费；`[>]`=进 RON 但行为部分缺失；`[ ]`=缺失；`[~]`=数据死条目/Theme/前端。
+
+# world / towns / quest maps
+
+## w_info.txt — world map
+
+- [x] `w` W:D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX — represented in world.ron
+- [x] `w` W:D:XgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:XgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:Xggggggggggg=========g=========gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:Xgggggg========t===ggg==========gggggtggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:Xggggg=========gtgg^g======ggg=gggggggggggtggtggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:Xggg=========gg^t^^g========ggggt^g^ttggtgtgggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:X==========,,,,&__ttgg=ggg=ggggt^^%t^^^tg&ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggX — represented in world.ron
+- [x] `w` W:D:X========..tt&&&^__,ttttttttttttt,gttttt&&&&ggtggggggggggtgggggtgggggggggggggggggtggggggggggggggtgggX — represented in world.ron
+- [x] `w` W:D:X===^===....,&&&,t__,,,,,,g,t,,,,,,,,tttgt&^^&g&g&ggtggggggggggggggggtttggtgggggggtgggtgggggtgggggggX — represented in world.ron
+- [x] `w` W:D:X=========.,.&&,,,,__t,,,,,t,,,,t,t,,,,,tttt&t&^MMM&ggggg&g&&&gggttttttgtttgttttttttttttttttttttttttX — represented in world.ron
+- [x] `w` W:D:X=========.,.&&,,_,__,,,,,,,,,,,,,,,,,,,,,tttg...2Mt&&&&&&&t&t&&&&tgttttttttttttgtttttttttttttttttttX — represented in world.ron
+- [x] `w` W:M:0:1 — represented in world.ron
+- [x] `w` W:D:X=========.,.&&,,_,__,,,,,,,,,,,,,,,,,,,,,tttg...PMt&&&&&&&t&t&&&&tgttttttttttttgtttttttttttttttttttX — represented in world.ron
+- [x] `w` W:D:X========..T.&___.___,,^,,,,,,,,,,,,,,,,,,tttt.&MMM^^__t^&&&,t^^ttttt,t,t,ttttttttttttttttttttttttttX — represented in world.ron
+- [x] `w` W:D:X======.,..__&&,,,,__,,^^,,,,,,,,,,,,,,,,,t....t&&t^^__^__&.&,&&&^^,,t,,,,,,,,t,t,t,ttttttttttttttttX — represented in world.ron
+- [x] `w` W:D:X=====,..__.T&&..,,__,,^^,,,,.,,,^^,,,,,,,,^^^t^&&&&,__^__tTTT,,,,,,,,,,,,t,,,,,,,,,,,,,t,ttttttttttX — represented in world.ron
+- [x] `w` W:D:X===....__.,.&&,.,,__,,_^,,,,,,,,^^,,,,,,,,^^,^^^_&_^^__TT__T_TT,,&_,,,,,,,,,,,,,^,^,t,,,,,,t,ttttttX — represented in world.ron
+- [x] `w` W:D:X===..,.__.TT&&..,__,__^^==,,.,^^,,.,,.,,,,^^____^&&___,TTTT_T__,,__,,,,^^,^^^^^^^^,,,,,t,,,,,,,,,,tX — represented in world.ron
+- [x] `w` W:D:X===....__..T&&....__,^^=,__....,.....,,.,,^__^^,^&&,__,TTTTT__T_==,,,,,,,^_,,^,,,,,,,,,,,,,,t,t,,,,X — represented in world.ron
+- [x] `w` W:D:X===...__..TT&&...__,.^^^..__.........,,,,,__^^^^^&&,__,TTTTTT_TT_=,,,,,,,__,,,,,,,,,,,,,,,,,,,,,,t,X — represented in world.ron
+- [x] `w` W:D:X===...__..TT&&&..__..^..,.__...,..^..,,,,__^.^^^^&&,__,TTTTT&T&T__,,,,,,,,,__,,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X===....==..T.&..__..,.....__TTT....^^...__..TTT._&&..__,TTT&T&T&T__,,,,,,,,,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X====...==.....==......^...__TTTT.1.^^..,__...T__&&...__.TTTTTTTTT__,,,,,,,,__,,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X=====..========...^.^......__TTT._.^....__..,__._&...__.TTTTTTTTTT,__,,,,,,,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X==============..............__TT........__..__^_&&..,.__.TTTTTTTTT,__,,,,,,,,__,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X======..==....&&............__..^^^....__...__^&&.....__.*TTTTTTT,,,__,,,,,,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X======........&&......,.....__...^.^...__.__.^^&&..._.__.TTTTTTTT..,,______,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X======........&&............__.,......__..__.^^&&___.___.TTTTTTTT....,,.,,,__,,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X======........&&....^......__..........___...^^&&.....__.TTTTT.T.,.....,,,,,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X=======.....T&&&..^^^^....__..........__....^^&&^...,__...TTTT......,....,,,__,,,,,,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========..T&&&T.......__..........__......^^&&&&^..__...TTTT...........,,,,__,,,_,,,,,,,T,T,,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========..TTT&&T&&...__........,___......^)^&&.&^.__.....TTTTTT....,.....,,__,__,_=,,,TTTTTT,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========...TT&TT..___.__.......__.@__..._^^^&&....__..TTTTTTTTTT...........,,_,.,,==...T=_TT,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========.....T.T.__.._........__..._____^___&__...__,TTTTTTTTTT...,..,..,....,,,,,========TT,,,,,X — represented in world.ron
+- [x] `w` W:D:X===========.=......__.........__.........^^^&&&_T,T__,.TT&TTTTTTT..........,.,.....=========T,,,,,,X — represented in world.ron
+- [x] `w` W:D:X================..__..........__,.......^.^M&&._T4T__..TTTTTTTTT......,......,.....=====..==,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X=================.==T....,...__.........^^^MM&,.TTT.__...TTTTT..........,..........========,,.,,,,,X — represented in world.ron
+- [x] `w` W:D:X===================TT........__.........^^MMMTT.T.^.^__^^........,......,,......^^..=======,,,.,.,,X — represented in world.ron
+- [x] `w` W:D:X===================T==......__......,...^^M)MTTTT^___^.__^.,....................^,..==...==..,,.,.,X — represented in world.ron
+- [x] `w` W:D:X===================T==.....__...........^&MgMMTTTTT..___^^................,..,..^^.......=.....,.,,X — represented in world.ron
+- [x] `w` W:D:X=====================.....__...,........^&M5MTTTTTT.^^^__.....,..,......,,,.....^^...,......,......X — represented in world.ron
+- [x] `w` W:D:X=====================.....=_............&&MMMTTTTT..^^..__.,.........,.........,^^.......,.........X — represented in world.ron
+- [x] `w` W:D:X======================...==........,....&&&&&T.._......__..,..................................,..,.X — represented in world.ron
+- [x] `w` W:D:X=======================.===.............._&^.....__..,...__.....,.........,..,,,...,...,...........X — represented in world.ron
+- [x] `w` W:D:X===========================..............__.......__....__......,.......,...........,..............X — represented in world.ron
+- [x] `w` W:D:X==========================.........._._..__.......__...__^..^,..............................,..,...X — represented in world.ron
+- [x] `w` W:D:X==========================...._.,.__._.___........__...^^_^^@.....,..,.....,.,,....,,....,.,.,.....X — represented in world.ron
+- [x] `w` W:D:X==========================..__.__.___._..&&^^.....__...^^_^^_@..&.&.....,.......,....,.............X — represented in world.ron
+- [x] `w` W:D:X============================....._..._.__.&&&.....__....__.@...&&DD&&....,..................,.,..,.X — represented in world.ron
+- [x] `w` W:D:X===========================.............._&&&^^....__...___....&&D^^D&&.&.&.&.&.&.&.&.&^^^,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X===========================.......^.&.^^&&&&&&&......______.....&&DDD&^&^&D&D&D&,&,&,&,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X===========================.....^^.&.&_&^&.&^&_&&&^...._.___....&&^DDD&^DDDDDD^&_,,,,,,,,,,,,,D,D,,X — represented in world.ron
+- [x] `w` W:D:X===========================....^....__^^...^^^__^&&........__...&&^D&DDDDDDD^^,_,__,,,,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X===========================..^^^_..__......^^.__^^&&&........__.&&^DDDDDDDDD^^,,,,__,,,,,D,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X============================.^__.__.__......__&^^^.&&&&&&&&&..__&&^DDDDDDD^__,,,,,,__,,,,,,,DDDD,,,X — represented in world.ron
+- [x] `w` W:D:X============================.&^__.._....^^.__&&&^^.._&&&&&&&.^__&^^DDDDD^^,,__,,,,,,__,,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X============================^&^__.^^^^^^^^...__...__^&^&&&&&.__^&&^DDD^^^,,,,__,,,D,,__,,,,,,,D,,D,X — represented in world.ron
+- [x] `w` W:D:X===========================.^^.__..^.^.........___..^&^^.^^3.__.&&^D^D^^,,,,__,,D,,,D,__,,,D,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========================.^^^..__....===.====__..&^...._^...__.&&,^,^,,,,,,,____,,,,,__,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X==========================^^....__..===========.&&^....__....__.$&,,,,,,,,D,,,,,=_,,__,,,,,D,,D,D,,X — represented in world.ron
+- [x] `w` W:D:X========================..^^=...=_.==========&^^^^.._.__....__..&&,,,,,,,,,,,,,,==__,,&,,,,,,,,,,,,X — represented in world.ron
+- [x] `w` W:D:X======================^^.^=====.==============^^^._=._......__.._&&,,,,,,,,,======,,,,&&,,D,D,D,D,,X — represented in world.ron
+- [x] `w` W:D:X==============================================.^^^==...._.__..__.&&,,,___,_======,D,,&&,D,,,D,,,DD,X — represented in world.ron
+- [x] `w` W:D:X===============================================..====___.__.__...&&,__,,D_,,D,,=_,,,D&&,D,DD,DDD,DDX — represented in world.ron
+- [x] `w` W:D:X===============================================.==^==_@@..._.....&&_,,,,,,,,,,,__,&&&&DDDDDDDDD,,DDX — represented in world.ron
+- [x] `w` W:D:X=================================================^^===...........&&,&,&,&,&,&,&__&&&DD,DD,DDD,D,,DDX — represented in world.ron
+- [x] `w` W:D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX — represented in world.ron
+- [x] `w` W:E:7:25:1 — represented in world.ron
+- [x] `w` W:E:16:49:38 — represented in world.ron
+- [x] `w` W:E:17:34:42 — represented in world.ron
+- [x] `w` W:E:18:25:35 — represented in world.ron
+- [x] `w` W:E:19:15:32 — represented in world.ron
+- [x] `w` W:E:20:17:77 — represented in world.ron
+- [x] `w` W:E:21:21:31 — represented in world.ron
+- [x] `w` W:E:25:37:80 — represented in world.ron
+- [x] `w` W:E:26:30:75 — represented in world.ron
+- [x] `w` W:E:27:28:10 — represented in world.ron
+- [x] `w` W:E:29:3:3 — represented in world.ron
+- [x] `w` W:E:23:30:60 — represented in world.ron
+- [x] `w` W:E:9:56:65 — represented in world.ron
+- [x] `w` W:P:34:21 — represented in world.ron
+
+## wf_info.txt — wilderness terrain (27)
+
+- [x] `wf` W:1:0:0:182:0:X — represented in wf.ron
+- [x] `wf` X:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182 — represented in wf.ron
+- [x] `wf` W:1:1:0:203:1:1 — represented in wf.ron
+- [x] `wf` X:88:88:89:89:89:89:96:96:96:96:96:96:96:96:96:96:96:96 — represented in wf.ron
+- [x] `wf` W:1:2:0:203:1:2 — represented in wf.ron
+- [x] `wf` X:88:88:88:89:89:89:89:89:89:89:89:89:89:96:96:96:96:96 — represented in wf.ron
+- [x] `wf` W:1:3:0:203:1:3 — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:1:4:0:203:1:4 — represented in wf.ron
+- [x] `wf` X:88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89 — represented in wf.ron
+- [x] `wf` W:5:0:0:89:6:. — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:20:0:0:96:7:T — represented in wf.ron
+- [x] `wf` X:88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89 — represented in wf.ron
+- [x] `wf` W:5:0:12:1:6:- — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:5:0:3:1:6:| — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:50:0:0:97:11:& — represented in wf.ron
+- [x] `wf` X:1:1:89:89:88:96:96:97:97:97:97:97:97:97:97:97:97:97 — represented in wf.ron
+- [x] `wf` W:5:0:14:1:6:, — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:127:1006:0:7:10:6 — represented in wf.ron
+- [x] `wf` X:88:88:88:86:86:86:85:85:85:85:85:85:85:85:85:97:97:97 — represented in wf.ron
+- [x] `wf` W:70:0:0:187:2:= — represented in wf.ron
+- [x] `wf` X:187:187:187:187:187:187:187:187:187:187:187:187:84:84:84:84:84:84 — represented in wf.ron
+- [x] `wf` W:20:0:0:84:3:_ — represented in wf.ron
+- [x] `wf` X:187:187:187:84:84:84:84:84:84:84:84:84:84:84:84:1:88:89 — represented in wf.ron
+- [x] `wf` W:20:1001:0:7:7:* — represented in wf.ron
+- [x] `wf` X:88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89 — represented in wf.ron
+- [x] `wf` W:50:1002:0:7:11:$ — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:50:1003:0:7:11:% — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:50:0:0:97:11:^ — represented in wf.ron
+- [x] `wf` X:1:1:89:89:88:96:96:97:97:97:97:97:97:97:97:97:97:97 — represented in wf.ron
+- [x] `wf` W:5:0:0:91:6:D — represented in wf.ron
+- [x] `wf` X:1:1:88:88:91:91:91:91:91:91:91:91:91:91:91:98:98:92 — represented in wf.ron
+- [x] `wf` W:20:0:0:96:7:t — represented in wf.ron
+- [x] `wf` X:88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89 — represented in wf.ron
+- [x] `wf` W:5:0:0:89:6:@ — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:20:0:0:90:7:g — represented in wf.ron
+- [x] `wf` X:94:94:90:90:90:90:90:90:90:90:90:90:90:90:90:90:92:92 — represented in wf.ron
+- [x] `wf` W:5:0:0:89:6:, — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:30:1022:0:7:11:) — represented in wf.ron
+- [x] `wf` X:1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96 — represented in wf.ron
+- [x] `wf` W:80:0:0:101:11:M — represented in wf.ron
+- [x] `wf` X:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101 — represented in wf.ron
+- [x] `wf` W:1:2:0:203:1:P — represented in wf.ron
+- [x] `wf` X:49:49:49:88:88:88:92:92:92:92:93:93:94:94:94:174:205:205          — represented in wf.ron
+- [x] `wf` W:1:5:0:203:1:5 — represented in wf.ron
+- [x] `wf` X:1:1:1:1:1:1:1:1:1:1:88:88:88:88:88:88:88:88 — represented in wf.ron
+
+## t_info.txt — town pref actions
+
+- [x] `t` %:t_pref.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 1] [EQU $TOWN_DESTROY1 1] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_d_bree.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 1] [NOT [EQU $TOWN_DESTROY1 1] ] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_bree.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:1 — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 2] [EQU $TOWN_DESTROY2 1] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_d_gond.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 2] [NOT [EQU $TOWN_DESTROY2 1] ] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_gondol.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:1 — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 3] [EQU $TOWN_DESTROY3 1] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_d_mina.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 3] [NOT [EQU $TOWN_DESTROY3 1] ] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_minas.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:1 — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 4] [EQU $TOWN_DESTROY4 1] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_d_lori.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 4] [NOT [EQU $TOWN_DESTROY4 1] ] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_lorien.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:1 — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 5] [EQU $TOWN_DESTROY5 1] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_d_khaz.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:[AND [EQU $TOWN 5] [NOT [EQU $TOWN_DESTROY5 1] ] ] — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` %:t_khazad.txt — represented in towns.ron (conditional F: evaluated at runtime)
+- [x] `t` ?:1 — represented in towns.ron (conditional F: evaluated at runtime)
+
+## map files
+
+- [x] `between.map` — 71 lines — represented in questmaps.ron/speclevels.ron
+- [x] `dragons.map` — 43 lines — represented in questmaps.ron/speclevels.ron
+- [x] `evil.map` — 52 lines — represented in questmaps.ron/speclevels.ron
+- [x] `fireprof.map` — 60 lines — represented in questmaps.ron/speclevels.ron
+- [x] `haunted.map` — 49 lines — represented in questmaps.ron/speclevels.ron
+- [x] `library.map` — 62 lines — represented in questmaps.ron/speclevels.ron
+- [x] `maeglin.map` — 85 lines — represented in questmaps.ron/speclevels.ron
+- [x] `nirnaeth.map` — 64 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand1.map` — 29 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand10.map` — 33 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand11.map` — 33 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand12.map` — 33 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand14.map` — 34 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand5.map` — 27 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand6.map` — 34 lines — represented in questmaps.ron/speclevels.ron
+- [x] `qrand7.map` — 32 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_crypt.map` — 109 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_death.map` — 104 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_doom.map` — 220 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_factory.map` — 235 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_gates.map` — 117 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_name.map` — 110 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_orc.map` — 104 lines — represented in questmaps.ron/speclevels.ron
+- [x] `s_ship.map` — 228 lines — represented in questmaps.ron/speclevels.ron
+- [x] `spiders.map` — 66 lines — represented in questmaps.ron/speclevels.ron
+- [x] `thieves.map` — 70 lines — represented in questmaps.ron/speclevels.ron
+- [x] `thrain.map` — 32 lines — represented in questmaps.ron/speclevels.ron
+- [x] `trolls.map` — 58 lines — represented in questmaps.ron/speclevels.ron
+- [x] `wights.map` — 82 lines — represented in questmaps.ron/speclevels.ron
+- [x] `wolves.map` — 55 lines — represented in questmaps.ron/speclevels.ron

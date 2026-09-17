@@ -1,0 +1,37 @@
+# Data file record counts
+
+- `a_info.txt`: N: records = 196
+- `ab_info.txt`: N: records = 9
+- `ba_info.txt`: N: records = 47
+- `d_info.txt`: N: records = 28
+- `e_info.txt`: N: records = 175
+- `f_info.txt`: N: records = 133
+- `k_info.txt`: N: records = 597
+- `misc.txt`: N: records = 0
+- `numenor.txt`: N: records = 0
+- `ow_info.txt`: N: records = 70
+- `p_info.txt`: N: records = 0
+- `r_info.txt`: N: records = 893
+- `ra_info.txt`: N: records = 190
+- `re_info.txt`: N: records = 13
+- `readme.txt`: N: records = 0
+- `s_info.txt`: N: records = 54
+- `set_info.txt`: N: records = 4
+- `special.txt`: N: records = 0
+- `st_info.txt`: N: records = 60
+- `t_bree.txt`: N: records = 0
+- `t_d_bree.txt`: N: records = 0
+- `t_d_gond.txt`: N: records = 0
+- `t_d_khaz.txt`: N: records = 0
+- `t_d_lori.txt`: N: records = 0
+- `t_d_mina.txt`: N: records = 0
+- `t_gondol.txt`: N: records = 0
+- `t_info.txt`: N: records = 0
+- `t_khazad.txt`: N: records = 0
+- `t_lorien.txt`: N: records = 0
+- `t_minas.txt`: N: records = 0
+- `t_pref.txt`: N: records = 0
+- `v_info.txt`: N: records = 103
+- `volcano.txt`: N: records = 0
+- `w_info.txt`: N: records = 0
+- `wf_info.txt`: N: records = 27

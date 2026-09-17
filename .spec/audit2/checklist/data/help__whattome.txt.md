@@ -1,0 +1,27 @@
+# 数据清单：lib/help/whattome.txt（text，逐条/逐行）
+
+- [ ] `lib/help/whattome.txt:1` [line] |||||oy
+- [ ] `lib/help/whattome.txt:2` [line] ~~~~~01|ToME - a General Description
+- [ ] `lib/help/whattome.txt:3` [line] #####R             /----------------------------------------\
+- [ ] `lib/help/whattome.txt:4` [line] #####R            <              What is ToME?               >
+- [ ] `lib/help/whattome.txt:5` [line] #####R             \----------------------------------------/
+- [ ] `lib/help/whattome.txt:7` [line] Tales of Middle Earth (ToME) is a fantasy adventure game, based on the works 
+- [ ] `lib/help/whattome.txt:8` [line] of Tolkien. Focusing on game-play rather than fancy graphics that get boring 
+- [ ] `lib/help/whattome.txt:9` [line] after a week, ToME will keep you playing for years. 
+- [ ] `lib/help/whattome.txt:11` [line] Explore dozens of different dungeons including hundreds of randomly generated 
+- [ ] `lib/help/whattome.txt:12` [line] levels filled with multitudes of different items and treasures. Fight off 
+- [ ] `lib/help/whattome.txt:13` [line] hundreds of monsters and uniques from the stories in a complex fighting system. 
+- [ ] `lib/help/whattome.txt:14` [line] Gain experience and learn skills; choose from the dozens of races and classes 
+- [ ] `lib/help/whattome.txt:15` [line] available to the player; cast spells from simple teleportation spells to
+- [ ] `lib/help/whattome.txt:16` [line] advanced spells that can wipe out a whole army at once. It's the only game where
+- [ ] `lib/help/whattome.txt:17` [line] you can burn spell books by trudging in lava (unless you have gained immunity
+- [ ] `lib/help/whattome.txt:18` [line] from some armour), dry up rivers to cast mighty spells, strike at orcs with
+- [ ] `lib/help/whattome.txt:19` [line] blades attuned to slay them specifically, summon armies from a simple totem,
+- [ ] `lib/help/whattome.txt:20` [line] and even enter a symbiotic relationship with a mold!
+- [ ] `lib/help/whattome.txt:22` [line] Explore dungeons, gain power, and save Middle-earth!
+- [ ] `lib/help/whattome.txt:24` [line] The player will begin his adventure on the town level where he may acquire 
+- [ ] `lib/help/whattome.txt:25` [line] supplies, weapons, armour, and magical devices by bartering with various shop 
+- [ ] `lib/help/whattome.txt:26` [line] owners. After preparing for his adventure, the player can descend into the 
+- [ ] `lib/help/whattome.txt:27` [line] dungeon near Bree where fantastic adventures await his coming! 
+- [ ] `lib/help/whattome.txt:29` [line] Make sure you read the parchment you are given when you start the game, and 
+- [ ] `lib/help/whattome.txt:30` [line] read the in-game documentation.

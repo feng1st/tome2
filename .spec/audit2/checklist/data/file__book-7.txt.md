@@ -1,0 +1,109 @@
+# 数据清单：lib/file/book-7.txt（text，逐条/逐行）
+
+- [ ] `lib/file/book-7.txt:2` [line] 			Artifact Lore, Vol. II
+- [ ] `lib/file/book-7.txt:3` [line] 			    Ancient Armor
+- [ ] `lib/file/book-7.txt:4` [line] 			----------------------
+- [ ] `lib/file/book-7.txt:7` [line]   Adamantite Plate Mail 'Soulkeeper' [40,+20]
+- [ ] `lib/file/book-7.txt:8` [line]        This amazing armour protects your soul from cold,  and  from
+- [ ] `lib/file/book-7.txt:9` [line]        life level loss. It is also capable of fully healing you.
+- [ ] `lib/file/book-7.txt:11` [line]   The Pair of Hard Leather Boots of Feanor [3,+20]
+- [ ] `lib/file/book-7.txt:12` [line]        These amazing boots belonging to Feanor the High-Elf,  haste
+- [ ] `lib/file/book-7.txt:13` [line]        the wearer permanently and temporarily in combat, making him
+- [ ] `lib/file/book-7.txt:14` [line]        or her stealthy as well.
+- [ ] `lib/file/book-7.txt:16` [line]   The Pair of Soft Leather Boots 'Dal-i-thalion' [3,+15]
+- [ ] `lib/file/book-7.txt:17` [line]        These amazing  boots  of  agility,  ensure  free  action  in 
+- [ ] `lib/file/book-7.txt:18` [line]        combat, greatly increasing your dexterity and ensuring  that
+- [ ] `lib/file/book-7.txt:19` [line]        you will never become less agile. It is said that  they  can 
+- [ ] `lib/file/book-7.txt:20` [line]        also make you more confident and brave.
+- [ ] `lib/file/book-7.txt:22` [line]   Full Plate Armour of Isildur [25,+25]
+- [ ] `lib/file/book-7.txt:23` [line]        This armour of the Dunedain Lord, Isildur, Resists.
+- [ ] `lib/file/book-7.txt:25` [line]   The Large Metal Shield of Anarion [5,+20]
+- [ ] `lib/file/book-7.txt:26` [line]        This shield Resists and sustains your stats.
+- [ ] `lib/file/book-7.txt:28` [line]   The Set of Cesti of Fingolfin (+10,+10) [5,+20]
+- [ ] `lib/file/book-7.txt:29` [line]        These amazing gauntlets increase the wearers dexterity, and
+- [ ] `lib/file/book-7.txt:30` [line]        slay creatures at (+10,+10). They will never be stopped  by
+- [ ] `lib/file/book-7.txt:31` [line]        paralyaztion and they also resist damage. They occasionally
+- [ ] `lib/file/book-7.txt:32` [line]        grow magical spikes that can be fired causing great damage.
+- [ ] `lib/file/book-7.txt:34` [line]   The Set of Leather Gloves 'Cambeleg' (+5,+5) [1,+15] 
+- [ ] `lib/file/book-7.txt:35` [line]        These Gloves of Might, increase strength and  constitution.
+- [ ] `lib/file/book-7.txt:36` [line]        They never allow their wearer to  be  paralyzed,  and  help 
+- [ ] `lib/file/book-7.txt:37` [line]        his/her slaying abilities.
+- [ ] `lib/file/book-7.txt:39` [line]   The Set of Leather Gloves 'Cammithrim' [1,+10]
+- [ ] `lib/file/book-7.txt:40` [line]        These Gloves of Light, sustain dexterity and give off light
+- [ ] `lib/file/book-7.txt:41` [line]        so brightly  that  they  can  cast  magic  missiles  almost 
+- [ ] `lib/file/book-7.txt:42` [line]        endlessly.
+- [ ] `lib/file/book-7.txt:44` [line]   The Set of Gauntlets 'Paurhach' [2,+15]
+- [ ] `lib/file/book-7.txt:45` [line]        These Fists of Fire resist fire and can cast fire bolts.
+- [ ] `lib/file/book-7.txt:47` [line]   The Set of Gauntlets 'Paurnimmen' [2,+15]
+- [ ] `lib/file/book-7.txt:48` [line]        These Fists of Frost resist cold and can cast frost bolts.
+- [ ] `lib/file/book-7.txt:50` [line]   The Set of Gauntlets 'Pauraegen' [2,+15]
+- [ ] `lib/file/book-7.txt:51` [line]        These Fists of Lightning  resist  lightning  and  can  cast 
+- [ ] `lib/file/book-7.txt:52` [line]        lightning bolts.
+- [ ] `lib/file/book-7.txt:54` [line]   The Set of Gauntlets 'Paurnen' [2,+15]
+- [ ] `lib/file/book-7.txt:55` [line]        These Fists of Water resist acid and can cast acid bolts.
+- [ ] `lib/file/book-7.txt:57` [line]   The Set of Gauntlets 'Camlost' (-11,-12) [2,+0] (-5)
+- [ ] `lib/file/book-7.txt:58` [line]        The Empty Hand aggravates  monsters,  and  greatly  reduces
+- [ ] `lib/file/book-7.txt:59` [line]        fighting ability.  Named after the empty hand of Beren that
+- [ ] `lib/file/book-7.txt:60` [line]        once clasped a Silmaril.
+- [ ] `lib/file/book-7.txt:62` [line]   Mithril Chain Mail of Belegennon [28,+20]
+- [ ] `lib/file/book-7.txt:63` [line]        This Chain Mail Resists and makes you stealthy.
+- [ ] `lib/file/book-7.txt:65` [line]   The Iron Helm of Dor-Lomin [8,+20]
+- [ ] `lib/file/book-7.txt:66` [line]        This is the Dragon Helm of  Turin Turambar.  It is  rumored
+- [ ] `lib/file/book-7.txt:67` [line]        that its wearer will never die in combat.   It  resists all
+- [ ] `lib/file/book-7.txt:68` [line]        and sees all, and increases all fighting stats.
+- [ ] `lib/file/book-7.txt:70` [line]   The Iron Helm of Holhenneth [5,+10]
+- [ ] `lib/file/book-7.txt:71` [line]        This helm of brilliance and vision, greatly increases  your
+- [ ] `lib/file/book-7.txt:72` [line]        mental prowess. It allows you to see all  that  is  hidden,
+- [ ] `lib/file/book-7.txt:73` [line]        casting detection spells at frequent intervals.
+- [ ] `lib/file/book-7.txt:75` [line]   The Iron Helm of Gorlim [5,+10] (-125)
+- [ ] `lib/file/book-7.txt:76` [line]        This unhappy helm of betrayal ruins thought and sight.
+- [ ] `lib/file/book-7.txt:78` [line]   Soft Leather Armour 'Hithlomir' [4,+20] (+4)
+- [ ] `lib/file/book-7.txt:79` [line]        This dark-misty leather resists the elements and melds  the
+- [ ] `lib/file/book-7.txt:80` [line]        wearer into the background with incredible stealth.
+- [ ] `lib/file/book-7.txt:82` [line]   Leather Scale Mail 'Thalkettoth' (+3) [11,+25]
+- [ ] `lib/file/book-7.txt:83` [line]        This  light  leather  scale mail  is  suprisingly  good  at
+- [ ] `lib/file/book-7.txt:84` [line]        dodging attacks, and is resistant to acid.  Often nicknamed
+- [ ] `lib/file/book-7.txt:85` [line]        Blade-Turner.
+- [ ] `lib/file/book-7.txt:87` [line]   Chain Mail of Arvedui [14,+15]
+- [ ] `lib/file/book-7.txt:88` [line]        This wonderful chain mail belonged  to  the  last  king  of  
+- [ ] `lib/file/book-7.txt:89` [line]        Arnor. It resists the elements and increases  strength  and
+- [ ] `lib/file/book-7.txt:90` [line]        charisma.
+- [ ] `lib/file/book-7.txt:92` [line]   The Hard Leather Cap of Thranduil [2,+10]
+- [ ] `lib/file/book-7.txt:93` [line]        This acid resistant leather is a thinker's cap.  Increasing
+- [ ] `lib/file/book-7.txt:94` [line]        wisdom and intelligence.
+- [ ] `lib/file/book-7.txt:96` [line]   The Metal Cap of Thengel [3,+12]
+- [ ] `lib/file/book-7.txt:97` [line]        This cap of the Rohan King Thengel, gives kingly wisdom and
+- [ ] `lib/file/book-7.txt:98` [line]        charisma.
+- [ ] `lib/file/book-7.txt:100` [line]   The Steel Helm 'Hammerhand' [6,+20]
+- [ ] `lib/file/book-7.txt:101` [line]        This warriors' helm increases the fighting stats.
+- [ ] `lib/file/book-7.txt:103` [line]   The Large Leather Shield of Celegorm [4,+20]
+- [ ] `lib/file/book-7.txt:104` [line]        A quality shield of Resistance.
+- [ ] `lib/file/book-7.txt:106` [line]   The Pair of Metal Shod Boots of Thror [6,+20]
+- [ ] `lib/file/book-7.txt:107` [line]        These Dwarf-king boots are  ideal  for  combat,  increasing
+- [ ] `lib/file/book-7.txt:108` [line]        strength and constitution.
+- [ ] `lib/file/book-7.txt:110` [line]   The Cloak 'Colluin' [1,+15]
+- [ ] `lib/file/book-7.txt:111` [line]        This cloak of resistance even casts extra resistance spells
+- [ ] `lib/file/book-7.txt:112` [line]        that can defend against poison.
+- [ ] `lib/file/book-7.txt:114` [line]   The Cloak 'Holcolleth' [1,+4]
+- [ ] `lib/file/book-7.txt:115` [line]        This mage cloak increases intelligence and wisdom and casts
+- [ ] `lib/file/book-7.txt:116` [line]        spells to make monsters lose their concentration  and  fall
+- [ ] `lib/file/book-7.txt:117` [line]        to sleep.
+- [ ] `lib/file/book-7.txt:119` [line]   The Cloak 'Colannon' [1,+15]
+- [ ] `lib/file/book-7.txt:120` [line]        This Gate-cloak, teleports the player at  will,  and  gives 
+- [ ] `lib/file/book-7.txt:121` [line]        stealth so as to avoid awkward situations.
+- [ ] `lib/file/book-7.txt:123` [line]   The Iron Crown of Beruthiel [0,+20] (-125)
+- [ ] `lib/file/book-7.txt:124` [line]        This crown once belonged to the  Cat-Queen  of  Gondor,  who
+- [ ] `lib/file/book-7.txt:125` [line]        disdained armed combat. Giving  you  cat  like  vision,  and 
+- [ ] `lib/file/book-7.txt:126` [line]        sight within sight, it allows  its  wearer  to  be  free  of 
+- [ ] `lib/file/book-7.txt:127` [line]        combat, and infact finding armed combat beyond  his  or  her
+- [ ] `lib/file/book-7.txt:128` [line]        means.
+- [ ] `lib/file/book-7.txt:130` [line]   The Iron Crown of Morgoth
+- [ ] `lib/file/book-7.txt:131` [line]        This awesome artifact is a plain iron  crown,  mounted  with
+- [ ] `lib/file/book-7.txt:132` [line]        three jewels  that  capture the eternal light of  the  Trees
+- [ ] `lib/file/book-7.txt:133` [line]        of the Valar, Teleperion and Laurelein.  These  Jewels  were 
+- [ ] `lib/file/book-7.txt:134` [line]        made by the Noldorian High-Elf, Feanor who  named  them  the  
+- [ ] `lib/file/book-7.txt:135` [line]        Silmarils.  Their  beauty,  unsurpassed, drove  Morgoth   to
+- [ ] `lib/file/book-7.txt:136` [line]        steal these jewels (with the aid of Ungoliant the  Unlight).
+- [ ] `lib/file/book-7.txt:137` [line]        The  crown  then, maximises all you stats, sustains all your  
+- [ ] `lib/file/book-7.txt:138` [line]        stats, is a permanent light source and allows  the wearer to
+- [ ] `lib/file/book-7.txt:139` [line]        see all.

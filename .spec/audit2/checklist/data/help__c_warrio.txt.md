@@ -1,0 +1,49 @@
+# 数据清单：lib/help/c_warrio.txt（text，逐条/逐行）
+
+- [ ] `lib/help/c_warrio.txt:1` [line] ~~~~~01|Warrior
+- [ ] `lib/help/c_warrio.txt:2` [line] ~~~~~02|Classes|Warrior
+- [ ] `lib/help/c_warrio.txt:3` [line] #####R=== Warriors ===
+- [ ] `lib/help/c_warrio.txt:5` [line] #####GDescription
+- [ ] `lib/help/c_warrio.txt:6` [line] A Warrior is a hack-and-slash character, who solves most of his problems
+- [ ] `lib/help/c_warrio.txt:7` [line] by cutting them to pieces, but will occasionally fall back on the help 
+- [ ] `lib/help/c_warrio.txt:8` [line] of a magical device or a bow. 
+- [ ] `lib/help/c_warrio.txt:10` [line] A Warrior learns no magic, and can even suppress it like an Unbeliever through 
+- [ ] `lib/help/c_warrio.txt:11` [line] the Antimagic skill.
+- [ ] `lib/help/c_warrio.txt:13` [line] #####GStarting Stat Modifiers
+- [ ] `lib/help/c_warrio.txt:14` [line] Strength         +5
+- [ ] `lib/help/c_warrio.txt:15` [line] Intelligence     -2
+- [ ] `lib/help/c_warrio.txt:16` [line] Wisdom           -2
+- [ ] `lib/help/c_warrio.txt:17` [line] Dexterity        +2
+- [ ] `lib/help/c_warrio.txt:18` [line] Constitution     +2
+- [ ] `lib/help/c_warrio.txt:19` [line] Charisma         -1
+- [ ] `lib/help/c_warrio.txt:20` [line] Hit Die          +d9
+- [ ] `lib/help/c_warrio.txt:21` [line] Spell Points     +0%
+- [ ] `lib/help/c_warrio.txt:22` [line] Exp Penalty       0%
+- [ ] `lib/help/c_warrio.txt:24` [line] #####GStarting Skills:
+- [ ] `lib/help/c_warrio.txt:25` [line] #####BSkill                   Start Level     Skill Point Gains
+- [ ] `lib/help/c_warrio.txt:26` [line] Combat                  2.000           [0.800]
+- [ ] `lib/help/c_warrio.txt:27` [line]   Weaponmastery         1.000           [0.850]
+- [ ] `lib/help/c_warrio.txt:28` [line]     Sword-mastery       0.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:29` [line]     Axe-mastery         0.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:30` [line]     Hafted-mastery      0.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:31` [line]     Polearm-mastery     0.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:32` [line]   Archery               1.000           [0.600]
+- [ ] `lib/help/c_warrio.txt:33` [line]   Antimagic             0.000           [0.550]
+- [ ] `lib/help/c_warrio.txt:34` [line] Sneakiness              1.000           [0.900]
+- [ ] `lib/help/c_warrio.txt:35` [line]   Stealth               0.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:36` [line]   Disarming             1.000           [0.900]
+- [ ] `lib/help/c_warrio.txt:37` [line] Magic                   1.000           [0.300]
+- [ ] `lib/help/c_warrio.txt:38` [line]   Magic-Device          1.000           [1.150]
+- [ ] `lib/help/c_warrio.txt:39` [line] Spirituality            1.000           [0.400]
+- [ ] `lib/help/c_warrio.txt:40` [line]   Prayer                0.000           [0.500]
+- [ ] `lib/help/c_warrio.txt:41` [line] Monster-lore            0.000           [0.500]
+- [ ] `lib/help/c_warrio.txt:43` [line] #####GInnate Abilities:
+- [ ] `lib/help/c_warrio.txt:44` [line] #####BAbility              Character level
+- [ ] `lib/help/c_warrio.txt:45` [line] Extra Max Blow(1)           1
+- [ ] `lib/help/c_warrio.txt:46` [line] Extra Max Blow(2)           1
+- [ ] `lib/help/c_warrio.txt:47` [line] Spread blows                25
+- [ ] `lib/help/c_warrio.txt:49` [line] #####GStarting Equipment
+- [ ] `lib/help/c_warrio.txt:50` [line] A Warrior begins the game with:
+- [ ] `lib/help/c_warrio.txt:51` [line]     a Ring of Fear Resistance
+- [ ] `lib/help/c_warrio.txt:52` [line]     a Broad Sword
+- [ ] `lib/help/c_warrio.txt:53` [line]     a Chain Mail

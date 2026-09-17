@@ -1,0 +1,31 @@
+# 数据清单：lib/help/r_elf.txt（text，逐条/逐行）
+
+- [ ] `lib/help/r_elf.txt:1` [line] ~~~~~01|Elf
+- [ ] `lib/help/r_elf.txt:2` [line] ~~~~~02|Races|Elf
+- [ ] `lib/help/r_elf.txt:3` [line] #####R=== Elves ===
+- [ ] `lib/help/r_elf.txt:5` [line] #####GDescription
+- [ ] `lib/help/r_elf.txt:6` [line] Elves are better magicians than humans, but not as good at fighting. They 
+- [ ] `lib/help/r_elf.txt:7` [line] tend to be smarter and faster than either humans or half-elves and also 
+- [ ] `lib/help/r_elf.txt:8` [line] have better wisdom. Elves are better at searching, disarming, perception, 
+- [ ] `lib/help/r_elf.txt:9` [line] stealth, bows, and magic, but they are not as good at hand weapons.
+- [ ] `lib/help/r_elf.txt:10` [line] They resist light effects intrinsically.
+- [ ] `lib/help/r_elf.txt:12` [line] #####GStat Modifiers
+- [ ] `lib/help/r_elf.txt:13` [line] Strength        -1   
+- [ ] `lib/help/r_elf.txt:14` [line] Intelligence    +2   
+- [ ] `lib/help/r_elf.txt:15` [line] Wisdom          +2   
+- [ ] `lib/help/r_elf.txt:16` [line] Dexterity       +1   
+- [ ] `lib/help/r_elf.txt:17` [line] Constitution    -2   
+- [ ] `lib/help/r_elf.txt:18` [line] Charisma        +2       
+- [ ] `lib/help/r_elf.txt:19` [line] Hit Dice Sides  8         
+- [ ] `lib/help/r_elf.txt:20` [line] Exp Penalty     +20%
+- [ ] `lib/help/r_elf.txt:22` [line] #####GRacial Skill Modifiers:
+- [ ] `lib/help/r_elf.txt:23` [line] #####BSkill                Start Mod    Skill Point Gains Mod
+- [ ] `lib/help/r_elf.txt:24` [line] Combat                  
+- [ ] `lib/help/r_elf.txt:25` [line]   Weaponmastery        -5.000           [0.000]
+- [ ] `lib/help/r_elf.txt:26` [line]   Archery		1.500           [0.000]
+- [ ] `lib/help/r_elf.txt:27` [line] Sneakiness              0.800           [0.000]
+- [ ] `lib/help/r_elf.txt:28` [line]   Stealth               2.000           [0.000]
+- [ ] `lib/help/r_elf.txt:29` [line]   Disarming             0.500           [0.000]
+- [ ] `lib/help/r_elf.txt:30` [line] Magic                   
+- [ ] `lib/help/r_elf.txt:31` [line]   Magic-Device          0.600           [0.000]
+- [ ] `lib/help/r_elf.txt:32` [line] Spirituality            3.000           [0.000]

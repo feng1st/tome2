@@ -1,0 +1,29 @@
+# 数据清单：lib/edit/wf_info.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/wf_info.txt:31` [record] id=0 Ekkaia | D@32=the Encircling Sea; W@33=1:0:0:182:0:X; X@34=182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182:182
+- [ ] `lib/edit/wf_info.txt:36` [record] id=1 Bree  | D@37=a small village; W@38=1:1:0:203:1:1; X@39=88:88:89:89:89:89:96:96:96:96:96:96:96:96:96:96:96:96
+- [ ] `lib/edit/wf_info.txt:41` [record] id=2 Gondolin  | D@42=The hidden town of the Noldor; W@43=1:2:0:203:1:2; X@44=88:88:88:89:89:89:89:89:89:89:89:89:89:96:96:96:96:96
+- [ ] `lib/edit/wf_info.txt:46` [record] id=3 Minas Anor  | D@47=The great town of Gondor; W@48=1:3:0:203:1:3; X@49=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:51` [record] id=4 Lothlorien  | D@52=The land of Galadriel; W@53=1:4:0:203:1:4; X@54=88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89
+- [ ] `lib/edit/wf_info.txt:56` [record] id=5 grass | D@57=a plain of grass; W@58=5:0:0:89:6:.; X@59=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:61` [record] id=6 forest | D@62=a forest; W@63=20:0:0:96:7:T; X@64=88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89
+- [ ] `lib/edit/wf_info.txt:66` [record] id=7 road | D@67=a west-east road; W@68=5:0:12:1:6:-; X@69=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:71` [record] id=8 road | D@72=a north-south road; W@73=5:0:3:1:6:|; X@74=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:76` [record] id=9 mountain | D@77=a mountain chain; W@78=50:0:0:97:11:&; X@79=1:1:89:89:88:96:96:97:97:97:97:97:97:97:97:97:97:97
+- [ ] `lib/edit/wf_info.txt:81` [record] id=10 road | D@82=a west-east-south road; W@83=5:0:14:1:6:,; X@84=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:88` [record] id=12 The Nether Realm | D@89=the entrance to the netherworld; W@90=127:1006:0:7:10:6; X@91=88:88:88:86:86:86:85:85:85:85:85:85:85:85:85:97:97:97
+- [ ] `lib/edit/wf_info.txt:93` [record] id=13 deep water | D@94=a deep water area; W@95=70:0:0:187:2:=; X@96=187:187:187:187:187:187:187:187:187:187:187:187:84:84:84:84:84:84
+- [ ] `lib/edit/wf_info.txt:98` [record] id=14 shallow water | D@99=a shallow water area; W@100=20:0:0:84:3:_; X@101=187:187:187:84:84:84:84:84:84:84:84:84:84:84:84:1:88:89
+- [ ] `lib/edit/wf_info.txt:103` [record] id=15 Mirkwood | D@104=The Forest of Mirkwood; W@105=20:1001:0:7:7:*; X@106=88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89
+- [ ] `lib/edit/wf_info.txt:108` [record] id=16 Mordor | D@109=The Gates of Mordor; W@110=50:1002:0:7:11:$; X@111=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:113` [record] id=17 Angband | D@114=The Pits of Angband; W@115=50:1003:0:7:11:%; X@116=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:118` [record] id=18 hill | D@119=a hill; W@120=50:0:0:97:11:^; X@121=1:1:89:89:88:96:96:97:97:97:97:97:97:97:97:97:97:97
+- [ ] `lib/edit/wf_info.txt:123` [record] id=19 desert | D@124=a desert; W@125=5:0:0:91:6:D; X@126=1:1:88:88:91:91:91:91:91:91:91:91:91:91:91:98:98:92
+- [ ] `lib/edit/wf_info.txt:128` [record] id=20 jungle | D@129=a jungle; W@130=20:0:0:96:7:t; X@131=88:88:96:96:96:96:96:96:96:96:96:96:96:96:96:89:89:89
+- [ ] `lib/edit/wf_info.txt:133` [record] id=21 swamp | D@134=a swamp; W@135=5:0:0:89:6:@; X@136=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:138` [record] id=22 glacier | D@139=a glacier; W@140=20:0:0:90:7:g; X@141=94:94:90:90:90:90:90:90:90:90:90:90:90:90:90:90:92:92
+- [ ] `lib/edit/wf_info.txt:143` [record] id=23 grass | D@144=a plain of grass; W@145=5:0:0:89:6:,; X@146=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:148` [record] id=24 Moria | D@149=The Doors of Moria; W@150=30:1022:0:7:11:); X@151=1:1:88:88:89:89:89:89:89:89:89:89:89:89:89:89:96:96
+- [ ] `lib/edit/wf_info.txt:153` [record] id=25 high mountain | D@154=a high mountain chain; W@155=80:0:0:101:11:M; X@156=101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101:101
+- [ ] `lib/edit/wf_info.txt:158` [record] id=26 Gondolin  | D@159=The pillaged city of the Noldor; W@160=1:2:0:203:1:P; X@161=49:49:49:88:88:88:92:92:92:92:93:93:94:94:94:174:205:205         
+- [ ] `lib/edit/wf_info.txt:163` [record] id=27 Khazad-dum  | D@164=The dwarven stronghold; W@165=1:5:0:203:1:5; X@166=1:1:1:1:1:1:1:1:1:1:88:88:88:88:88:88:88:88

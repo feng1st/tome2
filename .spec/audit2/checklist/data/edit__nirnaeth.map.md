@@ -1,0 +1,37 @@
+# 数据清单：lib/edit/nirnaeth.map（edit，逐条/逐行）
+
+- [ ] `lib/edit/nirnaeth.map:2` [feat] F:X:63:3
+- [ ] `lib/edit/nirnaeth.map:5` [feat] F:<:6:3
+- [ ] `lib/edit/nirnaeth.map:8` [feat] F:.:1:5
+- [ ] `lib/edit/nirnaeth.map:11` [feat] F:s:88:5
+- [ ] `lib/edit/nirnaeth.map:14` [feat] F:V:84:5
+- [ ] `lib/edit/nirnaeth.map:17` [feat] F:a:88:5:538:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:20` [feat] F:b:88:5:496:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:23` [feat] F:c:88:1:620:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:26` [feat] F:e:88:1:621:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:29` [feat] F:f:88:1:631:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:32` [feat] F:g:88:1:709:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:35` [feat] F:h:88:5:729:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:38` [feat] F:i:88:5:618:0:0:0:0:0:2
+- [ ] `lib/edit/nirnaeth.map:41` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/nirnaeth.map:42` [row] D:X...a.bab....f.....f.XXXXXXXXXXX
+- [ ] `lib/edit/nirnaeth.map:43` [row] D:X..ab...b..ff..aa..b..XXXXXXXXXX
+- [ ] `lib/edit/nirnaeth.map:44` [row] D:X.aa..b..fff...a..g.f.b.XXXXXXXX
+- [ ] `lib/edit/nirnaeth.map:45` [row] D:Xab.....b....f.......f..bf..XXXX
+- [ ] `lib/edit/nirnaeth.map:46` [row] D:X..b.f......ff.f..aa...f..b.XXXX
+- [ ] `lib/edit/nirnaeth.map:47` [row] D:X...ff..f..ff.c.a..f.g.a..fXXXXX
+- [ ] `lib/edit/nirnaeth.map:48` [row] D:Xb.f....fff.ff...aaa....f..XXXXX
+- [ ] `lib/edit/nirnaeth.map:49` [row] D:X...ff...ff...f......aa..a..XXXX
+- [ ] `lib/edit/nirnaeth.map:50` [row] D:Xb.ff.a...f...bbb..a..aa.....XXX
+- [ ] `lib/edit/nirnaeth.map:51` [row] D:X.f.a...a....bbebb......f.fa.XXX
+- [ ] `lib/edit/nirnaeth.map:52` [row] D:X.....a.....bbecebb..g.a.a....XX
+- [ ] `lib/edit/nirnaeth.map:53` [row] D:X.a.a....aa.beccceb....f.a..c.XX
+- [ ] `lib/edit/nirnaeth.map:54` [row] D:X......a..f.bbecebba.f....ea...X
+- [ ] `lib/edit/nirnaeth.map:55` [row] D:XX.b.aa.f..f.bbebb...a.aa...g.aX
+- [ ] `lib/edit/nirnaeth.map:56` [row] D:XX..bb...a..f.bbb..a..a..aae..iX
+- [ ] `lib/edit/nirnaeth.map:57` [row] D:XXX....aa.aa.f...aa...e..b..h..X
+- [ ] `lib/edit/nirnaeth.map:58` [row] D:XXXXXX........bb...g....aa...gcX
+- [ ] `lib/edit/nirnaeth.map:59` [row] D:XXXXXXXX.g..aa...a...a.e...ac.<X
+- [ ] `lib/edit/nirnaeth.map:60` [row] D:XXXXXXXX........bb....e.c.i.e.iX
+- [ ] `lib/edit/nirnaeth.map:61` [row] D:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- [ ] `lib/edit/nirnaeth.map:64` [raw] P:3:3

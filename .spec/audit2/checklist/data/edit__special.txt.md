@@ -1,0 +1,30 @@
+# 数据清单：lib/edit/special.txt（edit，逐条/逐行）
+
+- [ ] `lib/edit/special.txt:7` [F] F:X:63:0
+- [ ] `lib/edit/special.txt:8` [F] F: :63:0
+- [ ] `lib/edit/special.txt:11` [F] F:#:57:0
+- [ ] `lib/edit/special.txt:12` [F] F:%:57:0
+- [ ] `lib/edit/special.txt:15` [F] F:+:48:0
+- [ ] `lib/edit/special.txt:18` [F] F:D:32:0
+- [ ] `lib/edit/special.txt:21` [F] F:.:1:0
+- [ ] `lib/edit/special.txt:24` [F] F:T:96:0
+- [ ] `lib/edit/special.txt:27` [F] F:M:97:0
+- [ ] `lib/edit/special.txt:30` [F] F:w:84:0
+- [ ] `lib/edit/special.txt:31` [F] F:V:84:0
+- [ ] `lib/edit/special.txt:34` [F] F:W:187:0
+- [ ] `lib/edit/special.txt:37` [F] F:l:86:0
+- [ ] `lib/edit/special.txt:40` [F] F:L:85:0
+- [ ] `lib/edit/special.txt:43` [F] F:G:188:0
+- [ ] `lib/edit/special.txt:46` [F] F:I:189:0
+- [ ] `lib/edit/special.txt:49` [F] F:*:1:0:0:*
+- [ ] `lib/edit/special.txt:52` [F] F:>:7:0
+- [ ] `lib/edit/special.txt:55` [F] F:4:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:56` [F] F:5:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:57` [F] F:6:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:58` [F] F:7:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:59` [F] F:A:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:60` [F] F:B:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:61` [F] F:C:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:62` [F] F:E:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:63` [F] F:F:160:0:0:0:0:0:-1
+- [ ] `lib/edit/special.txt:64` [F] F:0:160:0:0:0:0:0:-1

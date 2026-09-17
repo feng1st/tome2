@@ -1,0 +1,792 @@
+(parts:[
+    (id:1, tvals:[(tval:6, min:0, max:255)], level:5, rarity:1, mrarity:4, to_h:-5, to_d:-5, to_a:0, pval:5, value:10, max:1, flags:["MANA"], aflags:[]),
+    (id:2, tvals:[(tval:6, min:0, max:255)], level:10, rarity:1, mrarity:8, to_h:-10, to_d:-10, to_a:0, pval:5, value:14, max:1, flags:["SPELL"], aflags:[]),
+    (id:3, tvals:[(tval:6, min:0, max:255)], level:1, rarity:1, mrarity:4, to_h:-3, to_d:-3, to_a:0, pval:5, value:5, max:1, flags:["INT"], aflags:[]),
+    (id:4, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:2, to_h:10, to_d:0, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:5, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:2, to_h:9, to_d:0, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:6, tvals:[(tval:21, min:0, max:255)], level:1, rarity:1, mrarity:2, to_h:11, to_d:0, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:7, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:2, to_h:0, to_d:10, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:8, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:2, to_h:0, to_d:11, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:9, tvals:[(tval:21, min:0, max:255)], level:1, rarity:1, mrarity:2, to_h:0, to_d:9, to_a:0, pval:0, value:5, max:2, flags:[], aflags:[]),
+    (id:10, tvals:[(tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:15, rarity:1, mrarity:25, to_h:4, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["VORPAL"], aflags:[]),
+    (id:11, tvals:[(tval:23, min:2, max:2), (tval:23, min:9, max:9), (tval:23, min:11, max:33), (tval:115, min:55, max:55)], level:15, rarity:1, mrarity:25, to_h:2, to_d:2, to_a:0, pval:0, value:15, max:1, flags:["VORPAL"], aflags:[]),
+    (id:12, tvals:[(tval:22, min:30, max:30)], level:10, rarity:1, mrarity:16, to_h:6, to_d:-2, to_a:0, pval:0, value:15, max:1, flags:["VORPAL"], aflags:[]),
+    (id:13, tvals:[(tval:22, min:17, max:17), (tval:22, min:3, max:3), (tval:22, min:0, max:15)], level:15, rarity:1, mrarity:25, to_h:4, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["VORPAL"], aflags:[]),
+    (id:14, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:4, rarity:1, mrarity:10, to_h:5, to_d:2, to_a:0, pval:0, value:10, max:1, flags:["BRAND_POIS"], aflags:[]),
+    (id:15, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:4, rarity:1, mrarity:10, to_h:4, to_d:3, to_a:0, pval:0, value:10, max:1, flags:["BRAND_POIS"], aflags:[]),
+    (id:16, tvals:[(tval:21, min:0, max:255)], level:4, rarity:1, mrarity:10, to_h:5, to_d:2, to_a:0, pval:0, value:10, max:1, flags:["BRAND_POIS"], aflags:[]),
+    (id:17, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:5, rarity:1, mrarity:11, to_h:3, to_d:1, to_a:0, pval:0, value:11, max:1, flags:["BRAND_FIRE"], aflags:["BRAND_COLD"]),
+    (id:18, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:5, rarity:1, mrarity:11, to_h:2, to_d:2, to_a:0, pval:0, value:11, max:1, flags:["BRAND_FIRE"], aflags:["BRAND_COLD"]),
+    (id:19, tvals:[(tval:21, min:0, max:255)], level:5, rarity:1, mrarity:11, to_h:4, to_d:0, to_a:0, pval:0, value:11, max:1, flags:["BRAND_FIRE"], aflags:["BRAND_COLD"]),
+    (id:20, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:5, rarity:1, mrarity:11, to_h:5, to_d:1, to_a:0, pval:0, value:12, max:1, flags:["BRAND_COLD"], aflags:["BRAND_FIRE"]),
+    (id:21, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:5, rarity:1, mrarity:11, to_h:4, to_d:2, to_a:0, pval:0, value:12, max:1, flags:["BRAND_COLD"], aflags:["BRAND_FIRE"]),
+    (id:22, tvals:[(tval:21, min:0, max:255)], level:5, rarity:1, mrarity:11, to_h:6, to_d:0, to_a:0, pval:0, value:12, max:1, flags:["BRAND_COLD"], aflags:["BRAND_FIRE"]),
+    (id:23, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:5, rarity:1, mrarity:13, to_h:4, to_d:0, to_a:0, pval:0, value:13, max:1, flags:["BRAND_ELEC"], aflags:[]),
+    (id:24, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:5, rarity:1, mrarity:13, to_h:3, to_d:1, to_a:0, pval:0, value:13, max:1, flags:["BRAND_ELEC"], aflags:[]),
+    (id:25, tvals:[(tval:21, min:0, max:255)], level:5, rarity:1, mrarity:13, to_h:5, to_d:-1, to_a:0, pval:0, value:13, max:1, flags:["BRAND_ELEC"], aflags:[]),
+    (id:26, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:7, rarity:1, mrarity:15, to_h:3, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["BRAND_ACID"], aflags:[]),
+    (id:27, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:7, rarity:1, mrarity:15, to_h:2, to_d:1, to_a:0, pval:0, value:15, max:1, flags:["BRAND_ACID"], aflags:[]),
+    (id:28, tvals:[(tval:21, min:0, max:255)], level:7, rarity:1, mrarity:15, to_h:4, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["BRAND_ACID"], aflags:[]),
+    (id:29, tvals:[(tval:21, min:0, max:255)], level:15, rarity:1, mrarity:35, to_h:15, to_d:2, to_a:0, pval:0, value:5, max:1, flags:["IMPACT"], aflags:[]),
+    (id:30, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:2, rarity:1, mrarity:9, to_h:2, to_d:2, to_a:0, pval:6, value:5, max:1, flags:["STR"], aflags:[]),
+    (id:31, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:2, rarity:1, mrarity:9, to_h:0, to_d:4, to_a:0, pval:6, value:5, max:1, flags:["STR"], aflags:[]),
+    (id:32, tvals:[(tval:21, min:0, max:255)], level:1, rarity:1, mrarity:7, to_h:4, to_d:0, to_a:0, pval:6, value:5, max:1, flags:["STR"], aflags:[]),
+    (id:33, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:1, rarity:1, mrarity:6, to_h:0, to_d:0, to_a:0, pval:6, value:3, max:1, flags:["CHR"], aflags:[]),
+    (id:34, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:2, rarity:1, mrarity:6, to_h:-1, to_d:1, to_a:0, pval:6, value:3, max:1, flags:["CHR"], aflags:[]),
+    (id:35, tvals:[(tval:21, min:0, max:255)], level:2, rarity:1, mrarity:6, to_h:1, to_d:-1, to_a:0, pval:5, value:2, max:1, flags:["CHR"], aflags:[]),
+    (id:36, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:2, rarity:1, mrarity:8, to_h:0, to_d:0, to_a:0, pval:4, value:4, max:1, flags:["INT"], aflags:[]),
+    (id:37, tvals:[(tval:21, min:0, max:255)], level:2, rarity:1, mrarity:8, to_h:1, to_d:-1, to_a:0, pval:4, value:4, max:1, flags:["INT"], aflags:[]),
+    (id:38, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:2, rarity:1, mrarity:8, to_h:-1, to_d:1, to_a:0, pval:4, value:4, max:1, flags:["INT"], aflags:[]),
+    (id:39, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:3, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:6, value:6, max:1, flags:["CON"], aflags:[]),
+    (id:40, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:3, rarity:1, mrarity:10, to_h:-1, to_d:1, to_a:0, pval:6, value:6, max:1, flags:["CON"], aflags:[]),
+    (id:41, tvals:[(tval:21, min:0, max:255)], level:0, rarity:0, mrarity:0, to_h:1, to_d:-1, to_a:0, pval:6, value:6, max:1, flags:["CON"], aflags:[]),
+    (id:42, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:2, rarity:1, mrarity:8, to_h:0, to_d:0, to_a:0, pval:5, value:4, max:1, flags:["WIS"], aflags:[]),
+    (id:43, tvals:[(tval:21, min:0, max:255)], level:2, rarity:1, mrarity:9, to_h:1, to_d:-1, to_a:0, pval:6, value:4, max:1, flags:["WIS"], aflags:[]),
+    (id:44, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:2, rarity:1, mrarity:9, to_h:-1, to_d:1, to_a:0, pval:5, value:4, max:1, flags:["WIS"], aflags:[]),
+    (id:45, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:2, rarity:1, mrarity:7, to_h:0, to_d:0, to_a:0, pval:5, value:4, max:1, flags:["DEX"], aflags:[]),
+    (id:46, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:2, rarity:1, mrarity:7, to_h:-1, to_d:1, to_a:0, pval:6, value:4, max:1, flags:["DEX"], aflags:[]),
+    (id:47, tvals:[(tval:21, min:0, max:255)], level:2, rarity:1, mrarity:7, to_h:1, to_d:-1, to_a:0, pval:5, value:4, max:1, flags:["DEX"], aflags:[]),
+    (id:48, tvals:[(tval:21, min:0, max:255)], level:9, rarity:1, mrarity:14, to_h:3, to_d:0, to_a:0, pval:6, value:4, max:1, flags:["TUNNEL"], aflags:[]),
+    (id:49, tvals:[(tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:30, rarity:1, mrarity:100, to_h:0, to_d:-4, to_a:0, pval:3, value:40, max:1, flags:["BLOWS"], aflags:[]),
+    (id:50, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:30, rarity:1, mrarity:100, to_h:-1, to_d:-3, to_a:0, pval:3, value:40, max:1, flags:["BLOWS"], aflags:[]),
+    (id:51, tvals:[(tval:21, min:0, max:255)], level:30, rarity:1, mrarity:100, to_h:1, to_d:-5, to_a:0, pval:3, value:40, max:1, flags:["BLOWS"], aflags:[]),
+    (id:52, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:40, rarity:1, mrarity:90, to_h:-2, to_d:-2, to_a:0, pval:5, value:50, max:1, flags:["SPEED"], aflags:[]),
+    (id:53, tvals:[(tval:21, min:0, max:255)], level:40, rarity:1, mrarity:90, to_h:-1, to_d:-3, to_a:0, pval:5, value:50, max:1, flags:["SPEED"], aflags:[]),
+    (id:54, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:40, rarity:1, mrarity:90, to_h:-3, to_d:-1, to_a:0, pval:5, value:50, max:1, flags:["SPEED"], aflags:[]),
+    (id:55, tvals:[(tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:21, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:11, rarity:1, mrarity:20, to_h:10, to_d:10, to_a:0, pval:0, value:12, max:1, flags:["CHAOTIC"], aflags:[]),
+    (id:56, tvals:[(tval:18, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:11, rarity:1, mrarity:20, to_h:-10, to_d:-10, to_a:0, pval:0, value:8, max:1, flags:["CHAOTIC"], aflags:[]),
+    (id:57, tvals:[(tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:15, rarity:1, mrarity:20, to_h:4, to_d:0, to_a:0, pval:4, value:12, max:1, flags:["VAMPIRIC"], aflags:[]),
+    (id:58, tvals:[(tval:21, min:0, max:255)], level:15, rarity:1, mrarity:20, to_h:5, to_d:-1, to_a:0, pval:0, value:12, max:1, flags:["VAMPIRIC"], aflags:[]),
+    (id:59, tvals:[(tval:23, min:0, max:19), (tval:115, min:55, max:55)], level:15, rarity:1, mrarity:20, to_h:3, to_d:1, to_a:0, pval:4, value:12, max:1, flags:["VAMPIRIC"], aflags:[]),
+    (id:60, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:10, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:0, value:11, max:1, flags:["SLAY_ANIMAL"], aflags:[]),
+    (id:61, tvals:[(tval:21, min:0, max:255)], level:10, rarity:1, mrarity:10, to_h:1, to_d:-1, to_a:0, pval:0, value:11, max:1, flags:["SLAY_ANIMAL"], aflags:[]),
+    (id:62, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:10, rarity:1, mrarity:10, to_h:-1, to_d:1, to_a:0, pval:0, value:11, max:1, flags:["SLAY_ANIMAL"], aflags:[]),
+    (id:63, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:15, rarity:1, mrarity:17, to_h:0, to_d:0, to_a:0, pval:0, value:19, max:1, flags:["SLAY_EVIL"], aflags:[]),
+    (id:64, tvals:[(tval:21, min:0, max:255)], level:15, rarity:1, mrarity:15, to_h:1, to_d:-1, to_a:0, pval:0, value:19, max:1, flags:["SLAY_EVIL"], aflags:[]),
+    (id:65, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:15, rarity:1, mrarity:17, to_h:-1, to_d:1, to_a:0, pval:0, value:19, max:1, flags:["SLAY_EVIL"], aflags:[]),
+    (id:66, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:13, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["SLAY_UNDEAD"], aflags:["KILL_UNDEAD"]),
+    (id:67, tvals:[(tval:21, min:0, max:255)], level:13, rarity:1, mrarity:15, to_h:1, to_d:-1, to_a:0, pval:0, value:15, max:1, flags:["SLAY_UNDEAD"], aflags:["KILL_UNDEAD"]),
+    (id:68, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:13, rarity:1, mrarity:15, to_h:-1, to_d:1, to_a:0, pval:0, value:15, max:1, flags:["SLAY_UNDEAD"], aflags:["KILL_UNDEAD"]),
+    (id:69, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:11, rarity:1, mrarity:25, to_h:0, to_d:0, to_a:0, pval:0, value:5, max:1, flags:["SLAY_DEMON"], aflags:["KILL_DEMON"]),
+    (id:70, tvals:[(tval:21, min:0, max:255)], level:11, rarity:1, mrarity:25, to_h:1, to_d:-1, to_a:0, pval:0, value:5, max:1, flags:["SLAY_DEMON"], aflags:["KILL_DEMON"]),
+    (id:71, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:11, rarity:1, mrarity:25, to_h:-1, to_d:1, to_a:0, pval:0, value:5, max:1, flags:["SLAY_DEMON"], aflags:["KILL_DEMON"]),
+    (id:72, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:3, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:0, value:10, max:1, flags:["SLAY_ORC"], aflags:[]),
+    (id:73, tvals:[(tval:21, min:0, max:255)], level:3, rarity:1, mrarity:10, to_h:1, to_d:-1, to_a:0, pval:0, value:10, max:1, flags:["SLAY_ORC"], aflags:[]),
+    (id:74, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:3, rarity:1, mrarity:10, to_h:-1, to_d:1, to_a:0, pval:0, value:10, max:1, flags:["SLAY_ORC"], aflags:[]),
+    (id:75, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:15, rarity:2, mrarity:17, to_h:0, to_d:0, to_a:0, pval:0, value:11, max:1, flags:["SLAY_TROLL"], aflags:[]),
+    (id:76, tvals:[(tval:21, min:0, max:255)], level:15, rarity:2, mrarity:17, to_h:1, to_d:-1, to_a:0, pval:0, value:11, max:1, flags:["SLAY_TROLL"], aflags:[]),
+    (id:77, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:15, rarity:2, mrarity:17, to_h:-1, to_d:1, to_a:0, pval:0, value:11, max:1, flags:["SLAY_TROLL"], aflags:[]),
+    (id:78, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:20, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:10, max:1, flags:["SLAY_GIANT"], aflags:[]),
+    (id:79, tvals:[(tval:21, min:0, max:255)], level:20, rarity:1, mrarity:20, to_h:-1, to_d:1, to_a:0, pval:0, value:10, max:1, flags:["SLAY_GIANT"], aflags:[]),
+    (id:80, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:20, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:10, max:1, flags:["SLAY_GIANT"], aflags:[]),
+    (id:81, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:17, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["SLAY_DRAGON"], aflags:["KILL_DRAGON"]),
+    (id:82, tvals:[(tval:21, min:0, max:255)], level:17, rarity:1, mrarity:20, to_h:1, to_d:-1, to_a:0, pval:0, value:20, max:1, flags:["SLAY_DRAGON"], aflags:["KILL_DRAGON"]),
+    (id:83, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:17, rarity:1, mrarity:20, to_h:-1, to_d:1, to_a:0, pval:0, value:20, max:1, flags:["SLAY_DRAGON"], aflags:["KILL_DRAGON"]),
+    (id:84, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:17, rarity:1, mrarity:35, to_h:0, to_d:0, to_a:0, pval:0, value:31, max:1, flags:["KILL_DRAGON"], aflags:["SLAY_DRAGON"]),
+    (id:85, tvals:[(tval:21, min:0, max:255)], level:17, rarity:1, mrarity:35, to_h:1, to_d:-1, to_a:0, pval:0, value:31, max:1, flags:["KILL_DRAGON"], aflags:["SLAY_DRAGON"]),
+    (id:86, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:17, rarity:1, mrarity:35, to_h:-1, to_d:1, to_a:0, pval:0, value:31, max:1, flags:["KILL_DRAGON"], aflags:["SLAY_DRAGON"]),
+    (id:87, tvals:[(tval:18, min:0, max:255), (tval:22, min:0, max:255), (tval:24, min:0, max:255)], level:5, rarity:1, mrarity:10, to_h:-2, to_d:-2, to_a:0, pval:0, value:15, max:1, flags:["BLESSED"], aflags:["CURSED"]),
+    (id:88, tvals:[(tval:21, min:0, max:255)], level:5, rarity:1, mrarity:7, to_h:-1, to_d:-3, to_a:0, pval:0, value:15, max:1, flags:["BLESSED"], aflags:["CURSED"]),
+    (id:89, tvals:[(tval:23, min:0, max:255), (tval:115, min:55, max:55)], level:5, rarity:1, mrarity:10, to_h:-3, to_d:-1, to_a:0, pval:0, value:15, max:1, flags:["BLESSED"], aflags:["CURSED"]),
+    (id:90, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:-5, max:1, flags:["CURSED"], aflags:["BLESSED"]),
+    (id:93, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:-10, max:1, flags:["AGGRAVATE"], aflags:["STEALTH"]),
+    (id:94, tvals:[(tval:18, min:0, max:255), (tval:19, min:0, max:255), (tval:20, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:1, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:13, max:1, flags:["LITE1"], aflags:["RES_LITE"]),
+    (id:95, tvals:[(tval:19, min:0, max:255)], level:20, rarity:1, mrarity:38, to_h:0, to_d:0, to_a:0, pval:3, value:40, max:1, flags:["XTRA_MIGHT"], aflags:[]),
+    (id:96, tvals:[(tval:19, min:0, max:255)], level:20, rarity:1, mrarity:38, to_h:0, to_d:0, to_a:0, pval:0, value:40, max:1, flags:["XTRA_SHOTS"], aflags:[]),
+    (id:97, tvals:[(tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:22, min:17, max:17), (tval:22, min:3, max:3), (tval:22, min:0, max:15), (tval:115, min:55, max:55)], level:14, rarity:1, mrarity:23, to_h:3, to_d:0, to_a:0, pval:0, value:25, max:1, flags:["WOUNDING"], aflags:[]),
+    (id:98, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:27, rarity:1, mrarity:50, to_h:0, to_d:0, to_a:0, pval:0, value:60, max:1, flags:["KILL_UNDEAD"], aflags:["SLAY_UNDEAD"]),
+    (id:99, tvals:[(tval:15, min:0, max:255), (tval:16, min:0, max:255), (tval:17, min:0, max:255), (tval:18, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:25, rarity:1, mrarity:34, to_h:0, to_d:0, to_a:0, pval:0, value:45, max:1, flags:["KILL_DEMON"], aflags:["SLAY_DEMON"]),
+    (id:100, tvals:[(tval:18, min:0, max:255), (tval:21, min:0, max:255), (tval:22, min:0, max:255), (tval:23, min:0, max:255), (tval:24, min:0, max:255), (tval:115, min:55, max:55)], level:15, rarity:1, mrarity:25, to_h:2, to_d:0, to_a:0, pval:0, value:20, max:1, flags:[], aflags:[]),
+    (id:101, tvals:[(tval:20, min:0, max:255), (tval:21, min:0, max:255)], level:20, rarity:1, mrarity:35, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:[], aflags:[]),
+    (id:102, tvals:[(tval:20, min:0, max:255)], level:2, rarity:1, mrarity:9, to_h:0, to_d:0, to_a:0, pval:6, value:5, max:1, flags:["STR"], aflags:[]),
+    (id:295, tvals:[(tval:36, min:0, max:255), (tval:37, min:0, max:255)], level:20, rarity:1, mrarity:90, to_h:-70, to_d:-70, to_a:0, pval:2, value:60, max:1, flags:["LIFE"], aflags:[]),
+    (id:296, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:1, rarity:1, mrarity:14, to_h:0, to_d:0, to_a:0, pval:0, value:7, max:1, flags:["SUST_STR"], aflags:[]),
+    (id:297, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:6, min:0, max:255)], level:1, rarity:1, mrarity:12, to_h:0, to_d:0, to_a:0, pval:0, value:6, max:1, flags:["SUST_INT"], aflags:[]),
+    (id:298, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:6, min:0, max:255)], level:1, rarity:1, mrarity:12, to_h:0, to_d:0, to_a:0, pval:0, value:6, max:1, flags:["SUST_WIS"], aflags:[]),
+    (id:299, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:1, rarity:1, mrarity:11, to_h:0, to_d:0, to_a:1, pval:0, value:5, max:1, flags:["SUST_DEX"], aflags:[]),
+    (id:300, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:1, rarity:1, mrarity:16, to_h:0, to_d:0, to_a:0, pval:0, value:9, max:1, flags:["SUST_CON"], aflags:[]),
+    (id:301, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:1, rarity:1, mrarity:9, to_h:0, to_d:0, to_a:0, pval:0, value:4, max:1, flags:["SUST_CHR"], aflags:[]),
+    (id:302, tvals:[(tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:30, rarity:1, mrarity:70, to_h:0, to_d:0, to_a:0, pval:0, value:50, max:1, flags:["IM_ACID"], aflags:[]),
+    (id:303, tvals:[(tval:34, min:0, max:255), (tval:115, min:56, max:56)], level:30, rarity:1, mrarity:90, to_h:0, to_d:0, to_a:0, pval:0, value:50, max:1, flags:["IM_ACID"], aflags:[]),
+    (id:304, tvals:[(tval:35, min:0, max:255)], level:30, rarity:1, mrarity:80, to_h:0, to_d:0, to_a:0, pval:0, value:50, max:1, flags:["IM_ACID"], aflags:[]),
+    (id:305, tvals:[(tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:30, rarity:1, mrarity:78, to_h:0, to_d:0, to_a:0, pval:0, value:45, max:1, flags:["IM_ELEC"], aflags:[]),
+    (id:306, tvals:[(tval:34, min:0, max:255), (tval:115, min:56, max:56)], level:30, rarity:1, mrarity:98, to_h:0, to_d:0, to_a:0, pval:0, value:45, max:1, flags:["IM_ELEC"], aflags:[]),
+    (id:307, tvals:[(tval:35, min:0, max:255)], level:30, rarity:1, mrarity:88, to_h:0, to_d:0, to_a:0, pval:0, value:45, max:1, flags:["IM_ELEC"], aflags:[]),
+    (id:308, tvals:[(tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:30, rarity:1, mrarity:86, to_h:0, to_d:0, to_a:0, pval:0, value:55, max:1, flags:["IM_FIRE"], aflags:[]),
+    (id:309, tvals:[(tval:34, min:0, max:255), (tval:115, min:56, max:56), (tval:35, min:0, max:255)], level:30, rarity:1, mrarity:95, to_h:0, to_d:0, to_a:0, pval:0, value:55, max:1, flags:["IM_FIRE"], aflags:[]),
+    (id:310, tvals:[(tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:30, rarity:1, mrarity:90, to_h:0, to_d:0, to_a:0, pval:0, value:47, max:1, flags:["IM_COLD"], aflags:[]),
+    (id:311, tvals:[(tval:34, min:0, max:255), (tval:115, min:56, max:56), (tval:35, min:0, max:255)], level:30, rarity:1, mrarity:90, to_h:0, to_d:0, to_a:0, pval:0, value:47, max:1, flags:["IM_COLD"], aflags:[]),
+    (id:312, tvals:[(tval:35, min:3, max:3)], level:30, rarity:1, mrarity:100, to_h:0, to_d:0, to_a:0, pval:0, value:47, max:1, flags:["IM_COLD"], aflags:[]),
+    (id:313, tvals:[(tval:34, min:0, max:255), (tval:38, min:0, max:255), (tval:115, min:56, max:56)], level:20, rarity:1, mrarity:45, to_h:0, to_d:0, to_a:0, pval:0, value:35, max:1, flags:["REFLECT"], aflags:[]),
+    (id:314, tvals:[(tval:34, min:10, max:10), (tval:115, min:56, max:56)], level:10, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:35, max:1, flags:["REFLECT"], aflags:[]),
+    (id:315, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255), (tval:6, min:0, max:255)], level:5, rarity:1, mrarity:7, to_h:0, to_d:0, to_a:0, pval:0, value:17, max:1, flags:["FREE_ACT"], aflags:[]),
+    (id:316, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255)], level:8, rarity:1, mrarity:14, to_h:0, to_d:0, to_a:0, pval:0, value:23, max:1, flags:["HOLD_LIFE"], aflags:[]),
+    (id:317, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_ACID"], aflags:[]),
+    (id:318, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_FIRE"], aflags:[]),
+    (id:319, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:9, to_h:0, to_d:0, to_a:0, pval:0, value:13, max:1, flags:["RES_ELEC"], aflags:[]),
+    (id:320, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:8, to_h:0, to_d:0, to_a:0, pval:0, value:12, max:1, flags:["RES_COLD"], aflags:[]),
+    (id:321, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:18, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["RES_POIS"], aflags:[]),
+    (id:322, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:6, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_FEAR"], aflags:[]),
+    (id:323, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:56), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:0, value:10, max:1, flags:["RES_LITE"], aflags:[]),
+    (id:324, tvals:[(tval:32, min:0, max:255), (tval:115, min:57, max:57)], level:1, rarity:1, mrarity:7, to_h:0, to_d:0, to_a:0, pval:0, value:10, max:1, flags:["RES_LITE"], aflags:[]),
+    (id:325, tvals:[(tval:32, min:0, max:255), (tval:115, min:57, max:57)], level:5, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["LITE1"], aflags:["RES_LITE"]),
+    (id:326, tvals:[(tval:32, min:0, max:255), (tval:115, min:57, max:57)], level:10, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:17, max:1, flags:["LITE2"], aflags:["RES_LITE"]),
+    (id:327, tvals:[(tval:32, min:0, max:255), (tval:115, min:57, max:57)], level:15, rarity:1, mrarity:25, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["LITE3"], aflags:["RES_LITE"]),
+    (id:328, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:10, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_DARK"], aflags:[]),
+    (id:329, tvals:[(tval:115, min:57, max:57), (tval:32, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255), (tval:6, min:0, max:255)], level:13, rarity:1, mrarity:27, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["RES_BLIND"], aflags:[]),
+    (id:330, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:13, rarity:1, mrarity:18, to_h:0, to_d:0, to_a:0, pval:0, value:17, max:1, flags:["RES_SOUND"], aflags:[]),
+    (id:331, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:115, min:56, max:57), (tval:34, min:0, max:255), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:17, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_NEXUS"], aflags:[]),
+    (id:332, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:16, rarity:1, mrarity:19, to_h:0, to_d:0, to_a:0, pval:0, value:19, max:1, flags:["RES_SHARDS"], aflags:[]),
+    (id:333, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:30, rarity:1, mrarity:50, to_h:0, to_d:0, to_a:0, pval:0, value:30, max:1, flags:["RES_NETHER"], aflags:[]),
+    (id:334, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:25, rarity:1, mrarity:30, to_h:0, to_d:0, to_a:0, pval:0, value:25, max:1, flags:["RES_CHAOS"], aflags:[]),
+    (id:335, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255), (tval:6, min:0, max:255)], level:25, rarity:1, mrarity:35, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["RES_CONF"], aflags:[]),
+    (id:336, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:23, rarity:1, mrarity:32, to_h:0, to_d:0, to_a:0, pval:0, value:25, max:1, flags:["RES_DISEN"], aflags:[]),
+    (id:337, tvals:[(tval:35, min:0, max:255)], level:10, rarity:1, mrarity:17, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["RES_FIRE", "SH_FIRE"], aflags:[]),
+    (id:338, tvals:[(tval:35, min:0, max:255)], level:10, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:22, max:1, flags:["RES_ELEC", "SH_ELEC"], aflags:[]),
+    (id:339, tvals:[(tval:115, min:57, max:57), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255), (tval:6, min:0, max:255)], level:5, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:18, max:1, flags:["SEE_INVIS"], aflags:[]),
+    (id:340, tvals:[(tval:30, min:0, max:255), (tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:13, to_h:0, to_d:0, to_a:0, pval:0, value:14, max:1, flags:["FEATHER"], aflags:["FLY"]),
+    (id:341, tvals:[(tval:35, min:0, max:255), (tval:30, min:0, max:255), (tval:6, min:0, max:255)], level:40, rarity:1, mrarity:90, to_h:0, to_d:0, to_a:0, pval:0, value:80, max:1, flags:["FLY"], aflags:["FEATHER"]),
+    (id:342, tvals:[(tval:115, min:57, max:57), (tval:32, min:0, max:255), (tval:33, min:0, max:255)], level:20, rarity:1, mrarity:30, to_h:0, to_d:0, to_a:0, pval:0, value:30, max:1, flags:[], aflags:[]),
+    (id:343, tvals:[(tval:115, min:57, max:57), (tval:32, min:0, max:255), (tval:33, min:0, max:255)], level:20, rarity:1, mrarity:30, to_h:0, to_d:0, to_a:0, pval:0, value:30, max:1, flags:[], aflags:[]),
+    (id:344, tvals:[(tval:31, min:0, max:255)], level:25, rarity:1, mrarity:40, to_h:0, to_d:0, to_a:0, pval:0, value:35, max:1, flags:[], aflags:[]),
+    (id:345, tvals:[(tval:31, min:0, max:255)], level:0, rarity:0, mrarity:0, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:[], aflags:[]),
+    (id:346, tvals:[(tval:35, min:0, max:255)], level:20, rarity:1, mrarity:27, to_h:0, to_d:0, to_a:0, pval:0, value:30, max:1, flags:[], aflags:["RES_NEXUS"]),
+    (id:347, tvals:[(tval:30, min:0, max:255), (tval:31, min:0, max:255), (tval:32, min:0, max:255), (tval:33, min:0, max:255), (tval:34, min:0, max:255), (tval:115, min:56, max:57), (tval:35, min:0, max:255), (tval:36, min:0, max:255), (tval:37, min:0, max:255), (tval:38, min:0, max:255), (tval:6, min:0, max:255)], level:1, rarity:1, mrarity:5, to_h:0, to_d:0, to_a:5, pval:0, value:15, max:4, flags:[], aflags:[]),
+    (id:348, tvals:[(tval:31, min:0, max:255)], level:1, rarity:1, mrarity:45, to_h:10, to_d:0, to_a:0, pval:0, value:40, max:1, flags:[], aflags:[]),
+    (id:349, tvals:[(tval:31, min:0, max:255)], level:1, rarity:1, mrarity:40, to_h:0, to_d:10, to_a:0, pval:0, value:35, max:1, flags:[], aflags:[]),
+    (id:350, tvals:[(tval:32, min:5, max:10)], level:20, rarity:1, mrarity:25, to_h:0, to_d:0, to_a:0, pval:0, value:50, max:1, flags:["WATER_BREATH"], aflags:[]),
+    (id:442, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:17, to_h:0, to_d:0, to_a:0, pval:5, value:15, max:1, flags:["STR"], aflags:[]),
+    (id:443, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:3, rarity:1, mrarity:12, to_h:0, to_d:0, to_a:0, pval:5, value:11, max:1, flags:["DEX"], aflags:[]),
+    (id:444, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:5, value:13, max:1, flags:["WIS"], aflags:[]),
+    (id:445, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:5, value:13, max:1, flags:["INT"], aflags:[]),
+    (id:446, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:5, value:7, max:1, flags:["CHR"], aflags:[]),
+    (id:447, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:7, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:5, value:18, max:1, flags:["CON"], aflags:[]),
+    (id:448, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["SUST_STR"], aflags:[]),
+    (id:449, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:7, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["SUST_CON"], aflags:[]),
+    (id:450, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:7, max:1, flags:["SUST_CHR"], aflags:[]),
+    (id:451, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:11, to_h:0, to_d:0, to_a:0, pval:0, value:11, max:1, flags:["SUST_DEX"], aflags:[]),
+    (id:452, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:13, to_h:0, to_d:0, to_a:0, pval:0, value:13, max:1, flags:["SUST_INT"], aflags:[]),
+    (id:453, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:13, to_h:0, to_d:0, to_a:0, pval:0, value:13, max:1, flags:["SUST_WIS"], aflags:[]),
+    (id:454, tvals:[(tval:45, min:0, max:255)], level:25, rarity:1, mrarity:55, to_h:0, to_d:0, to_a:0, pval:5, value:40, max:1, flags:["INVIS"], aflags:[]),
+    (id:455, tvals:[(tval:45, min:0, max:255)], level:40, rarity:1, mrarity:90, to_h:0, to_d:0, to_a:0, pval:5, value:70, max:1, flags:["SPEED"], aflags:[]),
+    (id:456, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:5, rarity:1, mrarity:16, to_h:0, to_d:0, to_a:0, pval:0, value:17, max:1, flags:["SLOW_DIGEST"], aflags:["REGEN"]),
+    (id:457, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:7, rarity:1, mrarity:19, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["REGEN"], aflags:["SLOW_DIGEST"]),
+    (id:458, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255), (tval:35, min:0, max:255)], level:10, rarity:1, mrarity:16, to_h:0, to_d:0, to_a:0, pval:4, value:15, max:1, flags:["STEALTH"], aflags:["AGGRAVATE"]),
+    (id:459, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:12, to_h:0, to_d:0, to_a:0, pval:6, value:7, max:1, flags:[], aflags:[]),
+    (id:460, tvals:[(tval:40, min:0, max:255), (tval:45, min:0, max:255)], level:1, rarity:1, mrarity:12, to_h:0, to_d:0, to_a:0, pval:4, value:10, max:1, flags:["INFRA"], aflags:[]),
+    (id:461, tvals:[(tval:45, min:0, max:255)], level:40, rarity:1, mrarity:95, to_h:0, to_d:0, to_a:0, pval:3, value:80, max:1, flags:["BLOWS"], aflags:[]),
+    (id:462, tvals:[(tval:45, min:0, max:255)], level:38, rarity:1, mrarity:75, to_h:0, to_d:0, to_a:0, pval:0, value:70, max:1, flags:["FLY"], aflags:["FEATHER"]),
+    (id:463, tvals:[(tval:45, min:0, max:255)], level:43, rarity:1, mrarity:85, to_h:0, to_d:0, to_a:0, pval:5, value:80, max:1, flags:["CRIT"], aflags:[]),
+    (id:501, tvals:[(tval:39, min:0, max:255), (tval:6, min:0, max:255)], level:5, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["LITE1"], aflags:[]),
+    (id:502, tvals:[(tval:39, min:0, max:255)], level:10, rarity:1, mrarity:25, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["LITE2"], aflags:[]),
+    (id:503, tvals:[(tval:39, min:0, max:255)], level:20, rarity:1, mrarity:35, to_h:0, to_d:0, to_a:0, pval:0, value:30, max:1, flags:["LITE3"], aflags:[]),
+    (id:504, tvals:[(tval:39, min:0, max:255)], level:10, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:0, value:15, max:1, flags:["RES_LITE"], aflags:[]),
+    (id:505, tvals:[(tval:39, min:0, max:255)], level:11, rarity:1, mrarity:17, to_h:0, to_d:0, to_a:0, pval:0, value:18, max:1, flags:["RES_DARK"], aflags:[]),
+    (id:506, tvals:[(tval:39, min:0, max:255)], level:15, rarity:1, mrarity:22, to_h:0, to_d:0, to_a:0, pval:0, value:20, max:1, flags:["SEE_INVIS"], aflags:[]),
+    (id:507, tvals:[(tval:39, min:0, max:255)], level:1, rarity:1, mrarity:10, to_h:0, to_d:0, to_a:0, pval:4, value:12, max:1, flags:[], aflags:[]),
+    (id:508, tvals:[(tval:39, min:0, max:255)], level:1, rarity:1, mrarity:15, to_h:0, to_d:0, to_a:0, pval:4, value:12, max:1, flags:["INFRA"], aflags:[]),
+    (id:509, tvals:[(tval:39, min:0, max:255)], level:5, rarity:1, mrarity:20, to_h:0, to_d:0, to_a:0, pval:0, value:21, max:1, flags:[], aflags:[]),
+    (id:510, tvals:[(tval:39, min:0, max:255)], level:20, rarity:1, mrarity:27, to_h:0, to_d:0, to_a:0, pval:0, value:35, max:1, flags:[], aflags:[]),
+    (id:511, tvals:[(tval:39, min:0, max:255)], level:20, rarity:1, mrarity:17, to_h:0, to_d:0, to_a:0, pval:0, value:25, max:1, flags:[], aflags:[]),
+    (id:512, tvals:[(tval:39, min:0, max:255)], level:20, rarity:1, mrarity:50, to_h:0, to_d:0, to_a:0, pval:0, value:40, max:1, flags:[], aflags:[]),
+], gen:[(chance:100, dd:1, ds:5, plus:1), (chance:14, dd:0, ds:0, plus:1), (chance:10, dd:0, ds:0, plus:1), (chance:3, dd:0, ds:0, plus:1)], names:"adanedhel
+adurant
+aeglos
+aegnor
+aelin
+aeluin
+aerandir
+aerin
+agarwaen
+aglareb
+aglarond
+aglon
+ainulindale
+ainur
+alcarinque
+aldaron
+aldudenie
+almaren
+alqualonde
+aman
+amandil
+amarie
+amarth
+amlach
+amon
+amras
+amrod
+anach
+anar
+anarion
+ancalagon
+ancalimon
+anarrima
+andor
+andram
+androth
+anduin
+andunie
+anfauglir
+anfauglith
+angainor
+angband
+anghabar
+anglachel
+angrenost
+angrim
+angrist
+angrod
+anguirel
+annael
+annatar
+annon
+annuminas
+apanonar
+aradan
+aragorn
+araman
+aranel
+aranruth
+aranwe
+aras
+aratan
+aratar
+arathorn
+arda
+ard-galen
+aredhel
+ar-feiniel
+argonath
+arien
+armenelos
+arminas
+arnor
+aros
+arossiach
+arthad
+arvernien
+arwen
+ascar
+astaldo
+atalante
+atanamir
+atanatari
+atani
+aule
+avallone
+avari
+avathar
+balan
+balar
+balrog
+barad
+baragund
+barahir
+baran
+baranduin
+bar
+bauglir
+beleg
+belegaer
+belegost
+belegund
+beleriand
+belfalas
+belthil
+belthronding
+beor
+beraid
+bereg
+beren
+boromir
+boron
+bragollach
+brandir
+bregolas
+bregor
+brethil
+brilthor
+brithiach
+brithombar
+brithon
+cabed
+calacirya
+calaquendi
+calenardhon
+calion
+camlost
+caragdur
+caranthir
+carcharoth
+cardolan
+carnil
+celeborn
+celebrant
+celebrimbor
+celebrindal
+celebros
+celegorm
+celon
+cirdan
+cirith
+cirth
+ciryatan
+ciryon
+coimas
+corollaire
+crissaegrim
+cuarthal
+cuivienen
+culurien
+curufin
+curufinwe
+curunir
+cuthalion
+daedeloth
+daeron
+dagnir
+dagor
+dagorlad
+dairuin
+danwedh
+delduwath
+denethor
+dimbar
+dimrost
+dinen
+dior
+dirnen
+dolmed
+doriath
+dorlas
+dorthonion
+draugluin
+drengist
+duath
+duinath
+duilwen
+dunedain
+dungortheb
+earendil
+earendur
+earnil
+earnur
+earrame
+earwen
+echor
+echoriath
+ecthelion
+edain
+edrahil
+eglador
+eglarest
+eglath
+eilinel
+eithel
+ekkaia
+elbereth
+eldalie
+eldalieva
+eldamar
+eldar
+eledhwen
+elemmire
+elende
+elendil
+elendur
+elenna
+elentari
+elenwe
+elerrina
+elleth
+elmoth
+elostirion
+elrond
+elros
+elu
+eluchil
+elured
+elurin
+elwe
+elwing
+emeldir
+endor
+engrin
+engwar
+eol
+eonwe
+ephel
+erchamion
+ereb
+ered
+erech
+eregion
+ereinion
+erellont
+eressea
+eriador
+eru
+esgalduin
+este
+estel
+estolad
+ethir
+ezellohar
+faelivrin
+falas
+falathar
+falathrim
+falmari
+faroth
+fauglith
+feanor
+feanturi
+felagund
+finarfin
+finduilas
+fingolfin
+fingon
+finwe
+firimar
+formenos
+fornost
+frodo
+fuin
+fuinur
+gabilgathol
+galad
+galadriel
+galathilion
+galdor
+galen
+galvorn
+gandalf
+gaurhoth
+gelion
+gelmir
+gelydh
+gil
+gildor
+giliath
+ginglith
+girith
+glaurung
+glingal
+glirhuin
+gloredhel
+glorfindel
+golodhrim
+gondolin
+gondor
+gonnhirrim
+gorgoroth
+gorlim
+gorthaur
+gorthol
+gothmog
+guilin
+guinar
+guldur
+gundor
+gurthang
+gwaith
+gwareth
+gwindor
+hadhodrond
+hador
+haladin
+haldad
+haldan
+haldar
+haldir
+haleth
+halmir
+handir
+harad
+hareth
+hathaldir
+hathol
+haudh
+helcar
+helcaraxe
+helevorn
+helluin
+herumor
+herunumen
+hildorien
+himlad
+himring
+hirilorn
+hisilome
+hithaeglir
+hithlum
+hollin
+huan
+hunthor
+huor
+hurin
+hyarmendacil
+hyarmentir
+iant
+iaur
+ibun
+idril
+illuin
+ilmare
+ilmen
+iluvatar
+imlach
+imladris
+indis
+ingwe
+irmo
+isil
+isildur
+istari
+ithil
+ivrin
+kelvar
+kementari
+ladros
+laiquendi
+lalaith
+lamath
+lammoth
+lanthir
+laurelin
+leithian
+legolin
+lembas
+lenwe
+linaewen
+lindon
+lindorie
+loeg
+lomelindi
+lomin
+lomion
+lorellin
+lorien
+lorindol
+losgar
+lothlann
+lothlorien
+luin
+luinil
+lumbar
+luthien
+mablung
+maedhros
+maeglin
+maglor
+magor
+mahanaxar
+mahtan
+maiar
+malduin
+malinalda
+mandos
+manwe
+mardil
+melian
+melkor
+menegroth
+meneldil
+menelmacar
+meneltarma
+minas
+minastir
+mindeb
+mindolluin
+mindon
+minyatur
+mirdain
+miriel
+mithlond
+mithrandir
+mithrim
+mordor
+morgoth
+morgul
+moria
+moriquendi
+mormegil
+morwen
+nahar
+naeramarth
+namo
+nandor
+nargothrond
+narog
+narsil
+narsilion
+narya
+nauglamir
+naugrim
+ndengin
+neithan
+neldoreth
+nenar
+nenning
+nenuial
+nenya
+nerdanel
+nessa
+nevrast
+nibin
+nienna
+nienor
+nimbrethil
+nimloth
+nimphelos
+nimrais
+nimras
+ningloron
+niniel
+ninniach
+ninquelote
+niphredil
+nirnaeth
+nivrim
+noegyth
+nogrod
+noldolante
+noldor
+numenor
+nurtale
+obel
+ohtar
+oiolosse
+oiomure
+olorin
+olvar
+olwe
+ondolinde
+orfalch
+ormal
+orocarni
+orodreth
+orodruin
+orome
+oromet
+orthanc
+osgiliath
+osse
+ossiriand
+palantir
+pelargir
+pelori
+periannath
+quendi
+quenta
+quenya
+radagast
+radhruin
+ragnor
+ramdal
+rana
+rathloriel
+rauros
+region
+rerir
+rhovanion
+rhudaur
+rhun
+rhunen
+rian
+ringil
+ringwil
+romenna
+rudh
+rumil
+saeros
+salmar
+saruman
+sauron
+serech
+seregon
+serinde
+shelob
+silmarien
+silmaril
+silpion
+sindar
+singollo
+sirion
+soronume
+sul
+sulimo
+talath
+taniquetil
+tar
+taras
+tarn
+tathren
+taur
+tauron
+teiglin
+telchar
+telemnar
+teleri
+telperion
+telumendil
+thalion
+thalos
+thangorodrim
+thargelion
+thingol
+thoronath
+thorondor
+thranduil
+thuringwethil
+tilion
+tintalle
+tinuviel
+tirion
+tirith
+tol
+tulkas
+tumhalad
+tumladen
+tuna
+tuor
+turambar
+turgon
+turin
+uial
+uilos
+uinen
+ulairi
+ulmo
+ulumuri
+umanyar
+umarth
+umbar
+ungoliant
+urthel
+uruloki
+utumno
+vaire
+valacirca
+valandil
+valaquenta
+valar
+valaraukar
+valaroma
+valier
+valimar
+valinor
+valinoreva
+valmar
+vana
+vanyar
+varda
+vasa
+vilya
+vingilot
+vinyamar
+voronwe
+wethrin
+wilwarin
+yavanna", junk_s:["a Bag", "a Shiny, Black Box", "a Deck of Cards", "a Rusty, Slimy Box", "an Eyeball", "a Red Tome", "a Red Gem", "a Blue Gem", "a Green Gem", "a White Gem", "an Orange Gem", "a Black Gem", "a Gray Gem", "a Translucent Gem", "a Shrunken Head", "a Voodoo Doll", "a Mirror", "a Black Cube", "a Prism", "a Black Bottle", "a Pentagram", "a Glass Eyeball", "something weird", "a Portable Vortex", "a Green Tome", "a Black Tome", "a White Tome", "a Pendulum", "a Black Candle", "a Tiny Doll", "a Black Staff", "a Tiny Doll", "a Slimy Dagger", "a Gray Tome", "a Parchment", "a Parchment", "a Bag", "a Bag", "a Human Skull", "a Blue Box", "a Gray Bottle", "an Orange Tome", "a Shiny Gem", "an Ancient Gray Tome", "a Crystal Ball", "a Golden Box", "a Skullcap", "a Jester's Cap", "a Broken Bottle", "an Arcane Parchment", "many Small Wooden Sticks", "some Clay Tablets", "a Smoky Vial", "a Doll", "some Multi-colored Clay", "a Clay Jar", "an Arcane Parchment", "an Arcane Parchment", "a Decayed Hand", "a Decayed Skull", "a Decayed Eye", "a Large Crystal Ball", "an Arcane Parchment", "a Medallion", "a Jewel-Encrusted Skull", "some Earmuffs", "a Battered Book", "a Small Note", "a Parchment", "a Small Figurine", "a Torch", "a Rune", "a Singed Parchment", "a Holed Buckler", "a Red Book", "an Acorn", "a Cymbal", "a Mechanical Music-Box", "a Toenail", "a Torn Book", "a Greasy Parchment", "a Blackened Figurine", "a Heavy Teaspoon", "an Avian Figurine"], junk_f:["The Bag of Tricks", "Kenault's Cantrip Generator", "The Deck of Wild Magic", "Baalzebub's Tormented Box", "Baalzebub's All-seeing Servant", "Boccob's Unfinished Works", "The Gem of Fire", "The Gem of Ice", "The Gem of Venom", "The Gem of Knowledge", "The Gem of Rage", "The Gem of Hate", "The Gem of Wisdom", "The Gem of Ghosts", "The Shrunken Head of Nightmares", "Raal's Voodoo Doll of Revenge", "The Mirror of Alternate Dimensions", "The Ebon Cube of Darkness", "The Diamond Prism of Light", "Gruumsh's Bottle of Death", "The Devil's Pentagram", "Mordekainen's Sneaking Eye", "Kelek's Practical Joke", "Kelek's Wormhole Machine", "Tenser's Alteration Manual", "Raal's Tome of Unconventional Warfare", "The Tome of Collected Weird Magic", "The Pendulum of Orcus", "Raal's Black Candle", "Mordekainen's Pocket Magician", "Benetar's Death Ray Experiment", "Valdarbon's Automatic Alchemist", "Lloth's Ceremonial Dagger", "The Tome of Elven Household Magic", "a Parchment titled ``Demigods and their Uses''", "a Parchment titled ``Magic for the Layman''", "Balrilbon's Bag of Wondrous Tricks", "Bumganir's Bag of Magic Toys", "The Skull of Ancient Wisdom", "Benetar's Mana Battery", "Benetar's Portable Plague", "Gamenlon's Summoning Manual", "Balrilbon's Soulgem", "The Lost Works of Kenault", "The Crystal Ball of Godly Sights", "The Box of Many Wonders", "Baalzebub's Tormented Skullcap", "The Jester's Cap of Insanity", "The Bottomless Bottle", "a Parchment titled ``Planar Travel Made Easy''", "The Wand Construction Kit", "The Clay Tablets of Antiquity", "Raal's Tormented Spirits", "Tenser's Mechanical Magician", "Boccob's Magical Mish-mash", "The Grail of Kenault", "a Parchment titled ``Household Magic''", "a Parchment titled ``Tenser's Last Words''", "The Hand of Vecna", "The Skull of Vecna", "The Eye of Vecna", "The Crystal Ball of The Witch-King of Angmar", "a Parchment titled ``Secrets of the Gnomish Wizards''", "The Medallion of Good Will", "The Immortal Skull of Benetar", "Heward's Excellent Experimental Earmuffs", "Bigby's Big Book of Brutality", "The Cunning Plan of Zog", "a Parchment titled ''Immortality For Dummies''", "Raistlin's Ready Ranger", "Tenser's Torch of Spontaneous Combustion", "Mordenkainen's Mysterious Mind-Masher", "a Parchment titled ''Famous Last Words''", "Jor's Buckler of Missile Attraction", "Jor's Compendium of Strange Behaviour", "Agannazar's Antique Acorn", "Cathal's Corrupting Cymbal", "Pytar's Portable Pandemonium", "The Toenail of Vecna", "Jor's Book of Impossible Occurences", "a Parchment titled ''Finer Points of Munchkinism''", "Agannazar's Altruistic Assassin", "Tenser's Top-Heavy Teaspoon", "Olive's Omnipotent Ostrich"], acts:[(desc:"death", cost:0, act:"DEATH"), (desc:"ruination", cost:0, act:"RUINATION"), (desc:"destruction", cost:1000, act:"DESTRUC"), (desc:"stupidity", cost:0, act:"UNINT"), (desc:"weakness", cost:0, act:"UNSTR"), (desc:"unhealth", cost:0, act:"UNCON"), (desc:"ugliness", cost:0, act:"UNCHR"), (desc:"clumsiness", cost:0, act:"UNDEX"), (desc:"naivete", cost:0, act:"UNWIS"), (desc:"stat loss", cost:0, act:"STATLOSS"), (desc:"huge stat loss", cost:0, act:"HISTATLOSS"), (desc:"experience loss", cost:0, act:"EXPLOSS"), (desc:"huge experience loss", cost:0, act:"HIEXPLOSS"), (desc:"teleportation", cost:1000, act:"TELEPORT"), (desc:"monster summoning", cost:5, act:"SUMMON_MONST"), (desc:"paralyzation", cost:0, act:"PARALYZE"), (desc:"hallucination", cost:100, act:"HALLU"), (desc:"poisoning", cost:0, act:"POISON"), (desc:"hunger", cost:0, act:"HUNGER"), (desc:"stun", cost:0, act:"STUN"), (desc:"cuts", cost:0, act:"CUTS"), (desc:"paranoia", cost:0, act:"PARANO"), (desc:"confusion", cost:0, act:"CONFUSION"), (desc:"blindness", cost:0, act:"BLIND"), (desc:"pet summoning", cost:1010, act:"PET_SUMMON"), (desc:"cure paralyzation", cost:5000, act:"CURE_PARA"), (desc:"cure hallucination", cost:1000, act:"CURE_HALLU"), (desc:"cure poison", cost:1000, act:"CURE_POIS"), (desc:"cure hunger", cost:1000, act:"CURE_HUNGER"), (desc:"cure stun", cost:1000, act:"CURE_STUN"), (desc:"cure cut", cost:1000, act:"CURE_CUTS"), (desc:"cure fear", cost:1000, act:"CURE_FEAR"), (desc:"cure confusion", cost:1000, act:"CURE_CONF"), (desc:"cure blindness", cost:1000, act:"CURE_BLIND"), (desc:"cure light wounds", cost:500, act:"CURE_LW"), (desc:"cure serious wounds", cost:750, act:"CURE_MW"), (desc:"cure critical wounds", cost:1000, act:"CURE_700"), (desc:"curing", cost:1100, act:"CURING"), (desc:"genocide", cost:5000, act:"GENOCIDE"), (desc:"mass genocide", cost:10000, act:"MASS_GENO"), (desc:"restoration", cost:2000, act:"REST_ALL"), (desc:"light", cost:1000, act:"LIGHT"), (desc:"darkness", cost:0, act:"DARKNESS"), (desc:"teleportation", cost:1000, act:"TELEPORT"), (desc:"level teleportation", cost:500, act:"LEV_TELE"), (desc:"acquirement", cost:30000, act:"ACQUIREMENT"), (desc:"something weird", cost:50, act:"WEIRD"), (desc:"aggravation", cost:0, act:"AGGRAVATE"), (desc:"corruption", cost:100, act:"MUT"), (desc:"cure insanity", cost:2000, act:"CURE_INSANITY"), (desc:"light absortion", cost:800, act:"LIGHT_ABSORBTION")])
